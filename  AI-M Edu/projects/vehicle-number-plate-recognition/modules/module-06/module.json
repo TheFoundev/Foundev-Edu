@@ -1,0 +1,42 @@
+{
+  "module_id": "vehicle-number-plate-recognition-module-06",
+  "title": "Privacy, Security, and Deployment",
+  "description": "Begins with a plain-language explanation of plate data retention, access controls, and human verification, then traces the corresponding implementation and its limits in vehicle-number-plate-recognition.",
+  "learning_objectives": [
+    "Explain plate data retention, access controls, and human verification in plain language and connect it to app.py; PROJECT_OVERVIEW.md.",
+    "Trace one input through the privacy, security, and deployment stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-06-01",
+    "lesson-06-02",
+    "lesson-06-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "plate data retention, access controls, and human verification",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the privacy, security, and deployment stage through the cited source paths.",
+    "Produce a small test or diagnostic for plate data retention, access controls, and human verification."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "app.py",
+    "PROJECT_OVERVIEW.md"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "instantiate_model",
+    "excerpt_file": "app.py"
+  }
+}

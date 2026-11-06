@@ -1,0 +1,42 @@
+{
+  "module_id": "helmet-seatbelt-violation-detection-module-01",
+  "title": "Detection Versus Violation Decision",
+  "description": "Begins with a plain-language explanation of object detection labels and downstream rules, then traces the corresponding implementation and its limits in helmet-seatbelt-violation-detection.",
+  "learning_objectives": [
+    "Explain object detection labels and downstream rules in plain language and connect it to source/main_app.py; source/helmet_detection_yolo8_max_accuracy.py.",
+    "Trace one input through the detection versus violation decision stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-01-01",
+    "lesson-01-02",
+    "lesson-01-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "object detection labels and downstream rules",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the detection versus violation decision stage through the cited source paths.",
+    "Produce a small test or diagnostic for object detection labels and downstream rules."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "source/main_app.py",
+    "source/helmet_detection_yolo8_max_accuracy.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "process_detections",
+    "excerpt_file": "source/helmet_detection_yolo8_max_accuracy.py"
+  }
+}

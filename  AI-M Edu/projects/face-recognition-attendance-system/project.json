@@ -1,0 +1,24 @@
+{
+  "title": "FAMS: Face Recognition Attendance System",
+  "slug": "face-recognition-attendance-system",
+  "description": "FAMS Roll-Call Kiosk (desktop title: FAMS-Face Recognition Based Attendance Management System) face-recognition-attendance-system <https://github.com/Spidy20/Attendacemanagementsystem> Manual attendance registers are slow, easy to forge, and disconnected from the students who are actually present. Let an instructor register a student once, then mark attendance automatically from a webcam and produce a per-subject, per-timestamp CSV that can be archived or mirrored to a database. Classroom instructors / lab supervisors taking attendance; an administrator reviewing the enrolled-student register. Attendance/<Subject><YYYY-MM-DD><HH-MM-SS>.csv containing Enrollment,Name,Date,Time, optionally mir",
+  "problem_solved": "The original workflow is a paper register. The instructor calls names, ticks a box, and later re-types the sheet into a spreadsheet. Three problems follow:\n\n1. **Time** \u2014 the register consumes the first minutes of every session.\n2. **Integrity** \u2014 a hand-ticked sheet is trivially altered and cannot be audited.\n3. **Fragmentation** \u2014 the data ends up in a format that cannot be queried, joined, or archived automatically.\n\nA machine-vision attendance kiosk replaces the ticking with a webcam pass: enrolled faces are recognised automatically, and each session produces a machine-generated, timestamped record.\n\nThe honest scope of this repository: it is a **desktop application**, not a web service. There is no HTTP API, no server, and no multi-camera or multi-user design.",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "See source project dependency manifest and setup guide"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of FAMS: Face Recognition Attendance System using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

@@ -1,0 +1,41 @@
+{
+  "module_id": "sign-language-to-text-translation-module-04",
+  "title": "Token-to-Clip Resolution",
+  "description": "Begins with a plain-language explanation of PakistanSignLanguage mapping, digits, and spelling fallback, then traces the corresponding implementation and its limits in sign-language-to-text-translation.",
+  "learning_objectives": [
+    "Explain PakistanSignLanguage mapping, digits, and spelling fallback in plain language and connect it to sign_language_translator/languages/sign/pakistan_sign_language.py.",
+    "Trace one input through the token-to-clip resolution stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-04-01",
+    "lesson-04-02",
+    "lesson-04-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "PakistanSignLanguage mapping, digits, and spelling fallback",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the token-to-clip resolution stage through the cited source paths.",
+    "Produce a small test or diagnostic for PakistanSignLanguage mapping, digits, and spelling fallback."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "sign_language_translator/languages/sign/pakistan_sign_language.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "tokens_to_sign_dicts",
+    "excerpt_file": "sign_language_translator/languages/sign/pakistan_sign_language.py"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "title": "TrendCast: Stock Price Trend Research",
+  "slug": "stock-price-trend-predictor",
+  "description": "stock-price-trend-predictor \"Njord\" by Cristian Perez Jensen (MIT) \u2014 PROJECTNAME = Stock-Market-Prediction-via-Google-Trends in the Makefile TrendCast \u2014 Alternative-Data Terminal (index.html, css/style.css, js/app.js) Traditional market indicators (price, volume, fundamentals) arrive after the information is priced in. Can a public, freely available and high-frequency behavioural signal \u2014 the volume of Google searches for terms such as \"debt\", \"crisis\" or \"unemployment\" \u2014 add predictive information about where the DJIA goes next? Build a reproducible pipeline that (1) collects daily/weekly/monthly Google Trends search volumes for 93 keywords, (2) puts them on a single relative scale so they",
+  "problem_solved": "**Preis, Moat & Stanley (2014)** reported that changes in Google search volume for terms related to financial stress preceded movements of the S&P 500, and that a simple trading rule built on that signal beat buy-and-hold. The result was widely discussed and widely questioned \u2014 partly because Google Trends does not serve long, high-resolution histories directly, and partly because reproducing a decade-long result requires care about scale consistency and about evaluation methodology.\n\nThis repository is a **replication attempt and an engineering exercise** built around three concrete obstacles:\n\n1. **Windows in the data source.** Google Trends only serves a limited time window at high resolution. Collecting 2004\u21922020 daily data for one keyword therefore requires stitching many requests together.\n2. **Comparability across the whole span.** Each Trends response is normalised within its own window, so a raw value in 2005 and a raw value in 2019 are not on the same scale. Without a correction, a \"research\" feature computed across the series is meaningless.\n3. **Honest evaluation.** A direction classifier that scores well on a random split tells you nothing about a trading strategy. The evaluation must be chronological, and the metric of interest is the return of a long/short rule, not accuracy.\n\nThe repository also faces a fourth, meta-problem, which this documentation effort addresses: the upstream code is a notebook-and-script research project. A newcomer needs to know **which parts actually run**, which need a 90-second-per-keyword data collection, and which parts simply do \n\n[Excerpt shortened; consult the cited source guide for full detail.]",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "DateTime==4.3",
+    "pandas==1.0.4",
+    "python-dateutil==2.8.1",
+    "requests==2.23.0",
+    "urllib3==1.26.5",
+    "yfinance==0.1.54",
+    "jupyter==1.0.0",
+    "xgboost==1.1.0",
+    "scikit-learn==0.23.1",
+    "numpy==1.18.5"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of TrendCast: Stock Price Trend Research using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Similarity Radar: Document Similarity Checking",
+  "slug": "document-plagiarism-checker",
+  "description": "Similarity Radar document-plagiarism-checker A student, teacher or writer has no quick way to find out whether a passage or a submitted document already exists on the public web. Turnitin-style tools are paid, closed and unreachable from a classroom laptop. Turn a pasted passage or an uploaded PDF into an evidence list: which exact sentences already appear online, at which URLs, and what share of the document that represents. Students checking an essay before submission; teachers spot-checking a suspicious paragraph; writers verifying that a paragraph of theirs is not already published. A similarity index (matched \u00f7 total sentences) \u00d7 100, the list of matched sentences, and the source URL of",
+  "problem_solved": "Plagiarism checks are usually presented as an oracle: paste a document, receive a\npercentage, feel informed. In practice that oracle is opaque, often unavailable, and\nsometimes paid per submission. A student on a budget, in a country where institutional\nlicenses are scarce, needs something they can actually run \u2014 and something they can\n**audit**.\n\nThe concrete requirements that follow from that:\n\n1. **Zero-friction input.** The two realistic inputs are a pasted paragraph and a\n   submitted PDF. Both must work; nothing else is needed.\n2. **No paid service, no API key.** A Google results page is the largest freely searchable\n   corpus available to a laptop.\n3. **Evidence, not just a number.** A percentage without the matched sentences and their\n   sources is not actionable \u2014 the reader has to be able to check the claim.\n4. **Noise control.** A quoted sentence about, say, a hiring process will match LinkedIn\n   and Instagram profiles constantly. Those hits are technically \"the same words\" but\n   useless as evidence of copying, so they must be filtered out.\n5. **Honesty.** The tool must state its method and its blind spots (paraphrase, top-10\n   window, exact phrase only) instead of implying it can see semantic similarity.\n\nThe upstream project satisfies 1\u20134 in a single 232-line file. The UI layer added later\nsatisfies 5 \u2014 the current `templates/index.html` opens with a \"Method, honestly\" note and\ncloses every result with an *explainer* that spells out the four steps and their limits.\n\n---",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "beautifulsoup4==4.11.1",
+    "click==8.1.3",
+    "Flask==2.2.2",
+    "googlesearch-python>=1.2.0",
+    "ddgs>=9.0.0",
+    "importlib-metadata==5.0.0",
+    "itsdangerous==2.1.2",
+    "Jinja2==3.1.2",
+    "MarkupSafe==2.1.1",
+    "PyPDF2>=2.11.1",
+    "soupsieve==2.3.2.post1",
+    "typing-extensions==4.4.0",
+    "Werkzeug==2.2.2",
+    "zipp==3.10.0"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of Similarity Radar: Document Similarity Checking using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

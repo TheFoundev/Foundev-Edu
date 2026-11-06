@@ -1,0 +1,42 @@
+{
+  "module_id": "sign-language-to-text-translation-module-07",
+  "title": "Model Boundaries and Extensions",
+  "description": "Begins with a plain-language explanation of deterministic pipeline versus recognition/generation ML, then traces the corresponding implementation and its limits in sign-language-to-text-translation.",
+  "learning_objectives": [
+    "Explain deterministic pipeline versus recognition/generation ML in plain language and connect it to sign_language_translator/languages/sign/pakistan_sign_language.py; PROJECT_OVERVIEW.md.",
+    "Trace one input through the model boundaries and extensions stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-07-01",
+    "lesson-07-02",
+    "lesson-07-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "deterministic pipeline versus recognition/generation ML",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the model boundaries and extensions stage through the cited source paths.",
+    "Produce a small test or diagnostic for deterministic pipeline versus recognition/generation ML."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "sign_language_translator/languages/sign/pakistan_sign_language.py",
+    "PROJECT_OVERVIEW.md"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "tokens_to_sign_dicts",
+    "excerpt_file": "sign_language_translator/languages/sign/pakistan_sign_language.py"
+  }
+}

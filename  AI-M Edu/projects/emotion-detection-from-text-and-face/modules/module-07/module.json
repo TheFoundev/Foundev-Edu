@@ -1,0 +1,42 @@
+{
+  "module_id": "emotion-detection-from-text-and-face-module-07",
+  "title": "End-to-End Debugging",
+  "description": "Begins with a plain-language explanation of missing weights, dependency setup, and mode-specific errors, then traces the corresponding implementation and its limits in emotion-detection-from-text-and-face.",
+  "learning_objectives": [
+    "Explain missing weights, dependency setup, and mode-specific errors in plain language and connect it to backend/model_loader.py; WORKFLOW.md.",
+    "Trace one input through the end-to-end debugging stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-07-01",
+    "lesson-07-02",
+    "lesson-07-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "missing weights, dependency setup, and mode-specific errors",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the end-to-end debugging stage through the cited source paths.",
+    "Produce a small test or diagnostic for missing weights, dependency setup, and mode-specific errors."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "backend/model_loader.py",
+    "WORKFLOW.md"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "load_emotion_model",
+    "excerpt_file": "backend/model_loader.py"
+  }
+}

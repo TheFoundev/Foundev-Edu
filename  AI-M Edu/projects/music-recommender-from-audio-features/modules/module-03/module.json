@@ -1,0 +1,41 @@
+{
+  "module_id": "music-recommender-from-audio-features-module-03",
+  "title": "Cosine Similarity and Ranking",
+  "description": "Begins with a plain-language explanation of vector geometry and neighborhood results, then traces the corresponding implementation and its limits in music-recommender-from-audio-features.",
+  "learning_objectives": [
+    "Explain vector geometry and neighborhood results in plain language and connect it to src/main_cosine_similarity.py.",
+    "Trace one input through the cosine similarity and ranking stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-03-01",
+    "lesson-03-02",
+    "lesson-03-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "vector geometry and neighborhood results",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the cosine similarity and ranking stage through the cited source paths.",
+    "Produce a small test or diagnostic for vector geometry and neighborhood results."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/main_cosine_similarity.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "cosine_similarity",
+    "excerpt_file": "src/main_cosine_similarity.py"
+  }
+}

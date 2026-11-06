@@ -1,0 +1,42 @@
+{
+  "module_id": "credit-card-fraud-detection-module-01",
+  "title": "Fraud as Imbalanced Classification",
+  "description": "Begins with a plain-language explanation of rare positives, labels, and operational costs, then traces the corresponding implementation and its limits in credit-card-fraud-detection.",
+  "learning_objectives": [
+    "Explain rare positives, labels, and operational costs in plain language and connect it to src/train.py; PROJECT_OVERVIEW.md.",
+    "Trace one input through the fraud as imbalanced classification stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-01-01",
+    "lesson-01-02",
+    "lesson-01-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "rare positives, labels, and operational costs",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the fraud as imbalanced classification stage through the cited source paths.",
+    "Produce a small test or diagnostic for rare positives, labels, and operational costs."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/train.py",
+    "PROJECT_OVERVIEW.md"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "new_grid_search",
+    "excerpt_file": "src/train.py"
+  }
+}

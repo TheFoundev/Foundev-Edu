@@ -1,0 +1,42 @@
+{
+  "module_id": "document-plagiarism-checker-module-03",
+  "title": "Live Search and Source Pairing",
+  "description": "Begins with a plain-language explanation of web search results, pairing rule, and blocked domains, then traces the corresponding implementation and its limits in document-plagiarism-checker.",
+  "learning_objectives": [
+    "Explain web search results, pairing rule, and blocked domains in plain language and connect it to app.py; static/js/app.js.",
+    "Trace one input through the live search and source pairing stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-03-01",
+    "lesson-03-02",
+    "lesson-03-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "web search results, pairing rule, and blocked domains",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the live search and source pairing stage through the cited source paths.",
+    "Produce a small test or diagnostic for web search results, pairing rule, and blocked domains."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "app.py",
+    "static/js/app.js"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "scan_text",
+    "excerpt_file": "app.py"
+  }
+}

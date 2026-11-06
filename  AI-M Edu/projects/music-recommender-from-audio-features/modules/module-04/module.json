@@ -1,0 +1,43 @@
+{
+  "module_id": "music-recommender-from-audio-features-module-04",
+  "title": "API and Dataset Flow",
+  "description": "Begins with a plain-language explanation of 2261 rows, ten features, Flask endpoints, and static UI, then traces the corresponding implementation and its limits in music-recommender-from-audio-features.",
+  "learning_objectives": [
+    "Explain 2261 rows, ten features, Flask endpoints, and static UI in plain language and connect it to src/api.py; index.html; js/app.js.",
+    "Trace one input through the api and dataset flow stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-04-01",
+    "lesson-04-02",
+    "lesson-04-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "2261 rows, ten features, Flask endpoints, and static UI",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the api and dataset flow stage through the cited source paths.",
+    "Produce a small test or diagnostic for 2261 rows, ten features, Flask endpoints, and static UI."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/api.py",
+    "index.html",
+    "js/app.js"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "recommend",
+    "excerpt_file": "src/api.py"
+  }
+}

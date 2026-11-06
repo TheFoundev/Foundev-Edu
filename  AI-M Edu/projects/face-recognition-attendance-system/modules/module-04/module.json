@@ -1,0 +1,42 @@
+{
+  "module_id": "face-recognition-attendance-system-module-04",
+  "title": "Attendance Matching and Persistence",
+  "description": "Begins with a plain-language explanation of thresholding, CSV attendance, and optional MySQL mirror, then traces the corresponding implementation and its limits in face-recognition-attendance-system.",
+  "learning_objectives": [
+    "Explain thresholding, CSV attendance, and optional MySQL mirror in plain language and connect it to AMS_Run.py; testing.py.",
+    "Trace one input through the attendance matching and persistence stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-04-01",
+    "lesson-04-02",
+    "lesson-04-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "thresholding, CSV attendance, and optional MySQL mirror",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the attendance matching and persistence stage through the cited source paths.",
+    "Produce a small test or diagnostic for thresholding, CSV attendance, and optional MySQL mirror."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "AMS_Run.py",
+    "testing.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "Fillattendances",
+    "excerpt_file": "AMS_Run.py"
+  }
+}

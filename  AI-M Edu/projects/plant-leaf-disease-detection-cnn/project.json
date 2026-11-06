@@ -1,0 +1,24 @@
+{
+  "title": "LeafLens: Plant Leaf Disease Image Classification",
+  "slug": "plant-leaf-disease-detection-cnn",
+  "description": "LeafLens \u2014 Plant Leaf Disease Detection (CNN) plant-leaf-disease-detection-cnn Artificial Intelligence & Machine Learning Monitoring disease symptoms across large fields of crops requires classifying leaf photographs consistently and quickly; manual inspection is slow and subjective. Build a CNN image classifier that maps a photograph of a single leaf to one of fifteen categories and reports healthy-vs-diseased status together with the category. Agricultural researchers, plant-pathology field teams, and anyone prototyping leaf-disease triage. A category label (one of 15) plus a healthy/diseased verdict for an uploaded leaf image. The Django web layer (4 pages + admin), the full Keras trainin",
+  "problem_solved": "Automatic plant disease detection matters for agriculture research because monitoring large fields\nof crops by eye does not scale. The upstream project states the goal directly: *\"the automatic\nclassifier CNN had been used for classification based on learning with some training samples of that\nfifteen category\"*, and *\"the input is given in the form of an image where after prediction it\nreveals the output whether it is healthy or diseased and it also reveals the category it belongs\nto.\"*\n\nConcretely, the engineering problems are:\n\n1. **Feature extraction.** Raw pixels are not a useful representation. A convolutional stack has to\n   learn local edges, textures and lesions.\n2. **Generalisation on a small, skewed dataset.** Fifteen classes with at most 200 images each is\n   small; augmentation and dropout are required to avoid memorising background leaves.\n3. **Serving the result.** A notebook is not an application. The output has to reach a user through\n   a web interface, with an input image and a class/confidence response.\n4. **Honest status.** If the model or the dataset is absent from a checkout, the interface must say\n   so rather than invent a diagnosis.\n\nThis repository solves (1) and (2) in `Code.ipynb`, and (3)/(4) partially: it ships the web shell,\nand it solves (4) completely by refusing to fabricate output.\n\n---",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "See source project dependency manifest and setup guide"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of LeafLens: Plant Leaf Disease Image Classification using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

@@ -1,0 +1,42 @@
+{
+  "module_id": "student-dropout-risk-prediction-module-04",
+  "title": "Metrics and Population Analysis",
+  "description": "Begins with a plain-language explanation of precision/recall, subgroup plots, and evaluation limits, then traces the corresponding implementation and its limits in student-dropout-risk-prediction.",
+  "learning_objectives": [
+    "Explain precision/recall, subgroup plots, and evaluation limits in plain language and connect it to pipeline/__6_Evaluate.py; pipeline/precision_recall_population graph.py.",
+    "Trace one input through the metrics and population analysis stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-04-01",
+    "lesson-04-02",
+    "lesson-04-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "precision/recall, subgroup plots, and evaluation limits",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the metrics and population analysis stage through the cited source paths.",
+    "Produce a small test or diagnostic for precision/recall, subgroup plots, and evaluation limits."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "pipeline/__6_Evaluate.py",
+    "pipeline/precision_recall_population graph.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "plot_precision_recall_n",
+    "excerpt_file": "pipeline/precision_recall_population graph.py"
+  }
+}

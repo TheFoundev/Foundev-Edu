@@ -1,0 +1,257 @@
+{
+  "module_id": "document-plagiarism-checker-module-01",
+  "title": "Similarity Is Not a Verdict",
+  "instructions": "Choose one best answer. Every question is based on this module; consult the lessons before answering.",
+  "questions": [
+    {
+      "question_id": "document-plagiarism-checker-m01-q01",
+      "question_text": "Which statement best explains similarity is not a verdict in this project?",
+      "options": [
+        {
+          "option_id": "document-plagiarism-checker-m01-q01-o1",
+          "text": "Understand scope, text input, and limitations of similarity. In this repository, the claim must be grounded in the documented behavior and source paths: app.py; PROJECT_OVERVIEW.md."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q01-o2",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q01-o3",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q01-o4",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain scope, text input, and limitations of similarity in plain language and connect it to app.py; PROJECT_OVERVIEW.md.",
+      "related_lesson_id": "lesson-01-01"
+    },
+    {
+      "question_id": "document-plagiarism-checker-m01-q02",
+      "question_text": "When inspecting similarity is not a verdict, which implementation claim is supported by the module lessons?",
+      "options": [
+        {
+          "option_id": "document-plagiarism-checker-m01-q02-o4",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q02-o1",
+          "text": "### 7.8 What is explicitly *not* computed\n\n- No TF-IDF vectors, no cosine similarity, no n-gram fingerprints, no embeddings.\n- No comparison between the input and the fetched pages' *content* \u2014 only the URL of a\n  search result is used.\n- No semantic matching: a paraphrase is invisible to this method.\n- No stored corpus, no historical index, no incremental update.\n\n---\n\nConnect this explanation to `app.py` and the source focus `sentence_matches`."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q02-o2",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q02-o3",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Trace one input through the similarity is not a verdict stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-01-02"
+    },
+    {
+      "question_id": "document-plagiarism-checker-m01-q03",
+      "question_text": "A learner is tracing similarity is not a verdict. Which conclusion follows from the taught source behavior?",
+      "options": [
+        {
+          "option_id": "document-plagiarism-checker-m01-q03-o3",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q03-o4",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q03-o1",
+          "text": "Validate outputs and identify limitations for similarity is not a verdict. In this repository, the claim must be grounded in the documented behavior and source paths: app.py; PROJECT_OVERVIEW.md."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q03-o2",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-01-03"
+    },
+    {
+      "question_id": "document-plagiarism-checker-m01-q04",
+      "question_text": "Which statement is the best source-grounded interpretation of similarity is not a verdict?",
+      "options": [
+        {
+          "option_id": "document-plagiarism-checker-m01-q04-o2",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q04-o3",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q04-o4",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q04-o1",
+          "text": "app.py; PROJECT_OVERVIEW.md is the repository location to inspect for this module stage."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain scope, text input, and limitations of similarity in plain language and connect it to app.py; PROJECT_OVERVIEW.md.",
+      "related_lesson_id": "lesson-01-01"
+    },
+    {
+      "question_id": "document-plagiarism-checker-m01-q05",
+      "question_text": "An engineer is reviewing similarity is not a verdict. Which risk or limitation should be documented?",
+      "options": [
+        {
+          "option_id": "document-plagiarism-checker-m01-q05-o1",
+          "text": "The repository uses live web search and source-pair scoring, not the advertised TF-IDF/local corpus model. Similarity is not proof of plagiarism; provider availability and document privacy require review."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q05-o2",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q05-o3",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q05-o4",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the similarity is not a verdict stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-01-02"
+    },
+    {
+      "question_id": "document-plagiarism-checker-m01-q06",
+      "question_text": "Which investigation step best validates similarity is not a verdict?",
+      "options": [
+        {
+          "option_id": "document-plagiarism-checker-m01-q06-o4",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q06-o1",
+          "text": "The module requires tracing input, transformation, output, and failure behavior."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q06-o2",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q06-o3",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-01-03"
+    },
+    {
+      "question_id": "document-plagiarism-checker-m01-q07",
+      "question_text": "Which test design matches the module guidance for similarity is not a verdict?",
+      "options": [
+        {
+          "option_id": "document-plagiarism-checker-m01-q07-o3",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q07-o4",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q07-o1",
+          "text": "A test or diagnostic should check both expected output and an edge case."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q07-o2",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain scope, text input, and limitations of similarity in plain language and connect it to app.py; PROJECT_OVERVIEW.md.",
+      "related_lesson_id": "lesson-01-01"
+    },
+    {
+      "question_id": "document-plagiarism-checker-m01-q08",
+      "question_text": "A UI displays a result during similarity is not a verdict. What can safely be concluded?",
+      "options": [
+        {
+          "option_id": "document-plagiarism-checker-m01-q08-o2",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q08-o3",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q08-o4",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q08-o1",
+          "text": "An interface can be present without proving a model or backend is connected."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the similarity is not a verdict stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-01-02"
+    },
+    {
+      "question_id": "document-plagiarism-checker-m01-q09",
+      "question_text": "How should a learner interpret an output from similarity is not a verdict?",
+      "options": [
+        {
+          "option_id": "document-plagiarism-checker-m01-q09-o1",
+          "text": "An output score is not automatically calibrated probability or proof."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q09-o2",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q09-o3",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q09-o4",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-01-03"
+    },
+    {
+      "question_id": "document-plagiarism-checker-m01-q10",
+      "question_text": "Which data-handling practice is appropriate while studying similarity is not a verdict?",
+      "options": [
+        {
+          "option_id": "document-plagiarism-checker-m01-q10-o4",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q10-o1",
+          "text": "Sensitive inputs require minimization, access controls, and a human correction path."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q10-o2",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m01-q10-o3",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Explain scope, text input, and limitations of similarity in plain language and connect it to app.py; PROJECT_OVERVIEW.md.",
+      "related_lesson_id": "lesson-01-01"
+    }
+  ]
+}

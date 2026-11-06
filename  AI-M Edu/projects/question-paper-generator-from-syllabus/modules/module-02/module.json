@@ -1,0 +1,42 @@
+{
+  "module_id": "question-paper-generator-from-syllabus-module-02",
+  "title": "Prerequisite Graph and Topic Selection",
+  "description": "Begins with a plain-language explanation of chapter dependencies and recursive selection, then traces the corresponding implementation and its limits in question-paper-generator-from-syllabus.",
+  "learning_objectives": [
+    "Explain chapter dependencies and recursive selection in plain language and connect it to app.py; utils.py.",
+    "Trace one input through the prerequisite graph and topic selection stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-02-01",
+    "lesson-02-02",
+    "lesson-02-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "chapter dependencies and recursive selection",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the prerequisite graph and topic selection stage through the cited source paths.",
+    "Produce a small test or diagnostic for chapter dependencies and recursive selection."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "app.py",
+    "utils.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "build_prerequisite_tree",
+    "excerpt_file": "app.py"
+  }
+}

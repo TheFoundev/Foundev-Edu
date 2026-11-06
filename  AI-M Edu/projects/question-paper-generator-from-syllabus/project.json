@@ -1,0 +1,29 @@
+{
+  "title": "ExamForge: Syllabus-Based Question Generation",
+  "slug": "question-paper-generator-from-syllabus",
+  "description": "ExamForge is a Flask web application that turns a school syllabus into ready-to-print teaching material. A teacher picks board, class and subject; the app fetches the real textbook catalogue from a public API, resolves the chapter / topic / subtopic tree, and then uses a local Ollama llama2 model to identify prerequisite chapters, draft one multiple-choice question per topic, verify the answers, and export the result as a PDF question paper, a CSV sheet, a prerequisite-tree PDF, a study-material PDF, a fill-in-the-blanks worksheet (student sheet + answer key) or an SVG diagram set with AI explanations. A separate OMR sheet generator and a set of SVG/OMR helper scripts round out the toolset.",
+  "problem_solved": "A teacher preparing a chapter test faces three recurring problems:\n\n1. **Syllabus alignment.** The chapter/topic structure must match the specific board, class and\n   subject book \u2014 generic AI output usually drifts away from the prescribed syllabus.\n2. **Prerequisite depth.** Students often lack the concepts from earlier chapters that the current\n   topic depends on, and identifying that chain by hand is slow.\n3. **Assembly overhead.** Turning AI output into a printable paper, a student worksheet, an answer\n   key, an OMR sheet and a diagram set means reformatting the same content five different ways.\n\nExamForge targets all three: the structure comes from the real textbook catalogue rather than from\nthe model, prerequisites are surfaced explicitly and can be confirmed by the teacher, and one\ngeneration pass is rendered into every output format the class actually needs.\n\n---",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "flask",
+    "fpdf",
+    "requests",
+    "python-dotenv",
+    "Pillow",
+    "reportlab"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of ExamForge: Syllabus-Based Question Generation using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

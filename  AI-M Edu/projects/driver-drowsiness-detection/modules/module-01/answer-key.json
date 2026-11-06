@@ -1,0 +1,135 @@
+{
+  "module_id": "driver-drowsiness-detection-module-01",
+  "answers": [
+    {
+      "question_id": "driver-drowsiness-detection-m01-q01",
+      "correct_option_id": "driver-drowsiness-detection-m01-q01-o1",
+      "explanation": "The lesson establishes that understand facial landmarks and geometric signal. In this repository, the claim must be grounded in the documented behavior and source paths: blinkDetect.py; PROJECT_OVERVIEW.md. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "driver-drowsiness-detection-m01-q01-o2": "The project has documented missing or conditional artifacts, so the lesson requires checking runtime prerequisites before claiming behavior.",
+        "driver-drowsiness-detection-m01-q01-o3": "A front end can be disconnected or static; the lesson distinguishes presentation code from the model and backend path.",
+        "driver-drowsiness-detection-m01-q01-o4": "The lesson calls for task-appropriate metrics and error analysis; one aggregate score cannot establish reliability across classes or conditions."
+      },
+      "concept_tested": "plain-language model of the stage",
+      "related_lesson_id": "lesson-01-01",
+      "supporting_reference": "blinkDetect.py; PROJECT_OVERVIEW.md"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m01-q02",
+      "correct_option_id": "driver-drowsiness-detection-m01-q02-o1",
+      "explanation": "The lesson establishes that ### 7.1 Eye Aspect Ratio (dlib version)\n\n```python\ndef eye_aspect_ratio(eye):\n    A = dist.euclidean(eye[1], eye[5])   # vertical distance, pair 1\n    B = dist.euclidean(eye[2], eye[4])   # vertical distance, pair 2\n    C = dist.euclidean(eye[0], eye[3])   # horizontal distance (eye width)\n    ear = (A + B) / (2.0 * C)\n    return ear\n```\n\nProperties that make this the standard metric (Soukupov\u00e1 & \u010cech, 2016):\n\n- **Scale invariant** \u2014 `C` normalises for face size and distance.\n- **Aspect-based** \u2014 only the *ratio* of vertical to horizontal extent matters.\n- **Monotone in eye openness** \u2014 the value falls smoothly as the lids close, which is\n  what allows a single threshold to separate open from closed.\n- **Cheap** \u2014 three Euclidean distances per eye, i.e. six per frame.\n\n`eye` here is the convex hull of the six dlib eye points: `leftEyeIndex = [36..41]`,\n`rightEyeIndex = [42..47]`. The per-eye values are averaged:\n`ear = (leftEAR + rightEAR) / 2.0` (`blinkDetect.py:145-148`).\n\nConnect this explanation to `blinkDetect.py` and the source focus `eye_aspect_ratio`. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "driver-drowsiness-detection-m01-q02-o4": "A numeric score is not automatically calibrated; the lesson explicitly warns against turning an unvalidated score into a decision.",
+        "driver-drowsiness-detection-m01-q02-o2": "A front end can be disconnected or static; the lesson distinguishes presentation code from the model and backend path.",
+        "driver-drowsiness-detection-m01-q02-o3": "The lesson calls for task-appropriate metrics and error analysis; one aggregate score cannot establish reliability across classes or conditions."
+      },
+      "concept_tested": "source-specific algorithm behavior",
+      "related_lesson_id": "lesson-01-02",
+      "supporting_reference": "blinkDetect.py; PROJECT_OVERVIEW.md"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m01-q03",
+      "correct_option_id": "driver-drowsiness-detection-m01-q03-o1",
+      "explanation": "The lesson establishes that validate outputs and identify limitations for signals and eye aspect ratio. In this repository, the claim must be grounded in the documented behavior and source paths: blinkDetect.py; PROJECT_OVERVIEW.md. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "driver-drowsiness-detection-m01-q03-o3": "A numeric score is not automatically calibrated; the lesson explicitly warns against turning an unvalidated score into a decision.",
+        "driver-drowsiness-detection-m01-q03-o4": "This violates the lesson\u2019s data-minimization guidance; use synthetic or consented data and avoid sensitive logs.",
+        "driver-drowsiness-detection-m01-q03-o2": "The lesson calls for task-appropriate metrics and error analysis; one aggregate score cannot establish reliability across classes or conditions."
+      },
+      "concept_tested": "edge-case reasoning",
+      "related_lesson_id": "lesson-01-03",
+      "supporting_reference": "blinkDetect.py; PROJECT_OVERVIEW.md"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m01-q04",
+      "correct_option_id": "driver-drowsiness-detection-m01-q04-o1",
+      "explanation": "The lesson establishes that blinkDetect.py; PROJECT_OVERVIEW.md is the repository location to inspect for this module stage. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "driver-drowsiness-detection-m01-q04-o2": "A numeric score is not automatically calibrated; the lesson explicitly warns against turning an unvalidated score into a decision.",
+        "driver-drowsiness-detection-m01-q04-o3": "This violates the lesson\u2019s data-minimization guidance; use synthetic or consented data and avoid sensitive logs.",
+        "driver-drowsiness-detection-m01-q04-o4": "The taught test plan includes edge and missing-resource cases, not only the happy path."
+      },
+      "concept_tested": "source navigation",
+      "related_lesson_id": "lesson-01-01",
+      "supporting_reference": "blinkDetect.py; PROJECT_OVERVIEW.md"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m01-q05",
+      "correct_option_id": "driver-drowsiness-detection-m01-q05-o1",
+      "explanation": "The lesson establishes that no project-specific drowsiness model is trained; desktop geometry/state logic and the MediaPipe variant differ. A missing landmark asset or camera failure prevents operation. It is a learning prototype, not a safety-certified driver aid. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "driver-drowsiness-detection-m01-q05-o2": "This violates the lesson\u2019s data-minimization guidance; use synthetic or consented data and avoid sensitive logs.",
+        "driver-drowsiness-detection-m01-q05-o3": "The taught test plan includes edge and missing-resource cases, not only the happy path.",
+        "driver-drowsiness-detection-m01-q05-o4": "Titles and catalog descriptions are not implementation evidence; the lesson requires checking source files and workflow documentation."
+      },
+      "concept_tested": "implementation limitation",
+      "related_lesson_id": "lesson-01-02",
+      "supporting_reference": "blinkDetect.py; PROJECT_OVERVIEW.md"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m01-q06",
+      "correct_option_id": "driver-drowsiness-detection-m01-q06-o1",
+      "explanation": "The lesson establishes that the module requires tracing input, transformation, output, and failure behavior. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "driver-drowsiness-detection-m01-q06-o4": "The lesson requires marking proposed work separately; roadmap language does not establish shipped functionality.",
+        "driver-drowsiness-detection-m01-q06-o2": "The taught test plan includes edge and missing-resource cases, not only the happy path.",
+        "driver-drowsiness-detection-m01-q06-o3": "Titles and catalog descriptions are not implementation evidence; the lesson requires checking source files and workflow documentation."
+      },
+      "concept_tested": "data-flow tracing",
+      "related_lesson_id": "lesson-01-03",
+      "supporting_reference": "blinkDetect.py; PROJECT_OVERVIEW.md"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m01-q07",
+      "correct_option_id": "driver-drowsiness-detection-m01-q07-o1",
+      "explanation": "The lesson establishes that a test or diagnostic should check both expected output and an edge case. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "driver-drowsiness-detection-m01-q07-o3": "The lesson requires marking proposed work separately; roadmap language does not establish shipped functionality.",
+        "driver-drowsiness-detection-m01-q07-o4": "This incorrectly treats a mixed pipeline as wholly learned; inspect each stage because rules, retrieval, interfaces, and models may differ.",
+        "driver-drowsiness-detection-m01-q07-o2": "Titles and catalog descriptions are not implementation evidence; the lesson requires checking source files and workflow documentation."
+      },
+      "concept_tested": "testing practice",
+      "related_lesson_id": "lesson-01-01",
+      "supporting_reference": "blinkDetect.py; PROJECT_OVERVIEW.md"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m01-q08",
+      "correct_option_id": "driver-drowsiness-detection-m01-q08-o1",
+      "explanation": "The lesson establishes that an interface can be present without proving a model or backend is connected. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "driver-drowsiness-detection-m01-q08-o2": "The lesson requires marking proposed work separately; roadmap language does not establish shipped functionality.",
+        "driver-drowsiness-detection-m01-q08-o3": "This incorrectly treats a mixed pipeline as wholly learned; inspect each stage because rules, retrieval, interfaces, and models may differ.",
+        "driver-drowsiness-detection-m01-q08-o4": "Source tracing is required by the lesson: behavior must be linked to an input, transformation, output, and cited implementation."
+      },
+      "concept_tested": "system-boundary reasoning",
+      "related_lesson_id": "lesson-01-02",
+      "supporting_reference": "blinkDetect.py; PROJECT_OVERVIEW.md"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m01-q09",
+      "correct_option_id": "driver-drowsiness-detection-m01-q09-o1",
+      "explanation": "The lesson establishes that an output score is not automatically calibrated probability or proof. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "driver-drowsiness-detection-m01-q09-o2": "This incorrectly treats a mixed pipeline as wholly learned; inspect each stage because rules, retrieval, interfaces, and models may differ.",
+        "driver-drowsiness-detection-m01-q09-o3": "Source tracing is required by the lesson: behavior must be linked to an input, transformation, output, and cited implementation.",
+        "driver-drowsiness-detection-m01-q09-o4": "The project has documented missing or conditional artifacts, so the lesson requires checking runtime prerequisites before claiming behavior."
+      },
+      "concept_tested": "score interpretation",
+      "related_lesson_id": "lesson-01-03",
+      "supporting_reference": "blinkDetect.py; PROJECT_OVERVIEW.md"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m01-q10",
+      "correct_option_id": "driver-drowsiness-detection-m01-q10-o1",
+      "explanation": "The lesson establishes that sensitive inputs require minimization, access controls, and a human correction path. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "driver-drowsiness-detection-m01-q10-o4": "A front end can be disconnected or static; the lesson distinguishes presentation code from the model and backend path.",
+        "driver-drowsiness-detection-m01-q10-o2": "Source tracing is required by the lesson: behavior must be linked to an input, transformation, output, and cited implementation.",
+        "driver-drowsiness-detection-m01-q10-o3": "The project has documented missing or conditional artifacts, so the lesson requires checking runtime prerequisites before claiming behavior."
+      },
+      "concept_tested": "responsible data handling",
+      "related_lesson_id": "lesson-01-01",
+      "supporting_reference": "blinkDetect.py; PROJECT_OVERVIEW.md"
+    }
+  ]
+}

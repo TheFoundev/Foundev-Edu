@@ -1,0 +1,42 @@
+{
+  "module_id": "crop-yield-prediction-module-06",
+  "title": "Evaluation, Uncertainty, and Reproducibility",
+  "description": "Begins with a plain-language explanation of spatial leakage, calibration, missing dependencies, and limits, then traces the corresponding implementation and its limits in crop-yield-prediction.",
+  "learning_objectives": [
+    "Explain spatial leakage, calibration, missing dependencies, and limits in plain language and connect it to cyp/models/base.py; cyp/analysis/counties_plot.py.",
+    "Trace one input through the evaluation, uncertainty, and reproducibility stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-06-01",
+    "lesson-06-02",
+    "lesson-06-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "spatial leakage, calibration, missing dependencies, and limits",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the evaluation, uncertainty, and reproducibility stage through the cited source paths.",
+    "Produce a small test or diagnostic for spatial leakage, calibration, missing dependencies, and limits."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "cyp/models/base.py",
+    "cyp/analysis/counties_plot.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "analyze_results",
+    "excerpt_file": "cyp/models/base.py"
+  }
+}

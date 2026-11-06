@@ -1,0 +1,42 @@
+{
+  "module_id": "resume-screening-and-jd-matching-module-02",
+  "title": "Preprocessing and Sentence Embeddings",
+  "description": "Begins with a plain-language explanation of all-MiniLM-L6-v2 and 384-dimensional vectors, then traces the corresponding implementation and its limits in resume-screening-and-jd-matching.",
+  "learning_objectives": [
+    "Explain all-MiniLM-L6-v2 and 384-dimensional vectors in plain language and connect it to src/preprocessor.py; src/embedder.py.",
+    "Trace one input through the preprocessing and sentence embeddings stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-02-01",
+    "lesson-02-02",
+    "lesson-02-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "all-MiniLM-L6-v2 and 384-dimensional vectors",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the preprocessing and sentence embeddings stage through the cited source paths.",
+    "Produce a small test or diagnostic for all-MiniLM-L6-v2 and 384-dimensional vectors."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/preprocessor.py",
+    "src/embedder.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "clean_text",
+    "excerpt_file": "src/preprocessor.py"
+  }
+}

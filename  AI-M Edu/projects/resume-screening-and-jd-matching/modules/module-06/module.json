@@ -1,0 +1,42 @@
+{
+  "module_id": "resume-screening-and-jd-matching-module-06",
+  "title": "Evaluation, Fairness, and Human Oversight",
+  "description": "Begins with a plain-language explanation of proxy bias, missing context, privacy, and non-decision use, then traces the corresponding implementation and its limits in resume-screening-and-jd-matching.",
+  "learning_objectives": [
+    "Explain proxy bias, missing context, privacy, and non-decision use in plain language and connect it to PROJECT_OVERVIEW.md; src/explainer.py.",
+    "Trace one input through the evaluation, fairness, and human oversight stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-06-01",
+    "lesson-06-02",
+    "lesson-06-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "proxy bias, missing context, privacy, and non-decision use",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the evaluation, fairness, and human oversight stage through the cited source paths.",
+    "Produce a small test or diagnostic for proxy bias, missing context, privacy, and non-decision use."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "PROJECT_OVERVIEW.md",
+    "src/explainer.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "generate_explanation",
+    "excerpt_file": "src/explainer.py"
+  }
+}

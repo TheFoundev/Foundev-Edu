@@ -1,0 +1,257 @@
+{
+  "module_id": "driver-drowsiness-detection-module-01",
+  "title": "Signals and Eye Aspect Ratio",
+  "instructions": "Choose one best answer. Every question is based on this module; consult the lessons before answering.",
+  "questions": [
+    {
+      "question_id": "driver-drowsiness-detection-m01-q01",
+      "question_text": "Which statement best explains signals and eye aspect ratio in this project?",
+      "options": [
+        {
+          "option_id": "driver-drowsiness-detection-m01-q01-o1",
+          "text": "Understand facial landmarks and geometric signal. In this repository, the claim must be grounded in the documented behavior and source paths: blinkDetect.py; PROJECT_OVERVIEW.md."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q01-o2",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q01-o3",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q01-o4",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain facial landmarks and geometric signal in plain language and connect it to blinkDetect.py; PROJECT_OVERVIEW.md.",
+      "related_lesson_id": "lesson-01-01"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m01-q02",
+      "question_text": "When inspecting signals and eye aspect ratio, which implementation claim is supported by the module lessons?",
+      "options": [
+        {
+          "option_id": "driver-drowsiness-detection-m01-q02-o4",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q02-o1",
+          "text": "### 7.1 Eye Aspect Ratio (dlib version)\n\n```python\ndef eye_aspect_ratio(eye):\n    A = dist.euclidean(eye[1], eye[5])   # vertical distance, pair 1\n    B = dist.euclidean(eye[2], eye[4])   # vertical distance, pair 2\n    C = dist.euclidean(eye[0], eye[3])   # horizontal distance (eye width)\n    ear = (A + B) / (2.0 * C)\n    return ear\n```\n\nProperties that make this the standard metric (Soukupov\u00e1 & \u010cech, 2016):\n\n- **Scale invariant** \u2014 `C` normalises for face size and distance.\n- **Aspect-based** \u2014 only the *ratio* of vertical to horizontal extent matters.\n- **Monotone in eye openness** \u2014 the value falls smoothly as the lids close, which is\n  what allows a single threshold to separate open from closed.\n- **Cheap** \u2014 three Euclidean distances per eye, i.e. six per frame.\n\n`eye` here is the convex hull of the six dlib eye points: `leftEyeIndex = [36..41]`,\n`rightEyeIndex = [42..47]`. The per-eye values are averaged:\n`ear = (leftEAR + rightEAR) / 2.0` (`blinkDetect.py:145-148`).\n\nConnect this explanation to `blinkDetect.py` and the source focus `eye_aspect_ratio`."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q02-o2",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q02-o3",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Trace one input through the signals and eye aspect ratio stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-01-02"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m01-q03",
+      "question_text": "A learner is tracing signals and eye aspect ratio. Which conclusion follows from the taught source behavior?",
+      "options": [
+        {
+          "option_id": "driver-drowsiness-detection-m01-q03-o3",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q03-o4",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q03-o1",
+          "text": "Validate outputs and identify limitations for signals and eye aspect ratio. In this repository, the claim must be grounded in the documented behavior and source paths: blinkDetect.py; PROJECT_OVERVIEW.md."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q03-o2",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-01-03"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m01-q04",
+      "question_text": "Which statement is the best source-grounded interpretation of signals and eye aspect ratio?",
+      "options": [
+        {
+          "option_id": "driver-drowsiness-detection-m01-q04-o2",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q04-o3",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q04-o4",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q04-o1",
+          "text": "blinkDetect.py; PROJECT_OVERVIEW.md is the repository location to inspect for this module stage."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain facial landmarks and geometric signal in plain language and connect it to blinkDetect.py; PROJECT_OVERVIEW.md.",
+      "related_lesson_id": "lesson-01-01"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m01-q05",
+      "question_text": "An engineer is reviewing signals and eye aspect ratio. Which risk or limitation should be documented?",
+      "options": [
+        {
+          "option_id": "driver-drowsiness-detection-m01-q05-o1",
+          "text": "No project-specific drowsiness model is trained; desktop geometry/state logic and the MediaPipe variant differ. A missing landmark asset or camera failure prevents operation. It is a learning prototype, not a safety-certified driver aid."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q05-o2",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q05-o3",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q05-o4",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the signals and eye aspect ratio stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-01-02"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m01-q06",
+      "question_text": "Which investigation step best validates signals and eye aspect ratio?",
+      "options": [
+        {
+          "option_id": "driver-drowsiness-detection-m01-q06-o4",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q06-o1",
+          "text": "The module requires tracing input, transformation, output, and failure behavior."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q06-o2",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q06-o3",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-01-03"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m01-q07",
+      "question_text": "Which test design matches the module guidance for signals and eye aspect ratio?",
+      "options": [
+        {
+          "option_id": "driver-drowsiness-detection-m01-q07-o3",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q07-o4",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q07-o1",
+          "text": "A test or diagnostic should check both expected output and an edge case."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q07-o2",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain facial landmarks and geometric signal in plain language and connect it to blinkDetect.py; PROJECT_OVERVIEW.md.",
+      "related_lesson_id": "lesson-01-01"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m01-q08",
+      "question_text": "A UI displays a result during signals and eye aspect ratio. What can safely be concluded?",
+      "options": [
+        {
+          "option_id": "driver-drowsiness-detection-m01-q08-o2",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q08-o3",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q08-o4",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q08-o1",
+          "text": "An interface can be present without proving a model or backend is connected."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the signals and eye aspect ratio stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-01-02"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m01-q09",
+      "question_text": "How should a learner interpret an output from signals and eye aspect ratio?",
+      "options": [
+        {
+          "option_id": "driver-drowsiness-detection-m01-q09-o1",
+          "text": "An output score is not automatically calibrated probability or proof."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q09-o2",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q09-o3",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q09-o4",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-01-03"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m01-q10",
+      "question_text": "Which data-handling practice is appropriate while studying signals and eye aspect ratio?",
+      "options": [
+        {
+          "option_id": "driver-drowsiness-detection-m01-q10-o4",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q10-o1",
+          "text": "Sensitive inputs require minimization, access controls, and a human correction path."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q10-o2",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m01-q10-o3",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Explain facial landmarks and geometric signal in plain language and connect it to blinkDetect.py; PROJECT_OVERVIEW.md.",
+      "related_lesson_id": "lesson-01-01"
+    }
+  ]
+}

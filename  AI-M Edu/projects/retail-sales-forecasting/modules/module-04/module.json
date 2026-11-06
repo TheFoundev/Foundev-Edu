@@ -1,0 +1,43 @@
+{
+  "module_id": "retail-sales-forecasting-module-04",
+  "title": "Dashboard Data Flow",
+  "description": "Begins with a plain-language explanation of Flask/static UI, query outputs, and charts, then traces the corresponding implementation and its limits in retail-sales-forecasting.",
+  "learning_objectives": [
+    "Explain Flask/static UI, query outputs, and charts in plain language and connect it to index.html; js/app.js; app.py.",
+    "Trace one input through the dashboard data flow stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-04-01",
+    "lesson-04-02",
+    "lesson-04-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "Flask/static UI, query outputs, and charts",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the dashboard data flow stage through the cited source paths.",
+    "Produce a small test or diagnostic for Flask/static UI, query outputs, and charts."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "index.html",
+    "js/app.js",
+    "app.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "monthlySeries",
+    "excerpt_file": "js/app.js"
+  }
+}

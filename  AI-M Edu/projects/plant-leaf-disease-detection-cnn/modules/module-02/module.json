@@ -1,0 +1,42 @@
+{
+  "module_id": "plant-leaf-disease-detection-cnn-module-02",
+  "title": "Dataset Preparation",
+  "description": "Begins with a plain-language explanation of folder structure, labels, train/validation/test separation, then traces the corresponding implementation and its limits in plant-leaf-disease-detection-cnn.",
+  "learning_objectives": [
+    "Explain folder structure, labels, train/validation/test separation in plain language and connect it to prepare_dataset.py; Code.ipynb.",
+    "Trace one input through the dataset preparation stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-02-01",
+    "lesson-02-02",
+    "lesson-02-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "folder structure, labels, train/validation/test separation",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the dataset preparation stage through the cited source paths.",
+    "Produce a small test or diagnostic for folder structure, labels, train/validation/test separation."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "prepare_dataset.py",
+    "Code.ipynb"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "spliting data",
+    "excerpt_file": "Code.ipynb"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Groove Observatory: Audio Feature Music Recommendation",
+  "slug": "music-recommender-from-audio-features",
+  "description": "Groove Observatory \u2014 \"Retro record-crate recommender \u00b7 cosine similarity over audio DNA\" music-recommender-from-audio-features <https://github.com/edenmhuang/Music-Recommender> \u2014 Eden Huang, Skyline College research project, 2023; peer-reviewed by Prof. Bryan Swartout; write-up on Medium Recommending music normally needs user behaviour (plays, skips, likes). This project asks whether acoustic similarity alone is enough: if two songs share tempo, energy and danceability, are they similar? Take one track, compute its similarity to the rest of a Spotify-feature catalogue, and return the closest matches \u2014 as a ranked, explainable, per-feature comparison. A listener browsing a \"record crate\" and",
+  "problem_solved": "Collaborative filtering dominates music recommendation, but it needs a history: what you played, skipped, liked, and how often. Cold-start users have none of that, and a catalogue that has never been played has none either.\n\n**Content-based filtering** inverts the problem: describe the *item* and compare items to each other. If a track's acoustic profile is a point in a 10-dimensional space, then \"sounds like\" is a geometric question \u2014 and geometry has a closed form.\n\nThe upstream research question was specifically: *can cosine similarity \u2014 a text technique \u2014 be reused for music audio features?* The intuition is that acoustic descriptors (tempo, energy, valence, \u2026) behave like sparse text vectors: they are non-negative, bounded, and dominated by a few large components. Cosine similarity is well suited to that shape, because it normalises by vector magnitude and therefore compares *profiles* rather than *levels*.\n\nThe honest framing, which the code reflects, is that this is a **baseline**. It is explainable (every recommendation decomposes into ten feature comparisons), instant, and dependency-free \u2014 but it has no notion of taste, and \"similar\" in feature space is only loosely the same as \"similar\" to a human ear.",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "See source project dependency manifest and setup guide"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of Groove Observatory: Audio Feature Music Recommendation using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

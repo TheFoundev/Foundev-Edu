@@ -1,0 +1,42 @@
+{
+  "module_id": "sign-language-to-text-translation-module-06",
+  "title": "Testing, Metrics, and Accessibility",
+  "description": "Begins with a plain-language explanation of CLI tests, coverage, signer review, and cultural/linguistic limits, then traces the corresponding implementation and its limits in sign-language-to-text-translation.",
+  "learning_objectives": [
+    "Explain CLI tests, coverage, signer review, and cultural/linguistic limits in plain language and connect it to tests/test_cli.py; sign_language_translator/text/metrics.py.",
+    "Trace one input through the testing, metrics, and accessibility stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-06-01",
+    "lesson-06-02",
+    "lesson-06-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "CLI tests, coverage, signer review, and cultural/linguistic limits",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the testing, metrics, and accessibility stage through the cited source paths.",
+    "Produce a small test or diagnostic for CLI tests, coverage, signer review, and cultural/linguistic limits."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "tests/test_cli.py",
+    "sign_language_translator/text/metrics.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "test_slt_translate",
+    "excerpt_file": "tests/test_cli.py"
+  }
+}

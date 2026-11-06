@@ -1,0 +1,257 @@
+{
+  "module_id": "college-faq-chatbot-rag-module-07",
+  "title": "Retrieval Debugging Lab",
+  "instructions": "Choose one best answer. Every question is based on this module; consult the lessons before answering.",
+  "questions": [
+    {
+      "question_id": "college-faq-chatbot-rag-m07-q01",
+      "question_text": "Which statement best explains retrieval debugging lab in this project?",
+      "options": [
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q01-o3",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q01-o4",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q01-o1",
+          "text": "Understand query normalization, empty retrieval, and chunk inspection. In this repository, the claim must be grounded in the documented behavior and source paths: src/query_rewriter.py; scripts/evaluate_retrieval.py."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q01-o2",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain query normalization, empty retrieval, and chunk inspection in plain language and connect it to src/query_rewriter.py; scripts/evaluate_retrieval.py.",
+      "related_lesson_id": "lesson-07-01"
+    },
+    {
+      "question_id": "college-faq-chatbot-rag-m07-q02",
+      "question_text": "When inspecting retrieval debugging lab, which implementation claim is supported by the module lessons?",
+      "options": [
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q02-o2",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q02-o3",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q02-o4",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q02-o1",
+          "text": "### 2. BM25 keyword retrieval with rank-derived scores\n\n`BM25Retriever.from_documents(all_chunks, k=top_k)` is built over the in-memory chunk list. Because BM25 returns no numeric scores through this interface, the code converts **rank** into a synthetic score:\n\n```\nscore = max(0.5, 0.75 - rank * (0.25 / n))\n```\n\nso the best keyword hit scores `0.75` and the last one `0.50`.\n\nConnect this explanation to `src/query_rewriter.py` and the source focus `rewrite`."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Trace one input through the retrieval debugging lab stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-07-02"
+    },
+    {
+      "question_id": "college-faq-chatbot-rag-m07-q03",
+      "question_text": "A learner is tracing retrieval debugging lab. Which conclusion follows from the taught source behavior?",
+      "options": [
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q03-o1",
+          "text": "Validate outputs and identify limitations for retrieval debugging lab. In this repository, the claim must be grounded in the documented behavior and source paths: src/query_rewriter.py; scripts/evaluate_retrieval.py."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q03-o2",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q03-o3",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q03-o4",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-07-03"
+    },
+    {
+      "question_id": "college-faq-chatbot-rag-m07-q04",
+      "question_text": "Which statement is the best source-grounded interpretation of retrieval debugging lab?",
+      "options": [
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q04-o4",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q04-o1",
+          "text": "src/query_rewriter.py; scripts/evaluate_retrieval.py is the repository location to inspect for this module stage."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q04-o2",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q04-o3",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain query normalization, empty retrieval, and chunk inspection in plain language and connect it to src/query_rewriter.py; scripts/evaluate_retrieval.py.",
+      "related_lesson_id": "lesson-07-01"
+    },
+    {
+      "question_id": "college-faq-chatbot-rag-m07-q05",
+      "question_text": "An engineer is reviewing retrieval debugging lab. Which risk or limitation should be documented?",
+      "options": [
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q05-o3",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q05-o4",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q05-o1",
+          "text": "A local vector database and external LLM configuration are required; retrieved snippets can still be incomplete or wrong. The static console is not the Streamlit chat backend."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q05-o2",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the retrieval debugging lab stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-07-02"
+    },
+    {
+      "question_id": "college-faq-chatbot-rag-m07-q06",
+      "question_text": "Which investigation step best validates retrieval debugging lab?",
+      "options": [
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q06-o2",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q06-o3",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q06-o4",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q06-o1",
+          "text": "The module requires tracing input, transformation, output, and failure behavior."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-07-03"
+    },
+    {
+      "question_id": "college-faq-chatbot-rag-m07-q07",
+      "question_text": "Which test design matches the module guidance for retrieval debugging lab?",
+      "options": [
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q07-o1",
+          "text": "A test or diagnostic should check both expected output and an edge case."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q07-o2",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q07-o3",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q07-o4",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain query normalization, empty retrieval, and chunk inspection in plain language and connect it to src/query_rewriter.py; scripts/evaluate_retrieval.py.",
+      "related_lesson_id": "lesson-07-01"
+    },
+    {
+      "question_id": "college-faq-chatbot-rag-m07-q08",
+      "question_text": "A UI displays a result during retrieval debugging lab. What can safely be concluded?",
+      "options": [
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q08-o4",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q08-o1",
+          "text": "An interface can be present without proving a model or backend is connected."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q08-o2",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q08-o3",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the retrieval debugging lab stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-07-02"
+    },
+    {
+      "question_id": "college-faq-chatbot-rag-m07-q09",
+      "question_text": "How should a learner interpret an output from retrieval debugging lab?",
+      "options": [
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q09-o3",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q09-o4",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q09-o1",
+          "text": "An output score is not automatically calibrated probability or proof."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q09-o2",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-07-03"
+    },
+    {
+      "question_id": "college-faq-chatbot-rag-m07-q10",
+      "question_text": "Which data-handling practice is appropriate while studying retrieval debugging lab?",
+      "options": [
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q10-o2",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q10-o3",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q10-o4",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "college-faq-chatbot-rag-m07-q10-o1",
+          "text": "Sensitive inputs require minimization, access controls, and a human correction path."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Explain query normalization, empty retrieval, and chunk inspection in plain language and connect it to src/query_rewriter.py; scripts/evaluate_retrieval.py.",
+      "related_lesson_id": "lesson-07-01"
+    }
+  ]
+}

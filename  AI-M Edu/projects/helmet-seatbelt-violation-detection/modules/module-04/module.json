@@ -1,0 +1,43 @@
+{
+  "module_id": "helmet-seatbelt-violation-detection-module-04",
+  "title": "Application, Accounts, and Database",
+  "description": "Begins with a plain-language explanation of main_app, database manager, and UI workflow, then traces the corresponding implementation and its limits in helmet-seatbelt-violation-detection.",
+  "learning_objectives": [
+    "Explain main_app, database manager, and UI workflow in plain language and connect it to source/main_app.py; source/database_manager.py; source/user_authentication_v1.py.",
+    "Trace one input through the application, accounts, and database stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-04-01",
+    "lesson-04-02",
+    "lesson-04-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "main_app, database manager, and UI workflow",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the application, accounts, and database stage through the cited source paths.",
+    "Produce a small test or diagnostic for main_app, database manager, and UI workflow."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "source/main_app.py",
+    "source/database_manager.py",
+    "source/user_authentication_v1.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "login",
+    "excerpt_file": "source/main_app.py"
+  }
+}

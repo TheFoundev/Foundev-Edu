@@ -1,0 +1,28 @@
+{
+  "title": "DemandSight: Retail Sales Analytics",
+  "slug": "retail-sales-forecasting",
+  "description": "DemandSight \u2014 Retail Sales Analytics Retail transaction data (orders, products, regions, profit) is hard to explore without SQL or Excel pivots Turn the bundled Superstore CSV into an instant, zero-install analytics dashboard Analysts, store managers, students learning data analytics KPIs, time-series charts, category/region breakdowns, product rankings \u2014 all from real data",
+  "problem_solved": "The upstream repo ships a MySQL-based SQL query kit. Running it requires database setup,\nPython dependencies, and manual query execution \u2014 a high bar for a single CSV. Non-technical\nusers cannot see sales/profit patterns at all without that infrastructure.",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "sqlalchemy"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of DemandSight: Retail Sales Analytics using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

@@ -1,0 +1,42 @@
+{
+  "module_id": "loan-default-prediction-module-03",
+  "title": "Class Imbalance and Logistic Baseline",
+  "description": "Begins with a plain-language explanation of class weighting and threshold selection, then traces the corresponding implementation and its limits in loan-default-prediction.",
+  "learning_objectives": [
+    "Explain class weighting and threshold selection in plain language and connect it to models.py; tools/lr_clf.py.",
+    "Trace one input through the class imbalance and logistic baseline stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-03-01",
+    "lesson-03-02",
+    "lesson-03-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "class weighting and threshold selection",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the class imbalance and logistic baseline stage through the cited source paths.",
+    "Produce a small test or diagnostic for class weighting and threshold selection."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "models.py",
+    "tools/lr_clf.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "DefaultClassifier",
+    "excerpt_file": "models.py"
+  }
+}

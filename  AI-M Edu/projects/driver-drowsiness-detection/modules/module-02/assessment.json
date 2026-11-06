@@ -1,0 +1,257 @@
+{
+  "module_id": "driver-drowsiness-detection-module-02",
+  "title": "Drowsiness State Machine",
+  "instructions": "Choose one best answer. Every question is based on this module; consult the lessons before answering.",
+  "questions": [
+    {
+      "question_id": "driver-drowsiness-detection-m02-q01",
+      "question_text": "Which statement best explains drowsiness state machine in this project?",
+      "options": [
+        {
+          "option_id": "driver-drowsiness-detection-m02-q01-o2",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q01-o3",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q01-o4",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q01-o1",
+          "text": "Understand thresholds, consecutive frames, and alert state. In this repository, the claim must be grounded in the documented behavior and source paths: blinkDetect.py."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain thresholds, consecutive frames, and alert state in plain language and connect it to blinkDetect.py.",
+      "related_lesson_id": "lesson-02-01"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m02-q02",
+      "question_text": "When inspecting drowsiness state machine, which implementation claim is supported by the module lessons?",
+      "options": [
+        {
+          "option_id": "driver-drowsiness-detection-m02-q02-o1",
+          "text": "### 7.3 The blink/drowsiness state machine (dlib)\n\n```\nstate  \u2500\u2500eyes closed\u2500\u2500\u25b6 state+1\n         eyes open  \u2500\u2500\u25b6 state = 0   (and blinkCount += 1 once the closure was a real blink)\n\nif state \u2264 falseBlinkLimit              \u2192 short closure, ignore\nelif falseBlinkLimit \u2264 state < drowsyLimit \u2192 a genuine blink\nelse (state \u2265 drowsyLimit)              \u2192 drowsy: drowsy = 3, add_alert() every frame\n```\n\n`falseBlinkLimit = 0.15 / spf` frames, `drowsyLimit = 1.5 / spf` frames.\n\nTwo behavioural consequences worth knowing:\n\n- **`drowsy` is a latch.** Once it is set to `3` it is never cleared by the state machine\n  \u2014 only the `r` key (`blinkDetect.py:361`) sets `drowsy = 0`. So the alert overlay and\n  the alarm remain active after the driver opens their eyes again, until `r` is pressed.\n- **The two ranges overlap by one frame** (`state <= falseBlinkLimit` versus\n  `state >= falseBlinkLimit`), and the first branch wins \u2014 harmless, but it means the\n  false-blink window is `falseBlinkLimit + 1` frames wide.\n\nConnect this explanation to `blinkDetect.py` and the source focus `checkEyeStatus`."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q02-o2",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q02-o3",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q02-o4",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Trace one input through the drowsiness state machine stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-02-02"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m02-q03",
+      "question_text": "A learner is tracing drowsiness state machine. Which conclusion follows from the taught source behavior?",
+      "options": [
+        {
+          "option_id": "driver-drowsiness-detection-m02-q03-o4",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q03-o1",
+          "text": "Validate outputs and identify limitations for drowsiness state machine. In this repository, the claim must be grounded in the documented behavior and source paths: blinkDetect.py."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q03-o2",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q03-o3",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-02-03"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m02-q04",
+      "question_text": "Which statement is the best source-grounded interpretation of drowsiness state machine?",
+      "options": [
+        {
+          "option_id": "driver-drowsiness-detection-m02-q04-o3",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q04-o4",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q04-o1",
+          "text": "blinkDetect.py is the repository location to inspect for this module stage."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q04-o2",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain thresholds, consecutive frames, and alert state in plain language and connect it to blinkDetect.py.",
+      "related_lesson_id": "lesson-02-01"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m02-q05",
+      "question_text": "An engineer is reviewing drowsiness state machine. Which risk or limitation should be documented?",
+      "options": [
+        {
+          "option_id": "driver-drowsiness-detection-m02-q05-o2",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q05-o3",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q05-o4",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q05-o1",
+          "text": "No project-specific drowsiness model is trained; desktop geometry/state logic and the MediaPipe variant differ. A missing landmark asset or camera failure prevents operation. It is a learning prototype, not a safety-certified driver aid."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the drowsiness state machine stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-02-02"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m02-q06",
+      "question_text": "Which investigation step best validates drowsiness state machine?",
+      "options": [
+        {
+          "option_id": "driver-drowsiness-detection-m02-q06-o1",
+          "text": "The module requires tracing input, transformation, output, and failure behavior."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q06-o2",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q06-o3",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q06-o4",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-02-03"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m02-q07",
+      "question_text": "Which test design matches the module guidance for drowsiness state machine?",
+      "options": [
+        {
+          "option_id": "driver-drowsiness-detection-m02-q07-o4",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q07-o1",
+          "text": "A test or diagnostic should check both expected output and an edge case."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q07-o2",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q07-o3",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain thresholds, consecutive frames, and alert state in plain language and connect it to blinkDetect.py.",
+      "related_lesson_id": "lesson-02-01"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m02-q08",
+      "question_text": "A UI displays a result during drowsiness state machine. What can safely be concluded?",
+      "options": [
+        {
+          "option_id": "driver-drowsiness-detection-m02-q08-o3",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q08-o4",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q08-o1",
+          "text": "An interface can be present without proving a model or backend is connected."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q08-o2",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the drowsiness state machine stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-02-02"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m02-q09",
+      "question_text": "How should a learner interpret an output from drowsiness state machine?",
+      "options": [
+        {
+          "option_id": "driver-drowsiness-detection-m02-q09-o2",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q09-o3",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q09-o4",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q09-o1",
+          "text": "An output score is not automatically calibrated probability or proof."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-02-03"
+    },
+    {
+      "question_id": "driver-drowsiness-detection-m02-q10",
+      "question_text": "Which data-handling practice is appropriate while studying drowsiness state machine?",
+      "options": [
+        {
+          "option_id": "driver-drowsiness-detection-m02-q10-o1",
+          "text": "Sensitive inputs require minimization, access controls, and a human correction path."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q10-o2",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q10-o3",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "driver-drowsiness-detection-m02-q10-o4",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Explain thresholds, consecutive frames, and alert state in plain language and connect it to blinkDetect.py.",
+      "related_lesson_id": "lesson-02-01"
+    }
+  ]
+}

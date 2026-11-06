@@ -1,0 +1,42 @@
+{
+  "module_id": "driver-drowsiness-detection-module-06",
+  "title": "Calibration, Evaluation, and Safety",
+  "description": "Begins with a plain-language explanation of lighting, driver variation, false alarms, and non-medical/non-safety certification, then traces the corresponding implementation and its limits in driver-drowsiness-detection.",
+  "learning_objectives": [
+    "Explain lighting, driver variation, false alarms, and non-medical/non-safety certification in plain language and connect it to blinkDetect.py; WORKFLOW.md.",
+    "Trace one input through the calibration, evaluation, and safety stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-06-01",
+    "lesson-06-02",
+    "lesson-06-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "lighting, driver variation, false alarms, and non-medical/non-safety certification",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the calibration, evaluation, and safety stage through the cited source paths.",
+    "Produce a small test or diagnostic for lighting, driver variation, false alarms, and non-medical/non-safety certification."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "blinkDetect.py",
+    "WORKFLOW.md"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "checkBlinkStatus",
+    "excerpt_file": "blinkDetect.py"
+  }
+}

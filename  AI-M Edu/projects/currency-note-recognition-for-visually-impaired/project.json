@@ -1,0 +1,24 @@
+{
+  "title": "Note Sense: Currency Note Recognition",
+  "slug": "currency-note-recognition-for-visually-impaired",
+  "description": "Note Sense currency-note-recognition-for-visually-impaired A visually impaired person cannot reliably identify an Indian banknote by sight, and cannot read the printed value. Cashiers and family members are often unavailable to help. Identify the denomination of a photographed note offline, on a CPU-only machine, with no model download and no network round-trip \u2014 and present the result in a voice-first, high-contrast, keyboard-navigable interface. Visually impaired users handling cash; the caregivers and shop assistants who support them; students studying OpenCV feature matching. Detected denomination: Rs. <value> on the console plus a match-visualisation window; in the web UI, a spoken anno",
+  "problem_solved": "Banknotes in India carry their value in several places \u2014 the numeral on the front, the\nnumeral on the reverse, and the raised intaglio numerals for the blind \u2014 but none of these\nare reliably perceivable without sight, and a partially worn note can be ambiguous even for\nsighted users. The practical need is:\n\n1. **Decide the denomination of one note quickly** (a shop counter, a till, a wallet).\n2. **Do it without a cloud service** \u2014 the note is sensitive and connectivity is unreliable.\n3. **Do it without a heavy ML stack** \u2014 a phone or a low-end laptop should run it.\n4. **Hear the answer** \u2014 the result must be spoken, not only printed.\n\nAn ORB-based matcher satisfies 2\u20134 naturally: ORB is patent-free, CPU-only, ships inside\n`opencv-python`, needs no weights and no GPU, and matching against a handful of reference\nphotographs is a per-image operation that finishes in seconds.\n\nThe web layer then has a second, equally important requirement: **it must not lie**. A page\nthat showed a random denomination with a confidence bar would be worse than useless for the\ntarget user. So the page states plainly that recognition happens in the local script and\nprints nothing it did not actually receive.\n\n---",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "See source project dependency manifest and setup guide"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of Note Sense: Currency Note Recognition using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

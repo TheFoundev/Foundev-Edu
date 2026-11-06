@@ -1,0 +1,42 @@
+{
+  "module_id": "emotion-detection-from-text-and-face-module-04",
+  "title": "Music Recommendation Rules",
+  "description": "Begins with a plain-language explanation of deterministic mapping from labels to tracks, then traces the corresponding implementation and its limits in emotion-detection-from-text-and-face.",
+  "learning_objectives": [
+    "Explain deterministic mapping from labels to tracks in plain language and connect it to backend/app.py; webui/js/app.js.",
+    "Trace one input through the music recommendation rules stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-04-01",
+    "lesson-04-02",
+    "lesson-04-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "deterministic mapping from labels to tracks",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the music recommendation rules stage through the cited source paths.",
+    "Produce a small test or diagnostic for deterministic mapping from labels to tracks."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "backend/app.py",
+    "webui/js/app.js"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "get_music_by_emotion",
+    "excerpt_file": "backend/app.py"
+  }
+}

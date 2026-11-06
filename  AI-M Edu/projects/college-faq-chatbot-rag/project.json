@@ -1,0 +1,37 @@
+{
+  "title": "CampusWise: College FAQ Retrieval-Augmented Generation",
+  "slug": "college-faq-chatbot-rag",
+  "description": "college-faq-chatbot-rag CampusWise (static console) / \"College FAQ Chatbot\" (Streamlit app) College FAQ RAG Chatbot \u2014 https://github.com/aishwarya-nagothu/College-FAQ-RAG-Chatbot Prospective students and staff need accurate, sourced answers about the college. A static FAQ page goes stale; a generic LLM answers from its training data and invents details. Answer questions strictly from one authoritative .docx knowledge base, always cite the sections used, and refuse rather than speculate. Applicants, students and staff asking about admissions, faculty, departments, placements and facilities; developers extending the retrieval stack. A grounded natural-language answer plus the list of knowledge",
+  "problem_solved": "College information is scattered: admission notices, faculty rosters, placement reports, hostel rules, timetables. New applicants ask the same questions every year, and human staff repeat them. Two naive fixes fail:\n\n1. **A pure FAQ page** answers only the questions someone remembered to write down, and goes stale as soon as a policy changes.\n2. **A general-purpose chatbot** answers from pretraining, producing plausible but institutionally wrong statements \u2014 wrong faculty counts, wrong packages, invented programmes.\n\nThe hard requirement is therefore **grounding**: an answer must be extractable from a single controlled document, must show its evidence, and must fail loudly (refuse) rather than fabricate when the document does not cover the question.\n\n---",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "python-dotenv>=1.0.0",
+    "python-docx>=1.1.0",
+    "langchain>=0.3.0",
+    "langchain-core>=0.3.0",
+    "langchain-community>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "langchain-chroma>=0.1.4",
+    "langchain-text-splitters>=0.3.0",
+    "chromadb>=0.5.0",
+    "openai>=1.40.0",
+    "rank_bm25>=0.2.2",
+    "fastembed>=0.9.0",
+    "streamlit>=1.38.0",
+    "ragas>=0.2.0"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of CampusWise: College FAQ Retrieval-Augmented Generation using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

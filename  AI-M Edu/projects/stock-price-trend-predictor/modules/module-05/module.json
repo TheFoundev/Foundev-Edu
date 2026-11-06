@@ -1,0 +1,43 @@
+{
+  "module_id": "stock-price-trend-predictor-module-05",
+  "title": "Static UI and Project Scripts",
+  "description": "Begins with a plain-language explanation of UI, environment checks, and pipeline connectivity, then traces the corresponding implementation and its limits in stock-price-trend-predictor.",
+  "learning_objectives": [
+    "Explain UI, environment checks, and pipeline connectivity in plain language and connect it to index.html; js/app.js; test_environment.py.",
+    "Trace one input through the static ui and project scripts stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-05-01",
+    "lesson-05-02",
+    "lesson-05-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "UI, environment checks, and pipeline connectivity",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the static ui and project scripts stage through the cited source paths.",
+    "Produce a small test or diagnostic for UI, environment checks, and pipeline connectivity."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "index.html",
+    "js/app.js",
+    "test_environment.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "main",
+    "excerpt_file": "test_environment.py"
+  }
+}

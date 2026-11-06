@@ -1,0 +1,257 @@
+{
+  "module_id": "document-plagiarism-checker-module-03",
+  "title": "Live Search and Source Pairing",
+  "instructions": "Choose one best answer. Every question is based on this module; consult the lessons before answering.",
+  "questions": [
+    {
+      "question_id": "document-plagiarism-checker-m03-q01",
+      "question_text": "Which statement best explains live search and source pairing in this project?",
+      "options": [
+        {
+          "option_id": "document-plagiarism-checker-m03-q01-o3",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q01-o4",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q01-o1",
+          "text": "Understand web search results, pairing rule, and blocked domains. In this repository, the claim must be grounded in the documented behavior and source paths: app.py; static/js/app.js."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q01-o2",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain web search results, pairing rule, and blocked domains in plain language and connect it to app.py; static/js/app.js.",
+      "related_lesson_id": "lesson-03-01"
+    },
+    {
+      "question_id": "document-plagiarism-checker-m03-q02",
+      "question_text": "When inspecting live search and source pairing, which implementation claim is supported by the module lessons?",
+      "options": [
+        {
+          "option_id": "document-plagiarism-checker-m03-q02-o2",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q02-o3",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q02-o4",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q02-o1",
+          "text": "### 7.4 Stage 4 \u2014 The pairing rule (important)\n\n```python\nfor j in range(len(list(search(...)))):\n    if i != j:\n        continue\n    hasil_plagiarism.append(inputan[i])\n    hasil_link.append(list(search(...))[j])\n```\n\nThe `continue` short-circuits every result index except the one equal to the sentence\nindex. Consequences, stated plainly:\n\n- Sentence 0 is checked against **result 0**, sentence 1 against **result 1**, and so on.\n- With `num=10`, **only the first 10 sentences of a document can ever produce a match**;\n  sentence 11 has no result index 11 to pair with.\n- A sentence is counted as \"matched\" when *a* result exists at that index and its domain is\n  not blocked \u2014 the sentence is not actually compared against that page's text.\n- `search()` is invoked **twice per sentence** (once for the length, once for the element),\n  so each sentence costs two HTTP round trips plus two 2-second pauses \u2248 4 s.\n\nConnect this explanation to `app.py` and the source focus `scan_text`."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Trace one input through the live search and source pairing stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-03-02"
+    },
+    {
+      "question_id": "document-plagiarism-checker-m03-q03",
+      "question_text": "A learner is tracing live search and source pairing. Which conclusion follows from the taught source behavior?",
+      "options": [
+        {
+          "option_id": "document-plagiarism-checker-m03-q03-o1",
+          "text": "Validate outputs and identify limitations for live search and source pairing. In this repository, the claim must be grounded in the documented behavior and source paths: app.py; static/js/app.js."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q03-o2",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q03-o3",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q03-o4",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-03-03"
+    },
+    {
+      "question_id": "document-plagiarism-checker-m03-q04",
+      "question_text": "Which statement is the best source-grounded interpretation of live search and source pairing?",
+      "options": [
+        {
+          "option_id": "document-plagiarism-checker-m03-q04-o4",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q04-o1",
+          "text": "app.py; static/js/app.js is the repository location to inspect for this module stage."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q04-o2",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q04-o3",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain web search results, pairing rule, and blocked domains in plain language and connect it to app.py; static/js/app.js.",
+      "related_lesson_id": "lesson-03-01"
+    },
+    {
+      "question_id": "document-plagiarism-checker-m03-q05",
+      "question_text": "An engineer is reviewing live search and source pairing. Which risk or limitation should be documented?",
+      "options": [
+        {
+          "option_id": "document-plagiarism-checker-m03-q05-o3",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q05-o4",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q05-o1",
+          "text": "The repository uses live web search and source-pair scoring, not the advertised TF-IDF/local corpus model. Similarity is not proof of plagiarism; provider availability and document privacy require review."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q05-o2",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the live search and source pairing stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-03-02"
+    },
+    {
+      "question_id": "document-plagiarism-checker-m03-q06",
+      "question_text": "Which investigation step best validates live search and source pairing?",
+      "options": [
+        {
+          "option_id": "document-plagiarism-checker-m03-q06-o2",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q06-o3",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q06-o4",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q06-o1",
+          "text": "The module requires tracing input, transformation, output, and failure behavior."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-03-03"
+    },
+    {
+      "question_id": "document-plagiarism-checker-m03-q07",
+      "question_text": "Which test design matches the module guidance for live search and source pairing?",
+      "options": [
+        {
+          "option_id": "document-plagiarism-checker-m03-q07-o1",
+          "text": "A test or diagnostic should check both expected output and an edge case."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q07-o2",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q07-o3",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q07-o4",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain web search results, pairing rule, and blocked domains in plain language and connect it to app.py; static/js/app.js.",
+      "related_lesson_id": "lesson-03-01"
+    },
+    {
+      "question_id": "document-plagiarism-checker-m03-q08",
+      "question_text": "A UI displays a result during live search and source pairing. What can safely be concluded?",
+      "options": [
+        {
+          "option_id": "document-plagiarism-checker-m03-q08-o4",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q08-o1",
+          "text": "An interface can be present without proving a model or backend is connected."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q08-o2",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q08-o3",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the live search and source pairing stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-03-02"
+    },
+    {
+      "question_id": "document-plagiarism-checker-m03-q09",
+      "question_text": "How should a learner interpret an output from live search and source pairing?",
+      "options": [
+        {
+          "option_id": "document-plagiarism-checker-m03-q09-o3",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q09-o4",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q09-o1",
+          "text": "An output score is not automatically calibrated probability or proof."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q09-o2",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-03-03"
+    },
+    {
+      "question_id": "document-plagiarism-checker-m03-q10",
+      "question_text": "Which data-handling practice is appropriate while studying live search and source pairing?",
+      "options": [
+        {
+          "option_id": "document-plagiarism-checker-m03-q10-o2",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q10-o3",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q10-o4",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "document-plagiarism-checker-m03-q10-o1",
+          "text": "Sensitive inputs require minimization, access controls, and a human correction path."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Explain web search results, pairing rule, and blocked domains in plain language and connect it to app.py; static/js/app.js.",
+      "related_lesson_id": "lesson-03-01"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "module_id": "driver-drowsiness-detection-module-03",
+  "title": "Desktop dlib Implementation",
+  "description": "Begins with a plain-language explanation of 68-point predictor, OpenCV capture, and dependencies, then traces the corresponding implementation and its limits in driver-drowsiness-detection.",
+  "learning_objectives": [
+    "Explain 68-point predictor, OpenCV capture, and dependencies in plain language and connect it to blinkDetect.py; main.py.",
+    "Trace one input through the desktop dlib implementation stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-03-01",
+    "lesson-03-02",
+    "lesson-03-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "68-point predictor, OpenCV capture, and dependencies",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the desktop dlib implementation stage through the cited source paths.",
+    "Produce a small test or diagnostic for 68-point predictor, OpenCV capture, and dependencies."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "blinkDetect.py",
+    "main.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "getLandmarks",
+    "excerpt_file": "blinkDetect.py"
+  }
+}

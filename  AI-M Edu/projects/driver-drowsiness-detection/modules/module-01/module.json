@@ -1,0 +1,42 @@
+{
+  "module_id": "driver-drowsiness-detection-module-01",
+  "title": "Signals and Eye Aspect Ratio",
+  "description": "Begins with a plain-language explanation of facial landmarks and geometric signal, then traces the corresponding implementation and its limits in driver-drowsiness-detection.",
+  "learning_objectives": [
+    "Explain facial landmarks and geometric signal in plain language and connect it to blinkDetect.py; PROJECT_OVERVIEW.md.",
+    "Trace one input through the signals and eye aspect ratio stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-01-01",
+    "lesson-01-02",
+    "lesson-01-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "facial landmarks and geometric signal",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the signals and eye aspect ratio stage through the cited source paths.",
+    "Produce a small test or diagnostic for facial landmarks and geometric signal."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "blinkDetect.py",
+    "PROJECT_OVERVIEW.md"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "eye_aspect_ratio",
+    "excerpt_file": "blinkDetect.py"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "module_id": "crop-yield-prediction-module-03",
+  "title": "Feature Engineering and Sequences",
+  "description": "Begins with a plain-language explanation of spatiotemporal inputs and preprocessing, then traces the corresponding implementation and its limits in crop-yield-prediction.",
+  "learning_objectives": [
+    "Explain spatiotemporal inputs and preprocessing in plain language and connect it to cyp/data/preprocessing.py; cyp/data/feature_engineering.py.",
+    "Trace one input through the feature engineering and sequences stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-03-01",
+    "lesson-03-02",
+    "lesson-03-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "spatiotemporal inputs and preprocessing",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the feature engineering and sequences stage through the cited source paths.",
+    "Produce a small test or diagnostic for spatiotemporal inputs and preprocessing."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "cyp/data/preprocessing.py",
+    "cyp/data/feature_engineering.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "Engineer",
+    "excerpt_file": "cyp/data/feature_engineering.py"
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "module_id": "student-dropout-risk-prediction-module-02",
+  "title": "Database and Data Preparation",
+  "instructions": "Choose one best answer. Every question is based on this module; consult the lessons before answering.",
+  "questions": [
+    {
+      "question_id": "student-dropout-risk-prediction-m02-q01",
+      "question_text": "Which statement best explains database and data preparation in this project?",
+      "options": [
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q01-o2",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q01-o3",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q01-o4",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q01-o1",
+          "text": "Understand SQL creation, missingness, and engineered features. In this repository, the claim must be grounded in the documented behavior and source paths: pipeline/__1_and_2_Read_and_Describe_Data.py; pipeline/__3_Missing_Data_Processing.py."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain SQL creation, missingness, and engineered features in plain language and connect it to pipeline/__1_and_2_Read_and_Describe_Data.py; pipeline/__3_Missing_Data_Processing.py.",
+      "related_lesson_id": "lesson-02-01"
+    },
+    {
+      "question_id": "student-dropout-risk-prediction-m02-q02",
+      "question_text": "When inspecting database and data preparation, which implementation claim is supported by the module lessons?",
+      "options": [
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q02-o1",
+          "text": "The source-specific focus for this module is `impute_mean` in `pipeline/__3_Missing_Data_Processing.py`. Use the excerpt below to trace the actual inputs, transformation, and output for SQL creation, missingness, and engineered features. Where a behavior is absent, follow the documented boundary rather than assuming it exists."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q02-o2",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q02-o3",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q02-o4",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Trace one input through the database and data preparation stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-02-02"
+    },
+    {
+      "question_id": "student-dropout-risk-prediction-m02-q03",
+      "question_text": "A learner is tracing database and data preparation. Which conclusion follows from the taught source behavior?",
+      "options": [
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q03-o4",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q03-o1",
+          "text": "Validate outputs and identify limitations for database and data preparation. In this repository, the claim must be grounded in the documented behavior and source paths: pipeline/__1_and_2_Read_and_Describe_Data.py; pipeline/__3_Missing_Data_Processing.py."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q03-o2",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q03-o3",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-02-03"
+    },
+    {
+      "question_id": "student-dropout-risk-prediction-m02-q04",
+      "question_text": "Which statement is the best source-grounded interpretation of database and data preparation?",
+      "options": [
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q04-o3",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q04-o4",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q04-o1",
+          "text": "pipeline/__1_and_2_Read_and_Describe_Data.py; pipeline/__3_Missing_Data_Processing.py is the repository location to inspect for this module stage."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q04-o2",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain SQL creation, missingness, and engineered features in plain language and connect it to pipeline/__1_and_2_Read_and_Describe_Data.py; pipeline/__3_Missing_Data_Processing.py.",
+      "related_lesson_id": "lesson-02-01"
+    },
+    {
+      "question_id": "student-dropout-risk-prediction-m02-q05",
+      "question_text": "An engineer is reviewing database and data preparation. Which risk or limitation should be documented?",
+      "options": [
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q05-o2",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q05-o3",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q05-o4",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q05-o1",
+          "text": "The UI is a demo; the historical pipeline scripts are documented as mostly broken/legacy. Labels are an administrative rule. Risk scores must support voluntary services, not punitive decisions."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the database and data preparation stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-02-02"
+    },
+    {
+      "question_id": "student-dropout-risk-prediction-m02-q06",
+      "question_text": "Which investigation step best validates database and data preparation?",
+      "options": [
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q06-o1",
+          "text": "The module requires tracing input, transformation, output, and failure behavior."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q06-o2",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q06-o3",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q06-o4",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-02-03"
+    },
+    {
+      "question_id": "student-dropout-risk-prediction-m02-q07",
+      "question_text": "Which test design matches the module guidance for database and data preparation?",
+      "options": [
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q07-o4",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q07-o1",
+          "text": "A test or diagnostic should check both expected output and an edge case."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q07-o2",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q07-o3",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain SQL creation, missingness, and engineered features in plain language and connect it to pipeline/__1_and_2_Read_and_Describe_Data.py; pipeline/__3_Missing_Data_Processing.py.",
+      "related_lesson_id": "lesson-02-01"
+    },
+    {
+      "question_id": "student-dropout-risk-prediction-m02-q08",
+      "question_text": "A UI displays a result during database and data preparation. What can safely be concluded?",
+      "options": [
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q08-o3",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q08-o4",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q08-o1",
+          "text": "An interface can be present without proving a model or backend is connected."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q08-o2",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the database and data preparation stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-02-02"
+    },
+    {
+      "question_id": "student-dropout-risk-prediction-m02-q09",
+      "question_text": "How should a learner interpret an output from database and data preparation?",
+      "options": [
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q09-o2",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q09-o3",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q09-o4",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q09-o1",
+          "text": "An output score is not automatically calibrated probability or proof."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-02-03"
+    },
+    {
+      "question_id": "student-dropout-risk-prediction-m02-q10",
+      "question_text": "Which data-handling practice is appropriate while studying database and data preparation?",
+      "options": [
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q10-o1",
+          "text": "Sensitive inputs require minimization, access controls, and a human correction path."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q10-o2",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q10-o3",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "student-dropout-risk-prediction-m02-q10-o4",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Explain SQL creation, missingness, and engineered features in plain language and connect it to pipeline/__1_and_2_Read_and_Describe_Data.py; pipeline/__3_Missing_Data_Processing.py.",
+      "related_lesson_id": "lesson-02-01"
+    }
+  ]
+}

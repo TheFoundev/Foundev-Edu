@@ -1,0 +1,43 @@
+{
+  "module_id": "abstractive-text-summarizer-module-06",
+  "title": "Evaluation, Limits, and Extensions",
+  "description": "Begins with a plain-language explanation of error analysis, neural checkpoint gap, and responsible interpretation, then traces the corresponding implementation and its limits in abstractive-text-summarizer.",
+  "learning_objectives": [
+    "Explain error analysis, neural checkpoint gap, and responsible interpretation in plain language and connect it to modeling/run.py; PROJECT_OVERVIEW.md; WORKFLOW.md.",
+    "Trace one input through the evaluation, limits, and extensions stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-06-01",
+    "lesson-06-02",
+    "lesson-06-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "error analysis, neural checkpoint gap, and responsible interpretation",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the evaluation, limits, and extensions stage through the cited source paths.",
+    "Produce a small test or diagnostic for error analysis, neural checkpoint gap, and responsible interpretation."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "modeling/run.py",
+    "PROJECT_OVERVIEW.md",
+    "WORKFLOW.md"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "evaluate",
+    "excerpt_file": "modeling/run.py"
+  }
+}

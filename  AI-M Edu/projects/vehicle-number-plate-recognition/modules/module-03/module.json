@@ -1,0 +1,42 @@
+{
+  "module_id": "vehicle-number-plate-recognition-module-03",
+  "title": "Detection Output and Unwired OCR Helpers",
+  "description": "Begins with a plain-language explanation of bounding boxes, annotated images, and why the OCR helpers are not called, then traces the corresponding implementation and its limits in vehicle-number-plate-recognition.",
+  "learning_objectives": [
+    "Explain bounding boxes, annotated images, and why the OCR helpers are not called in plain language and connect it to utils/helper.py; app.py.",
+    "Trace one input through the detection output and unwired ocr helpers stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-03-01",
+    "lesson-03-02",
+    "lesson-03-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "bounding boxes, annotated images, and why the OCR helpers are not called",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the detection output and unwired ocr helpers stage through the cited source paths.",
+    "Produce a small test or diagnostic for bounding boxes, annotated images, and why the OCR helpers are not called."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "utils/helper.py",
+    "app.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "filter_text",
+    "excerpt_file": "utils/helper.py"
+  }
+}

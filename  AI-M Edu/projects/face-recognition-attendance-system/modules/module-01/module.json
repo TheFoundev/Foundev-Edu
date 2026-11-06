@@ -1,0 +1,42 @@
+{
+  "module_id": "face-recognition-attendance-system-module-01",
+  "title": "Capture and Identity Records",
+  "description": "Begins with a plain-language explanation of student registration, image capture, and CSV registry, then traces the corresponding implementation and its limits in face-recognition-attendance-system.",
+  "learning_objectives": [
+    "Explain student registration, image capture, and CSV registry in plain language and connect it to AMS_Run.py; training.py.",
+    "Trace one input through the capture and identity records stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-01-01",
+    "lesson-01-02",
+    "lesson-01-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "student registration, image capture, and CSV registry",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the capture and identity records stage through the cited source paths.",
+    "Produce a small test or diagnostic for student registration, image capture, and CSV registry."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "AMS_Run.py",
+    "training.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "take_img",
+    "excerpt_file": "AMS_Run.py"
+  }
+}

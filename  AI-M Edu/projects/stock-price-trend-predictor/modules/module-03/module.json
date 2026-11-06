@@ -1,0 +1,42 @@
+{
+  "module_id": "stock-price-trend-predictor-module-03",
+  "title": "Research Signal and Look-Ahead Bias",
+  "description": "Begins with a plain-language explanation of rolling mean shifted prior window and historical signal, then traces the corresponding implementation and its limits in stock-price-trend-predictor.",
+  "learning_objectives": [
+    "Explain rolling mean shifted prior window and historical signal in plain language and connect it to src/features/build_features.py; notebooks/01-cpj-machine-learning.ipynb.",
+    "Trace one input through the research signal and look-ahead bias stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-03-01",
+    "lesson-03-02",
+    "lesson-03-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "rolling mean shifted prior window and historical signal",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the research signal and look-ahead bias stage through the cited source paths.",
+    "Produce a small test or diagnostic for rolling mean shifted prior window and historical signal."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/features/build_features.py",
+    "notebooks/01-cpj-machine-learning.ipynb"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "research",
+    "excerpt_file": "src/features/build_features.py"
+  }
+}

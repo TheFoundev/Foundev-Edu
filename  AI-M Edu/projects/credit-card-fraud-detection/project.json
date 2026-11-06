@@ -1,0 +1,29 @@
+{
+  "title": "FraudGuard: Credit Card Fraud Detection",
+  "slug": "credit-card-fraud-detection",
+  "description": "credit-card-fraud-detection FraudGuard Console fraud-detection \u2014 Cloud Academy (https://github.com/cloudacademy/fraud-detection) Card transactions are overwhelmingly legitimate (~0.17 % fraud), so an untrained or mis-tuned classifier either misses fraud or buries the team in false positives. The decision threshold is a business decision, not a modelling artefact. Serve a calibrated fraud probability per transaction over a small, well-specified HTTP API, and give an operator a console that scores single transactions and batches, bands the risk, and keeps an audit trail. Fraud analysts / SOC operators using the console; backend developers integrating /predict into a payment flow. POST /predict",
+  "problem_solved": "Two hard facts shape this design.\n\n**Imbalance.** In the classic credit-card transaction dataset, 284 807 transactions contain 492 frauds \u2014 0.17 %. Accuracy is therefore meaningless: a model that always answers \"legitimate\" scores 99.83 %.\n\n**Asymmetric cost.** Missing a fraud is far more expensive than investigating a false positive, so the model should be optimised for **recall**, and the *decision* of what score to act on should be separated from the model.\n\nThe upstream project already frames the task this way (\"SMOTE vs class weights, precision-recall tradeoff and cost-aware thresholding\"), and the shipped implementation follows the **class-weight** branch: `LogisticRegression(class_weight=\"balanced\")` inside a `GridSearchCV` scored by **macro recall**, with the operational threshold living in the front-end.\n\n---",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "python-dateutil==2.6.1",
+    "numpy==1.13.1",
+    "pandas==0.20.3",
+    "scikit-learn==0.18.2",
+    "scipy==0.19.1",
+    "Flask==0.12.2"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of FraudGuard: Credit Card Fraud Detection using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

@@ -1,0 +1,24 @@
+{
+  "title": "YieldSight: County-Level Crop Yield Prediction",
+  "slug": "crop-yield-prediction",
+  "description": "crop-yield-prediction <https://github.com/gabrieltseng/pycrop-yield-prediction> \u2014 a PyTorch port of JiaxuanYou/cropyieldprediction Deep Gaussian Process for Crop Yield Prediction Based on Remote Sensing Data \u2014 AAAI 2017 \u2014 <https://cs.stanford.edu/~ermon/papers/cropyieldAAAI17.pdf> Python Fire CLI (run.py) + a static HTML/CSS/JavaScript console (index.html) Predict county-level US soybean yield (bushels per acre) from MODIS satellite imagery for 2009\u20132015 1-D CNN over 9-band histograms or an LSTM over the same histograms, optionally topped with a deep Gaussian process run.py \u2014 Python Fire commands export, process, engineer, traincnn, trainrnn index.html + css/style.css + js/app.js \u2014 static, n",
+  "problem_solved": "Agricultural planners and insurers need **yield estimates before the harvest**, at county resolution, for tens of thousands of counties \u2014 without sending anyone out to collect ground samples. Manual sampling is accurate but slow, expensive and geographically sparse.\n\nSatellite remote sensing offers coverage of every field, but raw imagery is far too large and noisy to model directly: a decade of 8-day composites for the United States is hundreds of gigabytes, and each pixel's reflectance is dominated by weather, soil and sensor noise rather than by the crop's final productivity.\n\nThe specific problem this code solves is therefore a **scale-and-signal** problem:\n\n1. **Scale** \u2014 reduce ~110 GB of MODIS composites to a tensor a GPU can train on.\n2. **Signal** \u2014 compress each county-year into a representation that still predicts yield.\n3. **Uncertainty** \u2014 yield estimates are used for insurance and policy decisions, so a point prediction is not enough; the system must also express confidence.\n\n---",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "See source project dependency manifest and setup guide"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of YieldSight: County-Level Crop Yield Prediction using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

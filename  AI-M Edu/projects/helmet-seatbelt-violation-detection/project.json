@@ -1,0 +1,31 @@
+{
+  "title": "Signal Control Room: Helmet and Seatbelt Detection",
+  "slug": "helmet-seatbelt-violation-detection",
+  "description": "Signal Control Room (desktop title: Traffic Violation Detection System) helmet-seatbelt-violation-detection <https://github.com/3TInfoTinker/trafficviolationdetection> Helmet violations are enforced manually, from roadside posts, with no durable machine-readable evidence and no way to review what a camera saw afterwards. Watch road cameras continuously, detect riders without a helmet, log every violation with camera id, timestamp, confidence and officer, and give operators role-scoped reports and exports. Traffic officers on duty, administrators managing cameras and reviewing the log, and the general public as a read-only viewer of statistics. Rows in the SQLite violations table (violationid",
+  "problem_solved": "Traffic-police camera deployments produce a lot of video and very little structured evidence. Three gaps follow from that:\n\n1. **No automatic screening.** An officer watching four feeds cannot scan every frame of every camera for a missing helmet; attention lapses within minutes.\n2. **No usable record.** When something does look wrong, what exists is a clip or a memory, not a row with a camera id, a timestamp and a confidence.\n3. **No access control around the evidence.** Anyone who can reach the monitoring station can currently browse everything, and there is no distinction between an administrator, an officer and the public.\n\nThe repository was designed to close these gaps with a YOLO detector, a violation decision layer, a SQLite evidence store and a role-aware operator console. As shipped, **only the helmet detector is implemented**, and the default model is a generic COCO checkpoint rather than a trained helmet model.",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "opencv-python",
+    "numpy",
+    "pillow",
+    "torch",
+    "torchvision",
+    "ultralytics",
+    "tk",
+    "pytest"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of Signal Control Room: Helmet and Seatbelt Detection using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

@@ -1,0 +1,42 @@
+{
+  "module_id": "college-faq-chatbot-rag-module-08",
+  "title": "Capstone and Deployment Boundaries",
+  "description": "Begins with a plain-language explanation of static console versus backend, config, and production gaps, then traces the corresponding implementation and its limits in college-faq-chatbot-rag.",
+  "learning_objectives": [
+    "Explain static console versus backend, config, and production gaps in plain language and connect it to config/settings.py; WORKFLOW.md.",
+    "Trace one input through the capstone and deployment boundaries stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-08-01",
+    "lesson-08-02",
+    "lesson-08-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "static console versus backend, config, and production gaps",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the capstone and deployment boundaries stage through the cited source paths.",
+    "Produce a small test or diagnostic for static console versus backend, config, and production gaps."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "config/settings.py",
+    "WORKFLOW.md"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "Settings",
+    "excerpt_file": "config/settings.py"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "module_id": "resume-screening-and-jd-matching-module-01",
+  "title": "Text Extraction and Input Boundaries",
+  "description": "Begins with a plain-language explanation of resume documents, job descriptions, and parsing, then traces the corresponding implementation and its limits in resume-screening-and-jd-matching.",
+  "learning_objectives": [
+    "Explain resume documents, job descriptions, and parsing in plain language and connect it to src/extractor.py; app.py.",
+    "Trace one input through the text extraction and input boundaries stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-01-01",
+    "lesson-01-02",
+    "lesson-01-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "resume documents, job descriptions, and parsing",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the text extraction and input boundaries stage through the cited source paths.",
+    "Produce a small test or diagnostic for resume documents, job descriptions, and parsing."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/extractor.py",
+    "app.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "extract_text_from_pdf",
+    "excerpt_file": "src/extractor.py"
+  }
+}

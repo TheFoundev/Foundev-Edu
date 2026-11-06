@@ -1,0 +1,42 @@
+{
+  "module_id": "sign-language-to-text-translation-module-03",
+  "title": "Rule-Based Gloss Restructuring",
+  "description": "Begins with a plain-language explanation of mapping_rules and regular expression transformations, then traces the corresponding implementation and its limits in sign-language-to-text-translation.",
+  "learning_objectives": [
+    "Explain mapping_rules and regular expression transformations in plain language and connect it to sign_language_translator/languages/sign/mapping_rules.py; sign_language_translator/languages/sign/pakistan_sign_language.py.",
+    "Trace one input through the rule-based gloss restructuring stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-03-01",
+    "lesson-03-02",
+    "lesson-03-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "mapping_rules and regular expression transformations",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the rule-based gloss restructuring stage through the cited source paths.",
+    "Produce a small test or diagnostic for mapping_rules and regular expression transformations."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "sign_language_translator/languages/sign/mapping_rules.py",
+    "sign_language_translator/languages/sign/pakistan_sign_language.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "restructure_sentence",
+    "excerpt_file": "sign_language_translator/languages/sign/pakistan_sign_language.py"
+  }
+}

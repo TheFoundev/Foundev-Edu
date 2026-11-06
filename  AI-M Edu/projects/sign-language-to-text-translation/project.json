@@ -1,0 +1,32 @@
+{
+  "title": "SignBridge: Rule-Based Sign Language Text Translation",
+  "slug": "sign-language-to-text-translation",
+  "description": "sign-language-to-text-translation signlanguagetranslator v0.8.1 (Poetry, Apache-2.0) SignBridge Studio (index.html, css/style.css, js/app.js) Hearing and hearing-impaired people cannot communicate directly; most deaf people in the developing world use a regional sign language that has almost no digital text corpus, so mainstream speech/OCR translation tools are useless to them. Provide a reusable, extensible Python framework that (a) converts written text into a sequence of sign-language video clips using a dictionary of recorded signs, and (b) converts sign videos into machine-learning-friendly landmark/embedding vectors so that sign-to-text models can be trained. Deaf and hearing-impaired",
+  "problem_solved": "Automatic Sign Language Translation (ASLT) is hard for three compounding reasons:\n\n1. **No written corpus.** Sign languages have no standard orthography, so there is no text to align with, and no large parallel text corpus to train a sequence-to-sequence model on.\n2. **Spatial and temporal structure.** A sign is a 3-D trajectory of hand, arm and body configurations. It is not a sequence of discrete symbols, so it must be reduced to a numeric representation (landmarks) before any learning can happen.\n3. **Regional variation and resource scarcity.** Each country has its own sign language and its own dictionary of recorded clips. Pakistan Sign Language (PSL) has a curated `pk-hfad` clip collection, but the tooling to use it did not exist.\n\nThe upstream project answers this with a **rule-based** first step: given a dictionary of word-level sign videos plus a JSON mapping from text tokens to those videos, you can assemble a sentence into a video by concatenating clips. The same framework then offers a landmark extractor to produce training data for the *neural* sign-to-text models that would come later.",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "opencv_contrib_python==4.8.0.74",
+    "tqdm==4.65.0",
+    "matplotlib==3.7.2",
+    "numpy==1.25.1",
+    "torch==2.1.2",
+    "click==8.1.6",
+    "requests==2.31.0",
+    "mediapipe==0.10.11",
+    "deep_translator==1.11.4"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of SignBridge: Rule-Based Sign Language Text Translation using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

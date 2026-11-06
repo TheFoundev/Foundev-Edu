@@ -1,0 +1,43 @@
+{
+  "module_id": "face-recognition-attendance-system-module-05",
+  "title": "Desktop Workflow and Assets",
+  "description": "Begins with a plain-language explanation of training.py, retrain.py, testing.py, and GUI boundaries, then traces the corresponding implementation and its limits in face-recognition-attendance-system.",
+  "learning_objectives": [
+    "Explain training.py, retrain.py, testing.py, and GUI boundaries in plain language and connect it to AMS_Run.py; index.html; WORKFLOW.md.",
+    "Trace one input through the desktop workflow and assets stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-05-01",
+    "lesson-05-02",
+    "lesson-05-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "training.py, retrain.py, testing.py, and GUI boundaries",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the desktop workflow and assets stage through the cited source paths.",
+    "Produce a small test or diagnostic for training.py, retrain.py, testing.py, and GUI boundaries."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "AMS_Run.py",
+    "index.html",
+    "WORKFLOW.md"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "trainimg",
+    "excerpt_file": "AMS_Run.py"
+  }
+}

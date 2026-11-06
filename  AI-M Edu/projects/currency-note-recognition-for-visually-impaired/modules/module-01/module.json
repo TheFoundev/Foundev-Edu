@@ -1,0 +1,42 @@
+{
+  "module_id": "currency-note-recognition-for-visually-impaired-module-01",
+  "title": "Recognition Task and Reference Images",
+  "description": "Begins with a plain-language explanation of denomination labels, camera input, and local reference set, then traces the corresponding implementation and its limits in currency-note-recognition-for-visually-impaired.",
+  "learning_objectives": [
+    "Explain denomination labels, camera input, and local reference set in plain language and connect it to Currency Detection using OpenCV in ML/detect.py; Currency Detection using OpenCV in ML/utils.py.",
+    "Trace one input through the recognition task and reference images stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-01-01",
+    "lesson-01-02",
+    "lesson-01-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "denomination labels, camera input, and local reference set",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the recognition task and reference images stage through the cited source paths.",
+    "Produce a small test or diagnostic for denomination labels, camera input, and local reference set."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "Currency Detection using OpenCV in ML/detect.py",
+    "Currency Detection using OpenCV in ML/utils.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "detectAndCompute",
+    "excerpt_file": "Currency Detection using OpenCV in ML/detect.py"
+  }
+}

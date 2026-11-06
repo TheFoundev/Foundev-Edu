@@ -1,0 +1,43 @@
+{
+  "module_id": "retail-sales-forecasting-module-01",
+  "title": "Transaction Data and Business Questions",
+  "description": "Begins with a plain-language explanation of orders, products, region, sales, profit, then traces the corresponding implementation and its limits in retail-sales-forecasting.",
+  "learning_objectives": [
+    "Explain orders, products, region, sales, profit in plain language and connect it to index.html; js/app.js; dataset/Superstore.csv.",
+    "Trace one input through the transaction data and business questions stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-01-01",
+    "lesson-01-02",
+    "lesson-01-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "orders, products, region, sales, profit",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the transaction data and business questions stage through the cited source paths.",
+    "Produce a small test or diagnostic for orders, products, region, sales, profit."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "index.html",
+    "js/app.js",
+    "dataset/Superstore.csv"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "loadData",
+    "excerpt_file": "js/app.js"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "module_id": "credit-card-fraud-detection-module-04",
+  "title": "Training and Model Artifacts",
+  "description": "Begins with a plain-language explanation of train.py, serialization, and service loading, then traces the corresponding implementation and its limits in credit-card-fraud-detection.",
+  "learning_objectives": [
+    "Explain train.py, serialization, and service loading in plain language and connect it to src/train.py; src/flask_app.py.",
+    "Trace one input through the training and model artifacts stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-04-01",
+    "lesson-04-02",
+    "lesson-04-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "train.py, serialization, and service loading",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the training and model artifacts stage through the cited source paths.",
+    "Produce a small test or diagnostic for train.py, serialization, and service loading."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/train.py",
+    "src/flask_app.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "save_search_results",
+    "excerpt_file": "src/train.py"
+  }
+}

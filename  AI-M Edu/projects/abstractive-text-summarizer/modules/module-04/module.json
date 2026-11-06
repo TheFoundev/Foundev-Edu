@@ -1,0 +1,42 @@
+{
+  "module_id": "abstractive-text-summarizer-module-04",
+  "title": "Research Pipeline and Data",
+  "description": "Begins with a plain-language explanation of pairing, generation, augmentation, and training entrypoints, then traces the corresponding implementation and its limits in abstractive-text-summarizer.",
+  "learning_objectives": [
+    "Explain pairing, generation, augmentation, and training entrypoints in plain language and connect it to modeling/run.py; data_pairing/pair_data.py.",
+    "Trace one input through the research pipeline and data stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-04-01",
+    "lesson-04-02",
+    "lesson-04-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "pairing, generation, augmentation, and training entrypoints",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the research pipeline and data stage through the cited source paths.",
+    "Produce a small test or diagnostic for pairing, generation, augmentation, and training entrypoints."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "modeling/run.py",
+    "data_pairing/pair_data.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "train",
+    "excerpt_file": "modeling/run.py"
+  }
+}

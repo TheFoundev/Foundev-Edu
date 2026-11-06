@@ -1,0 +1,42 @@
+{
+  "module_id": "college-faq-chatbot-rag-module-04",
+  "title": "Hybrid Ranking and Adaptive Retrieval",
+  "description": "Begins with a plain-language explanation of BM25, weighted fusion, adaptive-k, and relevance gate, then traces the corresponding implementation and its limits in college-faq-chatbot-rag.",
+  "learning_objectives": [
+    "Explain BM25, weighted fusion, adaptive-k, and relevance gate in plain language and connect it to src/retriever.py; src/query_normalizer.py.",
+    "Trace one input through the hybrid ranking and adaptive retrieval stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-04-01",
+    "lesson-04-02",
+    "lesson-04-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "BM25, weighted fusion, adaptive-k, and relevance gate",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the hybrid ranking and adaptive retrieval stage through the cited source paths.",
+    "Produce a small test or diagnostic for BM25, weighted fusion, adaptive-k, and relevance gate."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/retriever.py",
+    "src/query_normalizer.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "_hybrid_retrieve",
+    "excerpt_file": "src/retriever.py"
+  }
+}

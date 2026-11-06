@@ -1,0 +1,135 @@
+{
+  "module_id": "emotion-detection-from-text-and-face-module-01",
+  "answers": [
+    {
+      "question_id": "emotion-detection-from-text-and-face-m01-q01",
+      "correct_option_id": "emotion-detection-from-text-and-face-m01-q01-o1",
+      "explanation": "The lesson establishes that understand text versus face input and label interpretation. In this repository, the claim must be grounded in the documented behavior and source paths: backend/app.py; frontend/app/text-music/page.tsx. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "emotion-detection-from-text-and-face-m01-q01-o2": "The project has documented missing or conditional artifacts, so the lesson requires checking runtime prerequisites before claiming behavior.",
+        "emotion-detection-from-text-and-face-m01-q01-o3": "A front end can be disconnected or static; the lesson distinguishes presentation code from the model and backend path.",
+        "emotion-detection-from-text-and-face-m01-q01-o4": "The lesson calls for task-appropriate metrics and error analysis; one aggregate score cannot establish reliability across classes or conditions."
+      },
+      "concept_tested": "plain-language model of the stage",
+      "related_lesson_id": "lesson-01-01",
+      "supporting_reference": "backend/app.py; frontend/app/text-music/page.tsx"
+    },
+    {
+      "question_id": "emotion-detection-from-text-and-face-m01-q02",
+      "correct_option_id": "emotion-detection-from-text-and-face-m01-q02-o1",
+      "explanation": "The lesson establishes that ### The face classifier (custom CNN)\n\n- **Architecture:** the repository does not contain the training code for the shipped\n  weights, and `models/emotion_model.h5` is not in the repository. What the code *does*\n  tell us is precise: the input is a single RGB tensor of shape `(1, 224, 224, 3)`\n  (`preprocess_face()`), the output is a 7-element vector (`backend/app.py:129` iterates\n  over 7 classes and `emotion_labels.json` contains exactly 7 entries), and the class\n  order is fixed by `emotion_labels.json`:\n  `angry=0, disgust=1, fear=2, happy=3, neutral=4, sad=5, surprise=6`.\n- **Preprocessing contract:** BGR\u2192RGB (`cv2.COLOR_BGR2RGB`) \u2192 `cv2.resize(rgb, (224,224))`\n  \u2192 `astype(\"float32\") / 255.0` \u2192 `reshape(1, 224, 224, 3)`. No mean/std normalisation is\n  applied, so the model expects plain `[0,1]` scaling.\n- **Decision rule:** a plain arg-max over the softmax output. `predicted_idx = int(\n  np.argmax(predictions))`; the label comes from `idx_to_label` (falling back to\n  `\"neutral\"` for an out-of-range index) and the confidence is that entry rounded to 4\n  decimals. There is no thre\n\n[Excerpt shortened; consult the cited source guide for full detail.]\n\nConnect this explanation to `backend/app.py` and the source focus `predict`. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "emotion-detection-from-text-and-face-m01-q02-o4": "A numeric score is not automatically calibrated; the lesson explicitly warns against turning an unvalidated score into a decision.",
+        "emotion-detection-from-text-and-face-m01-q02-o2": "A front end can be disconnected or static; the lesson distinguishes presentation code from the model and backend path.",
+        "emotion-detection-from-text-and-face-m01-q02-o3": "The lesson calls for task-appropriate metrics and error analysis; one aggregate score cannot establish reliability across classes or conditions."
+      },
+      "concept_tested": "source-specific algorithm behavior",
+      "related_lesson_id": "lesson-01-02",
+      "supporting_reference": "backend/app.py; frontend/app/text-music/page.tsx"
+    },
+    {
+      "question_id": "emotion-detection-from-text-and-face-m01-q03",
+      "correct_option_id": "emotion-detection-from-text-and-face-m01-q03-o1",
+      "explanation": "The lesson establishes that validate outputs and identify limitations for emotion labels and modalities. In this repository, the claim must be grounded in the documented behavior and source paths: backend/app.py; frontend/app/text-music/page.tsx. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "emotion-detection-from-text-and-face-m01-q03-o3": "A numeric score is not automatically calibrated; the lesson explicitly warns against turning an unvalidated score into a decision.",
+        "emotion-detection-from-text-and-face-m01-q03-o4": "This violates the lesson\u2019s data-minimization guidance; use synthetic or consented data and avoid sensitive logs.",
+        "emotion-detection-from-text-and-face-m01-q03-o2": "The lesson calls for task-appropriate metrics and error analysis; one aggregate score cannot establish reliability across classes or conditions."
+      },
+      "concept_tested": "edge-case reasoning",
+      "related_lesson_id": "lesson-01-03",
+      "supporting_reference": "backend/app.py; frontend/app/text-music/page.tsx"
+    },
+    {
+      "question_id": "emotion-detection-from-text-and-face-m01-q04",
+      "correct_option_id": "emotion-detection-from-text-and-face-m01-q04-o1",
+      "explanation": "The lesson establishes that backend/app.py; frontend/app/text-music/page.tsx is the repository location to inspect for this module stage. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "emotion-detection-from-text-and-face-m01-q04-o2": "A numeric score is not automatically calibrated; the lesson explicitly warns against turning an unvalidated score into a decision.",
+        "emotion-detection-from-text-and-face-m01-q04-o3": "This violates the lesson\u2019s data-minimization guidance; use synthetic or consented data and avoid sensitive logs.",
+        "emotion-detection-from-text-and-face-m01-q04-o4": "The taught test plan includes edge and missing-resource cases, not only the happy path."
+      },
+      "concept_tested": "source navigation",
+      "related_lesson_id": "lesson-01-01",
+      "supporting_reference": "backend/app.py; frontend/app/text-music/page.tsx"
+    },
+    {
+      "question_id": "emotion-detection-from-text-and-face-m01-q05",
+      "correct_option_id": "emotion-detection-from-text-and-face-m01-q05-o1",
+      "explanation": "The lesson establishes that the expected face weights are absent and training provenance is unavailable. Facial/text emotion labels are uncertain and sensitive; no mood inference should be treated as fact. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "emotion-detection-from-text-and-face-m01-q05-o2": "This violates the lesson\u2019s data-minimization guidance; use synthetic or consented data and avoid sensitive logs.",
+        "emotion-detection-from-text-and-face-m01-q05-o3": "The taught test plan includes edge and missing-resource cases, not only the happy path.",
+        "emotion-detection-from-text-and-face-m01-q05-o4": "Titles and catalog descriptions are not implementation evidence; the lesson requires checking source files and workflow documentation."
+      },
+      "concept_tested": "implementation limitation",
+      "related_lesson_id": "lesson-01-02",
+      "supporting_reference": "backend/app.py; frontend/app/text-music/page.tsx"
+    },
+    {
+      "question_id": "emotion-detection-from-text-and-face-m01-q06",
+      "correct_option_id": "emotion-detection-from-text-and-face-m01-q06-o1",
+      "explanation": "The lesson establishes that the module requires tracing input, transformation, output, and failure behavior. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "emotion-detection-from-text-and-face-m01-q06-o4": "The lesson requires marking proposed work separately; roadmap language does not establish shipped functionality.",
+        "emotion-detection-from-text-and-face-m01-q06-o2": "The taught test plan includes edge and missing-resource cases, not only the happy path.",
+        "emotion-detection-from-text-and-face-m01-q06-o3": "Titles and catalog descriptions are not implementation evidence; the lesson requires checking source files and workflow documentation."
+      },
+      "concept_tested": "data-flow tracing",
+      "related_lesson_id": "lesson-01-03",
+      "supporting_reference": "backend/app.py; frontend/app/text-music/page.tsx"
+    },
+    {
+      "question_id": "emotion-detection-from-text-and-face-m01-q07",
+      "correct_option_id": "emotion-detection-from-text-and-face-m01-q07-o1",
+      "explanation": "The lesson establishes that a test or diagnostic should check both expected output and an edge case. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "emotion-detection-from-text-and-face-m01-q07-o3": "The lesson requires marking proposed work separately; roadmap language does not establish shipped functionality.",
+        "emotion-detection-from-text-and-face-m01-q07-o4": "This incorrectly treats a mixed pipeline as wholly learned; inspect each stage because rules, retrieval, interfaces, and models may differ.",
+        "emotion-detection-from-text-and-face-m01-q07-o2": "Titles and catalog descriptions are not implementation evidence; the lesson requires checking source files and workflow documentation."
+      },
+      "concept_tested": "testing practice",
+      "related_lesson_id": "lesson-01-01",
+      "supporting_reference": "backend/app.py; frontend/app/text-music/page.tsx"
+    },
+    {
+      "question_id": "emotion-detection-from-text-and-face-m01-q08",
+      "correct_option_id": "emotion-detection-from-text-and-face-m01-q08-o1",
+      "explanation": "The lesson establishes that an interface can be present without proving a model or backend is connected. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "emotion-detection-from-text-and-face-m01-q08-o2": "The lesson requires marking proposed work separately; roadmap language does not establish shipped functionality.",
+        "emotion-detection-from-text-and-face-m01-q08-o3": "This incorrectly treats a mixed pipeline as wholly learned; inspect each stage because rules, retrieval, interfaces, and models may differ.",
+        "emotion-detection-from-text-and-face-m01-q08-o4": "Source tracing is required by the lesson: behavior must be linked to an input, transformation, output, and cited implementation."
+      },
+      "concept_tested": "system-boundary reasoning",
+      "related_lesson_id": "lesson-01-02",
+      "supporting_reference": "backend/app.py; frontend/app/text-music/page.tsx"
+    },
+    {
+      "question_id": "emotion-detection-from-text-and-face-m01-q09",
+      "correct_option_id": "emotion-detection-from-text-and-face-m01-q09-o1",
+      "explanation": "The lesson establishes that an output score is not automatically calibrated probability or proof. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "emotion-detection-from-text-and-face-m01-q09-o2": "This incorrectly treats a mixed pipeline as wholly learned; inspect each stage because rules, retrieval, interfaces, and models may differ.",
+        "emotion-detection-from-text-and-face-m01-q09-o3": "Source tracing is required by the lesson: behavior must be linked to an input, transformation, output, and cited implementation.",
+        "emotion-detection-from-text-and-face-m01-q09-o4": "The project has documented missing or conditional artifacts, so the lesson requires checking runtime prerequisites before claiming behavior."
+      },
+      "concept_tested": "score interpretation",
+      "related_lesson_id": "lesson-01-03",
+      "supporting_reference": "backend/app.py; frontend/app/text-music/page.tsx"
+    },
+    {
+      "question_id": "emotion-detection-from-text-and-face-m01-q10",
+      "correct_option_id": "emotion-detection-from-text-and-face-m01-q10-o1",
+      "explanation": "The lesson establishes that sensitive inputs require minimization, access controls, and a human correction path. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "emotion-detection-from-text-and-face-m01-q10-o4": "A front end can be disconnected or static; the lesson distinguishes presentation code from the model and backend path.",
+        "emotion-detection-from-text-and-face-m01-q10-o2": "Source tracing is required by the lesson: behavior must be linked to an input, transformation, output, and cited implementation.",
+        "emotion-detection-from-text-and-face-m01-q10-o3": "The project has documented missing or conditional artifacts, so the lesson requires checking runtime prerequisites before claiming behavior."
+      },
+      "concept_tested": "responsible data handling",
+      "related_lesson_id": "lesson-01-01",
+      "supporting_reference": "backend/app.py; frontend/app/text-music/page.tsx"
+    }
+  ]
+}

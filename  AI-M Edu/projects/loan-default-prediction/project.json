@@ -1,0 +1,24 @@
+{
+  "title": "Underwriting Desk: Loan Default Risk Modeling",
+  "slug": "loan-default-prediction",
+  "description": "Underwriting Desk (browser title: Underwriting Desk \u2014 Loan Default Prediction (demo worksheet)) loan-default-prediction <https://github.com/songgc/loan-default-prediction> \u2014 stated in the upstream README to have won the Kaggle Loan Default Prediction competition Lending decisions need two answers at once \u2014 will this borrower default? and how much will we lose if they do? A single regressor on a heavily zero-inflated target answers neither well. Split the problem into a default probability and a loss severity, then apply severity only when the probability crosses a threshold, producing a submission-shaped id, loss file. The original competitor; today, a student or engineer studying the two-st",
+  "problem_solved": "The competition target `loss` is a severity in `[1, 100]` and is **exactly zero for the large majority of rows**. Two things follow.\n\n1. **The target is not a clean binary.** \"Did they default?\" and \"how much?\" are different questions, and a single model forced to answer both spends its capacity on a distribution that is mostly zeros.\n2. **Naive regression is a bad fit.** A gradient-boosted regressor trained on the raw target spends most of its splits distinguishing \"zero\" from \"non-zero\" and then predicts a near-constant severity for everybody who did default \u2014 which is exactly the information a lender needs and does not get.\n\nThe original solution therefore **decomposes** the problem: estimate a probability of default, estimate a severity conditional on default, and gate the second with the first.\n\nThe repository is a 2015-era Kaggle artifact. It is valuable as a model of the decomposition and of hand-engineered feature design, but it does not run unmodified on a current interpreter, and it ships no data and no weights.",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "See source project dependency manifest and setup guide"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of Underwriting Desk: Loan Default Risk Modeling using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

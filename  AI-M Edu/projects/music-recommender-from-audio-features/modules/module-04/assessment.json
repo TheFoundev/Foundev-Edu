@@ -1,0 +1,257 @@
+{
+  "module_id": "music-recommender-from-audio-features-module-04",
+  "title": "API and Dataset Flow",
+  "instructions": "Choose one best answer. Every question is based on this module; consult the lessons before answering.",
+  "questions": [
+    {
+      "question_id": "music-recommender-from-audio-features-m04-q01",
+      "question_text": "Which statement best explains api and dataset flow in this project?",
+      "options": [
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q01-o4",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q01-o1",
+          "text": "Understand 2261 rows, ten features, Flask endpoints, and static UI. In this repository, the claim must be grounded in the documented behavior and source paths: src/api.py; index.html; js/app.js."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q01-o2",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q01-o3",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain 2261 rows, ten features, Flask endpoints, and static UI in plain language and connect it to src/api.py; index.html; js/app.js.",
+      "related_lesson_id": "lesson-04-01"
+    },
+    {
+      "question_id": "music-recommender-from-audio-features-m04-q02",
+      "question_text": "When inspecting api and dataset flow, which implementation claim is supported by the module lessons?",
+      "options": [
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q02-o3",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q02-o4",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q02-o1",
+          "text": "### 1. Content-based filtering as geometry\n\nEach track is a point `x \u2208 \u211d\u00b9\u2070` \u2014 one coordinate per acoustic feature. \"Sounds like\" becomes \"is close to\". The catalogue of 2,261 points is a cloud; the seed is a query point; the answer is the neighbourhood.\n\nThe choice of distance function is the whole design decision, and cosine similarity is chosen for two specific reasons:\n\n- **Magnitude invariance.** Cosine compares *direction*, not length. A track that is uniformly \"louder\" on every axis (higher bpm *and* higher energy *and* higher valence) keeps the same similarity to the seed regardless of the overall scale. For audio, where absolute levels vary wildly across genres and eras, that is exactly the right behaviour: we want \"same shape of track\", not \"same numeric size\".\n- **Non-negative, bounded features.** After min-max scaling every coordinate lies in `[0, 1]`, so the vectors live in the non-negative orthant. The angle between two such vectors is bounded and interpretable, and the dot product is never negative.\n\nThe formula, as implemented in `js/app.js` and equivalent to `sklearn.\n\n[Excerpt shortened; consult the cited source guide for full detail.]\n\nConnect this explanation to `src/api.py` and the source focus `recommend`."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q02-o2",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Trace one input through the api and dataset flow stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-04-02"
+    },
+    {
+      "question_id": "music-recommender-from-audio-features-m04-q03",
+      "question_text": "A learner is tracing api and dataset flow. Which conclusion follows from the taught source behavior?",
+      "options": [
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q03-o2",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q03-o3",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q03-o4",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q03-o1",
+          "text": "Validate outputs and identify limitations for api and dataset flow. In this repository, the claim must be grounded in the documented behavior and source paths: src/api.py; index.html; js/app.js."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-04-03"
+    },
+    {
+      "question_id": "music-recommender-from-audio-features-m04-q04",
+      "question_text": "Which statement is the best source-grounded interpretation of api and dataset flow?",
+      "options": [
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q04-o1",
+          "text": "src/api.py; index.html; js/app.js is the repository location to inspect for this module stage."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q04-o2",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q04-o3",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q04-o4",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain 2261 rows, ten features, Flask endpoints, and static UI in plain language and connect it to src/api.py; index.html; js/app.js.",
+      "related_lesson_id": "lesson-04-01"
+    },
+    {
+      "question_id": "music-recommender-from-audio-features-m04-q05",
+      "question_text": "An engineer is reviewing api and dataset flow. Which risk or limitation should be documented?",
+      "options": [
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q05-o4",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q05-o1",
+          "text": "This is deterministic cosine-neighbor ranking over a local 2,261-row, ten-feature catalogue, not a learned recommender. Catalog coverage and popularity bias limit results."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q05-o2",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q05-o3",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the api and dataset flow stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-04-02"
+    },
+    {
+      "question_id": "music-recommender-from-audio-features-m04-q06",
+      "question_text": "Which investigation step best validates api and dataset flow?",
+      "options": [
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q06-o3",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q06-o4",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q06-o1",
+          "text": "The module requires tracing input, transformation, output, and failure behavior."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q06-o2",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-04-03"
+    },
+    {
+      "question_id": "music-recommender-from-audio-features-m04-q07",
+      "question_text": "Which test design matches the module guidance for api and dataset flow?",
+      "options": [
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q07-o2",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q07-o3",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q07-o4",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q07-o1",
+          "text": "A test or diagnostic should check both expected output and an edge case."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain 2261 rows, ten features, Flask endpoints, and static UI in plain language and connect it to src/api.py; index.html; js/app.js.",
+      "related_lesson_id": "lesson-04-01"
+    },
+    {
+      "question_id": "music-recommender-from-audio-features-m04-q08",
+      "question_text": "A UI displays a result during api and dataset flow. What can safely be concluded?",
+      "options": [
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q08-o1",
+          "text": "An interface can be present without proving a model or backend is connected."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q08-o2",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q08-o3",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q08-o4",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the api and dataset flow stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-04-02"
+    },
+    {
+      "question_id": "music-recommender-from-audio-features-m04-q09",
+      "question_text": "How should a learner interpret an output from api and dataset flow?",
+      "options": [
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q09-o4",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q09-o1",
+          "text": "An output score is not automatically calibrated probability or proof."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q09-o2",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q09-o3",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-04-03"
+    },
+    {
+      "question_id": "music-recommender-from-audio-features-m04-q10",
+      "question_text": "Which data-handling practice is appropriate while studying api and dataset flow?",
+      "options": [
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q10-o3",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q10-o4",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q10-o1",
+          "text": "Sensitive inputs require minimization, access controls, and a human correction path."
+        },
+        {
+          "option_id": "music-recommender-from-audio-features-m04-q10-o2",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Explain 2261 rows, ten features, Flask endpoints, and static UI in plain language and connect it to src/api.py; index.html; js/app.js.",
+      "related_lesson_id": "lesson-04-01"
+    }
+  ]
+}

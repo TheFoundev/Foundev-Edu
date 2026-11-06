@@ -1,0 +1,42 @@
+{
+  "module_id": "document-plagiarism-checker-module-05",
+  "title": "Flask Routes and State",
+  "description": "Begins with a plain-language explanation of request/response, stored scans, and front-end integration, then traces the corresponding implementation and its limits in document-plagiarism-checker.",
+  "learning_objectives": [
+    "Explain request/response, stored scans, and front-end integration in plain language and connect it to app.py; static/js/app.js.",
+    "Trace one input through the flask routes and state stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-05-01",
+    "lesson-05-02",
+    "lesson-05-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "request/response, stored scans, and front-end integration",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the flask routes and state stage through the cited source paths.",
+    "Produce a small test or diagnostic for request/response, stored scans, and front-end integration."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "app.py",
+    "static/js/app.js"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "plagiarism",
+    "excerpt_file": "app.py"
+  }
+}

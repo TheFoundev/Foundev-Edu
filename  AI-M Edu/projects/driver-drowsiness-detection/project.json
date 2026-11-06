@@ -1,0 +1,35 @@
+{
+  "title": "Cockpit: Driver Drowsiness Detection",
+  "slug": "driver-drowsiness-detection",
+  "description": "Cockpit \u2014 Fatigue Monitor (interface) / Driver Drowsiness Detection System (project) driver-drowsiness-detection Drowsy driving is a leading cause of road accidents. A driver who is falling asleep at the wheel cannot be relied on to notice their own deterioration \u2014 and a passenger is often asleep too. Measure eye openness continuously from a camera, detect the moment the eyes stay closed long enough to mean \"micro-sleep\", and sound an alarm that is loud enough to wake the driver. Long-haul drivers; drivers on night shifts; drivers on medication; road-safety researchers; students studying EAR-based fatigue detection. A live video window with eye landmarks and a blink counter, a ! ! ! DROWSINE",
+  "problem_solved": "Blink rate and eye-closure duration are the cheapest physiological proxies for mental\nfatigue that a camera can read. A driver's eyes are open almost all the time while\nawake; as fatigue sets in, blinks get longer and more frequent, and eventually the eyes\nstay closed for a fraction of a second \u2014 a *micro-sleep*. The critical quantity is\ntherefore not \"is the eye closed\" but \"how long has the eye been closed\", because a\n100 ms blink is normal and a 1.5 s closure is a hazard.\n\nThe engineering requirements that follow:\n\n1. **Measure eye openness robustly on cheap hardware.** No GPU, no model download, no\n   cloud \u2014 a laptop webcam must be enough.\n2. **Distinguish a blink from a doze.** A fixed threshold on the frame count cannot do\n   this, because the time one frame represents depends on the machine's speed. The\n   detector must first *measure its own frame rate* and convert durations into frame\n   counts.\n3. **Alert loudly enough to be useful.** A visual overlay alone is useless if the driver\n   is asleep; an audio alarm is mandatory.\n4. **Never cry wolf.** A detector that alarms on every blink is switched off within a\n   day, so short closures must be classified as false blinks.\n5. **Keep the video local.** Face images of drivers are sensitive; processing must happen\n   on the device.\n\nThe upstream code satisfies all five; the Cockpit page exists to make the *thresholds and\nthe mathematics* legible to someone who wants to understand or re-tune the system.\n\n---",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "opencv-python>=4.5.0,<5.0.0",
+    "dlib>=19.22.0,<20.0.0",
+    "numpy>=1.19.0,<2.0.0",
+    "scipy>=1.7.0,<2.0.0",
+    "playsound>=1.2.2,<2.0.0",
+    "playsound; platform_system == \"Windows\"  # For compatibility on Windows",
+    "matplotlib>=3.3.0,<4.0.0",
+    "streamlit>=1.25.0,<2.0.0",
+    "streamlit-webrtc>=0.45.0,<1.0.0",
+    "mediapipe>=0.10.0,<1.0.0",
+    "Pillow>=8.0.0,<11.0.0",
+    "aiofiles>=0.7.0,<1.0.0  # For async file serving"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of Cockpit: Driver Drowsiness Detection using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

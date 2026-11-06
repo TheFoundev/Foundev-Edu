@@ -1,0 +1,37 @@
+{
+  "title": "MoodTunes: Emotion Detection and Music Recommendation",
+  "slug": "emotion-detection-from-text-and-face",
+  "description": "MoodTunes \u2014 AI-Powered Emotion Detection & Music Recommender N:\\Foundev-Projects\\Domain\\Artificial Intelligence & Machine Learning\\emotion-detection-from-text-and-face People often know how they feel but not what to listen to, and mood-driven music services normally demand a playlist, a history or a text prompt before they respond. Read the user's mood from two passive inputs \u2014 a face photo/webcam frame or a short piece of text \u2014 classify it into one of seven emotions, and return a short, mood-matched YouTube track list immediately. End users who want instant, mood-aware music suggestions; developers who want a reference hybrid face + text inference API. A JSON payload (emotion, confidence,",
+  "problem_solved": "Music discovery is usually driven by metadata the user must supply: a song title, an artist, a\ngenre, or a manually written prompt. Those inputs are slow to produce, and they describe\n*what* to play rather than *how* the user currently feels. Three concrete gaps follow:\n\n1. **No low-effort mood capture.** Typing a description of your mood is friction \u2014 especially\n   on mobile, and especially when the description of a feeling is exactly what you are\n   struggling to name.\n2. **No unified signal source.** Face-based mood readers and text-based mood readers\n   usually ship as separate products. A user with a camera, a keyboard, or neither should\n   get the same output shape from both.\n3. **No immediate bridge to a playlist.** Even a good emotion label is not a listening\n   experience; the user still has to translate \"disgust\" into a search query.\n\nMoodTunes attacks all three: one API, two interchangeable input modalities, seven shared\nemotion classes, and a track list attached to every response.\n\n**Constraints that shape the design** (all observable in the code):\n\n- The deep-learning stack (TensorFlow + PyTorch + a CNN + DistilBERT) is heavy, so nothing\n  may be loaded at import time \u2014 both models are loaded lazily on first use\n  (`get_emotion_engine()`, `get_text_pipeline()`).\n- The face model weights are not redistributable inside this repository, so the loader\n  fetches them on demand (`download_model()`), and the `.h5` file must be repaired for\n  Keras 3 before it can be loaded (`patch_h5_file_permanently()`).\n- Track discovery must work without a paid API key, so it uses \n\n[Excerpt shortened; consult the cited source guide for full detail.]",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "fastapi==0.104.1",
+    "uvicorn[standard]==0.24.0",
+    "python-multipart",
+    "tensorflow-cpu>=2.15.0",
+    "tf-keras",
+    "opencv-python>=4.10.0.84",
+    "numpy>=2.0.0",
+    "pandas>=2.1.3",
+    "scikit-learn>=1.3.2",
+    "matplotlib>=3.8.2",
+    "seaborn>=0.13.0",
+    "deepface>=0.0.93",
+    "Pillow>=10.1.0",
+    "requests>=2.31.0"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of MoodTunes: Emotion Detection and Music Recommendation using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

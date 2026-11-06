@@ -1,0 +1,42 @@
+{
+  "module_id": "sign-language-to-text-translation-module-01",
+  "title": "Language, Gloss, and Scope",
+  "description": "Begins with a plain-language explanation of text-to-sign gloss versus full language translation, then traces the corresponding implementation and its limits in sign-language-to-text-translation.",
+  "learning_objectives": [
+    "Explain text-to-sign gloss versus full language translation in plain language and connect it to README.md; sign_language_translator/cli.py.",
+    "Trace one input through the language, gloss, and scope stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-01-01",
+    "lesson-01-02",
+    "lesson-01-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "text-to-sign gloss versus full language translation",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the language, gloss, and scope stage through the cited source paths.",
+    "Produce a small test or diagnostic for text-to-sign gloss versus full language translation."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "README.md",
+    "sign_language_translator/cli.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "translate",
+    "excerpt_file": "sign_language_translator/cli.py"
+  }
+}

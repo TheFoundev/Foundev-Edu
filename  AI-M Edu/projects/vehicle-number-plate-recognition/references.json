@@ -1,0 +1,50 @@
+{
+  "project_slug": "vehicle-number-plate-recognition",
+  "references": [
+    {
+      "title": "Source project README",
+      "url": "../README.md",
+      "type": "package-documentation"
+    },
+    {
+      "title": "Source project workflow",
+      "url": "../setup-guide.md",
+      "type": "package-documentation"
+    },
+    {
+      "title": "Python documentation",
+      "url": "https://docs.python.org/3/",
+      "type": "official-documentation"
+    },
+    {
+      "title": "scikit-learn user guide",
+      "url": "https://scikit-learn.org/stable/user_guide.html",
+      "type": "official-documentation"
+    },
+    {
+      "title": "PyTorch Learn the Basics",
+      "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
+      "type": "official-documentation"
+    },
+    {
+      "title": "OpenCV documentation",
+      "url": "https://docs.opencv.org/4.x/",
+      "type": "official-documentation"
+    },
+    {
+      "title": "Flask documentation",
+      "url": "https://flask.palletsprojects.com/",
+      "type": "official-documentation"
+    },
+    {
+      "title": "NIST Privacy Framework",
+      "url": "https://www.nist.gov/privacy-framework",
+      "type": "official-documentation"
+    },
+    {
+      "title": "NIST AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "type": "official-documentation"
+    }
+  ]
+}

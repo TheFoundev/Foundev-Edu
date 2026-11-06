@@ -1,0 +1,42 @@
+{
+  "module_id": "resume-screening-and-jd-matching-module-03",
+  "title": "Cosine Matching and Ranking",
+  "description": "Begins with a plain-language explanation of similarity scores and candidate ordering, then traces the corresponding implementation and its limits in resume-screening-and-jd-matching.",
+  "learning_objectives": [
+    "Explain similarity scores and candidate ordering in plain language and connect it to src/matcher.py; src/embedder.py.",
+    "Trace one input through the cosine matching and ranking stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-03-01",
+    "lesson-03-02",
+    "lesson-03-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "similarity scores and candidate ordering",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the cosine matching and ranking stage through the cited source paths.",
+    "Produce a small test or diagnostic for similarity scores and candidate ordering."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/matcher.py",
+    "src/embedder.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "rank_candidates",
+    "excerpt_file": "src/matcher.py"
+  }
+}

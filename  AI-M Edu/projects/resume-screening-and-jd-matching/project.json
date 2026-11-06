@@ -1,0 +1,32 @@
+{
+  "title": "TalentMatch Lens: Resume and Job Description Matching",
+  "slug": "resume-screening-and-jd-matching",
+  "description": "TalentMatch Lens is an AI-assisted resume screening system. It takes a job description and a batch of candidate resumes, converts every document into a 384-dimensional sentence embedding with the pretrained all-MiniLM-L6-v2 model, scores each candidate by cosine similarity against the job description, and then produces a plain-English explanation for every score: which skills matched, which required skills are missing, and which extra skills the candidate brings. Problem it addresses. Recruiters skim hundreds of resumes per role; keyword-matching ATS tools miss synonyms (\"ML\" vs \"Machine Learning\"); and a bare score is not a defensible hiring input. Objective. Rank candidates in seconds whil",
+  "problem_solved": "Screening resumes manually is slow and inconsistent: two recruiters reading the same stack of\ndocuments produce different shortlists, and every decision is hard to justify afterwards.\n\nThree concrete gaps appear in existing tools:\n\n1. **Lexical matching misses meaning.** A candidate who writes \"scikit-learn\" for a role asking for\n   \"ML\" or \"machine learning\" is penalised by a keyword ATS, even though the skills are equivalent.\n2. **A score alone is not a decision.** A recruiter needs to know *why* a candidate ranked where\n   they did \u2014 which requirements are met, which are gaps, and what the candidate offers beyond the\n   posting.\n3. **Rankings are not portable.** A shortlist built in one tool cannot be reviewed, exported or\n   defended later without the reasoning attached.\n\n**Non-goals.** This project does not parse scanned resumes (no OCR), does not infer years of\nexperience or education level (no NER stage), and does not train or fine-tune anything \u2014 it uses a\npretrained general-purpose encoder zero-shot.\n\n---",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "streamlit==1.38.0",
+    "sentence-transformers==3.0.1",
+    "torch==2.3.1",
+    "scikit-learn==1.5.1",
+    "spacy==3.7.5",
+    "pdfplumber==0.11.4",
+    "python-docx==1.1.2",
+    "pandas==2.2.2",
+    "numpy==1.26.4"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of TalentMatch Lens: Resume and Job Description Matching using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

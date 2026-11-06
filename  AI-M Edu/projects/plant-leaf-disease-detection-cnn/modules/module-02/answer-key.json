@@ -1,0 +1,135 @@
+{
+  "module_id": "plant-leaf-disease-detection-cnn-module-02",
+  "answers": [
+    {
+      "question_id": "plant-leaf-disease-detection-cnn-m02-q01",
+      "correct_option_id": "plant-leaf-disease-detection-cnn-m02-q01-o1",
+      "explanation": "The lesson establishes that understand folder structure, labels, train/validation/test separation. In this repository, the claim must be grounded in the documented behavior and source paths: prepare_dataset.py; Code.ipynb. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "plant-leaf-disease-detection-cnn-m02-q01-o2": "The project has documented missing or conditional artifacts, so the lesson requires checking runtime prerequisites before claiming behavior.",
+        "plant-leaf-disease-detection-cnn-m02-q01-o3": "A front end can be disconnected or static; the lesson distinguishes presentation code from the model and backend path.",
+        "plant-leaf-disease-detection-cnn-m02-q01-o4": "The lesson calls for task-appropriate metrics and error analysis; one aggregate score cannot establish reliability across classes or conditions."
+      },
+      "concept_tested": "plain-language model of the stage",
+      "related_lesson_id": "lesson-02-01",
+      "supporting_reference": "prepare_dataset.py; Code.ipynb"
+    },
+    {
+      "question_id": "plant-leaf-disease-detection-cnn-m02-q02",
+      "correct_option_id": "plant-leaf-disease-detection-cnn-m02-q02-o1",
+      "explanation": "The lesson establishes that the source-specific focus for this module is `spliting data` in `Code.ipynb`. Use the excerpt below to trace the actual inputs, transformation, and output for folder structure, labels, train/validation/test separation. Where a behavior is absent, follow the documented boundary rather than assuming it exists. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "plant-leaf-disease-detection-cnn-m02-q02-o2": "A front end can be disconnected or static; the lesson distinguishes presentation code from the model and backend path.",
+        "plant-leaf-disease-detection-cnn-m02-q02-o3": "The lesson calls for task-appropriate metrics and error analysis; one aggregate score cannot establish reliability across classes or conditions.",
+        "plant-leaf-disease-detection-cnn-m02-q02-o4": "A numeric score is not automatically calibrated; the lesson explicitly warns against turning an unvalidated score into a decision."
+      },
+      "concept_tested": "source-specific algorithm behavior",
+      "related_lesson_id": "lesson-02-02",
+      "supporting_reference": "prepare_dataset.py; Code.ipynb"
+    },
+    {
+      "question_id": "plant-leaf-disease-detection-cnn-m02-q03",
+      "correct_option_id": "plant-leaf-disease-detection-cnn-m02-q03-o1",
+      "explanation": "The lesson establishes that validate outputs and identify limitations for dataset preparation. In this repository, the claim must be grounded in the documented behavior and source paths: prepare_dataset.py; Code.ipynb. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "plant-leaf-disease-detection-cnn-m02-q03-o4": "This violates the lesson\u2019s data-minimization guidance; use synthetic or consented data and avoid sensitive logs.",
+        "plant-leaf-disease-detection-cnn-m02-q03-o2": "The lesson calls for task-appropriate metrics and error analysis; one aggregate score cannot establish reliability across classes or conditions.",
+        "plant-leaf-disease-detection-cnn-m02-q03-o3": "A numeric score is not automatically calibrated; the lesson explicitly warns against turning an unvalidated score into a decision."
+      },
+      "concept_tested": "edge-case reasoning",
+      "related_lesson_id": "lesson-02-03",
+      "supporting_reference": "prepare_dataset.py; Code.ipynb"
+    },
+    {
+      "question_id": "plant-leaf-disease-detection-cnn-m02-q04",
+      "correct_option_id": "plant-leaf-disease-detection-cnn-m02-q04-o1",
+      "explanation": "The lesson establishes that prepare_dataset.py; Code.ipynb is the repository location to inspect for this module stage. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "plant-leaf-disease-detection-cnn-m02-q04-o3": "This violates the lesson\u2019s data-minimization guidance; use synthetic or consented data and avoid sensitive logs.",
+        "plant-leaf-disease-detection-cnn-m02-q04-o4": "The taught test plan includes edge and missing-resource cases, not only the happy path.",
+        "plant-leaf-disease-detection-cnn-m02-q04-o2": "A numeric score is not automatically calibrated; the lesson explicitly warns against turning an unvalidated score into a decision."
+      },
+      "concept_tested": "source navigation",
+      "related_lesson_id": "lesson-02-01",
+      "supporting_reference": "prepare_dataset.py; Code.ipynb"
+    },
+    {
+      "question_id": "plant-leaf-disease-detection-cnn-m02-q05",
+      "correct_option_id": "plant-leaf-disease-detection-cnn-m02-q05-o1",
+      "explanation": "The lesson establishes that training notebook/code and Django interface exist, but required trained model artifacts are missing; current tests are stubs and do not prove inference. Field photos differ from curated data; diagnosis requires expert confirmation. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "plant-leaf-disease-detection-cnn-m02-q05-o2": "This violates the lesson\u2019s data-minimization guidance; use synthetic or consented data and avoid sensitive logs.",
+        "plant-leaf-disease-detection-cnn-m02-q05-o3": "The taught test plan includes edge and missing-resource cases, not only the happy path.",
+        "plant-leaf-disease-detection-cnn-m02-q05-o4": "Titles and catalog descriptions are not implementation evidence; the lesson requires checking source files and workflow documentation."
+      },
+      "concept_tested": "implementation limitation",
+      "related_lesson_id": "lesson-02-02",
+      "supporting_reference": "prepare_dataset.py; Code.ipynb"
+    },
+    {
+      "question_id": "plant-leaf-disease-detection-cnn-m02-q06",
+      "correct_option_id": "plant-leaf-disease-detection-cnn-m02-q06-o1",
+      "explanation": "The lesson establishes that the module requires tracing input, transformation, output, and failure behavior. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "plant-leaf-disease-detection-cnn-m02-q06-o2": "The taught test plan includes edge and missing-resource cases, not only the happy path.",
+        "plant-leaf-disease-detection-cnn-m02-q06-o3": "Titles and catalog descriptions are not implementation evidence; the lesson requires checking source files and workflow documentation.",
+        "plant-leaf-disease-detection-cnn-m02-q06-o4": "The lesson requires marking proposed work separately; roadmap language does not establish shipped functionality."
+      },
+      "concept_tested": "data-flow tracing",
+      "related_lesson_id": "lesson-02-03",
+      "supporting_reference": "prepare_dataset.py; Code.ipynb"
+    },
+    {
+      "question_id": "plant-leaf-disease-detection-cnn-m02-q07",
+      "correct_option_id": "plant-leaf-disease-detection-cnn-m02-q07-o1",
+      "explanation": "The lesson establishes that a test or diagnostic should check both expected output and an edge case. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "plant-leaf-disease-detection-cnn-m02-q07-o4": "This incorrectly treats a mixed pipeline as wholly learned; inspect each stage because rules, retrieval, interfaces, and models may differ.",
+        "plant-leaf-disease-detection-cnn-m02-q07-o2": "Titles and catalog descriptions are not implementation evidence; the lesson requires checking source files and workflow documentation.",
+        "plant-leaf-disease-detection-cnn-m02-q07-o3": "The lesson requires marking proposed work separately; roadmap language does not establish shipped functionality."
+      },
+      "concept_tested": "testing practice",
+      "related_lesson_id": "lesson-02-01",
+      "supporting_reference": "prepare_dataset.py; Code.ipynb"
+    },
+    {
+      "question_id": "plant-leaf-disease-detection-cnn-m02-q08",
+      "correct_option_id": "plant-leaf-disease-detection-cnn-m02-q08-o1",
+      "explanation": "The lesson establishes that an interface can be present without proving a model or backend is connected. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "plant-leaf-disease-detection-cnn-m02-q08-o3": "This incorrectly treats a mixed pipeline as wholly learned; inspect each stage because rules, retrieval, interfaces, and models may differ.",
+        "plant-leaf-disease-detection-cnn-m02-q08-o4": "Source tracing is required by the lesson: behavior must be linked to an input, transformation, output, and cited implementation.",
+        "plant-leaf-disease-detection-cnn-m02-q08-o2": "The lesson requires marking proposed work separately; roadmap language does not establish shipped functionality."
+      },
+      "concept_tested": "system-boundary reasoning",
+      "related_lesson_id": "lesson-02-02",
+      "supporting_reference": "prepare_dataset.py; Code.ipynb"
+    },
+    {
+      "question_id": "plant-leaf-disease-detection-cnn-m02-q09",
+      "correct_option_id": "plant-leaf-disease-detection-cnn-m02-q09-o1",
+      "explanation": "The lesson establishes that an output score is not automatically calibrated probability or proof. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "plant-leaf-disease-detection-cnn-m02-q09-o2": "This incorrectly treats a mixed pipeline as wholly learned; inspect each stage because rules, retrieval, interfaces, and models may differ.",
+        "plant-leaf-disease-detection-cnn-m02-q09-o3": "Source tracing is required by the lesson: behavior must be linked to an input, transformation, output, and cited implementation.",
+        "plant-leaf-disease-detection-cnn-m02-q09-o4": "The project has documented missing or conditional artifacts, so the lesson requires checking runtime prerequisites before claiming behavior."
+      },
+      "concept_tested": "score interpretation",
+      "related_lesson_id": "lesson-02-03",
+      "supporting_reference": "prepare_dataset.py; Code.ipynb"
+    },
+    {
+      "question_id": "plant-leaf-disease-detection-cnn-m02-q10",
+      "correct_option_id": "plant-leaf-disease-detection-cnn-m02-q10-o1",
+      "explanation": "The lesson establishes that sensitive inputs require minimization, access controls, and a human correction path. This is the answer that follows from the module material; check the cited source path before applying it.",
+      "incorrect_option_explanations": {
+        "plant-leaf-disease-detection-cnn-m02-q10-o2": "Source tracing is required by the lesson: behavior must be linked to an input, transformation, output, and cited implementation.",
+        "plant-leaf-disease-detection-cnn-m02-q10-o3": "The project has documented missing or conditional artifacts, so the lesson requires checking runtime prerequisites before claiming behavior.",
+        "plant-leaf-disease-detection-cnn-m02-q10-o4": "A front end can be disconnected or static; the lesson distinguishes presentation code from the model and backend path."
+      },
+      "concept_tested": "responsible data handling",
+      "related_lesson_id": "lesson-02-01",
+      "supporting_reference": "prepare_dataset.py; Code.ipynb"
+    }
+  ]
+}

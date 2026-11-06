@@ -1,0 +1,37 @@
+{
+  "title": "PlateSight: Vehicle Number Plate Recognition",
+  "slug": "vehicle-number-plate-recognition",
+  "description": "vehicle-number-plate-recognition \"Vehicle Number Plate Recognition\" (project-metadata.json \u2192 name) PlateSight \u2014 ANPR Operator Console Prateek Ralhan (MIT, 2022) An \"extended implementation\" of mftnakrsu/AutomaticNumberPlateRecognitionYOLOOCR project-metadata.json \u2014 \"stack\": \"Python; OpenCV; Tesseract\", \"goal\": \"Plate localisation, OCR cleanup with regex and CSV log.\", \"entry\": \"app.py\", \"license\": \"MIT\" Manual plate transcription is slow, error-prone and rarely auditable. Enforcement, parking and access-control operators need plate regions located automatically in a camera or phone image, with an annotated image they can hand on. Detect number-plate regions in vehicle photographs (uploaded f",
+  "problem_solved": "Automatic Number Plate Recognition splits into two very different sub-problems, and this repository implements only the first:\n\n1. **Localisation** \u2014 \"where is the plate in this image?\" A detector answers this with bounding boxes. It is a well-posed object-detection problem, and YOLOv5 is a good fit: single-stage, fast enough for CPU-only laptops and low-end servers, and easy to fine-tune on a small custom dataset.\n2. **Recognition** \u2014 \"what characters are on the plate?\" That needs OCR: perspective correction, character segmentation and a recogniser, plus the usual cleanup (regex validation of the plate format, country-specific patterns).\n\nThe repository's own metadata describes both steps, and it ships an OCR helper module (`utils/helper.py`) with functions whose signatures only make sense for OCR output \u2014 `filter_text(rectangle_size, ocr_result, region_threshold)` takes a list of OCR results and keeps the ones whose area exceeds a fraction of the plate rectangle, and `save_results(text, csv_filename, folder_path)` appends recognised text to a CSV log. **Neither function is called by `app.py`.** There is no Tesseract import, no `pytesseract`, no character output. So the honest description of the system is: *a plate-region detector with an annotated-image output, plus the scaffolding of an OCR stage that was never wired up.*\n\nThree further engineering problems are real and visible in the code:\n\n- **Model distribution.** The checkpoint is committed (`model/last.pt`, 14,378,245 bytes) but the YOLOv5 *code* is not importable from the environment: `app.py` resolves it through `\n\n[Excerpt shortened; consult the cited source guide for full detail.]",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "altair==4.2.0",
+    "argon2-cffi==21.3.0",
+    "argon2-cffi-bindings==21.2.0",
+    "attrs==21.4.0",
+    "backcall==0.2.0",
+    "backports.zoneinfo==0.2.1",
+    "beautifulsoup4==4.11.1",
+    "bleach==5.0.0",
+    "blinker==1.4",
+    "cachetools==5.0.0",
+    "certifi==2021.10.8",
+    "cffi==1.15.0",
+    "charset-normalizer==2.0.12",
+    "click==8.0.4"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of PlateSight: Vehicle Number Plate Recognition using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

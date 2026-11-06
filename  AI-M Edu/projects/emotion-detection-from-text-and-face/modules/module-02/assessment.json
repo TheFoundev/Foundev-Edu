@@ -1,0 +1,257 @@
+{
+  "module_id": "emotion-detection-from-text-and-face-module-02",
+  "title": "Text Inference Pipeline",
+  "instructions": "Choose one best answer. Every question is based on this module; consult the lessons before answering.",
+  "questions": [
+    {
+      "question_id": "emotion-detection-from-text-and-face-m02-q01",
+      "question_text": "Which statement best explains text inference pipeline in this project?",
+      "options": [
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q01-o2",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q01-o3",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q01-o4",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q01-o1",
+          "text": "Understand preprocessing, backend route, and model output. In this repository, the claim must be grounded in the documented behavior and source paths: backend/app.py; backend/model_loader.py."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain preprocessing, backend route, and model output in plain language and connect it to backend/app.py; backend/model_loader.py.",
+      "related_lesson_id": "lesson-02-01"
+    },
+    {
+      "question_id": "emotion-detection-from-text-and-face-m02-q02",
+      "question_text": "When inspecting text inference pipeline, which implementation claim is supported by the module lessons?",
+      "options": [
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q02-o1",
+          "text": "### The text classifier (DistilBERT)\n\n- **Checkpoint:** `bhadresh-savani/distilbert-base-uncased-emotion`, loaded through\n  `transformers.pipeline(\"text-classification\", framework=\"pt\")`.\n- **Decision rule:** `results[0]` \u2014 the highest-scoring label \u2014 is used directly, and its\n  score becomes the confidence.\n- **Label mapping:** `joy\u2192happy`, `sadness\u2192sad`, `anger\u2192angry`, `fear\u2192fear`,\n  `surprise\u2192surprise`, `love\u2192happy`; anything else (notably `neutral` and `disgust`,\n  which this checkpoint never emits) falls through to `\"neutral\"`. This is why the text\n  path can never return `disgust`, even though the shared vocabulary contains it.\n- **Language caveat:** `distilbert-base-uncased-*` is an English model. The `language`\n  field changes only the *music query*, never the text understanding.\n\nConnect this explanation to `backend/app.py` and the source focus `predict_text`."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q02-o2",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q02-o3",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q02-o4",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Trace one input through the text inference pipeline stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-02-02"
+    },
+    {
+      "question_id": "emotion-detection-from-text-and-face-m02-q03",
+      "question_text": "A learner is tracing text inference pipeline. Which conclusion follows from the taught source behavior?",
+      "options": [
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q03-o4",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q03-o1",
+          "text": "Validate outputs and identify limitations for text inference pipeline. In this repository, the claim must be grounded in the documented behavior and source paths: backend/app.py; backend/model_loader.py."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q03-o2",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q03-o3",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-02-03"
+    },
+    {
+      "question_id": "emotion-detection-from-text-and-face-m02-q04",
+      "question_text": "Which statement is the best source-grounded interpretation of text inference pipeline?",
+      "options": [
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q04-o3",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q04-o4",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q04-o1",
+          "text": "backend/app.py; backend/model_loader.py is the repository location to inspect for this module stage."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q04-o2",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain preprocessing, backend route, and model output in plain language and connect it to backend/app.py; backend/model_loader.py.",
+      "related_lesson_id": "lesson-02-01"
+    },
+    {
+      "question_id": "emotion-detection-from-text-and-face-m02-q05",
+      "question_text": "An engineer is reviewing text inference pipeline. Which risk or limitation should be documented?",
+      "options": [
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q05-o2",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q05-o3",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q05-o4",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q05-o1",
+          "text": "The expected face weights are absent and training provenance is unavailable. Facial/text emotion labels are uncertain and sensitive; no mood inference should be treated as fact."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the text inference pipeline stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-02-02"
+    },
+    {
+      "question_id": "emotion-detection-from-text-and-face-m02-q06",
+      "question_text": "Which investigation step best validates text inference pipeline?",
+      "options": [
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q06-o1",
+          "text": "The module requires tracing input, transformation, output, and failure behavior."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q06-o2",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q06-o3",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q06-o4",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-02-03"
+    },
+    {
+      "question_id": "emotion-detection-from-text-and-face-m02-q07",
+      "question_text": "Which test design matches the module guidance for text inference pipeline?",
+      "options": [
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q07-o4",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q07-o1",
+          "text": "A test or diagnostic should check both expected output and an edge case."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q07-o2",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q07-o3",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain preprocessing, backend route, and model output in plain language and connect it to backend/app.py; backend/model_loader.py.",
+      "related_lesson_id": "lesson-02-01"
+    },
+    {
+      "question_id": "emotion-detection-from-text-and-face-m02-q08",
+      "question_text": "A UI displays a result during text inference pipeline. What can safely be concluded?",
+      "options": [
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q08-o3",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q08-o4",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q08-o1",
+          "text": "An interface can be present without proving a model or backend is connected."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q08-o2",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the text inference pipeline stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-02-02"
+    },
+    {
+      "question_id": "emotion-detection-from-text-and-face-m02-q09",
+      "question_text": "How should a learner interpret an output from text inference pipeline?",
+      "options": [
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q09-o2",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q09-o3",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q09-o4",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q09-o1",
+          "text": "An output score is not automatically calibrated probability or proof."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-02-03"
+    },
+    {
+      "question_id": "emotion-detection-from-text-and-face-m02-q10",
+      "question_text": "Which data-handling practice is appropriate while studying text inference pipeline?",
+      "options": [
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q10-o1",
+          "text": "Sensitive inputs require minimization, access controls, and a human correction path."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q10-o2",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q10-o3",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "emotion-detection-from-text-and-face-m02-q10-o4",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Explain preprocessing, backend route, and model output in plain language and connect it to backend/app.py; backend/model_loader.py.",
+      "related_lesson_id": "lesson-02-01"
+    }
+  ]
+}

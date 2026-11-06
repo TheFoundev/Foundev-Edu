@@ -1,0 +1,42 @@
+{
+  "module_id": "retail-sales-forecasting-module-06",
+  "title": "Forecasting Claims and Extensions",
+  "description": "Begins with a plain-language explanation of no ML forecast exists, seasonality proposal, and responsible metrics, then traces the corresponding implementation and its limits in retail-sales-forecasting.",
+  "learning_objectives": [
+    "Explain no ML forecast exists, seasonality proposal, and responsible metrics in plain language and connect it to js/app.js; PROJECT_OVERVIEW.md.",
+    "Trace one input through the forecasting claims and extensions stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-06-01",
+    "lesson-06-02",
+    "lesson-06-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "no ML forecast exists, seasonality proposal, and responsible metrics",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the forecasting claims and extensions stage through the cited source paths.",
+    "Produce a small test or diagnostic for no ML forecast exists, seasonality proposal, and responsible metrics."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "js/app.js",
+    "PROJECT_OVERVIEW.md"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "renderKpis",
+    "excerpt_file": "js/app.js"
+  }
+}

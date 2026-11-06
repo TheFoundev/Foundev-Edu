@@ -1,0 +1,42 @@
+{
+  "module_id": "emotion-detection-from-text-and-face-module-01",
+  "title": "Emotion Labels and Modalities",
+  "description": "Begins with a plain-language explanation of text versus face input and label interpretation, then traces the corresponding implementation and its limits in emotion-detection-from-text-and-face.",
+  "learning_objectives": [
+    "Explain text versus face input and label interpretation in plain language and connect it to backend/app.py; frontend/app/text-music/page.tsx.",
+    "Trace one input through the emotion labels and modalities stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-01-01",
+    "lesson-01-02",
+    "lesson-01-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "text versus face input and label interpretation",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the emotion labels and modalities stage through the cited source paths.",
+    "Produce a small test or diagnostic for text versus face input and label interpretation."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "backend/app.py",
+    "frontend/app/text-music/page.tsx"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "predict",
+    "excerpt_file": "backend/app.py"
+  }
+}

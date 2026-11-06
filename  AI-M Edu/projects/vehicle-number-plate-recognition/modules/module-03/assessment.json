@@ -1,0 +1,257 @@
+{
+  "module_id": "vehicle-number-plate-recognition-module-03",
+  "title": "Detection Output and Unwired OCR Helpers",
+  "instructions": "Choose one best answer. Every question is based on this module; consult the lessons before answering.",
+  "questions": [
+    {
+      "question_id": "vehicle-number-plate-recognition-m03-q01",
+      "question_text": "Which statement best explains detection output and unwired ocr helpers in this project?",
+      "options": [
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q01-o3",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q01-o4",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q01-o1",
+          "text": "Understand bounding boxes, annotated images, and why the OCR helpers are not called. In this repository, the claim must be grounded in the documented behavior and source paths: utils/helper.py; app.py."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q01-o2",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain bounding boxes, annotated images, and why the OCR helpers are not called in plain language and connect it to utils/helper.py; app.py.",
+      "related_lesson_id": "lesson-03-01"
+    },
+    {
+      "question_id": "vehicle-number-plate-recognition-m03-q02",
+      "question_text": "When inspecting detection output and unwired ocr helpers, which implementation claim is supported by the module lessons?",
+      "options": [
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q02-o2",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q02-o3",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q02-o4",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q02-o1",
+          "text": "**The model: YOLOv5, single-stage object detection.**\n\nYOLOv5 predicts, in one forward pass, a grid of candidate boxes with class probabilities and objectness scores; non-maximum suppression then removes duplicate boxes. The repository uses the `custom` entry point of the hub repo, which loads a checkpoint whose architecture and class map come from the checkpoint itself:\n\n```python\nmodel = torch.hub.load(\"ultralytics/yolov5\", \"custom\", path=\"model/last.pt\", force_reload=True)\nmodel.eval()\nmodel.conf = 0.5   # minimum confidence to report a detection\nmodel.iou = 0.45   # NMS IoU threshold\nresults = model(img, size=640)\n```\n\n- **`model.eval()`** switches the network to inference mode (no dropout, frozen batch-norm statistics). It is the correct call for a serving path.\n- **`conf = 0.5`** is the score threshold: candidates below 0.5 are discarded before NMS. It is a precision-leaning choice \u2014 for plate localisation, a missed plate is worse than a spurious box, so 0.5 is on the conservative side for an operator tool.\n- **`iou = 0.45`** is the NMS overlap threshold: two boxes overlapping \n\n[Excerpt shortened; consult the cited source guide for full detail.]\n\nConnect this explanation to `utils/helper.py` and the source focus `filter_text`."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Trace one input through the detection output and unwired ocr helpers stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-03-02"
+    },
+    {
+      "question_id": "vehicle-number-plate-recognition-m03-q03",
+      "question_text": "A learner is tracing detection output and unwired ocr helpers. Which conclusion follows from the taught source behavior?",
+      "options": [
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q03-o1",
+          "text": "Validate outputs and identify limitations for detection output and unwired ocr helpers. In this repository, the claim must be grounded in the documented behavior and source paths: utils/helper.py; app.py."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q03-o2",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q03-o3",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q03-o4",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-03-03"
+    },
+    {
+      "question_id": "vehicle-number-plate-recognition-m03-q04",
+      "question_text": "Which statement is the best source-grounded interpretation of detection output and unwired ocr helpers?",
+      "options": [
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q04-o4",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q04-o1",
+          "text": "utils/helper.py; app.py is the repository location to inspect for this module stage."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q04-o2",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q04-o3",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain bounding boxes, annotated images, and why the OCR helpers are not called in plain language and connect it to utils/helper.py; app.py.",
+      "related_lesson_id": "lesson-03-01"
+    },
+    {
+      "question_id": "vehicle-number-plate-recognition-m03-q05",
+      "question_text": "An engineer is reviewing detection output and unwired ocr helpers. Which risk or limitation should be documented?",
+      "options": [
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q05-o3",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q05-o4",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q05-o1",
+          "text": "The repository includes YOLOv5 code and Streamlit app but model/checkpoint availability and OCR behavior need verification. Plate data is personal information; protect, minimize, and expire it."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q05-o2",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the detection output and unwired ocr helpers stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-03-02"
+    },
+    {
+      "question_id": "vehicle-number-plate-recognition-m03-q06",
+      "question_text": "Which investigation step best validates detection output and unwired ocr helpers?",
+      "options": [
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q06-o2",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q06-o3",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q06-o4",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q06-o1",
+          "text": "The module requires tracing input, transformation, output, and failure behavior."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-03-03"
+    },
+    {
+      "question_id": "vehicle-number-plate-recognition-m03-q07",
+      "question_text": "Which test design matches the module guidance for detection output and unwired ocr helpers?",
+      "options": [
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q07-o1",
+          "text": "A test or diagnostic should check both expected output and an edge case."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q07-o2",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q07-o3",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q07-o4",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain bounding boxes, annotated images, and why the OCR helpers are not called in plain language and connect it to utils/helper.py; app.py.",
+      "related_lesson_id": "lesson-03-01"
+    },
+    {
+      "question_id": "vehicle-number-plate-recognition-m03-q08",
+      "question_text": "A UI displays a result during detection output and unwired ocr helpers. What can safely be concluded?",
+      "options": [
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q08-o4",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q08-o1",
+          "text": "An interface can be present without proving a model or backend is connected."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q08-o2",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q08-o3",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the detection output and unwired ocr helpers stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-03-02"
+    },
+    {
+      "question_id": "vehicle-number-plate-recognition-m03-q09",
+      "question_text": "How should a learner interpret an output from detection output and unwired ocr helpers?",
+      "options": [
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q09-o3",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q09-o4",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q09-o1",
+          "text": "An output score is not automatically calibrated probability or proof."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q09-o2",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-03-03"
+    },
+    {
+      "question_id": "vehicle-number-plate-recognition-m03-q10",
+      "question_text": "Which data-handling practice is appropriate while studying detection output and unwired ocr helpers?",
+      "options": [
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q10-o2",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q10-o3",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q10-o4",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "vehicle-number-plate-recognition-m03-q10-o1",
+          "text": "Sensitive inputs require minimization, access controls, and a human correction path."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Explain bounding boxes, annotated images, and why the OCR helpers are not called in plain language and connect it to utils/helper.py; app.py.",
+      "related_lesson_id": "lesson-03-01"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "DEWS: Student Dropout Risk Prediction",
+  "slug": "student-dropout-risk-prediction",
+  "description": "student-dropout-risk-prediction \"Predicting High School Dropouts\" \u2014 UChicago Machine Learning in Public Policy course, in partnership with the Center for Data Science in Public Policy Bridgit Donnelly, Christine Cook, Joshua Mausolf (per the module docstrings) DEWS Risk Register (index.html, css/style.css, js/app.js) The U.S. Department of Education estimates that over 1.2 million American students drop out of high school every year, with long-run consequences for employment, health and family stability. School districts have finite advisory capacity and need to know which students to reach first, not merely whether someone is at risk. \"Develop a scalable ranking system that will allow a sch",
+  "problem_solved": "Predicting high-school drop-out is a classic imbalanced-binary problem embedded in a *resource-allocation* problem. Four aspects make it hard:\n\n1. **The data cannot be published.** The upstream project used Chicago Public Schools (MCPS) student-level records, kept on a secure server. `pipeline/data/Data_Readme.md` states plainly: *\"Data for this project was stored in this directory on a secure server. To maintain confidentiality, it is not uploaded here.\"* Only a school-level reference extract ships.\n2. **The outcome is defined by administrative codes, not by a clean event.** A student leaves for many reasons. `db_creation/add_dropout_column.sql` encodes the label as a membership test on withdrawal codes: `g*_wcode IN (30,31,32,33,34,35,36,37,38,39,40,44,46,50,71,85)`, and the overall `dropout` flag is the OR across grades 6\u201312.\n3. **The data is longitudinal and ragged.** Each student appears once per grade in separate yearly tables (`cohort1_2006` \u2026 `cohort1_2012`), so the pipeline must join grade 6 to grade 12 on `pid` with a `FULL OUTER JOIN`, then attach school-level context with seven `LEFT JOIN`s \u2014 producing rows where later-year fields are missing.\n4. **The evaluation question is operational, not statistical.** A model with 95 % accuracy that never fires is useless; a model that fires on everyone is useless too. The meaningful artefact is a **precision@k curve against the share of the population flagged**, because k is set by how many students a school can actually serve. That is exactly what `plot_precision_recall_n()` and `graphs/*_precision_recall_n.png` produce, \n\n[Excerpt shortened; consult the cited source guide for full detail.]",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "See source project dependency manifest and setup guide"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of DEWS: Student Dropout Risk Prediction using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

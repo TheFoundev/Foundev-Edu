@@ -1,0 +1,33 @@
+{
+  "title": "FactCheck Studio: Factual Consistency and Summarization",
+  "slug": "abstractive-text-summarizer",
+  "description": "abstractive-text-summarizer FactCheck Studio FactCC \u2014 Salesforce Research (https://github.com/salesforce/factCC) Abstractive summarisation metrics (ROUGE, etc.) do not measure whether a generated summary is factually consistent with its source document. Provide a weakly-supervised model that (1) labels a summary sentence as factually consistent or not, (2) extracts the supporting span in the source, and (3) extracts the inconsistent span in the summary \u2014 plus an honest, static operator console that visualises the workflow without faking model output. NLP researchers re-running the FactCC experiments; engineers wrapping the model in a service; reviewers who need to see the workflow without a",
+  "problem_solved": "Modern abstractive summarisers generate fluent text that may contradict its source. Traditional automatic metrics such as ROUGE compare surface overlap with reference summaries and say nothing about factual faithfulness. Manually annotating large corpora for factuality is prohibitively expensive, so datasets with human factuality labels are small and noisy.\n\nThe FactCC paper attacks this with **weak supervision**: instead of collecting human labels, it *manufactures* training data by applying rule-based transformations to source sentences (negation, entity swaps, date/number swaps, backtranslation, noise). The model then learns three related tasks jointly, and the auxiliary span-extraction tasks measurably help the main consistency classification.\n\nOn top of that research code base, this project adds a **static front-end** whose job is to make the workflow legible and \u2014 critically \u2014 to never pretend that a verdict exists when it does not.\n\n---",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "pytorch_transformers==1.0.0",
+    "scipy==1.3.0",
+    "spacy==2.2.3",
+    "torch==1.3.1",
+    "numpy==1.17.4",
+    "tqdm==4.32.1",
+    "apex==0.9.10dev",
+    "protobuf==3.11.2",
+    "scikit_learn==0.22.1",
+    "google-cloud-translate==1.6.0"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of FactCheck Studio: Factual Consistency and Summarization using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

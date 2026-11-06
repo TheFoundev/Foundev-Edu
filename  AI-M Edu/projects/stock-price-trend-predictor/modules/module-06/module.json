@@ -1,0 +1,42 @@
+{
+  "module_id": "stock-price-trend-predictor-module-06",
+  "title": "Time-Series Evaluation and Financial Risk",
+  "description": "Begins with a plain-language explanation of chronological split, baselines, leakage, and no investment advice, then traces the corresponding implementation and its limits in stock-price-trend-predictor.",
+  "learning_objectives": [
+    "Explain chronological split, baselines, leakage, and no investment advice in plain language and connect it to src/features/build_features.py; notebooks/02-cpj-research-model.ipynb.",
+    "Trace one input through the time-series evaluation and financial risk stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-06-01",
+    "lesson-06-02",
+    "lesson-06-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "chronological split, baselines, leakage, and no investment advice",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the time-series evaluation and financial risk stage through the cited source paths.",
+    "Produce a small test or diagnostic for chronological split, baselines, leakage, and no investment advice."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/features/build_features.py",
+    "notebooks/02-cpj-research-model.ipynb"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "research",
+    "excerpt_file": "src/features/build_features.py"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "module_id": "stock-price-trend-predictor-module-04",
+  "title": "Notebook Models and Visualization",
+  "description": "Begins with a plain-language explanation of research notebooks and exploration boundary, then traces the corresponding implementation and its limits in stock-price-trend-predictor.",
+  "learning_objectives": [
+    "Explain research notebooks and exploration boundary in plain language and connect it to notebooks/02-cpj-research-model.ipynb; notebooks/03-cpj-visualisation.ipynb.",
+    "Trace one input through the notebook models and visualization stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-04-01",
+    "lesson-04-02",
+    "lesson-04-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "research notebooks and exploration boundary",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the notebook models and visualization stage through the cited source paths.",
+    "Produce a small test or diagnostic for research notebooks and exploration boundary."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "notebooks/02-cpj-research-model.ipynb",
+    "notebooks/03-cpj-visualisation.ipynb"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "sns.lineplot",
+    "excerpt_file": "notebooks/03-cpj-visualisation.ipynb"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "module_id": "helmet-seatbelt-violation-detection-module-07",
+  "title": "Debugging the Pipeline",
+  "description": "Begins with a plain-language explanation of frame processing, model errors, and unavailable assets, then traces the corresponding implementation and its limits in helmet-seatbelt-violation-detection.",
+  "learning_objectives": [
+    "Explain frame processing, model errors, and unavailable assets in plain language and connect it to source/helmet_detection_yolo8_max_accuracy.py; WORKFLOW.md.",
+    "Trace one input through the debugging the pipeline stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-07-01",
+    "lesson-07-02",
+    "lesson-07-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "frame processing, model errors, and unavailable assets",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the debugging the pipeline stage through the cited source paths.",
+    "Produce a small test or diagnostic for frame processing, model errors, and unavailable assets."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "source/helmet_detection_yolo8_max_accuracy.py",
+    "WORKFLOW.md"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "process_detections",
+    "excerpt_file": "source/helmet_detection_yolo8_max_accuracy.py"
+  }
+}

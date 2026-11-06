@@ -1,0 +1,54 @@
+{
+  "criteria": [
+    {
+      "criterion": "Source fidelity",
+      "weight": 25,
+      "levels": {
+        "excellent": "Claims and diagram match code; proposals are clearly labeled.",
+        "competent": "Most claims map to source with minor omissions.",
+        "developing": "Several claims rely on titles or stale docs.",
+        "insufficient": "Implementation is materially misrepresented."
+      }
+    },
+    {
+      "criterion": "Implementation and reproducibility",
+      "weight": 20,
+      "levels": {
+        "excellent": "Isolated, documented, repeatable implementation with clear dependencies.",
+        "competent": "Works with minor setup gaps.",
+        "developing": "Core steps or artifacts are unclear.",
+        "insufficient": "Cannot reproduce or relies on undisclosed resources."
+      }
+    },
+    {
+      "criterion": "Testing and evaluation",
+      "weight": 20,
+      "levels": {
+        "excellent": "Normal, edge, and failure cases; task-appropriate metrics and limitations.",
+        "competent": "Useful tests but limited edge coverage.",
+        "developing": "Happy-path only or weak metrics.",
+        "insufficient": "No credible validation."
+      }
+    },
+    {
+      "criterion": "Responsible use and privacy",
+      "weight": 20,
+      "levels": {
+        "excellent": "Specific privacy, bias, safety, and human-review controls.",
+        "competent": "Relevant risks noted.",
+        "developing": "Generic risk language.",
+        "insufficient": "Unsafe or unsupported consequential claims."
+      }
+    },
+    {
+      "criterion": "Communication",
+      "weight": 15,
+      "levels": {
+        "excellent": "Clear architecture, demo, and caveats.",
+        "competent": "Mostly understandable.",
+        "developing": "Important assumptions omitted.",
+        "insufficient": "Cannot explain result or scope."
+      }
+    }
+  ]
+}

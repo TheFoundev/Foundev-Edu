@@ -1,0 +1,43 @@
+{
+  "module_id": "retail-sales-forecasting-module-02",
+  "title": "ETL and SQL Aggregation",
+  "description": "Begins with a plain-language explanation of database loading, group/sum/mean, and query scripts, then traces the corresponding implementation and its limits in retail-sales-forecasting.",
+  "learning_objectives": [
+    "Explain database loading, group/sum/mean, and query scripts in plain language and connect it to sql/retail_analysis.sql; run_all_queries.py; app.py.",
+    "Trace one input through the etl and sql aggregation stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-02-01",
+    "lesson-02-02",
+    "lesson-02-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "database loading, group/sum/mean, and query scripts",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the etl and sql aggregation stage through the cited source paths.",
+    "Produce a small test or diagnostic for database loading, group/sum/mean, and query scripts."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "sql/retail_analysis.sql",
+    "run_all_queries.py",
+    "app.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "SELECT",
+    "excerpt_file": "sql/retail_analysis.sql"
+  }
+}

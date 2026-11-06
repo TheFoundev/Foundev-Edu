@@ -1,0 +1,42 @@
+{
+  "module_id": "crop-yield-prediction-module-02",
+  "title": "Earth Engine and MODIS Data",
+  "description": "Begins with a plain-language explanation of export, nine bands, and raster organization, then traces the corresponding implementation and its limits in crop-yield-prediction.",
+  "learning_objectives": [
+    "Explain export, nine bands, and raster organization in plain language and connect it to cyp/data/exporting.py; data/README.md.",
+    "Trace one input through the earth engine and modis data stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-02-01",
+    "lesson-02-02",
+    "lesson-02-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "export, nine bands, and raster organization",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the earth engine and modis data stage through the cited source paths.",
+    "Produce a small test or diagnostic for export, nine bands, and raster organization."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "cyp/data/exporting.py",
+    "data/README.md"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "export",
+    "excerpt_file": "cyp/data/exporting.py"
+  }
+}
