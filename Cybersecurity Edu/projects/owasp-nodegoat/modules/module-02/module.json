@@ -1,0 +1,45 @@
+{
+  "module_id": "owasp-nodegoat-module-02",
+  "title": "Server and Store",
+  "description": "Study the implementation in [web/server.py] and [src/store.js]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include source_files, count_lines, count_tests, language_of, summary, reset; confirm their complete definitions and callers in the file.",
+  "source_files": [
+    "web/server.py",
+    "src/store.js"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "owasp-nodegoat-module-02-objective-1",
+      "text": "Explain the source role and visible behavior in web/server.py, src/store.js."
+    },
+    {
+      "objective_id": "owasp-nodegoat-module-02-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "owasp-nodegoat-module-02-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "owasp-nodegoat-module-01"
+  ],
+  "ordered_lesson_ids": [
+    "owasp-nodegoat-module-02-lesson-1",
+    "owasp-nodegoat-module-02-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for web/server.py, src/store.js",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

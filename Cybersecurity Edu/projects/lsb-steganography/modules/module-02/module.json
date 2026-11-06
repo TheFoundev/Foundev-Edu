@@ -1,0 +1,45 @@
+{
+  "module_id": "lsb-steganography-module-02",
+  "title": "Pipeline and Api Impl",
+  "description": "Study the implementation in [src/pipeline.py] and [web/api_impl.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include make_cover, to_bits, embed, extract, psnr, run, demo, _run, summary, handle; confirm their complete definitions and callers in the file.",
+  "source_files": [
+    "src/pipeline.py",
+    "web/api_impl.py"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "lsb-steganography-module-02-objective-1",
+      "text": "Explain the source role and visible behavior in src/pipeline.py, web/api_impl.py."
+    },
+    {
+      "objective_id": "lsb-steganography-module-02-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "lsb-steganography-module-02-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "lsb-steganography-module-01"
+  ],
+  "ordered_lesson_ids": [
+    "lsb-steganography-module-02-lesson-1",
+    "lsb-steganography-module-02-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for src/pipeline.py, web/api_impl.py",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

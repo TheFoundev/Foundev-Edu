@@ -1,0 +1,44 @@
+{
+  "module_id": "sniffnet-module-02",
+  "title": "Main",
+  "description": "Study the implementation in [src/main.rs]. Trace its declarations and dependencies into a caller or test. Inspect imports, declarations, and call sites in the file; filenames alone do not establish its role.",
+  "source_files": [
+    "src/main.rs"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "sniffnet-module-02-objective-1",
+      "text": "Explain the source role and visible behavior in src/main.rs."
+    },
+    {
+      "objective_id": "sniffnet-module-02-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "sniffnet-module-02-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "sniffnet-module-01"
+  ],
+  "ordered_lesson_ids": [
+    "sniffnet-module-02-lesson-1",
+    "sniffnet-module-02-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for src/main.rs",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

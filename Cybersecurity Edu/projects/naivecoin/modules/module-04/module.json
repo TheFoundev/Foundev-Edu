@@ -1,0 +1,47 @@
+{
+  "module_id": "naivecoin-module-04",
+  "title": "Test code and implementation evidence",
+  "description": "Read the test cases in test/blockchain.test.js, test/node.test.js, test/ws.test.js beside the implementation in src/blockchain.js. Explain the behavior asserted by the tests and trace each assertion to the implementation. A test file describes a check; it does not prove that check passed.",
+  "source_files": [
+    "test/blockchain.test.js",
+    "test/node.test.js",
+    "test/ws.test.js",
+    "src/blockchain.js"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "naivecoin-module-04-objective-1",
+      "text": "Explain the source role and visible behavior in test/blockchain.test.js, test/node.test.js, test/ws.test.js, src/blockchain.js."
+    },
+    {
+      "objective_id": "naivecoin-module-04-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "naivecoin-module-04-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "naivecoin-module-03"
+  ],
+  "ordered_lesson_ids": [
+    "naivecoin-module-04-lesson-1",
+    "naivecoin-module-04-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "test assertions",
+    "implementation behavior",
+    "limits of test evidence"
+  ],
+  "practical_outcomes": [
+    "Evidence map for test/blockchain.test.js, test/node.test.js, test/ws.test.js, src/blockchain.js",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

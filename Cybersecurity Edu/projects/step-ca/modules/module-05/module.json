@@ -1,0 +1,46 @@
+{
+  "module_id": "step-ca-module-05",
+  "title": "Documented goals mapped to implementation",
+  "description": "Compare the source documentation in README.md with implementation anchors main.go, pki.go, web/api_impl.py. Trace one feature claim to its code path and record any mismatch or evidence gap.",
+  "source_files": [
+    "README.md",
+    "main.go",
+    "pki.go"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "step-ca-module-05-objective-1",
+      "text": "Explain the source role and visible behavior in README.md, main.go, pki.go."
+    },
+    {
+      "objective_id": "step-ca-module-05-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "step-ca-module-05-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "step-ca-module-04"
+  ],
+  "ordered_lesson_ids": [
+    "step-ca-module-05-lesson-1",
+    "step-ca-module-05-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "documentation claims",
+    "implementation mapping",
+    "limitations"
+  ],
+  "practical_outcomes": [
+    "Evidence map for README.md, main.go, pki.go",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

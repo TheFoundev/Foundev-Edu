@@ -1,0 +1,45 @@
+{
+  "module_id": "signal-style-e2ee-chat-module-01",
+  "title": "App and Server",
+  "description": "Study the implementation in [public/app.js] and [src/server.js]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include toBase64, fromBase64, deriveKey, encrypt, decrypt, log, connect, send, createChatServer; confirm their complete definitions and callers in the file.",
+  "source_files": [
+    "public/app.js",
+    "src/server.js"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "signal-style-e2ee-chat-module-01-objective-1",
+      "text": "Explain the source role and visible behavior in public/app.js, src/server.js."
+    },
+    {
+      "objective_id": "signal-style-e2ee-chat-module-01-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "signal-style-e2ee-chat-module-01-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "Basic command-line and programming literacy"
+  ],
+  "ordered_lesson_ids": [
+    "signal-style-e2ee-chat-module-01-lesson-1",
+    "signal-style-e2ee-chat-module-01-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for public/app.js, src/server.js",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

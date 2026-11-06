@@ -1,0 +1,45 @@
+{
+  "module_id": "gophish-module-01",
+  "title": "Main and Server",
+  "description": "Study the implementation in [main.go] and [web/server.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include main, summary, handle, db, hash_password, verify_password, init_db, load_secret, sign; confirm their complete definitions and callers in the file.",
+  "source_files": [
+    "main.go",
+    "web/server.py"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "gophish-module-01-objective-1",
+      "text": "Explain the source role and visible behavior in main.go, web/server.py."
+    },
+    {
+      "objective_id": "gophish-module-01-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "gophish-module-01-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "Basic command-line and programming literacy"
+  ],
+  "ordered_lesson_ids": [
+    "gophish-module-01-lesson-1",
+    "gophish-module-01-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for main.go, web/server.py",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

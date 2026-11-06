@@ -1,0 +1,45 @@
+{
+  "module_id": "userspace-tcp-ip-stack-module-02",
+  "title": "Packet and Packet",
+  "description": "Study the implementation in [src/packet.c] and [src/packet.h]. Trace its declarations and dependencies into a caller or test. Inspect imports, declarations, and call sites in the file; filenames alone do not establish its role.",
+  "source_files": [
+    "src/packet.c",
+    "src/packet.h"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "userspace-tcp-ip-stack-module-02-objective-1",
+      "text": "Explain the source role and visible behavior in src/packet.c, src/packet.h."
+    },
+    {
+      "objective_id": "userspace-tcp-ip-stack-module-02-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "userspace-tcp-ip-stack-module-02-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "userspace-tcp-ip-stack-module-01"
+  ],
+  "ordered_lesson_ids": [
+    "userspace-tcp-ip-stack-module-02-lesson-1",
+    "userspace-tcp-ip-stack-module-02-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for src/packet.c, src/packet.h",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OWASP NodeGoat · project console</title>
+<meta name="description" content="A deliberately insecure Node.js application for practising OWASP-style attacks: weak credentials, a forgeable role cookie, a simulated injection flaw and unescaped output.">
+<meta name="theme-color" content="hsl(12 72% 46%)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700;800&family=ui-sans-serif,+system-ui,+'Segoe+UI',+sans-serif:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/theme.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the content</a>
+<header class="topbar">
+  <a class="brand" href="index.html">
+    <span class="mark">NG</span>
+    <span><strong>OWASP NodeGoat</strong><small>A deliberately insecure Node app</small></span>
+  </a>
+  <nav class="nav"><a href="index.html" class="active">Overview</a><a href="console.html">Console</a></nav>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <span class="eyebrow">security · Node.js</span>
+      <h1>Learn server-side security by breaking it.</h1>
+      <p class="lede">A deliberately insecure Node.js application for practising OWASP-style attacks: weak credentials, a forgeable role cookie, a simulated injection flaw and unescaped output.</p>
+      <div class="actions">
+        <a class="btn primary" href="console.html">Open the console</a>
+        <a class="btn" href="#how">How it works</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="banner" style="display:block">
+        <strong>This is a deliberately vulnerable lab app, not a hosted product.</strong>
+        It is part of the Foundev portfolio: a self-contained repository with its own tests and README.
+        The page you are reading is a project console — the numbers below are computed from the repository, and the demo runs the project's own command.
+      </div>
+      <div class="head reveal">
+        <div>
+          <span class="eyebrow">What it does</span>
+          <h2 style="margin-top:10px">The capabilities</h2>
+        </div>
+        <p class="lede" style="max-width:42ch">Every panel below is served by the console's real API — nothing here is a mock-up.</p>
+      </div>
+      <div class="grid cols-3">
+        <article class="card reveal">
+          <div class="icon">⚿</div>
+          <h3>Weak defaults</h3>
+          <p>Default credentials and a role cookie the client can forge.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">⌕</div>
+          <h3>A simulated injection</h3>
+          <p>The search endpoint keeps an injection-shaped flaw for guided practice.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">◈</div>
+          <h3>Reflected and stored XSS</h3>
+          <p>Input is deliberately not escaped so the output paths can be studied.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">⇄</div>
+          <h3>Broken access control</h3>
+          <p>User and admin endpoints demonstrate missing authorisation checks.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">▤</div>
+          <h3>Runs without a database</h3>
+          <p>Only node:http and in-memory arrays are used, so the lab starts with npm start.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">⚠</div>
+          <h3>Not deployable</h3>
+          <p>Every flaw is intentional; the README states the authorised-use boundary.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="wrap">
+      <div class="grid cols-2">
+        <div class="reveal">
+          <span class="eyebrow">Architecture</span>
+          <h2 style="margin:10px 0 12px">How it works</h2>
+          <p class="lede">src/app.js holds the intentionally vulnerable routes and the in-memory data. The test suite pins the expected (insecure) behaviour so a learner can see what changes when a fix is applied. The CSV stack names Express and MongoDB; this build uses the standard library and in-memory arrays so it runs with no services, while preserving the same attack surface.</p>
+          <div style="display:flex;flex-wrap:wrap;gap:7px;margin-top:18px"><span class="badge">Node.js</span><span class="badge">HTTP</span><span class="badge">OWASP Top 10</span><span class="badge">Security training</span></div>
+        </div>
+        <div class="reveal">
+          <span class="eyebrow">The console API</span>
+          <h2 style="margin:10px 0 12px">Endpoints</h2>
+          <div class="panel">
+            <table>
+              <thead><tr><th>Method</th><th>Path</th><th>What it does</th></tr></thead>
+              <tbody>
+                <tr><td><code>GET</code></td><td><code>/api/summary</code></td><td>Counts files, lines and tests in this repository, and groups the lines by language</td></tr>
+                <tr><td><code>POST</code></td><td><code>/api/run</code></td><td>Runs the project's own demo command and returns its real output</td></tr>
+                <tr><td><code>GET</code></td><td><code>/console.html</code></td><td>The console of this site</td></tr>
+                <tr><td><code>GET</code></td><td><code>/assets/theme.css</code></td><td>The design system of this site</td></tr>
+                <tr><td><code>CLI</code></td><td><code>npm start</code></td><td>The project's own native entry point</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="grid cols-2">
+        <div class="reveal">
+          <span class="eyebrow">Quick start</span>
+          <h2 style="margin:10px 0 12px">Run it locally</h2>
+          <div class="panel">
+            <table>
+              <thead><tr><th>Command</th><th>What it does</th></tr></thead>
+              <tbody><tr><td><code>npm start</code></td><td>start the lab on the local port</td></tr><tr><td><code>npm test</code></td><td>run the test suite</td></tr></tbody>
+            </table>
+          </div>
+          <p class="lede" style="margin-top:12px;font-size:.86rem">The console itself needs nothing but Python: <code>py -3 web/server.py</code>.</p>
+        </div>
+        <div class="reveal">
+          <span class="eyebrow">Live</span>
+          <h2 style="margin:10px 0 12px">The repository, counted</h2>
+          <div class="stats" id="stats"><div class="stat"><div class="value" data-stat="Files">—</div><div class="label">Files</div></div><div class="stat"><div class="value" data-stat="Lines">—</div><div class="label">Lines</div></div><div class="stat"><div class="value" data-stat="Tests">—</div><div class="label">Tests</div></div><div class="stat"><div class="value" data-stat="Language">—</div><div class="label">Language</div></div></div>
+          <p class="lede" style="margin-top:12px;font-size:.86rem">Start <code>web/server.py</code> to replace these dashes with the real counts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>OWASP NodeGoat — part of the Foundev portfolio.</span>
+    <span>A deliberately vulnerable lab app.</span>
+  </div>
+</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>

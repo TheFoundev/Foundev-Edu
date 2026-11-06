@@ -1,0 +1,45 @@
+{
+  "module_id": "owasp-zap-module-04",
+  "title": "ActiveAnalyzer and CrawlListener",
+  "description": "Study the implementation in [src/main/java/local/foundev/zap/core/ActiveAnalyzer.java] and [src/main/java/local/foundev/zap/core/CrawlListener.java]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include class, analyze, CrawlListener, pageCrawled, linkDiscovered, error; confirm their complete definitions and callers in the file.",
+  "source_files": [
+    "src/main/java/local/foundev/zap/core/ActiveAnalyzer.java",
+    "src/main/java/local/foundev/zap/core/CrawlListener.java"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "owasp-zap-module-04-objective-1",
+      "text": "Explain the source role and visible behavior in src/main/java/local/foundev/zap/core/ActiveAnalyzer.java, src/main/java/local/foundev/zap/core/CrawlListener.java."
+    },
+    {
+      "objective_id": "owasp-zap-module-04-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "owasp-zap-module-04-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "owasp-zap-module-03"
+  ],
+  "ordered_lesson_ids": [
+    "owasp-zap-module-04-lesson-1",
+    "owasp-zap-module-04-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for src/main/java/local/foundev/zap/core/ActiveAnalyzer.java, src/main/java/local/foundev/zap/core/CrawlListener.java",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

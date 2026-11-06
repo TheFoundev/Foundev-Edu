@@ -1,0 +1,45 @@
+{
+  "module_id": "memory-allocator-from-scratch-module-03",
+  "title": "Test code and implementation evidence",
+  "description": "Read the test cases in tests/test_main.c beside the implementation in src/main.c. Explain the behavior asserted by the tests and trace each assertion to the implementation. A test file describes a check; it does not prove that check passed.",
+  "source_files": [
+    "tests/test_main.c",
+    "src/main.c"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "memory-allocator-from-scratch-module-03-objective-1",
+      "text": "Explain the source role and visible behavior in tests/test_main.c, src/main.c."
+    },
+    {
+      "objective_id": "memory-allocator-from-scratch-module-03-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "memory-allocator-from-scratch-module-03-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "memory-allocator-from-scratch-module-02"
+  ],
+  "ordered_lesson_ids": [
+    "memory-allocator-from-scratch-module-03-lesson-1",
+    "memory-allocator-from-scratch-module-03-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "test assertions",
+    "implementation behavior",
+    "limits of test evidence"
+  ],
+  "practical_outcomes": [
+    "Evidence map for tests/test_main.c, src/main.c",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

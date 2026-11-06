@@ -1,0 +1,46 @@
+{
+  "module_id": "cowrie-module-04",
+  "title": "Runtime configuration connected to code",
+  "description": "Inspect the declared manifests .github/workflows/ci.yml, requirements.txt and trace the relevant package or setting into implementation file main.py. Separate a declaration from an imported, configured, or executed behavior.",
+  "source_files": [
+    ".github/workflows/ci.yml",
+    "requirements.txt",
+    "main.py"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "cowrie-module-04-objective-1",
+      "text": "Explain the source role and visible behavior in .github/workflows/ci.yml, requirements.txt, main.py."
+    },
+    {
+      "objective_id": "cowrie-module-04-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "cowrie-module-04-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "cowrie-module-03"
+  ],
+  "ordered_lesson_ids": [
+    "cowrie-module-04-lesson-1",
+    "cowrie-module-04-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "declared dependencies",
+    "configuration use in code",
+    "safe setup"
+  ],
+  "practical_outcomes": [
+    "Evidence map for .github/workflows/ci.yml, requirements.txt, main.py",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

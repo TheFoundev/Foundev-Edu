@@ -1,0 +1,47 @@
+{
+  "module_id": "owasp-zap-module-13",
+  "title": "Test code and implementation evidence",
+  "description": "Read the test cases in src/test/java/local/foundev/zap/AlertStoreTest.java, src/test/java/local/foundev/zap/CookieAnalysisTest.java, src/test/java/local/foundev/zap/PassiveAnalyzerTest.java beside the implementation in src/main/java/local/foundev/zap/model/AlertStore.java. Explain the behavior asserted by the tests and trace each assertion to the implementation. A test file describes a check; it does not prove that check passed.",
+  "source_files": [
+    "src/test/java/local/foundev/zap/AlertStoreTest.java",
+    "src/test/java/local/foundev/zap/CookieAnalysisTest.java",
+    "src/test/java/local/foundev/zap/PassiveAnalyzerTest.java",
+    "src/main/java/local/foundev/zap/model/AlertStore.java"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "owasp-zap-module-13-objective-1",
+      "text": "Explain the source role and visible behavior in src/test/java/local/foundev/zap/AlertStoreTest.java, src/test/java/local/foundev/zap/CookieAnalysisTest.java, src/test/java/local/foundev/zap/PassiveAnalyzerTest.java, src/main/java/local/foundev/zap/model/AlertStore.java."
+    },
+    {
+      "objective_id": "owasp-zap-module-13-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "owasp-zap-module-13-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "owasp-zap-module-12"
+  ],
+  "ordered_lesson_ids": [
+    "owasp-zap-module-13-lesson-1",
+    "owasp-zap-module-13-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "test assertions",
+    "implementation behavior",
+    "limits of test evidence"
+  ],
+  "practical_outcomes": [
+    "Evidence map for src/test/java/local/foundev/zap/AlertStoreTest.java, src/test/java/local/foundev/zap/CookieAnalysisTest.java, src/test/java/local/foundev/zap/PassiveAnalyzerTest.java, src/main/java/local/foundev/zap/model/AlertStore.java",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

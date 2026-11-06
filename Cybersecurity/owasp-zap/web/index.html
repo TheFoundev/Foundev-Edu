@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OWASP ZAP · project console</title>
+<meta name="description" content="A ZAP-style scanner that spiders a target you supply, checks every response passively, sends active probes only after explicit authorisation, and exports the alerts as HTML or JSON.">
+<meta name="theme-color" content="hsl(220 72% 46%)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700;800&family=ui-sans-serif,+system-ui,+'Segoe+UI',+sans-serif:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/theme.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the content</a>
+<header class="topbar">
+  <a class="brand" href="index.html">
+    <span class="mark">ZP</span>
+    <span><strong>OWASP ZAP</strong><small>Spider, analyse, report — with a gate</small></span>
+  </a>
+  <nav class="nav"><a href="index.html" class="active">Overview</a><a href="console.html">Console</a></nav>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <span class="eyebrow">security · Java</span>
+      <h1>Active checks only after you say you are authorised.</h1>
+      <p class="lede">A ZAP-style scanner that spiders a target you supply, checks every response passively, sends active probes only after explicit authorisation, and exports the alerts as HTML or JSON.</p>
+      <div class="actions">
+        <a class="btn primary" href="console.html">Open the console</a>
+        <a class="btn" href="#how">How it works</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="banner" style="display:block">
+        <strong>This is a Java desktop security tool, not a hosted product.</strong>
+        It is part of the Foundev portfolio: a self-contained repository with its own tests and README.
+        The page you are reading is a project console — the numbers below are computed from the repository, and the demo runs the project's own command.
+      </div>
+      <div class="head reveal">
+        <div>
+          <span class="eyebrow">What it does</span>
+          <h2 style="margin-top:10px">The capabilities</h2>
+        </div>
+        <p class="lede" style="max-width:42ch">Every panel below is served by the console's real API — nothing here is a mock-up.</p>
+      </div>
+      <div class="grid cols-3">
+        <article class="card reveal">
+          <div class="icon">⌕</div>
+          <h3>A same-origin spider</h3>
+          <p>Breadth-first crawling discovers href and src links and GET form targets.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">◈</div>
+          <h3>Passive analysis</h3>
+          <p>Missing CSP, frame and content-type headers, cookie flags, banner disclosure and mixed content are reported.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">⚿</div>
+          <h3>A hard authorisation gate</h3>
+          <p>Reflected XSS, error-based SQL injection and traversal probes are disabled without an explicit confirmation.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">▤</div>
+          <h3>A real alert model</h3>
+          <p>Risk, confidence, URL, parameter, evidence, description and remediation, de-duplicated and filterable.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">◫</div>
+          <h3>A Swing UI and a CLI</h3>
+          <p>The same core runs interactively or headless for scripted assessments.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">⇩</div>
+          <h3>HTML and JSON export</h3>
+          <p>The report can be exported for a ticket or an assessment record.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="wrap">
+      <div class="grid cols-2">
+        <div class="reveal">
+          <span class="eyebrow">Architecture</span>
+          <h2 style="margin:10px 0 12px">How it works</h2>
+          <p class="lede">The scanner core is independent of the UI: a spider produces a site tree, the passive analyser inspects every response, and the active analyser runs only when the authorisation flag is set. Alerts are stored in a de-duplicating in-memory store. The Swing UI and the headless CLI are two front ends over the same core, and the JUnit suite pins the analyser behaviour.</p>
+          <div style="display:flex;flex-wrap:wrap;gap:7px;margin-top:18px"><span class="badge">Java</span><span class="badge">Swing</span><span class="badge">JUnit</span><span class="badge">Maven</span><span class="badge">HTTP</span></div>
+        </div>
+        <div class="reveal">
+          <span class="eyebrow">The console API</span>
+          <h2 style="margin:10px 0 12px">Endpoints</h2>
+          <div class="panel">
+            <table>
+              <thead><tr><th>Method</th><th>Path</th><th>What it does</th></tr></thead>
+              <tbody>
+                <tr><td><code>GET</code></td><td><code>/api/summary</code></td><td>Counts files, lines and tests in this repository, and groups the lines by language</td></tr>
+                <tr><td><code>POST</code></td><td><code>/api/run</code></td><td>Runs the project's own demo command and returns its real output</td></tr>
+                <tr><td><code>GET</code></td><td><code>/console.html</code></td><td>The console of this site</td></tr>
+                <tr><td><code>GET</code></td><td><code>/assets/theme.css</code></td><td>The design system of this site</td></tr>
+                <tr><td><code>CLI</code></td><td><code>java -jar target/*.jar</code></td><td>The project's own native entry point</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="grid cols-2">
+        <div class="reveal">
+          <span class="eyebrow">Quick start</span>
+          <h2 style="margin:10px 0 12px">Run it locally</h2>
+          <div class="panel">
+            <table>
+              <thead><tr><th>Command</th><th>What it does</th></tr></thead>
+              <tbody><tr><td><code>mvn -q package</code></td><td>build the scanner and its UI</td></tr><tr><td><code>mvn -q test</code></td><td>run the 26-test suite</td></tr><tr><td><code>java -jar target/*.jar --authorized</code></td><td>run a headless assessment you are authorised to perform</td></tr></tbody>
+            </table>
+          </div>
+          <p class="lede" style="margin-top:12px;font-size:.86rem">The console itself needs nothing but Python: <code>py -3 web/server.py</code>.</p>
+        </div>
+        <div class="reveal">
+          <span class="eyebrow">Live</span>
+          <h2 style="margin:10px 0 12px">The repository, counted</h2>
+          <div class="stats" id="stats"><div class="stat"><div class="value" data-stat="Files">—</div><div class="label">Files</div></div><div class="stat"><div class="value" data-stat="Lines">—</div><div class="label">Lines</div></div><div class="stat"><div class="value" data-stat="Tests">—</div><div class="label">Tests</div></div><div class="stat"><div class="value" data-stat="Language">—</div><div class="label">Language</div></div></div>
+          <p class="lede" style="margin-top:12px;font-size:.86rem">Start <code>web/server.py</code> to replace these dashes with the real counts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>OWASP ZAP — part of the Foundev portfolio.</span>
+    <span>A Java desktop security tool.</span>
+  </div>
+</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+{
+  "module_id": "owasp-zap-module-14",
+  "title": "Runtime configuration connected to code",
+  "description": "Inspect the declared manifests .github/workflows/ci.yml, pom.xml and trace the relevant package or setting into implementation file src/main/java/local/foundev/zap/ScannerApp.java. Separate a declaration from an imported, configured, or executed behavior.",
+  "source_files": [
+    ".github/workflows/ci.yml",
+    "pom.xml",
+    "src/main/java/local/foundev/zap/ScannerApp.java"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "owasp-zap-module-14-objective-1",
+      "text": "Explain the source role and visible behavior in .github/workflows/ci.yml, pom.xml, src/main/java/local/foundev/zap/ScannerApp.java."
+    },
+    {
+      "objective_id": "owasp-zap-module-14-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "owasp-zap-module-14-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "owasp-zap-module-13"
+  ],
+  "ordered_lesson_ids": [
+    "owasp-zap-module-14-lesson-1",
+    "owasp-zap-module-14-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "declared dependencies",
+    "configuration use in code",
+    "safe setup"
+  ],
+  "practical_outcomes": [
+    "Evidence map for .github/workflows/ci.yml, pom.xml, src/main/java/local/foundev/zap/ScannerApp.java",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

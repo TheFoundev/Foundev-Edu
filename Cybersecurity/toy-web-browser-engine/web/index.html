@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Toy Browser Engine · project console</title>
+<meta name="description" content="A small browser engine in Rust: an HTML tokenizer, DOM tree builder, HTML serializer, CSS parser and cascade with selector matching, a box-model layout engine and an HTTP fetcher.">
+<meta name="theme-color" content="hsl(25 72% 46%)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700;800&family=ui-sans-serif,+system-ui,+'Segoe+UI',+sans-serif:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/theme.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the content</a>
+<header class="topbar">
+  <a class="brand" href="index.html">
+    <span class="mark">WB</span>
+    <span><strong>Toy Browser Engine</strong><small>Tokenizer, DOM, cascade, layout</small></span>
+  </a>
+  <nav class="nav"><a href="index.html" class="active">Overview</a><a href="console.html">Console</a></nav>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <span class="eyebrow">systems · Rust</span>
+      <h1>From bytes to boxes, in one readable pipeline.</h1>
+      <p class="lede">A small browser engine in Rust: an HTML tokenizer, DOM tree builder, HTML serializer, CSS parser and cascade with selector matching, a box-model layout engine and an HTTP fetcher.</p>
+      <div class="actions">
+        <a class="btn primary" href="console.html">Open the console</a>
+        <a class="btn" href="#how">How it works</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="banner" style="display:block">
+        <strong>This is a Rust library and CLI, not a hosted product.</strong>
+        It is part of the Foundev portfolio: a self-contained repository with its own tests and README.
+        The page you are reading is a project console — the numbers below are computed from the repository, and the demo runs the project's own command.
+      </div>
+      <div class="head reveal">
+        <div>
+          <span class="eyebrow">What it does</span>
+          <h2 style="margin-top:10px">The capabilities</h2>
+        </div>
+        <p class="lede" style="max-width:42ch">Every panel below is served by the console's real API — nothing here is a mock-up.</p>
+      </div>
+      <div class="grid cols-3">
+        <article class="card reveal">
+          <div class="icon">⌗</div>
+          <h3>A real HTML tokenizer</h3>
+          <p>Tags, attributes, text, comments, doctypes and self-closing tags, with entity decoding.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">◫</div>
+          <h3>A DOM and serializer</h3>
+          <p>Void elements, implicit end tags and stray end tags are handled, and the document round-trips.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">◈</div>
+          <h3>CSS and the cascade</h3>
+          <p>Rules, declarations, selector lists, specificity, inheritance and descendant combinators.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">▦</div>
+          <h3>Box-model layout</h3>
+          <p>Content, padding, border and margin for content-box and border-box, with percentage widths.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">⇩</div>
+          <h3>HTTP fetching</h3>
+          <p>Relative links and assets are resolved and fetched with a blocking client.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">✓</div>
+          <h3>34 tests</h3>
+          <p>Unit and integration tests cover every stage of the pipeline.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="wrap">
+      <div class="grid cols-2">
+        <div class="reveal">
+          <span class="eyebrow">Architecture</span>
+          <h2 style="margin:10px 0 12px">How it works</h2>
+          <p class="lede">The pipeline mirrors a real engine in a size you can read: HTML text to tokens, tokens to a DOM, DOM to computed styles, computed styles to layout boxes. CSS parsing and matching are separate from layout. Fetching is the only stage that touches the network; the rest is pure and heavily tested.</p>
+          <div style="display:flex;flex-wrap:wrap;gap:7px;margin-top:18px"><span class="badge">Rust</span><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">Layout</span><span class="badge">Reqwest</span></div>
+        </div>
+        <div class="reveal">
+          <span class="eyebrow">The console API</span>
+          <h2 style="margin:10px 0 12px">Endpoints</h2>
+          <div class="panel">
+            <table>
+              <thead><tr><th>Method</th><th>Path</th><th>What it does</th></tr></thead>
+              <tbody>
+                <tr><td><code>GET</code></td><td><code>/api/summary</code></td><td>Counts files, lines and tests in this repository, and groups the lines by language</td></tr>
+                <tr><td><code>POST</code></td><td><code>/api/run</code></td><td>Runs the project's own demo command and returns its real output</td></tr>
+                <tr><td><code>GET</code></td><td><code>/console.html</code></td><td>The console of this site</td></tr>
+                <tr><td><code>GET</code></td><td><code>/assets/theme.css</code></td><td>The design system of this site</td></tr>
+                <tr><td><code>CLI</code></td><td><code>cargo run --release</code></td><td>The project's own native entry point</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="grid cols-2">
+        <div class="reveal">
+          <span class="eyebrow">Quick start</span>
+          <h2 style="margin:10px 0 12px">Run it locally</h2>
+          <div class="panel">
+            <table>
+              <thead><tr><th>Command</th><th>What it does</th></tr></thead>
+              <tbody><tr><td><code>cargo test --offline</code></td><td>run the 34-test suite</td></tr><tr><td><code>cargo run --release -- --help</code></td><td>see the CLI options</td></tr></tbody>
+            </table>
+          </div>
+          <p class="lede" style="margin-top:12px;font-size:.86rem">The console itself needs nothing but Python: <code>py -3 web/server.py</code>.</p>
+        </div>
+        <div class="reveal">
+          <span class="eyebrow">Live</span>
+          <h2 style="margin:10px 0 12px">The repository, counted</h2>
+          <div class="stats" id="stats"><div class="stat"><div class="value" data-stat="Files">—</div><div class="label">Files</div></div><div class="stat"><div class="value" data-stat="Lines">—</div><div class="label">Lines</div></div><div class="stat"><div class="value" data-stat="Tests">—</div><div class="label">Tests</div></div><div class="stat"><div class="value" data-stat="Language">—</div><div class="label">Language</div></div></div>
+          <p class="lede" style="margin-top:12px;font-size:.86rem">Start <code>web/server.py</code> to replace these dashes with the real counts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Toy Browser Engine — part of the Foundev portfolio.</span>
+    <span>A Rust library and CLI.</span>
+  </div>
+</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>

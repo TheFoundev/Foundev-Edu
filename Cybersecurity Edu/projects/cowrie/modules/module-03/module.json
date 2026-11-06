@@ -1,0 +1,45 @@
+{
+  "module_id": "cowrie-module-03",
+  "title": "Test code and implementation evidence",
+  "description": "Read the test cases in tests/test_pipeline.py beside the implementation in src/pipeline.py. Explain the behavior asserted by the tests and trace each assertion to the implementation. A test file describes a check; it does not prove that check passed.",
+  "source_files": [
+    "tests/test_pipeline.py",
+    "src/pipeline.py"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "cowrie-module-03-objective-1",
+      "text": "Explain the source role and visible behavior in tests/test_pipeline.py, src/pipeline.py."
+    },
+    {
+      "objective_id": "cowrie-module-03-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "cowrie-module-03-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "cowrie-module-02"
+  ],
+  "ordered_lesson_ids": [
+    "cowrie-module-03-lesson-1",
+    "cowrie-module-03-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "test assertions",
+    "implementation behavior",
+    "limits of test evidence"
+  ],
+  "practical_outcomes": [
+    "Evidence map for tests/test_pipeline.py, src/pipeline.py",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

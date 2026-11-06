@@ -1,0 +1,45 @@
+{
+  "module_id": "signal-style-e2ee-chat-module-02",
+  "title": "Crypto and Ws",
+  "description": "Study the implementation in [src/crypto.js] and [src/ws.js]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include generateKeyPair, toPublicKey, toPrivateKey, deriveSharedKey, sessionSalt, encryptWithCounter, decryptWithCounter, encrypt, acceptKey, encodeFrame, encodeText, parseFrame, attachWebSocket, broadcast; confirm their complete definitions and callers in the file.",
+  "source_files": [
+    "src/crypto.js",
+    "src/ws.js"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "signal-style-e2ee-chat-module-02-objective-1",
+      "text": "Explain the source role and visible behavior in src/crypto.js, src/ws.js."
+    },
+    {
+      "objective_id": "signal-style-e2ee-chat-module-02-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "signal-style-e2ee-chat-module-02-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "signal-style-e2ee-chat-module-01"
+  ],
+  "ordered_lesson_ids": [
+    "signal-style-e2ee-chat-module-02-lesson-1",
+    "signal-style-e2ee-chat-module-02-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for src/crypto.js, src/ws.js",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

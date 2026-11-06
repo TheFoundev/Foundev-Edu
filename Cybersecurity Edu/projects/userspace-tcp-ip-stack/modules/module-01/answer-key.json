@@ -1,0 +1,225 @@
+{
+  "module_id": "userspace-tcp-ip-stack-module-01",
+  "answers": [
+    {
+      "question_id": "userspace-tcp-ip-stack-module-01-q01",
+      "correct_option_id": "userspace-tcp-ip-stack-module-01-q01-o1",
+      "correct_explanation": "This follows the source-reading method taught for web/server.py, src/main.c: use located implementation evidence and keep unexecuted behavior unverified.",
+      "incorrect_option_explanations": [
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q01-o2",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: a name or description does not show a call path"
+        },
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q01-o3",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: source files and test definitions do not establish a passing runtime result"
+        },
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q01-o4",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: configuration or package declarations alone do not establish active behavior"
+        }
+      ],
+      "tested_concept": "source declarations",
+      "related_lesson_id": "userspace-tcp-ip-stack-module-01-lesson-1",
+      "supporting_reference": "web/server.py, src/main.c; source map in architecture.md."
+    },
+    {
+      "question_id": "userspace-tcp-ip-stack-module-01-q02",
+      "correct_option_id": "userspace-tcp-ip-stack-module-01-q02-o1",
+      "correct_explanation": "This follows the source-reading method taught for web/server.py, src/main.c: use located implementation evidence and keep unexecuted behavior unverified.",
+      "incorrect_option_explanations": [
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q02-o2",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: a name or description does not show a call path"
+        },
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q02-o3",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: source files and test definitions do not establish a passing runtime result"
+        },
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q02-o4",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: configuration or package declarations alone do not establish active behavior"
+        }
+      ],
+      "tested_concept": "imports and callers",
+      "related_lesson_id": "userspace-tcp-ip-stack-module-01-lesson-2",
+      "supporting_reference": "web/server.py, src/main.c; source map in architecture.md."
+    },
+    {
+      "question_id": "userspace-tcp-ip-stack-module-01-q03",
+      "correct_option_id": "userspace-tcp-ip-stack-module-01-q03-o1",
+      "correct_explanation": "This follows the source-reading method taught for web/server.py, src/main.c: use located implementation evidence and keep unexecuted behavior unverified.",
+      "incorrect_option_explanations": [
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q03-o2",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: a name or description does not show a call path"
+        },
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q03-o3",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: source files and test definitions do not establish a passing runtime result"
+        },
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q03-o4",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: configuration or package declarations alone do not establish active behavior"
+        }
+      ],
+      "tested_concept": "inputs and outputs",
+      "related_lesson_id": "userspace-tcp-ip-stack-module-01-lesson-1",
+      "supporting_reference": "web/server.py, src/main.c; source map in architecture.md."
+    },
+    {
+      "question_id": "userspace-tcp-ip-stack-module-01-q04",
+      "correct_option_id": "userspace-tcp-ip-stack-module-01-q04-o1",
+      "correct_explanation": "This follows the source-reading method taught for web/server.py, src/main.c: use located implementation evidence and keep unexecuted behavior unverified.",
+      "incorrect_option_explanations": [
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q04-o2",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: a name or description does not show a call path"
+        },
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q04-o3",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: source files and test definitions do not establish a passing runtime result"
+        },
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q04-o4",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: configuration or package declarations alone do not establish active behavior"
+        }
+      ],
+      "tested_concept": "source declarations",
+      "related_lesson_id": "userspace-tcp-ip-stack-module-01-lesson-2",
+      "supporting_reference": "web/server.py, src/main.c; source map in architecture.md."
+    },
+    {
+      "question_id": "userspace-tcp-ip-stack-module-01-q05",
+      "correct_option_id": "userspace-tcp-ip-stack-module-01-q05-o1",
+      "correct_explanation": "This follows the source-reading method taught for web/server.py, src/main.c: use located implementation evidence and keep unexecuted behavior unverified.",
+      "incorrect_option_explanations": [
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q05-o2",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: a name or description does not show a call path"
+        },
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q05-o3",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: source files and test definitions do not establish a passing runtime result"
+        },
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q05-o4",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: configuration or package declarations alone do not establish active behavior"
+        }
+      ],
+      "tested_concept": "imports and callers",
+      "related_lesson_id": "userspace-tcp-ip-stack-module-01-lesson-1",
+      "supporting_reference": "web/server.py, src/main.c; source map in architecture.md."
+    },
+    {
+      "question_id": "userspace-tcp-ip-stack-module-01-q06",
+      "correct_option_id": "userspace-tcp-ip-stack-module-01-q06-o1",
+      "correct_explanation": "This follows the source-reading method taught for web/server.py, src/main.c: use located implementation evidence and keep unexecuted behavior unverified.",
+      "incorrect_option_explanations": [
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q06-o2",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: a name or description does not show a call path"
+        },
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q06-o3",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: source files and test definitions do not establish a passing runtime result"
+        },
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q06-o4",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: configuration or package declarations alone do not establish active behavior"
+        }
+      ],
+      "tested_concept": "inputs and outputs",
+      "related_lesson_id": "userspace-tcp-ip-stack-module-01-lesson-2",
+      "supporting_reference": "web/server.py, src/main.c; source map in architecture.md."
+    },
+    {
+      "question_id": "userspace-tcp-ip-stack-module-01-q07",
+      "correct_option_id": "userspace-tcp-ip-stack-module-01-q07-o1",
+      "correct_explanation": "This follows the source-reading method taught for web/server.py, src/main.c: use located implementation evidence and keep unexecuted behavior unverified.",
+      "incorrect_option_explanations": [
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q07-o2",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: a name or description does not show a call path"
+        },
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q07-o3",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: source files and test definitions do not establish a passing runtime result"
+        },
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q07-o4",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: configuration or package declarations alone do not establish active behavior"
+        }
+      ],
+      "tested_concept": "source declarations",
+      "related_lesson_id": "userspace-tcp-ip-stack-module-01-lesson-1",
+      "supporting_reference": "web/server.py, src/main.c; source map in architecture.md."
+    },
+    {
+      "question_id": "userspace-tcp-ip-stack-module-01-q08",
+      "correct_option_id": "userspace-tcp-ip-stack-module-01-q08-o1",
+      "correct_explanation": "This follows the source-reading method taught for web/server.py, src/main.c: use located implementation evidence and keep unexecuted behavior unverified.",
+      "incorrect_option_explanations": [
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q08-o2",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: a name or description does not show a call path"
+        },
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q08-o3",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: source files and test definitions do not establish a passing runtime result"
+        },
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q08-o4",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: configuration or package declarations alone do not establish active behavior"
+        }
+      ],
+      "tested_concept": "imports and callers",
+      "related_lesson_id": "userspace-tcp-ip-stack-module-01-lesson-2",
+      "supporting_reference": "web/server.py, src/main.c; source map in architecture.md."
+    },
+    {
+      "question_id": "userspace-tcp-ip-stack-module-01-q09",
+      "correct_option_id": "userspace-tcp-ip-stack-module-01-q09-o1",
+      "correct_explanation": "This follows the source-reading method taught for web/server.py, src/main.c: use located implementation evidence and keep unexecuted behavior unverified.",
+      "incorrect_option_explanations": [
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q09-o2",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: a name or description does not show a call path"
+        },
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q09-o3",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: source files and test definitions do not establish a passing runtime result"
+        },
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q09-o4",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: configuration or package declarations alone do not establish active behavior"
+        }
+      ],
+      "tested_concept": "inputs and outputs",
+      "related_lesson_id": "userspace-tcp-ip-stack-module-01-lesson-1",
+      "supporting_reference": "web/server.py, src/main.c; source map in architecture.md."
+    },
+    {
+      "question_id": "userspace-tcp-ip-stack-module-01-q10",
+      "correct_option_id": "userspace-tcp-ip-stack-module-01-q10-o1",
+      "correct_explanation": "This follows the source-reading method taught for web/server.py, src/main.c: use located implementation evidence and keep unexecuted behavior unverified.",
+      "incorrect_option_explanations": [
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q10-o2",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: a name or description does not show a call path"
+        },
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q10-o3",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: source files and test definitions do not establish a passing runtime result"
+        },
+        {
+          "option_id": "userspace-tcp-ip-stack-module-01-q10-o4",
+          "explanation": "This distractor overstates what can be concluded about web/server.py: configuration or package declarations alone do not establish active behavior"
+        }
+      ],
+      "tested_concept": "source declarations",
+      "related_lesson_id": "userspace-tcp-ip-stack-module-01-lesson-2",
+      "supporting_reference": "web/server.py, src/main.c; source map in architecture.md."
+    }
+  ]
+}

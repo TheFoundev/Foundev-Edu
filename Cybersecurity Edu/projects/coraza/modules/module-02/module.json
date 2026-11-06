@@ -1,0 +1,45 @@
+{
+  "module_id": "coraza-module-02",
+  "title": "Api Impl and Waf",
+  "description": "Study the implementation in [web/api_impl.py] and [waf.go]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include main, _sources, _build_helper, Middleware, Inspectable, decodeOnce, Inspect, Score, Blocked, Evidence; confirm their complete definitions and callers in the file.",
+  "source_files": [
+    "web/api_impl.py",
+    "waf.go"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "coraza-module-02-objective-1",
+      "text": "Explain the source role and visible behavior in web/api_impl.py, waf.go."
+    },
+    {
+      "objective_id": "coraza-module-02-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "coraza-module-02-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "coraza-module-01"
+  ],
+  "ordered_lesson_ids": [
+    "coraza-module-02-lesson-1",
+    "coraza-module-02-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for web/api_impl.py, waf.go",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

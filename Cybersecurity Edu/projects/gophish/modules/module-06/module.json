@@ -1,0 +1,46 @@
+{
+  "module_id": "gophish-module-06",
+  "title": "Code review and safe change 6",
+  "description": "Use campaign.go to identify a bounded change, its callers, and a testable acceptance condition. Do not infer unobserved behavior.",
+  "source_files": [
+    "campaign.go",
+    "campaign_test.go",
+    "main.go"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "gophish-module-06-objective-1",
+      "text": "Explain the source role and visible behavior in campaign.go, campaign_test.go, main.go."
+    },
+    {
+      "objective_id": "gophish-module-06-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "gophish-module-06-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "gophish-module-05"
+  ],
+  "ordered_lesson_ids": [
+    "gophish-module-06-lesson-1",
+    "gophish-module-06-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "call graph",
+    "failure cases",
+    "safe extension"
+  ],
+  "practical_outcomes": [
+    "Evidence map for campaign.go, campaign_test.go, main.go",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

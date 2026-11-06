@@ -1,0 +1,25 @@
+{
+  "title": "Sniffnet",
+  "slug": "sniffnet",
+  "description": "A source-grounded learning package for Sniffnet, based on the project repository.",
+  "problem": "Study how this repository addresses sniffnet; confirm the precise user problem against the source and README.",
+  "audience": "Learners with basic command-line and programming familiarity; see prerequisites.md.",
+  "stack": [
+    "Python",
+    "JavaScript/Node.js",
+    "Rust"
+  ],
+  "difficulty": "Intermediate",
+  "prerequisites": [
+    "Basic command-line use",
+    "Ability to read source code in the listed stack"
+  ],
+  "learning_outcomes": [
+    "Map documented goals to implemented code and identify discrepancies.",
+    "Trace important inputs, transformations, outputs, and configuration.",
+    "Interpret dependency and test evidence without overstating it.",
+    "Propose and evaluate a safe, source-consistent extension."
+  ],
+  "estimated_duration_hours": 18,
+  "content_schema_version": "1.0.0"
+}
