@@ -1,0 +1,156 @@
+{
+  "rows": 163,
+  "clean_rows": 158,
+  "checks": [
+    {
+      "name": "customer_id_present",
+      "passed": true,
+      "failures": 0,
+      "severity": "critical",
+      "description": "the column customer_id has to be there",
+      "examples": []
+    },
+    {
+      "name": "customer_id_not_null",
+      "passed": true,
+      "failures": 0,
+      "severity": "critical",
+      "description": "the column customer_id may not be empty",
+      "examples": []
+    },
+    {
+      "name": "customer_id_unique",
+      "passed": false,
+      "failures": 2,
+      "severity": "critical",
+      "description": "the column customer_id may only be there once",
+      "examples": [
+        {
+          "customer_id": 5,
+          "reason": "customer_id is there more than once"
+        },
+        {
+          "customer_id": 5,
+          "reason": "customer_id is there more than once"
+        }
+      ]
+    },
+    {
+      "name": "email_not_null",
+      "passed": false,
+      "failures": 1,
+      "severity": "critical",
+      "description": "the column email may not be empty",
+      "examples": [
+        {
+          "customer_id": 18,
+          "reason": "email is empty"
+        }
+      ]
+    },
+    {
+      "name": "email_format",
+      "passed": false,
+      "failures": 2,
+      "severity": "critical",
+      "description": "the column email has to match ^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$",
+      "examples": [
+        {
+          "customer_id": 4,
+          "reason": "email is not a valid value"
+        },
+        {
+          "customer_id": 18,
+          "reason": "email is not a valid value"
+        }
+      ]
+    },
+    {
+      "name": "age_range",
+      "passed": false,
+      "failures": 1,
+      "severity": "critical",
+      "description": "the column age has to be between 18 and 90",
+      "examples": [
+        {
+          "customer_id": 8,
+          "reason": "age is not between 18 and 90"
+        }
+      ]
+    },
+    {
+      "name": "status_values",
+      "passed": false,
+      "failures": 1,
+      "severity": "warning",
+      "description": "the column status has to be one of active, paused, cancelled",
+      "examples": [
+        {
+          "customer_id": 12,
+          "reason": "status is not one of the allowed values"
+        }
+      ]
+    },
+    {
+      "name": "country_not_null",
+      "passed": false,
+      "failures": 1,
+      "severity": "warning",
+      "description": "the column country may not be empty",
+      "examples": [
+        {
+          "customer_id": 16,
+          "reason": "country is empty"
+        }
+      ]
+    }
+  ],
+  "critical_failures": 6,
+  "warning_failures": 2,
+  "failed_rows": [
+    {
+      "customer_id": 3,
+      "checks": [
+        "email_format"
+      ]
+    },
+    {
+      "customer_id": 4,
+      "checks": [
+        "customer_id_unique"
+      ]
+    },
+    {
+      "customer_id": 7,
+      "checks": [
+        "age_range"
+      ]
+    },
+    {
+      "customer_id": 11,
+      "checks": [
+        "status_values"
+      ]
+    },
+    {
+      "customer_id": 15,
+      "checks": [
+        "country_not_null"
+      ]
+    },
+    {
+      "customer_id": 17,
+      "checks": [
+        "email_not_null",
+        "email_format"
+      ]
+    },
+    {
+      "customer_id": 162,
+      "checks": [
+        "customer_id_unique"
+      ]
+    }
+  ],
+  "passed": false
+}

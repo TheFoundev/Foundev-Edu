@@ -1,0 +1,97 @@
+{
+  "examples": [
+    {
+      "question": "How do students reserve a study room?",
+      "retrieved_index": 0,
+      "retrieval_hit": 1,
+      "answer": "Students reserve a study room through the library portal.",
+      "reference": "Students reserve a study room through the library portal.",
+      "f1": 1.0,
+      "faithfulness": 1.0
+    },
+    {
+      "question": "How long can a bike be unlocked?",
+      "retrieved_index": 1,
+      "retrieval_hit": 1,
+      "answer": "A student card unlocks a bike for thirty minutes.",
+      "reference": "A student card unlocks a bike for thirty minutes.",
+      "f1": 1.0,
+      "faithfulness": 1.0
+    },
+    {
+      "question": "When is the counselling office open?",
+      "retrieved_index": 2,
+      "retrieval_hit": 1,
+      "answer": "The counselling office is open on weekdays from nine until five.",
+      "reference": "The counselling office is open on weekdays from nine until five.",
+      "f1": 1.0,
+      "faithfulness": 1.0
+    },
+    {
+      "question": "What is needed to borrow a laptop?",
+      "retrieved_index": 0,
+      "retrieval_hit": 0,
+      "answer": "Students reserve a study room through the library portal.",
+      "reference": "A student card and a signed form are required.",
+      "f1": 0.1111,
+      "faithfulness": 1.0
+    },
+    {
+      "question": "When is lunch served?",
+      "retrieved_index": 4,
+      "retrieval_hit": 1,
+      "answer": "Lunch is available between eleven and two.",
+      "reference": "Lunch is available between eleven and two.",
+      "f1": 1.0,
+      "faithfulness": 1.0
+    },
+    {
+      "question": "What software is installed in the lab?",
+      "retrieved_index": 5,
+      "retrieval_hit": 1,
+      "answer": "The software lab provides Python and R on every machine.",
+      "reference": "The software lab provides Python and R on every machine.",
+      "f1": 1.0,
+      "faithfulness": 1.0
+    },
+    {
+      "question": "What should I do if I lose my student card?",
+      "retrieved_index": 6,
+      "retrieval_hit": 1,
+      "answer": "A lost student card should be reported to security immediately.",
+      "reference": "A lost student card should be reported to security immediately.",
+      "f1": 1.0,
+      "faithfulness": 1.0
+    },
+    {
+      "question": "How long is a writing centre session?",
+      "retrieved_index": 7,
+      "retrieval_hit": 1,
+      "answer": "The writing centre reviews drafts by appointment.",
+      "reference": "Sessions last twenty-five minutes and are free.",
+      "f1": 0.0,
+      "faithfulness": 1.0
+    },
+    {
+      "question": "When does the gym close on weekends?",
+      "retrieved_index": 8,
+      "retrieval_hit": 1,
+      "answer": "The gym is open until ten on weekdays and until eight on weekends.",
+      "reference": "The gym is open until ten on weekdays and until eight on weekends.",
+      "f1": 1.0,
+      "faithfulness": 1.0
+    },
+    {
+      "question": "How much does printing cost per page?",
+      "retrieved_index": 9,
+      "retrieval_hit": 1,
+      "answer": "Printing credit can be topped up at the library desk.",
+      "reference": "Each page costs five cents.",
+      "f1": 0.0,
+      "faithfulness": 1.0
+    }
+  ],
+  "retrieval_hit_rate": 0.9,
+  "answer_f1": 0.7111,
+  "faithfulness": 1.0
+}

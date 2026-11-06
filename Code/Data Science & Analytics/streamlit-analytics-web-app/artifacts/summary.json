@@ -1,0 +1,54 @@
+{
+  "mrr": 4197.95,
+  "arr": 50375.4,
+  "active": 162,
+  "customers": 180,
+  "average_fee": 25.91,
+  "churn_rate": 0.0357,
+  "new_mrr": 0.0,
+  "net_revenue_retention": 0.9317,
+  "by_segment": [
+    {
+      "segment": "business",
+      "customers": 24,
+      "mrr": 2020.89
+    },
+    {
+      "segment": "team",
+      "customers": 47,
+      "mrr": 1417.79
+    },
+    {
+      "segment": "starter",
+      "customers": 38,
+      "mrr": 481.27
+    },
+    {
+      "segment": "student",
+      "customers": 53,
+      "mrr": 278.0
+    }
+  ],
+  "by_region": [
+    {
+      "region": "east",
+      "customers": 42,
+      "mrr": 958.42
+    },
+    {
+      "region": "north",
+      "customers": 48,
+      "mrr": 1266.53
+    },
+    {
+      "region": "south",
+      "customers": 34,
+      "mrr": 1007.97
+    },
+    {
+      "region": "west",
+      "customers": 38,
+      "mrr": 965.03
+    }
+  ]
+}

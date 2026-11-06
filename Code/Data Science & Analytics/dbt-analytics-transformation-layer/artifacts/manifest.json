@@ -1,0 +1,46 @@
+{
+  "raw_tables": [
+    "raw_customers",
+    "raw_orders"
+  ],
+  "models": [
+    {
+      "name": "staging_orders",
+      "rows": 190,
+      "sql_file": "models/staging_orders.sql",
+      "depends_on": []
+    },
+    {
+      "name": "customer_value",
+      "rows": 39,
+      "sql_file": "models/customer_value.sql",
+      "depends_on": [
+        "staging_orders"
+      ]
+    },
+    {
+      "name": "daily_revenue",
+      "rows": 20,
+      "sql_file": "models/daily_revenue.sql",
+      "depends_on": [
+        "staging_orders"
+      ]
+    },
+    {
+      "name": "mart_customer_segments",
+      "rows": 39,
+      "sql_file": "models/mart_customer_segments.sql",
+      "depends_on": [
+        "customer_value"
+      ]
+    },
+    {
+      "name": "segment_summary",
+      "rows": 3,
+      "sql_file": "models/segment_summary.sql",
+      "depends_on": [
+        "mart_customer_segments"
+      ]
+    }
+  ]
+}

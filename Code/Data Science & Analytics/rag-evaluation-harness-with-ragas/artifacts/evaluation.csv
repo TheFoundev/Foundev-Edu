@@ -1,0 +1,11 @@
+question,retrieved_index,retrieval_hit,answer,reference,f1,faithfulness
+How do students reserve a study room?,0,1,Students reserve a study room through the library portal.,Students reserve a study room through the library portal.,1.0,1.0
+How long can a bike be unlocked?,1,1,A student card unlocks a bike for thirty minutes.,A student card unlocks a bike for thirty minutes.,1.0,1.0
+When is the counselling office open?,2,1,The counselling office is open on weekdays from nine until five.,The counselling office is open on weekdays from nine until five.,1.0,1.0
+What is needed to borrow a laptop?,0,0,Students reserve a study room through the library portal.,A student card and a signed form are required.,0.1111,1.0
+When is lunch served?,4,1,Lunch is available between eleven and two.,Lunch is available between eleven and two.,1.0,1.0
+What software is installed in the lab?,5,1,The software lab provides Python and R on every machine.,The software lab provides Python and R on every machine.,1.0,1.0
+What should I do if I lose my student card?,6,1,A lost student card should be reported to security immediately.,A lost student card should be reported to security immediately.,1.0,1.0
+How long is a writing centre session?,7,1,The writing centre reviews drafts by appointment.,Sessions last twenty-five minutes and are free.,0.0,1.0
+When does the gym close on weekends?,8,1,The gym is open until ten on weekdays and until eight on weekends.,The gym is open until ten on weekdays and until eight on weekends.,1.0,1.0
+How much does printing cost per page?,9,1,Printing credit can be topped up at the library desk.,Each page costs five cents.,0.0,1.0
