@@ -1,0 +1,48 @@
+{
+  "module_id": "stock-portfolio-analytics-module-06",
+  "title": "Test code and evidence boundaries",
+  "description": "Read test implementations test/drawdowns/tests_dev.js, test/drawdowns/tests_dist.js, test/ratios/test_sharpe-ratios_dev.js, test/ratios/tests_dist.js. Identify the behavior each assertion encodes, connect it to implementation, and distinguish a test file from an executed passing result. The test/configuration evidence is traced into implementation Gruntfile.js.",
+  "source_files": [
+    "test/drawdowns/tests_dev.js",
+    "test/drawdowns/tests_dist.js",
+    "test/ratios/test_sharpe-ratios_dev.js",
+    "test/ratios/tests_dist.js",
+    "Gruntfile.js"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "stock-portfolio-analytics-module-06-objective-1",
+      "text": "Explain the source role and visible behavior in test/drawdowns/tests_dev.js, test/drawdowns/tests_dist.js, test/ratios/test_sharpe-ratios_dev.js, test/ratios/tests_dist.js."
+    },
+    {
+      "objective_id": "stock-portfolio-analytics-module-06-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "stock-portfolio-analytics-module-06-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "stock-portfolio-analytics-module-05"
+  ],
+  "ordered_lesson_ids": [
+    "stock-portfolio-analytics-module-06-lesson-1",
+    "stock-portfolio-analytics-module-06-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "test assertions",
+    "fixtures",
+    "limits of test evidence"
+  ],
+  "practical_outcomes": [
+    "Evidence map for test/drawdowns/tests_dev.js, test/drawdowns/tests_dist.js, test/ratios/test_sharpe-ratios_dev.js, test/ratios/tests_dist.js",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

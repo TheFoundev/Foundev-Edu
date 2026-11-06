@@ -1,0 +1,45 @@
+{
+  "module_id": "automated-eda-tool-module-04",
+  "title": "Feat Scaling and Notebook Data Optimization",
+  "description": "Study the implementation in [autoeda/feat_scaling.py] and [autoeda/notebook_data_optimization.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include process_scaling, optimize_data; confirm their complete definitions and callers in the file.",
+  "source_files": [
+    "autoeda/feat_scaling.py",
+    "autoeda/notebook_data_optimization.py"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "automated-eda-tool-module-04-objective-1",
+      "text": "Explain the source role and visible behavior in autoeda/feat_scaling.py, autoeda/notebook_data_optimization.py."
+    },
+    {
+      "objective_id": "automated-eda-tool-module-04-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "automated-eda-tool-module-04-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "automated-eda-tool-module-03"
+  ],
+  "ordered_lesson_ids": [
+    "automated-eda-tool-module-04-lesson-1",
+    "automated-eda-tool-module-04-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for autoeda/feat_scaling.py, autoeda/notebook_data_optimization.py",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

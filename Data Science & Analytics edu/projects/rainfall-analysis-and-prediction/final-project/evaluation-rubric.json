@@ -1,0 +1,49 @@
+{
+  "criteria": [
+    {
+      "criterion": "Source accuracy",
+      "weight": 30,
+      "levels": {
+        "excellent": "Every claim tied to inspected source and uncertainty clear",
+        "developing": "Some claims unsupported",
+        "insufficient": "Invented or contradicted behavior"
+      }
+    },
+    {
+      "criterion": "Design and architecture",
+      "weight": 20,
+      "levels": {
+        "excellent": "Change fits traced data flow",
+        "developing": "Partial flow",
+        "insufficient": "No source relationship"
+      }
+    },
+    {
+      "criterion": "Testing and evidence",
+      "weight": 25,
+      "levels": {
+        "excellent": "Reproducible checks with honest results",
+        "developing": "Incomplete plan",
+        "insufficient": "Claims unrun checks passed"
+      }
+    },
+    {
+      "criterion": "Safety and operations",
+      "weight": 15,
+      "levels": {
+        "excellent": "Privacy, secrets, dependencies and failure modes handled",
+        "developing": "Some risks",
+        "insufficient": "Unsafe data/credential practice"
+      }
+    },
+    {
+      "criterion": "Communication",
+      "weight": 10,
+      "levels": {
+        "excellent": "Clear deliverables and limits",
+        "developing": "Minor gaps",
+        "insufficient": "Unclear or misleading"
+      }
+    }
+  ]
+}

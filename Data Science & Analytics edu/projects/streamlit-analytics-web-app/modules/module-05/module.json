@@ -1,0 +1,45 @@
+{
+  "module_id": "streamlit-analytics-web-app-module-05",
+  "title": "Declared dependencies and runtime configuration",
+  "description": "Inspect the actual manifests requirements.txt. Separate declared packages/settings from imports, installed state, secrets, and runtime success. The test/configuration evidence is traced into implementation app.py.",
+  "source_files": [
+    "requirements.txt",
+    "app.py"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "streamlit-analytics-web-app-module-05-objective-1",
+      "text": "Explain the source role and visible behavior in requirements.txt."
+    },
+    {
+      "objective_id": "streamlit-analytics-web-app-module-05-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "streamlit-analytics-web-app-module-05-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "streamlit-analytics-web-app-module-04"
+  ],
+  "ordered_lesson_ids": [
+    "streamlit-analytics-web-app-module-05-lesson-1",
+    "streamlit-analytics-web-app-module-05-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "declared dependencies",
+    "configuration keys",
+    "safe setup"
+  ],
+  "practical_outcomes": [
+    "Evidence map for requirements.txt",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

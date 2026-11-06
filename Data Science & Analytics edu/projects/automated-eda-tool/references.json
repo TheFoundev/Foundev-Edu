@@ -1,0 +1,64 @@
+{
+  "references": [
+    {
+      "title": "Python packaging",
+      "url": "https://packaging.python.org/en/latest/",
+      "type": "official documentation",
+      "scope": "General reference; check version against project manifest."
+    },
+    {
+      "title": "Git documentation",
+      "url": "https://git-scm.com/doc/",
+      "type": "official documentation",
+      "scope": "General reference; check version against project manifest."
+    },
+    {
+      "title": "OWASP Top 10",
+      "url": "https://owasp.org/www-project-top-ten/",
+      "type": "official documentation",
+      "scope": "General reference; check version against project manifest."
+    },
+    {
+      "title": "Dash",
+      "url": "https://dash.plotly.com/",
+      "type": "official documentation",
+      "scope": "General reference; check version against project manifest."
+    },
+    {
+      "title": "Java",
+      "url": "https://docs.oracle.com/en/java/",
+      "type": "official documentation",
+      "scope": "General reference; check version against project manifest."
+    },
+    {
+      "title": "Source project: CONTRIBUTING.md",
+      "url": "../../../../Data%20Science%20%26%20Analytics/automated-eda-tool/CONTRIBUTING.md",
+      "type": "repository file",
+      "scope": "Local source evidence; link is relative to package and may not resolve after separating the source tree."
+    },
+    {
+      "title": "Source project: README.md",
+      "url": "../../../../Data%20Science%20%26%20Analytics/automated-eda-tool/README.md",
+      "type": "repository file",
+      "scope": "Local source evidence; link is relative to package and may not resolve after separating the source tree."
+    },
+    {
+      "title": "Source project: SECURITY.md",
+      "url": "../../../../Data%20Science%20%26%20Analytics/automated-eda-tool/SECURITY.md",
+      "type": "repository file",
+      "scope": "Local source evidence; link is relative to package and may not resolve after separating the source tree."
+    },
+    {
+      "title": "Source project: backend/README.md",
+      "url": "../../../../Data%20Science%20%26%20Analytics/automated-eda-tool/backend/README.md",
+      "type": "repository file",
+      "scope": "Local source evidence; link is relative to package and may not resolve after separating the source tree."
+    },
+    {
+      "title": "Source project: frontend/README.md",
+      "url": "../../../../Data%20Science%20%26%20Analytics/automated-eda-tool/frontend/README.md",
+      "type": "repository file",
+      "scope": "Local source evidence; link is relative to package and may not resolve after separating the source tree."
+    }
+  ]
+}

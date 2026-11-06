@@ -1,0 +1,45 @@
+{
+  "module_id": "electricity-consumption-analytics-module-02",
+  "title": "Constants and Decorators",
+  "description": "Study the implementation in [smap/constants.py] and [smap/decorators.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include replace_na_with_defaults_decorator, decorator, wrapper; confirm their complete definitions and callers in the file.",
+  "source_files": [
+    "smap/constants.py",
+    "smap/decorators.py"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "electricity-consumption-analytics-module-02-objective-1",
+      "text": "Explain the source role and visible behavior in smap/constants.py, smap/decorators.py."
+    },
+    {
+      "objective_id": "electricity-consumption-analytics-module-02-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "electricity-consumption-analytics-module-02-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "electricity-consumption-analytics-module-01"
+  ],
+  "ordered_lesson_ids": [
+    "electricity-consumption-analytics-module-02-lesson-1",
+    "electricity-consumption-analytics-module-02-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for smap/constants.py, smap/decorators.py",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

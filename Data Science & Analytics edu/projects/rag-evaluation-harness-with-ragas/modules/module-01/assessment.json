@@ -1,0 +1,255 @@
+{
+  "module_id": "rag-evaluation-harness-with-ragas-module-01",
+  "questions": [
+    {
+      "question_id": "rag-evaluation-harness-with-ragas-module-01-q01",
+      "text": "Which source file is a direct focus of this module?",
+      "options": [
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q01-o1",
+          "text": "main.py"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q01-o2",
+          "text": "web/server.py"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q01-o3",
+          "text": ".github/workflows/ci.yml"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q01-o4",
+          "text": "README.md"
+        }
+      ],
+      "difficulty": "basic",
+      "learning_objective_id": "rag-evaluation-harness-with-ragas-module-01-objective-1",
+      "related_lesson_id": "rag-evaluation-harness-with-ragas-module-01-lesson-1"
+    },
+    {
+      "question_id": "rag-evaluation-harness-with-ragas-module-01-q02",
+      "text": "When reading main.py, what is the best way to establish how its main operation is used?",
+      "options": [
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q02-o1",
+          "text": "Trace its declaration to callers and relevant tests"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q02-o2",
+          "text": "Infer use from the filename alone"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q02-o3",
+          "text": "Assume every imported dependency is called on each run"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q02-o4",
+          "text": "Treat README wording as execution evidence"
+        }
+      ],
+      "difficulty": "basic",
+      "learning_objective_id": "rag-evaluation-harness-with-ragas-module-01-objective-2",
+      "related_lesson_id": "rag-evaluation-harness-with-ragas-module-01-lesson-2"
+    },
+    {
+      "question_id": "rag-evaluation-harness-with-ragas-module-01-q03",
+      "text": "What can the excerpt for main.py establish without running the application?",
+      "options": [
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q03-o1",
+          "text": "It contains a declaration named main"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q03-o2",
+          "text": "The application successfully reaches this path in production"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q03-o3",
+          "text": "The deployment is healthy"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q03-o4",
+          "text": "All tests pass"
+        }
+      ],
+      "difficulty": "basic",
+      "learning_objective_id": "rag-evaluation-harness-with-ragas-module-01-objective-3",
+      "related_lesson_id": "rag-evaluation-harness-with-ragas-module-01-lesson-1"
+    },
+    {
+      "question_id": "rag-evaluation-harness-with-ragas-module-01-q04",
+      "text": "Which next step best checks whether code in main.py is reachable from an entry point?",
+      "options": [
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q04-o1",
+          "text": "Search imports and call sites, then follow them from the entry point"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q04-o2",
+          "text": "Assume a file is executed because it exists"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q04-o3",
+          "text": "Check only the project title"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q04-o4",
+          "text": "Treat a dependency listing as a call graph"
+        }
+      ],
+      "difficulty": "intermediate",
+      "learning_objective_id": "rag-evaluation-harness-with-ragas-module-01-objective-1",
+      "related_lesson_id": "rag-evaluation-harness-with-ragas-module-01-lesson-2"
+    },
+    {
+      "question_id": "rag-evaluation-harness-with-ragas-module-01-q05",
+      "text": "If a test mentions behavior related to main.py, what does the test source show before execution?",
+      "options": [
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q05-o1",
+          "text": "The assertion or case the test is written to check"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q05-o2",
+          "text": "That the test passed on this machine"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q05-o3",
+          "text": "That production data follows the same path"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q05-o4",
+          "text": "That an external provider responded"
+        }
+      ],
+      "difficulty": "intermediate",
+      "learning_objective_id": "rag-evaluation-harness-with-ragas-module-01-objective-2",
+      "related_lesson_id": "rag-evaluation-harness-with-ragas-module-01-lesson-1"
+    },
+    {
+      "question_id": "rag-evaluation-harness-with-ragas-module-01-q06",
+      "text": "A README claim about main.py differs from source. What should the learner record?",
+      "options": [
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q06-o1",
+          "text": "The concrete code evidence and the documentation discrepancy"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q06-o2",
+          "text": "The README is automatically correct"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q06-o3",
+          "text": "The code is automatically correct about deployment"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q06-o4",
+          "text": "A runtime result that was not observed"
+        }
+      ],
+      "difficulty": "intermediate",
+      "learning_objective_id": "rag-evaluation-harness-with-ragas-module-01-objective-3",
+      "related_lesson_id": "rag-evaluation-harness-with-ragas-module-01-lesson-2"
+    },
+    {
+      "question_id": "rag-evaluation-harness-with-ragas-module-01-q07",
+      "text": "When tracing a value through main.py, which evidence is most useful?",
+      "options": [
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q07-o1",
+          "text": "Its input, transformations, branches, and return or write site"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q07-o2",
+          "text": "The source file size"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q07-o3",
+          "text": "The project folder name"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q07-o4",
+          "text": "A package name with no call site"
+        }
+      ],
+      "difficulty": "intermediate",
+      "learning_objective_id": "rag-evaluation-harness-with-ragas-module-01-objective-1",
+      "related_lesson_id": "rag-evaluation-harness-with-ragas-module-01-lesson-1"
+    },
+    {
+      "question_id": "rag-evaluation-harness-with-ragas-module-01-q08",
+      "text": "What is a safe conclusion when configuration is declared for main.py but its runtime use is not traced?",
+      "options": [
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q08-o1",
+          "text": "The setting is declared; its effective runtime use remains to be confirmed"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q08-o2",
+          "text": "The setting is definitely active"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q08-o3",
+          "text": "The provider accepted it"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q08-o4",
+          "text": "The application started successfully"
+        }
+      ],
+      "difficulty": "intermediate",
+      "learning_objective_id": "rag-evaluation-harness-with-ragas-module-01-objective-2",
+      "related_lesson_id": "rag-evaluation-harness-with-ragas-module-01-lesson-2"
+    },
+    {
+      "question_id": "rag-evaluation-harness-with-ragas-module-01-q09",
+      "text": "How should a proposed change to main.py be verified?",
+      "options": [
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q09-o1",
+          "text": "Define a focused check for normal, boundary, and failure behavior"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q09-o2",
+          "text": "Assume the change is safe because it is small"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q09-o3",
+          "text": "Use real sensitive data as a fixture"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q09-o4",
+          "text": "Skip checks because source was inspected"
+        }
+      ],
+      "difficulty": "advanced",
+      "learning_objective_id": "rag-evaluation-harness-with-ragas-module-01-objective-3",
+      "related_lesson_id": "rag-evaluation-harness-with-ragas-module-01-lesson-1"
+    },
+    {
+      "question_id": "rag-evaluation-harness-with-ragas-module-01-q10",
+      "text": "Which evidence is required before claiming the path in main.py works end to end?",
+      "options": [
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q10-o1",
+          "text": "A recorded authorized execution with its setup, inputs, and result"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q10-o2",
+          "text": "A source filename"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q10-o3",
+          "text": "A README feature bullet"
+        },
+        {
+          "option_id": "rag-evaluation-harness-with-ragas-module-01-q10-o4",
+          "text": "A dependency in a manifest"
+        }
+      ],
+      "difficulty": "advanced",
+      "learning_objective_id": "rag-evaluation-harness-with-ragas-module-01-objective-1",
+      "related_lesson_id": "rag-evaluation-harness-with-ragas-module-01-lesson-2"
+    }
+  ]
+}

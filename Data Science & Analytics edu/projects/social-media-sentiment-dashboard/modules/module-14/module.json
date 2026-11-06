@@ -1,0 +1,46 @@
+{
+  "module_id": "social-media-sentiment-dashboard-module-14",
+  "title": "Documented goals mapped to implementation",
+  "description": "Compare the source documentation in README.md with implementation anchors conftest.py, src/analytics/__init__.py, src/analytics/metrics.py. Trace one feature claim to its code path and record any mismatch or evidence gap.",
+  "source_files": [
+    "README.md",
+    "conftest.py",
+    "src/analytics/__init__.py"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "social-media-sentiment-dashboard-module-14-objective-1",
+      "text": "Explain the source role and visible behavior in README.md, conftest.py, src/analytics/__init__.py."
+    },
+    {
+      "objective_id": "social-media-sentiment-dashboard-module-14-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "social-media-sentiment-dashboard-module-14-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "social-media-sentiment-dashboard-module-13"
+  ],
+  "ordered_lesson_ids": [
+    "social-media-sentiment-dashboard-module-14-lesson-1",
+    "social-media-sentiment-dashboard-module-14-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "documentation claims",
+    "implementation mapping",
+    "limitations"
+  ],
+  "practical_outcomes": [
+    "Evidence map for README.md, conftest.py, src/analytics/__init__.py",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "module_id": "automated-eda-tool-module-03",
+  "title": "Data Optimizer and Encoding Categorical",
+  "description": "Study the implementation in [autoeda/data_optimizer.py] and [autoeda/encoding_categorical.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include optimize_dtypes, optimize_csv, label_encode, one_hot_encode; confirm their complete definitions and callers in the file.",
+  "source_files": [
+    "autoeda/data_optimizer.py",
+    "autoeda/encoding_categorical.py"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "automated-eda-tool-module-03-objective-1",
+      "text": "Explain the source role and visible behavior in autoeda/data_optimizer.py, autoeda/encoding_categorical.py."
+    },
+    {
+      "objective_id": "automated-eda-tool-module-03-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "automated-eda-tool-module-03-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "automated-eda-tool-module-02"
+  ],
+  "ordered_lesson_ids": [
+    "automated-eda-tool-module-03-lesson-1",
+    "automated-eda-tool-module-03-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for autoeda/data_optimizer.py, autoeda/encoding_categorical.py",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

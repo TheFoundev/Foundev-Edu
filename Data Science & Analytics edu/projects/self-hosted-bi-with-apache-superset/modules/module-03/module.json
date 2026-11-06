@@ -1,0 +1,45 @@
+{
+  "module_id": "self-hosted-bi-with-apache-superset-module-03",
+  "title": "Region Share and Repeat Rate",
+  "description": "Study the implementation in [sql/region_share.sql] and [sql/repeat_rate.sql]. Trace its declarations and dependencies into a caller or test. Inspect imports, declarations, and call sites in the file; filenames alone do not establish its role.",
+  "source_files": [
+    "sql/region_share.sql",
+    "sql/repeat_rate.sql"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "self-hosted-bi-with-apache-superset-module-03-objective-1",
+      "text": "Explain the source role and visible behavior in sql/region_share.sql, sql/repeat_rate.sql."
+    },
+    {
+      "objective_id": "self-hosted-bi-with-apache-superset-module-03-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "self-hosted-bi-with-apache-superset-module-03-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "self-hosted-bi-with-apache-superset-module-02"
+  ],
+  "ordered_lesson_ids": [
+    "self-hosted-bi-with-apache-superset-module-03-lesson-1",
+    "self-hosted-bi-with-apache-superset-module-03-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for sql/region_share.sql, sql/repeat_rate.sql",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

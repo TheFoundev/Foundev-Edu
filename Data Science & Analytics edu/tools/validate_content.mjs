@@ -1,0 +1,19 @@
+import fs from 'node:fs';
+import path from 'node:path';
+const root=path.resolve(process.argv[2] || 'Data Science & Analytics edu');let errors=[];let totals={projects:0,modules:0,lessons:0,questions:0};
+const load=p=>{try{return JSON.parse(fs.readFileSync(p,'utf8'))}catch(e){errors.push(`${p}: JSON ${e.message}`);return null}};
+const foundInLessons=(base,source)=>fs.readdirSync(path.join(base,'lessons')).some(f=>fs.readFileSync(path.join(base,'lessons',f),'utf8').includes(`### ${source}`));
+for(const slug of fs.readdirSync(path.join(root,'projects'))){const d=path.join(root,'projects',slug);if(!fs.statSync(d).isDirectory())continue;totals.projects++;
+ const manifest=load(path.join(d,'manifest.json')), project=load(path.join(d,'project.json'));if(!manifest||!project)continue;if(project.slug!==slug||manifest.project_slug!==slug)errors.push(`${slug}: slug mismatch`);
+ const walk=x=>fs.readdirSync(x,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(x,e.name)):[path.join(x,e.name)]);
+ const included=walk(d).map(x=>path.relative(d,x).replaceAll('\\','/')).filter(x=>x!=='manifest.json').sort();if(JSON.stringify(included)!==JSON.stringify([...manifest.included_files].sort()))errors.push(`${slug}: included_files mismatch`);
+ const dirs=fs.readdirSync(path.join(d,'modules')).sort();let lessonN=0,questionN=0;const ids=new Set();
+ for(const folder of dirs){const base=path.join(d,'modules',folder),m=load(path.join(base,'module.json')),a=load(path.join(base,'assessment.json')),k=load(path.join(base,'answer-key.json'));if(!m||!a||!k)continue;totals.modules++;
+   if(ids.has(m.module_id))errors.push(`${slug}: duplicate module ID`);ids.add(m.module_id);const anchors=m.source_files||[];if(!anchors.some(f=>/\.(py|pyi|java|go|js|jsx|ts|tsx|sql|sh|rs|c|h|cc|cpp|cxx)$/i.test(f)&&!/(^|\/)(tests?|test)(\/|$)|test[_-]|[_-]test\./i.test(f)))errors.push(`${slug}/${folder}: module lacks an implementation code anchor`);for(const source of anchors){if(!foundInLessons(base,source))errors.push(`${slug}/${folder}: source anchor absent from lessons: ${source}`)}
+   const expected=m.ordered_lesson_ids, found=fs.readdirSync(path.join(base,'lessons')).map(f=>{const s=fs.readFileSync(path.join(base,'lessons',f),'utf8');return s.match(/Lesson ID:\*\*\s*`([^`]+)`/)?.[1]}).filter(Boolean);if(JSON.stringify(expected)!==JSON.stringify(found))errors.push(`${slug}/${folder}: lesson mismatch`);lessonN+=found.length;
+   const qs=a.questions||[],answers=k.answers||[];if(qs.length!==10)errors.push(`${slug}/${folder}: question count ${qs.length}`);if(answers.length!==qs.length)errors.push(`${slug}/${folder}: answer count mismatch`);questionN+=qs.length;
+   const qids=new Set();for(const q of qs){qids.add(q.question_id);if(q.options?.length!==4||new Set(q.options.map(o=>o.option_id)).size!==4)errors.push(`${slug}: options on ${q.question_id}`);if(!found.includes(q.related_lesson_id))errors.push(`${slug}: bad lesson ref ${q.question_id}`);if(!m.learning_objectives.some(o=>o.objective_id===q.learning_objective_id))errors.push(`${slug}: bad objective ref ${q.question_id}`)}
+   for(const ans of answers){const q=qs.find(q=>q.question_id===ans.question_id);if(!q){errors.push(`${slug}: orphan answer`);continue}const opts=new Set(q.options.map(o=>o.option_id));if(!opts.has(ans.correct_option_id))errors.push(`${slug}: bad correct answer`);if(ans.incorrect_option_explanations.length!==3||ans.incorrect_option_explanations.some(x=>!opts.has(x.option_id)||!x.explanation)||ans.incorrect_option_explanations.some(x=>x.option_id===ans.correct_option_id))errors.push(`${slug}: distractor explanations ${ans.question_id}`)}
+   if(qs.some(q=>!answers.some(ans=>ans.question_id===q.question_id)))errors.push(`${slug}: missing answer key`)
+ }
+ totals.lessons+=lessonN;totals.questions+=questionN;if(JSON.stringify(manifest.counts)!==JSON.stringify({modules:dirs.length,lessons:lessonN,questions:questionN}))errors.push

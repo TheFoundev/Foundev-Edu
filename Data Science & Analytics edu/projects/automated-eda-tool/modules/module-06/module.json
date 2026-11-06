@@ -1,0 +1,45 @@
+{
+  "module_id": "automated-eda-tool-module-06",
+  "title": "Summary Stats and Database",
+  "description": "Study the implementation in [autoeda/summary_stats.py] and [backend/config/database.js]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include load_and_clean_data, split_numerical_categorical, numerical_stats, most_frequent_values, categorical_stats, connectDB; confirm their complete definitions and callers in the file.",
+  "source_files": [
+    "autoeda/summary_stats.py",
+    "backend/config/database.js"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "automated-eda-tool-module-06-objective-1",
+      "text": "Explain the source role and visible behavior in autoeda/summary_stats.py, backend/config/database.js."
+    },
+    {
+      "objective_id": "automated-eda-tool-module-06-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "automated-eda-tool-module-06-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "automated-eda-tool-module-05"
+  ],
+  "ordered_lesson_ids": [
+    "automated-eda-tool-module-06-lesson-1",
+    "automated-eda-tool-module-06-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for autoeda/summary_stats.py, backend/config/database.js",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

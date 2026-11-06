@@ -1,0 +1,45 @@
+{
+  "module_id": "rainfall-analysis-and-prediction-module-14",
+  "title": "Metrics and Plot Utils",
+  "description": "Study the implementation in [rrmpg/utils/metrics.py] and [rrmpg/utils/plot_utils.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include calc_nse, calc_rmse, calc_mse, plot_qsim_range; confirm their complete definitions and callers in the file.",
+  "source_files": [
+    "rrmpg/utils/metrics.py",
+    "rrmpg/utils/plot_utils.py"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "rainfall-analysis-and-prediction-module-14-objective-1",
+      "text": "Explain the source role and visible behavior in rrmpg/utils/metrics.py, rrmpg/utils/plot_utils.py."
+    },
+    {
+      "objective_id": "rainfall-analysis-and-prediction-module-14-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "rainfall-analysis-and-prediction-module-14-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "rainfall-analysis-and-prediction-module-13"
+  ],
+  "ordered_lesson_ids": [
+    "rainfall-analysis-and-prediction-module-14-lesson-1",
+    "rainfall-analysis-and-prediction-module-14-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for rrmpg/utils/metrics.py, rrmpg/utils/plot_utils.py",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

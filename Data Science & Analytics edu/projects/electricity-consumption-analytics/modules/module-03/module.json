@@ -1,0 +1,45 @@
+{
+  "module_id": "electricity-consumption-analytics-module-03",
+  "title": "Helpers and Module",
+  "description": "Study the implementation in [smap/helpers.py] and [smap/module.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include calc_features_consumption, c_week, s_max, s_min, c_morning, c_noon; confirm their complete definitions and callers in the file.",
+  "source_files": [
+    "smap/helpers.py",
+    "smap/module.py"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "electricity-consumption-analytics-module-03-objective-1",
+      "text": "Explain the source role and visible behavior in smap/helpers.py, smap/module.py."
+    },
+    {
+      "objective_id": "electricity-consumption-analytics-module-03-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "electricity-consumption-analytics-module-03-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "electricity-consumption-analytics-module-02"
+  ],
+  "ordered_lesson_ids": [
+    "electricity-consumption-analytics-module-03-lesson-1",
+    "electricity-consumption-analytics-module-03-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for smap/helpers.py, smap/module.py",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

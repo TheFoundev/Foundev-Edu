@@ -1,0 +1,45 @@
+{
+  "module_id": "streamlit-analytics-web-app-module-02",
+  "title": "Server and Pipeline",
+  "description": "Study the implementation in [web/server.py] and [src/pipeline.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include summary, handle, db, hash_password, verify_password, init_db, load_secret, sign, _month_index, make_subscriptions, is_active, active_in, mrr_by_month, summary; confirm their complete definitions and callers in the file.",
+  "source_files": [
+    "web/server.py",
+    "src/pipeline.py"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "streamlit-analytics-web-app-module-02-objective-1",
+      "text": "Explain the source role and visible behavior in web/server.py, src/pipeline.py."
+    },
+    {
+      "objective_id": "streamlit-analytics-web-app-module-02-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "streamlit-analytics-web-app-module-02-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "streamlit-analytics-web-app-module-01"
+  ],
+  "ordered_lesson_ids": [
+    "streamlit-analytics-web-app-module-02-lesson-1",
+    "streamlit-analytics-web-app-module-02-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for web/server.py, src/pipeline.py",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

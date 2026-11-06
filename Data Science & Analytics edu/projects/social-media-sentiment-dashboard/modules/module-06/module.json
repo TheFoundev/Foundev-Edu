@@ -1,0 +1,45 @@
+{
+  "module_id": "social-media-sentiment-dashboard-module-06",
+  "title": "Data Manager and undefined undefined Init undefined undefined",
+  "description": "Study the implementation in [src/data_manager.py] and [src/fetchers/__init__.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include save_data, load_data; confirm their complete definitions and callers in the file.",
+  "source_files": [
+    "src/data_manager.py",
+    "src/fetchers/__init__.py"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "social-media-sentiment-dashboard-module-06-objective-1",
+      "text": "Explain the source role and visible behavior in src/data_manager.py, src/fetchers/__init__.py."
+    },
+    {
+      "objective_id": "social-media-sentiment-dashboard-module-06-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "social-media-sentiment-dashboard-module-06-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "social-media-sentiment-dashboard-module-05"
+  ],
+  "ordered_lesson_ids": [
+    "social-media-sentiment-dashboard-module-06-lesson-1",
+    "social-media-sentiment-dashboard-module-06-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for src/data_manager.py, src/fetchers/__init__.py",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

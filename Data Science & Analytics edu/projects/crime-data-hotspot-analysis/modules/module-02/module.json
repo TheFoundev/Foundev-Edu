@@ -1,0 +1,45 @@
+{
+  "module_id": "crime-data-hotspot-analysis-module-02",
+  "title": "Dimensionality Reduction and EDA",
+  "description": "Study the implementation in [dimensionality_reduction.py] and [EDA.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include prepare_features, apply_pca, visualize_pca, load_preprocessed_data, perform_eda, create_eda_visualizations; confirm their complete definitions and callers in the file.",
+  "source_files": [
+    "dimensionality_reduction.py",
+    "EDA.py"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "crime-data-hotspot-analysis-module-02-objective-1",
+      "text": "Explain the source role and visible behavior in dimensionality_reduction.py, EDA.py."
+    },
+    {
+      "objective_id": "crime-data-hotspot-analysis-module-02-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "crime-data-hotspot-analysis-module-02-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "crime-data-hotspot-analysis-module-01"
+  ],
+  "ordered_lesson_ids": [
+    "crime-data-hotspot-analysis-module-02-lesson-1",
+    "crime-data-hotspot-analysis-module-02-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for dimensionality_reduction.py, EDA.py",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

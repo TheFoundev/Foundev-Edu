@@ -1,0 +1,45 @@
+{
+  "module_id": "ai-recruitment-and-resume-screening-team-module-02",
+  "title": "Model and Data",
+  "description": "Study the implementation in [src/model.py] and [src/data.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include resume_features, draft_interview_questions, _matrix, train, make_resume, parse_resume, load_data; confirm their complete definitions and callers in the file.",
+  "source_files": [
+    "src/model.py",
+    "src/data.py"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "ai-recruitment-and-resume-screening-team-module-02-objective-1",
+      "text": "Explain the source role and visible behavior in src/model.py, src/data.py."
+    },
+    {
+      "objective_id": "ai-recruitment-and-resume-screening-team-module-02-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "ai-recruitment-and-resume-screening-team-module-02-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "ai-recruitment-and-resume-screening-team-module-01"
+  ],
+  "ordered_lesson_ids": [
+    "ai-recruitment-and-resume-screening-team-module-02-lesson-1",
+    "ai-recruitment-and-resume-screening-team-module-02-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for src/model.py, src/data.py",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

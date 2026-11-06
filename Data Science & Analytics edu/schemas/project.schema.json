@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "title",
+    "slug",
+    "description",
+    "problem",
+    "audience",
+    "stack",
+    "difficulty",
+    "prerequisites",
+    "learning_outcomes",
+    "estimated_duration_hours",
+    "content_schema_version"
+  ],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "description": {
+      "type": "string"
+    },
+    "problem": {
+      "type": "string"
+    },
+    "audience": {
+      "type": "string"
+    },
+    "stack": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "difficulty": {
+      "type": "string"
+    },
+    "prerequisites": {
+      "type": "array"
+    },
+    "learning_outcomes": {
+      "type": "array"
+    },
+    "estimated_duration_hours": {
+      "type": "number"
+    },
+    "content_schema_version": {
+      "type": "string"
+    }
+  }
+}

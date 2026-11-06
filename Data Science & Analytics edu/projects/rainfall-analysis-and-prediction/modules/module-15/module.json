@@ -1,0 +1,44 @@
+{
+  "module_id": "rainfall-analysis-and-prediction-module-15",
+  "title": "Setup",
+  "description": "Study the implementation in [setup.py]. Trace its declarations and dependencies into a caller or test. Inspect imports, declarations, and call sites in the file; filenames alone do not establish its role.",
+  "source_files": [
+    "setup.py"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "rainfall-analysis-and-prediction-module-15-objective-1",
+      "text": "Explain the source role and visible behavior in setup.py."
+    },
+    {
+      "objective_id": "rainfall-analysis-and-prediction-module-15-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "rainfall-analysis-and-prediction-module-15-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "rainfall-analysis-and-prediction-module-14"
+  ],
+  "ordered_lesson_ids": [
+    "rainfall-analysis-and-prediction-module-15-lesson-1",
+    "rainfall-analysis-and-prediction-module-15-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "source declarations",
+    "imports and callers",
+    "inputs and outputs"
+  ],
+  "practical_outcomes": [
+    "Evidence map for setup.py",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

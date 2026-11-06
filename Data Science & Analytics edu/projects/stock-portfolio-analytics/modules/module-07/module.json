@@ -1,0 +1,46 @@
+{
+  "module_id": "stock-portfolio-analytics-module-07",
+  "title": "Declared dependencies and runtime configuration",
+  "description": "Inspect the actual manifests .travis.yml, package.json. Separate declared packages/settings from imports, installed state, secrets, and runtime success. The test/configuration evidence is traced into implementation Gruntfile.js.",
+  "source_files": [
+    ".travis.yml",
+    "package.json",
+    "Gruntfile.js"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "stock-portfolio-analytics-module-07-objective-1",
+      "text": "Explain the source role and visible behavior in .travis.yml, package.json."
+    },
+    {
+      "objective_id": "stock-portfolio-analytics-module-07-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "stock-portfolio-analytics-module-07-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "stock-portfolio-analytics-module-06"
+  ],
+  "ordered_lesson_ids": [
+    "stock-portfolio-analytics-module-07-lesson-1",
+    "stock-portfolio-analytics-module-07-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "declared dependencies",
+    "configuration keys",
+    "safe setup"
+  ],
+  "practical_outcomes": [
+    "Evidence map for .travis.yml, package.json",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}

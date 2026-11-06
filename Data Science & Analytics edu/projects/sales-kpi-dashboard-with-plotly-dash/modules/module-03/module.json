@@ -1,0 +1,45 @@
+{
+  "module_id": "sales-kpi-dashboard-with-plotly-dash-module-03",
+  "title": "Test code and evidence boundaries",
+  "description": "Read test implementations tests/test_pipeline.py. Identify the behavior each assertion encodes, connect it to implementation, and distinguish a test file from an executed passing result. The test/configuration evidence is traced into implementation src/pipeline.py.",
+  "source_files": [
+    "tests/test_pipeline.py",
+    "src/pipeline.py"
+  ],
+  "learning_objectives": [
+    {
+      "objective_id": "sales-kpi-dashboard-with-plotly-dash-module-03-objective-1",
+      "text": "Explain the source role and visible behavior in tests/test_pipeline.py."
+    },
+    {
+      "objective_id": "sales-kpi-dashboard-with-plotly-dash-module-03-objective-2",
+      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+    },
+    {
+      "objective_id": "sales-kpi-dashboard-with-plotly-dash-module-03-objective-3",
+      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+    }
+  ],
+  "prerequisites": [
+    "sales-kpi-dashboard-with-plotly-dash-module-02"
+  ],
+  "ordered_lesson_ids": [
+    "sales-kpi-dashboard-with-plotly-dash-module-03-lesson-1",
+    "sales-kpi-dashboard-with-plotly-dash-module-03-lesson-2"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts": [
+    "test assertions",
+    "fixtures",
+    "limits of test evidence"
+  ],
+  "practical_outcomes": [
+    "Evidence map for tests/test_pipeline.py",
+    "Source-grounded call/data/configuration trace"
+  ],
+  "completion_criteria": [
+    "Complete both lesson knowledge checks.",
+    "Submit the code-trace exercise meeting all acceptance criteria.",
+    "Complete all module questions."
+  ]
+}
