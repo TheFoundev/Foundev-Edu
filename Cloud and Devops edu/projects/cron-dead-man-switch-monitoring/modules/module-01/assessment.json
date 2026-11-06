@@ -1,0 +1,255 @@
+{
+  "module_id": "module-01",
+  "questions": [
+    {
+      "question_id": "q1-01",
+      "question_text": "Which supplied source is primary for model checks, pings, and alerts?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "core/models.py"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain model checks, pings, and alerts using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q1-02",
+      "question_text": "In plain terms, which idea best explains model checks, pings, and alerts?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A Check is a monitored job; Ping records a heartbeat; AlertChannel describes destinations and Alert stores sent events."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain model checks, pings, and alerts using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q1-03",
+      "question_text": "Which source finding supports the basic model for model checks, pings, and alerts?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        },
+        {
+          "option_id": "d",
+          "text": "Check includes schedule/grace/timeout/status fields; Ping/Alert reference the check."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain model checks, pings, and alerts using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q1-04",
+      "question_text": "Where should you trace the implementation of model checks, pings, and alerts?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "core/models.py"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for model checks, pings, and alerts",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-05",
+      "question_text": "Which source excerpt or paraphrase illustrates model checks, pings, and alerts?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "Check includes schedule/grace/timeout/status fields; Ping/Alert reference the check."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for model checks, pings, and alerts",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-06",
+      "question_text": "A failure occurs while checking model checks, pings, and alerts. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Check includes schedule/grace/timeout/status fields; Ping/Alert reference the check."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for model checks, pings, and alerts",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-07",
+      "question_text": "Which supplied source should be inspected before changing model checks, pings, and alerts?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "core/models.py"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for model checks, pings, and alerts",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-08",
+      "question_text": "Which source finding is accurate for model checks, pings, and alerts?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "Check includes schedule/grace/timeout/status fields; Ping/Alert reference the check."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for model checks, pings, and alerts",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-09",
+      "question_text": "Which review best connects the basic model and source details in model checks, pings, and alerts?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "Use the model that A Check is a monitored job; Ping records a heartbeat; AlertChannel describes destinations and Alert stores sent events., then trace core/models.py; the source finding is Check includes schedule/grace/timeout/status fields; Ping/Alert reference the check."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of model checks, pings, and alerts",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q1-10",
+      "question_text": "After reading the whole module on model checks, pings, and alerts, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "The example is Check includes schedule/grace/timeout/status fields; Ping/Alert reference the check.; interpret it with this finding: Check includes schedule/grace/timeout/status fields; Ping/Alert reference the check. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of model checks, pings, and alerts",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "module_id": "module-10",
+  "title": "Security and Product Boundaries",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Security and Product Boundaries.",
+  "learning_objectives": [
+    "Explain security and product boundaries using a plain-language model",
+    "Trace the source implementation for security and product boundaries",
+    "Assess failure and operational limits of security and product boundaries"
+  ],
+  "prerequisites": [
+    "module-09"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A real hosted Git platform needs authentication, authorization, repository protocol, isolation, and durable storage.",
+    "The CLI entry point starts the local repository/runner; source has no Git server, OAuth, container runner, or multi-user boundary."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "README.md",
+    "main.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "main.go",
+    "symbol_or_search_term": "main",
+    "line_start": 17,
+    "line_end": 26
+  }
+}

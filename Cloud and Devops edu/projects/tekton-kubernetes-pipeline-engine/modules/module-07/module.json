@@ -1,0 +1,40 @@
+{
+  "module_id": "module-07",
+  "title": "Run Finally Tasks",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Run Finally Tasks.",
+  "learning_objectives": [
+    "Explain run finally tasks using a plain-language model",
+    "Trace the source implementation for run finally tasks",
+    "Assess failure and operational limits of run finally tasks"
+  ],
+  "prerequisites": [
+    "module-06"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Finally tasks are cleanup/notification tasks intended to execute after the main pipeline regardless of success.",
+    "Runner schedules finally tasks after normal task completion/failure."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "engine.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "engine.go",
+    "symbol_or_search_term": "Runner",
+    "line_start": 314,
+    "line_end": 323
+  }
+}

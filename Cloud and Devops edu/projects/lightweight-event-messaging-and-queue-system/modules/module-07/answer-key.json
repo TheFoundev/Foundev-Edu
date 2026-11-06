@@ -1,0 +1,145 @@
+{
+  "module_id": "module-07",
+  "answers": [
+    {
+      "question_id": "q7-01",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is queue.go; README.md. It establishes that Topic.Messages is an in-memory slice; the queue has no persistence, replication, durable consumer groups, or dead-letter queue. The source example is Messages []Message The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect queue.go; README.md.",
+        "b": "This source is not the component identified for the module. Inspect queue.go; README.md.",
+        "c": "This source is not the component identified for the module. Inspect queue.go; README.md."
+      },
+      "concept_tested": "Durability and Delivery Limits",
+      "related_lesson_id": "lesson-01",
+      "source_file": "queue.go; README.md",
+      "supporting_reference": "https://pkg.go.dev/net/http"
+    },
+    {
+      "question_id": "q7-02",
+      "correct_option_id": "c",
+      "explanation": "This is the module's lay explanation. The implementation source is queue.go; README.md, where the more specific finding is: Topic.Messages is an in-memory slice; the queue has no persistence, replication, durable consumer groups, or dead-letter queue. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "a": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "b": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "d": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Durability and Delivery Limits",
+      "related_lesson_id": "lesson-01",
+      "source_file": "queue.go; README.md",
+      "supporting_reference": "https://pkg.go.dev/net/http"
+    },
+    {
+      "question_id": "q7-03",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is queue.go; README.md. It establishes that Topic.Messages is an in-memory slice; the queue has no persistence, replication, durable consumer groups, or dead-letter queue. The source example is Messages []Message The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "c": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "d": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Durability and Delivery Limits",
+      "related_lesson_id": "lesson-01",
+      "source_file": "queue.go; README.md",
+      "supporting_reference": "https://pkg.go.dev/net/http"
+    },
+    {
+      "question_id": "q7-04",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is queue.go; README.md. It establishes that Topic.Messages is an in-memory slice; the queue has no persistence, replication, durable consumer groups, or dead-letter queue. The source example is Messages []Message The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "This source is not the component identified for the module. Inspect queue.go; README.md.",
+        "c": "This source is not the component identified for the module. Inspect queue.go; README.md.",
+        "d": "This source is not the component identified for the module. Inspect queue.go; README.md."
+      },
+      "concept_tested": "Durability and Delivery Limits",
+      "related_lesson_id": "lesson-02",
+      "source_file": "queue.go; README.md",
+      "supporting_reference": "https://pkg.go.dev/net/http"
+    },
+    {
+      "question_id": "q7-05",
+      "correct_option_id": "d",
+      "explanation": "This excerpt or paraphrase is drawn from queue.go; README.md. The source finding is: Topic.Messages is an in-memory slice; the queue has no persistence, replication, durable consumer groups, or dead-letter queue. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "b": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "c": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Durability and Delivery Limits",
+      "related_lesson_id": "lesson-02",
+      "source_file": "queue.go; README.md",
+      "supporting_reference": "https://pkg.go.dev/net/http"
+    },
+    {
+      "question_id": "q7-06",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is queue.go; README.md. It establishes that Topic.Messages is an in-memory slice; the queue has no persistence, replication, durable consumer groups, or dead-letter queue. The source example is Messages []Message The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "b": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "d": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Durability and Delivery Limits",
+      "related_lesson_id": "lesson-02",
+      "source_file": "queue.go; README.md",
+      "supporting_reference": "https://pkg.go.dev/net/http"
+    },
+    {
+      "question_id": "q7-07",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is queue.go; README.md. It establishes that Topic.Messages is an in-memory slice; the queue has no persistence, replication, durable consumer groups, or dead-letter queue. The source example is Messages []Message The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect queue.go; README.md.",
+        "c": "This source is not the component identified for the module. Inspect queue.go; README.md.",
+        "d": "This source is not the component identified for the module. Inspect queue.go; README.md."
+      },
+      "concept_tested": "Durability and Delivery Limits",
+      "related_lesson_id": "lesson-02",
+      "source_file": "queue.go; README.md",
+      "supporting_reference": "https://pkg.go.dev/net/http"
+    },
+    {
+      "question_id": "q7-08",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is queue.go; README.md. It establishes that Topic.Messages is an in-memory slice; the queue has no persistence, replication, durable consumer groups, or dead-letter queue. The source example is Messages []Message The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "c": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "d": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Durability and Delivery Limits",
+      "related_lesson_id": "lesson-02",
+      "source_file": "queue.go; README.md",
+      "supporting_reference": "https://pkg.go.dev/net/http"
+    },
+    {
+      "question_id": "q7-09",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is queue.go; README.md. It establishes that Topic.Messages is an in-memory slice; the queue has no persistence, replication, durable consumer groups, or dead-letter queue. The source example is Messages []Message The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "b": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "c": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Durability and Delivery Limits",
+      "related_lesson_id": "lesson-03",
+      "source_file": "queue.go; README.md",
+      "supporting_reference": "https://pkg.go.dev/net/http"
+    },
+    {
+      "question_id": "q7-10",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is queue.go; README.md. It establishes that Topic.Messages is an in-memory slice; the queue has no persistence, replication, durable consumer groups, or dead-letter queue. The source example is Messages []Message The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "b": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "d": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Durability and Delivery Limits",
+      "related_lesson_id": "lesson-03",
+      "source_file": "queue.go; README.md",
+      "supporting_reference": "https://pkg.go.dev/net/http"
+    }
+  ]
+}

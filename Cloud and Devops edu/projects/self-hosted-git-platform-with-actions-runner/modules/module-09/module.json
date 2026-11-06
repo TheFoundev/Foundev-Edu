@@ -1,0 +1,40 @@
+{
+  "module_id": "module-09",
+  "title": "Test Hashes and Workflow Semantics",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Test Hashes and Workflow Semantics.",
+  "learning_objectives": [
+    "Explain test hashes and workflow semantics using a plain-language model",
+    "Trace the source implementation for test hashes and workflow semantics",
+    "Assess failure and operational limits of test hashes and workflow semantics"
+  ],
+  "prerequisites": [
+    "module-08"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Tests compare object hashes/history and exercise parser, runner, failure, and persistence behavior.",
+    "The test suite verifies selected formats and commands, not full Git/Actions compatibility."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "repository_test.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "repository_test.go",
+    "symbol_or_search_term": "TestTheObjectHashIsTheGitHash",
+    "line_start": 43,
+    "line_end": 52
+  }
+}

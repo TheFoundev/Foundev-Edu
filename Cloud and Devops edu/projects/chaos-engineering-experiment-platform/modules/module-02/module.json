@@ -1,0 +1,40 @@
+{
+  "module_id": "module-02",
+  "title": "Validate Actions and Hypotheses",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Validate Actions and Hypotheses.",
+  "learning_objectives": [
+    "Explain validate actions and hypotheses using a plain-language model",
+    "Trace the source implementation for validate actions and hypotheses",
+    "Assess failure and operational limits of validate actions and hypotheses"
+  ],
+  "prerequisites": [
+    "module-01"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Validation checks a plan before it can affect a target.",
+    "Validate allows delay/kill/stress and nonempty targets; hypothesis operators are lt/gt/eq."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "chaos.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "chaos.go",
+    "symbol_or_search_term": "Compare",
+    "line_start": 139,
+    "line_end": 148
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "module_id": "module-03",
+  "questions": [
+    {
+      "question_id": "q3-01",
+      "question_text": "Which supplied source is primary for bootstrap the first server?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "bootstrap/10-install-server.sh"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain bootstrap the first server using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q3-02",
+      "question_text": "In plain terms, which idea best explains bootstrap the first server?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "The first server initializes the cluster; TLS SAN names must match how clients reach the API."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain bootstrap the first server using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q3-03",
+      "question_text": "Which source finding supports the basic model for bootstrap the first server?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "Script installs K3s server with cluster-init and tls-san parameters."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain bootstrap the first server using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q3-04",
+      "question_text": "Where should you trace the implementation of bootstrap the first server?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "bootstrap/10-install-server.sh"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for bootstrap the first server",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-05",
+      "question_text": "Which source excerpt or paraphrase illustrates bootstrap the first server?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        },
+        {
+          "option_id": "d",
+          "text": "Script installs K3s server with cluster-init and tls-san parameters."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for bootstrap the first server",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-06",
+      "question_text": "A failure occurs while checking bootstrap the first server. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "Script installs K3s server with cluster-init and tls-san parameters."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for bootstrap the first server",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-07",
+      "question_text": "Which supplied source should be inspected before changing bootstrap the first server?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "bootstrap/10-install-server.sh"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for bootstrap the first server",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-08",
+      "question_text": "Which source finding is accurate for bootstrap the first server?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Script installs K3s server with cluster-init and tls-san parameters."
+        },
+        {
+          "option_id": "b",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for bootstrap the first server",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-09",
+      "question_text": "Which review best connects the basic model and source details in bootstrap the first server?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        },
+        {
+          "option_id": "d",
+          "text": "Use the model that The first server initializes the cluster; TLS SAN names must match how clients reach the API., then trace bootstrap/10-install-server.sh; the source finding is Script installs K3s server with cluster-init and tls-san parameters."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of bootstrap the first server",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q3-10",
+      "question_text": "After reading the whole module on bootstrap the first server, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "The example is Script installs K3s server with cluster-init and tls-san parameters.; interpret it with this finding: Script installs K3s server with cluster-init and tls-san parameters. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of bootstrap the first server",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

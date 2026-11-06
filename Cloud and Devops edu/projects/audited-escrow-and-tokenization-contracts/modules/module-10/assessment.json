@@ -1,0 +1,255 @@
+{
+  "module_id": "module-10",
+  "questions": [
+    {
+      "question_id": "q10-01",
+      "question_text": "Which supplied source is primary for events, errors, and external calls?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "contracts/Escrow.sol; contracts/TokenizedAsset.sol"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain events, errors, and external calls using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q10-02",
+      "question_text": "In plain terms, which idea best explains events, errors, and external calls?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "Events are receipts for off-chain tools; custom errors make failed operations more specific."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain events, errors, and external calls using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q10-03",
+      "question_text": "Which source finding supports the basic model for events, errors, and external calls?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Contracts emit funding, dispute, settlement, credit, withdrawal, mint, audit, and royalty events and define typed errors."
+        },
+        {
+          "option_id": "b",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain events, errors, and external calls using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q10-04",
+      "question_text": "Where should you trace the implementation of events, errors, and external calls?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "contracts/Escrow.sol; contracts/TokenizedAsset.sol"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for events, errors, and external calls",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q10-05",
+      "question_text": "Which source excerpt or paraphrase illustrates events, errors, and external calls?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "emit ContributionReceived(...); error InvalidState(...)"
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for events, errors, and external calls",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q10-06",
+      "question_text": "A failure occurs while checking events, errors, and external calls. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "Contracts emit funding, dispute, settlement, credit, withdrawal, mint, audit, and royalty events and define typed errors."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for events, errors, and external calls",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q10-07",
+      "question_text": "Which supplied source should be inspected before changing events, errors, and external calls?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "contracts/Escrow.sol; contracts/TokenizedAsset.sol"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for events, errors, and external calls",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q10-08",
+      "question_text": "Which source finding is accurate for events, errors, and external calls?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "A secret in source or logs remains confidential from repository users."
+        },
+        {
+          "option_id": "d",
+          "text": "Contracts emit funding, dispute, settlement, credit, withdrawal, mint, audit, and royalty events and define typed errors."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for events, errors, and external calls",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q10-09",
+      "question_text": "Which review best connects the basic model and source details in events, errors, and external calls?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "Use the model that Events are receipts for off-chain tools; custom errors make failed operations more specific., then trace contracts/Escrow.sol; contracts/TokenizedAsset.sol; the source finding is Contracts emit funding, dispute, settlement, credit, withdrawal, mint, audit, and royalty events and define typed errors."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of events, errors, and external calls",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q10-10",
+      "question_text": "After reading the whole module on events, errors, and external calls, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "The example is emit ContributionReceived(...); error InvalidState(...); interpret it with this finding: Contracts emit funding, dispute, settlement, credit, withdrawal, mint, audit, and royalty events and define typed errors. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of events, errors, and external calls",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

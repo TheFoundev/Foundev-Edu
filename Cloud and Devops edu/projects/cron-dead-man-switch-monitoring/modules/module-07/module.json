@@ -1,0 +1,41 @@
+{
+  "module_id": "module-07",
+  "title": "Poller and Alert Dispatch",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Poller and Alert Dispatch.",
+  "learning_objectives": [
+    "Explain poller and alert dispatch using a plain-language model",
+    "Trace the source implementation for poller and alert dispatch",
+    "Assess failure and operational limits of poller and alert dispatch"
+  ],
+  "prerequisites": [
+    "module-06"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A poller is a separate process that periodically evaluates schedules; missed jobs are not found unless it runs.",
+    "run_poller evaluates due checks; dispatch_alert handles configured email/webhook/log channels."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "core/management/commands/run_poller.py",
+    "core/dispatch.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "core/management/commands/run_poller.py",
+    "symbol_or_search_term": "dispatch_alert",
+    "line_start": 3,
+    "line_end": 12
+  }
+}

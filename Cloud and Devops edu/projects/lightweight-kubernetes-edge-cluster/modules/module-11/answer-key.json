@@ -1,0 +1,145 @@
+{
+  "module_id": "module-11",
+  "answers": [
+    {
+      "question_id": "q11-01",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md. It establishes that The manifest declares NetworkPolicy rules; the selected K3s CNI must enforce them. Troubleshooting covers cgroup/iptables/hostname/pull fixes. The source example is kind: NetworkPolicy The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md.",
+        "b": "This source is not the component identified for the module. Inspect manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md.",
+        "c": "This source is not the component identified for the module. Inspect manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md."
+      },
+      "concept_tested": "Review NetworkPolicy and Failure Modes",
+      "related_lesson_id": "lesson-01",
+      "source_file": "manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q11-02",
+      "correct_option_id": "c",
+      "explanation": "This is the module's lay explanation. The implementation source is manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md, where the more specific finding is: The manifest declares NetworkPolicy rules; the selected K3s CNI must enforce them. Troubleshooting covers cgroup/iptables/hostname/pull fixes. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Review NetworkPolicy and Failure Modes",
+      "related_lesson_id": "lesson-01",
+      "source_file": "manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q11-03",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md. It establishes that The manifest declares NetworkPolicy rules; the selected K3s CNI must enforce them. Troubleshooting covers cgroup/iptables/hostname/pull fixes. The source example is kind: NetworkPolicy The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Review NetworkPolicy and Failure Modes",
+      "related_lesson_id": "lesson-01",
+      "source_file": "manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q11-04",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md. It establishes that The manifest declares NetworkPolicy rules; the selected K3s CNI must enforce them. Troubleshooting covers cgroup/iptables/hostname/pull fixes. The source example is kind: NetworkPolicy The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "This source is not the component identified for the module. Inspect manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md.",
+        "c": "This source is not the component identified for the module. Inspect manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md.",
+        "d": "This source is not the component identified for the module. Inspect manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md."
+      },
+      "concept_tested": "Review NetworkPolicy and Failure Modes",
+      "related_lesson_id": "lesson-02",
+      "source_file": "manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q11-05",
+      "correct_option_id": "d",
+      "explanation": "This excerpt or paraphrase is drawn from manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md. The source finding is: The manifest declares NetworkPolicy rules; the selected K3s CNI must enforce them. Troubleshooting covers cgroup/iptables/hostname/pull fixes. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "c": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Review NetworkPolicy and Failure Modes",
+      "related_lesson_id": "lesson-02",
+      "source_file": "manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q11-06",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md. It establishes that The manifest declares NetworkPolicy rules; the selected K3s CNI must enforce them. Troubleshooting covers cgroup/iptables/hostname/pull fixes. The source example is kind: NetworkPolicy The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Review NetworkPolicy and Failure Modes",
+      "related_lesson_id": "lesson-02",
+      "source_file": "manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q11-07",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md. It establishes that The manifest declares NetworkPolicy rules; the selected K3s CNI must enforce them. Troubleshooting covers cgroup/iptables/hostname/pull fixes. The source example is kind: NetworkPolicy The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md.",
+        "c": "This source is not the component identified for the module. Inspect manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md.",
+        "d": "This source is not the component identified for the module. Inspect manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md."
+      },
+      "concept_tested": "Review NetworkPolicy and Failure Modes",
+      "related_lesson_id": "lesson-02",
+      "source_file": "manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q11-08",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md. It establishes that The manifest declares NetworkPolicy rules; the selected K3s CNI must enforce them. Troubleshooting covers cgroup/iptables/hostname/pull fixes. The source example is kind: NetworkPolicy The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Review NetworkPolicy and Failure Modes",
+      "related_lesson_id": "lesson-02",
+      "source_file": "manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q11-09",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md. It establishes that The manifest declares NetworkPolicy rules; the selected K3s CNI must enforce them. Troubleshooting covers cgroup/iptables/hostname/pull fixes. The source example is kind: NetworkPolicy The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "c": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Review NetworkPolicy and Failure Modes",
+      "related_lesson_id": "lesson-03",
+      "source_file": "manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q11-10",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md. It establishes that The manifest declares NetworkPolicy rules; the selected K3s CNI must enforce them. Troubleshooting covers cgroup/iptables/hostname/pull fixes. The source example is kind: NetworkPolicy The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Review NetworkPolicy and Failure Modes",
+      "related_lesson_id": "lesson-03",
+      "source_file": "manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md",
+      "supporting_reference": "https://docs.k3s.io/"
+    }
+  ]
+}

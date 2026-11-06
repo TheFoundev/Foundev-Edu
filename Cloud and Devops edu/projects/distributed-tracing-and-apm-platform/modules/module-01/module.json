@@ -1,0 +1,38 @@
+{
+  "module_id": "module-01",
+  "title": "Span and Trace Vocabulary",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Span and Trace Vocabulary.",
+  "learning_objectives": [
+    "Explain span and trace vocabulary using a plain-language model",
+    "Trace the source implementation for span and trace vocabulary",
+    "Assess failure and operational limits of span and trace vocabulary"
+  ],
+  "prerequisites": [],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A span is one timed operation; a trace groups related spans and parent IDs describe nesting.",
+    "Span carries trace/span/parent IDs, service, operation, start, duration, and status."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "tracing.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "tracing.go",
+    "symbol_or_search_term": "Span",
+    "line_start": 40,
+    "line_end": 49
+  }
+}

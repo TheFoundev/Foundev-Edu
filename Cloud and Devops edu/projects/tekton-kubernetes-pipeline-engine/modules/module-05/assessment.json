@@ -1,0 +1,255 @@
+{
+  "module_id": "module-05",
+  "questions": [
+    {
+      "question_id": "q5-01",
+      "question_text": "Which supplied source is primary for share a workspace and read results?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "engine.go"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain share a workspace and read results using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q5-02",
+      "question_text": "In plain terms, which idea best explains share a workspace and read results?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A workspace is a directory shared by tasks so one task can write a file another task reads."
+        },
+        {
+          "option_id": "b",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain share a workspace and read results using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q5-03",
+      "question_text": "Which source finding supports the basic model for share a workspace and read results?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        },
+        {
+          "option_id": "d",
+          "text": "runTask creates/uses workspace; readResults collects declared result files."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain share a workspace and read results using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q5-04",
+      "question_text": "Where should you trace the implementation of share a workspace and read results?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "engine.go"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for share a workspace and read results",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-05",
+      "question_text": "Which source excerpt or paraphrase illustrates share a workspace and read results?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "runTask creates/uses workspace; readResults collects declared result files."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for share a workspace and read results",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-06",
+      "question_text": "A failure occurs while checking share a workspace and read results. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "runTask creates/uses workspace; readResults collects declared result files."
+        },
+        {
+          "option_id": "b",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for share a workspace and read results",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-07",
+      "question_text": "Which supplied source should be inspected before changing share a workspace and read results?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "engine.go"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for share a workspace and read results",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-08",
+      "question_text": "Which source finding is accurate for share a workspace and read results?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "runTask creates/uses workspace; readResults collects declared result files."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for share a workspace and read results",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-09",
+      "question_text": "Which review best connects the basic model and source details in share a workspace and read results?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "Use the model that A workspace is a directory shared by tasks so one task can write a file another task reads., then trace engine.go; the source finding is runTask creates/uses workspace; readResults collects declared result files."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of share a workspace and read results",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q5-10",
+      "question_text": "After reading the whole module on share a workspace and read results, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "The example is runTask creates/uses workspace; readResults collects declared result files.; interpret it with this finding: runTask creates/uses workspace; readResults collects declared result files. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "b",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of share a workspace and read results",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

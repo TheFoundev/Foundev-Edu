@@ -1,0 +1,38 @@
+{
+  "module_id": "module-01",
+  "title": "Monitor and Check Data Model",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Monitor and Check Data Model.",
+  "learning_objectives": [
+    "Explain monitor and check data model using a plain-language model",
+    "Trace the source implementation for monitor and check data model",
+    "Assess failure and operational limits of monitor and check data model"
+  ],
+  "prerequisites": [],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A monitor is a saved URL/config; a check is one timestamped observation.",
+    "SQLite schema separates monitors and check history."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/db.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/db.js",
+    "symbol_or_search_term": "monitors",
+    "line_start": 3,
+    "line_end": 12
+  }
+}

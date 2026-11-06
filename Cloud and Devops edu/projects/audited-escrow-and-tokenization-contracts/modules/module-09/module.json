@@ -1,0 +1,40 @@
+{
+  "module_id": "module-09",
+  "title": "Factory Creation and Indexing",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Factory Creation and Indexing.",
+  "learning_objectives": [
+    "Explain factory creation and indexing using a plain-language model",
+    "Trace the source implementation for factory creation and indexing",
+    "Assess failure and operational limits of factory creation and indexing"
+  ],
+  "prerequisites": [
+    "module-08"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A factory is a deployment desk that creates instances and keeps a searchable catalog.",
+    "createEscrow deploys and indexes instances; escrowAt/getEscrows support lookup and pagination; buyer/seller queries exist."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "contracts/EscrowFactory.sol"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "contracts/EscrowFactory.sol",
+    "symbol_or_search_term": "getEscrows",
+    "line_start": 79,
+    "line_end": 88
+  }
+}

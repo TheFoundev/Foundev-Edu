@@ -1,0 +1,41 @@
+{
+  "module_id": "module-12",
+  "title": "Read Tests and Limitations",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Read Tests and Limitations.",
+  "learning_objectives": [
+    "Explain read tests and limitations using a plain-language model",
+    "Trace the source implementation for read tests and limitations",
+    "Assess failure and operational limits of read tests and limitations"
+  ],
+  "prerequisites": [
+    "module-11"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Tests show behavior under test fixtures but do not establish all deployments or network integrations.",
+    "SchemaRegistryClientTest covers bundled/fake schema resolution; it does not prove a live external Schema Registry integration."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/test/java/local/foundev/streams/registry/SchemaRegistryClientTest.java",
+    "README.md"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/test/java/local/foundev/streams/registry/SchemaRegistryClientTest.java",
+    "symbol_or_search_term": "SchemaRegistryClientTest",
+    "line_start": 10,
+    "line_end": 19
+  }
+}

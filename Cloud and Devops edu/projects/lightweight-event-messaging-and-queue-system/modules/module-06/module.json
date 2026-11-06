@@ -1,0 +1,41 @@
+{
+  "module_id": "module-06",
+  "title": "Retention and HTTP API",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Retention and HTTP API.",
+  "learning_objectives": [
+    "Explain retention and http api using a plain-language model",
+    "Trace the source implementation for retention and http api",
+    "Assess failure and operational limits of retention and http api"
+  ],
+  "prerequisites": [
+    "module-05"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Retention trims old messages in memory; HTTP endpoints expose publish/fetch and demo operations.",
+    "NewBroker(retention); PublishHandler/FetchHandler serve JSON."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "queue.go",
+    "main.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "queue.go",
+    "symbol_or_search_term": "NewBroker",
+    "line_start": 30,
+    "line_end": 39
+  }
+}

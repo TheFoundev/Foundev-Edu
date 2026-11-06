@@ -1,0 +1,255 @@
+{
+  "module_id": "module-09",
+  "questions": [
+    {
+      "question_id": "q9-01",
+      "question_text": "Which supplied source is primary for separate simulation from kubernetes?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md; control.go"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain separate simulation from kubernetes using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q9-02",
+      "question_text": "In plain terms, which idea best explains separate simulation from kubernetes?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A custom-resource-shaped Go struct is not itself a Kubernetes CRD, API server, controller-runtime client, or cloud resource."
+        },
+        {
+          "option_id": "b",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain separate simulation from kubernetes using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q9-03",
+      "question_text": "Which source finding supports the basic model for separate simulation from kubernetes?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        },
+        {
+          "option_id": "d",
+          "text": "No Kubernetes API server/provider is contacted; status is set by local reconciliation."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain separate simulation from kubernetes using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q9-04",
+      "question_text": "Where should you trace the implementation of separate simulation from kubernetes?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "README.md; control.go"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for separate simulation from kubernetes",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-05",
+      "question_text": "Which source excerpt or paraphrase illustrates separate simulation from kubernetes?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "No Kubernetes API server/provider is contacted; status is set by local reconciliation."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for separate simulation from kubernetes",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-06",
+      "question_text": "A failure occurs while checking separate simulation from kubernetes. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "No Kubernetes API server/provider is contacted; status is set by local reconciliation."
+        },
+        {
+          "option_id": "b",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for separate simulation from kubernetes",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-07",
+      "question_text": "Which supplied source should be inspected before changing separate simulation from kubernetes?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "README.md; control.go"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for separate simulation from kubernetes",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-08",
+      "question_text": "Which source finding is accurate for separate simulation from kubernetes?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "No Kubernetes API server/provider is contacted; status is set by local reconciliation."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for separate simulation from kubernetes",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-09",
+      "question_text": "Which review best connects the basic model and source details in separate simulation from kubernetes?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "Use the model that A custom-resource-shaped Go struct is not itself a Kubernetes CRD, API server, controller-runtime client, or cloud resource., then trace README.md; control.go; the source finding is No Kubernetes API server/provider is contacted; status is set by local reconciliation."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of separate simulation from kubernetes",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q9-10",
+      "question_text": "After reading the whole module on separate simulation from kubernetes, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "The example is No Kubernetes API server/provider is contacted; status is set by local reconciliation.; interpret it with this finding: No Kubernetes API server/provider is contacted; status is set by local reconciliation. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "b",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of separate simulation from kubernetes",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

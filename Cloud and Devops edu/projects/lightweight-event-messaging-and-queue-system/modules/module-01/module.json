@@ -1,0 +1,38 @@
+{
+  "module_id": "module-01",
+  "title": "Message, Topic, and Partition Models",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Message, Topic, and Partition Models.",
+  "learning_objectives": [
+    "Explain message, topic, and partition models using a plain-language model",
+    "Trace the source implementation for message, topic, and partition models",
+    "Assess failure and operational limits of message, topic, and partition models"
+  ],
+  "prerequisites": [],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A topic is a named stream; partitions split a topic into ordered lanes.",
+    "Message carries topic/key/payload/offset/partition; Topic stores partition slices and offsets."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "queue.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "queue.go",
+    "symbol_or_search_term": "Message",
+    "line_start": 71,
+    "line_end": 80
+  }
+}

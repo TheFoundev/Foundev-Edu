@@ -1,0 +1,40 @@
+{
+  "module_id": "module-05",
+  "title": "Parse Workflow Definitions",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Parse Workflow Definitions.",
+  "learning_objectives": [
+    "Explain parse workflow definitions using a plain-language model",
+    "Trace the source implementation for parse workflow definitions",
+    "Assess failure and operational limits of parse workflow definitions"
+  ],
+  "prerequisites": [
+    "module-04"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "The parser recognizes a small indentation-based subset of workflow syntax, not arbitrary YAML.",
+    "ParseWorkflow supports list/key job shapes, run/uses/needs/env fields."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "repository.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "repository.go",
+    "symbol_or_search_term": "ParseWorkflow",
+    "line_start": 301,
+    "line_end": 310
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "module_id": "module-01",
+  "questions": [
+    {
+      "question_id": "q1-01",
+      "question_text": "Which supplied source is primary for sample and label data model?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "metrics.go"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain sample and label data model using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q1-02",
+      "question_text": "In plain terms, which idea best explains sample and label data model?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A sample is a measurement plus labels and time; labels let queries group related series."
+        },
+        {
+          "option_id": "b",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain sample and label data model using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q1-03",
+      "question_text": "Which source finding supports the basic model for sample and label data model?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        },
+        {
+          "option_id": "d",
+          "text": "Sample stores metric/name labels/value/timestamp fields."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain sample and label data model using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q1-04",
+      "question_text": "Where should you trace the implementation of sample and label data model?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "metrics.go"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for sample and label data model",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-05",
+      "question_text": "Which source excerpt or paraphrase illustrates sample and label data model?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "Sample stores metric/name labels/value/timestamp fields."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for sample and label data model",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-06",
+      "question_text": "A failure occurs while checking sample and label data model. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Sample stores metric/name labels/value/timestamp fields."
+        },
+        {
+          "option_id": "b",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for sample and label data model",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-07",
+      "question_text": "Which supplied source should be inspected before changing sample and label data model?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "metrics.go"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for sample and label data model",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-08",
+      "question_text": "Which source finding is accurate for sample and label data model?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "Sample stores metric/name labels/value/timestamp fields."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for sample and label data model",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-09",
+      "question_text": "Which review best connects the basic model and source details in sample and label data model?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "Use the model that A sample is a measurement plus labels and time; labels let queries group related series., then trace metrics.go; the source finding is Sample stores metric/name labels/value/timestamp fields."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of sample and label data model",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q1-10",
+      "question_text": "After reading the whole module on sample and label data model, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "The example is Sample stores metric/name labels/value/timestamp fields.; interpret it with this finding: Sample stores metric/name labels/value/timestamp fields. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "b",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of sample and label data model",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

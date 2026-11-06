@@ -1,0 +1,41 @@
+{
+  "module_id": "module-04",
+  "title": "Find and Invoke SOPS/Age Tools",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Find and Invoke SOPS/Age Tools.",
+  "learning_objectives": [
+    "Explain find and invoke sops/age tools using a plain-language model",
+    "Trace the source implementation for find and invoke sops/age tools",
+    "Assess failure and operational limits of find and invoke sops/age tools"
+  ],
+  "prerequisites": [
+    "module-03"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "The wrapper locates external binaries and passes file content and recipient/key settings to them.",
+    "find_tool checks environment/config/path/.tools; sops_encrypt/decrypt call subprocess helpers."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "secretsync/sopsbin.py",
+    "scripts/fetch_tools.sh"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "secretsync/sopsbin.py",
+    "symbol_or_search_term": "sops_encrypt",
+    "line_start": 17,
+    "line_end": 26
+  }
+}

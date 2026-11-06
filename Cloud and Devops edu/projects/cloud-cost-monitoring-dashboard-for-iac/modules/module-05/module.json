@@ -1,0 +1,40 @@
+{
+  "module_id": "module-05",
+  "title": "Use the Hard-Coded Price Catalog",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Use the Hard-Coded Price Catalog.",
+  "learning_objectives": [
+    "Explain use the hard-coded price catalog using a plain-language model",
+    "Trace the source implementation for use the hard-coded price catalog",
+    "Assess failure and operational limits of use the hard-coded price catalog"
+  ],
+  "prerequisites": [
+    "module-04"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A local rate card is an approximation; prices vary by region, usage, storage, and time.",
+    "instancePrices, googleComputePrices, databasePrices contain fixed sample monthly values."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "cost.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "cost.go",
+    "symbol_or_search_term": "instancePrices",
+    "line_start": 138,
+    "line_end": 147
+  }
+}

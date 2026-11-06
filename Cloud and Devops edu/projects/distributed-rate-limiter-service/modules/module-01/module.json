@@ -1,0 +1,39 @@
+{
+  "module_id": "module-01",
+  "title": "Token Bucket in Plain Terms",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Token Bucket in Plain Terms.",
+  "learning_objectives": [
+    "Explain token bucket in plain terms using a plain-language model",
+    "Trace the source implementation for token bucket in plain terms",
+    "Assess failure and operational limits of token bucket in plain terms"
+  ],
+  "prerequisites": [],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A token bucket is a cup that refills at a steady rate; requests spend tokens and burst sets the cup size.",
+    "MemoryStore stores floating tokens and last time, refilling elapsed seconds × rate up to burst."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "limiter.go",
+    "store.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "store.go",
+    "symbol_or_search_term": "MemoryStore",
+    "line_start": 48,
+    "line_end": 57
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Terraform JSON format",
+    "url": "https://developer.hashicorp.com/terraform/internals/json-format",
+    "type": "official documentation"
+  },
+  {
+    "title": "Terraform plan",
+    "url": "https://developer.hashicorp.com/terraform/cli/commands/plan",
+    "type": "official documentation"
+  },
+  {
+    "title": "Go encoding/json",
+    "url": "https://pkg.go.dev/encoding/json",
+    "type": "official documentation"
+  }
+]

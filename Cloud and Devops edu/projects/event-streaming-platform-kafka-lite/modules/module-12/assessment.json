@@ -1,0 +1,255 @@
+{
+  "module_id": "module-12",
+  "questions": [
+    {
+      "question_id": "q12-01",
+      "question_text": "Which supplied source is primary for read tests and limitations?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "src/test/java/local/foundev/streams/registry/SchemaRegistryClientTest.java; README.md"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain read tests and limitations using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q12-02",
+      "question_text": "In plain terms, which idea best explains read tests and limitations?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        },
+        {
+          "option_id": "d",
+          "text": "Tests show behavior under test fixtures but do not establish all deployments or network integrations."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain read tests and limitations using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q12-03",
+      "question_text": "Which source finding supports the basic model for read tests and limitations?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "SchemaRegistryClientTest covers bundled/fake schema resolution; it does not prove a live external Schema Registry integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain read tests and limitations using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q12-04",
+      "question_text": "Where should you trace the implementation of read tests and limitations?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "src/test/java/local/foundev/streams/registry/SchemaRegistryClientTest.java; README.md"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for read tests and limitations",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q12-05",
+      "question_text": "Which source excerpt or paraphrase illustrates read tests and limitations?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "SchemaRegistryClientTest"
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for read tests and limitations",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q12-06",
+      "question_text": "A failure occurs while checking read tests and limitations. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        },
+        {
+          "option_id": "d",
+          "text": "SchemaRegistryClientTest covers bundled/fake schema resolution; it does not prove a live external Schema Registry integration."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for read tests and limitations",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q12-07",
+      "question_text": "Which supplied source should be inspected before changing read tests and limitations?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "src/test/java/local/foundev/streams/registry/SchemaRegistryClientTest.java; README.md"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for read tests and limitations",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q12-08",
+      "question_text": "Which source finding is accurate for read tests and limitations?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "SchemaRegistryClientTest covers bundled/fake schema resolution; it does not prove a live external Schema Registry integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for read tests and limitations",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q12-09",
+      "question_text": "Which review best connects the basic model and source details in read tests and limitations?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Use the model that Tests show behavior under test fixtures but do not establish all deployments or network integrations., then trace src/test/java/local/foundev/streams/registry/SchemaRegistryClientTest.java; README.md; the source finding is SchemaRegistryClientTest covers bundled/fake schema resolution; it does not prove a live external Schema Registry integration."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of read tests and limitations",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q12-10",
+      "question_text": "After reading the whole module on read tests and limitations, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        },
+        {
+          "option_id": "d",
+          "text": "The example is SchemaRegistryClientTest; interpret it with this finding: SchemaRegistryClientTest covers bundled/fake schema resolution; it does not prove a live external Schema Registry integration. Verify the connected component before making a production claim."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of read tests and limitations",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

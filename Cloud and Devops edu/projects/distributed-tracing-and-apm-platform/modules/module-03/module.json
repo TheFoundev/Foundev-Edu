@@ -1,0 +1,40 @@
+{
+  "module_id": "module-03",
+  "title": "Assemble Trace Duration and Root",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Assemble Trace Duration and Root.",
+  "learning_objectives": [
+    "Explain assemble trace duration and root using a plain-language model",
+    "Trace the source implementation for assemble trace duration and root",
+    "Assess failure and operational limits of assemble trace duration and root"
+  ],
+  "prerequisites": [
+    "module-02"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Trace duration spans from the earliest start to latest span end; a root span has no ParentID.",
+    "Traces groups by TraceID and counts status == error."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "tracing.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "tracing.go",
+    "symbol_or_search_term": "TraceID",
+    "line_start": 89,
+    "line_end": 98
+  }
+}

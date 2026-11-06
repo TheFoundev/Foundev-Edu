@@ -1,0 +1,41 @@
+{
+  "module_id": "module-04",
+  "title": "Publish with Confirms and Idempotency",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Publish with Confirms and Idempotency.",
+  "learning_objectives": [
+    "Explain publish with confirms and idempotency using a plain-language model",
+    "Trace the source implementation for publish with confirms and idempotency",
+    "Assess failure and operational limits of publish with confirms and idempotency"
+  ],
+  "prerequisites": [
+    "module-03"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Publisher confirms tell a producer the broker accepted a message; an idempotency key helps recognize repeated orders.",
+    "Publisher uses confirms and order idempotency key as described by README."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/mbb_publisher.erl",
+    "src/mbb_order.erl"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/mbb_publisher.erl",
+    "symbol_or_search_term": "idempotency",
+    "line_start": 1,
+    "line_end": 7
+  }
+}

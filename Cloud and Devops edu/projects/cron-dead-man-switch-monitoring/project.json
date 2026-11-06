@@ -1,0 +1,29 @@
+{
+  "title": "Cron Dead-Man-Switch Monitoring",
+  "slug": "cron-dead-man-switch-monitoring",
+  "description": "A Django heartbeat monitor tracks scheduled jobs, late/down transitions, status endpoints, and alert dispatch.",
+  "problem_solved": "Understand heartbeat monitoring, simplified schedule parsing, state transitions, authentication, polling, persistence, and notification delivery.",
+  "target_audience": "Advanced beginner/intermediate Cloud and DevOps learners",
+  "technology_stack": [
+    "Python",
+    "Django",
+    "SQLite/PostgreSQL",
+    "HTTP webhooks",
+    "Docker Compose"
+  ],
+  "difficulty_level": "intermediate",
+  "prerequisites": [
+    "Basic programming and terminal use",
+    "Read the project's source tree and setup guide",
+    "Use disposable local/test environments for operational exercises"
+  ],
+  "learning_outcomes": [
+    "Explain the source system's implemented components and limitations",
+    "Trace data/control flow through modules and interfaces",
+    "Distinguish simulation, local implementation, and external production services",
+    "Use tests, logs, and safe experiments to verify claims",
+    "Apply security, operational, and failure-mode reasoning"
+  ],
+  "estimated_completion_time": "24–38 hours",
+  "content_schema_version": "1.0.0"
+}

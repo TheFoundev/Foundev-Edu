@@ -1,0 +1,40 @@
+{
+  "module_id": "module-08",
+  "title": "Test Deduplication and Restore Drills",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Test Deduplication and Restore Drills.",
+  "learning_objectives": [
+    "Explain test deduplication and restore drills using a plain-language model",
+    "Trace the source implementation for test deduplication and restore drills",
+    "Assess failure and operational limits of test deduplication and restore drills"
+  ],
+  "prerequisites": [
+    "module-07"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Tests verify chunk boundaries, repeated content deduplication, restoration, and key derivation properties.",
+    "TestBackupDedupAndRestore; TestContentDefinedChunking; TestTheKeyIsDerivedWithASalt."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "repository_test.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "repository_test.go",
+    "symbol_or_search_term": "TestContentDefinedChunking",
+    "line_start": 6,
+    "line_end": 15
+  }
+}

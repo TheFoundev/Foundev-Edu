@@ -1,0 +1,255 @@
+{
+  "module_id": "module-08",
+  "questions": [
+    {
+      "question_id": "q8-01",
+      "question_text": "Which supplied source is primary for serve materialized views?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "src/main/java/local/foundev/streams/api/ViewServer.java"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain serve materialized views using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q8-02",
+      "question_text": "In plain terms, which idea best explains serve materialized views?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        },
+        {
+          "option_id": "d",
+          "text": "A materialized view is a precomputed answer that avoids recalculating from every raw event on each query."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain serve materialized views using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q8-03",
+      "question_text": "Which source finding supports the basic model for serve materialized views?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "ViewServer exposes stats/pages, stats/sessions, top-referrers, and health routes."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain serve materialized views using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q8-04",
+      "question_text": "Where should you trace the implementation of serve materialized views?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "src/main/java/local/foundev/streams/api/ViewServer.java"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for serve materialized views",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-05",
+      "question_text": "Which source excerpt or paraphrase illustrates serve materialized views?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "ViewServer exposes stats/pages, stats/sessions, top-referrers, and health routes."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for serve materialized views",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-06",
+      "question_text": "A failure occurs while checking serve materialized views. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        },
+        {
+          "option_id": "d",
+          "text": "ViewServer exposes stats/pages, stats/sessions, top-referrers, and health routes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for serve materialized views",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-07",
+      "question_text": "Which supplied source should be inspected before changing serve materialized views?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "src/main/java/local/foundev/streams/api/ViewServer.java"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for serve materialized views",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-08",
+      "question_text": "Which source finding is accurate for serve materialized views?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "ViewServer exposes stats/pages, stats/sessions, top-referrers, and health routes."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for serve materialized views",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-09",
+      "question_text": "Which review best connects the basic model and source details in serve materialized views?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Use the model that A materialized view is a precomputed answer that avoids recalculating from every raw event on each query., then trace src/main/java/local/foundev/streams/api/ViewServer.java; the source finding is ViewServer exposes stats/pages, stats/sessions, top-referrers, and health routes."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of serve materialized views",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q8-10",
+      "question_text": "After reading the whole module on serve materialized views, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        },
+        {
+          "option_id": "d",
+          "text": "The example is ViewServer exposes stats/pages, stats/sessions, top-referrers, and health routes.; interpret it with this finding: ViewServer exposes stats/pages, stats/sessions, top-referrers, and health routes. Verify the connected component before making a production claim."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of serve materialized views",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

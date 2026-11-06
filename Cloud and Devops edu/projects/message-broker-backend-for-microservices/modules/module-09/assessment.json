@@ -1,0 +1,255 @@
+{
+  "module_id": "module-09",
+  "questions": [
+    {
+      "question_id": "q9-01",
+      "question_text": "Which supplied source is primary for run and configure the broker stack?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "docker-compose.yml; rabbitmq/rabbitmq.conf; prometheus/prometheus.yml"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain run and configure the broker stack using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q9-02",
+      "question_text": "In plain terms, which idea best explains run and configure the broker stack?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Compose wires broker, app, and monitoring containers; ports, credentials, and health checks shape local behavior."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain run and configure the broker stack using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q9-03",
+      "question_text": "Which source finding supports the basic model for run and configure the broker stack?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        },
+        {
+          "option_id": "d",
+          "text": "README specifies broker, schema/config, HTTP, and dashboard/run configuration."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain run and configure the broker stack using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q9-04",
+      "question_text": "Where should you trace the implementation of run and configure the broker stack?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "docker-compose.yml; rabbitmq/rabbitmq.conf; prometheus/prometheus.yml"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for run and configure the broker stack",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-05",
+      "question_text": "Which source excerpt or paraphrase illustrates run and configure the broker stack?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "README specifies broker, schema/config, HTTP, and dashboard/run configuration."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for run and configure the broker stack",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-06",
+      "question_text": "A failure occurs while checking run and configure the broker stack. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README specifies broker, schema/config, HTTP, and dashboard/run configuration."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for run and configure the broker stack",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-07",
+      "question_text": "Which supplied source should be inspected before changing run and configure the broker stack?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "docker-compose.yml; rabbitmq/rabbitmq.conf; prometheus/prometheus.yml"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for run and configure the broker stack",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-08",
+      "question_text": "Which source finding is accurate for run and configure the broker stack?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "README specifies broker, schema/config, HTTP, and dashboard/run configuration."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for run and configure the broker stack",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-09",
+      "question_text": "Which review best connects the basic model and source details in run and configure the broker stack?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "Use the model that Compose wires broker, app, and monitoring containers; ports, credentials, and health checks shape local behavior., then trace docker-compose.yml; rabbitmq/rabbitmq.conf; prometheus/prometheus.yml; the source finding is README specifies broker, schema/config, HTTP, and dashboard/run configuration."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of run and configure the broker stack",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q9-10",
+      "question_text": "After reading the whole module on run and configure the broker stack, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "The example is README specifies broker, schema/config, HTTP, and dashboard/run configuration.; interpret it with this finding: README specifies broker, schema/config, HTTP, and dashboard/run configuration. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of run and configure the broker stack",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

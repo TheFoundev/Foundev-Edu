@@ -1,0 +1,145 @@
+{
+  "module_id": "module-07",
+  "answers": [
+    {
+      "question_id": "q7-01",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is metrics.go; main.go. It establishes that IngestHandler, QueryHandler, and main route registrations. The source example is IngestHandler, QueryHandler, and main route registrations. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect metrics.go; main.go.",
+        "b": "This source is not the component identified for the module. Inspect metrics.go; main.go.",
+        "c": "This source is not the component identified for the module. Inspect metrics.go; main.go."
+      },
+      "concept_tested": "Use JSON Ingest and Query API",
+      "related_lesson_id": "lesson-01",
+      "source_file": "metrics.go; main.go",
+      "supporting_reference": "https://prometheus.io/docs/instrumenting/exposition_formats/"
+    },
+    {
+      "question_id": "q7-02",
+      "correct_option_id": "c",
+      "explanation": "This is the module's lay explanation. The implementation source is metrics.go; main.go, where the more specific finding is: IngestHandler, QueryHandler, and main route registrations. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "a": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "b": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "d": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Use JSON Ingest and Query API",
+      "related_lesson_id": "lesson-01",
+      "source_file": "metrics.go; main.go",
+      "supporting_reference": "https://prometheus.io/docs/instrumenting/exposition_formats/"
+    },
+    {
+      "question_id": "q7-03",
+      "correct_option_id": "b",
+      "explanation": "This excerpt or paraphrase is drawn from metrics.go; main.go. The source finding is: IngestHandler, QueryHandler, and main route registrations. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "c": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "d": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Use JSON Ingest and Query API",
+      "related_lesson_id": "lesson-01",
+      "source_file": "metrics.go; main.go",
+      "supporting_reference": "https://prometheus.io/docs/instrumenting/exposition_formats/"
+    },
+    {
+      "question_id": "q7-04",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is metrics.go; main.go. It establishes that IngestHandler, QueryHandler, and main route registrations. The source example is IngestHandler, QueryHandler, and main route registrations. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "This source is not the component identified for the module. Inspect metrics.go; main.go.",
+        "c": "This source is not the component identified for the module. Inspect metrics.go; main.go.",
+        "d": "This source is not the component identified for the module. Inspect metrics.go; main.go."
+      },
+      "concept_tested": "Use JSON Ingest and Query API",
+      "related_lesson_id": "lesson-02",
+      "source_file": "metrics.go; main.go",
+      "supporting_reference": "https://prometheus.io/docs/instrumenting/exposition_formats/"
+    },
+    {
+      "question_id": "q7-05",
+      "correct_option_id": "d",
+      "explanation": "This excerpt or paraphrase is drawn from metrics.go; main.go. The source finding is: IngestHandler, QueryHandler, and main route registrations. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "b": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "c": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Use JSON Ingest and Query API",
+      "related_lesson_id": "lesson-02",
+      "source_file": "metrics.go; main.go",
+      "supporting_reference": "https://prometheus.io/docs/instrumenting/exposition_formats/"
+    },
+    {
+      "question_id": "q7-06",
+      "correct_option_id": "c",
+      "explanation": "This excerpt or paraphrase is drawn from metrics.go; main.go. The source finding is: IngestHandler, QueryHandler, and main route registrations. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "b": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "d": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Use JSON Ingest and Query API",
+      "related_lesson_id": "lesson-02",
+      "source_file": "metrics.go; main.go",
+      "supporting_reference": "https://prometheus.io/docs/instrumenting/exposition_formats/"
+    },
+    {
+      "question_id": "q7-07",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is metrics.go; main.go. It establishes that IngestHandler, QueryHandler, and main route registrations. The source example is IngestHandler, QueryHandler, and main route registrations. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect metrics.go; main.go.",
+        "c": "This source is not the component identified for the module. Inspect metrics.go; main.go.",
+        "d": "This source is not the component identified for the module. Inspect metrics.go; main.go."
+      },
+      "concept_tested": "Use JSON Ingest and Query API",
+      "related_lesson_id": "lesson-02",
+      "source_file": "metrics.go; main.go",
+      "supporting_reference": "https://prometheus.io/docs/instrumenting/exposition_formats/"
+    },
+    {
+      "question_id": "q7-08",
+      "correct_option_id": "a",
+      "explanation": "This excerpt or paraphrase is drawn from metrics.go; main.go. The source finding is: IngestHandler, QueryHandler, and main route registrations. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "b": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "c": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "d": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Use JSON Ingest and Query API",
+      "related_lesson_id": "lesson-02",
+      "source_file": "metrics.go; main.go",
+      "supporting_reference": "https://prometheus.io/docs/instrumenting/exposition_formats/"
+    },
+    {
+      "question_id": "q7-09",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is metrics.go; main.go. It establishes that IngestHandler, QueryHandler, and main route registrations. The source example is IngestHandler, QueryHandler, and main route registrations. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "b": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "c": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Use JSON Ingest and Query API",
+      "related_lesson_id": "lesson-03",
+      "source_file": "metrics.go; main.go",
+      "supporting_reference": "https://prometheus.io/docs/instrumenting/exposition_formats/"
+    },
+    {
+      "question_id": "q7-10",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is metrics.go; main.go. It establishes that IngestHandler, QueryHandler, and main route registrations. The source example is IngestHandler, QueryHandler, and main route registrations. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "b": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "d": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Use JSON Ingest and Query API",
+      "related_lesson_id": "lesson-03",
+      "source_file": "metrics.go; main.go",
+      "supporting_reference": "https://prometheus.io/docs/instrumenting/exposition_formats/"
+    }
+  ]
+}

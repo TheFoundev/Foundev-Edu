@@ -1,0 +1,27 @@
+{
+  "title": "Kubernetes Control Plane for Cloud Resources",
+  "slug": "kubernetes-control-plane-for-cloud-resources",
+  "description": "A Go prototype models desired resources, validates schemas, plans actions, reconciles a local store, and exposes JSON endpoints.",
+  "problem_solved": "Understand reconciliation and optimistic resource versions while distinguishing a control-plane simulation from Kubernetes or Crossplane.",
+  "target_audience": "Advanced beginner/intermediate Cloud and DevOps learners",
+  "technology_stack": [
+    "Go",
+    "JSON API",
+    "custom resource model"
+  ],
+  "difficulty_level": "intermediate",
+  "prerequisites": [
+    "Basic programming and terminal use",
+    "Read the project's source tree and setup guide",
+    "Use disposable local/test environments for operational exercises"
+  ],
+  "learning_outcomes": [
+    "Explain the source system's implemented components and limitations",
+    "Trace data/control flow through modules and interfaces",
+    "Distinguish simulation, local implementation, and external production services",
+    "Use tests, logs, and safe experiments to verify claims",
+    "Apply security, operational, and failure-mode reasoning"
+  ],
+  "estimated_completion_time": "22–35 hours",
+  "content_schema_version": "1.0.0"
+}

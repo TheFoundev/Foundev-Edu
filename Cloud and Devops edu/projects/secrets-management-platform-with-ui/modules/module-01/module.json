@@ -1,0 +1,39 @@
+{
+  "module_id": "module-01",
+  "title": "Threat Model and Secret Boundaries",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Threat Model and Secret Boundaries.",
+  "learning_objectives": [
+    "Explain threat model and secret boundaries using a plain-language model",
+    "Trace the source implementation for threat model and secret boundaries",
+    "Assess failure and operational limits of threat model and secret boundaries"
+  ],
+  "prerequisites": [],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Encryption at rest protects a stolen data file only while the key/password remains secret; a running server can decrypt requested values.",
+    "The server checks x-api-token for API routes; it has no user roles or key rotation."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/server.js",
+    "README.md"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/server.js",
+    "symbol_or_search_term": "startsWith",
+    "line_start": 28,
+    "line_end": 37
+  }
+}

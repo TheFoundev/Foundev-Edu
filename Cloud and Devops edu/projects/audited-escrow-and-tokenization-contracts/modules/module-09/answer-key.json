@@ -1,0 +1,145 @@
+{
+  "module_id": "module-09",
+  "answers": [
+    {
+      "question_id": "q9-01",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is contracts/EscrowFactory.sol. It establishes that createEscrow deploys and indexes instances; escrowAt/getEscrows support lookup and pagination; buyer/seller queries exist. The source example is createEscrow(...); escrowAt(i); getEscrows(offset, limit) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect contracts/EscrowFactory.sol.",
+        "c": "This source is not the component identified for the module. Inspect contracts/EscrowFactory.sol.",
+        "d": "This source is not the component identified for the module. Inspect contracts/EscrowFactory.sol."
+      },
+      "concept_tested": "Factory Creation and Indexing",
+      "related_lesson_id": "lesson-01",
+      "source_file": "contracts/EscrowFactory.sol",
+      "supporting_reference": "https://docs.soliditylang.org/en/latest/"
+    },
+    {
+      "question_id": "q9-02",
+      "correct_option_id": "a",
+      "explanation": "This is the module's lay explanation. The implementation source is contracts/EscrowFactory.sol, where the more specific finding is: createEscrow deploys and indexes instances; escrowAt/getEscrows support lookup and pagination; buyer/seller queries exist. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "b": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "c": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Factory Creation and Indexing",
+      "related_lesson_id": "lesson-01",
+      "source_file": "contracts/EscrowFactory.sol",
+      "supporting_reference": "https://docs.soliditylang.org/en/latest/"
+    },
+    {
+      "question_id": "q9-03",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is contracts/EscrowFactory.sol. It establishes that createEscrow deploys and indexes instances; escrowAt/getEscrows support lookup and pagination; buyer/seller queries exist. The source example is createEscrow(...); escrowAt(i); getEscrows(offset, limit) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "c": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Factory Creation and Indexing",
+      "related_lesson_id": "lesson-01",
+      "source_file": "contracts/EscrowFactory.sol",
+      "supporting_reference": "https://docs.soliditylang.org/en/latest/"
+    },
+    {
+      "question_id": "q9-04",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is contracts/EscrowFactory.sol. It establishes that createEscrow deploys and indexes instances; escrowAt/getEscrows support lookup and pagination; buyer/seller queries exist. The source example is createEscrow(...); escrowAt(i); getEscrows(offset, limit) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect contracts/EscrowFactory.sol.",
+        "b": "This source is not the component identified for the module. Inspect contracts/EscrowFactory.sol.",
+        "d": "This source is not the component identified for the module. Inspect contracts/EscrowFactory.sol."
+      },
+      "concept_tested": "Factory Creation and Indexing",
+      "related_lesson_id": "lesson-02",
+      "source_file": "contracts/EscrowFactory.sol",
+      "supporting_reference": "https://docs.soliditylang.org/en/latest/"
+    },
+    {
+      "question_id": "q9-05",
+      "correct_option_id": "b",
+      "explanation": "This excerpt or paraphrase is drawn from contracts/EscrowFactory.sol. The source finding is: createEscrow deploys and indexes instances; escrowAt/getEscrows support lookup and pagination; buyer/seller queries exist. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "c": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Factory Creation and Indexing",
+      "related_lesson_id": "lesson-02",
+      "source_file": "contracts/EscrowFactory.sol",
+      "supporting_reference": "https://docs.soliditylang.org/en/latest/"
+    },
+    {
+      "question_id": "q9-06",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is contracts/EscrowFactory.sol. It establishes that createEscrow deploys and indexes instances; escrowAt/getEscrows support lookup and pagination; buyer/seller queries exist. The source example is createEscrow(...); escrowAt(i); getEscrows(offset, limit) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "c": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Factory Creation and Indexing",
+      "related_lesson_id": "lesson-02",
+      "source_file": "contracts/EscrowFactory.sol",
+      "supporting_reference": "https://docs.soliditylang.org/en/latest/"
+    },
+    {
+      "question_id": "q9-07",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is contracts/EscrowFactory.sol. It establishes that createEscrow deploys and indexes instances; escrowAt/getEscrows support lookup and pagination; buyer/seller queries exist. The source example is createEscrow(...); escrowAt(i); getEscrows(offset, limit) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect contracts/EscrowFactory.sol.",
+        "b": "This source is not the component identified for the module. Inspect contracts/EscrowFactory.sol.",
+        "c": "This source is not the component identified for the module. Inspect contracts/EscrowFactory.sol."
+      },
+      "concept_tested": "Factory Creation and Indexing",
+      "related_lesson_id": "lesson-02",
+      "source_file": "contracts/EscrowFactory.sol",
+      "supporting_reference": "https://docs.soliditylang.org/en/latest/"
+    },
+    {
+      "question_id": "q9-08",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is contracts/EscrowFactory.sol. It establishes that createEscrow deploys and indexes instances; escrowAt/getEscrows support lookup and pagination; buyer/seller queries exist. The source example is createEscrow(...); escrowAt(i); getEscrows(offset, limit) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Factory Creation and Indexing",
+      "related_lesson_id": "lesson-02",
+      "source_file": "contracts/EscrowFactory.sol",
+      "supporting_reference": "https://docs.soliditylang.org/en/latest/"
+    },
+    {
+      "question_id": "q9-09",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is contracts/EscrowFactory.sol. It establishes that createEscrow deploys and indexes instances; escrowAt/getEscrows support lookup and pagination; buyer/seller queries exist. The source example is createEscrow(...); escrowAt(i); getEscrows(offset, limit) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "c": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Factory Creation and Indexing",
+      "related_lesson_id": "lesson-03",
+      "source_file": "contracts/EscrowFactory.sol",
+      "supporting_reference": "https://docs.soliditylang.org/en/latest/"
+    },
+    {
+      "question_id": "q9-10",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is contracts/EscrowFactory.sol. It establishes that createEscrow deploys and indexes instances; escrowAt/getEscrows support lookup and pagination; buyer/seller queries exist. The source example is createEscrow(...); escrowAt(i); getEscrows(offset, limit) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "c": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Factory Creation and Indexing",
+      "related_lesson_id": "lesson-03",
+      "source_file": "contracts/EscrowFactory.sol",
+      "supporting_reference": "https://docs.soliditylang.org/en/latest/"
+    }
+  ]
+}

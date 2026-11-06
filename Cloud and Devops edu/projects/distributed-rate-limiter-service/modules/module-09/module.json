@@ -1,0 +1,41 @@
+{
+  "module_id": "module-09",
+  "title": "Tests, Concurrency, and Algorithm Limits",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Tests, Concurrency, and Algorithm Limits.",
+  "learning_objectives": [
+    "Explain tests, concurrency, and algorithm limits using a plain-language model",
+    "Trace the source implementation for tests, concurrency, and algorithm limits",
+    "Assess failure and operational limits of tests, concurrency, and algorithm limits"
+  ],
+  "prerequisites": [
+    "module-08"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Tests should separately check refills, concurrent access, proxy trust, fixed-window boundaries, and store errors.",
+    "TestTheLimiterIsSafeUnderLoad exercises concurrent requests against the in-memory limiter; Redis semantics differ."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "limiter_test.go",
+    "README.md"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "limiter_test.go",
+    "symbol_or_search_term": "TestTheLimiterIsSafeUnderLoad",
+    "line_start": 51,
+    "line_end": 60
+  }
+}

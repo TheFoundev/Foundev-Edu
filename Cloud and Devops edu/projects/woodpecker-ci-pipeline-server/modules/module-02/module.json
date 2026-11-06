@@ -1,0 +1,40 @@
+{
+  "module_id": "module-02",
+  "title": "Parse the Pipeline Subset",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Parse the Pipeline Subset.",
+  "learning_objectives": [
+    "Explain parse the pipeline subset using a plain-language model",
+    "Trace the source implementation for parse the pipeline subset",
+    "Assess failure and operational limits of parse the pipeline subset"
+  ],
+  "prerequisites": [
+    "module-01"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "The parser accepts a deliberately small indentation-based format; it is not a full YAML parser.",
+    "ParsePipeline reads lines and recognizes its supported step shape."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "server.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "server.go",
+    "symbol_or_search_term": "ParsePipeline",
+    "line_start": 81,
+    "line_end": 90
+  }
+}

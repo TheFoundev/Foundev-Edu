@@ -1,0 +1,255 @@
+{
+  "module_id": "module-12",
+  "questions": [
+    {
+      "question_id": "q12-01",
+      "question_text": "Which supplied source is primary for verify and state the security limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "tests/; secretsync/audit.py; secretsync/plaintext.py; README.md"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain verify and state the security limits using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q12-02",
+      "question_text": "In plain terms, which idea best explains verify and state the security limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "A secret in source or logs remains confidential from repository users."
+        },
+        {
+          "option_id": "d",
+          "text": "Tests cover internal policy and tooling paths; they do not prove that every secret is detected or that an entire CI runner is safe."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain verify and state the security limits using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q12-03",
+      "question_text": "Which source finding supports the basic model for verify and state the security limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "AuditLog.verify checks a local hash chain and plaintext scanning uses configured patterns; neither detects every compromise or plaintext secret."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain verify and state the security limits using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q12-04",
+      "question_text": "Where should you trace the implementation of verify and state the security limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "tests/; secretsync/audit.py; secretsync/plaintext.py; README.md"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for verify and state the security limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q12-05",
+      "question_text": "Which source excerpt or paraphrase illustrates verify and state the security limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "AuditLog.verify"
+        },
+        {
+          "option_id": "b",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for verify and state the security limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q12-06",
+      "question_text": "A failure occurs while checking verify and state the security limits. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "A secret in source or logs remains confidential from repository users."
+        },
+        {
+          "option_id": "d",
+          "text": "AuditLog.verify checks a local hash chain and plaintext scanning uses configured patterns; neither detects every compromise or plaintext secret."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for verify and state the security limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q12-07",
+      "question_text": "Which supplied source should be inspected before changing verify and state the security limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "tests/; secretsync/audit.py; secretsync/plaintext.py; README.md"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for verify and state the security limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q12-08",
+      "question_text": "Which source finding is accurate for verify and state the security limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "AuditLog.verify checks a local hash chain and plaintext scanning uses configured patterns; neither detects every compromise or plaintext secret."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for verify and state the security limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q12-09",
+      "question_text": "Which review best connects the basic model and source details in verify and state the security limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Use the model that Tests cover internal policy and tooling paths; they do not prove that every secret is detected or that an entire CI runner is safe., then trace tests/; secretsync/audit.py; secretsync/plaintext.py; README.md; the source finding is AuditLog.verify checks a local hash chain and plaintext scanning uses configured patterns; neither detects every compromise or plaintext secret."
+        },
+        {
+          "option_id": "b",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of verify and state the security limits",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q12-10",
+      "question_text": "After reading the whole module on verify and state the security limits, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "A secret in source or logs remains confidential from repository users."
+        },
+        {
+          "option_id": "d",
+          "text": "The example is AuditLog.verify; interpret it with this finding: AuditLog.verify checks a local hash chain and plaintext scanning uses configured patterns; neither detects every compromise or plaintext secret. Verify the connected component before making a production claim."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of verify and state the security limits",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "module_id": "module-02",
+  "title": "Build Commits and Branch Pointers",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Build Commits and Branch Pointers.",
+  "learning_objectives": [
+    "Explain build commits and branch pointers using a plain-language model",
+    "Trace the source implementation for build commits and branch pointers",
+    "Assess failure and operational limits of build commits and branch pointers"
+  ],
+  "prerequisites": [
+    "module-01"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A commit points to a tree and parent; a branch is a movable name pointing at a commit ID.",
+    "Commit/CommitAs stores objects and updates branch head."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "repository.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "repository.go",
+    "symbol_or_search_term": "CommitAs",
+    "line_start": 79,
+    "line_end": 88
+  }
+}

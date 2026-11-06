@@ -1,0 +1,145 @@
+{
+  "module_id": "module-11",
+  "answers": [
+    {
+      "question_id": "q11-01",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is src/mbb_order.erl; config/sys.config; README.md. It establishes that The process/1 function uses deterministic inventory and charge functions; they stand in for real network service adapters. The source example is process(Order) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect src/mbb_order.erl; config/sys.config; README.md.",
+        "b": "This source is not the component identified for the module. Inspect src/mbb_order.erl; config/sys.config; README.md.",
+        "c": "This source is not the component identified for the module. Inspect src/mbb_order.erl; config/sys.config; README.md."
+      },
+      "concept_tested": "Inspect Operational and Security Limits",
+      "related_lesson_id": "lesson-01",
+      "source_file": "src/mbb_order.erl; config/sys.config; README.md",
+      "supporting_reference": "https://www.rabbitmq.com/tutorials/amqp-concepts"
+    },
+    {
+      "question_id": "q11-02",
+      "correct_option_id": "c",
+      "explanation": "This is the module's lay explanation. The implementation source is src/mbb_order.erl; config/sys.config; README.md, where the more specific finding is: The process/1 function uses deterministic inventory and charge functions; they stand in for real network service adapters. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "a": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "b": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Inspect Operational and Security Limits",
+      "related_lesson_id": "lesson-01",
+      "source_file": "src/mbb_order.erl; config/sys.config; README.md",
+      "supporting_reference": "https://www.rabbitmq.com/tutorials/amqp-concepts"
+    },
+    {
+      "question_id": "q11-03",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is src/mbb_order.erl; config/sys.config; README.md. It establishes that The process/1 function uses deterministic inventory and charge functions; they stand in for real network service adapters. The source example is process(Order) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "c": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Inspect Operational and Security Limits",
+      "related_lesson_id": "lesson-01",
+      "source_file": "src/mbb_order.erl; config/sys.config; README.md",
+      "supporting_reference": "https://www.rabbitmq.com/tutorials/amqp-concepts"
+    },
+    {
+      "question_id": "q11-04",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is src/mbb_order.erl; config/sys.config; README.md. It establishes that The process/1 function uses deterministic inventory and charge functions; they stand in for real network service adapters. The source example is process(Order) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "This source is not the component identified for the module. Inspect src/mbb_order.erl; config/sys.config; README.md.",
+        "c": "This source is not the component identified for the module. Inspect src/mbb_order.erl; config/sys.config; README.md.",
+        "d": "This source is not the component identified for the module. Inspect src/mbb_order.erl; config/sys.config; README.md."
+      },
+      "concept_tested": "Inspect Operational and Security Limits",
+      "related_lesson_id": "lesson-02",
+      "source_file": "src/mbb_order.erl; config/sys.config; README.md",
+      "supporting_reference": "https://www.rabbitmq.com/tutorials/amqp-concepts"
+    },
+    {
+      "question_id": "q11-05",
+      "correct_option_id": "d",
+      "explanation": "This excerpt or paraphrase is drawn from src/mbb_order.erl; config/sys.config; README.md. The source finding is: The process/1 function uses deterministic inventory and charge functions; they stand in for real network service adapters. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "b": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "c": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Inspect Operational and Security Limits",
+      "related_lesson_id": "lesson-02",
+      "source_file": "src/mbb_order.erl; config/sys.config; README.md",
+      "supporting_reference": "https://www.rabbitmq.com/tutorials/amqp-concepts"
+    },
+    {
+      "question_id": "q11-06",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is src/mbb_order.erl; config/sys.config; README.md. It establishes that The process/1 function uses deterministic inventory and charge functions; they stand in for real network service adapters. The source example is process(Order) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "b": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Inspect Operational and Security Limits",
+      "related_lesson_id": "lesson-02",
+      "source_file": "src/mbb_order.erl; config/sys.config; README.md",
+      "supporting_reference": "https://www.rabbitmq.com/tutorials/amqp-concepts"
+    },
+    {
+      "question_id": "q11-07",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is src/mbb_order.erl; config/sys.config; README.md. It establishes that The process/1 function uses deterministic inventory and charge functions; they stand in for real network service adapters. The source example is process(Order) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect src/mbb_order.erl; config/sys.config; README.md.",
+        "c": "This source is not the component identified for the module. Inspect src/mbb_order.erl; config/sys.config; README.md.",
+        "d": "This source is not the component identified for the module. Inspect src/mbb_order.erl; config/sys.config; README.md."
+      },
+      "concept_tested": "Inspect Operational and Security Limits",
+      "related_lesson_id": "lesson-02",
+      "source_file": "src/mbb_order.erl; config/sys.config; README.md",
+      "supporting_reference": "https://www.rabbitmq.com/tutorials/amqp-concepts"
+    },
+    {
+      "question_id": "q11-08",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is src/mbb_order.erl; config/sys.config; README.md. It establishes that The process/1 function uses deterministic inventory and charge functions; they stand in for real network service adapters. The source example is process(Order) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "c": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Inspect Operational and Security Limits",
+      "related_lesson_id": "lesson-02",
+      "source_file": "src/mbb_order.erl; config/sys.config; README.md",
+      "supporting_reference": "https://www.rabbitmq.com/tutorials/amqp-concepts"
+    },
+    {
+      "question_id": "q11-09",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is src/mbb_order.erl; config/sys.config; README.md. It establishes that The process/1 function uses deterministic inventory and charge functions; they stand in for real network service adapters. The source example is process(Order) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "b": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "c": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Inspect Operational and Security Limits",
+      "related_lesson_id": "lesson-03",
+      "source_file": "src/mbb_order.erl; config/sys.config; README.md",
+      "supporting_reference": "https://www.rabbitmq.com/tutorials/amqp-concepts"
+    },
+    {
+      "question_id": "q11-10",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is src/mbb_order.erl; config/sys.config; README.md. It establishes that The process/1 function uses deterministic inventory and charge functions; they stand in for real network service adapters. The source example is process(Order) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "b": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Inspect Operational and Security Limits",
+      "related_lesson_id": "lesson-03",
+      "source_file": "src/mbb_order.erl; config/sys.config; README.md",
+      "supporting_reference": "https://www.rabbitmq.com/tutorials/amqp-concepts"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "module_id": "module-08",
+  "title": "Build the Hash-Chained Audit Log",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Build the Hash-Chained Audit Log.",
+  "learning_objectives": [
+    "Explain build the hash-chained audit log using a plain-language model",
+    "Trace the source implementation for build the hash-chained audit log",
+    "Assess failure and operational limits of build the hash-chained audit log"
+  ],
+  "prerequisites": [
+    "module-07"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Each audit record hashes a canonical form and links to the prior digest; a separate head checkpoint helps detect tail truncation.",
+    "AuditLog appends JSONL; verify checks chain and head."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "secretsync/audit.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "secretsync/audit.py",
+    "symbol_or_search_term": "AuditLog",
+    "line_start": 21,
+    "line_end": 30
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Django models",
+    "url": "https://docs.djangoproject.com/en/stable/topics/db/models/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Django management commands",
+    "url": "https://docs.djangoproject.com/en/stable/howto/custom-management-commands/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Django security",
+    "url": "https://docs.djangoproject.com/en/stable/topics/security/",
+    "type": "official documentation"
+  },
+  {
+    "title": "crontab format",
+    "url": "https://man7.org/linux/man-pages/man5/crontab.5.html",
+    "type": "official documentation"
+  }
+]

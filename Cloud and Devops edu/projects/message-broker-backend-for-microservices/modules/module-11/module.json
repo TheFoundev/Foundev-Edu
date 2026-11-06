@@ -1,0 +1,42 @@
+{
+  "module_id": "module-11",
+  "title": "Inspect Operational and Security Limits",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Inspect Operational and Security Limits.",
+  "learning_objectives": [
+    "Explain inspect operational and security limits using a plain-language model",
+    "Trace the source implementation for inspect operational and security limits",
+    "Assess failure and operational limits of inspect operational and security limits"
+  ],
+  "prerequisites": [
+    "module-10"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Credentials, broker access, retry backlogs, and simulated external services affect production readiness.",
+    "The process/1 function uses deterministic inventory and charge functions; they stand in for real network service adapters."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/mbb_order.erl",
+    "config/sys.config",
+    "README.md"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/mbb_order.erl",
+    "symbol_or_search_term": "process",
+    "line_start": 39,
+    "line_end": 48
+  }
+}

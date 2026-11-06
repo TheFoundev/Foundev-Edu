@@ -1,0 +1,41 @@
+{
+  "module_id": "module-03",
+  "title": "Convert Human Units to Base Units",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Convert Human Units to Base Units.",
+  "learning_objectives": [
+    "Explain convert human units to base units using a plain-language model",
+    "Trace the source implementation for convert human units to base units",
+    "Assess failure and operational limits of convert human units to base units"
+  ],
+  "prerequisites": [
+    "module-02"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Token amounts use integer base units; decimal strings must be scaled without floating point.",
+    "parseUnits accepts digits and optional fraction up to decimals; formatUnits converts BigInt back."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/ethereum.js",
+    "public/app.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/ethereum.js",
+    "symbol_or_search_term": "BigInt",
+    "line_start": 57,
+    "line_end": 66
+  }
+}

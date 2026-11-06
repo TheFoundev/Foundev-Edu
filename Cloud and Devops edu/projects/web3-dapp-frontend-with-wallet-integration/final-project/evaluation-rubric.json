@@ -1,0 +1,49 @@
+{
+  "criteria": [
+    {
+      "criterion": "Source-grounded design",
+      "weight": 25,
+      "levels": {
+        "excellent": "Every claim and change maps to actual source",
+        "proficient": "Main architecture is correct",
+        "developing": "Relies on aspirational documentation"
+      }
+    },
+    {
+      "criterion": "Correctness and failure handling",
+      "weight": 25,
+      "levels": {
+        "excellent": "Normal and failure/recovery paths are addressed",
+        "proficient": "Main path works",
+        "developing": "Important state or failure cases omitted"
+      }
+    },
+    {
+      "criterion": "Verification quality",
+      "weight": 20,
+      "levels": {
+        "excellent": "Reproducible unit and integration evidence is separated",
+        "proficient": "Core behavior is checked",
+        "developing": "No useful evidence"
+      }
+    },
+    {
+      "criterion": "Security and operations",
+      "weight": 20,
+      "levels": {
+        "excellent": "Threats, secrets, access, rollback, and cleanup are handled",
+        "proficient": "Major risks considered",
+        "developing": "Unsafe assumptions remain"
+      }
+    },
+    {
+      "criterion": "Communication",
+      "weight": 10,
+      "levels": {
+        "excellent": "Simulation, implementation, and production work are clearly separated",
+        "proficient": "Most limits are stated",
+        "developing": "Overstates guarantees"
+      }
+    }
+  ]
+}

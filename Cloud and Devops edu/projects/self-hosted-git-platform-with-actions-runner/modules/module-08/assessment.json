@@ -1,0 +1,255 @@
+{
+  "module_id": "module-08",
+  "questions": [
+    {
+      "question_id": "q8-01",
+      "question_text": "Which supplied source is primary for handle failures and results?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "repository.go"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain handle failures and results using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q8-02",
+      "question_text": "In plain terms, which idea best explains handle failures and results?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "The runner records step result, skips later steps after failure, and skips dependent jobs."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain handle failures and results using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q8-03",
+      "question_text": "Which source finding supports the basic model for handle failures and results?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "Runner.Run returns StepResults with status/output."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain handle failures and results using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q8-04",
+      "question_text": "Where should you trace the implementation of handle failures and results?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "repository.go"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for handle failures and results",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-05",
+      "question_text": "Which source excerpt or paraphrase illustrates handle failures and results?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Runner.Run returns StepResults with status/output."
+        },
+        {
+          "option_id": "b",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for handle failures and results",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-06",
+      "question_text": "A failure occurs while checking handle failures and results. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "Runner.Run returns StepResults with status/output."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for handle failures and results",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-07",
+      "question_text": "Which supplied source should be inspected before changing handle failures and results?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "repository.go"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for handle failures and results",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-08",
+      "question_text": "Which source finding is accurate for handle failures and results?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "Runner.Run returns StepResults with status/output."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for handle failures and results",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-09",
+      "question_text": "Which review best connects the basic model and source details in handle failures and results?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Use the model that The runner records step result, skips later steps after failure, and skips dependent jobs., then trace repository.go; the source finding is Runner.Run returns StepResults with status/output."
+        },
+        {
+          "option_id": "b",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of handle failures and results",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q8-10",
+      "question_text": "After reading the whole module on handle failures and results, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "The example is Runner.Run returns StepResults with status/output.; interpret it with this finding: Runner.Run returns StepResults with status/output. Verify the connected component before making a production claim."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of handle failures and results",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

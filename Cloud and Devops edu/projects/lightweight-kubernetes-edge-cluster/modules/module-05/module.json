@@ -1,0 +1,41 @@
+{
+  "module_id": "module-05",
+  "title": "Handle Tokens and Secret Files",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Handle Tokens and Secret Files.",
+  "learning_objectives": [
+    "Explain handle tokens and secret files using a plain-language model",
+    "Trace the source implementation for handle tokens and secret files",
+    "Assess failure and operational limits of handle tokens and secret files"
+  ],
+  "prerequisites": [
+    "module-04"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A join token is a credential; store it with restrictive permissions and never echo it to CI logs.",
+    "Helper supports show/rotate, with README emphasizing avoiding terminal-log output."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "bootstrap/30-token-helper.sh",
+    ".gitignore"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "bootstrap/30-token-helper.sh",
+    "symbol_or_search_term": "rotate",
+    "line_start": 36,
+    "line_end": 45
+  }
+}

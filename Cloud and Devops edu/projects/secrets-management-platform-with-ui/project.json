@@ -1,0 +1,29 @@
+{
+  "title": "Secrets Management Platform with UI",
+  "slug": "secrets-management-platform-with-ui",
+  "description": "A Node.js app derives a key from a master password, encrypts stored values with AES-256-GCM, exposes a token-protected API, and serves a UI.",
+  "problem_solved": "Understand authenticated encryption, key derivation, file storage, API authorization, audit behavior, and demo deployment limits.",
+  "target_audience": "Advanced beginner/intermediate Cloud and DevOps learners",
+  "technology_stack": [
+    "Node.js",
+    "node:crypto",
+    "AES-256-GCM",
+    "PBKDF2",
+    "HTTP JSON API"
+  ],
+  "difficulty_level": "intermediate",
+  "prerequisites": [
+    "Basic programming and terminal use",
+    "Read the project's source tree and setup guide",
+    "Use disposable local/test environments for operational exercises"
+  ],
+  "learning_outcomes": [
+    "Explain the source system's implemented components and limitations",
+    "Trace data/control flow through modules and interfaces",
+    "Distinguish simulation, local implementation, and external production services",
+    "Use tests, logs, and safe experiments to verify claims",
+    "Apply security, operational, and failure-mode reasoning"
+  ],
+  "estimated_completion_time": "22–35 hours",
+  "content_schema_version": "1.0.0"
+}

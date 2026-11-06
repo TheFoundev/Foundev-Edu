@@ -1,0 +1,40 @@
+{
+  "module_id": "module-03",
+  "title": "Native and ERC20 Funding",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Native and ERC20 Funding.",
+  "learning_objectives": [
+    "Explain native and erc20 funding using a plain-language model",
+    "Trace the source implementation for native and erc20 funding",
+    "Assess failure and operational limits of native and erc20 funding"
+  ],
+  "prerequisites": [
+    "module-02"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Funding fills a target amount through contributions; partial deposits accumulate until the target is met.",
+    "fund accepts ETH; fundERC20 uses SafeERC20; contributions cannot exceed remainingToFund and completion sets the deadline."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "contracts/Escrow.sol"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "contracts/Escrow.sol",
+    "symbol_or_search_term": "fund",
+    "line_start": 217,
+    "line_end": 226
+  }
+}

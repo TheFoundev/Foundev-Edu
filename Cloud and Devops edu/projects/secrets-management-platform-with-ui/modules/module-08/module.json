@@ -1,0 +1,41 @@
+{
+  "module_id": "module-08",
+  "title": "Test Crypto and API Behavior",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Test Crypto and API Behavior.",
+  "learning_objectives": [
+    "Explain test crypto and api behavior using a plain-language model",
+    "Trace the source implementation for test crypto and api behavior",
+    "Assess failure and operational limits of test crypto and api behavior"
+  ],
+  "prerequisites": [
+    "module-07"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Tests check encrypt/decrypt, store operations, authorization, and routes, but do not prove secure deployment or key rotation.",
+    "The Node test cases cover secret round trips, incorrect-password errors, and API authorization; they do not prove deployment hardening."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "test/crypto.test.js",
+    "test/server.test.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "test/crypto.test.js",
+    "symbol_or_search_term": "test",
+    "line_start": 2,
+    "line_end": 11
+  }
+}

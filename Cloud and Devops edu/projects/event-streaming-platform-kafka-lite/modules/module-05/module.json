@@ -1,0 +1,40 @@
+{
+  "module_id": "module-05",
+  "title": "Filter Bots and Aggregate Windows",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Filter Bots and Aggregate Windows.",
+  "learning_objectives": [
+    "Explain filter bots and aggregate windows using a plain-language model",
+    "Trace the source implementation for filter bots and aggregate windows",
+    "Assess failure and operational limits of filter bots and aggregate windows"
+  ],
+  "prerequisites": [
+    "module-04"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Windowed aggregation groups events by time intervals; a tumbling window starts a new non-overlapping period.",
+    "README describes regex bot filtering and one-minute tumbling aggregations."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/main/java/local/foundev/streams/streams/ClicksStreamsApp.java"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/main/java/local/foundev/streams/streams/ClicksStreamsApp.java",
+    "symbol_or_search_term": "regex",
+    "line_start": 17,
+    "line_end": 26
+  }
+}

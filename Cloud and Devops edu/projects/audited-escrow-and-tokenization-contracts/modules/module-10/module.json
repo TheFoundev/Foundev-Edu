@@ -1,0 +1,41 @@
+{
+  "module_id": "module-10",
+  "title": "Events, Errors, and External Calls",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Events, Errors, and External Calls.",
+  "learning_objectives": [
+    "Explain events, errors, and external calls using a plain-language model",
+    "Trace the source implementation for events, errors, and external calls",
+    "Assess failure and operational limits of events, errors, and external calls"
+  ],
+  "prerequisites": [
+    "module-09"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Events are receipts for off-chain tools; custom errors make failed operations more specific.",
+    "Contracts emit funding, dispute, settlement, credit, withdrawal, mint, audit, and royalty events and define typed errors."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "contracts/Escrow.sol",
+    "contracts/TokenizedAsset.sol"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "contracts/Escrow.sol",
+    "symbol_or_search_term": "ContributionReceived",
+    "line_start": 239,
+    "line_end": 248
+  }
+}

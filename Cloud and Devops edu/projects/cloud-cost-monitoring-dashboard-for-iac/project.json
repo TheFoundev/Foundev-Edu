@@ -1,0 +1,27 @@
+{
+  "title": "Cloud Cost Monitoring Dashboard for IaC",
+  "slug": "cloud-cost-monitoring-dashboard-for-iac",
+  "description": "A Go command-line/API tool reads a subset of Terraform plan JSON and estimates selected resource costs from hard-coded price tables.",
+  "problem_solved": "Understand the difference between parsing a plan, applying a simplified price model, and producing a trustworthy cloud bill.",
+  "target_audience": "Advanced beginner/intermediate Cloud and DevOps learners",
+  "technology_stack": [
+    "Go",
+    "Terraform plan JSON",
+    "HTTP JSON"
+  ],
+  "difficulty_level": "intermediate",
+  "prerequisites": [
+    "Basic programming and terminal use",
+    "Read the project's source tree and setup guide",
+    "Use disposable local/test environments for operational exercises"
+  ],
+  "learning_outcomes": [
+    "Explain the source system's implemented components and limitations",
+    "Trace data/control flow through modules and interfaces",
+    "Distinguish simulation, local implementation, and external production services",
+    "Use tests, logs, and safe experiments to verify claims",
+    "Apply security, operational, and failure-mode reasoning"
+  ],
+  "estimated_completion_time": "18–29 hours",
+  "content_schema_version": "1.0.0"
+}

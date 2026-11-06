@@ -1,0 +1,145 @@
+{
+  "module_id": "module-03",
+  "answers": [
+    {
+      "question_id": "q3-01",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is repository.go. It establishes that ContentDefined uses rolling hash with min/average/max boundaries. The source example is ContentDefined uses rolling hash with min/average/max boundaries. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect repository.go.",
+        "b": "This source is not the component identified for the module. Inspect repository.go.",
+        "c": "This source is not the component identified for the module. Inspect repository.go."
+      },
+      "concept_tested": "Content-Defined Chunk Boundaries",
+      "related_lesson_id": "lesson-01",
+      "source_file": "repository.go",
+      "supporting_reference": "https://pkg.go.dev/crypto/aes"
+    },
+    {
+      "question_id": "q3-02",
+      "correct_option_id": "c",
+      "explanation": "This is the module's lay explanation. The implementation source is repository.go, where the more specific finding is: ContentDefined uses rolling hash with min/average/max boundaries. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Content-Defined Chunk Boundaries",
+      "related_lesson_id": "lesson-01",
+      "source_file": "repository.go",
+      "supporting_reference": "https://pkg.go.dev/crypto/aes"
+    },
+    {
+      "question_id": "q3-03",
+      "correct_option_id": "b",
+      "explanation": "This excerpt or paraphrase is drawn from repository.go. The source finding is: ContentDefined uses rolling hash with min/average/max boundaries. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "c": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Content-Defined Chunk Boundaries",
+      "related_lesson_id": "lesson-01",
+      "source_file": "repository.go",
+      "supporting_reference": "https://pkg.go.dev/crypto/aes"
+    },
+    {
+      "question_id": "q3-04",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is repository.go. It establishes that ContentDefined uses rolling hash with min/average/max boundaries. The source example is ContentDefined uses rolling hash with min/average/max boundaries. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "This source is not the component identified for the module. Inspect repository.go.",
+        "c": "This source is not the component identified for the module. Inspect repository.go.",
+        "d": "This source is not the component identified for the module. Inspect repository.go."
+      },
+      "concept_tested": "Content-Defined Chunk Boundaries",
+      "related_lesson_id": "lesson-02",
+      "source_file": "repository.go",
+      "supporting_reference": "https://pkg.go.dev/crypto/aes"
+    },
+    {
+      "question_id": "q3-05",
+      "correct_option_id": "d",
+      "explanation": "This excerpt or paraphrase is drawn from repository.go. The source finding is: ContentDefined uses rolling hash with min/average/max boundaries. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "c": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Content-Defined Chunk Boundaries",
+      "related_lesson_id": "lesson-02",
+      "source_file": "repository.go",
+      "supporting_reference": "https://pkg.go.dev/crypto/aes"
+    },
+    {
+      "question_id": "q3-06",
+      "correct_option_id": "c",
+      "explanation": "This excerpt or paraphrase is drawn from repository.go. The source finding is: ContentDefined uses rolling hash with min/average/max boundaries. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Content-Defined Chunk Boundaries",
+      "related_lesson_id": "lesson-02",
+      "source_file": "repository.go",
+      "supporting_reference": "https://pkg.go.dev/crypto/aes"
+    },
+    {
+      "question_id": "q3-07",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is repository.go. It establishes that ContentDefined uses rolling hash with min/average/max boundaries. The source example is ContentDefined uses rolling hash with min/average/max boundaries. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect repository.go.",
+        "c": "This source is not the component identified for the module. Inspect repository.go.",
+        "d": "This source is not the component identified for the module. Inspect repository.go."
+      },
+      "concept_tested": "Content-Defined Chunk Boundaries",
+      "related_lesson_id": "lesson-02",
+      "source_file": "repository.go",
+      "supporting_reference": "https://pkg.go.dev/crypto/aes"
+    },
+    {
+      "question_id": "q3-08",
+      "correct_option_id": "a",
+      "explanation": "This excerpt or paraphrase is drawn from repository.go. The source finding is: ContentDefined uses rolling hash with min/average/max boundaries. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "b": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "c": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Content-Defined Chunk Boundaries",
+      "related_lesson_id": "lesson-02",
+      "source_file": "repository.go",
+      "supporting_reference": "https://pkg.go.dev/crypto/aes"
+    },
+    {
+      "question_id": "q3-09",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is repository.go. It establishes that ContentDefined uses rolling hash with min/average/max boundaries. The source example is ContentDefined uses rolling hash with min/average/max boundaries. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "c": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Content-Defined Chunk Boundaries",
+      "related_lesson_id": "lesson-03",
+      "source_file": "repository.go",
+      "supporting_reference": "https://pkg.go.dev/crypto/aes"
+    },
+    {
+      "question_id": "q3-10",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is repository.go. It establishes that ContentDefined uses rolling hash with min/average/max boundaries. The source example is ContentDefined uses rolling hash with min/average/max boundaries. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Content-Defined Chunk Boundaries",
+      "related_lesson_id": "lesson-03",
+      "source_file": "repository.go",
+      "supporting_reference": "https://pkg.go.dev/crypto/aes"
+    }
+  ]
+}

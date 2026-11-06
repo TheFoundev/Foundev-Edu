@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Apache Kafka documentation",
+    "url": "https://kafka.apache.org/documentation/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Kafka Streams documentation",
+    "url": "https://kafka.apache.org/documentation/streams/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Confluent Schema Registry",
+    "url": "https://docs.confluent.io/platform/current/schema-registry/index.html",
+    "type": "official documentation"
+  },
+  {
+    "title": "Maven documentation",
+    "url": "https://maven.apache.org/guides/",
+    "type": "official documentation"
+  }
+]

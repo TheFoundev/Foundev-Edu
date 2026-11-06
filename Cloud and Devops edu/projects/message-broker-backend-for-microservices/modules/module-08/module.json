@@ -1,0 +1,41 @@
+{
+  "module_id": "module-08",
+  "title": "Expose Health, Readiness, and Metrics",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Expose Health, Readiness, and Metrics.",
+  "learning_objectives": [
+    "Explain expose health, readiness, and metrics using a plain-language model",
+    "Trace the source implementation for expose health, readiness, and metrics",
+    "Assess failure and operational limits of expose health, readiness, and metrics"
+  ],
+  "prerequisites": [
+    "module-07"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Liveness means process responds; readiness means dependencies/topology are ready; metrics expose measured counters/histograms.",
+    "README lists /health, /ready, /metrics, /orders."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/mbb_http.erl",
+    "src/mbb_metrics.erl"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/mbb_http.erl",
+    "symbol_or_search_term": "orders",
+    "line_start": 100,
+    "line_end": 109
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "title": "EIP-1193 provider API",
+    "url": "https://eips.ethereum.org/EIPS/eip-1193",
+    "type": "official documentation"
+  },
+  {
+    "title": "EIP-55 checksum addresses",
+    "url": "https://eips.ethereum.org/EIPS/eip-55",
+    "type": "official documentation"
+  },
+  {
+    "title": "ERC-20 standard",
+    "url": "https://eips.ethereum.org/EIPS/eip-20",
+    "type": "official documentation"
+  },
+  {
+    "title": "Ethereum ABI specification",
+    "url": "https://docs.soliditylang.org/en/latest/abi-spec.html",
+    "type": "official documentation"
+  }
+]

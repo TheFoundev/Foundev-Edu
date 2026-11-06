@@ -1,0 +1,255 @@
+{
+  "module_id": "module-09",
+  "questions": [
+    {
+      "question_id": "q9-01",
+      "question_text": "Which supplied source is primary for tests, concurrency, and algorithm limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "limiter_test.go; README.md"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain tests, concurrency, and algorithm limits using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q9-02",
+      "question_text": "In plain terms, which idea best explains tests, concurrency, and algorithm limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Tests should separately check refills, concurrent access, proxy trust, fixed-window boundaries, and store errors."
+        },
+        {
+          "option_id": "b",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain tests, concurrency, and algorithm limits using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q9-03",
+      "question_text": "Which source finding supports the basic model for tests, concurrency, and algorithm limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        },
+        {
+          "option_id": "d",
+          "text": "TestTheLimiterIsSafeUnderLoad exercises concurrent requests against the in-memory limiter; Redis semantics differ."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain tests, concurrency, and algorithm limits using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q9-04",
+      "question_text": "Where should you trace the implementation of tests, concurrency, and algorithm limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "limiter_test.go; README.md"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for tests, concurrency, and algorithm limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-05",
+      "question_text": "Which source excerpt or paraphrase illustrates tests, concurrency, and algorithm limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "TestTheLimiterIsSafeUnderLoad"
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for tests, concurrency, and algorithm limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-06",
+      "question_text": "A failure occurs while checking tests, concurrency, and algorithm limits. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "TestTheLimiterIsSafeUnderLoad exercises concurrent requests against the in-memory limiter; Redis semantics differ."
+        },
+        {
+          "option_id": "b",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for tests, concurrency, and algorithm limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-07",
+      "question_text": "Which supplied source should be inspected before changing tests, concurrency, and algorithm limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "limiter_test.go; README.md"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for tests, concurrency, and algorithm limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-08",
+      "question_text": "Which source finding is accurate for tests, concurrency, and algorithm limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "TestTheLimiterIsSafeUnderLoad exercises concurrent requests against the in-memory limiter; Redis semantics differ."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for tests, concurrency, and algorithm limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-09",
+      "question_text": "Which review best connects the basic model and source details in tests, concurrency, and algorithm limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "Use the model that Tests should separately check refills, concurrent access, proxy trust, fixed-window boundaries, and store errors., then trace limiter_test.go; README.md; the source finding is TestTheLimiterIsSafeUnderLoad exercises concurrent requests against the in-memory limiter; Redis semantics differ."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of tests, concurrency, and algorithm limits",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q9-10",
+      "question_text": "After reading the whole module on tests, concurrency, and algorithm limits, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "The example is TestTheLimiterIsSafeUnderLoad; interpret it with this finding: TestTheLimiterIsSafeUnderLoad exercises concurrent requests against the in-memory limiter; Redis semantics differ. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "b",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of tests, concurrency, and algorithm limits",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "module_id": "module-01",
+  "title": "Events, Keys, and Topics",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Events, Keys, and Topics.",
+  "learning_objectives": [
+    "Explain events, keys, and topics using a plain-language model",
+    "Trace the source implementation for events, keys, and topics",
+    "Assess failure and operational limits of events, keys, and topics"
+  ],
+  "prerequisites": [],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A topic is an append-only event stream; a message key helps decide which partition receives an event.",
+    "Producer config keys click events by session_id; deterministic event IDs are described in README."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/main/java/local/foundev/streams/producer/ClickProducer.java",
+    "config/producer.properties"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/main/java/local/foundev/streams/producer/ClickProducer.java",
+    "symbol_or_search_term": "event",
+    "line_start": 47,
+    "line_end": 56
+  }
+}

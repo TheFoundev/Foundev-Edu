@@ -1,0 +1,40 @@
+{
+  "module_id": "module-02",
+  "title": "Escrow State Machine",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Escrow State Machine.",
+  "learning_objectives": [
+    "Explain escrow state machine using a plain-language model",
+    "Trace the source implementation for escrow state machine",
+    "Assess failure and operational limits of escrow state machine"
+  ],
+  "prerequisites": [
+    "module-01"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A state machine is a set of checkpoints; each operation is allowed only at particular checkpoints.",
+    "States: Created, Funded, Disputed, ArbiterDecided, Released, Refunded; invalid transitions revert with custom errors."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "contracts/Escrow.sol"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "contracts/Escrow.sol",
+    "symbol_or_search_term": "ArbiterDecided",
+    "line_start": 345,
+    "line_end": 354
+  }
+}

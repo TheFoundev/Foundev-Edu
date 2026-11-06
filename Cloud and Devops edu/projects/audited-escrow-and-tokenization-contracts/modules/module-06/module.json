@@ -1,0 +1,40 @@
+{
+  "module_id": "module-06",
+  "title": "Dispute and Arbiter Lifecycle",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Dispute and Arbiter Lifecycle.",
+  "learning_objectives": [
+    "Explain dispute and arbiter lifecycle using a plain-language model",
+    "Trace the source implementation for dispute and arbiter lifecycle",
+    "Assess failure and operational limits of dispute and arbiter lifecycle"
+  ],
+  "prerequisites": [
+    "module-05"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A dispute pauses the ordinary path while the assigned arbiter records a ruling.",
+    "raiseDispute opens a window; arbiterRule records a choice; executeRuling applies it; timeoutRefund handles expiry."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "contracts/Escrow.sol"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "contracts/Escrow.sol",
+    "symbol_or_search_term": "raiseDispute",
+    "line_start": 318,
+    "line_end": 327
+  }
+}

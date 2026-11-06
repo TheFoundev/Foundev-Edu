@@ -1,0 +1,255 @@
+{
+  "module_id": "module-07",
+  "questions": [
+    {
+      "question_id": "q7-01",
+      "question_text": "Which supplied source is primary for plan for store failure?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "limiter.go"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain plan for store failure using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q7-02",
+      "question_text": "In plain terms, which idea best explains plan for store failure?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "Fail-open means a request is permitted if the store errors; that preserves availability but removes rate protection during the outage."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain plan for store failure using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q7-03",
+      "question_text": "Which source finding supports the basic model for plan for store failure?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "AllowAt returns true on Store.Take error; Remaining returns zero on error."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain plan for store failure using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q7-04",
+      "question_text": "Where should you trace the implementation of plan for store failure?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "limiter.go"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for plan for store failure",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-05",
+      "question_text": "Which source excerpt or paraphrase illustrates plan for store failure?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        },
+        {
+          "option_id": "d",
+          "text": "AllowAt returns true on Store.Take error; Remaining returns zero on error."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for plan for store failure",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-06",
+      "question_text": "A failure occurs while checking plan for store failure. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "AllowAt returns true on Store.Take error; Remaining returns zero on error."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for plan for store failure",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-07",
+      "question_text": "Which supplied source should be inspected before changing plan for store failure?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "limiter.go"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for plan for store failure",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-08",
+      "question_text": "Which source finding is accurate for plan for store failure?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "AllowAt returns true on Store.Take error; Remaining returns zero on error."
+        },
+        {
+          "option_id": "b",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for plan for store failure",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-09",
+      "question_text": "Which review best connects the basic model and source details in plan for store failure?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        },
+        {
+          "option_id": "d",
+          "text": "Use the model that Fail-open means a request is permitted if the store errors; that preserves availability but removes rate protection during the outage., then trace limiter.go; the source finding is AllowAt returns true on Store.Take error; Remaining returns zero on error."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of plan for store failure",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q7-10",
+      "question_text": "After reading the whole module on plan for store failure, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "The example is AllowAt returns true on Store.Take error; Remaining returns zero on error.; interpret it with this finding: AllowAt returns true on Store.Take error; Remaining returns zero on error. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of plan for store failure",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

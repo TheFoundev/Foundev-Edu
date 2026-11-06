@@ -1,0 +1,40 @@
+{
+  "module_id": "module-06",
+  "title": "Deploy the Edge Stateful Helm Chart",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Deploy the Edge Stateful Helm Chart.",
+  "learning_objectives": [
+    "Explain deploy the edge stateful helm chart using a plain-language model",
+    "Trace the source implementation for deploy the edge stateful helm chart",
+    "Assess failure and operational limits of deploy the edge stateful helm chart"
+  ],
+  "prerequisites": [
+    "module-05"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A Helm chart templates Kubernetes objects; values files customize a deployment without copying every manifest.",
+    "Chart includes StatefulSets, Services, PVC templates, PDB, topology spread, NetworkPolicy, and Pi overrides."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "helm/edge-stateful"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "helm/edge-stateful/templates/networkpolicy.yaml",
+    "symbol_or_search_term": "NetworkPolicy",
+    "line_start": 25,
+    "line_end": 34
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "module_id": "module-05",
+  "title": "Send Notifications and Webhooks",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Send Notifications and Webhooks.",
+  "learning_objectives": [
+    "Explain send notifications and webhooks using a plain-language model",
+    "Trace the source implementation for send notifications and webhooks",
+    "Assess failure and operational limits of send notifications and webhooks"
+  ],
+  "prerequisites": [
+    "module-04"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A webhook is an outbound HTTP request to a configured receiver; the project supports notification callbacks.",
+    "notify accepts injectable send function and formats notification payload."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/monitor.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/monitor.js",
+    "symbol_or_search_term": "notification",
+    "line_start": 96,
+    "line_end": 105
+  }
+}

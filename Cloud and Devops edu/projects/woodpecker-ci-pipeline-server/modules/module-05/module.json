@@ -1,0 +1,40 @@
+{
+  "module_id": "module-05",
+  "title": "Stop on Failure and Inspect Status",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Stop on Failure and Inspect Status.",
+  "learning_objectives": [
+    "Explain stop on failure and inspect status using a plain-language model",
+    "Trace the source implementation for stop on failure and inspect status",
+    "Assess failure and operational limits of stop on failure and inspect status"
+  ],
+  "prerequisites": [
+    "module-04"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A failed step ends the build path; the result includes step statuses and logs.",
+    "Server.Run updates Build and stops subsequent steps after failure."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "server.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "server.go",
+    "symbol_or_search_term": "Server",
+    "line_start": 165,
+    "line_end": 174
+  }
+}

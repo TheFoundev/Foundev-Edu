@@ -1,0 +1,40 @@
+{
+  "module_id": "module-03",
+  "title": "Traverse Modules and Nested Data",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Traverse Modules and Nested Data.",
+  "learning_objectives": [
+    "Explain traverse modules and nested data using a plain-language model",
+    "Trace the source implementation for traverse modules and nested data",
+    "Assess failure and operational limits of traverse modules and nested data"
+  ],
+  "prerequisites": [
+    "module-02"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Terraform modules form a tree; collecting one child is not the same as recursively walking descendants.",
+    "childModules reads root child_modules; ParsePlan appends each immediate child's resources but does not recurse."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "cost.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "cost.go",
+    "symbol_or_search_term": "childModules",
+    "line_start": 89,
+    "line_end": 98
+  }
+}

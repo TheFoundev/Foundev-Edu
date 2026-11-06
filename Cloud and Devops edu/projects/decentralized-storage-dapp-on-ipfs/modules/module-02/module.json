@@ -1,0 +1,40 @@
+{
+  "module_id": "module-02",
+  "title": "Hash Bytes and Build Multihash",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Hash Bytes and Build Multihash.",
+  "learning_objectives": [
+    "Explain hash bytes and build multihash using a plain-language model",
+    "Trace the source implementation for hash bytes and build multihash",
+    "Assess failure and operational limits of hash bytes and build multihash"
+  ],
+  "prerequisites": [
+    "module-01"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "The source hashes content using SHA-256 and adds multihash code/length metadata.",
+    "SHA256_MULTIHASH=0x12; MULTIHASH_LENGTH=32."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/cid.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/cid.js",
+    "symbol_or_search_term": "SHA256_MULTIHASH",
+    "line_start": 64,
+    "line_end": 73
+  }
+}

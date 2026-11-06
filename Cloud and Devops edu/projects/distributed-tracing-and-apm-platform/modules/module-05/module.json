@@ -1,0 +1,41 @@
+{
+  "module_id": "module-05",
+  "title": "Ingest Custom Span JSON",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Ingest Custom Span JSON.",
+  "learning_objectives": [
+    "Explain ingest custom span json using a plain-language model",
+    "Trace the source implementation for ingest custom span json",
+    "Assess failure and operational limits of ingest custom span json"
+  ],
+  "prerequisites": [
+    "module-04"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "IngestHandler decodes an array of project Span structs; this is custom JSON, not automatically an OTLP payload.",
+    "main mounts /spans to IngestHandler."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "tracing.go",
+    "main.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "main.go",
+    "symbol_or_search_term": "IngestHandler",
+    "line_start": 25,
+    "line_end": 34
+  }
+}

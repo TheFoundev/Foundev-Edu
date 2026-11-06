@@ -1,0 +1,40 @@
+{
+  "module_id": "module-06",
+  "title": "Process and Classify Orders",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Process and Classify Orders.",
+  "learning_objectives": [
+    "Explain process and classify orders using a plain-language model",
+    "Trace the source implementation for process and classify orders",
+    "Assess failure and operational limits of process and classify orders"
+  ],
+  "prerequisites": [
+    "module-05"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A pipeline is a sequence of business steps; validation errors are terminal while transient backend failures may retry.",
+    "validate → reserve inventory → charge → fulfil; integrations are simulated deterministically."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/mbb_order.erl"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/mbb_order.erl",
+    "symbol_or_search_term": "inventory",
+    "line_start": 1,
+    "line_end": 8
+  }
+}

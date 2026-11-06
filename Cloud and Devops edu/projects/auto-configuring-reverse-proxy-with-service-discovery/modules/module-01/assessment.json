@@ -1,0 +1,255 @@
+{
+  "module_id": "module-01",
+  "questions": [
+    {
+      "question_id": "q1-01",
+      "question_text": "Which supplied source is primary for service and instance models?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "proxy.go"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain service and instance models using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q1-02",
+      "question_text": "In plain terms, which idea best explains service and instance models?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A service is a named doorway with several backend rooms; an instance stores URL and health."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain service and instance models using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q1-03",
+      "question_text": "Which source finding supports the basic model for service and instance models?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        },
+        {
+          "option_id": "d",
+          "text": "Service groups instances; Registry holds service map/order guarded by an RWMutex."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain service and instance models using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q1-04",
+      "question_text": "Where should you trace the implementation of service and instance models?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "proxy.go"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for service and instance models",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-05",
+      "question_text": "Which source excerpt or paraphrase illustrates service and instance models?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "type Service { Name; Instances []*Instance }"
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for service and instance models",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-06",
+      "question_text": "A failure occurs while checking service and instance models. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Service groups instances; Registry holds service map/order guarded by an RWMutex."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for service and instance models",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-07",
+      "question_text": "Which supplied source should be inspected before changing service and instance models?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "proxy.go"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for service and instance models",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-08",
+      "question_text": "Which source finding is accurate for service and instance models?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "Service groups instances; Registry holds service map/order guarded by an RWMutex."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for service and instance models",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-09",
+      "question_text": "Which review best connects the basic model and source details in service and instance models?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "Use the model that A service is a named doorway with several backend rooms; an instance stores URL and health., then trace proxy.go; the source finding is Service groups instances; Registry holds service map/order guarded by an RWMutex."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of service and instance models",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q1-10",
+      "question_text": "After reading the whole module on service and instance models, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "The example is type Service { Name; Instances []*Instance }; interpret it with this finding: Service groups instances; Registry holds service map/order guarded by an RWMutex. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of service and instance models",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

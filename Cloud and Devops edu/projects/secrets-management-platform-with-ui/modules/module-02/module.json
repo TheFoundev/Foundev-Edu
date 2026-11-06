@@ -1,0 +1,40 @@
+{
+  "module_id": "module-02",
+  "title": "Derive a Key from a Password",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Derive a Key from a Password.",
+  "learning_objectives": [
+    "Explain derive a key from a password using a plain-language model",
+    "Trace the source implementation for derive a key from a password",
+    "Assess failure and operational limits of derive a key from a password"
+  ],
+  "prerequisites": [
+    "module-01"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "PBKDF2 turns a password and salt into key bytes; a salt is stored with the encrypted data and is not itself secret.",
+    "deriveKey uses PBKDF2-SHA256, 120000 iterations, and 32-byte output."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/crypto.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/crypto.js",
+    "symbol_or_search_term": "deriveKey",
+    "line_start": 55,
+    "line_end": 60
+  }
+}

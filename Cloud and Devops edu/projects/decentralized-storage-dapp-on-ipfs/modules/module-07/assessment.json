@@ -1,0 +1,255 @@
+{
+  "module_id": "module-07",
+  "questions": [
+    {
+      "question_id": "q7-01",
+      "question_text": "Which supplied source is primary for serve the browser ui?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "src/static.js; public/app.js"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain serve the browser ui using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q7-02",
+      "question_text": "In plain terms, which idea best explains serve the browser ui?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A static handler serves files from public while the browser calls local API routes."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain serve the browser ui using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q7-03",
+      "question_text": "Which source finding supports the basic model for serve the browser ui?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "servePublic maps static files/content types from PUBLIC_DIR."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain serve the browser ui using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q7-04",
+      "question_text": "Where should you trace the implementation of serve the browser ui?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "src/static.js; public/app.js"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for serve the browser ui",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-05",
+      "question_text": "Which source excerpt or paraphrase illustrates serve the browser ui?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "servePublic maps static files/content types from PUBLIC_DIR."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for serve the browser ui",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-06",
+      "question_text": "A failure occurs while checking serve the browser ui. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "servePublic maps static files/content types from PUBLIC_DIR."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for serve the browser ui",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-07",
+      "question_text": "Which supplied source should be inspected before changing serve the browser ui?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "src/static.js; public/app.js"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for serve the browser ui",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-08",
+      "question_text": "Which source finding is accurate for serve the browser ui?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "servePublic maps static files/content types from PUBLIC_DIR."
+        },
+        {
+          "option_id": "b",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for serve the browser ui",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-09",
+      "question_text": "Which review best connects the basic model and source details in serve the browser ui?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "Use the model that A static handler serves files from public while the browser calls local API routes., then trace src/static.js; public/app.js; the source finding is servePublic maps static files/content types from PUBLIC_DIR."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of serve the browser ui",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q7-10",
+      "question_text": "After reading the whole module on serve the browser ui, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "The example is servePublic maps static files/content types from PUBLIC_DIR.; interpret it with this finding: servePublic maps static files/content types from PUBLIC_DIR. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of serve the browser ui",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

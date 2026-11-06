@@ -1,0 +1,41 @@
+{
+  "module_id": "module-04",
+  "title": "Build the Kafka Streams Topology",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Build the Kafka Streams Topology.",
+  "learning_objectives": [
+    "Explain build the kafka streams topology using a plain-language model",
+    "Trace the source implementation for build the kafka streams topology",
+    "Assess failure and operational limits of build the kafka streams topology"
+  ],
+  "prerequisites": [
+    "module-03"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A topology is a graph of stream transformations connected to input/output topics.",
+    "Source builds clean-clicks, page-stats, session-stats with state stores and changelog topics."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/main/java/local/foundev/streams/streams/ClicksStreamsApp.java",
+    "config/streams.properties"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/main/java/local/foundev/streams/streams/ClicksStreamsApp.java",
+    "symbol_or_search_term": "stats",
+    "line_start": 29,
+    "line_end": 38
+  }
+}

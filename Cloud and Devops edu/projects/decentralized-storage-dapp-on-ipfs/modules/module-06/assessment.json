@@ -1,0 +1,255 @@
+{
+  "module_id": "module-06",
+  "questions": [
+    {
+      "question_id": "q6-01",
+      "question_text": "Which supplied source is primary for http server and client flow?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "src/server.js; src/ipfs.js"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain http server and client flow using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q6-02",
+      "question_text": "In plain terms, which idea best explains http server and client flow?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "The local HTTP API accepts bytes and returns a CID; IpfsClient names the helper but uses the project's HTTP endpoint."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain http server and client flow using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q6-03",
+      "question_text": "Which source finding supports the basic model for http server and client flow?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "createIpfsServer injects a store; DEFAULT_API is localhost:5001."
+        },
+        {
+          "option_id": "b",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain http server and client flow using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q6-04",
+      "question_text": "Where should you trace the implementation of http server and client flow?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "src/server.js; src/ipfs.js"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for http server and client flow",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-05",
+      "question_text": "Which source excerpt or paraphrase illustrates http server and client flow?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "createIpfsServer injects a store; DEFAULT_API is localhost:5001."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for http server and client flow",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-06",
+      "question_text": "A failure occurs while checking http server and client flow. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "createIpfsServer injects a store; DEFAULT_API is localhost:5001."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for http server and client flow",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-07",
+      "question_text": "Which supplied source should be inspected before changing http server and client flow?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "src/server.js; src/ipfs.js"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for http server and client flow",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-08",
+      "question_text": "Which source finding is accurate for http server and client flow?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "createIpfsServer injects a store; DEFAULT_API is localhost:5001."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for http server and client flow",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-09",
+      "question_text": "Which review best connects the basic model and source details in http server and client flow?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "Use the model that The local HTTP API accepts bytes and returns a CID; IpfsClient names the helper but uses the project's HTTP endpoint., then trace src/server.js; src/ipfs.js; the source finding is createIpfsServer injects a store; DEFAULT_API is localhost:5001."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of http server and client flow",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q6-10",
+      "question_text": "After reading the whole module on http server and client flow, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "The example is createIpfsServer injects a store; DEFAULT_API is localhost:5001.; interpret it with this finding: createIpfsServer injects a store; DEFAULT_API is localhost:5001. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of http server and client flow",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

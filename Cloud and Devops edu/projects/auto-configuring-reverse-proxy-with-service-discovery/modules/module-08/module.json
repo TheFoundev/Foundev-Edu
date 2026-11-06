@@ -1,0 +1,41 @@
+{
+  "module_id": "module-08",
+  "title": "Limits of Discovery and Health",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Limits of Discovery and Health.",
+  "learning_objectives": [
+    "Explain limits of discovery and health using a plain-language model",
+    "Trace the source implementation for limits of discovery and health",
+    "Assess failure and operational limits of limits of discovery and health"
+  ],
+  "prerequisites": [
+    "module-07"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Finding an endpoint does not prove that it is ready or safe to receive traffic.",
+    "Discovery runs when called; health is manually marked; no probe loop or TLS manager is implemented."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "README.md",
+    "proxy.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "proxy.go",
+    "symbol_or_search_term": "Mark",
+    "line_start": 71,
+    "line_end": 80
+  }
+}

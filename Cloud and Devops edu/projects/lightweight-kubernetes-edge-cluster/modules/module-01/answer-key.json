@@ -1,0 +1,145 @@
+{
+  "module_id": "module-01",
+  "answers": [
+    {
+      "question_id": "q1-01",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md. It establishes that The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options. The source example is The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md.",
+        "c": "This source is not the component identified for the module. Inspect k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md.",
+        "d": "This source is not the component identified for the module. Inspect k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md."
+      },
+      "concept_tested": "Edge Cluster Architecture and Quorum",
+      "related_lesson_id": "lesson-01",
+      "source_file": "k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q1-02",
+      "correct_option_id": "a",
+      "explanation": "This is the module's lay explanation. The implementation source is k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md, where the more specific finding is: The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "b": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Edge Cluster Architecture and Quorum",
+      "related_lesson_id": "lesson-01",
+      "source_file": "k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q1-03",
+      "correct_option_id": "d",
+      "explanation": "This excerpt or paraphrase is drawn from k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md. The source finding is: The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "c": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Edge Cluster Architecture and Quorum",
+      "related_lesson_id": "lesson-01",
+      "source_file": "k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q1-04",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md. It establishes that The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options. The source example is The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md.",
+        "b": "This source is not the component identified for the module. Inspect k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md.",
+        "d": "This source is not the component identified for the module. Inspect k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md."
+      },
+      "concept_tested": "Edge Cluster Architecture and Quorum",
+      "related_lesson_id": "lesson-02",
+      "source_file": "k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q1-05",
+      "correct_option_id": "b",
+      "explanation": "This excerpt or paraphrase is drawn from k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md. The source finding is: The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Edge Cluster Architecture and Quorum",
+      "related_lesson_id": "lesson-02",
+      "source_file": "k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q1-06",
+      "correct_option_id": "a",
+      "explanation": "This excerpt or paraphrase is drawn from k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md. The source finding is: The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "b": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Edge Cluster Architecture and Quorum",
+      "related_lesson_id": "lesson-02",
+      "source_file": "k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q1-07",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md. It establishes that The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options. The source example is The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md.",
+        "b": "This source is not the component identified for the module. Inspect k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md.",
+        "c": "This source is not the component identified for the module. Inspect k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md."
+      },
+      "concept_tested": "Edge Cluster Architecture and Quorum",
+      "related_lesson_id": "lesson-02",
+      "source_file": "k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q1-08",
+      "correct_option_id": "c",
+      "explanation": "This excerpt or paraphrase is drawn from k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md. The source finding is: The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Edge Cluster Architecture and Quorum",
+      "related_lesson_id": "lesson-02",
+      "source_file": "k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q1-09",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md. It establishes that The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options. The source example is The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Edge Cluster Architecture and Quorum",
+      "related_lesson_id": "lesson-03",
+      "source_file": "k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q1-10",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md. It establishes that The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options. The source example is The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Edge Cluster Architecture and Quorum",
+      "related_lesson_id": "lesson-03",
+      "source_file": "k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md",
+      "supporting_reference": "https://docs.k3s.io/"
+    }
+  ]
+}

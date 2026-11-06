@@ -1,0 +1,42 @@
+{
+  "module_id": "module-09",
+  "title": "Run and Configure the Broker Stack",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Run and Configure the Broker Stack.",
+  "learning_objectives": [
+    "Explain run and configure the broker stack using a plain-language model",
+    "Trace the source implementation for run and configure the broker stack",
+    "Assess failure and operational limits of run and configure the broker stack"
+  ],
+  "prerequisites": [
+    "module-08"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Compose wires broker, app, and monitoring containers; ports, credentials, and health checks shape local behavior.",
+    "README specifies broker, schema/config, HTTP, and dashboard/run configuration."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "docker-compose.yml",
+    "rabbitmq/rabbitmq.conf",
+    "prometheus/prometheus.yml"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "prometheus/prometheus.yml",
+    "symbol_or_search_term": "configuration",
+    "line_start": 1,
+    "line_end": 5
+  }
+}

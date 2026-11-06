@@ -1,0 +1,41 @@
+{
+  "module_id": "module-07",
+  "title": "Inspect Errors and User Safety",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Inspect Errors and User Safety.",
+  "learning_objectives": [
+    "Explain inspect errors and user safety using a plain-language model",
+    "Trace the source implementation for inspect errors and user safety",
+    "Assess failure and operational limits of inspect errors and user safety"
+  ],
+  "prerequisites": [
+    "module-06"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A returned transaction hash is not proof of mined/confirmed success; wallet rejection and RPC errors must be shown clearly.",
+    "The UI displays hash/error text; it does not wait for receipt confirmation."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "public/app.js",
+    "src/ethereum.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "public/app.js",
+    "symbol_or_search_term": "receipt",
+    "line_start": 57,
+    "line_end": 66
+  }
+}

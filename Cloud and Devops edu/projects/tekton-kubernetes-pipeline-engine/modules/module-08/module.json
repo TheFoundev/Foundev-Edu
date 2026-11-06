@@ -1,0 +1,41 @@
+{
+  "module_id": "module-08",
+  "title": "Load Definitions from Directories",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Load Definitions from Directories.",
+  "learning_objectives": [
+    "Explain load definitions from directories using a plain-language model",
+    "Trace the source implementation for load definitions from directories",
+    "Assess failure and operational limits of load definitions from directories"
+  ],
+  "prerequisites": [
+    "module-07"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A directory loader reads task and pipeline definitions then connects references.",
+    "LoadDefinitionSet reads files and returns pipeline plus task map."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "engine.go",
+    "main.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "engine.go",
+    "symbol_or_search_term": "LoadDefinitionSet",
+    "line_start": 377,
+    "line_end": 386
+  }
+}

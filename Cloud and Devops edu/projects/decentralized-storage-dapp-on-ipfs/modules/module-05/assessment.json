@@ -1,0 +1,255 @@
+{
+  "module_id": "module-05",
+  "questions": [
+    {
+      "question_id": "q5-01",
+      "question_text": "Which supplied source is primary for store and verify local content?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "src/store.js"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain store and verify local content using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q5-02",
+      "question_text": "In plain terms, which idea best explains store and verify local content?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "The local store writes bytes under a content-derived identifier and checks identity when retrieving."
+        },
+        {
+          "option_id": "b",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain store and verify local content using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q5-03",
+      "question_text": "Which source finding supports the basic model for store and verify local content?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "createStore creates directory-backed operations; this is not a distributed IPFS node."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain store and verify local content using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q5-04",
+      "question_text": "Where should you trace the implementation of store and verify local content?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "src/store.js"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for store and verify local content",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-05",
+      "question_text": "Which source excerpt or paraphrase illustrates store and verify local content?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "createStore creates directory-backed operations; this is not a distributed IPFS node."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for store and verify local content",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-06",
+      "question_text": "A failure occurs while checking store and verify local content. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "createStore creates directory-backed operations; this is not a distributed IPFS node."
+        },
+        {
+          "option_id": "b",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for store and verify local content",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-07",
+      "question_text": "Which supplied source should be inspected before changing store and verify local content?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "src/store.js"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for store and verify local content",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-08",
+      "question_text": "Which source finding is accurate for store and verify local content?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "createStore creates directory-backed operations; this is not a distributed IPFS node."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for store and verify local content",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-09",
+      "question_text": "Which review best connects the basic model and source details in store and verify local content?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "Use the model that The local store writes bytes under a content-derived identifier and checks identity when retrieving., then trace src/store.js; the source finding is createStore creates directory-backed operations; this is not a distributed IPFS node."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of store and verify local content",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q5-10",
+      "question_text": "After reading the whole module on store and verify local content, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "The example is createStore creates directory-backed operations; this is not a distributed IPFS node.; interpret it with this finding: createStore creates directory-backed operations; this is not a distributed IPFS node. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "b",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of store and verify local content",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

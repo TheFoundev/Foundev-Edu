@@ -1,0 +1,42 @@
+{
+  "module_id": "module-12",
+  "title": "Deploy and Audit Limits",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Deploy and Audit Limits.",
+  "learning_objectives": [
+    "Explain deploy and audit limits using a plain-language model",
+    "Trace the source implementation for deploy and audit limits",
+    "Assess failure and operational limits of deploy and audit limits"
+  ],
+  "prerequisites": [
+    "module-11"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A deploy script connects code to a chain; a test report is evidence for tested cases, not a security certification.",
+    "README reports local compile/tests, uses a zero-filled placeholder PRIVATE_KEY, and supplies no independent audit report."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "scripts/deploy.ts",
+    "hardhat.config.ts",
+    "README.md"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "hardhat.config.ts",
+    "symbol_or_search_term": "PRIVATE_KEY",
+    "line_start": 8,
+    "line_end": 17
+  }
+}

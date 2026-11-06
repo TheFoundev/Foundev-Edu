@@ -1,0 +1,41 @@
+{
+  "module_id": "module-09",
+  "title": "Dashboard Origin and Data Flow",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Dashboard Origin and Data Flow.",
+  "learning_objectives": [
+    "Explain dashboard origin and data flow using a plain-language model",
+    "Trace the source implementation for dashboard origin and data flow",
+    "Assess failure and operational limits of dashboard origin and data flow"
+  ],
+  "prerequisites": [
+    "module-08"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A browser can call APIs under its origin; opening a file locally may produce a different origin and fail requests.",
+    "README warns dashboard expects ViewServer same-origin or adjusted fetch URLs."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/main/resources/dashboard/index.html",
+    "README.md"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/main/resources/dashboard/index.html",
+    "symbol_or_search_term": "ViewServer",
+    "line_start": 57,
+    "line_end": 66
+  }
+}

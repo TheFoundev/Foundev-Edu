@@ -1,0 +1,255 @@
+{
+  "module_id": "module-05",
+  "questions": [
+    {
+      "question_id": "q5-01",
+      "question_text": "Which supplied source is primary for encrypt and authenticate chunks?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "repository.go"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain encrypt and authenticate chunks using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q5-02",
+      "question_text": "In plain terms, which idea best explains encrypt and authenticate chunks?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "AES-GCM encrypts bytes and adds an authentication tag so tampering is detected during open."
+        },
+        {
+          "option_id": "b",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain encrypt and authenticate chunks using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q5-03",
+      "question_text": "Which source finding supports the basic model for encrypt and authenticate chunks?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "A secret in source or logs remains confidential from repository users."
+        },
+        {
+          "option_id": "d",
+          "text": "seal creates a nonce and stores ciphertext/tag; openSealed authenticates before returning plaintext."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain encrypt and authenticate chunks using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q5-04",
+      "question_text": "Where should you trace the implementation of encrypt and authenticate chunks?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "repository.go"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for encrypt and authenticate chunks",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-05",
+      "question_text": "Which source excerpt or paraphrase illustrates encrypt and authenticate chunks?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "seal creates a nonce and stores ciphertext/tag; openSealed authenticates before returning plaintext."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for encrypt and authenticate chunks",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-06",
+      "question_text": "A failure occurs while checking encrypt and authenticate chunks. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "seal creates a nonce and stores ciphertext/tag; openSealed authenticates before returning plaintext."
+        },
+        {
+          "option_id": "b",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for encrypt and authenticate chunks",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-07",
+      "question_text": "Which supplied source should be inspected before changing encrypt and authenticate chunks?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "repository.go"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for encrypt and authenticate chunks",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-08",
+      "question_text": "Which source finding is accurate for encrypt and authenticate chunks?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "seal creates a nonce and stores ciphertext/tag; openSealed authenticates before returning plaintext."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for encrypt and authenticate chunks",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-09",
+      "question_text": "Which review best connects the basic model and source details in encrypt and authenticate chunks?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "Use the model that AES-GCM encrypts bytes and adds an authentication tag so tampering is detected during open., then trace repository.go; the source finding is seal creates a nonce and stores ciphertext/tag; openSealed authenticates before returning plaintext."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of encrypt and authenticate chunks",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q5-10",
+      "question_text": "After reading the whole module on encrypt and authenticate chunks, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "The example is seal creates a nonce and stores ciphertext/tag; openSealed authenticates before returning plaintext.; interpret it with this finding: seal creates a nonce and stores ciphertext/tag; openSealed authenticates before returning plaintext. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "b",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of encrypt and authenticate chunks",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

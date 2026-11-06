@@ -1,0 +1,41 @@
+{
+  "module_id": "module-11",
+  "title": "Test Fixtures and Security Tests",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Test Fixtures and Security Tests.",
+  "learning_objectives": [
+    "Explain test fixtures and security tests using a plain-language model",
+    "Trace the source implementation for test fixtures and security tests",
+    "Assess failure and operational limits of test fixtures and security tests"
+  ],
+  "prerequisites": [
+    "module-10"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A test attacker calls back during a transfer to test whether a withdrawal can be repeated.",
+    "Hardhat tests cover state transitions, timeouts, ERC20, reentrancy, token roles/pausing/royalties, and factory indexing."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "contracts/test/ReentrancyAttacker.sol",
+    "test/escrow.spec.ts"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "test/escrow.spec.ts",
+    "symbol_or_search_term": "reentrancy",
+    "line_start": 368,
+    "line_end": 377
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Lightweight Event Messaging and Queue System",
+  "slug": "lightweight-event-messaging-and-queue-system",
+  "description": "A Go in-memory broker partitions topics by key, appends messages, fetches by offset, and tracks one consumer offset.",
+  "problem_solved": "Understand ordering, partitions, offsets, acknowledgements, retention, and the limitations of a memory-only queue.",
+  "target_audience": "Advanced beginner/intermediate Cloud and DevOps learners",
+  "technology_stack": [
+    "Go",
+    "HTTP JSON API",
+    "in-memory queue"
+  ],
+  "difficulty_level": "intermediate",
+  "prerequisites": [
+    "Basic programming and terminal use",
+    "Read the project's source tree and setup guide",
+    "Use disposable local/test environments for operational exercises"
+  ],
+  "learning_outcomes": [
+    "Explain the source system's implemented components and limitations",
+    "Trace data/control flow through modules and interfaces",
+    "Distinguish simulation, local implementation, and external production services",
+    "Use tests, logs, and safe experiments to verify claims",
+    "Apply security, operational, and failure-mode reasoning"
+  ],
+  "estimated_completion_time": "18–29 hours",
+  "content_schema_version": "1.0.0"
+}

@@ -1,0 +1,255 @@
+{
+  "module_id": "module-02",
+  "questions": [
+    {
+      "question_id": "q2-01",
+      "question_text": "Which supplied source is primary for store and concurrency?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "tracing.go"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain store and concurrency using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q2-02",
+      "question_text": "In plain terms, which idea best explains store and concurrency?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "The Store is a shared in-memory notebook; a mutex protects append and copy operations."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain store and concurrency using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q2-03",
+      "question_text": "Which source finding supports the basic model for store and concurrency?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Store.Add locks for append; all returns a copied slice under RLock."
+        },
+        {
+          "option_id": "b",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain store and concurrency using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q2-04",
+      "question_text": "Where should you trace the implementation of store and concurrency?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "tracing.go"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for store and concurrency",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-05",
+      "question_text": "Which source excerpt or paraphrase illustrates store and concurrency?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "store.Add(spans...)"
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for store and concurrency",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-06",
+      "question_text": "A failure occurs while checking store and concurrency. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "Store.Add locks for append; all returns a copied slice under RLock."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for store and concurrency",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-07",
+      "question_text": "Which supplied source should be inspected before changing store and concurrency?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "tracing.go"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for store and concurrency",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-08",
+      "question_text": "Which source finding is accurate for store and concurrency?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        },
+        {
+          "option_id": "d",
+          "text": "Store.Add locks for append; all returns a copied slice under RLock."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for store and concurrency",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-09",
+      "question_text": "Which review best connects the basic model and source details in store and concurrency?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "Use the model that The Store is a shared in-memory notebook; a mutex protects append and copy operations., then trace tracing.go; the source finding is Store.Add locks for append; all returns a copied slice under RLock."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of store and concurrency",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q2-10",
+      "question_text": "After reading the whole module on store and concurrency, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "The example is store.Add(spans...); interpret it with this finding: Store.Add locks for append; all returns a copied slice under RLock. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of store and concurrency",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

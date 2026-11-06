@@ -1,0 +1,145 @@
+{
+  "module_id": "module-08",
+  "answers": [
+    {
+      "question_id": "q8-01",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is chaos_test.go; chaos.go. It establishes that Tests use fakeClock/recordingExecutor and exercise rollback, failed hypothesis, dry run, and local wait. The source example is Now and Sleep are injectable The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "This source is not the component identified for the module. Inspect chaos_test.go; chaos.go.",
+        "c": "This source is not the component identified for the module. Inspect chaos_test.go; chaos.go.",
+        "d": "This source is not the component identified for the module. Inspect chaos_test.go; chaos.go."
+      },
+      "concept_tested": "Tests and Deterministic Time",
+      "related_lesson_id": "lesson-01",
+      "source_file": "chaos_test.go; chaos.go",
+      "supporting_reference": "https://principlesofchaos.org/"
+    },
+    {
+      "question_id": "q8-02",
+      "correct_option_id": "d",
+      "explanation": "This is the module's lay explanation. The implementation source is chaos_test.go; chaos.go, where the more specific finding is: Tests use fakeClock/recordingExecutor and exercise rollback, failed hypothesis, dry run, and local wait. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "a": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "b": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "c": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Tests and Deterministic Time",
+      "related_lesson_id": "lesson-01",
+      "source_file": "chaos_test.go; chaos.go",
+      "supporting_reference": "https://principlesofchaos.org/"
+    },
+    {
+      "question_id": "q8-03",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is chaos_test.go; chaos.go. It establishes that Tests use fakeClock/recordingExecutor and exercise rollback, failed hypothesis, dry run, and local wait. The source example is Now and Sleep are injectable The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "b": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "d": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Tests and Deterministic Time",
+      "related_lesson_id": "lesson-01",
+      "source_file": "chaos_test.go; chaos.go",
+      "supporting_reference": "https://principlesofchaos.org/"
+    },
+    {
+      "question_id": "q8-04",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is chaos_test.go; chaos.go. It establishes that Tests use fakeClock/recordingExecutor and exercise rollback, failed hypothesis, dry run, and local wait. The source example is Now and Sleep are injectable The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect chaos_test.go; chaos.go.",
+        "c": "This source is not the component identified for the module. Inspect chaos_test.go; chaos.go.",
+        "d": "This source is not the component identified for the module. Inspect chaos_test.go; chaos.go."
+      },
+      "concept_tested": "Tests and Deterministic Time",
+      "related_lesson_id": "lesson-02",
+      "source_file": "chaos_test.go; chaos.go",
+      "supporting_reference": "https://principlesofchaos.org/"
+    },
+    {
+      "question_id": "q8-05",
+      "correct_option_id": "a",
+      "explanation": "This excerpt or paraphrase is drawn from chaos_test.go; chaos.go. The source finding is: Tests use fakeClock/recordingExecutor and exercise rollback, failed hypothesis, dry run, and local wait. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "b": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "c": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "d": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Tests and Deterministic Time",
+      "related_lesson_id": "lesson-02",
+      "source_file": "chaos_test.go; chaos.go",
+      "supporting_reference": "https://principlesofchaos.org/"
+    },
+    {
+      "question_id": "q8-06",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is chaos_test.go; chaos.go. It establishes that Tests use fakeClock/recordingExecutor and exercise rollback, failed hypothesis, dry run, and local wait. The source example is Now and Sleep are injectable The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "b": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "c": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Tests and Deterministic Time",
+      "related_lesson_id": "lesson-02",
+      "source_file": "chaos_test.go; chaos.go",
+      "supporting_reference": "https://principlesofchaos.org/"
+    },
+    {
+      "question_id": "q8-07",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is chaos_test.go; chaos.go. It establishes that Tests use fakeClock/recordingExecutor and exercise rollback, failed hypothesis, dry run, and local wait. The source example is Now and Sleep are injectable The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect chaos_test.go; chaos.go.",
+        "b": "This source is not the component identified for the module. Inspect chaos_test.go; chaos.go.",
+        "d": "This source is not the component identified for the module. Inspect chaos_test.go; chaos.go."
+      },
+      "concept_tested": "Tests and Deterministic Time",
+      "related_lesson_id": "lesson-02",
+      "source_file": "chaos_test.go; chaos.go",
+      "supporting_reference": "https://principlesofchaos.org/"
+    },
+    {
+      "question_id": "q8-08",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is chaos_test.go; chaos.go. It establishes that Tests use fakeClock/recordingExecutor and exercise rollback, failed hypothesis, dry run, and local wait. The source example is Now and Sleep are injectable The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "c": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "d": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Tests and Deterministic Time",
+      "related_lesson_id": "lesson-02",
+      "source_file": "chaos_test.go; chaos.go",
+      "supporting_reference": "https://principlesofchaos.org/"
+    },
+    {
+      "question_id": "q8-09",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is chaos_test.go; chaos.go. It establishes that Tests use fakeClock/recordingExecutor and exercise rollback, failed hypothesis, dry run, and local wait. The source example is Now and Sleep are injectable The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "c": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "d": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Tests and Deterministic Time",
+      "related_lesson_id": "lesson-03",
+      "source_file": "chaos_test.go; chaos.go",
+      "supporting_reference": "https://principlesofchaos.org/"
+    },
+    {
+      "question_id": "q8-10",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is chaos_test.go; chaos.go. It establishes that Tests use fakeClock/recordingExecutor and exercise rollback, failed hypothesis, dry run, and local wait. The source example is Now and Sleep are injectable The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "b": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "c": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Tests and Deterministic Time",
+      "related_lesson_id": "lesson-03",
+      "source_file": "chaos_test.go; chaos.go",
+      "supporting_reference": "https://principlesofchaos.org/"
+    }
+  ]
+}

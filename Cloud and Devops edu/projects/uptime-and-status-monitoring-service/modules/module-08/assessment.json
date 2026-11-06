@@ -1,0 +1,255 @@
+{
+  "module_id": "module-08",
+  "questions": [
+    {
+      "question_id": "q8-01",
+      "question_text": "Which supplied source is primary for review monitoring scope and tests?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "src/monitor.js; test/"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain review monitoring scope and tests using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q8-02",
+      "question_text": "In plain terms, which idea best explains review monitoring scope and tests?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "This source checks HTTP only; it is not a complete uptime suite for TCP, DNS, TLS expiry, or page content."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain review monitoring scope and tests using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q8-03",
+      "question_text": "Which source finding supports the basic model for review monitoring scope and tests?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "The checkOnce function issues HTTP requests; tests cover checks, scheduling, notifications, transitions, and webhook behavior."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain review monitoring scope and tests using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q8-04",
+      "question_text": "Where should you trace the implementation of review monitoring scope and tests?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "src/monitor.js; test/"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for review monitoring scope and tests",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-05",
+      "question_text": "Which source excerpt or paraphrase illustrates review monitoring scope and tests?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "checkOnce(url)"
+        },
+        {
+          "option_id": "b",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for review monitoring scope and tests",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-06",
+      "question_text": "A failure occurs while checking review monitoring scope and tests. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "The checkOnce function issues HTTP requests; tests cover checks, scheduling, notifications, transitions, and webhook behavior."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for review monitoring scope and tests",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-07",
+      "question_text": "Which supplied source should be inspected before changing review monitoring scope and tests?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "src/monitor.js; test/"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for review monitoring scope and tests",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-08",
+      "question_text": "Which source finding is accurate for review monitoring scope and tests?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "The checkOnce function issues HTTP requests; tests cover checks, scheduling, notifications, transitions, and webhook behavior."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for review monitoring scope and tests",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-09",
+      "question_text": "Which review best connects the basic model and source details in review monitoring scope and tests?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Use the model that This source checks HTTP only; it is not a complete uptime suite for TCP, DNS, TLS expiry, or page content., then trace src/monitor.js; test/; the source finding is The checkOnce function issues HTTP requests; tests cover checks, scheduling, notifications, transitions, and webhook behavior."
+        },
+        {
+          "option_id": "b",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of review monitoring scope and tests",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q8-10",
+      "question_text": "After reading the whole module on review monitoring scope and tests, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "The example is checkOnce(url); interpret it with this finding: The checkOnce function issues HTTP requests; tests cover checks, scheduling, notifications, transitions, and webhook behavior. Verify the connected component before making a production claim."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of review monitoring scope and tests",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

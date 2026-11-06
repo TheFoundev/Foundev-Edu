@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Go net/http",
+    "url": "https://pkg.go.dev/net/http",
+    "type": "official documentation"
+  },
+  {
+    "title": "Go reverse proxy",
+    "url": "https://pkg.go.dev/net/http/httputil#NewSingleHostReverseProxy",
+    "type": "official documentation"
+  },
+  {
+    "title": "Docker Engine API",
+    "url": "https://docs.docker.com/reference/api/engine/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Docker security",
+    "url": "https://docs.docker.com/engine/security/",
+    "type": "official documentation"
+  }
+]

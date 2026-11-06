@@ -1,0 +1,255 @@
+{
+  "module_id": "module-06",
+  "questions": [
+    {
+      "question_id": "q6-01",
+      "question_text": "Which supplied source is primary for expose api and static status page?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "src/server.js; src/static.js; public/"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain expose api and static status page using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q6-02",
+      "question_text": "In plain terms, which idea best explains expose api and static status page?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "The server routes API calls and static files; the browser dashboard polls rather than receiving pushed updates."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain expose api and static status page using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q6-03",
+      "question_text": "Which source finding supports the basic model for expose api and static status page?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "createStatusServer and servePublic implement HTTP/static routes."
+        },
+        {
+          "option_id": "b",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain expose api and static status page using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q6-04",
+      "question_text": "Where should you trace the implementation of expose api and static status page?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "src/server.js; src/static.js; public/"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for expose api and static status page",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-05",
+      "question_text": "Which source excerpt or paraphrase illustrates expose api and static status page?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "createStatusServer and servePublic implement HTTP/static routes."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for expose api and static status page",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-06",
+      "question_text": "A failure occurs while checking expose api and static status page. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "createStatusServer and servePublic implement HTTP/static routes."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for expose api and static status page",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-07",
+      "question_text": "Which supplied source should be inspected before changing expose api and static status page?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "src/server.js; src/static.js; public/"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for expose api and static status page",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-08",
+      "question_text": "Which source finding is accurate for expose api and static status page?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "createStatusServer and servePublic implement HTTP/static routes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for expose api and static status page",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-09",
+      "question_text": "Which review best connects the basic model and source details in expose api and static status page?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "Use the model that The server routes API calls and static files; the browser dashboard polls rather than receiving pushed updates., then trace src/server.js; src/static.js; public/; the source finding is createStatusServer and servePublic implement HTTP/static routes."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of expose api and static status page",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q6-10",
+      "question_text": "After reading the whole module on expose api and static status page, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "The example is createStatusServer and servePublic implement HTTP/static routes.; interpret it with this finding: createStatusServer and servePublic implement HTTP/static routes. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of expose api and static status page",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

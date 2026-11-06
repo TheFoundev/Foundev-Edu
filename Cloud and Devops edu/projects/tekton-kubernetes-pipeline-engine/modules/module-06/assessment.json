@@ -1,0 +1,255 @@
+{
+  "module_id": "module-06",
+  "questions": [
+    {
+      "question_id": "q6-01",
+      "question_text": "Which supplied source is primary for handle retries and timeouts?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "engine.go"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain handle retries and timeouts using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q6-02",
+      "question_text": "In plain terms, which idea best explains handle retries and timeouts?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "Retries repeat a failed task/step; timeouts cancel work after a configured duration."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain handle retries and timeouts using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q6-03",
+      "question_text": "Which source finding supports the basic model for handle retries and timeouts?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Runner/runStep use retry counts, context deadlines, and durations."
+        },
+        {
+          "option_id": "b",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain handle retries and timeouts using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q6-04",
+      "question_text": "Where should you trace the implementation of handle retries and timeouts?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "engine.go"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for handle retries and timeouts",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-05",
+      "question_text": "Which source excerpt or paraphrase illustrates handle retries and timeouts?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "Runner/runStep use retry counts, context deadlines, and durations."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for handle retries and timeouts",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-06",
+      "question_text": "A failure occurs while checking handle retries and timeouts. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "Runner/runStep use retry counts, context deadlines, and durations."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for handle retries and timeouts",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-07",
+      "question_text": "Which supplied source should be inspected before changing handle retries and timeouts?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "engine.go"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for handle retries and timeouts",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-08",
+      "question_text": "Which source finding is accurate for handle retries and timeouts?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        },
+        {
+          "option_id": "d",
+          "text": "Runner/runStep use retry counts, context deadlines, and durations."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for handle retries and timeouts",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-09",
+      "question_text": "Which review best connects the basic model and source details in handle retries and timeouts?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "Use the model that Retries repeat a failed task/step; timeouts cancel work after a configured duration., then trace engine.go; the source finding is Runner/runStep use retry counts, context deadlines, and durations."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of handle retries and timeouts",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q6-10",
+      "question_text": "After reading the whole module on handle retries and timeouts, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "The example is Runner/runStep use retry counts, context deadlines, and durations.; interpret it with this finding: Runner/runStep use retry counts, context deadlines, and durations. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of handle retries and timeouts",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

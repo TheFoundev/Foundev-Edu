@@ -1,0 +1,42 @@
+{
+  "module_id": "module-09",
+  "title": "Distinguish Dagger from This Engine",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Distinguish Dagger from This Engine.",
+  "learning_objectives": [
+    "Explain distinguish dagger from this engine using a plain-language model",
+    "Trace the source implementation for distinguish dagger from this engine",
+    "Assess failure and operational limits of distinguish dagger from this engine"
+  ],
+  "prerequisites": [
+    "module-08"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Dagger is a containerized programmable build engine; this source runs host commands and has no Dagger SDK dependency.",
+    "HostExecutor.Run invokes the host command executor; the source does not create Dagger containers."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "engine.go",
+    "README.md",
+    "go.mod"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "engine.go",
+    "symbol_or_search_term": "Run",
+    "line_start": 160,
+    "line_end": 169
+  }
+}

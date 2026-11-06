@@ -1,0 +1,40 @@
+{
+  "module_id": "module-08",
+  "title": "Royalty Pool Accounting",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Royalty Pool Accounting.",
+  "learning_objectives": [
+    "Explain royalty pool accounting using a plain-language model",
+    "Trace the source implementation for royalty pool accounting",
+    "Assess failure and operational limits of royalty pool accounting"
+  ],
+  "prerequisites": [
+    "module-07"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A royalty pool is a balance ledger: payments accumulate and an eligible creator later claims the amount.",
+    "payRoyalty transfers configured ERC20 into a token-specific pool; claimRoyalties checks original creator and transfers the claim."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "contracts/TokenizedAsset.sol"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "contracts/TokenizedAsset.sol",
+    "symbol_or_search_term": "tokenAmount",
+    "line_start": 204,
+    "line_end": 213
+  }
+}

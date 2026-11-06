@@ -1,0 +1,145 @@
+{
+  "module_id": "module-04",
+  "answers": [
+    {
+      "question_id": "q4-01",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is control.go. It establishes that ReconcileWithSchemas validates writes and returns FailedAction details. The source example is ReconcileWithSchemas validates writes and returns FailedAction details. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "This source is not the component identified for the module. Inspect control.go.",
+        "c": "This source is not the component identified for the module. Inspect control.go.",
+        "d": "This source is not the component identified for the module. Inspect control.go."
+      },
+      "concept_tested": "Reconcile Actions and Failures",
+      "related_lesson_id": "lesson-01",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q4-02",
+      "correct_option_id": "d",
+      "explanation": "This is the module's lay explanation. The implementation source is control.go, where the more specific finding is: ReconcileWithSchemas validates writes and returns FailedAction details. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "c": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Reconcile Actions and Failures",
+      "related_lesson_id": "lesson-01",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q4-03",
+      "correct_option_id": "c",
+      "explanation": "This excerpt or paraphrase is drawn from control.go. The source finding is: ReconcileWithSchemas validates writes and returns FailedAction details. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Reconcile Actions and Failures",
+      "related_lesson_id": "lesson-01",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q4-04",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is control.go. It establishes that ReconcileWithSchemas validates writes and returns FailedAction details. The source example is ReconcileWithSchemas validates writes and returns FailedAction details. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect control.go.",
+        "c": "This source is not the component identified for the module. Inspect control.go.",
+        "d": "This source is not the component identified for the module. Inspect control.go."
+      },
+      "concept_tested": "Reconcile Actions and Failures",
+      "related_lesson_id": "lesson-02",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q4-05",
+      "correct_option_id": "a",
+      "explanation": "This excerpt or paraphrase is drawn from control.go. The source finding is: ReconcileWithSchemas validates writes and returns FailedAction details. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "b": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Reconcile Actions and Failures",
+      "related_lesson_id": "lesson-02",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q4-06",
+      "correct_option_id": "d",
+      "explanation": "This excerpt or paraphrase is drawn from control.go. The source finding is: ReconcileWithSchemas validates writes and returns FailedAction details. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "c": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Reconcile Actions and Failures",
+      "related_lesson_id": "lesson-02",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q4-07",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is control.go. It establishes that ReconcileWithSchemas validates writes and returns FailedAction details. The source example is ReconcileWithSchemas validates writes and returns FailedAction details. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect control.go.",
+        "b": "This source is not the component identified for the module. Inspect control.go.",
+        "d": "This source is not the component identified for the module. Inspect control.go."
+      },
+      "concept_tested": "Reconcile Actions and Failures",
+      "related_lesson_id": "lesson-02",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q4-08",
+      "correct_option_id": "b",
+      "explanation": "This excerpt or paraphrase is drawn from control.go. The source finding is: ReconcileWithSchemas validates writes and returns FailedAction details. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Reconcile Actions and Failures",
+      "related_lesson_id": "lesson-02",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q4-09",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is control.go. It establishes that ReconcileWithSchemas validates writes and returns FailedAction details. The source example is ReconcileWithSchemas validates writes and returns FailedAction details. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Reconcile Actions and Failures",
+      "related_lesson_id": "lesson-03",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q4-10",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is control.go. It establishes that ReconcileWithSchemas validates writes and returns FailedAction details. The source example is ReconcileWithSchemas validates writes and returns FailedAction details. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "c": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Reconcile Actions and Failures",
+      "related_lesson_id": "lesson-03",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    }
+  ]
+}

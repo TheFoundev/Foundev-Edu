@@ -1,0 +1,22 @@
+[
+  {
+    "title": "IPFS content addressing",
+    "url": "https://docs.ipfs.tech/concepts/content-addressing/",
+    "type": "official documentation"
+  },
+  {
+    "title": "IPFS glossary",
+    "url": "https://docs.ipfs.tech/concepts/glossary/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Node crypto",
+    "url": "https://nodejs.org/api/crypto.html",
+    "type": "official documentation"
+  },
+  {
+    "title": "Node HTTP",
+    "url": "https://nodejs.org/api/http.html",
+    "type": "official documentation"
+  }
+]

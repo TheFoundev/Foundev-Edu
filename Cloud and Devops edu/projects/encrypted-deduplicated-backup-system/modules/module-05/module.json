@@ -1,0 +1,40 @@
+{
+  "module_id": "module-05",
+  "title": "Encrypt and Authenticate Chunks",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Encrypt and Authenticate Chunks.",
+  "learning_objectives": [
+    "Explain encrypt and authenticate chunks using a plain-language model",
+    "Trace the source implementation for encrypt and authenticate chunks",
+    "Assess failure and operational limits of encrypt and authenticate chunks"
+  ],
+  "prerequisites": [
+    "module-04"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "AES-GCM encrypts bytes and adds an authentication tag so tampering is detected during open.",
+    "seal creates a nonce and stores ciphertext/tag; openSealed authenticates before returning plaintext."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "repository.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "repository.go",
+    "symbol_or_search_term": "openSealed",
+    "line_start": 239,
+    "line_end": 248
+  }
+}

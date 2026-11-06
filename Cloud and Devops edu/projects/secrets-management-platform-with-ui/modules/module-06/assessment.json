@@ -1,0 +1,255 @@
+{
+  "module_id": "module-06",
+  "questions": [
+    {
+      "question_id": "q6-01",
+      "question_text": "Which supplied source is primary for authorize api calls?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "src/server.js"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain authorize api calls using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q6-02",
+      "question_text": "In plain terms, which idea best explains authorize api calls?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An API token is compared before routes; static UI paths are served without the API token."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain authorize api calls using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q6-03",
+      "question_text": "Which source finding supports the basic model for authorize api calls?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "API paths require x-api-token; constant-time equal checks equal-length buffers."
+        },
+        {
+          "option_id": "b",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain authorize api calls using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q6-04",
+      "question_text": "Where should you trace the implementation of authorize api calls?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "src/server.js"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for authorize api calls",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-05",
+      "question_text": "Which source excerpt or paraphrase illustrates authorize api calls?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "API paths require x-api-token; constant-time equal checks equal-length buffers."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for authorize api calls",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-06",
+      "question_text": "A failure occurs while checking authorize api calls. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "API paths require x-api-token; constant-time equal checks equal-length buffers."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for authorize api calls",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-07",
+      "question_text": "Which supplied source should be inspected before changing authorize api calls?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "src/server.js"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for authorize api calls",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-08",
+      "question_text": "Which source finding is accurate for authorize api calls?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "A secret in source or logs remains confidential from repository users."
+        },
+        {
+          "option_id": "d",
+          "text": "API paths require x-api-token; constant-time equal checks equal-length buffers."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for authorize api calls",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-09",
+      "question_text": "Which review best connects the basic model and source details in authorize api calls?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "Use the model that An API token is compared before routes; static UI paths are served without the API token., then trace src/server.js; the source finding is API paths require x-api-token; constant-time equal checks equal-length buffers."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of authorize api calls",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q6-10",
+      "question_text": "After reading the whole module on authorize api calls, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "The example is API paths require x-api-token; constant-time equal checks equal-length buffers.; interpret it with this finding: API paths require x-api-token; constant-time equal checks equal-length buffers. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of authorize api calls",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

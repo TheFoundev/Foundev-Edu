@@ -1,0 +1,255 @@
+{
+  "module_id": "module-02",
+  "questions": [
+    {
+      "question_id": "q2-01",
+      "question_text": "Which supplied source is primary for parse the small config format?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "proxy.go"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain parse the small config format using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q2-02",
+      "question_text": "In plain terms, which idea best explains parse the small config format?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "This parser recognizes a few line patterns, like a short checklist rather than general YAML."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain parse the small config format using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q2-03",
+      "question_text": "Which source finding supports the basic model for parse the small config format?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "ParseConfig handles services:, - name:, and - http/https lines; rejects instance-before-service and no services."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain parse the small config format using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q2-04",
+      "question_text": "Where should you trace the implementation of parse the small config format?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "proxy.go"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for parse the small config format",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-05",
+      "question_text": "Which source excerpt or paraphrase illustrates parse the small config format?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "strings.HasPrefix(trimmed, \"- name:\")"
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for parse the small config format",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-06",
+      "question_text": "A failure occurs while checking parse the small config format. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "ParseConfig handles services:, - name:, and - http/https lines; rejects instance-before-service and no services."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for parse the small config format",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-07",
+      "question_text": "Which supplied source should be inspected before changing parse the small config format?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "proxy.go"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for parse the small config format",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-08",
+      "question_text": "Which source finding is accurate for parse the small config format?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        },
+        {
+          "option_id": "d",
+          "text": "ParseConfig handles services:, - name:, and - http/https lines; rejects instance-before-service and no services."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for parse the small config format",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-09",
+      "question_text": "Which review best connects the basic model and source details in parse the small config format?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "Use the model that This parser recognizes a few line patterns, like a short checklist rather than general YAML., then trace proxy.go; the source finding is ParseConfig handles services:, - name:, and - http/https lines; rejects instance-before-service and no services."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of parse the small config format",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q2-10",
+      "question_text": "After reading the whole module on parse the small config format, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "The example is strings.HasPrefix(trimmed, \"- name:\"); interpret it with this finding: ParseConfig handles services:, - name:, and - http/https lines; rejects instance-before-service and no services. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of parse the small config format",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

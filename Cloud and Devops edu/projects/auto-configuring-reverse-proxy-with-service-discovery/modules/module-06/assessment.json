@@ -1,0 +1,255 @@
+{
+  "module_id": "module-06",
+  "questions": [
+    {
+      "question_id": "q6-01",
+      "question_text": "Which supplied source is primary for docker socket trust boundary?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "proxy.go; README.md"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain docker socket trust boundary using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q6-02",
+      "question_text": "In plain terms, which idea best explains docker socket trust boundary?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "Giving a server the Docker socket is like giving it powerful control over the host."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain docker socket trust boundary using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q6-03",
+      "question_text": "Which source finding supports the basic model for docker socket trust boundary?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "NewDockerClient defaults to /var/run/docker.sock; the source has no auth around a web-exposed proxy."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain docker socket trust boundary using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q6-04",
+      "question_text": "Where should you trace the implementation of docker socket trust boundary?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "proxy.go; README.md"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for docker socket trust boundary",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-05",
+      "question_text": "Which source excerpt or paraphrase illustrates docker socket trust boundary?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "DialContext(..., \"unix\", socket)"
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for docker socket trust boundary",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-06",
+      "question_text": "A failure occurs while checking docker socket trust boundary. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "NewDockerClient defaults to /var/run/docker.sock; the source has no auth around a web-exposed proxy."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for docker socket trust boundary",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-07",
+      "question_text": "Which supplied source should be inspected before changing docker socket trust boundary?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "proxy.go; README.md"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for docker socket trust boundary",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-08",
+      "question_text": "Which source finding is accurate for docker socket trust boundary?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        },
+        {
+          "option_id": "d",
+          "text": "NewDockerClient defaults to /var/run/docker.sock; the source has no auth around a web-exposed proxy."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for docker socket trust boundary",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-09",
+      "question_text": "Which review best connects the basic model and source details in docker socket trust boundary?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "Use the model that Giving a server the Docker socket is like giving it powerful control over the host., then trace proxy.go; README.md; the source finding is NewDockerClient defaults to /var/run/docker.sock; the source has no auth around a web-exposed proxy."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of docker socket trust boundary",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q6-10",
+      "question_text": "After reading the whole module on docker socket trust boundary, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "The example is DialContext(..., \"unix\", socket); interpret it with this finding: NewDockerClient defaults to /var/run/docker.sock; the source has no auth around a web-exposed proxy. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of docker socket trust boundary",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

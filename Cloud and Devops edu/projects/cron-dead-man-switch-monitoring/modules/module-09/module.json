@@ -1,0 +1,41 @@
+{
+  "module_id": "module-09",
+  "title": "Webhook Reliability and Alert Deduplication",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Webhook Reliability and Alert Deduplication.",
+  "learning_objectives": [
+    "Explain webhook reliability and alert deduplication using a plain-language model",
+    "Trace the source implementation for webhook reliability and alert deduplication",
+    "Assess failure and operational limits of webhook reliability and alert deduplication"
+  ],
+  "prerequisites": [
+    "module-08"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Alerts should avoid repeated notifications for the same transition; webhook retry behavior is in the dispatcher, not implied by the model.",
+    "Alert history and channel dispatch are implemented in core/dispatch.py; verify retry and mute semantics before relying on them."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "core/dispatch.py",
+    "core/models.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "core/dispatch.py",
+    "symbol_or_search_term": "Alert",
+    "line_start": 5,
+    "line_end": 14
+  }
+}

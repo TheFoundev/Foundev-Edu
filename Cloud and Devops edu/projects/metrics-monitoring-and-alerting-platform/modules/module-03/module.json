@@ -1,0 +1,40 @@
+{
+  "module_id": "module-03",
+  "title": "Calculate Rate",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Calculate Rate.",
+  "learning_objectives": [
+    "Explain calculate rate using a plain-language model",
+    "Trace the source implementation for calculate rate",
+    "Assess failure and operational limits of calculate rate"
+  ],
+  "prerequisites": [
+    "module-02"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A rate estimates change per unit time from samples in a window; this is a simplified calculation.",
+    "rateLocked uses selected sample values/time behavior from source; inspect exact first/last handling."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "metrics.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "metrics.go",
+    "symbol_or_search_term": "rateLocked",
+    "line_start": 69,
+    "line_end": 78
+  }
+}

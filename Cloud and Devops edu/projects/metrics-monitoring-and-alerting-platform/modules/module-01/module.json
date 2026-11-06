@@ -1,0 +1,38 @@
+{
+  "module_id": "module-01",
+  "title": "Sample and Label Data Model",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Sample and Label Data Model.",
+  "learning_objectives": [
+    "Explain sample and label data model using a plain-language model",
+    "Trace the source implementation for sample and label data model",
+    "Assess failure and operational limits of sample and label data model"
+  ],
+  "prerequisites": [],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A sample is a measurement plus labels and time; labels let queries group related series.",
+    "Sample stores metric/name labels/value/timestamp fields."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "metrics.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "metrics.go",
+    "symbol_or_search_term": "Sample",
+    "line_start": 53,
+    "line_end": 62
+  }
+}

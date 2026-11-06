@@ -1,0 +1,40 @@
+{
+  "module_id": "module-02",
+  "title": "Parse Schedules and Calculate Deadlines",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Parse Schedules and Calculate Deadlines.",
+  "learning_objectives": [
+    "Explain parse schedules and calculate deadlines using a plain-language model",
+    "Trace the source implementation for parse schedules and calculate deadlines",
+    "Assess failure and operational limits of parse schedules and calculate deadlines"
+  ],
+  "prerequisites": [
+    "module-01"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A schedule predicts when a job should report next; grace and timeout provide two different late/down boundaries.",
+    "parse_cron/next_occurrence implement a limited grammar; compute_next_scheduled_at and check_deadline_exceeded use the stored schedule."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "core/state.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "core/state.py",
+    "symbol_or_search_term": "parse_cron",
+    "line_start": 28,
+    "line_end": 37
+  }
+}

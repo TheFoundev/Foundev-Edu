@@ -1,0 +1,40 @@
+{
+  "module_id": "module-03",
+  "title": "Plan Desired vs Current State",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Plan Desired vs Current State.",
+  "learning_objectives": [
+    "Explain plan desired vs current state using a plain-language model",
+    "Trace the source implementation for plan desired vs current state",
+    "Assess failure and operational limits of plan desired vs current state"
+  ],
+  "prerequisites": [
+    "module-02"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A plan is a list of differences needed to move actual state toward desired state.",
+    "Plan returns create/update/delete actions and compares specs with sameSpec."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "control.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "control.go",
+    "symbol_or_search_term": "sameSpec",
+    "line_start": 128,
+    "line_end": 137
+  }
+}

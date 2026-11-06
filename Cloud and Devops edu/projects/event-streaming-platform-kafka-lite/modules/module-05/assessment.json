@@ -1,0 +1,255 @@
+{
+  "module_id": "module-05",
+  "questions": [
+    {
+      "question_id": "q5-01",
+      "question_text": "Which supplied source is primary for filter bots and aggregate windows?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "src/main/java/local/foundev/streams/streams/ClicksStreamsApp.java"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain filter bots and aggregate windows using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q5-02",
+      "question_text": "In plain terms, which idea best explains filter bots and aggregate windows?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Windowed aggregation groups events by time intervals; a tumbling window starts a new non-overlapping period."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain filter bots and aggregate windows using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q5-03",
+      "question_text": "Which source finding supports the basic model for filter bots and aggregate windows?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        },
+        {
+          "option_id": "d",
+          "text": "README describes regex bot filtering and one-minute tumbling aggregations."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain filter bots and aggregate windows using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q5-04",
+      "question_text": "Where should you trace the implementation of filter bots and aggregate windows?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "src/main/java/local/foundev/streams/streams/ClicksStreamsApp.java"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for filter bots and aggregate windows",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-05",
+      "question_text": "Which source excerpt or paraphrase illustrates filter bots and aggregate windows?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "README describes regex bot filtering and one-minute tumbling aggregations."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for filter bots and aggregate windows",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-06",
+      "question_text": "A failure occurs while checking filter bots and aggregate windows. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README describes regex bot filtering and one-minute tumbling aggregations."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for filter bots and aggregate windows",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-07",
+      "question_text": "Which supplied source should be inspected before changing filter bots and aggregate windows?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "src/main/java/local/foundev/streams/streams/ClicksStreamsApp.java"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for filter bots and aggregate windows",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-08",
+      "question_text": "Which source finding is accurate for filter bots and aggregate windows?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "README describes regex bot filtering and one-minute tumbling aggregations."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for filter bots and aggregate windows",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-09",
+      "question_text": "Which review best connects the basic model and source details in filter bots and aggregate windows?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "Use the model that Windowed aggregation groups events by time intervals; a tumbling window starts a new non-overlapping period., then trace src/main/java/local/foundev/streams/streams/ClicksStreamsApp.java; the source finding is README describes regex bot filtering and one-minute tumbling aggregations."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of filter bots and aggregate windows",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q5-10",
+      "question_text": "After reading the whole module on filter bots and aggregate windows, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "The example is README describes regex bot filtering and one-minute tumbling aggregations.; interpret it with this finding: README describes regex bot filtering and one-minute tumbling aggregations. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of filter bots and aggregate windows",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

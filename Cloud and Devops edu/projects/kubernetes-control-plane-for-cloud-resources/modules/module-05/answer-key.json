@@ -1,0 +1,145 @@
+{
+  "module_id": "module-05",
+  "answers": [
+    {
+      "question_id": "q5-01",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is control.go. It establishes that Store.Update requires incoming ResourceVersion to match and increments it on write. The source example is Store.Update requires incoming ResourceVersion to match and increments it on write. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect control.go.",
+        "c": "This source is not the component identified for the module. Inspect control.go.",
+        "d": "This source is not the component identified for the module. Inspect control.go."
+      },
+      "concept_tested": "Use Resource Versions for Stale Writes",
+      "related_lesson_id": "lesson-01",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q5-02",
+      "correct_option_id": "a",
+      "explanation": "This is the module's lay explanation. The implementation source is control.go, where the more specific finding is: Store.Update requires incoming ResourceVersion to match and increments it on write. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "b": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Use Resource Versions for Stale Writes",
+      "related_lesson_id": "lesson-01",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q5-03",
+      "correct_option_id": "d",
+      "explanation": "This excerpt or paraphrase is drawn from control.go. The source finding is: Store.Update requires incoming ResourceVersion to match and increments it on write. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "c": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Use Resource Versions for Stale Writes",
+      "related_lesson_id": "lesson-01",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q5-04",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is control.go. It establishes that Store.Update requires incoming ResourceVersion to match and increments it on write. The source example is Store.Update requires incoming ResourceVersion to match and increments it on write. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect control.go.",
+        "b": "This source is not the component identified for the module. Inspect control.go.",
+        "d": "This source is not the component identified for the module. Inspect control.go."
+      },
+      "concept_tested": "Use Resource Versions for Stale Writes",
+      "related_lesson_id": "lesson-02",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q5-05",
+      "correct_option_id": "b",
+      "explanation": "This excerpt or paraphrase is drawn from control.go. The source finding is: Store.Update requires incoming ResourceVersion to match and increments it on write. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Use Resource Versions for Stale Writes",
+      "related_lesson_id": "lesson-02",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q5-06",
+      "correct_option_id": "a",
+      "explanation": "This excerpt or paraphrase is drawn from control.go. The source finding is: Store.Update requires incoming ResourceVersion to match and increments it on write. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "b": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Use Resource Versions for Stale Writes",
+      "related_lesson_id": "lesson-02",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q5-07",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is control.go. It establishes that Store.Update requires incoming ResourceVersion to match and increments it on write. The source example is Store.Update requires incoming ResourceVersion to match and increments it on write. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect control.go.",
+        "b": "This source is not the component identified for the module. Inspect control.go.",
+        "c": "This source is not the component identified for the module. Inspect control.go."
+      },
+      "concept_tested": "Use Resource Versions for Stale Writes",
+      "related_lesson_id": "lesson-02",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q5-08",
+      "correct_option_id": "c",
+      "explanation": "This excerpt or paraphrase is drawn from control.go. The source finding is: Store.Update requires incoming ResourceVersion to match and increments it on write. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Use Resource Versions for Stale Writes",
+      "related_lesson_id": "lesson-02",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q5-09",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is control.go. It establishes that Store.Update requires incoming ResourceVersion to match and increments it on write. The source example is Store.Update requires incoming ResourceVersion to match and increments it on write. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Use Resource Versions for Stale Writes",
+      "related_lesson_id": "lesson-03",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q5-10",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is control.go. It establishes that Store.Update requires incoming ResourceVersion to match and increments it on write. The source example is Store.Update requires incoming ResourceVersion to match and increments it on write. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Use Resource Versions for Stale Writes",
+      "related_lesson_id": "lesson-03",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    }
+  ]
+}

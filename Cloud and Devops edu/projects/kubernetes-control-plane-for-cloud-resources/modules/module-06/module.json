@@ -1,0 +1,40 @@
+{
+  "module_id": "module-06",
+  "title": "Controller Desired State and Generation",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Controller Desired State and Generation.",
+  "learning_objectives": [
+    "Explain controller desired state and generation using a plain-language model",
+    "Trace the source implementation for controller desired state and generation",
+    "Assess failure and operational limits of controller desired state and generation"
+  ],
+  "prerequisites": [
+    "module-05"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "The Controller keeps the desired list and a generation number so repeated reconciliation can track changes.",
+    "SetDesired validates and replaces desired resources; Reconcile plans against Store."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "control.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "control.go",
+    "symbol_or_search_term": "SetDesired",
+    "line_start": 340,
+    "line_end": 349
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "module_id": "module-10",
+  "title": "Roll Out, Roll Back, and Verify",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Roll Out, Roll Back, and Verify.",
+  "learning_objectives": [
+    "Explain roll out, roll back, and verify using a plain-language model",
+    "Trace the source implementation for roll out, roll back, and verify",
+    "Assess failure and operational limits of roll out, roll back, and verify"
+  ],
+  "prerequisites": [
+    "module-09"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A rollout status confirms a Deployment update; rollout undo returns to a prior revision, subject to retained history.",
+    "The sample manifest declares a staged Rollout resource; verifier can check nodes, etcd, and local-path state."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "manifests/hello-edge/rollout.yaml",
+    "bootstrap/40-verify-cluster.sh"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "manifests/hello-edge/rollout.yaml",
+    "symbol_or_search_term": "kind",
+    "line_start": 6,
+    "line_end": 15
+  }
+}

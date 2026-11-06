@@ -1,0 +1,145 @@
+{
+  "module_id": "module-10",
+  "answers": [
+    {
+      "question_id": "q10-01",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is engine.go; engine_test.go; README.md. It establishes that Host command execution uses exec.CommandContext with the caller's OS permissions; tests use a recording executor for safe cases. The source example is exec.CommandContext(stepContext, script, \"-c\", command) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect engine.go; engine_test.go; README.md.",
+        "b": "This source is not the component identified for the module. Inspect engine.go; engine_test.go; README.md.",
+        "d": "This source is not the component identified for the module. Inspect engine.go; engine_test.go; README.md."
+      },
+      "concept_tested": "Test Execution and Security Limits",
+      "related_lesson_id": "lesson-01",
+      "source_file": "engine.go; engine_test.go; README.md",
+      "supporting_reference": "https://tekton.dev/docs/pipelines/tasks/"
+    },
+    {
+      "question_id": "q10-02",
+      "correct_option_id": "b",
+      "explanation": "This is the module's lay explanation. The implementation source is engine.go; engine_test.go; README.md, where the more specific finding is: Host command execution uses exec.CommandContext with the caller's OS permissions; tests use a recording executor for safe cases. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Test Execution and Security Limits",
+      "related_lesson_id": "lesson-01",
+      "source_file": "engine.go; engine_test.go; README.md",
+      "supporting_reference": "https://tekton.dev/docs/pipelines/tasks/"
+    },
+    {
+      "question_id": "q10-03",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is engine.go; engine_test.go; README.md. It establishes that Host command execution uses exec.CommandContext with the caller's OS permissions; tests use a recording executor for safe cases. The source example is exec.CommandContext(stepContext, script, \"-c\", command) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Test Execution and Security Limits",
+      "related_lesson_id": "lesson-01",
+      "source_file": "engine.go; engine_test.go; README.md",
+      "supporting_reference": "https://tekton.dev/docs/pipelines/tasks/"
+    },
+    {
+      "question_id": "q10-04",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is engine.go; engine_test.go; README.md. It establishes that Host command execution uses exec.CommandContext with the caller's OS permissions; tests use a recording executor for safe cases. The source example is exec.CommandContext(stepContext, script, \"-c\", command) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect engine.go; engine_test.go; README.md.",
+        "b": "This source is not the component identified for the module. Inspect engine.go; engine_test.go; README.md.",
+        "c": "This source is not the component identified for the module. Inspect engine.go; engine_test.go; README.md."
+      },
+      "concept_tested": "Test Execution and Security Limits",
+      "related_lesson_id": "lesson-02",
+      "source_file": "engine.go; engine_test.go; README.md",
+      "supporting_reference": "https://tekton.dev/docs/pipelines/tasks/"
+    },
+    {
+      "question_id": "q10-05",
+      "correct_option_id": "c",
+      "explanation": "This excerpt or paraphrase is drawn from engine.go; engine_test.go; README.md. The source finding is: Host command execution uses exec.CommandContext with the caller's OS permissions; tests use a recording executor for safe cases. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Test Execution and Security Limits",
+      "related_lesson_id": "lesson-02",
+      "source_file": "engine.go; engine_test.go; README.md",
+      "supporting_reference": "https://tekton.dev/docs/pipelines/tasks/"
+    },
+    {
+      "question_id": "q10-06",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is engine.go; engine_test.go; README.md. It establishes that Host command execution uses exec.CommandContext with the caller's OS permissions; tests use a recording executor for safe cases. The source example is exec.CommandContext(stepContext, script, \"-c\", command) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Test Execution and Security Limits",
+      "related_lesson_id": "lesson-02",
+      "source_file": "engine.go; engine_test.go; README.md",
+      "supporting_reference": "https://tekton.dev/docs/pipelines/tasks/"
+    },
+    {
+      "question_id": "q10-07",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is engine.go; engine_test.go; README.md. It establishes that Host command execution uses exec.CommandContext with the caller's OS permissions; tests use a recording executor for safe cases. The source example is exec.CommandContext(stepContext, script, \"-c\", command) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "This source is not the component identified for the module. Inspect engine.go; engine_test.go; README.md.",
+        "c": "This source is not the component identified for the module. Inspect engine.go; engine_test.go; README.md.",
+        "d": "This source is not the component identified for the module. Inspect engine.go; engine_test.go; README.md."
+      },
+      "concept_tested": "Test Execution and Security Limits",
+      "related_lesson_id": "lesson-02",
+      "source_file": "engine.go; engine_test.go; README.md",
+      "supporting_reference": "https://tekton.dev/docs/pipelines/tasks/"
+    },
+    {
+      "question_id": "q10-08",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is engine.go; engine_test.go; README.md. It establishes that Host command execution uses exec.CommandContext with the caller's OS permissions; tests use a recording executor for safe cases. The source example is exec.CommandContext(stepContext, script, \"-c\", command) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "c": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Test Execution and Security Limits",
+      "related_lesson_id": "lesson-02",
+      "source_file": "engine.go; engine_test.go; README.md",
+      "supporting_reference": "https://tekton.dev/docs/pipelines/tasks/"
+    },
+    {
+      "question_id": "q10-09",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is engine.go; engine_test.go; README.md. It establishes that Host command execution uses exec.CommandContext with the caller's OS permissions; tests use a recording executor for safe cases. The source example is exec.CommandContext(stepContext, script, \"-c\", command) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Test Execution and Security Limits",
+      "related_lesson_id": "lesson-03",
+      "source_file": "engine.go; engine_test.go; README.md",
+      "supporting_reference": "https://tekton.dev/docs/pipelines/tasks/"
+    },
+    {
+      "question_id": "q10-10",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is engine.go; engine_test.go; README.md. It establishes that Host command execution uses exec.CommandContext with the caller's OS permissions; tests use a recording executor for safe cases. The source example is exec.CommandContext(stepContext, script, \"-c\", command) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Test Execution and Security Limits",
+      "related_lesson_id": "lesson-03",
+      "source_file": "engine.go; engine_test.go; README.md",
+      "supporting_reference": "https://tekton.dev/docs/pipelines/tasks/"
+    }
+  ]
+}

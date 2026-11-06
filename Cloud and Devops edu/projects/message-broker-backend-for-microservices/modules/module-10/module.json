@@ -1,0 +1,40 @@
+{
+  "module_id": "module-10",
+  "title": "Test Failure Paths and Duplication",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Test Failure Paths and Duplication.",
+  "learning_objectives": [
+    "Explain test failure paths and duplication using a plain-language model",
+    "Trace the source implementation for test failure paths and duplication",
+    "Assess failure and operational limits of test failure paths and duplication"
+  ],
+  "prerequisites": [
+    "module-09"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Message delivery can be repeated; test retries, idempotency, dead letters, and reconnect behavior rather than assuming one delivery.",
+    "Tests cover order outcomes, metrics, and retries; broker integration should be run separately."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "test/"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "test/mbb_metrics_tests.erl",
+    "symbol_or_search_term": "metrics",
+    "line_start": 1,
+    "line_end": 8
+  }
+}

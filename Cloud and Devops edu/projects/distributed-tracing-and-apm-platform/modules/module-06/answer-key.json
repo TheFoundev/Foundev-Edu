@@ -1,0 +1,145 @@
+{
+  "module_id": "module-06",
+  "answers": [
+    {
+      "question_id": "q6-01",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is tracing.go; tracing_test.go; main.go. It establishes that OTLPHandler expects resourceSpans/scopeSpans/spans containing Span-shaped JSON. The source example is OTLPHandler expects resourceSpans/scopeSpans/spans containing Span-shaped JSON. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect tracing.go; tracing_test.go; main.go.",
+        "b": "This source is not the component identified for the module. Inspect tracing.go; tracing_test.go; main.go.",
+        "d": "This source is not the component identified for the module. Inspect tracing.go; tracing_test.go; main.go."
+      },
+      "concept_tested": "Audit the OTLP-Labeled Handler",
+      "related_lesson_id": "lesson-01",
+      "source_file": "tracing.go; tracing_test.go; main.go",
+      "supporting_reference": "https://opentelemetry.io/docs/specs/otlp/"
+    },
+    {
+      "question_id": "q6-02",
+      "correct_option_id": "b",
+      "explanation": "This is the module's lay explanation. The implementation source is tracing.go; tracing_test.go; main.go, where the more specific finding is: OTLPHandler expects resourceSpans/scopeSpans/spans containing Span-shaped JSON. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "a": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "c": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "d": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Audit the OTLP-Labeled Handler",
+      "related_lesson_id": "lesson-01",
+      "source_file": "tracing.go; tracing_test.go; main.go",
+      "supporting_reference": "https://opentelemetry.io/docs/specs/otlp/"
+    },
+    {
+      "question_id": "q6-03",
+      "correct_option_id": "a",
+      "explanation": "This excerpt or paraphrase is drawn from tracing.go; tracing_test.go; main.go. The source finding is: OTLPHandler expects resourceSpans/scopeSpans/spans containing Span-shaped JSON. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "b": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "c": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "d": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Audit the OTLP-Labeled Handler",
+      "related_lesson_id": "lesson-01",
+      "source_file": "tracing.go; tracing_test.go; main.go",
+      "supporting_reference": "https://opentelemetry.io/docs/specs/otlp/"
+    },
+    {
+      "question_id": "q6-04",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is tracing.go; tracing_test.go; main.go. It establishes that OTLPHandler expects resourceSpans/scopeSpans/spans containing Span-shaped JSON. The source example is OTLPHandler expects resourceSpans/scopeSpans/spans containing Span-shaped JSON. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect tracing.go; tracing_test.go; main.go.",
+        "b": "This source is not the component identified for the module. Inspect tracing.go; tracing_test.go; main.go.",
+        "c": "This source is not the component identified for the module. Inspect tracing.go; tracing_test.go; main.go."
+      },
+      "concept_tested": "Audit the OTLP-Labeled Handler",
+      "related_lesson_id": "lesson-02",
+      "source_file": "tracing.go; tracing_test.go; main.go",
+      "supporting_reference": "https://opentelemetry.io/docs/specs/otlp/"
+    },
+    {
+      "question_id": "q6-05",
+      "correct_option_id": "c",
+      "explanation": "This excerpt or paraphrase is drawn from tracing.go; tracing_test.go; main.go. The source finding is: OTLPHandler expects resourceSpans/scopeSpans/spans containing Span-shaped JSON. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "b": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "d": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Audit the OTLP-Labeled Handler",
+      "related_lesson_id": "lesson-02",
+      "source_file": "tracing.go; tracing_test.go; main.go",
+      "supporting_reference": "https://opentelemetry.io/docs/specs/otlp/"
+    },
+    {
+      "question_id": "q6-06",
+      "correct_option_id": "b",
+      "explanation": "This excerpt or paraphrase is drawn from tracing.go; tracing_test.go; main.go. The source finding is: OTLPHandler expects resourceSpans/scopeSpans/spans containing Span-shaped JSON. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "c": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "d": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Audit the OTLP-Labeled Handler",
+      "related_lesson_id": "lesson-02",
+      "source_file": "tracing.go; tracing_test.go; main.go",
+      "supporting_reference": "https://opentelemetry.io/docs/specs/otlp/"
+    },
+    {
+      "question_id": "q6-07",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is tracing.go; tracing_test.go; main.go. It establishes that OTLPHandler expects resourceSpans/scopeSpans/spans containing Span-shaped JSON. The source example is OTLPHandler expects resourceSpans/scopeSpans/spans containing Span-shaped JSON. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "This source is not the component identified for the module. Inspect tracing.go; tracing_test.go; main.go.",
+        "c": "This source is not the component identified for the module. Inspect tracing.go; tracing_test.go; main.go.",
+        "d": "This source is not the component identified for the module. Inspect tracing.go; tracing_test.go; main.go."
+      },
+      "concept_tested": "Audit the OTLP-Labeled Handler",
+      "related_lesson_id": "lesson-02",
+      "source_file": "tracing.go; tracing_test.go; main.go",
+      "supporting_reference": "https://opentelemetry.io/docs/specs/otlp/"
+    },
+    {
+      "question_id": "q6-08",
+      "correct_option_id": "d",
+      "explanation": "This excerpt or paraphrase is drawn from tracing.go; tracing_test.go; main.go. The source finding is: OTLPHandler expects resourceSpans/scopeSpans/spans containing Span-shaped JSON. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "b": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "c": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Audit the OTLP-Labeled Handler",
+      "related_lesson_id": "lesson-02",
+      "source_file": "tracing.go; tracing_test.go; main.go",
+      "supporting_reference": "https://opentelemetry.io/docs/specs/otlp/"
+    },
+    {
+      "question_id": "q6-09",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is tracing.go; tracing_test.go; main.go. It establishes that OTLPHandler expects resourceSpans/scopeSpans/spans containing Span-shaped JSON. The source example is OTLPHandler expects resourceSpans/scopeSpans/spans containing Span-shaped JSON. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "b": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "d": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Audit the OTLP-Labeled Handler",
+      "related_lesson_id": "lesson-03",
+      "source_file": "tracing.go; tracing_test.go; main.go",
+      "supporting_reference": "https://opentelemetry.io/docs/specs/otlp/"
+    },
+    {
+      "question_id": "q6-10",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is tracing.go; tracing_test.go; main.go. It establishes that OTLPHandler expects resourceSpans/scopeSpans/spans containing Span-shaped JSON. The source example is OTLPHandler expects resourceSpans/scopeSpans/spans containing Span-shaped JSON. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "In-memory state is lost on process restart and is not shared between replicas unless external storage is used.",
+        "c": "Protocol compatibility requires matching wire format and behavior, not just a familiar name or route.",
+        "d": "Unit tests cover selected local cases; they do not prove production reliability, scale, or delivery guarantees."
+      },
+      "concept_tested": "Audit the OTLP-Labeled Handler",
+      "related_lesson_id": "lesson-03",
+      "source_file": "tracing.go; tracing_test.go; main.go",
+      "supporting_reference": "https://opentelemetry.io/docs/specs/otlp/"
+    }
+  ]
+}

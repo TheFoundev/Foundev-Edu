@@ -1,0 +1,41 @@
+{
+  "module_id": "module-09",
+  "title": "Scan Tracked Files for Plaintext",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Scan Tracked Files for Plaintext.",
+  "learning_objectives": [
+    "Explain scan tracked files for plaintext using a plain-language model",
+    "Trace the source implementation for scan tracked files for plaintext",
+    "Assess failure and operational limits of scan tracked files for plaintext"
+  ],
+  "prerequisites": [
+    "module-08"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "The scanner applies secret-shaped patterns and exclusions to tracked files; pattern scanning cannot identify every possible secret.",
+    "scan_paths uses configured patterns/globs; run_check combines coverage, ciphertext, audit, and plaintext findings."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "secretsync/plaintext.py",
+    "secretsync/check.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "secretsync/check.py",
+    "symbol_or_search_term": "scan_paths",
+    "line_start": 120,
+    "line_end": 129
+  }
+}

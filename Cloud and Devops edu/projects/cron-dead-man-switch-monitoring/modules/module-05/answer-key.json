@@ -1,0 +1,145 @@
+{
+  "module_id": "module-05",
+  "answers": [
+    {
+      "question_id": "q5-01",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is core/api.py. It establishes that authenticate_write_token accepts Bearer or X-API-Token; check_ping is designed for unauthenticated secret URLs. The source example is authenticate_write_token accepts Bearer or X-API-Token; check_ping is designed for unauthenticated secret URLs. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect core/api.py.",
+        "c": "This source is not the component identified for the module. Inspect core/api.py.",
+        "d": "This source is not the component identified for the module. Inspect core/api.py."
+      },
+      "concept_tested": "Authenticate Management APIs",
+      "related_lesson_id": "lesson-01",
+      "source_file": "core/api.py",
+      "supporting_reference": "https://docs.djangoproject.com/en/stable/topics/db/models/"
+    },
+    {
+      "question_id": "q5-02",
+      "correct_option_id": "a",
+      "explanation": "This is the module's lay explanation. The implementation source is core/api.py, where the more specific finding is: authenticate_write_token accepts Bearer or X-API-Token; check_ping is designed for unauthenticated secret URLs. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "b": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "c": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Authenticate Management APIs",
+      "related_lesson_id": "lesson-01",
+      "source_file": "core/api.py",
+      "supporting_reference": "https://docs.djangoproject.com/en/stable/topics/db/models/"
+    },
+    {
+      "question_id": "q5-03",
+      "correct_option_id": "d",
+      "explanation": "This excerpt or paraphrase is drawn from core/api.py. The source finding is: authenticate_write_token accepts Bearer or X-API-Token; check_ping is designed for unauthenticated secret URLs. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "b": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "c": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Authenticate Management APIs",
+      "related_lesson_id": "lesson-01",
+      "source_file": "core/api.py",
+      "supporting_reference": "https://docs.djangoproject.com/en/stable/topics/db/models/"
+    },
+    {
+      "question_id": "q5-04",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is core/api.py. It establishes that authenticate_write_token accepts Bearer or X-API-Token; check_ping is designed for unauthenticated secret URLs. The source example is authenticate_write_token accepts Bearer or X-API-Token; check_ping is designed for unauthenticated secret URLs. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect core/api.py.",
+        "b": "This source is not the component identified for the module. Inspect core/api.py.",
+        "d": "This source is not the component identified for the module. Inspect core/api.py."
+      },
+      "concept_tested": "Authenticate Management APIs",
+      "related_lesson_id": "lesson-02",
+      "source_file": "core/api.py",
+      "supporting_reference": "https://docs.djangoproject.com/en/stable/topics/db/models/"
+    },
+    {
+      "question_id": "q5-05",
+      "correct_option_id": "b",
+      "explanation": "This excerpt or paraphrase is drawn from core/api.py. The source finding is: authenticate_write_token accepts Bearer or X-API-Token; check_ping is designed for unauthenticated secret URLs. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "c": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Authenticate Management APIs",
+      "related_lesson_id": "lesson-02",
+      "source_file": "core/api.py",
+      "supporting_reference": "https://docs.djangoproject.com/en/stable/topics/db/models/"
+    },
+    {
+      "question_id": "q5-06",
+      "correct_option_id": "a",
+      "explanation": "This excerpt or paraphrase is drawn from core/api.py. The source finding is: authenticate_write_token accepts Bearer or X-API-Token; check_ping is designed for unauthenticated secret URLs. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "b": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "c": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Authenticate Management APIs",
+      "related_lesson_id": "lesson-02",
+      "source_file": "core/api.py",
+      "supporting_reference": "https://docs.djangoproject.com/en/stable/topics/db/models/"
+    },
+    {
+      "question_id": "q5-07",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is core/api.py. It establishes that authenticate_write_token accepts Bearer or X-API-Token; check_ping is designed for unauthenticated secret URLs. The source example is authenticate_write_token accepts Bearer or X-API-Token; check_ping is designed for unauthenticated secret URLs. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect core/api.py.",
+        "b": "This source is not the component identified for the module. Inspect core/api.py.",
+        "c": "This source is not the component identified for the module. Inspect core/api.py."
+      },
+      "concept_tested": "Authenticate Management APIs",
+      "related_lesson_id": "lesson-02",
+      "source_file": "core/api.py",
+      "supporting_reference": "https://docs.djangoproject.com/en/stable/topics/db/models/"
+    },
+    {
+      "question_id": "q5-08",
+      "correct_option_id": "c",
+      "explanation": "This excerpt or paraphrase is drawn from core/api.py. The source finding is: authenticate_write_token accepts Bearer or X-API-Token; check_ping is designed for unauthenticated secret URLs. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "b": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Authenticate Management APIs",
+      "related_lesson_id": "lesson-02",
+      "source_file": "core/api.py",
+      "supporting_reference": "https://docs.djangoproject.com/en/stable/topics/db/models/"
+    },
+    {
+      "question_id": "q5-09",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is core/api.py. It establishes that authenticate_write_token accepts Bearer or X-API-Token; check_ping is designed for unauthenticated secret URLs. The source example is authenticate_write_token accepts Bearer or X-API-Token; check_ping is designed for unauthenticated secret URLs. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "c": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Authenticate Management APIs",
+      "related_lesson_id": "lesson-03",
+      "source_file": "core/api.py",
+      "supporting_reference": "https://docs.djangoproject.com/en/stable/topics/db/models/"
+    },
+    {
+      "question_id": "q5-10",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is core/api.py. It establishes that authenticate_write_token accepts Bearer or X-API-Token; check_ping is designed for unauthenticated secret URLs. The source example is authenticate_write_token accepts Bearer or X-API-Token; check_ping is designed for unauthenticated secret URLs. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "c": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Authenticate Management APIs",
+      "related_lesson_id": "lesson-03",
+      "source_file": "core/api.py",
+      "supporting_reference": "https://docs.djangoproject.com/en/stable/topics/db/models/"
+    }
+  ]
+}

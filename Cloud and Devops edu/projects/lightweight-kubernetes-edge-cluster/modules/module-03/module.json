@@ -1,0 +1,40 @@
+{
+  "module_id": "module-03",
+  "title": "Bootstrap the First Server",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Bootstrap the First Server.",
+  "learning_objectives": [
+    "Explain bootstrap the first server using a plain-language model",
+    "Trace the source implementation for bootstrap the first server",
+    "Assess failure and operational limits of bootstrap the first server"
+  ],
+  "prerequisites": [
+    "module-02"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "The first server initializes the cluster; TLS SAN names must match how clients reach the API.",
+    "Script installs K3s server with cluster-init and tls-san parameters."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "bootstrap/10-install-server.sh"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "bootstrap/10-install-server.sh",
+    "symbol_or_search_term": "K3s",
+    "line_start": 71,
+    "line_end": 80
+  }
+}

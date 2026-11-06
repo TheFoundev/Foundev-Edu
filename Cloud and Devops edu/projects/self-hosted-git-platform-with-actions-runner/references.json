@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Git hash-object",
+    "url": "https://git-scm.com/docs/git-hash-object",
+    "type": "official documentation"
+  },
+  {
+    "title": "Git objects",
+    "url": "https://git-scm.com/book/en/v2/Git-Internals-Git-Objects",
+    "type": "official documentation"
+  },
+  {
+    "title": "Go os/exec",
+    "url": "https://pkg.go.dev/os/exec",
+    "type": "official documentation"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "module_id": "module-02",
+  "title": "Validate Address Shape and Checksum",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Validate Address Shape and Checksum.",
+  "learning_objectives": [
+    "Explain validate address shape and checksum using a plain-language model",
+    "Trace the source implementation for validate address shape and checksum",
+    "Assess failure and operational limits of validate address shape and checksum"
+  ],
+  "prerequisites": [
+    "module-01"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A 20-byte hex address shape is different from EIP-55 mixed-case checksum validation.",
+    "isAddress checks 40 hex characters; hasValidChecksum computes Keccak casing; README notes checksum validation limits in UI."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/ethereum.js",
+    "src/keccak.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/ethereum.js",
+    "symbol_or_search_term": "hasValidChecksum",
+    "line_start": 72,
+    "line_end": 81
+  }
+}

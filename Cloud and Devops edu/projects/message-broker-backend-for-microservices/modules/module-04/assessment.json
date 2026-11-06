@@ -1,0 +1,255 @@
+{
+  "module_id": "module-04",
+  "questions": [
+    {
+      "question_id": "q4-01",
+      "question_text": "Which supplied source is primary for publish with confirms and idempotency?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "src/mbb_publisher.erl; src/mbb_order.erl"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain publish with confirms and idempotency using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q4-02",
+      "question_text": "In plain terms, which idea best explains publish with confirms and idempotency?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        },
+        {
+          "option_id": "d",
+          "text": "Publisher confirms tell a producer the broker accepted a message; an idempotency key helps recognize repeated orders."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain publish with confirms and idempotency using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q4-03",
+      "question_text": "Which source finding supports the basic model for publish with confirms and idempotency?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "Publisher uses confirms and order idempotency key as described by README."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain publish with confirms and idempotency using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q4-04",
+      "question_text": "Where should you trace the implementation of publish with confirms and idempotency?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "src/mbb_publisher.erl; src/mbb_order.erl"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for publish with confirms and idempotency",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-05",
+      "question_text": "Which source excerpt or paraphrase illustrates publish with confirms and idempotency?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Publisher uses confirms and order idempotency key as described by README."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for publish with confirms and idempotency",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-06",
+      "question_text": "A failure occurs while checking publish with confirms and idempotency. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        },
+        {
+          "option_id": "d",
+          "text": "Publisher uses confirms and order idempotency key as described by README."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for publish with confirms and idempotency",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-07",
+      "question_text": "Which supplied source should be inspected before changing publish with confirms and idempotency?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "src/mbb_publisher.erl; src/mbb_order.erl"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for publish with confirms and idempotency",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-08",
+      "question_text": "Which source finding is accurate for publish with confirms and idempotency?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "Publisher uses confirms and order idempotency key as described by README."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for publish with confirms and idempotency",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-09",
+      "question_text": "Which review best connects the basic model and source details in publish with confirms and idempotency?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Use the model that Publisher confirms tell a producer the broker accepted a message; an idempotency key helps recognize repeated orders., then trace src/mbb_publisher.erl; src/mbb_order.erl; the source finding is Publisher uses confirms and order idempotency key as described by README."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of publish with confirms and idempotency",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q4-10",
+      "question_text": "After reading the whole module on publish with confirms and idempotency, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        },
+        {
+          "option_id": "d",
+          "text": "The example is Publisher uses confirms and order idempotency key as described by README.; interpret it with this finding: Publisher uses confirms and order idempotency key as described by README. Verify the connected component before making a production claim."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of publish with confirms and idempotency",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "module_id": "module-05",
+  "title": "Encode ERC20 Transfer Calldata",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Encode ERC20 Transfer Calldata.",
+  "learning_objectives": [
+    "Explain encode erc20 transfer calldata using a plain-language model",
+    "Trace the source implementation for encode erc20 transfer calldata",
+    "Assess failure and operational limits of encode erc20 transfer calldata"
+  ],
+  "prerequisites": [
+    "module-04"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "ABI calldata starts with a 4-byte function selector followed by 32-byte encoded arguments.",
+    "TRANSFER_SELECTOR a9059cbb; encodeTransfer pads address and uint256 amount."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/ethereum.js",
+    "public/app.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/ethereum.js",
+    "symbol_or_search_term": "TRANSFER_SELECTOR",
+    "line_start": 1,
+    "line_end": 9
+  }
+}

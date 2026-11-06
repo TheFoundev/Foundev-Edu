@@ -1,0 +1,255 @@
+{
+  "module_id": "module-11",
+  "questions": [
+    {
+      "question_id": "q11-01",
+      "question_text": "Which supplied source is primary for delivery guarantees and failure handling?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "src/main/java/local/foundev/streams/streams/StreamsExceptionHandler.java; config/streams.properties"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain delivery guarantees and failure handling using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q11-02",
+      "question_text": "In plain terms, which idea best explains delivery guarantees and failure handling?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "Exactly-once is a configuration/transaction guarantee with a defined scope; it must not be inferred from the project name."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain delivery guarantees and failure handling using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q11-03",
+      "question_text": "Which source finding supports the basic model for delivery guarantees and failure handling?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "README claims/mentions exactly-once; verify actual processing.guarantee and transaction settings in source."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain delivery guarantees and failure handling using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q11-04",
+      "question_text": "Where should you trace the implementation of delivery guarantees and failure handling?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "src/main/java/local/foundev/streams/streams/StreamsExceptionHandler.java; config/streams.properties"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for delivery guarantees and failure handling",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q11-05",
+      "question_text": "Which source excerpt or paraphrase illustrates delivery guarantees and failure handling?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        },
+        {
+          "option_id": "d",
+          "text": "README claims/mentions exactly-once; verify actual processing.guarantee and transaction settings in source."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for delivery guarantees and failure handling",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q11-06",
+      "question_text": "A failure occurs while checking delivery guarantees and failure handling. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "README claims/mentions exactly-once; verify actual processing.guarantee and transaction settings in source."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for delivery guarantees and failure handling",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q11-07",
+      "question_text": "Which supplied source should be inspected before changing delivery guarantees and failure handling?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "src/main/java/local/foundev/streams/streams/StreamsExceptionHandler.java; config/streams.properties"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for delivery guarantees and failure handling",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q11-08",
+      "question_text": "Which source finding is accurate for delivery guarantees and failure handling?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README claims/mentions exactly-once; verify actual processing.guarantee and transaction settings in source."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for delivery guarantees and failure handling",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q11-09",
+      "question_text": "Which review best connects the basic model and source details in delivery guarantees and failure handling?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        },
+        {
+          "option_id": "d",
+          "text": "Use the model that Exactly-once is a configuration/transaction guarantee with a defined scope; it must not be inferred from the project name., then trace src/main/java/local/foundev/streams/streams/StreamsExceptionHandler.java; config/streams.properties; the source finding is README claims/mentions exactly-once; verify actual processing.guarantee and transaction settings in source."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of delivery guarantees and failure handling",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q11-10",
+      "question_text": "After reading the whole module on delivery guarantees and failure handling, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "The example is README claims/mentions exactly-once; verify actual processing.guarantee and transaction settings in source.; interpret it with this finding: README claims/mentions exactly-once; verify actual processing.guarantee and transaction settings in source. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of delivery guarantees and failure handling",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

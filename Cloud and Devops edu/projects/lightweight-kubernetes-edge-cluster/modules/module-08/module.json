@@ -1,0 +1,40 @@
+{
+  "module_id": "module-08",
+  "title": "Operate Health and etcd Backups",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Operate Health and etcd Backups.",
+  "learning_objectives": [
+    "Explain operate health and etcd backups using a plain-language model",
+    "Trace the source implementation for operate health and etcd backups",
+    "Assess failure and operational limits of operate health and etcd backups"
+  ],
+  "prerequisites": [
+    "module-07"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A systemd timer periodically runs a service; a health probe and etcd snapshot timer have different operational purposes.",
+    "Project supplies k3s healthcheck and backup service/timer plus retention scripts."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "systemd/"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "systemd/scripts/k3s-healthcheck.sh",
+    "symbol_or_search_term": "healthcheck",
+    "line_start": 11,
+    "line_end": 20
+  }
+}

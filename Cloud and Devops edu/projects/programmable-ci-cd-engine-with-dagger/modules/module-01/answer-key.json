@@ -1,0 +1,145 @@
+{
+  "module_id": "module-01",
+  "answers": [
+    {
+      "question_id": "q1-01",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is engine.go. It establishes that Step contains dependencies, environment, retries, timeout, and secrets; Pipeline contains Steps. The source example is Step contains dependencies, environment, retries, timeout, and secrets; Pipeline contains Steps. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect engine.go.",
+        "c": "This source is not the component identified for the module. Inspect engine.go.",
+        "d": "This source is not the component identified for the module. Inspect engine.go."
+      },
+      "concept_tested": "Model Pipeline Steps and Dependencies",
+      "related_lesson_id": "lesson-01",
+      "source_file": "engine.go",
+      "supporting_reference": "https://docs.dagger.io/reference/sdks/go/"
+    },
+    {
+      "question_id": "q1-02",
+      "correct_option_id": "a",
+      "explanation": "This is the module's lay explanation. The implementation source is engine.go, where the more specific finding is: Step contains dependencies, environment, retries, timeout, and secrets; Pipeline contains Steps. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "b": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "c": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "d": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Model Pipeline Steps and Dependencies",
+      "related_lesson_id": "lesson-01",
+      "source_file": "engine.go",
+      "supporting_reference": "https://docs.dagger.io/reference/sdks/go/"
+    },
+    {
+      "question_id": "q1-03",
+      "correct_option_id": "d",
+      "explanation": "This excerpt or paraphrase is drawn from engine.go. The source finding is: Step contains dependencies, environment, retries, timeout, and secrets; Pipeline contains Steps. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "b": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "c": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Model Pipeline Steps and Dependencies",
+      "related_lesson_id": "lesson-01",
+      "source_file": "engine.go",
+      "supporting_reference": "https://docs.dagger.io/reference/sdks/go/"
+    },
+    {
+      "question_id": "q1-04",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is engine.go. It establishes that Step contains dependencies, environment, retries, timeout, and secrets; Pipeline contains Steps. The source example is Step contains dependencies, environment, retries, timeout, and secrets; Pipeline contains Steps. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect engine.go.",
+        "b": "This source is not the component identified for the module. Inspect engine.go.",
+        "d": "This source is not the component identified for the module. Inspect engine.go."
+      },
+      "concept_tested": "Model Pipeline Steps and Dependencies",
+      "related_lesson_id": "lesson-02",
+      "source_file": "engine.go",
+      "supporting_reference": "https://docs.dagger.io/reference/sdks/go/"
+    },
+    {
+      "question_id": "q1-05",
+      "correct_option_id": "b",
+      "explanation": "This excerpt or paraphrase is drawn from engine.go. The source finding is: Step contains dependencies, environment, retries, timeout, and secrets; Pipeline contains Steps. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "c": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "d": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Model Pipeline Steps and Dependencies",
+      "related_lesson_id": "lesson-02",
+      "source_file": "engine.go",
+      "supporting_reference": "https://docs.dagger.io/reference/sdks/go/"
+    },
+    {
+      "question_id": "q1-06",
+      "correct_option_id": "a",
+      "explanation": "This excerpt or paraphrase is drawn from engine.go. The source finding is: Step contains dependencies, environment, retries, timeout, and secrets; Pipeline contains Steps. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "b": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "c": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "d": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Model Pipeline Steps and Dependencies",
+      "related_lesson_id": "lesson-02",
+      "source_file": "engine.go",
+      "supporting_reference": "https://docs.dagger.io/reference/sdks/go/"
+    },
+    {
+      "question_id": "q1-07",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is engine.go. It establishes that Step contains dependencies, environment, retries, timeout, and secrets; Pipeline contains Steps. The source example is Step contains dependencies, environment, retries, timeout, and secrets; Pipeline contains Steps. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect engine.go.",
+        "b": "This source is not the component identified for the module. Inspect engine.go.",
+        "c": "This source is not the component identified for the module. Inspect engine.go."
+      },
+      "concept_tested": "Model Pipeline Steps and Dependencies",
+      "related_lesson_id": "lesson-02",
+      "source_file": "engine.go",
+      "supporting_reference": "https://docs.dagger.io/reference/sdks/go/"
+    },
+    {
+      "question_id": "q1-08",
+      "correct_option_id": "c",
+      "explanation": "This excerpt or paraphrase is drawn from engine.go. The source finding is: Step contains dependencies, environment, retries, timeout, and secrets; Pipeline contains Steps. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "b": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "d": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Model Pipeline Steps and Dependencies",
+      "related_lesson_id": "lesson-02",
+      "source_file": "engine.go",
+      "supporting_reference": "https://docs.dagger.io/reference/sdks/go/"
+    },
+    {
+      "question_id": "q1-09",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is engine.go. It establishes that Step contains dependencies, environment, retries, timeout, and secrets; Pipeline contains Steps. The source example is Step contains dependencies, environment, retries, timeout, and secrets; Pipeline contains Steps. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "c": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "d": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Model Pipeline Steps and Dependencies",
+      "related_lesson_id": "lesson-03",
+      "source_file": "engine.go",
+      "supporting_reference": "https://docs.dagger.io/reference/sdks/go/"
+    },
+    {
+      "question_id": "q1-10",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is engine.go. It establishes that Step contains dependencies, environment, retries, timeout, and secrets; Pipeline contains Steps. The source example is Step contains dependencies, environment, retries, timeout, and secrets; Pipeline contains Steps. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "c": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "d": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Model Pipeline Steps and Dependencies",
+      "related_lesson_id": "lesson-03",
+      "source_file": "engine.go",
+      "supporting_reference": "https://docs.dagger.io/reference/sdks/go/"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "module_id": "module-06",
+  "questions": [
+    {
+      "question_id": "q6-01",
+      "question_text": "Which supplied source is primary for dispute and arbiter lifecycle?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "contracts/Escrow.sol"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain dispute and arbiter lifecycle using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q6-02",
+      "question_text": "In plain terms, which idea best explains dispute and arbiter lifecycle?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "A dispute pauses the ordinary path while the assigned arbiter records a ruling."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain dispute and arbiter lifecycle using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q6-03",
+      "question_text": "Which source finding supports the basic model for dispute and arbiter lifecycle?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "raiseDispute opens a window; arbiterRule records a choice; executeRuling applies it; timeoutRefund handles expiry."
+        },
+        {
+          "option_id": "b",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain dispute and arbiter lifecycle using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q6-04",
+      "question_text": "Where should you trace the implementation of dispute and arbiter lifecycle?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "contracts/Escrow.sol"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for dispute and arbiter lifecycle",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-05",
+      "question_text": "Which source excerpt or paraphrase illustrates dispute and arbiter lifecycle?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "raiseDispute(reason) → arbiterRule(bool) → executeRuling()"
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for dispute and arbiter lifecycle",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-06",
+      "question_text": "A failure occurs while checking dispute and arbiter lifecycle. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "raiseDispute opens a window; arbiterRule records a choice; executeRuling applies it; timeoutRefund handles expiry."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for dispute and arbiter lifecycle",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-07",
+      "question_text": "Which supplied source should be inspected before changing dispute and arbiter lifecycle?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "contracts/Escrow.sol"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for dispute and arbiter lifecycle",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-08",
+      "question_text": "Which source finding is accurate for dispute and arbiter lifecycle?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "A secret in source or logs remains confidential from repository users."
+        },
+        {
+          "option_id": "d",
+          "text": "raiseDispute opens a window; arbiterRule records a choice; executeRuling applies it; timeoutRefund handles expiry."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for dispute and arbiter lifecycle",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q6-09",
+      "question_text": "Which review best connects the basic model and source details in dispute and arbiter lifecycle?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "Use the model that A dispute pauses the ordinary path while the assigned arbiter records a ruling., then trace contracts/Escrow.sol; the source finding is raiseDispute opens a window; arbiterRule records a choice; executeRuling applies it; timeoutRefund handles expiry."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of dispute and arbiter lifecycle",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q6-10",
+      "question_text": "After reading the whole module on dispute and arbiter lifecycle, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "The example is raiseDispute(reason) → arbiterRule(bool) → executeRuling(); interpret it with this finding: raiseDispute opens a window; arbiterRule records a choice; executeRuling applies it; timeoutRefund handles expiry. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of dispute and arbiter lifecycle",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

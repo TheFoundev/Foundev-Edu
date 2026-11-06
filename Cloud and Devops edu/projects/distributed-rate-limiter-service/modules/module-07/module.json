@@ -1,0 +1,40 @@
+{
+  "module_id": "module-07",
+  "title": "Plan for Store Failure",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Plan for Store Failure.",
+  "learning_objectives": [
+    "Explain plan for store failure using a plain-language model",
+    "Trace the source implementation for plan for store failure",
+    "Assess failure and operational limits of plan for store failure"
+  ],
+  "prerequisites": [
+    "module-06"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Fail-open means a request is permitted if the store errors; that preserves availability but removes rate protection during the outage.",
+    "AllowAt returns true on Store.Take error; Remaining returns zero on error."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "limiter.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "limiter.go",
+    "symbol_or_search_term": "AllowAt",
+    "line_start": 45,
+    "line_end": 54
+  }
+}

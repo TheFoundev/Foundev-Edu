@@ -1,0 +1,42 @@
+{
+  "module_id": "module-08",
+  "title": "Metrics and Expiration",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Metrics and Expiration.",
+  "learning_objectives": [
+    "Explain metrics and expiration using a plain-language model",
+    "Trace the source implementation for metrics and expiration",
+    "Assess failure and operational limits of metrics and expiration"
+  ],
+  "prerequisites": [
+    "module-07"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Metrics are an operational view, and they must reflect the backend actually in use.",
+    "Stats reads Counters only from MemoryStore; RedisStore Sweep returns 0 and relies on key TTL."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "limiter.go",
+    "store.go",
+    "main.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "store.go",
+    "symbol_or_search_term": "RedisStore",
+    "line_start": 261,
+    "line_end": 270
+  }
+}

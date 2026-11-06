@@ -1,0 +1,41 @@
+{
+  "module_id": "module-08",
+  "title": "Expose the JSON Control API",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Expose the JSON Control API.",
+  "learning_objectives": [
+    "Explain expose the json control api using a plain-language model",
+    "Trace the source implementation for expose the json control api",
+    "Assess failure and operational limits of expose the json control api"
+  ],
+  "prerequisites": [
+    "module-07"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "HTTP endpoints let clients inspect resources, desired state, plans, reconcile, and health.",
+    "Server routes /api/resources, /api/desired, /api/plan, /api/reconcile, /healthz."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "control.go",
+    "main.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "control.go",
+    "symbol_or_search_term": "Server",
+    "line_start": 402,
+    "line_end": 411
+  }
+}

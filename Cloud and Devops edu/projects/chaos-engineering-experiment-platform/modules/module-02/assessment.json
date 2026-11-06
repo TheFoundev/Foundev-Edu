@@ -1,0 +1,255 @@
+{
+  "module_id": "module-02",
+  "questions": [
+    {
+      "question_id": "q2-01",
+      "question_text": "Which supplied source is primary for validate actions and hypotheses?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "chaos.go"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain validate actions and hypotheses using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q2-02",
+      "question_text": "In plain terms, which idea best explains validate actions and hypotheses?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "Validation checks a plan before it can affect a target."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain validate actions and hypotheses using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q2-03",
+      "question_text": "Which source finding supports the basic model for validate actions and hypotheses?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Validate allows delay/kill/stress and nonempty targets; hypothesis operators are lt/gt/eq."
+        },
+        {
+          "option_id": "b",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain validate actions and hypotheses using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q2-04",
+      "question_text": "Where should you trace the implementation of validate actions and hypotheses?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "chaos.go"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for validate actions and hypotheses",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-05",
+      "question_text": "Which source excerpt or paraphrase illustrates validate actions and hypotheses?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "Compare(op, value, threshold)"
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for validate actions and hypotheses",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-06",
+      "question_text": "A failure occurs while checking validate actions and hypotheses. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "Validate allows delay/kill/stress and nonempty targets; hypothesis operators are lt/gt/eq."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for validate actions and hypotheses",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-07",
+      "question_text": "Which supplied source should be inspected before changing validate actions and hypotheses?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "chaos.go"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for validate actions and hypotheses",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-08",
+      "question_text": "Which source finding is accurate for validate actions and hypotheses?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "Validate allows delay/kill/stress and nonempty targets; hypothesis operators are lt/gt/eq."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for validate actions and hypotheses",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-09",
+      "question_text": "Which review best connects the basic model and source details in validate actions and hypotheses?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "Use the model that Validation checks a plan before it can affect a target., then trace chaos.go; the source finding is Validate allows delay/kill/stress and nonempty targets; hypothesis operators are lt/gt/eq."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of validate actions and hypotheses",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q2-10",
+      "question_text": "After reading the whole module on validate actions and hypotheses, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "The example is Compare(op, value, threshold); interpret it with this finding: Validate allows delay/kill/stress and nonempty targets; hypothesis operators are lt/gt/eq. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of validate actions and hypotheses",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

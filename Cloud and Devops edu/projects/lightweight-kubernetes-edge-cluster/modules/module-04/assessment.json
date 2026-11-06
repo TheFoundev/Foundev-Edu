@@ -1,0 +1,255 @@
+{
+  "module_id": "module-04",
+  "questions": [
+    {
+      "question_id": "q4-01",
+      "question_text": "Which supplied source is primary for join additional servers and agents?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "bootstrap/11-install-server-join.sh; bootstrap/20-install-agent.sh"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain join additional servers and agents using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q4-02",
+      "question_text": "In plain terms, which idea best explains join additional servers and agents?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        },
+        {
+          "option_id": "d",
+          "text": "Join tokens authorize nodes; control-plane peers and workers use different roles and commands."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain join additional servers and agents using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q4-03",
+      "question_text": "Which source finding supports the basic model for join additional servers and agents?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "Server join and agent join consume a token file; agent gets node-class label."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain join additional servers and agents using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q4-04",
+      "question_text": "Where should you trace the implementation of join additional servers and agents?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "bootstrap/11-install-server-join.sh; bootstrap/20-install-agent.sh"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for join additional servers and agents",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-05",
+      "question_text": "Which source excerpt or paraphrase illustrates join additional servers and agents?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Server join and agent join consume a token file; agent gets node-class label."
+        },
+        {
+          "option_id": "b",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for join additional servers and agents",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-06",
+      "question_text": "A failure occurs while checking join additional servers and agents. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        },
+        {
+          "option_id": "d",
+          "text": "Server join and agent join consume a token file; agent gets node-class label."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for join additional servers and agents",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-07",
+      "question_text": "Which supplied source should be inspected before changing join additional servers and agents?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "bootstrap/11-install-server-join.sh; bootstrap/20-install-agent.sh"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for join additional servers and agents",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-08",
+      "question_text": "Which source finding is accurate for join additional servers and agents?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "Server join and agent join consume a token file; agent gets node-class label."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for join additional servers and agents",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-09",
+      "question_text": "Which review best connects the basic model and source details in join additional servers and agents?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Use the model that Join tokens authorize nodes; control-plane peers and workers use different roles and commands., then trace bootstrap/11-install-server-join.sh; bootstrap/20-install-agent.sh; the source finding is Server join and agent join consume a token file; agent gets node-class label."
+        },
+        {
+          "option_id": "b",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of join additional servers and agents",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q4-10",
+      "question_text": "After reading the whole module on join additional servers and agents, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        },
+        {
+          "option_id": "d",
+          "text": "The example is Server join and agent join consume a token file; agent gets node-class label.; interpret it with this finding: Server join and agent join consume a token file; agent gets node-class label. Verify the connected component before making a production claim."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of join additional servers and agents",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

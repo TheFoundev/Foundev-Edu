@@ -1,0 +1,255 @@
+{
+  "module_id": "module-01",
+  "questions": [
+    {
+      "question_id": "q1-01",
+      "question_text": "Which supplied source is primary for token bucket in plain terms?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "limiter.go; store.go"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain token bucket in plain terms using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q1-02",
+      "question_text": "In plain terms, which idea best explains token bucket in plain terms?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A token bucket is a cup that refills at a steady rate; requests spend tokens and burst sets the cup size."
+        },
+        {
+          "option_id": "b",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain token bucket in plain terms using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q1-03",
+      "question_text": "Which source finding supports the basic model for token bucket in plain terms?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        },
+        {
+          "option_id": "d",
+          "text": "MemoryStore stores floating tokens and last time, refilling elapsed seconds × rate up to burst."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain token bucket in plain terms using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q1-04",
+      "question_text": "Where should you trace the implementation of token bucket in plain terms?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "limiter.go; store.go"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for token bucket in plain terms",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-05",
+      "question_text": "Which source excerpt or paraphrase illustrates token bucket in plain terms?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "MemoryStore stores floating tokens and last time, refilling elapsed seconds × rate up to burst."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for token bucket in plain terms",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-06",
+      "question_text": "A failure occurs while checking token bucket in plain terms. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "MemoryStore stores floating tokens and last time, refilling elapsed seconds × rate up to burst."
+        },
+        {
+          "option_id": "b",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for token bucket in plain terms",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-07",
+      "question_text": "Which supplied source should be inspected before changing token bucket in plain terms?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "limiter.go; store.go"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for token bucket in plain terms",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-08",
+      "question_text": "Which source finding is accurate for token bucket in plain terms?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "MemoryStore stores floating tokens and last time, refilling elapsed seconds × rate up to burst."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for token bucket in plain terms",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-09",
+      "question_text": "Which review best connects the basic model and source details in token bucket in plain terms?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "Use the model that A token bucket is a cup that refills at a steady rate; requests spend tokens and burst sets the cup size., then trace limiter.go; store.go; the source finding is MemoryStore stores floating tokens and last time, refilling elapsed seconds × rate up to burst."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of token bucket in plain terms",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q1-10",
+      "question_text": "After reading the whole module on token bucket in plain terms, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "The example is MemoryStore stores floating tokens and last time, refilling elapsed seconds × rate up to burst.; interpret it with this finding: MemoryStore stores floating tokens and last time, refilling elapsed seconds × rate up to burst. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "b",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of token bucket in plain terms",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

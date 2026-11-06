@@ -1,0 +1,40 @@
+{
+  "module_id": "module-04",
+  "title": "Use Memory and File Caches",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Use Memory and File Caches.",
+  "learning_objectives": [
+    "Explain use memory and file caches using a plain-language model",
+    "Trace the source implementation for use memory and file caches",
+    "Assess failure and operational limits of use memory and file caches"
+  ],
+  "prerequisites": [
+    "module-03"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A memory cache lasts for one process; a file cache can survive a new engine process on the same disk.",
+    "MemoryCache and FileCache implement Has/Put."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "engine.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "engine.go",
+    "symbol_or_search_term": "MemoryCache",
+    "line_start": 242,
+    "line_end": 251
+  }
+}

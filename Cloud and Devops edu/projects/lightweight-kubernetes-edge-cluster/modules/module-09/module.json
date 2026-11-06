@@ -1,0 +1,40 @@
+{
+  "module_id": "module-09",
+  "title": "Use the Offline Validation Gate",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Use the Offline Validation Gate.",
+  "learning_objectives": [
+    "Explain use the offline validation gate using a plain-language model",
+    "Trace the source implementation for use the offline validation gate",
+    "Assess failure and operational limits of use the offline validation gate"
+  ],
+  "prerequisites": [
+    "module-08"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A static gate checks files and policies without contacting Kubernetes; it cannot prove a live cluster works.",
+    "Validator parses YAML/chart structure and scans secrets/dangling refs/destructive commands."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "tools/validate.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "tools/validate.py",
+    "symbol_or_search_term": "structure",
+    "line_start": 180,
+    "line_end": 189
+  }
+}

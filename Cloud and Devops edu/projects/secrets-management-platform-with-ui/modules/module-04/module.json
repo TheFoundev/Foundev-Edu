@@ -1,0 +1,40 @@
+{
+  "module_id": "module-04",
+  "title": "Store Envelopes and Audit Records",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Store Envelopes and Audit Records.",
+  "learning_objectives": [
+    "Explain store envelopes and audit records using a plain-language model",
+    "Trace the source implementation for store envelopes and audit records",
+    "Assess failure and operational limits of store envelopes and audit records"
+  ],
+  "prerequisites": [
+    "module-03"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "The store saves encrypted envelopes and metadata in a JSON file; the audit list records action/name/time but is bounded.",
+    "SecretStore.set encrypts and saves; record trims audit to last 200 items."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/store.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/store.js",
+    "symbol_or_search_term": "SecretStore",
+    "line_start": 82,
+    "line_end": 87
+  }
+}

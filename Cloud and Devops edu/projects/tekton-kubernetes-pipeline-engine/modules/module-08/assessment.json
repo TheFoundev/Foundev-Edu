@@ -1,0 +1,255 @@
+{
+  "module_id": "module-08",
+  "questions": [
+    {
+      "question_id": "q8-01",
+      "question_text": "Which supplied source is primary for load definitions from directories?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "engine.go; main.go"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain load definitions from directories using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q8-02",
+      "question_text": "In plain terms, which idea best explains load definitions from directories?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        },
+        {
+          "option_id": "d",
+          "text": "A directory loader reads task and pipeline definitions then connects references."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain load definitions from directories using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q8-03",
+      "question_text": "Which source finding supports the basic model for load definitions from directories?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "LoadDefinitionSet reads files and returns pipeline plus task map."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain load definitions from directories using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q8-04",
+      "question_text": "Where should you trace the implementation of load definitions from directories?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "engine.go; main.go"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for load definitions from directories",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-05",
+      "question_text": "Which source excerpt or paraphrase illustrates load definitions from directories?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "LoadDefinitionSet reads files and returns pipeline plus task map."
+        },
+        {
+          "option_id": "b",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for load definitions from directories",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-06",
+      "question_text": "A failure occurs while checking load definitions from directories. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        },
+        {
+          "option_id": "d",
+          "text": "LoadDefinitionSet reads files and returns pipeline plus task map."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for load definitions from directories",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-07",
+      "question_text": "Which supplied source should be inspected before changing load definitions from directories?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "engine.go; main.go"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for load definitions from directories",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-08",
+      "question_text": "Which source finding is accurate for load definitions from directories?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "LoadDefinitionSet reads files and returns pipeline plus task map."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for load definitions from directories",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-09",
+      "question_text": "Which review best connects the basic model and source details in load definitions from directories?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Use the model that A directory loader reads task and pipeline definitions then connects references., then trace engine.go; main.go; the source finding is LoadDefinitionSet reads files and returns pipeline plus task map."
+        },
+        {
+          "option_id": "b",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of load definitions from directories",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q8-10",
+      "question_text": "After reading the whole module on load definitions from directories, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        },
+        {
+          "option_id": "d",
+          "text": "The example is LoadDefinitionSet reads files and returns pipeline plus task map.; interpret it with this finding: LoadDefinitionSet reads files and returns pipeline plus task map. Verify the connected component before making a production claim."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of load definitions from directories",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

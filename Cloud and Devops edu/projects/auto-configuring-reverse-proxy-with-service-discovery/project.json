@@ -1,0 +1,28 @@
+{
+  "title": "Auto-Configuring Reverse Proxy with Service Discovery",
+  "slug": "auto-configuring-reverse-proxy-with-service-discovery",
+  "description": "A Go reverse proxy parses a small config, selects healthy backends, and can discover labeled Docker containers.",
+  "problem_solved": "Understand a service registry, routing, round robin, and the privilege boundary around Docker daemon access.",
+  "target_audience": "Advanced beginner/intermediate Cloud and DevOps learners",
+  "technology_stack": [
+    "Go",
+    "net/http",
+    "httputil",
+    "Docker Engine API"
+  ],
+  "difficulty_level": "intermediate",
+  "prerequisites": [
+    "Basic programming and terminal use",
+    "Read the project's source tree and setup guide",
+    "Use disposable local/test environments for operational exercises"
+  ],
+  "learning_outcomes": [
+    "Explain the source system's implemented components and limitations",
+    "Trace data/control flow through modules and interfaces",
+    "Distinguish simulation, local implementation, and external production services",
+    "Use tests, logs, and safe experiments to verify claims",
+    "Apply security, operational, and failure-mode reasoning"
+  ],
+  "estimated_completion_time": "20–32 hours",
+  "content_schema_version": "1.0.0"
+}

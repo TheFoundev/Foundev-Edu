@@ -1,0 +1,40 @@
+{
+  "module_id": "module-04",
+  "title": "Execute Steps and Capture Results",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Execute Steps and Capture Results.",
+  "learning_objectives": [
+    "Explain execute steps and capture results using a plain-language model",
+    "Trace the source implementation for execute steps and capture results",
+    "Assess failure and operational limits of execute steps and capture results"
+  ],
+  "prerequisites": [
+    "module-03"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Runner executes commands and records output, exit code, and duration; in this project commands run on the host.",
+    "runStep invokes command executor and reads output/result files."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "engine.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "engine.go",
+    "symbol_or_search_term": "runStep",
+    "line_start": 240,
+    "line_end": 249
+  }
+}

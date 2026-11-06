@@ -1,0 +1,38 @@
+{
+  "module_id": "module-01",
+  "title": "Service and Instance Models",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Service and Instance Models.",
+  "learning_objectives": [
+    "Explain service and instance models using a plain-language model",
+    "Trace the source implementation for service and instance models",
+    "Assess failure and operational limits of service and instance models"
+  ],
+  "prerequisites": [],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A service is a named doorway with several backend rooms; an instance stores URL and health.",
+    "Service groups instances; Registry holds service map/order guarded by an RWMutex."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "proxy.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "proxy.go",
+    "symbol_or_search_term": "Registry",
+    "line_start": 217,
+    "line_end": 226
+  }
+}

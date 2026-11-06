@@ -1,0 +1,30 @@
+{
+  "title": "Lightweight Kubernetes Edge Cluster",
+  "slug": "lightweight-kubernetes-edge-cluster",
+  "description": "An operations repository provides scripts, K3s configuration, Helm workloads, systemd units, backups, and an offline validation gate.",
+  "problem_solved": "Plan and review a small HA edge cluster while understanding quorum, node joins, local storage, tokens, and destructive operations.",
+  "target_audience": "Advanced beginner/intermediate Cloud and DevOps learners",
+  "technology_stack": [
+    "K3s",
+    "Kubernetes",
+    "Helm",
+    "systemd",
+    "Linux",
+    "Raspberry Pi/VM"
+  ],
+  "difficulty_level": "intermediate",
+  "prerequisites": [
+    "Basic programming and terminal use",
+    "Read the project's source tree and setup guide",
+    "Use disposable local/test environments for operational exercises"
+  ],
+  "learning_outcomes": [
+    "Explain the source system's implemented components and limitations",
+    "Trace data/control flow through modules and interfaces",
+    "Distinguish simulation, local implementation, and external production services",
+    "Use tests, logs, and safe experiments to verify claims",
+    "Apply security, operational, and failure-mode reasoning"
+  ],
+  "estimated_completion_time": "28–44 hours",
+  "content_schema_version": "1.0.0"
+}

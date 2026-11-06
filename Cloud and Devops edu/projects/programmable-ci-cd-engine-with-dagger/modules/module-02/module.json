@@ -1,0 +1,40 @@
+{
+  "module_id": "module-02",
+  "title": "Resolve the Dependency Graph",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Resolve the Dependency Graph.",
+  "learning_objectives": [
+    "Explain resolve the dependency graph using a plain-language model",
+    "Trace the source implementation for resolve the dependency graph",
+    "Assess failure and operational limits of resolve the dependency graph"
+  ],
+  "prerequisites": [
+    "module-01"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Topological ordering means a prerequisite runs before the step that depends on it.",
+    "Order rejects unknown dependencies, duplicate names, and cycles."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "engine.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "engine.go",
+    "symbol_or_search_term": "Order",
+    "line_start": 312,
+    "line_end": 321
+  }
+}

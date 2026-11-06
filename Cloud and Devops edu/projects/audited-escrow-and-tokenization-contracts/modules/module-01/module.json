@@ -1,0 +1,39 @@
+{
+  "module_id": "module-01",
+  "title": "Roles and Contract Boundaries",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Roles and Contract Boundaries.",
+  "learning_objectives": [
+    "Explain roles and contract boundaries using a plain-language model",
+    "Trace the source implementation for roles and contract boundaries",
+    "Assess failure and operational limits of roles and contract boundaries"
+  ],
+  "prerequisites": [],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A contract is a public rulebook that holds state and permits defined roles to act.",
+    "Escrow distinguishes buyer, seller, and arbiter; TokenizedAsset uses AccessControl roles for minting/auditing and Pausable controls."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "contracts/Escrow.sol",
+    "contracts/TokenizedAsset.sol"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "contracts/TokenizedAsset.sol",
+    "symbol_or_search_term": "TokenizedAsset",
+    "line_start": 19,
+    "line_end": 28
+  }
+}

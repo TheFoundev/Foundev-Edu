@@ -1,0 +1,255 @@
+{
+  "module_id": "module-09",
+  "questions": [
+    {
+      "question_id": "q9-01",
+      "question_text": "Which supplied source is primary for test hashes and workflow semantics?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "repository_test.go"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain test hashes and workflow semantics using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q9-02",
+      "question_text": "In plain terms, which idea best explains test hashes and workflow semantics?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Tests compare object hashes/history and exercise parser, runner, failure, and persistence behavior."
+        },
+        {
+          "option_id": "b",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain test hashes and workflow semantics using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q9-03",
+      "question_text": "Which source finding supports the basic model for test hashes and workflow semantics?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "The test suite verifies selected formats and commands, not full Git/Actions compatibility."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain test hashes and workflow semantics using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q9-04",
+      "question_text": "Where should you trace the implementation of test hashes and workflow semantics?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "repository_test.go"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for test hashes and workflow semantics",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-05",
+      "question_text": "Which source excerpt or paraphrase illustrates test hashes and workflow semantics?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "TestTheObjectHashIsTheGitHash"
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for test hashes and workflow semantics",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-06",
+      "question_text": "A failure occurs while checking test hashes and workflow semantics. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "The test suite verifies selected formats and commands, not full Git/Actions compatibility."
+        },
+        {
+          "option_id": "b",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for test hashes and workflow semantics",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-07",
+      "question_text": "Which supplied source should be inspected before changing test hashes and workflow semantics?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "repository_test.go"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for test hashes and workflow semantics",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-08",
+      "question_text": "Which source finding is accurate for test hashes and workflow semantics?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "The test suite verifies selected formats and commands, not full Git/Actions compatibility."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for test hashes and workflow semantics",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-09",
+      "question_text": "Which review best connects the basic model and source details in test hashes and workflow semantics?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "Use the model that Tests compare object hashes/history and exercise parser, runner, failure, and persistence behavior., then trace repository_test.go; the source finding is The test suite verifies selected formats and commands, not full Git/Actions compatibility."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of test hashes and workflow semantics",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q9-10",
+      "question_text": "After reading the whole module on test hashes and workflow semantics, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "The example is TestTheObjectHashIsTheGitHash; interpret it with this finding: The test suite verifies selected formats and commands, not full Git/Actions compatibility. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "b",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of test hashes and workflow semantics",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

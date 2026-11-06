@@ -1,0 +1,41 @@
+{
+  "module_id": "module-08",
+  "title": "Review Monitoring Scope and Tests",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Review Monitoring Scope and Tests.",
+  "learning_objectives": [
+    "Explain review monitoring scope and tests using a plain-language model",
+    "Trace the source implementation for review monitoring scope and tests",
+    "Assess failure and operational limits of review monitoring scope and tests"
+  ],
+  "prerequisites": [
+    "module-07"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "This source checks HTTP only; it is not a complete uptime suite for TCP, DNS, TLS expiry, or page content.",
+    "The checkOnce function issues HTTP requests; tests cover checks, scheduling, notifications, transitions, and webhook behavior."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/monitor.js",
+    "test/"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/monitor.js",
+    "symbol_or_search_term": "checkOnce",
+    "line_start": 114,
+    "line_end": 123
+  }
+}

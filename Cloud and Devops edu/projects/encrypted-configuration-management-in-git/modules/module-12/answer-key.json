@@ -1,0 +1,145 @@
+{
+  "module_id": "module-12",
+  "answers": [
+    {
+      "question_id": "q12-01",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is tests/; secretsync/audit.py; secretsync/plaintext.py; README.md. It establishes that AuditLog.verify checks a local hash chain and plaintext scanning uses configured patterns; neither detects every compromise or plaintext secret. The source example is AuditLog.verify The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "This source is not the component identified for the module. Inspect tests/; secretsync/audit.py; secretsync/plaintext.py; README.md.",
+        "c": "This source is not the component identified for the module. Inspect tests/; secretsync/audit.py; secretsync/plaintext.py; README.md.",
+        "d": "This source is not the component identified for the module. Inspect tests/; secretsync/audit.py; secretsync/plaintext.py; README.md."
+      },
+      "concept_tested": "Verify and State the Security Limits",
+      "related_lesson_id": "lesson-01",
+      "source_file": "tests/; secretsync/audit.py; secretsync/plaintext.py; README.md",
+      "supporting_reference": "https://github.com/age-sops/sops"
+    },
+    {
+      "question_id": "q12-02",
+      "correct_option_id": "d",
+      "explanation": "This is the module's lay explanation. The implementation source is tests/; secretsync/audit.py; secretsync/plaintext.py; README.md, where the more specific finding is: AuditLog.verify checks a local hash chain and plaintext scanning uses configured patterns; neither detects every compromise or plaintext secret. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "c": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Verify and State the Security Limits",
+      "related_lesson_id": "lesson-01",
+      "source_file": "tests/; secretsync/audit.py; secretsync/plaintext.py; README.md",
+      "supporting_reference": "https://github.com/age-sops/sops"
+    },
+    {
+      "question_id": "q12-03",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is tests/; secretsync/audit.py; secretsync/plaintext.py; README.md. It establishes that AuditLog.verify checks a local hash chain and plaintext scanning uses configured patterns; neither detects every compromise or plaintext secret. The source example is AuditLog.verify The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Verify and State the Security Limits",
+      "related_lesson_id": "lesson-01",
+      "source_file": "tests/; secretsync/audit.py; secretsync/plaintext.py; README.md",
+      "supporting_reference": "https://github.com/age-sops/sops"
+    },
+    {
+      "question_id": "q12-04",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is tests/; secretsync/audit.py; secretsync/plaintext.py; README.md. It establishes that AuditLog.verify checks a local hash chain and plaintext scanning uses configured patterns; neither detects every compromise or plaintext secret. The source example is AuditLog.verify The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect tests/; secretsync/audit.py; secretsync/plaintext.py; README.md.",
+        "c": "This source is not the component identified for the module. Inspect tests/; secretsync/audit.py; secretsync/plaintext.py; README.md.",
+        "d": "This source is not the component identified for the module. Inspect tests/; secretsync/audit.py; secretsync/plaintext.py; README.md."
+      },
+      "concept_tested": "Verify and State the Security Limits",
+      "related_lesson_id": "lesson-02",
+      "source_file": "tests/; secretsync/audit.py; secretsync/plaintext.py; README.md",
+      "supporting_reference": "https://github.com/age-sops/sops"
+    },
+    {
+      "question_id": "q12-05",
+      "correct_option_id": "a",
+      "explanation": "This excerpt or paraphrase is drawn from tests/; secretsync/audit.py; secretsync/plaintext.py; README.md. The source finding is: AuditLog.verify checks a local hash chain and plaintext scanning uses configured patterns; neither detects every compromise or plaintext secret. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "b": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "c": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Verify and State the Security Limits",
+      "related_lesson_id": "lesson-02",
+      "source_file": "tests/; secretsync/audit.py; secretsync/plaintext.py; README.md",
+      "supporting_reference": "https://github.com/age-sops/sops"
+    },
+    {
+      "question_id": "q12-06",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is tests/; secretsync/audit.py; secretsync/plaintext.py; README.md. It establishes that AuditLog.verify checks a local hash chain and plaintext scanning uses configured patterns; neither detects every compromise or plaintext secret. The source example is AuditLog.verify The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "c": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Verify and State the Security Limits",
+      "related_lesson_id": "lesson-02",
+      "source_file": "tests/; secretsync/audit.py; secretsync/plaintext.py; README.md",
+      "supporting_reference": "https://github.com/age-sops/sops"
+    },
+    {
+      "question_id": "q12-07",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is tests/; secretsync/audit.py; secretsync/plaintext.py; README.md. It establishes that AuditLog.verify checks a local hash chain and plaintext scanning uses configured patterns; neither detects every compromise or plaintext secret. The source example is AuditLog.verify The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect tests/; secretsync/audit.py; secretsync/plaintext.py; README.md.",
+        "b": "This source is not the component identified for the module. Inspect tests/; secretsync/audit.py; secretsync/plaintext.py; README.md.",
+        "d": "This source is not the component identified for the module. Inspect tests/; secretsync/audit.py; secretsync/plaintext.py; README.md."
+      },
+      "concept_tested": "Verify and State the Security Limits",
+      "related_lesson_id": "lesson-02",
+      "source_file": "tests/; secretsync/audit.py; secretsync/plaintext.py; README.md",
+      "supporting_reference": "https://github.com/age-sops/sops"
+    },
+    {
+      "question_id": "q12-08",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is tests/; secretsync/audit.py; secretsync/plaintext.py; README.md. It establishes that AuditLog.verify checks a local hash chain and plaintext scanning uses configured patterns; neither detects every compromise or plaintext secret. The source example is AuditLog.verify The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "c": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Verify and State the Security Limits",
+      "related_lesson_id": "lesson-02",
+      "source_file": "tests/; secretsync/audit.py; secretsync/plaintext.py; README.md",
+      "supporting_reference": "https://github.com/age-sops/sops"
+    },
+    {
+      "question_id": "q12-09",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is tests/; secretsync/audit.py; secretsync/plaintext.py; README.md. It establishes that AuditLog.verify checks a local hash chain and plaintext scanning uses configured patterns; neither detects every compromise or plaintext secret. The source example is AuditLog.verify The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "c": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Verify and State the Security Limits",
+      "related_lesson_id": "lesson-03",
+      "source_file": "tests/; secretsync/audit.py; secretsync/plaintext.py; README.md",
+      "supporting_reference": "https://github.com/age-sops/sops"
+    },
+    {
+      "question_id": "q12-10",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is tests/; secretsync/audit.py; secretsync/plaintext.py; README.md. It establishes that AuditLog.verify checks a local hash chain and plaintext scanning uses configured patterns; neither detects every compromise or plaintext secret. The source example is AuditLog.verify The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "c": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Verify and State the Security Limits",
+      "related_lesson_id": "lesson-03",
+      "source_file": "tests/; secretsync/audit.py; secretsync/plaintext.py; README.md",
+      "supporting_reference": "https://github.com/age-sops/sops"
+    }
+  ]
+}

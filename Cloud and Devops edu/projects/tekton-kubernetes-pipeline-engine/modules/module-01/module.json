@@ -1,0 +1,38 @@
+{
+  "module_id": "module-01",
+  "title": "Task, Step, and Pipeline Models",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Task, Step, and Pipeline Models.",
+  "learning_objectives": [
+    "Explain task, step, and pipeline models using a plain-language model",
+    "Trace the source implementation for task, step, and pipeline models",
+    "Assess failure and operational limits of task, step, and pipeline models"
+  ],
+  "prerequisites": [],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A Task groups steps; a Pipeline orders named task instances and their dependencies.",
+    "TaskStep, Task, PipelineTask, Pipeline, TaskStatus are plain Go types."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "engine.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "engine.go",
+    "symbol_or_search_term": "PipelineTask",
+    "line_start": 222,
+    "line_end": 231
+  }
+}

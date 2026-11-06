@@ -1,0 +1,145 @@
+{
+  "module_id": "module-09",
+  "answers": [
+    {
+      "question_id": "q9-01",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is tools/validate.py. It establishes that Validator parses YAML/chart structure and scans secrets/dangling refs/destructive commands. The source example is Validator parses YAML/chart structure and scans secrets/dangling refs/destructive commands. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect tools/validate.py.",
+        "c": "This source is not the component identified for the module. Inspect tools/validate.py.",
+        "d": "This source is not the component identified for the module. Inspect tools/validate.py."
+      },
+      "concept_tested": "Use the Offline Validation Gate",
+      "related_lesson_id": "lesson-01",
+      "source_file": "tools/validate.py",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q9-02",
+      "correct_option_id": "a",
+      "explanation": "This is the module's lay explanation. The implementation source is tools/validate.py, where the more specific finding is: Validator parses YAML/chart structure and scans secrets/dangling refs/destructive commands. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "b": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Use the Offline Validation Gate",
+      "related_lesson_id": "lesson-01",
+      "source_file": "tools/validate.py",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q9-03",
+      "correct_option_id": "d",
+      "explanation": "This excerpt or paraphrase is drawn from tools/validate.py. The source finding is: Validator parses YAML/chart structure and scans secrets/dangling refs/destructive commands. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "c": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Use the Offline Validation Gate",
+      "related_lesson_id": "lesson-01",
+      "source_file": "tools/validate.py",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q9-04",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is tools/validate.py. It establishes that Validator parses YAML/chart structure and scans secrets/dangling refs/destructive commands. The source example is Validator parses YAML/chart structure and scans secrets/dangling refs/destructive commands. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect tools/validate.py.",
+        "b": "This source is not the component identified for the module. Inspect tools/validate.py.",
+        "d": "This source is not the component identified for the module. Inspect tools/validate.py."
+      },
+      "concept_tested": "Use the Offline Validation Gate",
+      "related_lesson_id": "lesson-02",
+      "source_file": "tools/validate.py",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q9-05",
+      "correct_option_id": "b",
+      "explanation": "This excerpt or paraphrase is drawn from tools/validate.py. The source finding is: Validator parses YAML/chart structure and scans secrets/dangling refs/destructive commands. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Use the Offline Validation Gate",
+      "related_lesson_id": "lesson-02",
+      "source_file": "tools/validate.py",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q9-06",
+      "correct_option_id": "a",
+      "explanation": "This excerpt or paraphrase is drawn from tools/validate.py. The source finding is: Validator parses YAML/chart structure and scans secrets/dangling refs/destructive commands. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "b": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Use the Offline Validation Gate",
+      "related_lesson_id": "lesson-02",
+      "source_file": "tools/validate.py",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q9-07",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is tools/validate.py. It establishes that Validator parses YAML/chart structure and scans secrets/dangling refs/destructive commands. The source example is Validator parses YAML/chart structure and scans secrets/dangling refs/destructive commands. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect tools/validate.py.",
+        "b": "This source is not the component identified for the module. Inspect tools/validate.py.",
+        "c": "This source is not the component identified for the module. Inspect tools/validate.py."
+      },
+      "concept_tested": "Use the Offline Validation Gate",
+      "related_lesson_id": "lesson-02",
+      "source_file": "tools/validate.py",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q9-08",
+      "correct_option_id": "c",
+      "explanation": "This excerpt or paraphrase is drawn from tools/validate.py. The source finding is: Validator parses YAML/chart structure and scans secrets/dangling refs/destructive commands. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Use the Offline Validation Gate",
+      "related_lesson_id": "lesson-02",
+      "source_file": "tools/validate.py",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q9-09",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is tools/validate.py. It establishes that Validator parses YAML/chart structure and scans secrets/dangling refs/destructive commands. The source example is Validator parses YAML/chart structure and scans secrets/dangling refs/destructive commands. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Use the Offline Validation Gate",
+      "related_lesson_id": "lesson-03",
+      "source_file": "tools/validate.py",
+      "supporting_reference": "https://docs.k3s.io/"
+    },
+    {
+      "question_id": "q9-10",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is tools/validate.py. It establishes that Validator parses YAML/chart structure and scans secrets/dangling refs/destructive commands. The source example is Validator parses YAML/chart structure and scans secrets/dangling refs/destructive commands. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Use the Offline Validation Gate",
+      "related_lesson_id": "lesson-03",
+      "source_file": "tools/validate.py",
+      "supporting_reference": "https://docs.k3s.io/"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "module_id": "module-01",
+  "questions": [
+    {
+      "question_id": "q1-01",
+      "question_text": "Which supplied source is primary for edge cluster architecture and quorum?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain edge cluster architecture and quorum using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q1-02",
+      "question_text": "In plain terms, which idea best explains edge cluster architecture and quorum?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Three control-plane servers form a quorum; an odd server count avoids a tie in majority decisions."
+        },
+        {
+          "option_id": "b",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain edge cluster architecture and quorum using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q1-03",
+      "question_text": "Which source finding supports the basic model for edge cluster architecture and quorum?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        },
+        {
+          "option_id": "d",
+          "text": "The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain edge cluster architecture and quorum using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q1-04",
+      "question_text": "Where should you trace the implementation of edge cluster architecture and quorum?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for edge cluster architecture and quorum",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-05",
+      "question_text": "Which source excerpt or paraphrase illustrates edge cluster architecture and quorum?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for edge cluster architecture and quorum",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-06",
+      "question_text": "A failure occurs while checking edge cluster architecture and quorum. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options."
+        },
+        {
+          "option_id": "b",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for edge cluster architecture and quorum",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-07",
+      "question_text": "Which supplied source should be inspected before changing edge cluster architecture and quorum?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for edge cluster architecture and quorum",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-08",
+      "question_text": "Which source finding is accurate for edge cluster architecture and quorum?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for edge cluster architecture and quorum",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q1-09",
+      "question_text": "Which review best connects the basic model and source details in edge cluster architecture and quorum?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "Use the model that Three control-plane servers form a quorum; an odd server count avoids a tie in majority decisions., then trace k3s/config.yaml; bootstrap/10-install-server.sh; bootstrap/11-install-server-join.sh; docs/ARCHITECTURE.md; the source finding is The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of edge cluster architecture and quorum",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q1-10",
+      "question_text": "After reading the whole module on edge cluster architecture and quorum, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "The example is The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options.; interpret it with this finding: The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "b",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of edge cluster architecture and quorum",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

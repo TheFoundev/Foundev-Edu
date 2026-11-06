@@ -1,0 +1,41 @@
+{
+  "module_id": "module-07",
+  "title": "Query Stats and Trace IDs",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Query Stats and Trace IDs.",
+  "learning_objectives": [
+    "Explain query stats and trace ids using a plain-language model",
+    "Trace the source implementation for query stats and trace ids",
+    "Assess failure and operational limits of query stats and trace ids"
+  ],
+  "prerequisites": [
+    "module-06"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Stats groups spans by service; TraceHandler searches assembled trace IDs under /traces/.",
+    "Main registers /stats and /traces/ only when -listen is supplied."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "tracing.go",
+    "main.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "main.go",
+    "symbol_or_search_term": "traces",
+    "line_start": 37,
+    "line_end": 43
+  }
+}

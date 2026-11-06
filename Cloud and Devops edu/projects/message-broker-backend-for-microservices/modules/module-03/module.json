@@ -1,0 +1,41 @@
+{
+  "module_id": "module-03",
+  "title": "Declare Exchanges, Queues, and Bindings",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Declare Exchanges, Queues, and Bindings.",
+  "learning_objectives": [
+    "Explain declare exchanges, queues, and bindings using a plain-language model",
+    "Trace the source implementation for declare exchanges, queues, and bindings",
+    "Assess failure and operational limits of declare exchanges, queues, and bindings"
+  ],
+  "prerequisites": [
+    "module-02"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Topology is the routing map of exchanges, queues, and bindings; declarations should be repeatable.",
+    "Project defines orders exchange, process/retry/DLQ queues, and service queues."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/mbb_topology.erl",
+    "rabbitmq/"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/mbb_topology.erl",
+    "symbol_or_search_term": "exchange",
+    "line_start": 234,
+    "line_end": 243
+  }
+}

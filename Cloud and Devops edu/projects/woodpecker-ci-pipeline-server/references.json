@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Woodpecker CI documentation",
+    "url": "https://woodpecker-ci.org/docs/intro",
+    "type": "official documentation"
+  },
+  {
+    "title": "Go os/exec",
+    "url": "https://pkg.go.dev/os/exec",
+    "type": "official documentation"
+  },
+  {
+    "title": "Go net/http",
+    "url": "https://pkg.go.dev/net/http",
+    "type": "official documentation"
+  }
+]

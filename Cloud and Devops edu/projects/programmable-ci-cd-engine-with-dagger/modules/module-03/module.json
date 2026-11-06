@@ -1,0 +1,40 @@
+{
+  "module_id": "module-03",
+  "title": "Build Correct Cache Digests",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Build Correct Cache Digests.",
+  "learning_objectives": [
+    "Explain build correct cache digests using a plain-language model",
+    "Trace the source implementation for build correct cache digests",
+    "Assess failure and operational limits of build correct cache digests"
+  ],
+  "prerequisites": [
+    "module-02"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A cache key must change when a step or its upstream output changes, or stale results can be reused.",
+    "digestOf hashes step content together with dependency digests."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "engine.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "engine.go",
+    "symbol_or_search_term": "digestOf",
+    "line_start": 334,
+    "line_end": 343
+  }
+}

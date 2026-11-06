@@ -1,0 +1,40 @@
+{
+  "module_id": "module-05",
+  "title": "Check Steady-State Hypotheses",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Check Steady-State Hypotheses.",
+  "learning_objectives": [
+    "Explain check steady-state hypotheses using a plain-language model",
+    "Trace the source implementation for check steady-state hypotheses",
+    "Assess failure and operational limits of check steady-state hypotheses"
+  ],
+  "prerequisites": [
+    "module-04"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A hypothesis is a guardrail, such as latency staying under a threshold before and after a fault.",
+    "Runner reads MetricReader before actions and after recovery, records checks, and aborts when a check fails."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "chaos.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "chaos.go",
+    "symbol_or_search_term": "checkSteadyState",
+    "line_start": 448,
+    "line_end": 457
+  }
+}

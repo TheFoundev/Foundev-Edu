@@ -1,0 +1,40 @@
+{
+  "module_id": "module-05",
+  "title": "Use Set/Get/Delete Operations",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Use Set/Get/Delete Operations.",
+  "learning_objectives": [
+    "Explain use set/get/delete operations using a plain-language model",
+    "Trace the source implementation for use set/get/delete operations",
+    "Assess failure and operational limits of use set/get/delete operations"
+  ],
+  "prerequisites": [
+    "module-04"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Set validates names/values, get decrypts a selected entry, list returns names/timestamps, and remove deletes an entry.",
+    "get returns plaintext after decrypt; list never returns secret values."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/store.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/store.js",
+    "symbol_or_search_term": "get",
+    "line_start": 48,
+    "line_end": 57
+  }
+}

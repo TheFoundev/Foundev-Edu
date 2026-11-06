@@ -1,0 +1,145 @@
+{
+  "module_id": "module-05",
+  "answers": [
+    {
+      "question_id": "q5-01",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is src/mbb_consumer.erl. It establishes that Consumer classifies outcomes and settles deliveries; pipeline returns ok/retry/dead_letter. The source example is Consumer classifies outcomes and settles deliveries; pipeline returns ok/retry/dead_letter. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect src/mbb_consumer.erl.",
+        "c": "This source is not the component identified for the module. Inspect src/mbb_consumer.erl.",
+        "d": "This source is not the component identified for the module. Inspect src/mbb_consumer.erl."
+      },
+      "concept_tested": "Consume with Prefetch and Settlement",
+      "related_lesson_id": "lesson-01",
+      "source_file": "src/mbb_consumer.erl",
+      "supporting_reference": "https://www.rabbitmq.com/tutorials/amqp-concepts"
+    },
+    {
+      "question_id": "q5-02",
+      "correct_option_id": "a",
+      "explanation": "This is the module's lay explanation. The implementation source is src/mbb_consumer.erl, where the more specific finding is: Consumer classifies outcomes and settles deliveries; pipeline returns ok/retry/dead_letter. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "b": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "c": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Consume with Prefetch and Settlement",
+      "related_lesson_id": "lesson-01",
+      "source_file": "src/mbb_consumer.erl",
+      "supporting_reference": "https://www.rabbitmq.com/tutorials/amqp-concepts"
+    },
+    {
+      "question_id": "q5-03",
+      "correct_option_id": "d",
+      "explanation": "This excerpt or paraphrase is drawn from src/mbb_consumer.erl. The source finding is: Consumer classifies outcomes and settles deliveries; pipeline returns ok/retry/dead_letter. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "b": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "c": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Consume with Prefetch and Settlement",
+      "related_lesson_id": "lesson-01",
+      "source_file": "src/mbb_consumer.erl",
+      "supporting_reference": "https://www.rabbitmq.com/tutorials/amqp-concepts"
+    },
+    {
+      "question_id": "q5-04",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is src/mbb_consumer.erl. It establishes that Consumer classifies outcomes and settles deliveries; pipeline returns ok/retry/dead_letter. The source example is Consumer classifies outcomes and settles deliveries; pipeline returns ok/retry/dead_letter. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect src/mbb_consumer.erl.",
+        "b": "This source is not the component identified for the module. Inspect src/mbb_consumer.erl.",
+        "d": "This source is not the component identified for the module. Inspect src/mbb_consumer.erl."
+      },
+      "concept_tested": "Consume with Prefetch and Settlement",
+      "related_lesson_id": "lesson-02",
+      "source_file": "src/mbb_consumer.erl",
+      "supporting_reference": "https://www.rabbitmq.com/tutorials/amqp-concepts"
+    },
+    {
+      "question_id": "q5-05",
+      "correct_option_id": "b",
+      "explanation": "This excerpt or paraphrase is drawn from src/mbb_consumer.erl. The source finding is: Consumer classifies outcomes and settles deliveries; pipeline returns ok/retry/dead_letter. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "c": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Consume with Prefetch and Settlement",
+      "related_lesson_id": "lesson-02",
+      "source_file": "src/mbb_consumer.erl",
+      "supporting_reference": "https://www.rabbitmq.com/tutorials/amqp-concepts"
+    },
+    {
+      "question_id": "q5-06",
+      "correct_option_id": "a",
+      "explanation": "This excerpt or paraphrase is drawn from src/mbb_consumer.erl. The source finding is: Consumer classifies outcomes and settles deliveries; pipeline returns ok/retry/dead_letter. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "b": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "c": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Consume with Prefetch and Settlement",
+      "related_lesson_id": "lesson-02",
+      "source_file": "src/mbb_consumer.erl",
+      "supporting_reference": "https://www.rabbitmq.com/tutorials/amqp-concepts"
+    },
+    {
+      "question_id": "q5-07",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is src/mbb_consumer.erl. It establishes that Consumer classifies outcomes and settles deliveries; pipeline returns ok/retry/dead_letter. The source example is Consumer classifies outcomes and settles deliveries; pipeline returns ok/retry/dead_letter. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect src/mbb_consumer.erl.",
+        "b": "This source is not the component identified for the module. Inspect src/mbb_consumer.erl.",
+        "c": "This source is not the component identified for the module. Inspect src/mbb_consumer.erl."
+      },
+      "concept_tested": "Consume with Prefetch and Settlement",
+      "related_lesson_id": "lesson-02",
+      "source_file": "src/mbb_consumer.erl",
+      "supporting_reference": "https://www.rabbitmq.com/tutorials/amqp-concepts"
+    },
+    {
+      "question_id": "q5-08",
+      "correct_option_id": "c",
+      "explanation": "This excerpt or paraphrase is drawn from src/mbb_consumer.erl. The source finding is: Consumer classifies outcomes and settles deliveries; pipeline returns ok/retry/dead_letter. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "b": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Consume with Prefetch and Settlement",
+      "related_lesson_id": "lesson-02",
+      "source_file": "src/mbb_consumer.erl",
+      "supporting_reference": "https://www.rabbitmq.com/tutorials/amqp-concepts"
+    },
+    {
+      "question_id": "q5-09",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is src/mbb_consumer.erl. It establishes that Consumer classifies outcomes and settles deliveries; pipeline returns ok/retry/dead_letter. The source example is Consumer classifies outcomes and settles deliveries; pipeline returns ok/retry/dead_letter. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "c": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Consume with Prefetch and Settlement",
+      "related_lesson_id": "lesson-03",
+      "source_file": "src/mbb_consumer.erl",
+      "supporting_reference": "https://www.rabbitmq.com/tutorials/amqp-concepts"
+    },
+    {
+      "question_id": "q5-10",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is src/mbb_consumer.erl. It establishes that Consumer classifies outcomes and settles deliveries; pipeline returns ok/retry/dead_letter. The source example is Consumer classifies outcomes and settles deliveries; pipeline returns ok/retry/dead_letter. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "c": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Consume with Prefetch and Settlement",
+      "related_lesson_id": "lesson-03",
+      "source_file": "src/mbb_consumer.erl",
+      "supporting_reference": "https://www.rabbitmq.com/tutorials/amqp-concepts"
+    }
+  ]
+}

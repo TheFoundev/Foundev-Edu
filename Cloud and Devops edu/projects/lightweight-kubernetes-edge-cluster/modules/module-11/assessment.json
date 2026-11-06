@@ -1,0 +1,255 @@
+{
+  "module_id": "module-11",
+  "questions": [
+    {
+      "question_id": "q11-01",
+      "question_text": "Which supplied source is primary for review networkpolicy and failure modes?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain review networkpolicy and failure modes using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q11-02",
+      "question_text": "In plain terms, which idea best explains review networkpolicy and failure modes?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "Network policies are enforced only if the cluster network plugin supports them; node-level firewall and CNI behavior matter."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain review networkpolicy and failure modes using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q11-03",
+      "question_text": "Which source finding supports the basic model for review networkpolicy and failure modes?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "The manifest declares NetworkPolicy rules; the selected K3s CNI must enforce them. Troubleshooting covers cgroup/iptables/hostname/pull fixes."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain review networkpolicy and failure modes using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q11-04",
+      "question_text": "Where should you trace the implementation of review networkpolicy and failure modes?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for review networkpolicy and failure modes",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q11-05",
+      "question_text": "Which source excerpt or paraphrase illustrates review networkpolicy and failure modes?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        },
+        {
+          "option_id": "d",
+          "text": "kind: NetworkPolicy"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for review networkpolicy and failure modes",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q11-06",
+      "question_text": "A failure occurs while checking review networkpolicy and failure modes. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "The manifest declares NetworkPolicy rules; the selected K3s CNI must enforce them. Troubleshooting covers cgroup/iptables/hostname/pull fixes."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for review networkpolicy and failure modes",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q11-07",
+      "question_text": "Which supplied source should be inspected before changing review networkpolicy and failure modes?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for review networkpolicy and failure modes",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q11-08",
+      "question_text": "Which source finding is accurate for review networkpolicy and failure modes?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "The manifest declares NetworkPolicy rules; the selected K3s CNI must enforce them. Troubleshooting covers cgroup/iptables/hostname/pull fixes."
+        },
+        {
+          "option_id": "b",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for review networkpolicy and failure modes",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q11-09",
+      "question_text": "Which review best connects the basic model and source details in review networkpolicy and failure modes?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        },
+        {
+          "option_id": "d",
+          "text": "Use the model that Network policies are enforced only if the cluster network plugin supports them; node-level firewall and CNI behavior matter., then trace manifests/networkpolicy.example.yaml; docs/TROUBLESHOOTING.md; the source finding is The manifest declares NetworkPolicy rules; the selected K3s CNI must enforce them. Troubleshooting covers cgroup/iptables/hostname/pull fixes."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of review networkpolicy and failure modes",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q11-10",
+      "question_text": "After reading the whole module on review networkpolicy and failure modes, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "The example is kind: NetworkPolicy; interpret it with this finding: The manifest declares NetworkPolicy rules; the selected K3s CNI must enforce them. Troubleshooting covers cgroup/iptables/hostname/pull fixes. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of review networkpolicy and failure modes",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

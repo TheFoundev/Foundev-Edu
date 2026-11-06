@@ -1,0 +1,40 @@
+{
+  "module_id": "module-05",
+  "title": "Compare Host and Recording Executors",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Compare Host and Recording Executors.",
+  "learning_objectives": [
+    "Explain compare host and recording executors using a plain-language model",
+    "Trace the source implementation for compare host and recording executors",
+    "Assess failure and operational limits of compare host and recording executors"
+  ],
+  "prerequisites": [
+    "module-04"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "An executor is the component that performs a step; recording can preview while host execution runs a local command.",
+    "HostExecutor uses os/exec; RecordingExecutor records calls without running them."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "engine.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "engine.go",
+    "symbol_or_search_term": "RecordingExecutor",
+    "line_start": 196,
+    "line_end": 205
+  }
+}

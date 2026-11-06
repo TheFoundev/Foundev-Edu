@@ -1,0 +1,40 @@
+{
+  "module_id": "module-02",
+  "title": "Manage AMQP Connection and Reconnect",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Manage AMQP Connection and Reconnect.",
+  "learning_objectives": [
+    "Explain manage amqp connection and reconnect using a plain-language model",
+    "Trace the source implementation for manage amqp connection and reconnect",
+    "Assess failure and operational limits of manage amqp connection and reconnect"
+  ],
+  "prerequisites": [
+    "module-01"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A broker connection is a network session; reconnect logic must recreate channels and topology after a failure.",
+    "Connection module owns connection/channel and re-declares topology after reconnect."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/mbb_connection.erl"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/mbb_connection.erl",
+    "symbol_or_search_term": "Connection",
+    "line_start": 157,
+    "line_end": 166
+  }
+}

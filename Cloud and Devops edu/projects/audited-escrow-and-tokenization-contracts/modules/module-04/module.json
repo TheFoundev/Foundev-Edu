@@ -1,0 +1,40 @@
+{
+  "module_id": "module-04",
+  "title": "Pull Payments and Settlement Credits",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Pull Payments and Settlement Credits.",
+  "learning_objectives": [
+    "Explain pull payments and settlement credits using a plain-language model",
+    "Trace the source implementation for pull payments and settlement credits",
+    "Assess failure and operational limits of pull payments and settlement credits"
+  ],
+  "prerequisites": [
+    "module-03"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A pull payment records who may withdraw instead of sending money during each state transition.",
+    "Settlement credits a beneficiary; withdraw transfers credited value under nonReentrant and checks-effects-interactions."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "contracts/Escrow.sol"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "contracts/Escrow.sol",
+    "symbol_or_search_term": "withdraw",
+    "line_start": 370,
+    "line_end": 379
+  }
+}

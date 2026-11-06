@@ -1,0 +1,38 @@
+{
+  "module_id": "module-01",
+  "title": "Model Checks, Pings, and Alerts",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Model Checks, Pings, and Alerts.",
+  "learning_objectives": [
+    "Explain model checks, pings, and alerts using a plain-language model",
+    "Trace the source implementation for model checks, pings, and alerts",
+    "Assess failure and operational limits of model checks, pings, and alerts"
+  ],
+  "prerequisites": [],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A Check is a monitored job; Ping records a heartbeat; AlertChannel describes destinations and Alert stores sent events.",
+    "Check includes schedule/grace/timeout/status fields; Ping/Alert reference the check."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "core/models.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "core/models.py",
+    "symbol_or_search_term": "Ping",
+    "line_start": 41,
+    "line_end": 50
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "module_id": "module-03",
+  "title": "Executor Interface and Dry Run",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Executor Interface and Dry Run.",
+  "learning_objectives": [
+    "Explain executor interface and dry run using a plain-language model",
+    "Trace the source implementation for executor interface and dry run",
+    "Assess failure and operational limits of executor interface and dry run"
+  ],
+  "prerequisites": [
+    "module-02"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "An executor is a swappable tool for applying and recovering faults; dry-run changes nothing.",
+    "FaultExecutor requires Apply, Recover, Name; nil executor defaults to DryRunExecutor."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "chaos.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "chaos.go",
+    "symbol_or_search_term": "DryRunExecutor",
+    "line_start": 419,
+    "line_end": 428
+  }
+}

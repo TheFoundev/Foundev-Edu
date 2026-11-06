@@ -1,0 +1,145 @@
+{
+  "module_id": "module-06",
+  "answers": [
+    {
+      "question_id": "q6-01",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is proxy.go; README.md. It establishes that NewDockerClient defaults to /var/run/docker.sock; the source has no auth around a web-exposed proxy. The source example is DialContext(..., \"unix\", socket) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect proxy.go; README.md.",
+        "b": "This source is not the component identified for the module. Inspect proxy.go; README.md.",
+        "d": "This source is not the component identified for the module. Inspect proxy.go; README.md."
+      },
+      "concept_tested": "Docker Socket Trust Boundary",
+      "related_lesson_id": "lesson-01",
+      "source_file": "proxy.go; README.md",
+      "supporting_reference": "https://pkg.go.dev/net/http"
+    },
+    {
+      "question_id": "q6-02",
+      "correct_option_id": "b",
+      "explanation": "This is the module's lay explanation. The implementation source is proxy.go; README.md, where the more specific finding is: NewDockerClient defaults to /var/run/docker.sock; the source has no auth around a web-exposed proxy. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "a": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "c": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Docker Socket Trust Boundary",
+      "related_lesson_id": "lesson-01",
+      "source_file": "proxy.go; README.md",
+      "supporting_reference": "https://pkg.go.dev/net/http"
+    },
+    {
+      "question_id": "q6-03",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is proxy.go; README.md. It establishes that NewDockerClient defaults to /var/run/docker.sock; the source has no auth around a web-exposed proxy. The source example is DialContext(..., \"unix\", socket) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "c": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Docker Socket Trust Boundary",
+      "related_lesson_id": "lesson-01",
+      "source_file": "proxy.go; README.md",
+      "supporting_reference": "https://pkg.go.dev/net/http"
+    },
+    {
+      "question_id": "q6-04",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is proxy.go; README.md. It establishes that NewDockerClient defaults to /var/run/docker.sock; the source has no auth around a web-exposed proxy. The source example is DialContext(..., \"unix\", socket) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect proxy.go; README.md.",
+        "b": "This source is not the component identified for the module. Inspect proxy.go; README.md.",
+        "c": "This source is not the component identified for the module. Inspect proxy.go; README.md."
+      },
+      "concept_tested": "Docker Socket Trust Boundary",
+      "related_lesson_id": "lesson-02",
+      "source_file": "proxy.go; README.md",
+      "supporting_reference": "https://pkg.go.dev/net/http"
+    },
+    {
+      "question_id": "q6-05",
+      "correct_option_id": "c",
+      "explanation": "This excerpt or paraphrase is drawn from proxy.go; README.md. The source finding is: NewDockerClient defaults to /var/run/docker.sock; the source has no auth around a web-exposed proxy. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "b": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Docker Socket Trust Boundary",
+      "related_lesson_id": "lesson-02",
+      "source_file": "proxy.go; README.md",
+      "supporting_reference": "https://pkg.go.dev/net/http"
+    },
+    {
+      "question_id": "q6-06",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is proxy.go; README.md. It establishes that NewDockerClient defaults to /var/run/docker.sock; the source has no auth around a web-exposed proxy. The source example is DialContext(..., \"unix\", socket) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "c": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Docker Socket Trust Boundary",
+      "related_lesson_id": "lesson-02",
+      "source_file": "proxy.go; README.md",
+      "supporting_reference": "https://pkg.go.dev/net/http"
+    },
+    {
+      "question_id": "q6-07",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is proxy.go; README.md. It establishes that NewDockerClient defaults to /var/run/docker.sock; the source has no auth around a web-exposed proxy. The source example is DialContext(..., \"unix\", socket) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "This source is not the component identified for the module. Inspect proxy.go; README.md.",
+        "c": "This source is not the component identified for the module. Inspect proxy.go; README.md.",
+        "d": "This source is not the component identified for the module. Inspect proxy.go; README.md."
+      },
+      "concept_tested": "Docker Socket Trust Boundary",
+      "related_lesson_id": "lesson-02",
+      "source_file": "proxy.go; README.md",
+      "supporting_reference": "https://pkg.go.dev/net/http"
+    },
+    {
+      "question_id": "q6-08",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is proxy.go; README.md. It establishes that NewDockerClient defaults to /var/run/docker.sock; the source has no auth around a web-exposed proxy. The source example is DialContext(..., \"unix\", socket) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "b": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "c": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Docker Socket Trust Boundary",
+      "related_lesson_id": "lesson-02",
+      "source_file": "proxy.go; README.md",
+      "supporting_reference": "https://pkg.go.dev/net/http"
+    },
+    {
+      "question_id": "q6-09",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is proxy.go; README.md. It establishes that NewDockerClient defaults to /var/run/docker.sock; the source has no auth around a web-exposed proxy. The source example is DialContext(..., \"unix\", socket) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "b": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Docker Socket Trust Boundary",
+      "related_lesson_id": "lesson-03",
+      "source_file": "proxy.go; README.md",
+      "supporting_reference": "https://pkg.go.dev/net/http"
+    },
+    {
+      "question_id": "q6-10",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is proxy.go; README.md. It establishes that NewDockerClient defaults to /var/run/docker.sock; the source has no auth around a web-exposed proxy. The source example is DialContext(..., \"unix\", socket) The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "The Docker socket can control the daemon and can effectively grant powerful host access; it is not read-only by default.",
+        "c": "The code has no active probe loop; a stored boolean is only the current manually assigned flag.",
+        "d": "HostExecutor/HostRunner runs commands on the local host unless an isolation layer is explicitly implemented."
+      },
+      "concept_tested": "Docker Socket Trust Boundary",
+      "related_lesson_id": "lesson-03",
+      "source_file": "proxy.go; README.md",
+      "supporting_reference": "https://pkg.go.dev/net/http"
+    }
+  ]
+}

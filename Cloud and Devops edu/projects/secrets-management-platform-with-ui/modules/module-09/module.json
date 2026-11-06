@@ -1,0 +1,41 @@
+{
+  "module_id": "module-09",
+  "title": "Plan Production Hardening",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Plan Production Hardening.",
+  "learning_objectives": [
+    "Explain plan production hardening using a plain-language model",
+    "Trace the source implementation for plan production hardening",
+    "Assess failure and operational limits of plan production hardening"
+  ],
+  "prerequisites": [
+    "module-08"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Production systems need role-scoped access, key rotation/recovery, audit integrity, encrypted backups, rate limiting, and protected transport.",
+    "SecretStore.set writes encrypted envelopes to a local JSON store; the README limits this sample to one API token and no key rotation."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "README.md",
+    "src/store.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/store.js",
+    "symbol_or_search_term": "set",
+    "line_start": 32,
+    "line_end": 41
+  }
+}

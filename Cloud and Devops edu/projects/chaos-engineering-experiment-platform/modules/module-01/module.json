@@ -1,0 +1,38 @@
+{
+  "module_id": "module-01",
+  "title": "Experiment and Action Models",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Experiment and Action Models.",
+  "learning_objectives": [
+    "Explain experiment and action models using a plain-language model",
+    "Trace the source implementation for experiment and action models",
+    "Assess failure and operational limits of experiment and action models"
+  ],
+  "prerequisites": [],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "An experiment is a recipe: a name, optional guardrail hypothesis, and ordered actions.",
+    "Experiment contains namespace/hypothesis/actions; Action has kind, target, duration, magnitude."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "chaos.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "chaos.go",
+    "symbol_or_search_term": "Actions",
+    "line_start": 23,
+    "line_end": 32
+  }
+}

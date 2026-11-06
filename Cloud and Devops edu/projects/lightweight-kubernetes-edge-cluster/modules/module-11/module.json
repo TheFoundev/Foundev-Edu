@@ -1,0 +1,41 @@
+{
+  "module_id": "module-11",
+  "title": "Review NetworkPolicy and Failure Modes",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Review NetworkPolicy and Failure Modes.",
+  "learning_objectives": [
+    "Explain review networkpolicy and failure modes using a plain-language model",
+    "Trace the source implementation for review networkpolicy and failure modes",
+    "Assess failure and operational limits of review networkpolicy and failure modes"
+  ],
+  "prerequisites": [
+    "module-10"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Network policies are enforced only if the cluster network plugin supports them; node-level firewall and CNI behavior matter.",
+    "The manifest declares NetworkPolicy rules; the selected K3s CNI must enforce them. Troubleshooting covers cgroup/iptables/hostname/pull fixes."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "manifests/networkpolicy.example.yaml",
+    "docs/TROUBLESHOOTING.md"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "manifests/networkpolicy.example.yaml",
+    "symbol_or_search_term": "NetworkPolicy",
+    "line_start": 24,
+    "line_end": 33
+  }
+}

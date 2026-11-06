@@ -1,0 +1,41 @@
+{
+  "module_id": "module-11",
+  "title": "Delivery Guarantees and Failure Handling",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Delivery Guarantees and Failure Handling.",
+  "learning_objectives": [
+    "Explain delivery guarantees and failure handling using a plain-language model",
+    "Trace the source implementation for delivery guarantees and failure handling",
+    "Assess failure and operational limits of delivery guarantees and failure handling"
+  ],
+  "prerequisites": [
+    "module-10"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Exactly-once is a configuration/transaction guarantee with a defined scope; it must not be inferred from the project name.",
+    "README claims/mentions exactly-once; verify actual processing.guarantee and transaction settings in source."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/main/java/local/foundev/streams/streams/StreamsExceptionHandler.java",
+    "config/streams.properties"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/main/java/local/foundev/streams/streams/StreamsExceptionHandler.java",
+    "symbol_or_search_term": "processing",
+    "line_start": 7,
+    "line_end": 16
+  }
+}

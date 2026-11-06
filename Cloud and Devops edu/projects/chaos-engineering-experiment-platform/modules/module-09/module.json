@@ -1,0 +1,40 @@
+{
+  "module_id": "module-09",
+  "title": "Audit Local Executor Semantics",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Audit Local Executor Semantics.",
+  "learning_objectives": [
+    "Explain audit local executor semantics using a plain-language model",
+    "Trace the source implementation for audit local executor semantics",
+    "Assess failure and operational limits of audit local executor semantics"
+  ],
+  "prerequisites": [
+    "module-08"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A configured duration should correspond to the observed impact; trace every layer that waits.",
+    "Local delay waits once in Apply and again in Runner; stress magnitude is ignored; kill has no recovery action."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "chaos.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "chaos.go",
+    "symbol_or_search_term": "sleep",
+    "line_start": 359,
+    "line_end": 368
+  }
+}

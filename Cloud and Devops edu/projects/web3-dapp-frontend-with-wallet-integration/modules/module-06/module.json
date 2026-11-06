@@ -1,0 +1,40 @@
+{
+  "module_id": "module-06",
+  "title": "Construct and Request a Wallet Transaction",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Construct and Request a Wallet Transaction.",
+  "learning_objectives": [
+    "Explain construct and request a wallet transaction using a plain-language model",
+    "Trace the source implementation for construct and request a wallet transaction",
+    "Assess failure and operational limits of construct and request a wallet transaction"
+  ],
+  "prerequisites": [
+    "module-05"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "eth_sendTransaction asks the wallet to handle a transaction; user approval and chain selection matter.",
+    "Request params include from account, token contract address, and data."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "public/app.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "public/app.js",
+    "symbol_or_search_term": "account",
+    "line_start": 55,
+    "line_end": 64
+  }
+}

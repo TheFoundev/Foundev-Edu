@@ -1,0 +1,255 @@
+{
+  "module_id": "module-04",
+  "questions": [
+    {
+      "question_id": "q4-01",
+      "question_text": "Which supplied source is primary for calculate latency percentiles?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "tracing.go"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain calculate latency percentiles using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q4-02",
+      "question_text": "In plain terms, which idea best explains calculate latency percentiles?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        },
+        {
+          "option_id": "d",
+          "text": "A percentile selects a position from sorted observations; this implementation uses a floor-based nearest-lower index."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain calculate latency percentiles using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q4-03",
+      "question_text": "Which source finding supports the basic model for calculate latency percentiles?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "Percentile selects a sorted-value index; Stats converts durations to milliseconds."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain calculate latency percentiles using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q4-04",
+      "question_text": "Where should you trace the implementation of calculate latency percentiles?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "tracing.go"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for calculate latency percentiles",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-05",
+      "question_text": "Which source excerpt or paraphrase illustrates calculate latency percentiles?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Percentile(values, 95)"
+        },
+        {
+          "option_id": "b",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for calculate latency percentiles",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-06",
+      "question_text": "A failure occurs while checking calculate latency percentiles. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        },
+        {
+          "option_id": "d",
+          "text": "Percentile selects a sorted-value index; Stats converts durations to milliseconds."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for calculate latency percentiles",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-07",
+      "question_text": "Which supplied source should be inspected before changing calculate latency percentiles?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "tracing.go"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for calculate latency percentiles",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-08",
+      "question_text": "Which source finding is accurate for calculate latency percentiles?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "Percentile selects a sorted-value index; Stats converts durations to milliseconds."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for calculate latency percentiles",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-09",
+      "question_text": "Which review best connects the basic model and source details in calculate latency percentiles?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Use the model that A percentile selects a position from sorted observations; this implementation uses a floor-based nearest-lower index., then trace tracing.go; the source finding is Percentile selects a sorted-value index; Stats converts durations to milliseconds."
+        },
+        {
+          "option_id": "b",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of calculate latency percentiles",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q4-10",
+      "question_text": "After reading the whole module on calculate latency percentiles, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        },
+        {
+          "option_id": "d",
+          "text": "The example is Percentile(values, 95); interpret it with this finding: Percentile selects a sorted-value index; Stats converts durations to milliseconds. Verify the connected component before making a production claim."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of calculate latency percentiles",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "module_id": "module-05",
+  "title": "Authenticate Management APIs",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Authenticate Management APIs.",
+  "learning_objectives": [
+    "Explain authenticate management apis using a plain-language model",
+    "Trace the source implementation for authenticate management apis",
+    "Assess failure and operational limits of authenticate management apis"
+  ],
+  "prerequisites": [
+    "module-04"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Read/write management credentials protect CRUD endpoints; the ping UUID is a separate capability.",
+    "authenticate_write_token accepts Bearer or X-API-Token; check_ping is designed for unauthenticated secret URLs."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "core/api.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "core/api.py",
+    "symbol_or_search_term": "check_ping",
+    "line_start": 32,
+    "line_end": 41
+  }
+}

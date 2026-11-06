@@ -1,0 +1,255 @@
+{
+  "module_id": "module-09",
+  "questions": [
+    {
+      "question_id": "q9-01",
+      "question_text": "Which supplied source is primary for factory creation and indexing?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "contracts/EscrowFactory.sol"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain factory creation and indexing using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q9-02",
+      "question_text": "In plain terms, which idea best explains factory creation and indexing?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A factory is a deployment desk that creates instances and keeps a searchable catalog."
+        },
+        {
+          "option_id": "b",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain factory creation and indexing using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q9-03",
+      "question_text": "Which source finding supports the basic model for factory creation and indexing?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "A secret in source or logs remains confidential from repository users."
+        },
+        {
+          "option_id": "d",
+          "text": "createEscrow deploys and indexes instances; escrowAt/getEscrows support lookup and pagination; buyer/seller queries exist."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain factory creation and indexing using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q9-04",
+      "question_text": "Where should you trace the implementation of factory creation and indexing?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "contracts/EscrowFactory.sol"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for factory creation and indexing",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-05",
+      "question_text": "Which source excerpt or paraphrase illustrates factory creation and indexing?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "createEscrow(...); escrowAt(i); getEscrows(offset, limit)"
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for factory creation and indexing",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-06",
+      "question_text": "A failure occurs while checking factory creation and indexing. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "createEscrow deploys and indexes instances; escrowAt/getEscrows support lookup and pagination; buyer/seller queries exist."
+        },
+        {
+          "option_id": "b",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for factory creation and indexing",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-07",
+      "question_text": "Which supplied source should be inspected before changing factory creation and indexing?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "contracts/EscrowFactory.sol"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for factory creation and indexing",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-08",
+      "question_text": "Which source finding is accurate for factory creation and indexing?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "createEscrow deploys and indexes instances; escrowAt/getEscrows support lookup and pagination; buyer/seller queries exist."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for factory creation and indexing",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q9-09",
+      "question_text": "Which review best connects the basic model and source details in factory creation and indexing?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "Use the model that A factory is a deployment desk that creates instances and keeps a searchable catalog., then trace contracts/EscrowFactory.sol; the source finding is createEscrow deploys and indexes instances; escrowAt/getEscrows support lookup and pagination; buyer/seller queries exist."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of factory creation and indexing",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q9-10",
+      "question_text": "After reading the whole module on factory creation and indexing, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "The example is createEscrow(...); escrowAt(i); getEscrows(offset, limit); interpret it with this finding: createEscrow deploys and indexes instances; escrowAt/getEscrows support lookup and pagination; buyer/seller queries exist. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "b",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of factory creation and indexing",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

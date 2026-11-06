@@ -1,0 +1,255 @@
+{
+  "module_id": "module-02",
+  "questions": [
+    {
+      "question_id": "q2-01",
+      "question_text": "Which supplied source is primary for perform an http check?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "src/monitor.js"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain perform an http check using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q2-02",
+      "question_text": "In plain terms, which idea best explains perform an http check?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A checker sends an HTTP GET, measures elapsed time, and classifies response/error."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain perform an http check using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q2-03",
+      "question_text": "Which source finding supports the basic model for perform an http check?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "checkOnce receives an injectable fetch and returns status/latency/result."
+        },
+        {
+          "option_id": "b",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain perform an http check using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q2-04",
+      "question_text": "Where should you trace the implementation of perform an http check?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "src/monitor.js"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for perform an http check",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-05",
+      "question_text": "Which source excerpt or paraphrase illustrates perform an http check?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "checkOnce receives an injectable fetch and returns status/latency/result."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for perform an http check",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-06",
+      "question_text": "A failure occurs while checking perform an http check. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "checkOnce receives an injectable fetch and returns status/latency/result."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for perform an http check",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-07",
+      "question_text": "Which supplied source should be inspected before changing perform an http check?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "src/monitor.js"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for perform an http check",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-08",
+      "question_text": "Which source finding is accurate for perform an http check?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "checkOnce receives an injectable fetch and returns status/latency/result."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for perform an http check",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-09",
+      "question_text": "Which review best connects the basic model and source details in perform an http check?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "Use the model that A checker sends an HTTP GET, measures elapsed time, and classifies response/error., then trace src/monitor.js; the source finding is checkOnce receives an injectable fetch and returns status/latency/result."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of perform an http check",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q2-10",
+      "question_text": "After reading the whole module on perform an http check, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "The example is checkOnce receives an injectable fetch and returns status/latency/result.; interpret it with this finding: checkOnce receives an injectable fetch and returns status/latency/result. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of perform an http check",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "module_id": "module-03",
+  "title": "Schedule Periodic Checks",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Schedule Periodic Checks.",
+  "learning_objectives": [
+    "Explain schedule periodic checks using a plain-language model",
+    "Trace the source implementation for schedule periodic checks",
+    "Assess failure and operational limits of schedule periodic checks"
+  ],
+  "prerequisites": [
+    "module-02"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A scheduler repeats checks at intervals; it is not a distributed job queue.",
+    "startScheduler iterates monitors and uses setInterval; timer.unref is used when available."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/monitor.js",
+    "src/server.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/monitor.js",
+    "symbol_or_search_term": "setInterval",
+    "line_start": 104,
+    "line_end": 113
+  }
+}

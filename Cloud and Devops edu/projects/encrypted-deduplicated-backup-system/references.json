@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Go crypto/aes",
+    "url": "https://pkg.go.dev/crypto/aes",
+    "type": "official documentation"
+  },
+  {
+    "title": "Go crypto/cipher",
+    "url": "https://pkg.go.dev/crypto/cipher",
+    "type": "official documentation"
+  },
+  {
+    "title": "NIST SP 800-38D GCM",
+    "url": "https://csrc.nist.gov/pubs/sp/800/38/d/final",
+    "type": "official documentation"
+  },
+  {
+    "title": "Go crypto/hmac",
+    "url": "https://pkg.go.dev/crypto/hmac",
+    "type": "official documentation"
+  }
+]

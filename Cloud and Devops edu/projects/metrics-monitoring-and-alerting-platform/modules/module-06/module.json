@@ -1,0 +1,40 @@
+{
+  "module_id": "module-06",
+  "title": "Expose Prometheus Text",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Expose Prometheus Text.",
+  "learning_objectives": [
+    "Explain expose prometheus text using a plain-language model",
+    "Trace the source implementation for expose prometheus text",
+    "Assess failure and operational limits of expose prometheus text"
+  ],
+  "prerequisites": [
+    "module-05"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Prometheus text is line-oriented samples with HELP/TYPE metadata; emitting text is not the same as implementing PromQL.",
+    "Prometheus(now) generates exposition text; /metrics handler serves it."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "metrics.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "metrics.go",
+    "symbol_or_search_term": "Prometheus",
+    "line_start": 158,
+    "line_end": 167
+  }
+}

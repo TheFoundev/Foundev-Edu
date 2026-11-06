@@ -1,0 +1,40 @@
+{
+  "module_id": "module-02",
+  "title": "Perform an HTTP Check",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Perform an HTTP Check.",
+  "learning_objectives": [
+    "Explain perform an http check using a plain-language model",
+    "Trace the source implementation for perform an http check",
+    "Assess failure and operational limits of perform an http check"
+  ],
+  "prerequisites": [
+    "module-01"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A checker sends an HTTP GET, measures elapsed time, and classifies response/error.",
+    "checkOnce receives an injectable fetch and returns status/latency/result."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/monitor.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/monitor.js",
+    "symbol_or_search_term": "checkOnce",
+    "line_start": 1,
+    "line_end": 7
+  }
+}

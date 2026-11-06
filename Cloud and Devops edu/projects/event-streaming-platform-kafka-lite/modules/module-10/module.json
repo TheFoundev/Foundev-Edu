@@ -1,0 +1,42 @@
+{
+  "module_id": "module-10",
+  "title": "Compose the Stack and Verify Startup",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Compose the Stack and Verify Startup.",
+  "learning_objectives": [
+    "Explain compose the stack and verify startup using a plain-language model",
+    "Trace the source implementation for compose the stack and verify startup",
+    "Assess failure and operational limits of compose the stack and verify startup"
+  ],
+  "prerequisites": [
+    "module-09"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Compose starts broker, registry, producer, stream app, and view server; dependencies and health checks determine readiness.",
+    "README shows full stack and separate local verification gate."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "docker-compose.yml",
+    "Dockerfile",
+    "tools/verify.sh"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "tools/verify.sh",
+    "symbol_or_search_term": "verification",
+    "line_start": 1,
+    "line_end": 7
+  }
+}

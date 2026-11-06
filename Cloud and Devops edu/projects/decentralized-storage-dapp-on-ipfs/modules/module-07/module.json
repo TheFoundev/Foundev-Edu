@@ -1,0 +1,41 @@
+{
+  "module_id": "module-07",
+  "title": "Serve the Browser UI",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Serve the Browser UI.",
+  "learning_objectives": [
+    "Explain serve the browser ui using a plain-language model",
+    "Trace the source implementation for serve the browser ui",
+    "Assess failure and operational limits of serve the browser ui"
+  ],
+  "prerequisites": [
+    "module-06"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A static handler serves files from public while the browser calls local API routes.",
+    "servePublic maps static files/content types from PUBLIC_DIR."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/static.js",
+    "public/app.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/static.js",
+    "symbol_or_search_term": "servePublic",
+    "line_start": 22,
+    "line_end": 27
+  }
+}

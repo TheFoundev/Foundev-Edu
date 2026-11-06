@@ -1,0 +1,41 @@
+{
+  "module_id": "module-07",
+  "title": "Use JSON Ingest and Query API",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Use JSON Ingest and Query API.",
+  "learning_objectives": [
+    "Explain use json ingest and query api using a plain-language model",
+    "Trace the source implementation for use json ingest and query api",
+    "Assess failure and operational limits of use json ingest and query api"
+  ],
+  "prerequisites": [
+    "module-06"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "HTTP routes accept/query project-specific JSON and return summaries; they are not Prometheus remote-write or scrape APIs.",
+    "IngestHandler, QueryHandler, and main route registrations."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "metrics.go",
+    "main.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "metrics.go",
+    "symbol_or_search_term": "QueryHandler",
+    "line_start": 199,
+    "line_end": 208
+  }
+}

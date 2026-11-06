@@ -1,0 +1,39 @@
+{
+  "module_id": "module-01",
+  "title": "Content Addressing in Plain Terms",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Content Addressing in Plain Terms.",
+  "learning_objectives": [
+    "Explain content addressing in plain terms using a plain-language model",
+    "Trace the source implementation for content addressing in plain terms",
+    "Assess failure and operational limits of content addressing in plain terms"
+  ],
+  "prerequisites": [],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A CID is a content-derived label; it says what content is addressed, not where a copy is currently stored.",
+    "cidFromBytes hashes input bytes and assembles a CIDv1 raw-codec value; local addressing does not provide network replication."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/cid.js",
+    "README.md"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/cid.js",
+    "symbol_or_search_term": "cidFromBytes",
+    "line_start": 44,
+    "line_end": 53
+  }
+}

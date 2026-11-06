@@ -1,0 +1,42 @@
+{
+  "module_id": "module-06",
+  "title": "Audit the OTLP-Labeled Handler",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Audit the OTLP-Labeled Handler.",
+  "learning_objectives": [
+    "Explain audit the otlp-labeled handler using a plain-language model",
+    "Trace the source implementation for audit the otlp-labeled handler",
+    "Assess failure and operational limits of audit the otlp-labeled handler"
+  ],
+  "prerequisites": [
+    "module-05"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Official OTLP JSON uses fields such as traceId/spanId and timeUnixNano; this handler decodes Go field names/fields and is not wired to a route.",
+    "OTLPHandler expects resourceSpans/scopeSpans/spans containing Span-shaped JSON."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "tracing.go",
+    "tracing_test.go",
+    "main.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "tracing.go",
+    "symbol_or_search_term": "scopeSpans",
+    "line_start": 147,
+    "line_end": 156
+  }
+}

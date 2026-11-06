@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Go net/http",
+    "url": "https://pkg.go.dev/net/http",
+    "type": "official documentation"
+  },
+  {
+    "title": "Redis RESP protocol",
+    "url": "https://redis.io/docs/latest/develop/reference/protocol-spec/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Prometheus exposition",
+    "url": "https://prometheus.io/docs/instrumenting/exposition_formats/",
+    "type": "official documentation"
+  },
+  {
+    "title": "OWASP API Security",
+    "url": "https://owasp.org/www-project-api-security/",
+    "type": "official documentation"
+  }
+]

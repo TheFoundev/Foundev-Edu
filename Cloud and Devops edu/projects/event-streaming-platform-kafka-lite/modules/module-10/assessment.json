@@ -1,0 +1,255 @@
+{
+  "module_id": "module-10",
+  "questions": [
+    {
+      "question_id": "q10-01",
+      "question_text": "Which supplied source is primary for compose the stack and verify startup?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "docker-compose.yml; Dockerfile; tools/verify.sh"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain compose the stack and verify startup using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q10-02",
+      "question_text": "In plain terms, which idea best explains compose the stack and verify startup?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "Compose starts broker, registry, producer, stream app, and view server; dependencies and health checks determine readiness."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain compose the stack and verify startup using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q10-03",
+      "question_text": "Which source finding supports the basic model for compose the stack and verify startup?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README shows full stack and separate local verification gate."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain compose the stack and verify startup using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q10-04",
+      "question_text": "Where should you trace the implementation of compose the stack and verify startup?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "docker-compose.yml; Dockerfile; tools/verify.sh"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for compose the stack and verify startup",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q10-05",
+      "question_text": "Which source excerpt or paraphrase illustrates compose the stack and verify startup?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "README shows full stack and separate local verification gate."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for compose the stack and verify startup",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q10-06",
+      "question_text": "A failure occurs while checking compose the stack and verify startup. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "README shows full stack and separate local verification gate."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for compose the stack and verify startup",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q10-07",
+      "question_text": "Which supplied source should be inspected before changing compose the stack and verify startup?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "docker-compose.yml; Dockerfile; tools/verify.sh"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for compose the stack and verify startup",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q10-08",
+      "question_text": "Which source finding is accurate for compose the stack and verify startup?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        },
+        {
+          "option_id": "d",
+          "text": "README shows full stack and separate local verification gate."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for compose the stack and verify startup",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q10-09",
+      "question_text": "Which review best connects the basic model and source details in compose the stack and verify startup?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "Use the model that Compose starts broker, registry, producer, stream app, and view server; dependencies and health checks determine readiness., then trace docker-compose.yml; Dockerfile; tools/verify.sh; the source finding is README shows full stack and separate local verification gate."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of compose the stack and verify startup",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q10-10",
+      "question_text": "After reading the whole module on compose the stack and verify startup, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "The example is README shows full stack and separate local verification gate.; interpret it with this finding: README shows full stack and separate local verification gate. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of compose the stack and verify startup",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

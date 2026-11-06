@@ -1,0 +1,255 @@
+{
+  "module_id": "module-08",
+  "questions": [
+    {
+      "question_id": "q8-01",
+      "question_text": "Which supplied source is primary for test deduplication and restore drills?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "repository_test.go"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain test deduplication and restore drills using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q8-02",
+      "question_text": "In plain terms, which idea best explains test deduplication and restore drills?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "A secret in source or logs remains confidential from repository users."
+        },
+        {
+          "option_id": "d",
+          "text": "Tests verify chunk boundaries, repeated content deduplication, restoration, and key derivation properties."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain test deduplication and restore drills using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q8-03",
+      "question_text": "Which source finding supports the basic model for test deduplication and restore drills?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "TestBackupDedupAndRestore; TestContentDefinedChunking; TestTheKeyIsDerivedWithASalt."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain test deduplication and restore drills using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q8-04",
+      "question_text": "Where should you trace the implementation of test deduplication and restore drills?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "repository_test.go"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for test deduplication and restore drills",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-05",
+      "question_text": "Which source excerpt or paraphrase illustrates test deduplication and restore drills?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "TestBackupDedupAndRestore; TestContentDefinedChunking; TestTheKeyIsDerivedWithASalt."
+        },
+        {
+          "option_id": "b",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for test deduplication and restore drills",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-06",
+      "question_text": "A failure occurs while checking test deduplication and restore drills. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "A secret in source or logs remains confidential from repository users."
+        },
+        {
+          "option_id": "d",
+          "text": "TestBackupDedupAndRestore; TestContentDefinedChunking; TestTheKeyIsDerivedWithASalt."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for test deduplication and restore drills",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-07",
+      "question_text": "Which supplied source should be inspected before changing test deduplication and restore drills?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "repository_test.go"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for test deduplication and restore drills",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-08",
+      "question_text": "Which source finding is accurate for test deduplication and restore drills?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "TestBackupDedupAndRestore; TestContentDefinedChunking; TestTheKeyIsDerivedWithASalt."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for test deduplication and restore drills",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q8-09",
+      "question_text": "Which review best connects the basic model and source details in test deduplication and restore drills?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Use the model that Tests verify chunk boundaries, repeated content deduplication, restoration, and key derivation properties., then trace repository_test.go; the source finding is TestBackupDedupAndRestore; TestContentDefinedChunking; TestTheKeyIsDerivedWithASalt."
+        },
+        {
+          "option_id": "b",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of test deduplication and restore drills",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q8-10",
+      "question_text": "After reading the whole module on test deduplication and restore drills, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "A secret in source or logs remains confidential from repository users."
+        },
+        {
+          "option_id": "d",
+          "text": "The example is TestBackupDedupAndRestore; TestContentDefinedChunking; TestTheKeyIsDerivedWithASalt.; interpret it with this finding: TestBackupDedupAndRestore; TestContentDefinedChunking; TestTheKeyIsDerivedWithASalt. Verify the connected component before making a production claim."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of test deduplication and restore drills",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

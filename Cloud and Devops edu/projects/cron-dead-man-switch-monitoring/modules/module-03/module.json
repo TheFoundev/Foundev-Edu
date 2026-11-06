@@ -1,0 +1,40 @@
+{
+  "module_id": "module-03",
+  "title": "Reason About State Transitions",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Reason About State Transitions.",
+  "learning_objectives": [
+    "Explain reason about state transitions using a plain-language model",
+    "Trace the source implementation for reason about state transitions",
+    "Assess failure and operational limits of reason about state transitions"
+  ],
+  "prerequisites": [
+    "module-02"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A dead-man switch changes status when expected check-ins do not arrive and returns to healthy on recovery.",
+    "transition_check, should_alert_on_transition, and deadline checks implement new/up/late/down transitions."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "core/state.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "core/state.py",
+    "symbol_or_search_term": "should_alert_on_transition",
+    "line_start": 135,
+    "line_end": 144
+  }
+}

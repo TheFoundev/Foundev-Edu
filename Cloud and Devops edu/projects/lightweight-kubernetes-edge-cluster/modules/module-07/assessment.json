@@ -1,0 +1,255 @@
+{
+  "module_id": "module-07",
+  "questions": [
+    {
+      "question_id": "q7-01",
+      "question_text": "Which supplied source is primary for understand local-path storage limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "helm/edge-stateful; docs"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain understand local-path storage limits using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q7-02",
+      "question_text": "In plain terms, which idea best explains understand local-path storage limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "Local-path storage lives on a node; it can be persistent across pod restarts but is not replicated across nodes."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain understand local-path storage limits using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q7-03",
+      "question_text": "Which source finding supports the basic model for understand local-path storage limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "README states node-bound volumes and says durability needs snapshots/application backups."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain understand local-path storage limits using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q7-04",
+      "question_text": "Where should you trace the implementation of understand local-path storage limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "helm/edge-stateful; docs"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for understand local-path storage limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-05",
+      "question_text": "Which source excerpt or paraphrase illustrates understand local-path storage limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        },
+        {
+          "option_id": "d",
+          "text": "README states node-bound volumes and says durability needs snapshots/application backups."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for understand local-path storage limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-06",
+      "question_text": "A failure occurs while checking understand local-path storage limits. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "README states node-bound volumes and says durability needs snapshots/application backups."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for understand local-path storage limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-07",
+      "question_text": "Which supplied source should be inspected before changing understand local-path storage limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "helm/edge-stateful; docs"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for understand local-path storage limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-08",
+      "question_text": "Which source finding is accurate for understand local-path storage limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README states node-bound volumes and says durability needs snapshots/application backups."
+        },
+        {
+          "option_id": "b",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for understand local-path storage limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-09",
+      "question_text": "Which review best connects the basic model and source details in understand local-path storage limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        },
+        {
+          "option_id": "d",
+          "text": "Use the model that Local-path storage lives on a node; it can be persistent across pod restarts but is not replicated across nodes., then trace helm/edge-stateful; docs; the source finding is README states node-bound volumes and says durability needs snapshots/application backups."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of understand local-path storage limits",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q7-10",
+      "question_text": "After reading the whole module on understand local-path storage limits, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "The example is README states node-bound volumes and says durability needs snapshots/application backups.; interpret it with this finding: README states node-bound volumes and says durability needs snapshots/application backups. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of understand local-path storage limits",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

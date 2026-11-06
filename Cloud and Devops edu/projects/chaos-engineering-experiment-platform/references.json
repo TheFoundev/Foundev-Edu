@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Chaos Engineering principles",
+    "url": "https://principlesofchaos.org/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Go context",
+    "url": "https://pkg.go.dev/context",
+    "type": "official documentation"
+  },
+  {
+    "title": "Go process signals",
+    "url": "https://pkg.go.dev/os/signal",
+    "type": "official documentation"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "module_id": "module-05",
+  "title": "Consumer Poll, Ack, and Pending",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Consumer Poll, Ack, and Pending.",
+  "learning_objectives": [
+    "Explain consumer poll, ack, and pending using a plain-language model",
+    "Trace the source implementation for consumer poll, ack, and pending",
+    "Assess failure and operational limits of consumer poll, ack, and pending"
+  ],
+  "prerequisites": [
+    "module-04"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A consumer cursor is its current reading position; acknowledgement advances it, while pending counts unacknowledged records.",
+    "Consumer.Poll and Ack track a single offset for that consumer instance."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "queue.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "queue.go",
+    "symbol_or_search_term": "Consumer",
+    "line_start": 139,
+    "line_end": 148
+  }
+}

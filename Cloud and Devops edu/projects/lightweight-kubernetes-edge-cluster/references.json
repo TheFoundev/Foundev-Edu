@@ -1,0 +1,27 @@
+[
+  {
+    "title": "K3s documentation",
+    "url": "https://docs.k3s.io/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Kubernetes cluster architecture",
+    "url": "https://kubernetes.io/docs/concepts/architecture/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Kubernetes NetworkPolicy",
+    "url": "https://kubernetes.io/docs/concepts/services-networking/network-policies/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Helm chart docs",
+    "url": "https://helm.sh/docs/topics/charts/",
+    "type": "official documentation"
+  },
+  {
+    "title": "systemd timers",
+    "url": "https://www.freedesktop.org/software/systemd/man/latest/systemd.timer.html",
+    "type": "official documentation"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "module_id": "module-04",
+  "title": "Encode and Decode Base32",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Encode and Decode Base32.",
+  "learning_objectives": [
+    "Explain encode and decode base32 using a plain-language model",
+    "Trace the source implementation for encode and decode base32",
+    "Assess failure and operational limits of encode and decode base32"
+  ],
+  "prerequisites": [
+    "module-03"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Base32 converts binary CID bytes to text; decoding reverses the alphabet/bit grouping.",
+    "base32encode/base32decode use lowercase RFC-style alphabet symbols."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/cid.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/cid.js",
+    "symbol_or_search_term": "base32encode",
+    "line_start": 70,
+    "line_end": 75
+  }
+}

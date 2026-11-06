@@ -1,0 +1,255 @@
+{
+  "module_id": "module-10",
+  "questions": [
+    {
+      "question_id": "q10-01",
+      "question_text": "Which supplied source is primary for test execution and security limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "engine.go; engine_test.go; README.md"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain test execution and security limits using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q10-02",
+      "question_text": "In plain terms, which idea best explains test execution and security limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "Tests cover local command execution, failures, retries, timeout, results, and final tasks; they do not prove a sandbox."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain test execution and security limits using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q10-03",
+      "question_text": "Which source finding supports the basic model for test execution and security limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Host command execution uses exec.CommandContext with the caller's OS permissions; tests use a recording executor for safe cases."
+        },
+        {
+          "option_id": "b",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain test execution and security limits using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q10-04",
+      "question_text": "Where should you trace the implementation of test execution and security limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "engine.go; engine_test.go; README.md"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for test execution and security limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q10-05",
+      "question_text": "Which source excerpt or paraphrase illustrates test execution and security limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "exec.CommandContext(stepContext, script, \"-c\", command)"
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for test execution and security limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q10-06",
+      "question_text": "A failure occurs while checking test execution and security limits. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "Host command execution uses exec.CommandContext with the caller's OS permissions; tests use a recording executor for safe cases."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for test execution and security limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q10-07",
+      "question_text": "Which supplied source should be inspected before changing test execution and security limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "engine.go; engine_test.go; README.md"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for test execution and security limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q10-08",
+      "question_text": "Which source finding is accurate for test execution and security limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        },
+        {
+          "option_id": "d",
+          "text": "Host command execution uses exec.CommandContext with the caller's OS permissions; tests use a recording executor for safe cases."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for test execution and security limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q10-09",
+      "question_text": "Which review best connects the basic model and source details in test execution and security limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "Use the model that Tests cover local command execution, failures, retries, timeout, results, and final tasks; they do not prove a sandbox., then trace engine.go; engine_test.go; README.md; the source finding is Host command execution uses exec.CommandContext with the caller's OS permissions; tests use a recording executor for safe cases."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of test execution and security limits",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q10-10",
+      "question_text": "After reading the whole module on test execution and security limits, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "The example is exec.CommandContext(stepContext, script, \"-c\", command); interpret it with this finding: Host command execution uses exec.CommandContext with the caller's OS permissions; tests use a recording executor for safe cases. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of test execution and security limits",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

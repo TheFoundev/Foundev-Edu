@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Prometheus exposition format",
+    "url": "https://prometheus.io/docs/instrumenting/exposition_formats/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Prometheus concepts",
+    "url": "https://prometheus.io/docs/introduction/overview/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Go time",
+    "url": "https://pkg.go.dev/time",
+    "type": "official documentation"
+  }
+]

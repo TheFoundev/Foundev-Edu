@@ -1,0 +1,40 @@
+{
+  "module_id": "module-04",
+  "title": "Reconcile Actions and Failures",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Reconcile Actions and Failures.",
+  "learning_objectives": [
+    "Explain reconcile actions and failures using a plain-language model",
+    "Trace the source implementation for reconcile actions and failures",
+    "Assess failure and operational limits of reconcile actions and failures"
+  ],
+  "prerequisites": [
+    "module-03"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Reconciliation repeatedly applies planned changes and records failures without pretending a cloud provider ran.",
+    "ReconcileWithSchemas validates writes and returns FailedAction details."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "control.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "control.go",
+    "symbol_or_search_term": "FailedAction",
+    "line_start": 261,
+    "line_end": 270
+  }
+}

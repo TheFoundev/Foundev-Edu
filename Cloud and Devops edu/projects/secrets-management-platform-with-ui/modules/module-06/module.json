@@ -1,0 +1,40 @@
+{
+  "module_id": "module-06",
+  "title": "Authorize API Calls",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Authorize API Calls.",
+  "learning_objectives": [
+    "Explain authorize api calls using a plain-language model",
+    "Trace the source implementation for authorize api calls",
+    "Assess failure and operational limits of authorize api calls"
+  ],
+  "prerequisites": [
+    "module-05"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "An API token is compared before routes; static UI paths are served without the API token.",
+    "API paths require x-api-token; constant-time equal checks equal-length buffers."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/server.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/server.js",
+    "symbol_or_search_term": "token",
+    "line_start": 28,
+    "line_end": 37
+  }
+}

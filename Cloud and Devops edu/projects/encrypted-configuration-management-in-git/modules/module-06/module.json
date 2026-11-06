@@ -1,0 +1,41 @@
+{
+  "module_id": "module-06",
+  "title": "Authorize CI Decryption",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Authorize CI Decryption.",
+  "learning_objectives": [
+    "Explain authorize ci decryption using a plain-language model",
+    "Trace the source implementation for authorize ci decryption",
+    "Assess failure and operational limits of authorize ci decryption"
+  ],
+  "prerequisites": [
+    "module-05"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Decrypt authorization checks CI indicators, run markers, and local-deny policy; this is application policy, not isolation from a compromised runner.",
+    "detect_ci, check_marker, authorize_decrypt determine allow/deny."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "secretsync/policy.py",
+    "secretsync/cli.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "secretsync/policy.py",
+    "symbol_or_search_term": "authorize_decrypt",
+    "line_start": 4,
+    "line_end": 13
+  }
+}

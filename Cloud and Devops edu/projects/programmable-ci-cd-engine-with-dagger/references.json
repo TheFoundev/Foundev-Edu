@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Dagger Go SDK",
+    "url": "https://docs.dagger.io/reference/sdks/go/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Go os/exec",
+    "url": "https://pkg.go.dev/os/exec",
+    "type": "official documentation"
+  },
+  {
+    "title": "Go context",
+    "url": "https://pkg.go.dev/context",
+    "type": "official documentation"
+  }
+]

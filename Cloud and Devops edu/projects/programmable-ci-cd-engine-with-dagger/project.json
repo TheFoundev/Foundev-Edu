@@ -1,0 +1,28 @@
+{
+  "title": "Programmable CI/CD Engine with Dagger",
+  "slug": "programmable-ci-cd-engine-with-dagger",
+  "description": "A Go pipeline runner orders steps, hashes inputs/dependencies, caches results, executes host commands, and reports outcomes.",
+  "problem_solved": "Understand dependency graphs, cache correctness, executor boundaries, retries/timeouts, and secret redaction without mistaking this host runner for Dagger.",
+  "target_audience": "Advanced beginner/intermediate Cloud and DevOps learners",
+  "technology_stack": [
+    "Go",
+    "context",
+    "host process execution",
+    "memory/file cache"
+  ],
+  "difficulty_level": "intermediate",
+  "prerequisites": [
+    "Basic programming and terminal use",
+    "Read the project's source tree and setup guide",
+    "Use disposable local/test environments for operational exercises"
+  ],
+  "learning_outcomes": [
+    "Explain the source system's implemented components and limitations",
+    "Trace data/control flow through modules and interfaces",
+    "Distinguish simulation, local implementation, and external production services",
+    "Use tests, logs, and safe experiments to verify claims",
+    "Apply security, operational, and failure-mode reasoning"
+  ],
+  "estimated_completion_time": "22–35 hours",
+  "content_schema_version": "1.0.0"
+}

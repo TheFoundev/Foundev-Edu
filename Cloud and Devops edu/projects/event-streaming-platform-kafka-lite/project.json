@@ -1,0 +1,30 @@
+{
+  "title": "Event Streaming Platform (Kafka-lite)",
+  "slug": "event-streaming-platform-kafka-lite",
+  "description": "A Java/Kafka clickstream pipeline validates schemas, runs Kafka Streams aggregations, and serves materialized views.",
+  "problem_solved": "Trace events through schema validation, Kafka topics, stream processing, state stores, and query APIs while distinguishing the local fake registry from a real registry.",
+  "target_audience": "Advanced beginner/intermediate Cloud and DevOps learners",
+  "technology_stack": [
+    "Java",
+    "Apache Kafka 3.7.0",
+    "Kafka Streams",
+    "Schema Registry",
+    "Docker Compose",
+    "JUnit"
+  ],
+  "difficulty_level": "intermediate",
+  "prerequisites": [
+    "Basic programming and terminal use",
+    "Read the project's source tree and setup guide",
+    "Use disposable local/test environments for operational exercises"
+  ],
+  "learning_outcomes": [
+    "Explain the source system's implemented components and limitations",
+    "Trace data/control flow through modules and interfaces",
+    "Distinguish simulation, local implementation, and external production services",
+    "Use tests, logs, and safe experiments to verify claims",
+    "Apply security, operational, and failure-mode reasoning"
+  ],
+  "estimated_completion_time": "28–44 hours",
+  "content_schema_version": "1.0.0"
+}

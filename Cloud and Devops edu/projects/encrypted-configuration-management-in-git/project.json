@@ -1,0 +1,30 @@
+{
+  "title": "Encrypted Configuration Management in Git",
+  "slug": "encrypted-configuration-management-in-git",
+  "description": "secretsync is a Python CLI that orchestrates SOPS/age, environment policy, tracked-file scanning, and a hash-chained audit log.",
+  "problem_solved": "Understand encrypted configuration workflows, key recipients, CI-only decryption policy, audit integrity, rotation, and their trust boundaries.",
+  "target_audience": "Advanced beginner/intermediate Cloud and DevOps learners",
+  "technology_stack": [
+    "Python",
+    "SOPS",
+    "age",
+    "Git",
+    "CI",
+    "optional Ansible"
+  ],
+  "difficulty_level": "intermediate",
+  "prerequisites": [
+    "Basic programming and terminal use",
+    "Read the project's source tree and setup guide",
+    "Use disposable local/test environments for operational exercises"
+  ],
+  "learning_outcomes": [
+    "Explain the source system's implemented components and limitations",
+    "Trace data/control flow through modules and interfaces",
+    "Distinguish simulation, local implementation, and external production services",
+    "Use tests, logs, and safe experiments to verify claims",
+    "Apply security, operational, and failure-mode reasoning"
+  ],
+  "estimated_completion_time": "28–44 hours",
+  "content_schema_version": "1.0.0"
+}

@@ -1,0 +1,255 @@
+{
+  "module_id": "module-05",
+  "questions": [
+    {
+      "question_id": "q5-01",
+      "question_text": "Which supplied source is primary for consumer poll, ack, and pending?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "queue.go"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain consumer poll, ack, and pending using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q5-02",
+      "question_text": "In plain terms, which idea best explains consumer poll, ack, and pending?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A consumer cursor is its current reading position; acknowledgement advances it, while pending counts unacknowledged records."
+        },
+        {
+          "option_id": "b",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain consumer poll, ack, and pending using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q5-03",
+      "question_text": "Which source finding supports the basic model for consumer poll, ack, and pending?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        },
+        {
+          "option_id": "d",
+          "text": "Consumer.Poll and Ack track a single offset for that consumer instance."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain consumer poll, ack, and pending using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q5-04",
+      "question_text": "Where should you trace the implementation of consumer poll, ack, and pending?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "queue.go"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for consumer poll, ack, and pending",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-05",
+      "question_text": "Which source excerpt or paraphrase illustrates consumer poll, ack, and pending?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "Consumer.Poll and Ack track a single offset for that consumer instance."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for consumer poll, ack, and pending",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-06",
+      "question_text": "A failure occurs while checking consumer poll, ack, and pending. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Consumer.Poll and Ack track a single offset for that consumer instance."
+        },
+        {
+          "option_id": "b",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for consumer poll, ack, and pending",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-07",
+      "question_text": "Which supplied source should be inspected before changing consumer poll, ack, and pending?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "queue.go"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for consumer poll, ack, and pending",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-08",
+      "question_text": "Which source finding is accurate for consumer poll, ack, and pending?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "Consumer.Poll and Ack track a single offset for that consumer instance."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for consumer poll, ack, and pending",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q5-09",
+      "question_text": "Which review best connects the basic model and source details in consumer poll, ack, and pending?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "Use the model that A consumer cursor is its current reading position; acknowledgement advances it, while pending counts unacknowledged records., then trace queue.go; the source finding is Consumer.Poll and Ack track a single offset for that consumer instance."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of consumer poll, ack, and pending",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q5-10",
+      "question_text": "After reading the whole module on consumer poll, ack, and pending, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "The example is Consumer.Poll and Ack track a single offset for that consumer instance.; interpret it with this finding: Consumer.Poll and Ack track a single offset for that consumer instance. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "b",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of consumer poll, ack, and pending",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "module_id": "module-05",
+  "title": "Contrast Redis Fixed Window",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Contrast Redis Fixed Window.",
+  "learning_objectives": [
+    "Explain contrast redis fixed window using a plain-language model",
+    "Trace the source implementation for contrast redis fixed window",
+    "Assess failure and operational limits of contrast redis fixed window"
+  ],
+  "prerequisites": [
+    "module-04"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A fixed window counts requests until a TTL expires; it does not smoothly refill fractional tokens.",
+    "RedisStore increments a key and sets PEXPIRE on count==1; Take compares count to burst and does not use rate."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "store.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "store.go",
+    "symbol_or_search_term": "RedisStore",
+    "line_start": 242,
+    "line_end": 251
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "module_id": "module-10",
+  "questions": [
+    {
+      "question_id": "q10-01",
+      "question_text": "Which supplied source is primary for test failure paths and duplication?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "test/"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain test failure paths and duplication using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q10-02",
+      "question_text": "In plain terms, which idea best explains test failure paths and duplication?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "Message delivery can be repeated; test retries, idempotency, dead letters, and reconnect behavior rather than assuming one delivery."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain test failure paths and duplication using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q10-03",
+      "question_text": "Which source finding supports the basic model for test failure paths and duplication?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Tests cover order outcomes, metrics, and retries; broker integration should be run separately."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain test failure paths and duplication using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q10-04",
+      "question_text": "Where should you trace the implementation of test failure paths and duplication?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "test/"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for test failure paths and duplication",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q10-05",
+      "question_text": "Which source excerpt or paraphrase illustrates test failure paths and duplication?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "Tests cover order outcomes, metrics, and retries; broker integration should be run separately."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for test failure paths and duplication",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q10-06",
+      "question_text": "A failure occurs while checking test failure paths and duplication. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "Tests cover order outcomes, metrics, and retries; broker integration should be run separately."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for test failure paths and duplication",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q10-07",
+      "question_text": "Which supplied source should be inspected before changing test failure paths and duplication?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "test/"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for test failure paths and duplication",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q10-08",
+      "question_text": "Which source finding is accurate for test failure paths and duplication?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        },
+        {
+          "option_id": "d",
+          "text": "Tests cover order outcomes, metrics, and retries; broker integration should be run separately."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for test failure paths and duplication",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q10-09",
+      "question_text": "Which review best connects the basic model and source details in test failure paths and duplication?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "Use the model that Message delivery can be repeated; test retries, idempotency, dead letters, and reconnect behavior rather than assuming one delivery., then trace test/; the source finding is Tests cover order outcomes, metrics, and retries; broker integration should be run separately."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of test failure paths and duplication",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q10-10",
+      "question_text": "After reading the whole module on test failure paths and duplication, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "The example is Tests cover order outcomes, metrics, and retries; broker integration should be run separately.; interpret it with this finding: Tests cover order outcomes, metrics, and retries; broker integration should be run separately. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of test failure paths and duplication",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

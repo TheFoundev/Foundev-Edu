@@ -1,0 +1,41 @@
+{
+  "module_id": "module-10",
+  "title": "Use the Pre-Commit and CI Gates",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Use the Pre-Commit and CI Gates.",
+  "learning_objectives": [
+    "Explain use the pre-commit and ci gates using a plain-language model",
+    "Trace the source implementation for use the pre-commit and ci gates",
+    "Assess failure and operational limits of use the pre-commit and ci gates"
+  ],
+  "prerequisites": [
+    "module-09"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Hooks run locally only when installed/configured; CI provides another check but is not a replacement for reviewing trust and permissions.",
+    "README directs git config core.hooksPath .githooks; CI runs tests and example automation."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    ".githooks/pre-commit",
+    ".github/workflows/ci.yml"
+  ],
+  "source_code_focus": {
+    "excerpt_file": ".github/workflows/ci.yml",
+    "symbol_or_search_term": "runs",
+    "line_start": 4,
+    "line_end": 13
+  }
+}

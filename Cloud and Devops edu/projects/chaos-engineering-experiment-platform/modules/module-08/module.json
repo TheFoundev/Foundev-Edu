@@ -1,0 +1,41 @@
+{
+  "module_id": "module-08",
+  "title": "Tests and Deterministic Time",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Tests and Deterministic Time.",
+  "learning_objectives": [
+    "Explain tests and deterministic time using a plain-language model",
+    "Trace the source implementation for tests and deterministic time",
+    "Assess failure and operational limits of tests and deterministic time"
+  ],
+  "prerequisites": [
+    "module-07"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A fake clock lets tests advance time without waiting in real time.",
+    "Tests use fakeClock/recordingExecutor and exercise rollback, failed hypothesis, dry run, and local wait."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "chaos_test.go",
+    "chaos.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "chaos_test.go",
+    "symbol_or_search_term": "recordingExecutor",
+    "line_start": 143,
+    "line_end": 152
+  }
+}

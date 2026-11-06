@@ -1,0 +1,40 @@
+{
+  "module_id": "module-05",
+  "title": "Consume with Prefetch and Settlement",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Consume with Prefetch and Settlement.",
+  "learning_objectives": [
+    "Explain consume with prefetch and settlement using a plain-language model",
+    "Trace the source implementation for consume with prefetch and settlement",
+    "Assess failure and operational limits of consume with prefetch and settlement"
+  ],
+  "prerequisites": [
+    "module-04"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Prefetch limits unacknowledged messages; ack says done, retry/requeue or dead-letter handles failures.",
+    "Consumer classifies outcomes and settles deliveries; pipeline returns ok/retry/dead_letter."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/mbb_consumer.erl"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/mbb_consumer.erl",
+    "symbol_or_search_term": "dead_letter",
+    "line_start": 231,
+    "line_end": 240
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "title": "RabbitMQ AMQP concepts",
+    "url": "https://www.rabbitmq.com/tutorials/amqp-concepts",
+    "type": "official documentation"
+  },
+  {
+    "title": "RabbitMQ confirms",
+    "url": "https://www.rabbitmq.com/docs/confirms",
+    "type": "official documentation"
+  },
+  {
+    "title": "Erlang/OTP supervision",
+    "url": "https://www.erlang.org/doc/system/sup_princ.html",
+    "type": "official documentation"
+  },
+  {
+    "title": "Prometheus exposition",
+    "url": "https://prometheus.io/docs/instrumenting/exposition_formats/",
+    "type": "official documentation"
+  }
+]

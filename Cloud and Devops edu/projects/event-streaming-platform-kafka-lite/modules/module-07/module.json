@@ -1,0 +1,42 @@
+{
+  "module_id": "module-07",
+  "title": "Producer Delivery and Registry Modes",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Producer Delivery and Registry Modes.",
+  "learning_objectives": [
+    "Explain producer delivery and registry modes using a plain-language model",
+    "Trace the source implementation for producer delivery and registry modes",
+    "Assess failure and operational limits of producer delivery and registry modes"
+  ],
+  "prerequisites": [
+    "module-06"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A producer may send events continuously or in bursts; fake/local registry mode is a test/development choice.",
+    "CLI subcommands include producer, streams, view, fake-registry, and all-local."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/main/java/local/foundev/streams/producer/ClickProducer.java",
+    "src/main/java/local/foundev/streams/registry/FakeSchemaRegistry.java",
+    "README.md"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/main/java/local/foundev/streams/producer/ClickProducer.java",
+    "symbol_or_search_term": "producer",
+    "line_start": 1,
+    "line_end": 5
+  }
+}

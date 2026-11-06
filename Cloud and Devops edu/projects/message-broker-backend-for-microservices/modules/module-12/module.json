@@ -1,0 +1,41 @@
+{
+  "module_id": "module-12",
+  "title": "Build a Safe Local Verification Plan",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Build a Safe Local Verification Plan.",
+  "learning_objectives": [
+    "Explain build a safe local verification plan using a plain-language model",
+    "Trace the source implementation for build a safe local verification plan",
+    "Assess failure and operational limits of build a safe local verification plan"
+  ],
+  "prerequisites": [
+    "module-11"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A local verification plan separates unit tests, broker integration, and production deployment checks.",
+    "README documents rebar tests, Compose stack, and limitations."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "README.md",
+    "tools/check_erl.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "tools/check_erl.py",
+    "symbol_or_search_term": "stack",
+    "line_start": 111,
+    "line_end": 120
+  }
+}

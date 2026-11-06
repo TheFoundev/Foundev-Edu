@@ -1,0 +1,255 @@
+{
+  "module_id": "module-07",
+  "questions": [
+    {
+      "question_id": "q7-01",
+      "question_text": "Which supplied source is primary for persist state with the optional filestore?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "control.go; main.go"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain persist state with the optional filestore using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q7-02",
+      "question_text": "In plain terms, which idea best explains persist state with the optional filestore?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "The default store is in memory; a supplied -state path loads/saves JSON between process starts."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain persist state with the optional filestore using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q7-03",
+      "question_text": "Which source finding supports the basic model for persist state with the optional filestore?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "main.go conditionally loads NewFileStore when state path is nonempty and saves after changes."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain persist state with the optional filestore using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q7-04",
+      "question_text": "Where should you trace the implementation of persist state with the optional filestore?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "control.go; main.go"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for persist state with the optional filestore",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-05",
+      "question_text": "Which source excerpt or paraphrase illustrates persist state with the optional filestore?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        },
+        {
+          "option_id": "d",
+          "text": "main.go conditionally loads NewFileStore when state path is nonempty and saves after changes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for persist state with the optional filestore",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-06",
+      "question_text": "A failure occurs while checking persist state with the optional filestore. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "main.go conditionally loads NewFileStore when state path is nonempty and saves after changes."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for persist state with the optional filestore",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-07",
+      "question_text": "Which supplied source should be inspected before changing persist state with the optional filestore?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "control.go; main.go"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for persist state with the optional filestore",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-08",
+      "question_text": "Which source finding is accurate for persist state with the optional filestore?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "main.go conditionally loads NewFileStore when state path is nonempty and saves after changes."
+        },
+        {
+          "option_id": "b",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for persist state with the optional filestore",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-09",
+      "question_text": "Which review best connects the basic model and source details in persist state with the optional filestore?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        },
+        {
+          "option_id": "d",
+          "text": "Use the model that The default store is in memory; a supplied -state path loads/saves JSON between process starts., then trace control.go; main.go; the source finding is main.go conditionally loads NewFileStore when state path is nonempty and saves after changes."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of persist state with the optional filestore",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q7-10",
+      "question_text": "After reading the whole module on persist state with the optional filestore, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A local Go struct automatically registers a Kubernetes CRD and runs as a controller."
+        },
+        {
+          "option_id": "b",
+          "text": "A successful YAML parse proves a cluster accepted and safely applied the resource."
+        },
+        {
+          "option_id": "c",
+          "text": "The example is main.go conditionally loads NewFileStore when state path is nonempty and saves after changes.; interpret it with this finding: main.go conditionally loads NewFileStore when state path is nonempty and saves after changes. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "d",
+          "text": "A local-path volume replicates application data across cluster nodes."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of persist state with the optional filestore",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

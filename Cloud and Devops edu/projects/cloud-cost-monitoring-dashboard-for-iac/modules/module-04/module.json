@@ -1,0 +1,40 @@
+{
+  "module_id": "module-04",
+  "title": "Classify Providers and Resource Types",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Classify Providers and Resource Types.",
+  "learning_objectives": [
+    "Explain classify providers and resource types using a plain-language model",
+    "Trace the source implementation for classify providers and resource types",
+    "Assess failure and operational limits of classify providers and resource types"
+  ],
+  "prerequisites": [
+    "module-03"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Resource type prefixes act like labels that group resources by provider.",
+    "providerOf splits the resource type at the first underscore and returns other when absent."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "cost.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "cost.go",
+    "symbol_or_search_term": "providerOf",
+    "line_start": 170,
+    "line_end": 179
+  }
+}

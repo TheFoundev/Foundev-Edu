@@ -1,0 +1,255 @@
+{
+  "module_id": "module-04",
+  "questions": [
+    {
+      "question_id": "q4-01",
+      "question_text": "Which supplied source is primary for use memory and file caches?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "engine.go"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain use memory and file caches using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q4-02",
+      "question_text": "In plain terms, which idea best explains use memory and file caches?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "A memory cache lasts for one process; a file cache can survive a new engine process on the same disk."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain use memory and file caches using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q4-03",
+      "question_text": "Which source finding supports the basic model for use memory and file caches?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "MemoryCache and FileCache implement Has/Put."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain use memory and file caches using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q4-04",
+      "question_text": "Where should you trace the implementation of use memory and file caches?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "engine.go"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for use memory and file caches",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-05",
+      "question_text": "Which source excerpt or paraphrase illustrates use memory and file caches?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "MemoryCache and FileCache implement Has/Put."
+        },
+        {
+          "option_id": "b",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for use memory and file caches",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-06",
+      "question_text": "A failure occurs while checking use memory and file caches. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "MemoryCache and FileCache implement Has/Put."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for use memory and file caches",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-07",
+      "question_text": "Which supplied source should be inspected before changing use memory and file caches?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "engine.go"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for use memory and file caches",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-08",
+      "question_text": "Which source finding is accurate for use memory and file caches?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "MemoryCache and FileCache implement Has/Put."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for use memory and file caches",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-09",
+      "question_text": "Which review best connects the basic model and source details in use memory and file caches?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Use the model that A memory cache lasts for one process; a file cache can survive a new engine process on the same disk., then trace engine.go; the source finding is MemoryCache and FileCache implement Has/Put."
+        },
+        {
+          "option_id": "b",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of use memory and file caches",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q4-10",
+      "question_text": "After reading the whole module on use memory and file caches, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "The example is MemoryCache and FileCache implement Has/Put.; interpret it with this finding: MemoryCache and FileCache implement Has/Put. Verify the connected component before making a production claim."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of use memory and file caches",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

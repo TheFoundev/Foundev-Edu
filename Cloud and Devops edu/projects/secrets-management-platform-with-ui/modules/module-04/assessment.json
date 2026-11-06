@@ -1,0 +1,255 @@
+{
+  "module_id": "module-04",
+  "questions": [
+    {
+      "question_id": "q4-01",
+      "question_text": "Which supplied source is primary for store envelopes and audit records?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "src/store.js"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain store envelopes and audit records using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q4-02",
+      "question_text": "In plain terms, which idea best explains store envelopes and audit records?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "A secret in source or logs remains confidential from repository users."
+        },
+        {
+          "option_id": "d",
+          "text": "The store saves encrypted envelopes and metadata in a JSON file; the audit list records action/name/time but is bounded."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain store envelopes and audit records using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q4-03",
+      "question_text": "Which source finding supports the basic model for store envelopes and audit records?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "SecretStore.set encrypts and saves; record trims audit to last 200 items."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain store envelopes and audit records using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q4-04",
+      "question_text": "Where should you trace the implementation of store envelopes and audit records?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "src/store.js"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for store envelopes and audit records",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-05",
+      "question_text": "Which source excerpt or paraphrase illustrates store envelopes and audit records?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "SecretStore.set encrypts and saves; record trims audit to last 200 items."
+        },
+        {
+          "option_id": "b",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for store envelopes and audit records",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-06",
+      "question_text": "A failure occurs while checking store envelopes and audit records. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "A secret in source or logs remains confidential from repository users."
+        },
+        {
+          "option_id": "d",
+          "text": "SecretStore.set encrypts and saves; record trims audit to last 200 items."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for store envelopes and audit records",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-07",
+      "question_text": "Which supplied source should be inspected before changing store envelopes and audit records?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "src/store.js"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for store envelopes and audit records",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-08",
+      "question_text": "Which source finding is accurate for store envelopes and audit records?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "SecretStore.set encrypts and saves; record trims audit to last 200 items."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for store envelopes and audit records",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q4-09",
+      "question_text": "Which review best connects the basic model and source details in store envelopes and audit records?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Use the model that The store saves encrypted envelopes and metadata in a JSON file; the audit list records action/name/time but is bounded., then trace src/store.js; the source finding is SecretStore.set encrypts and saves; record trims audit to last 200 items."
+        },
+        {
+          "option_id": "b",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of store envelopes and audit records",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q4-10",
+      "question_text": "After reading the whole module on store envelopes and audit records, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "A secret in source or logs remains confidential from repository users."
+        },
+        {
+          "option_id": "d",
+          "text": "The example is SecretStore.set encrypts and saves; record trims audit to last 200 items.; interpret it with this finding: SecretStore.set encrypts and saves; record trims audit to last 200 items. Verify the connected component before making a production claim."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of store envelopes and audit records",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

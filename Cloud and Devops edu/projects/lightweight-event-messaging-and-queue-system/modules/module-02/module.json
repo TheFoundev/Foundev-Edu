@@ -1,0 +1,40 @@
+{
+  "module_id": "module-02",
+  "title": "Choose a Partition from the Key",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Choose a Partition from the Key.",
+  "learning_objectives": [
+    "Explain choose a partition from the key using a plain-language model",
+    "Trace the source implementation for choose a partition from the key",
+    "Assess failure and operational limits of choose a partition from the key"
+  ],
+  "prerequisites": [
+    "module-01"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Messages with the same key should map to the same lane so their order is preserved.",
+    "partitionOf(key) hashes key and maps it to the broker's partition count."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "queue.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "queue.go",
+    "symbol_or_search_term": "partitionOf",
+    "line_start": 56,
+    "line_end": 65
+  }
+}

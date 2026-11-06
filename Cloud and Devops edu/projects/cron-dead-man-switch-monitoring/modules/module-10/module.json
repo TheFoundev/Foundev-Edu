@@ -1,0 +1,41 @@
+{
+  "module_id": "module-10",
+  "title": "Threat Model and Test Boundaries",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Threat Model and Test Boundaries.",
+  "learning_objectives": [
+    "Explain threat model and test boundaries using a plain-language model",
+    "Trace the source implementation for threat model and test boundaries",
+    "Assess failure and operational limits of threat model and test boundaries"
+  ],
+  "prerequisites": [
+    "module-09"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A UUID ping endpoint is convenient for cron but must be protected like a password; tests cannot establish production availability.",
+    "Tests cover parser/state/API/dispatch cases; no public deployment or load test is implied."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "core/tests",
+    "README.md"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "core/tests/test_alerts.py",
+    "symbol_or_search_term": "dispatch",
+    "line_start": 1,
+    "line_end": 8
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "module_id": "module-03",
+  "questions": [
+    {
+      "question_id": "q3-01",
+      "question_text": "Which supplied source is primary for executor interface and dry run?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "chaos.go"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain executor interface and dry run using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q3-02",
+      "question_text": "In plain terms, which idea best explains executor interface and dry run?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "An executor is a swappable tool for applying and recovering faults; dry-run changes nothing."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain executor interface and dry run using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q3-03",
+      "question_text": "Which source finding supports the basic model for executor interface and dry run?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "FaultExecutor requires Apply, Recover, Name; nil executor defaults to DryRunExecutor."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain executor interface and dry run using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q3-04",
+      "question_text": "Where should you trace the implementation of executor interface and dry run?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "chaos.go"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for executor interface and dry run",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-05",
+      "question_text": "Which source excerpt or paraphrase illustrates executor interface and dry run?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "type FaultExecutor interface { Apply; Recover; Name }"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for executor interface and dry run",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-06",
+      "question_text": "A failure occurs while checking executor interface and dry run. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "FaultExecutor requires Apply, Recover, Name; nil executor defaults to DryRunExecutor."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for executor interface and dry run",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-07",
+      "question_text": "Which supplied source should be inspected before changing executor interface and dry run?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "chaos.go"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for executor interface and dry run",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-08",
+      "question_text": "Which source finding is accurate for executor interface and dry run?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "FaultExecutor requires Apply, Recover, Name; nil executor defaults to DryRunExecutor."
+        },
+        {
+          "option_id": "b",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for executor interface and dry run",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-09",
+      "question_text": "Which review best connects the basic model and source details in executor interface and dry run?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "Use the model that An executor is a swappable tool for applying and recovering faults; dry-run changes nothing., then trace chaos.go; the source finding is FaultExecutor requires Apply, Recover, Name; nil executor defaults to DryRunExecutor."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of executor interface and dry run",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q3-10",
+      "question_text": "After reading the whole module on executor interface and dry run, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "The example is type FaultExecutor interface { Apply; Recover; Name }; interpret it with this finding: FaultExecutor requires Apply, Recover, Name; nil executor defaults to DryRunExecutor. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of executor interface and dry run",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

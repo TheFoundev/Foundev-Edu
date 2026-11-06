@@ -1,0 +1,40 @@
+{
+  "module_id": "module-03",
+  "title": "Read the Mini-YAML Subset",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Read the Mini-YAML Subset.",
+  "learning_objectives": [
+    "Explain read the mini-yaml subset using a plain-language model",
+    "Trace the source implementation for read the mini-yaml subset",
+    "Assess failure and operational limits of read the mini-yaml subset"
+  ],
+  "prerequisites": [
+    "module-02"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A small parser supports the project's needed YAML subset, not every YAML feature or the complete SOPS configuration language.",
+    "loads tokenizes/indents and parses scalars, flow lists/maps, sequences, and mappings."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "secretsync/miniyaml.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "secretsync/miniyaml.py",
+    "symbol_or_search_term": "mappings",
+    "line_start": 118,
+    "line_end": 127
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "module_id": "module-03",
+  "title": "Handle Invalid Events and DLQ",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Handle Invalid Events and DLQ.",
+  "learning_objectives": [
+    "Explain handle invalid events and dlq using a plain-language model",
+    "Trace the source implementation for handle invalid events and dlq",
+    "Assess failure and operational limits of handle invalid events and dlq"
+  ],
+  "prerequisites": [
+    "module-02"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A dead-letter queue isolates events that cannot be decoded so they do not silently poison the normal stream.",
+    "README describes violations routed to clicks-dlq; inspect headers and error handler for exact behavior."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/main/java/local/foundev/streams/deser/SchemaValidatingDeserializer.java"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/main/java/local/foundev/streams/deser/SchemaValidatingDeserializer.java",
+    "symbol_or_search_term": "dlq",
+    "line_start": 23,
+    "line_end": 32
+  }
+}

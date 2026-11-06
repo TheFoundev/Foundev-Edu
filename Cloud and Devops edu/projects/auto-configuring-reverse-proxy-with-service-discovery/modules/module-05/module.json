@@ -1,0 +1,40 @@
+{
+  "module_id": "module-05",
+  "title": "Docker Label Discovery",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Docker Label Discovery.",
+  "learning_objectives": [
+    "Explain docker label discovery using a plain-language model",
+    "Trace the source implementation for docker label discovery",
+    "Assess failure and operational limits of docker label discovery"
+  ],
+  "prerequisites": [
+    "module-04"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "The Docker daemon is a host-level control API; discovery asks for containers and uses agreed labels.",
+    "ListContainers calls /containers/json over a Unix socket; discovery reads foundev.service/port/host and filters non-running containers."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "proxy.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "proxy.go",
+    "symbol_or_search_term": "ListContainers",
+    "line_start": 212,
+    "line_end": 221
+  }
+}

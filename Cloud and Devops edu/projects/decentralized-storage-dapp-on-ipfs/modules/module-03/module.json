@@ -1,0 +1,40 @@
+{
+  "module_id": "module-03",
+  "title": "Assemble CIDv1 and Raw Codec",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Assemble CIDv1 and Raw Codec.",
+  "learning_objectives": [
+    "Explain assemble cidv1 and raw codec using a plain-language model",
+    "Trace the source implementation for assemble cidv1 and raw codec",
+    "Assess failure and operational limits of assemble cidv1 and raw codec"
+  ],
+  "prerequisites": [
+    "module-02"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "CIDv1 combines a version, codec, multihash, and base encoding; this prototype uses raw codec 0x55.",
+    "CID_VERSION=1; RAW_CODEC=0x55; cidFromBytes(content)."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/cid.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/cid.js",
+    "symbol_or_search_term": "CID_VERSION",
+    "line_start": 61,
+    "line_end": 70
+  }
+}

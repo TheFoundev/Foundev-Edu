@@ -1,0 +1,40 @@
+{
+  "module_id": "module-08",
+  "title": "Handle Failures and Results",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Handle Failures and Results.",
+  "learning_objectives": [
+    "Explain handle failures and results using a plain-language model",
+    "Trace the source implementation for handle failures and results",
+    "Assess failure and operational limits of handle failures and results"
+  ],
+  "prerequisites": [
+    "module-07"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "The runner records step result, skips later steps after failure, and skips dependent jobs.",
+    "Runner.Run returns StepResults with status/output."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "repository.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "repository.go",
+    "symbol_or_search_term": "Runner",
+    "line_start": 468,
+    "line_end": 477
+  }
+}

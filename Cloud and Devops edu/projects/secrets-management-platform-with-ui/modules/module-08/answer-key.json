@@ -1,0 +1,145 @@
+{
+  "module_id": "module-08",
+  "answers": [
+    {
+      "question_id": "q8-01",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is test/crypto.test.js; test/server.test.js. It establishes that The Node test cases cover secret round trips, incorrect-password errors, and API authorization; they do not prove deployment hardening. The source example is test(\"round trips a secret\") The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "This source is not the component identified for the module. Inspect test/crypto.test.js; test/server.test.js.",
+        "c": "This source is not the component identified for the module. Inspect test/crypto.test.js; test/server.test.js.",
+        "d": "This source is not the component identified for the module. Inspect test/crypto.test.js; test/server.test.js."
+      },
+      "concept_tested": "Test Crypto and API Behavior",
+      "related_lesson_id": "lesson-01",
+      "source_file": "test/crypto.test.js; test/server.test.js",
+      "supporting_reference": "https://nodejs.org/api/crypto.html"
+    },
+    {
+      "question_id": "q8-02",
+      "correct_option_id": "d",
+      "explanation": "This is the module's lay explanation. The implementation source is test/crypto.test.js; test/server.test.js, where the more specific finding is: The Node test cases cover secret round trips, incorrect-password errors, and API authorization; they do not prove deployment hardening. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "c": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Test Crypto and API Behavior",
+      "related_lesson_id": "lesson-01",
+      "source_file": "test/crypto.test.js; test/server.test.js",
+      "supporting_reference": "https://nodejs.org/api/crypto.html"
+    },
+    {
+      "question_id": "q8-03",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is test/crypto.test.js; test/server.test.js. It establishes that The Node test cases cover secret round trips, incorrect-password errors, and API authorization; they do not prove deployment hardening. The source example is test(\"round trips a secret\") The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Test Crypto and API Behavior",
+      "related_lesson_id": "lesson-01",
+      "source_file": "test/crypto.test.js; test/server.test.js",
+      "supporting_reference": "https://nodejs.org/api/crypto.html"
+    },
+    {
+      "question_id": "q8-04",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is test/crypto.test.js; test/server.test.js. It establishes that The Node test cases cover secret round trips, incorrect-password errors, and API authorization; they do not prove deployment hardening. The source example is test(\"round trips a secret\") The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect test/crypto.test.js; test/server.test.js.",
+        "c": "This source is not the component identified for the module. Inspect test/crypto.test.js; test/server.test.js.",
+        "d": "This source is not the component identified for the module. Inspect test/crypto.test.js; test/server.test.js."
+      },
+      "concept_tested": "Test Crypto and API Behavior",
+      "related_lesson_id": "lesson-02",
+      "source_file": "test/crypto.test.js; test/server.test.js",
+      "supporting_reference": "https://nodejs.org/api/crypto.html"
+    },
+    {
+      "question_id": "q8-05",
+      "correct_option_id": "a",
+      "explanation": "This excerpt or paraphrase is drawn from test/crypto.test.js; test/server.test.js. The source finding is: The Node test cases cover secret round trips, incorrect-password errors, and API authorization; they do not prove deployment hardening. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "b": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "c": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Test Crypto and API Behavior",
+      "related_lesson_id": "lesson-02",
+      "source_file": "test/crypto.test.js; test/server.test.js",
+      "supporting_reference": "https://nodejs.org/api/crypto.html"
+    },
+    {
+      "question_id": "q8-06",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is test/crypto.test.js; test/server.test.js. It establishes that The Node test cases cover secret round trips, incorrect-password errors, and API authorization; they do not prove deployment hardening. The source example is test(\"round trips a secret\") The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "c": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Test Crypto and API Behavior",
+      "related_lesson_id": "lesson-02",
+      "source_file": "test/crypto.test.js; test/server.test.js",
+      "supporting_reference": "https://nodejs.org/api/crypto.html"
+    },
+    {
+      "question_id": "q8-07",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is test/crypto.test.js; test/server.test.js. It establishes that The Node test cases cover secret round trips, incorrect-password errors, and API authorization; they do not prove deployment hardening. The source example is test(\"round trips a secret\") The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect test/crypto.test.js; test/server.test.js.",
+        "b": "This source is not the component identified for the module. Inspect test/crypto.test.js; test/server.test.js.",
+        "d": "This source is not the component identified for the module. Inspect test/crypto.test.js; test/server.test.js."
+      },
+      "concept_tested": "Test Crypto and API Behavior",
+      "related_lesson_id": "lesson-02",
+      "source_file": "test/crypto.test.js; test/server.test.js",
+      "supporting_reference": "https://nodejs.org/api/crypto.html"
+    },
+    {
+      "question_id": "q8-08",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is test/crypto.test.js; test/server.test.js. It establishes that The Node test cases cover secret round trips, incorrect-password errors, and API authorization; they do not prove deployment hardening. The source example is test(\"round trips a secret\") The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "c": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Test Crypto and API Behavior",
+      "related_lesson_id": "lesson-02",
+      "source_file": "test/crypto.test.js; test/server.test.js",
+      "supporting_reference": "https://nodejs.org/api/crypto.html"
+    },
+    {
+      "question_id": "q8-09",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is test/crypto.test.js; test/server.test.js. It establishes that The Node test cases cover secret round trips, incorrect-password errors, and API authorization; they do not prove deployment hardening. The source example is test(\"round trips a secret\") The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "c": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Test Crypto and API Behavior",
+      "related_lesson_id": "lesson-03",
+      "source_file": "test/crypto.test.js; test/server.test.js",
+      "supporting_reference": "https://nodejs.org/api/crypto.html"
+    },
+    {
+      "question_id": "q8-10",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is test/crypto.test.js; test/server.test.js. It establishes that The Node test cases cover secret round trips, incorrect-password errors, and API authorization; they do not prove deployment hardening. The source example is test(\"round trips a secret\") The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "c": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Test Crypto and API Behavior",
+      "related_lesson_id": "lesson-03",
+      "source_file": "test/crypto.test.js; test/server.test.js",
+      "supporting_reference": "https://nodejs.org/api/crypto.html"
+    }
+  ]
+}

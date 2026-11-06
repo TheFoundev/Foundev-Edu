@@ -1,0 +1,145 @@
+{
+  "module_id": "module-11",
+  "answers": [
+    {
+      "question_id": "q11-01",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts. It establishes that Hardhat tests cover state transitions, timeouts, ERC20, reentrancy, token roles/pausing/royalties, and factory indexing. The source example is npm test; test/escrow.spec.ts The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts.",
+        "b": "This source is not the component identified for the module. Inspect contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts.",
+        "c": "This source is not the component identified for the module. Inspect contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts."
+      },
+      "concept_tested": "Test Fixtures and Security Tests",
+      "related_lesson_id": "lesson-01",
+      "source_file": "contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts",
+      "supporting_reference": "https://docs.soliditylang.org/en/latest/"
+    },
+    {
+      "question_id": "q11-02",
+      "correct_option_id": "c",
+      "explanation": "This is the module's lay explanation. The implementation source is contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts, where the more specific finding is: Hardhat tests cover state transitions, timeouts, ERC20, reentrancy, token roles/pausing/royalties, and factory indexing. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Test Fixtures and Security Tests",
+      "related_lesson_id": "lesson-01",
+      "source_file": "contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts",
+      "supporting_reference": "https://docs.soliditylang.org/en/latest/"
+    },
+    {
+      "question_id": "q11-03",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts. It establishes that Hardhat tests cover state transitions, timeouts, ERC20, reentrancy, token roles/pausing/royalties, and factory indexing. The source example is npm test; test/escrow.spec.ts The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "c": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Test Fixtures and Security Tests",
+      "related_lesson_id": "lesson-01",
+      "source_file": "contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts",
+      "supporting_reference": "https://docs.soliditylang.org/en/latest/"
+    },
+    {
+      "question_id": "q11-04",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts. It establishes that Hardhat tests cover state transitions, timeouts, ERC20, reentrancy, token roles/pausing/royalties, and factory indexing. The source example is npm test; test/escrow.spec.ts The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "This source is not the component identified for the module. Inspect contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts.",
+        "c": "This source is not the component identified for the module. Inspect contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts.",
+        "d": "This source is not the component identified for the module. Inspect contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts."
+      },
+      "concept_tested": "Test Fixtures and Security Tests",
+      "related_lesson_id": "lesson-02",
+      "source_file": "contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts",
+      "supporting_reference": "https://docs.soliditylang.org/en/latest/"
+    },
+    {
+      "question_id": "q11-05",
+      "correct_option_id": "d",
+      "explanation": "This excerpt or paraphrase is drawn from contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts. The source finding is: Hardhat tests cover state transitions, timeouts, ERC20, reentrancy, token roles/pausing/royalties, and factory indexing. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "c": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Test Fixtures and Security Tests",
+      "related_lesson_id": "lesson-02",
+      "source_file": "contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts",
+      "supporting_reference": "https://docs.soliditylang.org/en/latest/"
+    },
+    {
+      "question_id": "q11-06",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts. It establishes that Hardhat tests cover state transitions, timeouts, ERC20, reentrancy, token roles/pausing/royalties, and factory indexing. The source example is npm test; test/escrow.spec.ts The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Test Fixtures and Security Tests",
+      "related_lesson_id": "lesson-02",
+      "source_file": "contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts",
+      "supporting_reference": "https://docs.soliditylang.org/en/latest/"
+    },
+    {
+      "question_id": "q11-07",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts. It establishes that Hardhat tests cover state transitions, timeouts, ERC20, reentrancy, token roles/pausing/royalties, and factory indexing. The source example is npm test; test/escrow.spec.ts The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts.",
+        "c": "This source is not the component identified for the module. Inspect contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts.",
+        "d": "This source is not the component identified for the module. Inspect contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts."
+      },
+      "concept_tested": "Test Fixtures and Security Tests",
+      "related_lesson_id": "lesson-02",
+      "source_file": "contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts",
+      "supporting_reference": "https://docs.soliditylang.org/en/latest/"
+    },
+    {
+      "question_id": "q11-08",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts. It establishes that Hardhat tests cover state transitions, timeouts, ERC20, reentrancy, token roles/pausing/royalties, and factory indexing. The source example is npm test; test/escrow.spec.ts The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "c": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Test Fixtures and Security Tests",
+      "related_lesson_id": "lesson-02",
+      "source_file": "contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts",
+      "supporting_reference": "https://docs.soliditylang.org/en/latest/"
+    },
+    {
+      "question_id": "q11-09",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts. It establishes that Hardhat tests cover state transitions, timeouts, ERC20, reentrancy, token roles/pausing/royalties, and factory indexing. The source example is npm test; test/escrow.spec.ts The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "c": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Test Fixtures and Security Tests",
+      "related_lesson_id": "lesson-03",
+      "source_file": "contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts",
+      "supporting_reference": "https://docs.soliditylang.org/en/latest/"
+    },
+    {
+      "question_id": "q11-10",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts. It establishes that Hardhat tests cover state transitions, timeouts, ERC20, reentrancy, token roles/pausing/royalties, and factory indexing. The source example is npm test; test/escrow.spec.ts The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Test Fixtures and Security Tests",
+      "related_lesson_id": "lesson-03",
+      "source_file": "contracts/test/ReentrancyAttacker.sol; test/escrow.spec.ts",
+      "supporting_reference": "https://docs.soliditylang.org/en/latest/"
+    }
+  ]
+}

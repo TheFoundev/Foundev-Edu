@@ -1,0 +1,41 @@
+{
+  "module_id": "module-11",
+  "title": "Use the Ansible Example Carefully",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Use the Ansible Example Carefully.",
+  "learning_objectives": [
+    "Explain use the ansible example carefully using a plain-language model",
+    "Trace the source implementation for use the ansible example carefully",
+    "Assess failure and operational limits of use the ansible example carefully"
+  ],
+  "prerequisites": [
+    "module-10"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "The playbook/lookup demonstrates automation integration; it adds another execution environment that must receive secrets and identity carefully.",
+    "The project README describes Ansible as an example integration, not required core runtime."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "ansible/playbook.yml",
+    "ansible/lookup_plugins/secretsync.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "ansible/playbook.yml",
+    "symbol_or_search_term": "Ansible",
+    "line_start": 1,
+    "line_end": 6
+  }
+}

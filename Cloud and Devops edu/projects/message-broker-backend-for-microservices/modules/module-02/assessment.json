@@ -1,0 +1,255 @@
+{
+  "module_id": "module-02",
+  "questions": [
+    {
+      "question_id": "q2-01",
+      "question_text": "Which supplied source is primary for manage amqp connection and reconnect?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "src/mbb_connection.erl"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain manage amqp connection and reconnect using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q2-02",
+      "question_text": "In plain terms, which idea best explains manage amqp connection and reconnect?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A broker connection is a network session; reconnect logic must recreate channels and topology after a failure."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain manage amqp connection and reconnect using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q2-03",
+      "question_text": "Which source finding supports the basic model for manage amqp connection and reconnect?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Connection module owns connection/channel and re-declares topology after reconnect."
+        },
+        {
+          "option_id": "b",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain manage amqp connection and reconnect using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q2-04",
+      "question_text": "Where should you trace the implementation of manage amqp connection and reconnect?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "src/mbb_connection.erl"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for manage amqp connection and reconnect",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-05",
+      "question_text": "Which source excerpt or paraphrase illustrates manage amqp connection and reconnect?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "Connection module owns connection/channel and re-declares topology after reconnect."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for manage amqp connection and reconnect",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-06",
+      "question_text": "A failure occurs while checking manage amqp connection and reconnect. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "Connection module owns connection/channel and re-declares topology after reconnect."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for manage amqp connection and reconnect",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-07",
+      "question_text": "Which supplied source should be inspected before changing manage amqp connection and reconnect?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "src/mbb_connection.erl"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for manage amqp connection and reconnect",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-08",
+      "question_text": "Which source finding is accurate for manage amqp connection and reconnect?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        },
+        {
+          "option_id": "d",
+          "text": "Connection module owns connection/channel and re-declares topology after reconnect."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for manage amqp connection and reconnect",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q2-09",
+      "question_text": "Which review best connects the basic model and source details in manage amqp connection and reconnect?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "c",
+          "text": "Use the model that A broker connection is a network session; reconnect logic must recreate channels and topology after a failure., then trace src/mbb_connection.erl; the source finding is Connection module owns connection/channel and re-declares topology after reconnect."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of manage amqp connection and reconnect",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q2-10",
+      "question_text": "After reading the whole module on manage amqp connection and reconnect, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Access to the Docker daemon socket is a harmless read-only permission."
+        },
+        {
+          "option_id": "b",
+          "text": "The example is Connection module owns connection/channel and re-declares topology after reconnect.; interpret it with this finding: Connection module owns connection/channel and re-declares topology after reconnect. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "c",
+          "text": "A health field set to true proves the backend passed an active network probe."
+        },
+        {
+          "option_id": "d",
+          "text": "A host command runner automatically executes commands in a container sandbox."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of manage amqp connection and reconnect",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

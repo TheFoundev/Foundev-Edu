@@ -1,0 +1,40 @@
+{
+  "module_id": "module-04",
+  "title": "Receive Heartbeats and Return Status",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Receive Heartbeats and Return Status.",
+  "learning_objectives": [
+    "Explain receive heartbeats and return status using a plain-language model",
+    "Trace the source implementation for receive heartbeats and return status",
+    "Assess failure and operational limits of receive heartbeats and return status"
+  ],
+  "prerequisites": [
+    "module-03"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A ping is a request that says a scheduled task ran; a secret UUID in its path identifies the check.",
+    "check_ping handles GET/HEAD/POST; check_status returns the current status JSON."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "core/api.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "core/api.py",
+    "symbol_or_search_term": "check_status",
+    "line_start": 90,
+    "line_end": 99
+  }
+}

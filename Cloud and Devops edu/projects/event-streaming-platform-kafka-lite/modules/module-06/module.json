@@ -1,0 +1,40 @@
+{
+  "module_id": "module-06",
+  "title": "Understand Sessionization and State Stores",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Understand Sessionization and State Stores.",
+  "learning_objectives": [
+    "Explain understand sessionization and state stores using a plain-language model",
+    "Trace the source implementation for understand sessionization and state stores",
+    "Assess failure and operational limits of understand sessionization and state stores"
+  ],
+  "prerequisites": [
+    "module-05"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A session groups nearby events; a state store keeps intermediate data so a stream processor can update aggregates.",
+    "README lists sessionization and changelog-backed state stores."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/main/java/local/foundev/streams/streams/ClicksStreamsApp.java"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/main/java/local/foundev/streams/streams/ClicksStreamsApp.java",
+    "symbol_or_search_term": "state",
+    "line_start": 13,
+    "line_end": 22
+  }
+}

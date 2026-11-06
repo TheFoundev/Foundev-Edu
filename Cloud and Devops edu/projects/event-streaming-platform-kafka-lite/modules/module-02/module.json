@@ -1,0 +1,41 @@
+{
+  "module_id": "module-02",
+  "title": "Validate Event Schemas",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Validate Event Schemas.",
+  "learning_objectives": [
+    "Explain validate event schemas using a plain-language model",
+    "Trace the source implementation for validate event schemas",
+    "Assess failure and operational limits of validate event schemas"
+  ],
+  "prerequisites": [
+    "module-01"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A schema is a contract for event fields; producers/consumers can reject data that does not fit it.",
+    "SchemaRegistryClient calls external registry with bundled-schema fallback; FakeSchemaRegistry is local."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/main/java/local/foundev/streams/registry/SchemaRegistryClient.java",
+    "src/main/resources/clicks-value.schema.json"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/main/java/local/foundev/streams/registry/SchemaRegistryClient.java",
+    "symbol_or_search_term": "SchemaRegistryClient",
+    "line_start": 9,
+    "line_end": 18
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "module_id": "module-04",
+  "title": "Reverse Proxy Path Flow",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Reverse Proxy Path Flow.",
+  "learning_objectives": [
+    "Explain reverse proxy path flow using a plain-language model",
+    "Trace the source implementation for reverse proxy path flow",
+    "Assess failure and operational limits of reverse proxy path flow"
+  ],
+  "prerequisites": [
+    "module-03"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A reverse proxy forwards a request while a client uses one stable address.",
+    "ServeHTTP parses /service/path, selects an instance, removes the prefix, and forwards with NewSingleHostReverseProxy."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "proxy.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "proxy.go",
+    "symbol_or_search_term": "Join",
+    "line_start": 149,
+    "line_end": 158
+  }
+}

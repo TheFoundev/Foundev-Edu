@@ -1,0 +1,42 @@
+{
+  "module_id": "module-08",
+  "title": "Review Project Scope and Tests",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Review Project Scope and Tests.",
+  "learning_objectives": [
+    "Explain review project scope and tests using a plain-language model",
+    "Trace the source implementation for review project scope and tests",
+    "Assess failure and operational limits of review project scope and tests"
+  ],
+  "prerequisites": [
+    "module-07"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Tests cover helpers and mocked/provider-facing behavior, not a full dApp or deployed ERC20 contract.",
+    "encodeTransfer builds ERC20 calldata; the source has no contract deployment, event history, on-chain query, or receipt confirmation."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/ethereum.js",
+    "test/",
+    "README.md"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/ethereum.js",
+    "symbol_or_search_term": "encodeTransfer",
+    "line_start": 60,
+    "line_end": 69
+  }
+}

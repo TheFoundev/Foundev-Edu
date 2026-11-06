@@ -1,0 +1,39 @@
+{
+  "module_id": "module-01",
+  "title": "Threat Model and Secret Lifecycle",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Threat Model and Secret Lifecycle.",
+  "learning_objectives": [
+    "Explain threat model and secret lifecycle using a plain-language model",
+    "Trace the source implementation for threat model and secret lifecycle",
+    "Assess failure and operational limits of threat model and secret lifecycle"
+  ],
+  "prerequisites": [],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Ciphertext may be committed, but whoever has an authorized identity can decrypt it; the CI runner is part of the trust boundary.",
+    "authorize_decrypt checks CI identity and marker policy; the README distinguishes stolen clones, compromised CI, shared recipients, and scanner misses."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "secretsync/policy.py",
+    "README.md"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "secretsync/policy.py",
+    "symbol_or_search_term": "authorize_decrypt",
+    "line_start": 4,
+    "line_end": 13
+  }
+}

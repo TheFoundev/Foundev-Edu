@@ -1,0 +1,40 @@
+{
+  "module_id": "module-08",
+  "title": "Serve Materialized Views",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Serve Materialized Views.",
+  "learning_objectives": [
+    "Explain serve materialized views using a plain-language model",
+    "Trace the source implementation for serve materialized views",
+    "Assess failure and operational limits of serve materialized views"
+  ],
+  "prerequisites": [
+    "module-07"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A materialized view is a precomputed answer that avoids recalculating from every raw event on each query.",
+    "ViewServer exposes stats/pages, stats/sessions, top-referrers, and health routes."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/main/java/local/foundev/streams/api/ViewServer.java"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/main/java/local/foundev/streams/api/ViewServer.java",
+    "symbol_or_search_term": "ViewServer",
+    "line_start": 160,
+    "line_end": 169
+  }
+}

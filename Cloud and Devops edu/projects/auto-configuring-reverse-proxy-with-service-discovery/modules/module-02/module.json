@@ -1,0 +1,40 @@
+{
+  "module_id": "module-02",
+  "title": "Parse the Small Config Format",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Parse the Small Config Format.",
+  "learning_objectives": [
+    "Explain parse the small config format using a plain-language model",
+    "Trace the source implementation for parse the small config format",
+    "Assess failure and operational limits of parse the small config format"
+  ],
+  "prerequisites": [
+    "module-01"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "This parser recognizes a few line patterns, like a short checklist rather than general YAML.",
+    "ParseConfig handles services:, - name:, and - http/https lines; rejects instance-before-service and no services."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "proxy.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "proxy.go",
+    "symbol_or_search_term": "HasPrefix",
+    "line_start": 53,
+    "line_end": 62
+  }
+}

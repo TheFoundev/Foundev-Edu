@@ -1,0 +1,40 @@
+{
+  "module_id": "module-02",
+  "title": "Store and Select a Time Window",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Store and Select a Time Window.",
+  "learning_objectives": [
+    "Explain store and select a time window using a plain-language model",
+    "Trace the source implementation for store and select a time window",
+    "Assess failure and operational limits of store and select a time window"
+  ],
+  "prerequisites": [
+    "module-01"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A time window selects observations near now; old samples outside the window do not contribute.",
+    "windowLocked filters by metric and cutoff time."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "metrics.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "metrics.go",
+    "symbol_or_search_term": "windowLocked",
+    "line_start": 38,
+    "line_end": 47
+  }
+}

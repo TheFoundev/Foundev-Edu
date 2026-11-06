@@ -1,0 +1,255 @@
+{
+  "module_id": "module-03",
+  "questions": [
+    {
+      "question_id": "q3-01",
+      "question_text": "Which supplied source is primary for content-defined chunk boundaries?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "repository.go"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain content-defined chunk boundaries using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q3-02",
+      "question_text": "In plain terms, which idea best explains content-defined chunk boundaries?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "Content-defined chunking chooses boundaries from data content so edits can preserve later chunks better than fixed-size blocks."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain content-defined chunk boundaries using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q3-03",
+      "question_text": "Which source finding supports the basic model for content-defined chunk boundaries?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "ContentDefined uses rolling hash with min/average/max boundaries."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain content-defined chunk boundaries using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q3-04",
+      "question_text": "Where should you trace the implementation of content-defined chunk boundaries?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "repository.go"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for content-defined chunk boundaries",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-05",
+      "question_text": "Which source excerpt or paraphrase illustrates content-defined chunk boundaries?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "A secret in source or logs remains confidential from repository users."
+        },
+        {
+          "option_id": "d",
+          "text": "ContentDefined uses rolling hash with min/average/max boundaries."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for content-defined chunk boundaries",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-06",
+      "question_text": "A failure occurs while checking content-defined chunk boundaries. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "ContentDefined uses rolling hash with min/average/max boundaries."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for content-defined chunk boundaries",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-07",
+      "question_text": "Which supplied source should be inspected before changing content-defined chunk boundaries?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "repository.go"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for content-defined chunk boundaries",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-08",
+      "question_text": "Which source finding is accurate for content-defined chunk boundaries?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "ContentDefined uses rolling hash with min/average/max boundaries."
+        },
+        {
+          "option_id": "b",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for content-defined chunk boundaries",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-09",
+      "question_text": "Which review best connects the basic model and source details in content-defined chunk boundaries?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "A secret in source or logs remains confidential from repository users."
+        },
+        {
+          "option_id": "d",
+          "text": "Use the model that Content-defined chunking chooses boundaries from data content so edits can preserve later chunks better than fixed-size blocks., then trace repository.go; the source finding is ContentDefined uses rolling hash with min/average/max boundaries."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of content-defined chunk boundaries",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q3-10",
+      "question_text": "After reading the whole module on content-defined chunk boundaries, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "The example is ContentDefined uses rolling hash with min/average/max boundaries.; interpret it with this finding: ContentDefined uses rolling hash with min/average/max boundaries. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of content-defined chunk boundaries",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

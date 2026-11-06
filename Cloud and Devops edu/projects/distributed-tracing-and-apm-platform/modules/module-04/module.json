@@ -1,0 +1,40 @@
+{
+  "module_id": "module-04",
+  "title": "Calculate Latency Percentiles",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Calculate Latency Percentiles.",
+  "learning_objectives": [
+    "Explain calculate latency percentiles using a plain-language model",
+    "Trace the source implementation for calculate latency percentiles",
+    "Assess failure and operational limits of calculate latency percentiles"
+  ],
+  "prerequisites": [
+    "module-03"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A percentile selects a position from sorted observations; this implementation uses a floor-based nearest-lower index.",
+    "Percentile selects a sorted-value index; Stats converts durations to milliseconds."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "tracing.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "tracing.go",
+    "symbol_or_search_term": "Percentile",
+    "line_start": 124,
+    "line_end": 133
+  }
+}

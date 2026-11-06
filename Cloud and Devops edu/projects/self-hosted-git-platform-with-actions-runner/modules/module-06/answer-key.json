@@ -1,0 +1,145 @@
+{
+  "module_id": "module-06",
+  "answers": [
+    {
+      "question_id": "q6-01",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is repository.go. It establishes that jobBlocked and stepBlocked check needs/dependencies and prior failures. The source example is jobBlocked and stepBlocked check needs/dependencies and prior failures. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect repository.go.",
+        "b": "This source is not the component identified for the module. Inspect repository.go.",
+        "d": "This source is not the component identified for the module. Inspect repository.go."
+      },
+      "concept_tested": "Resolve Jobs and Steps",
+      "related_lesson_id": "lesson-01",
+      "source_file": "repository.go",
+      "supporting_reference": "https://git-scm.com/docs/git-hash-object"
+    },
+    {
+      "question_id": "q6-02",
+      "correct_option_id": "b",
+      "explanation": "This is the module's lay explanation. The implementation source is repository.go, where the more specific finding is: jobBlocked and stepBlocked check needs/dependencies and prior failures. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "a": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "c": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "d": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Resolve Jobs and Steps",
+      "related_lesson_id": "lesson-01",
+      "source_file": "repository.go",
+      "supporting_reference": "https://git-scm.com/docs/git-hash-object"
+    },
+    {
+      "question_id": "q6-03",
+      "correct_option_id": "a",
+      "explanation": "This excerpt or paraphrase is drawn from repository.go. The source finding is: jobBlocked and stepBlocked check needs/dependencies and prior failures. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "b": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "c": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "d": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Resolve Jobs and Steps",
+      "related_lesson_id": "lesson-01",
+      "source_file": "repository.go",
+      "supporting_reference": "https://git-scm.com/docs/git-hash-object"
+    },
+    {
+      "question_id": "q6-04",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is repository.go. It establishes that jobBlocked and stepBlocked check needs/dependencies and prior failures. The source example is jobBlocked and stepBlocked check needs/dependencies and prior failures. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect repository.go.",
+        "b": "This source is not the component identified for the module. Inspect repository.go.",
+        "c": "This source is not the component identified for the module. Inspect repository.go."
+      },
+      "concept_tested": "Resolve Jobs and Steps",
+      "related_lesson_id": "lesson-02",
+      "source_file": "repository.go",
+      "supporting_reference": "https://git-scm.com/docs/git-hash-object"
+    },
+    {
+      "question_id": "q6-05",
+      "correct_option_id": "c",
+      "explanation": "This excerpt or paraphrase is drawn from repository.go. The source finding is: jobBlocked and stepBlocked check needs/dependencies and prior failures. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "b": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "d": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Resolve Jobs and Steps",
+      "related_lesson_id": "lesson-02",
+      "source_file": "repository.go",
+      "supporting_reference": "https://git-scm.com/docs/git-hash-object"
+    },
+    {
+      "question_id": "q6-06",
+      "correct_option_id": "b",
+      "explanation": "This excerpt or paraphrase is drawn from repository.go. The source finding is: jobBlocked and stepBlocked check needs/dependencies and prior failures. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "c": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "d": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Resolve Jobs and Steps",
+      "related_lesson_id": "lesson-02",
+      "source_file": "repository.go",
+      "supporting_reference": "https://git-scm.com/docs/git-hash-object"
+    },
+    {
+      "question_id": "q6-07",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is repository.go. It establishes that jobBlocked and stepBlocked check needs/dependencies and prior failures. The source example is jobBlocked and stepBlocked check needs/dependencies and prior failures. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "This source is not the component identified for the module. Inspect repository.go.",
+        "c": "This source is not the component identified for the module. Inspect repository.go.",
+        "d": "This source is not the component identified for the module. Inspect repository.go."
+      },
+      "concept_tested": "Resolve Jobs and Steps",
+      "related_lesson_id": "lesson-02",
+      "source_file": "repository.go",
+      "supporting_reference": "https://git-scm.com/docs/git-hash-object"
+    },
+    {
+      "question_id": "q6-08",
+      "correct_option_id": "d",
+      "explanation": "This excerpt or paraphrase is drawn from repository.go. The source finding is: jobBlocked and stepBlocked check needs/dependencies and prior failures. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "b": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "c": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Resolve Jobs and Steps",
+      "related_lesson_id": "lesson-02",
+      "source_file": "repository.go",
+      "supporting_reference": "https://git-scm.com/docs/git-hash-object"
+    },
+    {
+      "question_id": "q6-09",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is repository.go. It establishes that jobBlocked and stepBlocked check needs/dependencies and prior failures. The source example is jobBlocked and stepBlocked check needs/dependencies and prior failures. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "b": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "d": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Resolve Jobs and Steps",
+      "related_lesson_id": "lesson-03",
+      "source_file": "repository.go",
+      "supporting_reference": "https://git-scm.com/docs/git-hash-object"
+    },
+    {
+      "question_id": "q6-10",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is repository.go. It establishes that jobBlocked and stepBlocked check needs/dependencies and prior failures. The source example is jobBlocked and stepBlocked check needs/dependencies and prior failures. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Documentation may describe intended scope; implementation needs source files that actually provide the feature.",
+        "c": "A simulation exercises local logic, not the provider's API, permissions, network, or runtime behavior.",
+        "d": "A label/value is only as trustworthy as the code path and measurement that produced it."
+      },
+      "concept_tested": "Resolve Jobs and Steps",
+      "related_lesson_id": "lesson-03",
+      "source_file": "repository.go",
+      "supporting_reference": "https://git-scm.com/docs/git-hash-object"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Web3 dApp Frontend with Wallet Integration",
+  "slug": "web3-dapp-frontend-with-wallet-integration",
+  "description": "A Node.js static app validates addresses, formats token amounts, encodes ERC20 transfer calldata, and calls an injected EIP-1193 provider.",
+  "problem_solved": "Understand wallet permissions and transaction construction while recognizing the difference between encoding a call and verifying a token/transaction.",
+  "target_audience": "Advanced beginner/intermediate Cloud and DevOps learners",
+  "technology_stack": [
+    "Node.js",
+    "JavaScript",
+    "Ethereum JSON-RPC",
+    "EIP-1193 provider",
+    "Keccak-256"
+  ],
+  "difficulty_level": "intermediate",
+  "prerequisites": [
+    "Basic programming and terminal use",
+    "Read the project's source tree and setup guide",
+    "Use disposable local/test environments for operational exercises"
+  ],
+  "learning_outcomes": [
+    "Explain the source system's implemented components and limitations",
+    "Trace data/control flow through modules and interfaces",
+    "Distinguish simulation, local implementation, and external production services",
+    "Use tests, logs, and safe experiments to verify claims",
+    "Apply security, operational, and failure-mode reasoning"
+  ],
+  "estimated_completion_time": "20–32 hours",
+  "content_schema_version": "1.0.0"
+}

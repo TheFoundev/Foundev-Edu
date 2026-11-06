@@ -1,0 +1,28 @@
+{
+  "title": "Woodpecker CI Pipeline Server",
+  "slug": "woodpecker-ci-pipeline-server",
+  "description": "A Go service parses a small pipeline format, records builds, and can execute commands using a local HostRunner.",
+  "problem_solved": "Understand a minimal CI server's pipeline parse, build lifecycle, runner boundary, and the dangers of executing repository commands.",
+  "target_audience": "Advanced beginner/intermediate Cloud and DevOps learners",
+  "technology_stack": [
+    "Go",
+    "HTTP",
+    "custom pipeline parser",
+    "os/exec"
+  ],
+  "difficulty_level": "intermediate",
+  "prerequisites": [
+    "Basic programming and terminal use",
+    "Read the project's source tree and setup guide",
+    "Use disposable local/test environments for operational exercises"
+  ],
+  "learning_outcomes": [
+    "Explain the source system's implemented components and limitations",
+    "Trace data/control flow through modules and interfaces",
+    "Distinguish simulation, local implementation, and external production services",
+    "Use tests, logs, and safe experiments to verify claims",
+    "Apply security, operational, and failure-mode reasoning"
+  ],
+  "estimated_completion_time": "18–29 hours",
+  "content_schema_version": "1.0.0"
+}

@@ -1,0 +1,42 @@
+{
+  "module_id": "module-10",
+  "title": "Test Execution and Security Limits",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Test Execution and Security Limits.",
+  "learning_objectives": [
+    "Explain test execution and security limits using a plain-language model",
+    "Trace the source implementation for test execution and security limits",
+    "Assess failure and operational limits of test execution and security limits"
+  ],
+  "prerequisites": [
+    "module-09"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Tests cover local command execution, failures, retries, timeout, results, and final tasks; they do not prove a sandbox.",
+    "Host command execution uses exec.CommandContext with the caller's OS permissions; tests use a recording executor for safe cases."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "engine.go",
+    "engine_test.go",
+    "README.md"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "engine.go",
+    "symbol_or_search_term": "CommandContext",
+    "line_start": 287,
+    "line_end": 296
+  }
+}

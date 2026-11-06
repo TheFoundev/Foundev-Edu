@@ -1,0 +1,41 @@
+{
+  "module_id": "module-03",
+  "title": "Trigger and Record a Build",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Trigger and Record a Build.",
+  "learning_objectives": [
+    "Explain trigger and record a build using a plain-language model",
+    "Trace the source implementation for trigger and record a build",
+    "Assess failure and operational limits of trigger and record a build"
+  ],
+  "prerequisites": [
+    "module-02"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Triggering creates a build record before execution; a queue worker is not present.",
+    "Server.Trigger stores Build; main exposes HTTP routes and CLI demo."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "server.go",
+    "main.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "server.go",
+    "symbol_or_search_term": "Trigger",
+    "line_start": 118,
+    "line_end": 127
+  }
+}

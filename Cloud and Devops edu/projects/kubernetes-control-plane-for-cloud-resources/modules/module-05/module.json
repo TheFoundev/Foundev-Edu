@@ -1,0 +1,40 @@
+{
+  "module_id": "module-05",
+  "title": "Use Resource Versions for Stale Writes",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Use Resource Versions for Stale Writes.",
+  "learning_objectives": [
+    "Explain use resource versions for stale writes using a plain-language model",
+    "Trace the source implementation for use resource versions for stale writes",
+    "Assess failure and operational limits of use resource versions for stale writes"
+  ],
+  "prerequisites": [
+    "module-04"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A version is a simple concurrency check: reject an update based on an older snapshot instead of overwriting newer state.",
+    "Store.Update requires incoming ResourceVersion to match and increments it on write."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "control.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "control.go",
+    "symbol_or_search_term": "ResourceVersion",
+    "line_start": 87,
+    "line_end": 96
+  }
+}

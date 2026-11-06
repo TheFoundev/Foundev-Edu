@@ -1,0 +1,41 @@
+{
+  "module_id": "module-01",
+  "title": "Edge Cluster Architecture and Quorum",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Edge Cluster Architecture and Quorum.",
+  "learning_objectives": [
+    "Explain edge cluster architecture and quorum using a plain-language model",
+    "Trace the source implementation for edge cluster architecture and quorum",
+    "Assess failure and operational limits of edge cluster architecture and quorum"
+  ],
+  "prerequisites": [],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Three control-plane servers form a quorum; an odd server count avoids a tie in majority decisions.",
+    "The server install script configures a first K3s server; the join script adds another server using the shared token and server URL. The config file sets cluster-level K3s options."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "k3s/config.yaml",
+    "bootstrap/10-install-server.sh",
+    "bootstrap/11-install-server-join.sh",
+    "docs/ARCHITECTURE.md"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "bootstrap/10-install-server.sh",
+    "symbol_or_search_term": "K3s",
+    "line_start": 71,
+    "line_end": 80
+  }
+}

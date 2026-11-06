@@ -1,0 +1,40 @@
+{
+  "module_id": "module-03",
+  "title": "Health Flags and Round Robin",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Health Flags and Round Robin.",
+  "learning_objectives": [
+    "Explain health flags and round robin using a plain-language model",
+    "Trace the source implementation for health flags and round robin",
+    "Assess failure and operational limits of health flags and round robin"
+  ],
+  "prerequisites": [
+    "module-02"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Round robin takes turns among eligible backends and skips those marked unhealthy.",
+    "Mark manually updates Healthy; Pick advances a counter then scans up to all instances; no background health checker exists."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "proxy.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "proxy.go",
+    "symbol_or_search_term": "Pick",
+    "line_start": 91,
+    "line_end": 100
+  }
+}

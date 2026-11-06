@@ -1,0 +1,41 @@
+{
+  "module_id": "module-06",
+  "title": "Docker Socket Trust Boundary",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Docker Socket Trust Boundary.",
+  "learning_objectives": [
+    "Explain docker socket trust boundary using a plain-language model",
+    "Trace the source implementation for docker socket trust boundary",
+    "Assess failure and operational limits of docker socket trust boundary"
+  ],
+  "prerequisites": [
+    "module-05"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Giving a server the Docker socket is like giving it powerful control over the host.",
+    "NewDockerClient defaults to /var/run/docker.sock; the source has no auth around a web-exposed proxy."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "proxy.go",
+    "README.md"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "proxy.go",
+    "symbol_or_search_term": "DialContext",
+    "line_start": 174,
+    "line_end": 183
+  }
+}

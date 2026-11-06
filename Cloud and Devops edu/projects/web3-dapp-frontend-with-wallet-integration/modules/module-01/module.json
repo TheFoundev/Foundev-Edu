@@ -1,0 +1,39 @@
+{
+  "module_id": "module-01",
+  "title": "Understand Injected Wallet Providers",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Understand Injected Wallet Providers.",
+  "learning_objectives": [
+    "Explain understand injected wallet providers using a plain-language model",
+    "Trace the source implementation for understand injected wallet providers",
+    "Assess failure and operational limits of understand injected wallet providers"
+  ],
+  "prerequisites": [],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "An injected wallet is a browser provider that asks the user to grant accounts and approve transactions.",
+    "connect uses eth_requestAccounts and reads eth_chainId from window.ethereum."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "public/app.js",
+    "src/server.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "public/app.js",
+    "symbol_or_search_term": "eth_chainId",
+    "line_start": 31,
+    "line_end": 40
+  }
+}

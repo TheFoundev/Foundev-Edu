@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Tekton Tasks",
+    "url": "https://tekton.dev/docs/pipelines/tasks/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Tekton Pipelines",
+    "url": "https://tekton.dev/docs/pipelines/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Tekton retries/finally",
+    "url": "https://tekton.dev/docs/pipelines/pipelines/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Go os/exec",
+    "url": "https://pkg.go.dev/os/exec",
+    "type": "official documentation"
+  }
+]

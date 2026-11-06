@@ -1,0 +1,1461 @@
+# Validation report: tekton-kubernetes-pipeline-engine
+
+Generated: 2026-11-06T14:27:34.187359+00:00
+Status: PASS
+
+## Passed checks
+- Required file exists: manifest.json
+- Required file exists: project.json
+- Required file exists: README.md
+- Required file exists: prerequisites.md
+- Required file exists: setup-guide.md
+- Required file exists: architecture.md
+- Required file exists: glossary.md
+- Required file exists: references.json
+- Required file exists: final-project/requirements.md
+- Required file exists: final-project/evaluation-rubric.json
+- Required file exists: final-project/solution-guide.md
+- No unexpected top-level entry: README.md
+- No unexpected top-level entry: architecture.md
+- No unexpected top-level entry: final-project
+- No unexpected top-level entry: glossary.md
+- No unexpected top-level entry: manifest.json
+- No unexpected top-level entry: modules
+- No unexpected top-level entry: prerequisites.md
+- No unexpected top-level entry: project.json
+- No unexpected top-level entry: references.json
+- No unexpected top-level entry: setup-guide.md
+- project.json contains title
+- project.json contains slug
+- project.json contains description
+- project.json contains problem_solved
+- project.json contains target_audience
+- project.json contains technology_stack
+- project.json contains difficulty_level
+- project.json contains prerequisites
+- project.json contains learning_outcomes
+- project.json contains estimated_completion_time
+- project.json contains content_schema_version
+- Project slug matches directory
+- At least one module exists
+- Project contains six to twelve modules, scaled to project complexity
+- Required module file exists: module-01/module.json
+- Required module file exists: module-01/assessment.json
+- Required module file exists: module-01/answer-key.json
+- Unique module ID: module-01
+- module-01: source files are mapped
+- module-01: mapped source exists: engine.go
+- module-01: source code focus is recorded
+- module-01: excerpt is declared in source map
+- module-01: excerpt path is a source file
+- module-01: declared lesson IDs match lesson files
+- module-01: unique lesson ID lesson-01
+- Lesson has substantive content: modules/module-01/lessons/lesson-01.md
+- module-01/lesson-01: lay explanation precedes source walkthrough
+- module-01/lesson-01: excerpt citation matches module focus
+- module-01/lesson-01: source focus cue appears in excerpt
+- module-01: unique lesson ID lesson-02
+- Lesson has substantive content: modules/module-01/lessons/lesson-02.md
+- module-01/lesson-02: lay explanation precedes source walkthrough
+- module-01/lesson-02: excerpt citation matches module focus
+- module-01/lesson-02: source focus cue appears in excerpt
+- module-01: unique lesson ID lesson-03
+- Lesson has substantive content: modules/module-01/lessons/lesson-03.md
+- module-01/lesson-03: lay explanation precedes source walkthrough
+- module-01/lesson-03: excerpt citation matches module focus
+- module-01/lesson-03: source focus cue appears in excerpt
+- module-01: assessment module ID matches
+- module-01: exactly 10 questions
+- module-01: difficulty mix is 3 basic, 5 intermediate, 2 advanced
+- module-01: unique question ID q1-01
+- module-01/q1-01: non-duplicate question text
+- module-01/q1-01: exactly four distinct options
+- module-01/q1-01: related lesson exists
+- module-01/q1-01: learning objective belongs to module
+- module-01: unique question ID q1-02
+- module-01/q1-02: non-duplicate question text
+- module-01/q1-02: exactly four distinct options
+- module-01/q1-02: related lesson exists
+- module-01/q1-02: learning objective belongs to module
+- module-01: unique question ID q1-03
+- module-01/q1-03: non-duplicate question text
+- module-01/q1-03: exactly four distinct options
+- module-01/q1-03: related lesson exists
+- module-01/q1-03: learning objective belongs to module
+- module-01: unique question ID q1-04
+- module-01/q1-04: non-duplicate question text
+- module-01/q1-04: exactly four distinct options
+- module-01/q1-04: related lesson exists
+- module-01/q1-04: learning objective belongs to module
+- module-01: unique question ID q1-05
+- module-01/q1-05: non-duplicate question text
+- module-01/q1-05: exactly four distinct options
+- module-01/q1-05: related lesson exists
+- module-01/q1-05: learning objective belongs to module
+- module-01: unique question ID q1-06
+- module-01/q1-06: non-duplicate question text
+- module-01/q1-06: exactly four distinct options
+- module-01/q1-06: related lesson exists
+- module-01/q1-06: learning objective belongs to module
+- module-01: unique question ID q1-07
+- module-01/q1-07: non-duplicate question text
+- module-01/q1-07: exactly four distinct options
+- module-01/q1-07: related lesson exists
+- module-01/q1-07: learning objective belongs to module
+- module-01: unique question ID q1-08
+- module-01/q1-08: non-duplicate question text
+- module-01/q1-08: exactly four distinct options
+- module-01/q1-08: related lesson exists
+- module-01/q1-08: learning objective belongs to module
+- module-01: unique question ID q1-09
+- module-01/q1-09: non-duplicate question text
+- module-01/q1-09: exactly four distinct options
+- module-01/q1-09: related lesson exists
+- module-01/q1-09: learning objective belongs to module
+- module-01: unique question ID q1-10
+- module-01/q1-10: non-duplicate question text
+- module-01/q1-10: exactly four distinct options
+- module-01/q1-10: related lesson exists
+- module-01/q1-10: learning objective belongs to module
+- module-01: exactly one answer entry per question
+- module-01/q1-01: correct option exists
+- module-01/q1-01: correct explanation is complete
+- module-01/q1-01: all distractors explained
+- module-01/q1-01: concept documented
+- module-01/q1-01: source file documented
+- module-01/q1-01: answer lesson exists
+- module-01/q1-02: correct option exists
+- module-01/q1-02: correct explanation is complete
+- module-01/q1-02: all distractors explained
+- module-01/q1-02: concept documented
+- module-01/q1-02: source file documented
+- module-01/q1-02: answer lesson exists
+- module-01/q1-03: correct option exists
+- module-01/q1-03: correct explanation is complete
+- module-01/q1-03: all distractors explained
+- module-01/q1-03: concept documented
+- module-01/q1-03: source file documented
+- module-01/q1-03: answer lesson exists
+- module-01/q1-04: correct option exists
+- module-01/q1-04: correct explanation is complete
+- module-01/q1-04: all distractors explained
+- module-01/q1-04: concept documented
+- module-01/q1-04: source file documented
+- module-01/q1-04: answer lesson exists
+- module-01/q1-05: correct option exists
+- module-01/q1-05: correct explanation is complete
+- module-01/q1-05: all distractors explained
+- module-01/q1-05: concept documented
+- module-01/q1-05: source file documented
+- module-01/q1-05: answer lesson exists
+- module-01/q1-06: correct option exists
+- module-01/q1-06: correct explanation is complete
+- module-01/q1-06: all distractors explained
+- module-01/q1-06: concept documented
+- module-01/q1-06: source file documented
+- module-01/q1-06: answer lesson exists
+- module-01/q1-07: correct option exists
+- module-01/q1-07: correct explanation is complete
+- module-01/q1-07: all distractors explained
+- module-01/q1-07: concept documented
+- module-01/q1-07: source file documented
+- module-01/q1-07: answer lesson exists
+- module-01/q1-08: correct option exists
+- module-01/q1-08: correct explanation is complete
+- module-01/q1-08: all distractors explained
+- module-01/q1-08: concept documented
+- module-01/q1-08: source file documented
+- module-01/q1-08: answer lesson exists
+- module-01/q1-09: correct option exists
+- module-01/q1-09: correct explanation is complete
+- module-01/q1-09: all distractors explained
+- module-01/q1-09: concept documented
+- module-01/q1-09: source file documented
+- module-01/q1-09: answer lesson exists
+- module-01/q1-10: correct option exists
+- module-01/q1-10: correct explanation is complete
+- module-01/q1-10: all distractors explained
+- module-01/q1-10: concept documented
+- module-01/q1-10: source file documented
+- module-01/q1-10: answer lesson exists
+- module-01: at least one exercise exists
+- Required module file exists: module-02/module.json
+- Required module file exists: module-02/assessment.json
+- Required module file exists: module-02/answer-key.json
+- Unique module ID: module-02
+- module-02: source files are mapped
+- module-02: mapped source exists: engine.go
+- module-02: source code focus is recorded
+- module-02: excerpt is declared in source map
+- module-02: excerpt path is a source file
+- module-02: declared lesson IDs match lesson files
+- module-02: unique lesson ID lesson-01
+- Lesson has substantive content: modules/module-02/lessons/lesson-01.md
+- module-02/lesson-01: lay explanation precedes source walkthrough
+- module-02/lesson-01: excerpt citation matches module focus
+- module-02/lesson-01: source focus cue appears in excerpt
+- module-02: unique lesson ID lesson-02
+- Lesson has substantive content: modules/module-02/lessons/lesson-02.md
+- module-02/lesson-02: lay explanation precedes source walkthrough
+- module-02/lesson-02: excerpt citation matches module focus
+- module-02/lesson-02: source focus cue appears in excerpt
+- module-02: unique lesson ID lesson-03
+- Lesson has substantive content: modules/module-02/lessons/lesson-03.md
+- module-02/lesson-03: lay explanation precedes source walkthrough
+- module-02/lesson-03: excerpt citation matches module focus
+- module-02/lesson-03: source focus cue appears in excerpt
+- module-02: assessment module ID matches
+- module-02: exactly 10 questions
+- module-02: difficulty mix is 3 basic, 5 intermediate, 2 advanced
+- module-02: unique question ID q2-01
+- module-02/q2-01: non-duplicate question text
+- module-02/q2-01: exactly four distinct options
+- module-02/q2-01: related lesson exists
+- module-02/q2-01: learning objective belongs to module
+- module-02: unique question ID q2-02
+- module-02/q2-02: non-duplicate question text
+- module-02/q2-02: exactly four distinct options
+- module-02/q2-02: related lesson exists
+- module-02/q2-02: learning objective belongs to module
+- module-02: unique question ID q2-03
+- module-02/q2-03: non-duplicate question text
+- module-02/q2-03: exactly four distinct options
+- module-02/q2-03: related lesson exists
+- module-02/q2-03: learning objective belongs to module
+- module-02: unique question ID q2-04
+- module-02/q2-04: non-duplicate question text
+- module-02/q2-04: exactly four distinct options
+- module-02/q2-04: related lesson exists
+- module-02/q2-04: learning objective belongs to module
+- module-02: unique question ID q2-05
+- module-02/q2-05: non-duplicate question text
+- module-02/q2-05: exactly four distinct options
+- module-02/q2-05: related lesson exists
+- module-02/q2-05: learning objective belongs to module
+- module-02: unique question ID q2-06
+- module-02/q2-06: non-duplicate question text
+- module-02/q2-06: exactly four distinct options
+- module-02/q2-06: related lesson exists
+- module-02/q2-06: learning objective belongs to module
+- module-02: unique question ID q2-07
+- module-02/q2-07: non-duplicate question text
+- module-02/q2-07: exactly four distinct options
+- module-02/q2-07: related lesson exists
+- module-02/q2-07: learning objective belongs to module
+- module-02: unique question ID q2-08
+- module-02/q2-08: non-duplicate question text
+- module-02/q2-08: exactly four distinct options
+- module-02/q2-08: related lesson exists
+- module-02/q2-08: learning objective belongs to module
+- module-02: unique question ID q2-09
+- module-02/q2-09: non-duplicate question text
+- module-02/q2-09: exactly four distinct options
+- module-02/q2-09: related lesson exists
+- module-02/q2-09: learning objective belongs to module
+- module-02: unique question ID q2-10
+- module-02/q2-10: non-duplicate question text
+- module-02/q2-10: exactly four distinct options
+- module-02/q2-10: related lesson exists
+- module-02/q2-10: learning objective belongs to module
+- module-02: exactly one answer entry per question
+- module-02/q2-01: correct option exists
+- module-02/q2-01: correct explanation is complete
+- module-02/q2-01: all distractors explained
+- module-02/q2-01: concept documented
+- module-02/q2-01: source file documented
+- module-02/q2-01: answer lesson exists
+- module-02/q2-02: correct option exists
+- module-02/q2-02: correct explanation is complete
+- module-02/q2-02: all distractors explained
+- module-02/q2-02: concept documented
+- module-02/q2-02: source file documented
+- module-02/q2-02: answer lesson exists
+- module-02/q2-03: correct option exists
+- module-02/q2-03: correct explanation is complete
+- module-02/q2-03: all distractors explained
+- module-02/q2-03: concept documented
+- module-02/q2-03: source file documented
+- module-02/q2-03: answer lesson exists
+- module-02/q2-04: correct option exists
+- module-02/q2-04: correct explanation is complete
+- module-02/q2-04: all distractors explained
+- module-02/q2-04: concept documented
+- module-02/q2-04: source file documented
+- module-02/q2-04: answer lesson exists
+- module-02/q2-05: correct option exists
+- module-02/q2-05: correct explanation is complete
+- module-02/q2-05: all distractors explained
+- module-02/q2-05: concept documented
+- module-02/q2-05: source file documented
+- module-02/q2-05: answer lesson exists
+- module-02/q2-06: correct option exists
+- module-02/q2-06: correct explanation is complete
+- module-02/q2-06: all distractors explained
+- module-02/q2-06: concept documented
+- module-02/q2-06: source file documented
+- module-02/q2-06: answer lesson exists
+- module-02/q2-07: correct option exists
+- module-02/q2-07: correct explanation is complete
+- module-02/q2-07: all distractors explained
+- module-02/q2-07: concept documented
+- module-02/q2-07: source file documented
+- module-02/q2-07: answer lesson exists
+- module-02/q2-08: correct option exists
+- module-02/q2-08: correct explanation is complete
+- module-02/q2-08: all distractors explained
+- module-02/q2-08: concept documented
+- module-02/q2-08: source file documented
+- module-02/q2-08: answer lesson exists
+- module-02/q2-09: correct option exists
+- module-02/q2-09: correct explanation is complete
+- module-02/q2-09: all distractors explained
+- module-02/q2-09: concept documented
+- module-02/q2-09: source file documented
+- module-02/q2-09: answer lesson exists
+- module-02/q2-10: correct option exists
+- module-02/q2-10: correct explanation is complete
+- module-02/q2-10: all distractors explained
+- module-02/q2-10: concept documented
+- module-02/q2-10: source file documented
+- module-02/q2-10: answer lesson exists
+- module-02: at least one exercise exists
+- Required module file exists: module-03/module.json
+- Required module file exists: module-03/assessment.json
+- Required module file exists: module-03/answer-key.json
+- Unique module ID: module-03
+- module-03: source files are mapped
+- module-03: mapped source exists: engine.go
+- module-03: source code focus is recorded
+- module-03: excerpt is declared in source map
+- module-03: excerpt path is a source file
+- module-03: declared lesson IDs match lesson files
+- module-03: unique lesson ID lesson-01
+- Lesson has substantive content: modules/module-03/lessons/lesson-01.md
+- module-03/lesson-01: lay explanation precedes source walkthrough
+- module-03/lesson-01: excerpt citation matches module focus
+- module-03/lesson-01: source focus cue appears in excerpt
+- module-03: unique lesson ID lesson-02
+- Lesson has substantive content: modules/module-03/lessons/lesson-02.md
+- module-03/lesson-02: lay explanation precedes source walkthrough
+- module-03/lesson-02: excerpt citation matches module focus
+- module-03/lesson-02: source focus cue appears in excerpt
+- module-03: unique lesson ID lesson-03
+- Lesson has substantive content: modules/module-03/lessons/lesson-03.md
+- module-03/lesson-03: lay explanation precedes source walkthrough
+- module-03/lesson-03: excerpt citation matches module focus
+- module-03/lesson-03: source focus cue appears in excerpt
+- module-03: assessment module ID matches
+- module-03: exactly 10 questions
+- module-03: difficulty mix is 3 basic, 5 intermediate, 2 advanced
+- module-03: unique question ID q3-01
+- module-03/q3-01: non-duplicate question text
+- module-03/q3-01: exactly four distinct options
+- module-03/q3-01: related lesson exists
+- module-03/q3-01: learning objective belongs to module
+- module-03: unique question ID q3-02
+- module-03/q3-02: non-duplicate question text
+- module-03/q3-02: exactly four distinct options
+- module-03/q3-02: related lesson exists
+- module-03/q3-02: learning objective belongs to module
+- module-03: unique question ID q3-03
+- module-03/q3-03: non-duplicate question text
+- module-03/q3-03: exactly four distinct options
+- module-03/q3-03: related lesson exists
+- module-03/q3-03: learning objective belongs to module
+- module-03: unique question ID q3-04
+- module-03/q3-04: non-duplicate question text
+- module-03/q3-04: exactly four distinct options
+- module-03/q3-04: related lesson exists
+- module-03/q3-04: learning objective belongs to module
+- module-03: unique question ID q3-05
+- module-03/q3-05: non-duplicate question text
+- module-03/q3-05: exactly four distinct options
+- module-03/q3-05: related lesson exists
+- module-03/q3-05: learning objective belongs to module
+- module-03: unique question ID q3-06
+- module-03/q3-06: non-duplicate question text
+- module-03/q3-06: exactly four distinct options
+- module-03/q3-06: related lesson exists
+- module-03/q3-06: learning objective belongs to module
+- module-03: unique question ID q3-07
+- module-03/q3-07: non-duplicate question text
+- module-03/q3-07: exactly four distinct options
+- module-03/q3-07: related lesson exists
+- module-03/q3-07: learning objective belongs to module
+- module-03: unique question ID q3-08
+- module-03/q3-08: non-duplicate question text
+- module-03/q3-08: exactly four distinct options
+- module-03/q3-08: related lesson exists
+- module-03/q3-08: learning objective belongs to module
+- module-03: unique question ID q3-09
+- module-03/q3-09: non-duplicate question text
+- module-03/q3-09: exactly four distinct options
+- module-03/q3-09: related lesson exists
+- module-03/q3-09: learning objective belongs to module
+- module-03: unique question ID q3-10
+- module-03/q3-10: non-duplicate question text
+- module-03/q3-10: exactly four distinct options
+- module-03/q3-10: related lesson exists
+- module-03/q3-10: learning objective belongs to module
+- module-03: exactly one answer entry per question
+- module-03/q3-01: correct option exists
+- module-03/q3-01: correct explanation is complete
+- module-03/q3-01: all distractors explained
+- module-03/q3-01: concept documented
+- module-03/q3-01: source file documented
+- module-03/q3-01: answer lesson exists
+- module-03/q3-02: correct option exists
+- module-03/q3-02: correct explanation is complete
+- module-03/q3-02: all distractors explained
+- module-03/q3-02: concept documented
+- module-03/q3-02: source file documented
+- module-03/q3-02: answer lesson exists
+- module-03/q3-03: correct option exists
+- module-03/q3-03: correct explanation is complete
+- module-03/q3-03: all distractors explained
+- module-03/q3-03: concept documented
+- module-03/q3-03: source file documented
+- module-03/q3-03: answer lesson exists
+- module-03/q3-04: correct option exists
+- module-03/q3-04: correct explanation is complete
+- module-03/q3-04: all distractors explained
+- module-03/q3-04: concept documented
+- module-03/q3-04: source file documented
+- module-03/q3-04: answer lesson exists
+- module-03/q3-05: correct option exists
+- module-03/q3-05: correct explanation is complete
+- module-03/q3-05: all distractors explained
+- module-03/q3-05: concept documented
+- module-03/q3-05: source file documented
+- module-03/q3-05: answer lesson exists
+- module-03/q3-06: correct option exists
+- module-03/q3-06: correct explanation is complete
+- module-03/q3-06: all distractors explained
+- module-03/q3-06: concept documented
+- module-03/q3-06: source file documented
+- module-03/q3-06: answer lesson exists
+- module-03/q3-07: correct option exists
+- module-03/q3-07: correct explanation is complete
+- module-03/q3-07: all distractors explained
+- module-03/q3-07: concept documented
+- module-03/q3-07: source file documented
+- module-03/q3-07: answer lesson exists
+- module-03/q3-08: correct option exists
+- module-03/q3-08: correct explanation is complete
+- module-03/q3-08: all distractors explained
+- module-03/q3-08: concept documented
+- module-03/q3-08: source file documented
+- module-03/q3-08: answer lesson exists
+- module-03/q3-09: correct option exists
+- module-03/q3-09: correct explanation is complete
+- module-03/q3-09: all distractors explained
+- module-03/q3-09: concept documented
+- module-03/q3-09: source file documented
+- module-03/q3-09: answer lesson exists
+- module-03/q3-10: correct option exists
+- module-03/q3-10: correct explanation is complete
+- module-03/q3-10: all distractors explained
+- module-03/q3-10: concept documented
+- module-03/q3-10: source file documented
+- module-03/q3-10: answer lesson exists
+- module-03: at least one exercise exists
+- Required module file exists: module-04/module.json
+- Required module file exists: module-04/assessment.json
+- Required module file exists: module-04/answer-key.json
+- Unique module ID: module-04
+- module-04: source files are mapped
+- module-04: mapped source exists: engine.go
+- module-04: source code focus is recorded
+- module-04: excerpt is declared in source map
+- module-04: excerpt path is a source file
+- module-04: declared lesson IDs match lesson files
+- module-04: unique lesson ID lesson-01
+- Lesson has substantive content: modules/module-04/lessons/lesson-01.md
+- module-04/lesson-01: lay explanation precedes source walkthrough
+- module-04/lesson-01: excerpt citation matches module focus
+- module-04/lesson-01: source focus cue appears in excerpt
+- module-04: unique lesson ID lesson-02
+- Lesson has substantive content: modules/module-04/lessons/lesson-02.md
+- module-04/lesson-02: lay explanation precedes source walkthrough
+- module-04/lesson-02: excerpt citation matches module focus
+- module-04/lesson-02: source focus cue appears in excerpt
+- module-04: unique lesson ID lesson-03
+- Lesson has substantive content: modules/module-04/lessons/lesson-03.md
+- module-04/lesson-03: lay explanation precedes source walkthrough
+- module-04/lesson-03: excerpt citation matches module focus
+- module-04/lesson-03: source focus cue appears in excerpt
+- module-04: assessment module ID matches
+- module-04: exactly 10 questions
+- module-04: difficulty mix is 3 basic, 5 intermediate, 2 advanced
+- module-04: unique question ID q4-01
+- module-04/q4-01: non-duplicate question text
+- module-04/q4-01: exactly four distinct options
+- module-04/q4-01: related lesson exists
+- module-04/q4-01: learning objective belongs to module
+- module-04: unique question ID q4-02
+- module-04/q4-02: non-duplicate question text
+- module-04/q4-02: exactly four distinct options
+- module-04/q4-02: related lesson exists
+- module-04/q4-02: learning objective belongs to module
+- module-04: unique question ID q4-03
+- module-04/q4-03: non-duplicate question text
+- module-04/q4-03: exactly four distinct options
+- module-04/q4-03: related lesson exists
+- module-04/q4-03: learning objective belongs to module
+- module-04: unique question ID q4-04
+- module-04/q4-04: non-duplicate question text
+- module-04/q4-04: exactly four distinct options
+- module-04/q4-04: related lesson exists
+- module-04/q4-04: learning objective belongs to module
+- module-04: unique question ID q4-05
+- module-04/q4-05: non-duplicate question text
+- module-04/q4-05: exactly four distinct options
+- module-04/q4-05: related lesson exists
+- module-04/q4-05: learning objective belongs to module
+- module-04: unique question ID q4-06
+- module-04/q4-06: non-duplicate question text
+- module-04/q4-06: exactly four distinct options
+- module-04/q4-06: related lesson exists
+- module-04/q4-06: learning objective belongs to module
+- module-04: unique question ID q4-07
+- module-04/q4-07: non-duplicate question text
+- module-04/q4-07: exactly four distinct options
+- module-04/q4-07: related lesson exists
+- module-04/q4-07: learning objective belongs to module
+- module-04: unique question ID q4-08
+- module-04/q4-08: non-duplicate question text
+- module-04/q4-08: exactly four distinct options
+- module-04/q4-08: related lesson exists
+- module-04/q4-08: learning objective belongs to module
+- module-04: unique question ID q4-09
+- module-04/q4-09: non-duplicate question text
+- module-04/q4-09: exactly four distinct options
+- module-04/q4-09: related lesson exists
+- module-04/q4-09: learning objective belongs to module
+- module-04: unique question ID q4-10
+- module-04/q4-10: non-duplicate question text
+- module-04/q4-10: exactly four distinct options
+- module-04/q4-10: related lesson exists
+- module-04/q4-10: learning objective belongs to module
+- module-04: exactly one answer entry per question
+- module-04/q4-01: correct option exists
+- module-04/q4-01: correct explanation is complete
+- module-04/q4-01: all distractors explained
+- module-04/q4-01: concept documented
+- module-04/q4-01: source file documented
+- module-04/q4-01: answer lesson exists
+- module-04/q4-02: correct option exists
+- module-04/q4-02: correct explanation is complete
+- module-04/q4-02: all distractors explained
+- module-04/q4-02: concept documented
+- module-04/q4-02: source file documented
+- module-04/q4-02: answer lesson exists
+- module-04/q4-03: correct option exists
+- module-04/q4-03: correct explanation is complete
+- module-04/q4-03: all distractors explained
+- module-04/q4-03: concept documented
+- module-04/q4-03: source file documented
+- module-04/q4-03: answer lesson exists
+- module-04/q4-04: correct option exists
+- module-04/q4-04: correct explanation is complete
+- module-04/q4-04: all distractors explained
+- module-04/q4-04: concept documented
+- module-04/q4-04: source file documented
+- module-04/q4-04: answer lesson exists
+- module-04/q4-05: correct option exists
+- module-04/q4-05: correct explanation is complete
+- module-04/q4-05: all distractors explained
+- module-04/q4-05: concept documented
+- module-04/q4-05: source file documented
+- module-04/q4-05: answer lesson exists
+- module-04/q4-06: correct option exists
+- module-04/q4-06: correct explanation is complete
+- module-04/q4-06: all distractors explained
+- module-04/q4-06: concept documented
+- module-04/q4-06: source file documented
+- module-04/q4-06: answer lesson exists
+- module-04/q4-07: correct option exists
+- module-04/q4-07: correct explanation is complete
+- module-04/q4-07: all distractors explained
+- module-04/q4-07: concept documented
+- module-04/q4-07: source file documented
+- module-04/q4-07: answer lesson exists
+- module-04/q4-08: correct option exists
+- module-04/q4-08: correct explanation is complete
+- module-04/q4-08: all distractors explained
+- module-04/q4-08: concept documented
+- module-04/q4-08: source file documented
+- module-04/q4-08: answer lesson exists
+- module-04/q4-09: correct option exists
+- module-04/q4-09: correct explanation is complete
+- module-04/q4-09: all distractors explained
+- module-04/q4-09: concept documented
+- module-04/q4-09: source file documented
+- module-04/q4-09: answer lesson exists
+- module-04/q4-10: correct option exists
+- module-04/q4-10: correct explanation is complete
+- module-04/q4-10: all distractors explained
+- module-04/q4-10: concept documented
+- module-04/q4-10: source file documented
+- module-04/q4-10: answer lesson exists
+- module-04: at least one exercise exists
+- Required module file exists: module-05/module.json
+- Required module file exists: module-05/assessment.json
+- Required module file exists: module-05/answer-key.json
+- Unique module ID: module-05
+- module-05: source files are mapped
+- module-05: mapped source exists: engine.go
+- module-05: source code focus is recorded
+- module-05: excerpt is declared in source map
+- module-05: excerpt path is a source file
+- module-05: declared lesson IDs match lesson files
+- module-05: unique lesson ID lesson-01
+- Lesson has substantive content: modules/module-05/lessons/lesson-01.md
+- module-05/lesson-01: lay explanation precedes source walkthrough
+- module-05/lesson-01: excerpt citation matches module focus
+- module-05/lesson-01: source focus cue appears in excerpt
+- module-05: unique lesson ID lesson-02
+- Lesson has substantive content: modules/module-05/lessons/lesson-02.md
+- module-05/lesson-02: lay explanation precedes source walkthrough
+- module-05/lesson-02: excerpt citation matches module focus
+- module-05/lesson-02: source focus cue appears in excerpt
+- module-05: unique lesson ID lesson-03
+- Lesson has substantive content: modules/module-05/lessons/lesson-03.md
+- module-05/lesson-03: lay explanation precedes source walkthrough
+- module-05/lesson-03: excerpt citation matches module focus
+- module-05/lesson-03: source focus cue appears in excerpt
+- module-05: assessment module ID matches
+- module-05: exactly 10 questions
+- module-05: difficulty mix is 3 basic, 5 intermediate, 2 advanced
+- module-05: unique question ID q5-01
+- module-05/q5-01: non-duplicate question text
+- module-05/q5-01: exactly four distinct options
+- module-05/q5-01: related lesson exists
+- module-05/q5-01: learning objective belongs to module
+- module-05: unique question ID q5-02
+- module-05/q5-02: non-duplicate question text
+- module-05/q5-02: exactly four distinct options
+- module-05/q5-02: related lesson exists
+- module-05/q5-02: learning objective belongs to module
+- module-05: unique question ID q5-03
+- module-05/q5-03: non-duplicate question text
+- module-05/q5-03: exactly four distinct options
+- module-05/q5-03: related lesson exists
+- module-05/q5-03: learning objective belongs to module
+- module-05: unique question ID q5-04
+- module-05/q5-04: non-duplicate question text
+- module-05/q5-04: exactly four distinct options
+- module-05/q5-04: related lesson exists
+- module-05/q5-04: learning objective belongs to module
+- module-05: unique question ID q5-05
+- module-05/q5-05: non-duplicate question text
+- module-05/q5-05: exactly four distinct options
+- module-05/q5-05: related lesson exists
+- module-05/q5-05: learning objective belongs to module
+- module-05: unique question ID q5-06
+- module-05/q5-06: non-duplicate question text
+- module-05/q5-06: exactly four distinct options
+- module-05/q5-06: related lesson exists
+- module-05/q5-06: learning objective belongs to module
+- module-05: unique question ID q5-07
+- module-05/q5-07: non-duplicate question text
+- module-05/q5-07: exactly four distinct options
+- module-05/q5-07: related lesson exists
+- module-05/q5-07: learning objective belongs to module
+- module-05: unique question ID q5-08
+- module-05/q5-08: non-duplicate question text
+- module-05/q5-08: exactly four distinct options
+- module-05/q5-08: related lesson exists
+- module-05/q5-08: learning objective belongs to module
+- module-05: unique question ID q5-09
+- module-05/q5-09: non-duplicate question text
+- module-05/q5-09: exactly four distinct options
+- module-05/q5-09: related lesson exists
+- module-05/q5-09: learning objective belongs to module
+- module-05: unique question ID q5-10
+- module-05/q5-10: non-duplicate question text
+- module-05/q5-10: exactly four distinct options
+- module-05/q5-10: related lesson exists
+- module-05/q5-10: learning objective belongs to module
+- module-05: exactly one answer entry per question
+- module-05/q5-01: correct option exists
+- module-05/q5-01: correct explanation is complete
+- module-05/q5-01: all distractors explained
+- module-05/q5-01: concept documented
+- module-05/q5-01: source file documented
+- module-05/q5-01: answer lesson exists
+- module-05/q5-02: correct option exists
+- module-05/q5-02: correct explanation is complete
+- module-05/q5-02: all distractors explained
+- module-05/q5-02: concept documented
+- module-05/q5-02: source file documented
+- module-05/q5-02: answer lesson exists
+- module-05/q5-03: correct option exists
+- module-05/q5-03: correct explanation is complete
+- module-05/q5-03: all distractors explained
+- module-05/q5-03: concept documented
+- module-05/q5-03: source file documented
+- module-05/q5-03: answer lesson exists
+- module-05/q5-04: correct option exists
+- module-05/q5-04: correct explanation is complete
+- module-05/q5-04: all distractors explained
+- module-05/q5-04: concept documented
+- module-05/q5-04: source file documented
+- module-05/q5-04: answer lesson exists
+- module-05/q5-05: correct option exists
+- module-05/q5-05: correct explanation is complete
+- module-05/q5-05: all distractors explained
+- module-05/q5-05: concept documented
+- module-05/q5-05: source file documented
+- module-05/q5-05: answer lesson exists
+- module-05/q5-06: correct option exists
+- module-05/q5-06: correct explanation is complete
+- module-05/q5-06: all distractors explained
+- module-05/q5-06: concept documented
+- module-05/q5-06: source file documented
+- module-05/q5-06: answer lesson exists
+- module-05/q5-07: correct option exists
+- module-05/q5-07: correct explanation is complete
+- module-05/q5-07: all distractors explained
+- module-05/q5-07: concept documented
+- module-05/q5-07: source file documented
+- module-05/q5-07: answer lesson exists
+- module-05/q5-08: correct option exists
+- module-05/q5-08: correct explanation is complete
+- module-05/q5-08: all distractors explained
+- module-05/q5-08: concept documented
+- module-05/q5-08: source file documented
+- module-05/q5-08: answer lesson exists
+- module-05/q5-09: correct option exists
+- module-05/q5-09: correct explanation is complete
+- module-05/q5-09: all distractors explained
+- module-05/q5-09: concept documented
+- module-05/q5-09: source file documented
+- module-05/q5-09: answer lesson exists
+- module-05/q5-10: correct option exists
+- module-05/q5-10: correct explanation is complete
+- module-05/q5-10: all distractors explained
+- module-05/q5-10: concept documented
+- module-05/q5-10: source file documented
+- module-05/q5-10: answer lesson exists
+- module-05: at least one exercise exists
+- Required module file exists: module-06/module.json
+- Required module file exists: module-06/assessment.json
+- Required module file exists: module-06/answer-key.json
+- Unique module ID: module-06
+- module-06: source files are mapped
+- module-06: mapped source exists: engine.go
+- module-06: source code focus is recorded
+- module-06: excerpt is declared in source map
+- module-06: excerpt path is a source file
+- module-06: declared lesson IDs match lesson files
+- module-06: unique lesson ID lesson-01
+- Lesson has substantive content: modules/module-06/lessons/lesson-01.md
+- module-06/lesson-01: lay explanation precedes source walkthrough
+- module-06/lesson-01: excerpt citation matches module focus
+- module-06/lesson-01: source focus cue appears in excerpt
+- module-06: unique lesson ID lesson-02
+- Lesson has substantive content: modules/module-06/lessons/lesson-02.md
+- module-06/lesson-02: lay explanation precedes source walkthrough
+- module-06/lesson-02: excerpt citation matches module focus
+- module-06/lesson-02: source focus cue appears in excerpt
+- module-06: unique lesson ID lesson-03
+- Lesson has substantive content: modules/module-06/lessons/lesson-03.md
+- module-06/lesson-03: lay explanation precedes source walkthrough
+- module-06/lesson-03: excerpt citation matches module focus
+- module-06/lesson-03: source focus cue appears in excerpt
+- module-06: assessment module ID matches
+- module-06: exactly 10 questions
+- module-06: difficulty mix is 3 basic, 5 intermediate, 2 advanced
+- module-06: unique question ID q6-01
+- module-06/q6-01: non-duplicate question text
+- module-06/q6-01: exactly four distinct options
+- module-06/q6-01: related lesson exists
+- module-06/q6-01: learning objective belongs to module
+- module-06: unique question ID q6-02
+- module-06/q6-02: non-duplicate question text
+- module-06/q6-02: exactly four distinct options
+- module-06/q6-02: related lesson exists
+- module-06/q6-02: learning objective belongs to module
+- module-06: unique question ID q6-03
+- module-06/q6-03: non-duplicate question text
+- module-06/q6-03: exactly four distinct options
+- module-06/q6-03: related lesson exists
+- module-06/q6-03: learning objective belongs to module
+- module-06: unique question ID q6-04
+- module-06/q6-04: non-duplicate question text
+- module-06/q6-04: exactly four distinct options
+- module-06/q6-04: related lesson exists
+- module-06/q6-04: learning objective belongs to module
+- module-06: unique question ID q6-05
+- module-06/q6-05: non-duplicate question text
+- module-06/q6-05: exactly four distinct options
+- module-06/q6-05: related lesson exists
+- module-06/q6-05: learning objective belongs to module
+- module-06: unique question ID q6-06
+- module-06/q6-06: non-duplicate question text
+- module-06/q6-06: exactly four distinct options
+- module-06/q6-06: related lesson exists
+- module-06/q6-06: learning objective belongs to module
+- module-06: unique question ID q6-07
+- module-06/q6-07: non-duplicate question text
+- module-06/q6-07: exactly four distinct options
+- module-06/q6-07: related lesson exists
+- module-06/q6-07: learning objective belongs to module
+- module-06: unique question ID q6-08
+- module-06/q6-08: non-duplicate question text
+- module-06/q6-08: exactly four distinct options
+- module-06/q6-08: related lesson exists
+- module-06/q6-08: learning objective belongs to module
+- module-06: unique question ID q6-09
+- module-06/q6-09: non-duplicate question text
+- module-06/q6-09: exactly four distinct options
+- module-06/q6-09: related lesson exists
+- module-06/q6-09: learning objective belongs to module
+- module-06: unique question ID q6-10
+- module-06/q6-10: non-duplicate question text
+- module-06/q6-10: exactly four distinct options
+- module-06/q6-10: related lesson exists
+- module-06/q6-10: learning objective belongs to module
+- module-06: exactly one answer entry per question
+- module-06/q6-01: correct option exists
+- module-06/q6-01: correct explanation is complete
+- module-06/q6-01: all distractors explained
+- module-06/q6-01: concept documented
+- module-06/q6-01: source file documented
+- module-06/q6-01: answer lesson exists
+- module-06/q6-02: correct option exists
+- module-06/q6-02: correct explanation is complete
+- module-06/q6-02: all distractors explained
+- module-06/q6-02: concept documented
+- module-06/q6-02: source file documented
+- module-06/q6-02: answer lesson exists
+- module-06/q6-03: correct option exists
+- module-06/q6-03: correct explanation is complete
+- module-06/q6-03: all distractors explained
+- module-06/q6-03: concept documented
+- module-06/q6-03: source file documented
+- module-06/q6-03: answer lesson exists
+- module-06/q6-04: correct option exists
+- module-06/q6-04: correct explanation is complete
+- module-06/q6-04: all distractors explained
+- module-06/q6-04: concept documented
+- module-06/q6-04: source file documented
+- module-06/q6-04: answer lesson exists
+- module-06/q6-05: correct option exists
+- module-06/q6-05: correct explanation is complete
+- module-06/q6-05: all distractors explained
+- module-06/q6-05: concept documented
+- module-06/q6-05: source file documented
+- module-06/q6-05: answer lesson exists
+- module-06/q6-06: correct option exists
+- module-06/q6-06: correct explanation is complete
+- module-06/q6-06: all distractors explained
+- module-06/q6-06: concept documented
+- module-06/q6-06: source file documented
+- module-06/q6-06: answer lesson exists
+- module-06/q6-07: correct option exists
+- module-06/q6-07: correct explanation is complete
+- module-06/q6-07: all distractors explained
+- module-06/q6-07: concept documented
+- module-06/q6-07: source file documented
+- module-06/q6-07: answer lesson exists
+- module-06/q6-08: correct option exists
+- module-06/q6-08: correct explanation is complete
+- module-06/q6-08: all distractors explained
+- module-06/q6-08: concept documented
+- module-06/q6-08: source file documented
+- module-06/q6-08: answer lesson exists
+- module-06/q6-09: correct option exists
+- module-06/q6-09: correct explanation is complete
+- module-06/q6-09: all distractors explained
+- module-06/q6-09: concept documented
+- module-06/q6-09: source file documented
+- module-06/q6-09: answer lesson exists
+- module-06/q6-10: correct option exists
+- module-06/q6-10: correct explanation is complete
+- module-06/q6-10: all distractors explained
+- module-06/q6-10: concept documented
+- module-06/q6-10: source file documented
+- module-06/q6-10: answer lesson exists
+- module-06: at least one exercise exists
+- Required module file exists: module-07/module.json
+- Required module file exists: module-07/assessment.json
+- Required module file exists: module-07/answer-key.json
+- Unique module ID: module-07
+- module-07: source files are mapped
+- module-07: mapped source exists: engine.go
+- module-07: source code focus is recorded
+- module-07: excerpt is declared in source map
+- module-07: excerpt path is a source file
+- module-07: declared lesson IDs match lesson files
+- module-07: unique lesson ID lesson-01
+- Lesson has substantive content: modules/module-07/lessons/lesson-01.md
+- module-07/lesson-01: lay explanation precedes source walkthrough
+- module-07/lesson-01: excerpt citation matches module focus
+- module-07/lesson-01: source focus cue appears in excerpt
+- module-07: unique lesson ID lesson-02
+- Lesson has substantive content: modules/module-07/lessons/lesson-02.md
+- module-07/lesson-02: lay explanation precedes source walkthrough
+- module-07/lesson-02: excerpt citation matches module focus
+- module-07/lesson-02: source focus cue appears in excerpt
+- module-07: unique lesson ID lesson-03
+- Lesson has substantive content: modules/module-07/lessons/lesson-03.md
+- module-07/lesson-03: lay explanation precedes source walkthrough
+- module-07/lesson-03: excerpt citation matches module focus
+- module-07/lesson-03: source focus cue appears in excerpt
+- module-07: assessment module ID matches
+- module-07: exactly 10 questions
+- module-07: difficulty mix is 3 basic, 5 intermediate, 2 advanced
+- module-07: unique question ID q7-01
+- module-07/q7-01: non-duplicate question text
+- module-07/q7-01: exactly four distinct options
+- module-07/q7-01: related lesson exists
+- module-07/q7-01: learning objective belongs to module
+- module-07: unique question ID q7-02
+- module-07/q7-02: non-duplicate question text
+- module-07/q7-02: exactly four distinct options
+- module-07/q7-02: related lesson exists
+- module-07/q7-02: learning objective belongs to module
+- module-07: unique question ID q7-03
+- module-07/q7-03: non-duplicate question text
+- module-07/q7-03: exactly four distinct options
+- module-07/q7-03: related lesson exists
+- module-07/q7-03: learning objective belongs to module
+- module-07: unique question ID q7-04
+- module-07/q7-04: non-duplicate question text
+- module-07/q7-04: exactly four distinct options
+- module-07/q7-04: related lesson exists
+- module-07/q7-04: learning objective belongs to module
+- module-07: unique question ID q7-05
+- module-07/q7-05: non-duplicate question text
+- module-07/q7-05: exactly four distinct options
+- module-07/q7-05: related lesson exists
+- module-07/q7-05: learning objective belongs to module
+- module-07: unique question ID q7-06
+- module-07/q7-06: non-duplicate question text
+- module-07/q7-06: exactly four distinct options
+- module-07/q7-06: related lesson exists
+- module-07/q7-06: learning objective belongs to module
+- module-07: unique question ID q7-07
+- module-07/q7-07: non-duplicate question text
+- module-07/q7-07: exactly four distinct options
+- module-07/q7-07: related lesson exists
+- module-07/q7-07: learning objective belongs to module
+- module-07: unique question ID q7-08
+- module-07/q7-08: non-duplicate question text
+- module-07/q7-08: exactly four distinct options
+- module-07/q7-08: related lesson exists
+- module-07/q7-08: learning objective belongs to module
+- module-07: unique question ID q7-09
+- module-07/q7-09: non-duplicate question text
+- module-07/q7-09: exactly four distinct options
+- module-07/q7-09: related lesson exists
+- module-07/q7-09: learning objective belongs to module
+- module-07: unique question ID q7-10
+- module-07/q7-10: non-duplicate question text
+- module-07/q7-10: exactly four distinct options
+- module-07/q7-10: related lesson exists
+- module-07/q7-10: learning objective belongs to module
+- module-07: exactly one answer entry per question
+- module-07/q7-01: correct option exists
+- module-07/q7-01: correct explanation is complete
+- module-07/q7-01: all distractors explained
+- module-07/q7-01: concept documented
+- module-07/q7-01: source file documented
+- module-07/q7-01: answer lesson exists
+- module-07/q7-02: correct option exists
+- module-07/q7-02: correct explanation is complete
+- module-07/q7-02: all distractors explained
+- module-07/q7-02: concept documented
+- module-07/q7-02: source file documented
+- module-07/q7-02: answer lesson exists
+- module-07/q7-03: correct option exists
+- module-07/q7-03: correct explanation is complete
+- module-07/q7-03: all distractors explained
+- module-07/q7-03: concept documented
+- module-07/q7-03: source file documented
+- module-07/q7-03: answer lesson exists
+- module-07/q7-04: correct option exists
+- module-07/q7-04: correct explanation is complete
+- module-07/q7-04: all distractors explained
+- module-07/q7-04: concept documented
+- module-07/q7-04: source file documented
+- module-07/q7-04: answer lesson exists
+- module-07/q7-05: correct option exists
+- module-07/q7-05: correct explanation is complete
+- module-07/q7-05: all distractors explained
+- module-07/q7-05: concept documented
+- module-07/q7-05: source file documented
+- module-07/q7-05: answer lesson exists
+- module-07/q7-06: correct option exists
+- module-07/q7-06: correct explanation is complete
+- module-07/q7-06: all distractors explained
+- module-07/q7-06: concept documented
+- module-07/q7-06: source file documented
+- module-07/q7-06: answer lesson exists
+- module-07/q7-07: correct option exists
+- module-07/q7-07: correct explanation is complete
+- module-07/q7-07: all distractors explained
+- module-07/q7-07: concept documented
+- module-07/q7-07: source file documented
+- module-07/q7-07: answer lesson exists
+- module-07/q7-08: correct option exists
+- module-07/q7-08: correct explanation is complete
+- module-07/q7-08: all distractors explained
+- module-07/q7-08: concept documented
+- module-07/q7-08: source file documented
+- module-07/q7-08: answer lesson exists
+- module-07/q7-09: correct option exists
+- module-07/q7-09: correct explanation is complete
+- module-07/q7-09: all distractors explained
+- module-07/q7-09: concept documented
+- module-07/q7-09: source file documented
+- module-07/q7-09: answer lesson exists
+- module-07/q7-10: correct option exists
+- module-07/q7-10: correct explanation is complete
+- module-07/q7-10: all distractors explained
+- module-07/q7-10: concept documented
+- module-07/q7-10: source file documented
+- module-07/q7-10: answer lesson exists
+- module-07: at least one exercise exists
+- Required module file exists: module-08/module.json
+- Required module file exists: module-08/assessment.json
+- Required module file exists: module-08/answer-key.json
+- Unique module ID: module-08
+- module-08: source files are mapped
+- module-08: mapped source exists: engine.go
+- module-08: mapped source exists: main.go
+- module-08: source code focus is recorded
+- module-08: excerpt is declared in source map
+- module-08: excerpt path is a source file
+- module-08: declared lesson IDs match lesson files
+- module-08: unique lesson ID lesson-01
+- Lesson has substantive content: modules/module-08/lessons/lesson-01.md
+- module-08/lesson-01: lay explanation precedes source walkthrough
+- module-08/lesson-01: excerpt citation matches module focus
+- module-08/lesson-01: source focus cue appears in excerpt
+- module-08: unique lesson ID lesson-02
+- Lesson has substantive content: modules/module-08/lessons/lesson-02.md
+- module-08/lesson-02: lay explanation precedes source walkthrough
+- module-08/lesson-02: excerpt citation matches module focus
+- module-08/lesson-02: source focus cue appears in excerpt
+- module-08: unique lesson ID lesson-03
+- Lesson has substantive content: modules/module-08/lessons/lesson-03.md
+- module-08/lesson-03: lay explanation precedes source walkthrough
+- module-08/lesson-03: excerpt citation matches module focus
+- module-08/lesson-03: source focus cue appears in excerpt
+- module-08: assessment module ID matches
+- module-08: exactly 10 questions
+- module-08: difficulty mix is 3 basic, 5 intermediate, 2 advanced
+- module-08: unique question ID q8-01
+- module-08/q8-01: non-duplicate question text
+- module-08/q8-01: exactly four distinct options
+- module-08/q8-01: related lesson exists
+- module-08/q8-01: learning objective belongs to module
+- module-08: unique question ID q8-02
+- module-08/q8-02: non-duplicate question text
+- module-08/q8-02: exactly four distinct options
+- module-08/q8-02: related lesson exists
+- module-08/q8-02: learning objective belongs to module
+- module-08: unique question ID q8-03
+- module-08/q8-03: non-duplicate question text
+- module-08/q8-03: exactly four distinct options
+- module-08/q8-03: related lesson exists
+- module-08/q8-03: learning objective belongs to module
+- module-08: unique question ID q8-04
+- module-08/q8-04: non-duplicate question text
+- module-08/q8-04: exactly four distinct options
+- module-08/q8-04: related lesson exists
+- module-08/q8-04: learning objective belongs to module
+- module-08: unique question ID q8-05
+- module-08/q8-05: non-duplicate question text
+- module-08/q8-05: exactly four distinct options
+- module-08/q8-05: related lesson exists
+- module-08/q8-05: learning objective belongs to module
+- module-08: unique question ID q8-06
+- module-08/q8-06: non-duplicate question text
+- module-08/q8-06: exactly four distinct options
+- module-08/q8-06: related lesson exists
+- module-08/q8-06: learning objective belongs to module
+- module-08: unique question ID q8-07
+- module-08/q8-07: non-duplicate question text
+- module-08/q8-07: exactly four distinct options
+- module-08/q8-07: related lesson exists
+- module-08/q8-07: learning objective belongs to module
+- module-08: unique question ID q8-08
+- module-08/q8-08: non-duplicate question text
+- module-08/q8-08: exactly four distinct options
+- module-08/q8-08: related lesson exists
+- module-08/q8-08: learning objective belongs to module
+- module-08: unique question ID q8-09
+- module-08/q8-09: non-duplicate question text
+- module-08/q8-09: exactly four distinct options
+- module-08/q8-09: related lesson exists
+- module-08/q8-09: learning objective belongs to module
+- module-08: unique question ID q8-10
+- module-08/q8-10: non-duplicate question text
+- module-08/q8-10: exactly four distinct options
+- module-08/q8-10: related lesson exists
+- module-08/q8-10: learning objective belongs to module
+- module-08: exactly one answer entry per question
+- module-08/q8-01: correct option exists
+- module-08/q8-01: correct explanation is complete
+- module-08/q8-01: all distractors explained
+- module-08/q8-01: concept documented
+- module-08/q8-01: source file documented
+- module-08/q8-01: answer lesson exists
+- module-08/q8-02: correct option exists
+- module-08/q8-02: correct explanation is complete
+- module-08/q8-02: all distractors explained
+- module-08/q8-02: concept documented
+- module-08/q8-02: source file documented
+- module-08/q8-02: answer lesson exists
+- module-08/q8-03: correct option exists
+- module-08/q8-03: correct explanation is complete
+- module-08/q8-03: all distractors explained
+- module-08/q8-03: concept documented
+- module-08/q8-03: source file documented
+- module-08/q8-03: answer lesson exists
+- module-08/q8-04: correct option exists
+- module-08/q8-04: correct explanation is complete
+- module-08/q8-04: all distractors explained
+- module-08/q8-04: concept documented
+- module-08/q8-04: source file documented
+- module-08/q8-04: answer lesson exists
+- module-08/q8-05: correct option exists
+- module-08/q8-05: correct explanation is complete
+- module-08/q8-05: all distractors explained
+- module-08/q8-05: concept documented
+- module-08/q8-05: source file documented
+- module-08/q8-05: answer lesson exists
+- module-08/q8-06: correct option exists
+- module-08/q8-06: correct explanation is complete
+- module-08/q8-06: all distractors explained
+- module-08/q8-06: concept documented
+- module-08/q8-06: source file documented
+- module-08/q8-06: answer lesson exists
+- module-08/q8-07: correct option exists
+- module-08/q8-07: correct explanation is complete
+- module-08/q8-07: all distractors explained
+- module-08/q8-07: concept documented
+- module-08/q8-07: source file documented
+- module-08/q8-07: answer lesson exists
+- module-08/q8-08: correct option exists
+- module-08/q8-08: correct explanation is complete
+- module-08/q8-08: all distractors explained
+- module-08/q8-08: concept documented
+- module-08/q8-08: source file documented
+- module-08/q8-08: answer lesson exists
+- module-08/q8-09: correct option exists
+- module-08/q8-09: correct explanation is complete
+- module-08/q8-09: all distractors explained
+- module-08/q8-09: concept documented
+- module-08/q8-09: source file documented
+- module-08/q8-09: answer lesson exists
+- module-08/q8-10: correct option exists
+- module-08/q8-10: correct explanation is complete
+- module-08/q8-10: all distractors explained
+- module-08/q8-10: concept documented
+- module-08/q8-10: source file documented
+- module-08/q8-10: answer lesson exists
+- module-08: at least one exercise exists
+- Required module file exists: module-09/module.json
+- Required module file exists: module-09/assessment.json
+- Required module file exists: module-09/answer-key.json
+- Unique module ID: module-09
+- module-09: source files are mapped
+- module-09: mapped source exists: README.md
+- module-09: mapped source exists: engine.go
+- module-09: source code focus is recorded
+- module-09: excerpt is declared in source map
+- module-09: excerpt path is a source file
+- module-09: declared lesson IDs match lesson files
+- module-09: unique lesson ID lesson-01
+- Lesson has substantive content: modules/module-09/lessons/lesson-01.md
+- module-09/lesson-01: lay explanation precedes source walkthrough
+- module-09/lesson-01: excerpt citation matches module focus
+- module-09/lesson-01: source focus cue appears in excerpt
+- module-09: unique lesson ID lesson-02
+- Lesson has substantive content: modules/module-09/lessons/lesson-02.md
+- module-09/lesson-02: lay explanation precedes source walkthrough
+- module-09/lesson-02: excerpt citation matches module focus
+- module-09/lesson-02: source focus cue appears in excerpt
+- module-09: unique lesson ID lesson-03
+- Lesson has substantive content: modules/module-09/lessons/lesson-03.md
+- module-09/lesson-03: lay explanation precedes source walkthrough
+- module-09/lesson-03: excerpt citation matches module focus
+- module-09/lesson-03: source focus cue appears in excerpt
+- module-09: assessment module ID matches
+- module-09: exactly 10 questions
+- module-09: difficulty mix is 3 basic, 5 intermediate, 2 advanced
+- module-09: unique question ID q9-01
+- module-09/q9-01: non-duplicate question text
+- module-09/q9-01: exactly four distinct options
+- module-09/q9-01: related lesson exists
+- module-09/q9-01: learning objective belongs to module
+- module-09: unique question ID q9-02
+- module-09/q9-02: non-duplicate question text
+- module-09/q9-02: exactly four distinct options
+- module-09/q9-02: related lesson exists
+- module-09/q9-02: learning objective belongs to module
+- module-09: unique question ID q9-03
+- module-09/q9-03: non-duplicate question text
+- module-09/q9-03: exactly four distinct options
+- module-09/q9-03: related lesson exists
+- module-09/q9-03: learning objective belongs to module
+- module-09: unique question ID q9-04
+- module-09/q9-04: non-duplicate question text
+- module-09/q9-04: exactly four distinct options
+- module-09/q9-04: related lesson exists
+- module-09/q9-04: learning objective belongs to module
+- module-09: unique question ID q9-05
+- module-09/q9-05: non-duplicate question text
+- module-09/q9-05: exactly four distinct options
+- module-09/q9-05: related lesson exists
+- module-09/q9-05: learning objective belongs to module
+- module-09: unique question ID q9-06
+- module-09/q9-06: non-duplicate question text
+- module-09/q9-06: exactly four distinct options
+- module-09/q9-06: related lesson exists
+- module-09/q9-06: learning objective belongs to module
+- module-09: unique question ID q9-07
+- module-09/q9-07: non-duplicate question text
+- module-09/q9-07: exactly four distinct options
+- module-09/q9-07: related lesson exists
+- module-09/q9-07: learning objective belongs to module
+- module-09: unique question ID q9-08
+- module-09/q9-08: non-duplicate question text
+- module-09/q9-08: exactly four distinct options
+- module-09/q9-08: related lesson exists
+- module-09/q9-08: learning objective belongs to module
+- module-09: unique question ID q9-09
+- module-09/q9-09: non-duplicate question text
+- module-09/q9-09: exactly four distinct options
+- module-09/q9-09: related lesson exists
+- module-09/q9-09: learning objective belongs to module
+- module-09: unique question ID q9-10
+- module-09/q9-10: non-duplicate question text
+- module-09/q9-10: exactly four distinct options
+- module-09/q9-10: related lesson exists
+- module-09/q9-10: learning objective belongs to module
+- module-09: exactly one answer entry per question
+- module-09/q9-01: correct option exists
+- module-09/q9-01: correct explanation is complete
+- module-09/q9-01: all distractors explained
+- module-09/q9-01: concept documented
+- module-09/q9-01: source file documented
+- module-09/q9-01: answer lesson exists
+- module-09/q9-02: correct option exists
+- module-09/q9-02: correct explanation is complete
+- module-09/q9-02: all distractors explained
+- module-09/q9-02: concept documented
+- module-09/q9-02: source file documented
+- module-09/q9-02: answer lesson exists
+- module-09/q9-03: correct option exists
+- module-09/q9-03: correct explanation is complete
+- module-09/q9-03: all distractors explained
+- module-09/q9-03: concept documented
+- module-09/q9-03: source file documented
+- module-09/q9-03: answer lesson exists
+- module-09/q9-04: correct option exists
+- module-09/q9-04: correct explanation is complete
+- module-09/q9-04: all distractors explained
+- module-09/q9-04: concept documented
+- module-09/q9-04: source file documented
+- module-09/q9-04: answer lesson exists
+- module-09/q9-05: correct option exists
+- module-09/q9-05: correct explanation is complete
+- module-09/q9-05: all distractors explained
+- module-09/q9-05: concept documented
+- module-09/q9-05: source file documented
+- module-09/q9-05: answer lesson exists
+- module-09/q9-06: correct option exists
+- module-09/q9-06: correct explanation is complete
+- module-09/q9-06: all distractors explained
+- module-09/q9-06: concept documented
+- module-09/q9-06: source file documented
+- module-09/q9-06: answer lesson exists
+- module-09/q9-07: correct option exists
+- module-09/q9-07: correct explanation is complete
+- module-09/q9-07: all distractors explained
+- module-09/q9-07: concept documented
+- module-09/q9-07: source file documented
+- module-09/q9-07: answer lesson exists
+- module-09/q9-08: correct option exists
+- module-09/q9-08: correct explanation is complete
+- module-09/q9-08: all distractors explained
+- module-09/q9-08: concept documented
+- module-09/q9-08: source file documented
+- module-09/q9-08: answer lesson exists
+- module-09/q9-09: correct option exists
+- module-09/q9-09: correct explanation is complete
+- module-09/q9-09: all distractors explained
+- module-09/q9-09: concept documented
+- module-09/q9-09: source file documented
+- module-09/q9-09: answer lesson exists
+- module-09/q9-10: correct option exists
+- module-09/q9-10: correct explanation is complete
+- module-09/q9-10: all distractors explained
+- module-09/q9-10: concept documented
+- module-09/q9-10: source file documented
+- module-09/q9-10: answer lesson exists
+- module-09: at least one exercise exists
+- Required module file exists: module-10/module.json
+- Required module file exists: module-10/assessment.json
+- Required module file exists: module-10/answer-key.json
+- Unique module ID: module-10
+- module-10: source files are mapped
+- module-10: mapped source exists: engine.go
+- module-10: mapped source exists: engine_test.go
+- module-10: mapped source exists: README.md
+- module-10: source code focus is recorded
+- module-10: excerpt is declared in source map
+- module-10: excerpt path is a source file
+- module-10: declared lesson IDs match lesson files
+- module-10: unique lesson ID lesson-01
+- Lesson has substantive content: modules/module-10/lessons/lesson-01.md
+- module-10/lesson-01: lay explanation precedes source walkthrough
+- module-10/lesson-01: excerpt citation matches module focus
+- module-10/lesson-01: source focus cue appears in excerpt
+- module-10: unique lesson ID lesson-02
+- Lesson has substantive content: modules/module-10/lessons/lesson-02.md
+- module-10/lesson-02: lay explanation precedes source walkthrough
+- module-10/lesson-02: excerpt citation matches module focus
+- module-10/lesson-02: source focus cue appears in excerpt
+- module-10: unique lesson ID lesson-03
+- Lesson has substantive content: modules/module-10/lessons/lesson-03.md
+- module-10/lesson-03: lay explanation precedes source walkthrough
+- module-10/lesson-03: excerpt citation matches module focus
+- module-10/lesson-03: source focus cue appears in excerpt
+- module-10: assessment module ID matches
+- module-10: exactly 10 questions
+- module-10: difficulty mix is 3 basic, 5 intermediate, 2 advanced
+- module-10: unique question ID q10-01
+- module-10/q10-01: non-duplicate question text
+- module-10/q10-01: exactly four distinct options
+- module-10/q10-01: related lesson exists
+- module-10/q10-01: learning objective belongs to module
+- module-10: unique question ID q10-02
+- module-10/q10-02: non-duplicate question text
+- module-10/q10-02: exactly four distinct options
+- module-10/q10-02: related lesson exists
+- module-10/q10-02: learning objective belongs to module
+- module-10: unique question ID q10-03
+- module-10/q10-03: non-duplicate question text
+- module-10/q10-03: exactly four distinct options
+- module-10/q10-03: related lesson exists
+- module-10/q10-03: learning objective belongs to module
+- module-10: unique question ID q10-04
+- module-10/q10-04: non-duplicate question text
+- module-10/q10-04: exactly four distinct options
+- module-10/q10-04: related lesson exists
+- module-10/q10-04: learning objective belongs to module
+- module-10: unique question ID q10-05
+- module-10/q10-05: non-duplicate question text
+- module-10/q10-05: exactly four distinct options
+- module-10/q10-05: related lesson exists
+- module-10/q10-05: learning objective belongs to module
+- module-10: unique question ID q10-06
+- module-10/q10-06: non-duplicate question text
+- module-10/q10-06: exactly four distinct options
+- module-10/q10-06: related lesson exists
+- module-10/q10-06: learning objective belongs to module
+- module-10: unique question ID q10-07
+- module-10/q10-07: non-duplicate question text
+- module-10/q10-07: exactly four distinct options
+- module-10/q10-07: related lesson exists
+- module-10/q10-07: learning objective belongs to module
+- module-10: unique question ID q10-08
+- module-10/q10-08: non-duplicate question text
+- module-10/q10-08: exactly four distinct options
+- module-10/q10-08: related lesson exists
+- module-10/q10-08: learning objective belongs to module
+- module-10: unique question ID q10-09
+- module-10/q10-09: non-duplicate question text
+- module-10/q10-09: exactly four distinct options
+- module-10/q10-09: related lesson exists
+- module-10/q10-09: learning objective belongs to module
+- module-10: unique question ID q10-10
+- module-10/q10-10: non-duplicate question text
+- module-10/q10-10: exactly four distinct options
+- module-10/q10-10: related lesson exists
+- module-10/q10-10: learning objective belongs to module
+- module-10: exactly one answer entry per question
+- module-10/q10-01: correct option exists
+- module-10/q10-01: correct explanation is complete
+- module-10/q10-01: all distractors explained
+- module-10/q10-01: concept documented
+- module-10/q10-01: source file documented
+- module-10/q10-01: answer lesson exists
+- module-10/q10-02: correct option exists
+- module-10/q10-02: correct explanation is complete
+- module-10/q10-02: all distractors explained
+- module-10/q10-02: concept documented
+- module-10/q10-02: source file documented
+- module-10/q10-02: answer lesson exists
+- module-10/q10-03: correct option exists
+- module-10/q10-03: correct explanation is complete
+- module-10/q10-03: all distractors explained
+- module-10/q10-03: concept documented
+- module-10/q10-03: source file documented
+- module-10/q10-03: answer lesson exists
+- module-10/q10-04: correct option exists
+- module-10/q10-04: correct explanation is complete
+- module-10/q10-04: all distractors explained
+- module-10/q10-04: concept documented
+- module-10/q10-04: source file documented
+- module-10/q10-04: answer lesson exists
+- module-10/q10-05: correct option exists
+- module-10/q10-05: correct explanation is complete
+- module-10/q10-05: all distractors explained
+- module-10/q10-05: concept documented
+- module-10/q10-05: source file documented
+- module-10/q10-05: answer lesson exists
+- module-10/q10-06: correct option exists
+- module-10/q10-06: correct explanation is complete
+- module-10/q10-06: all distractors explained
+- module-10/q10-06: concept documented
+- module-10/q10-06: source file documented
+- module-10/q10-06: answer lesson exists
+- module-10/q10-07: correct option exists
+- module-10/q10-07: correct explanation is complete
+- module-10/q10-07: all distractors explained
+- module-10/q10-07: concept documented
+- module-10/q10-07: source file documented
+- module-10/q10-07: answer lesson exists
+- module-10/q10-08: correct option exists
+- module-10/q10-08: correct explanation is complete
+- module-10/q10-08: all distractors explained
+- module-10/q10-08: concept documented
+- module-10/q10-08: source file documented
+- module-10/q10-08: answer lesson exists
+- module-10/q10-09: correct option exists
+- module-10/q10-09: correct explanation is complete
+- module-10/q10-09: all distractors explained
+- module-10/q10-09: concept documented
+- module-10/q10-09: source file documented
+- module-10/q10-09: answer lesson exists
+- module-10/q10-10: correct option exists
+- module-10/q10-10: correct explanation is complete
+- module-10/q10-10: all distractors explained
+- module-10/q10-10: concept documented
+- module-10/q10-10: source file documented
+- module-10/q10-10: answer lesson exists
+- module-10: at least one exercise exists
+- Manifest slug matches directory
+- Manifest module count matches
+- Manifest lesson count matches
+- Manifest question count matches
+- Manifest included file list matches package
+
+## Errors
+- None
+
+## Warnings
+- Automated checks cannot establish educational accuracy or confirm provider interfaces, pricing, security policy, or code behavior.
+
+## Human review
+- This is a local Go runner rather than Tekton/Kubernetes; host commands run directly; README's limitation text conflicts with retry/timeout/workspace code.
+- Review technical claims and code examples against current official documentation.
+- Review public access, credential handling, cost exposure, accessibility, and deployment teardown instructions.

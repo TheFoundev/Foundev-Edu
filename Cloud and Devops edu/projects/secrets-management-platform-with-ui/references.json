@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Node crypto",
+    "url": "https://nodejs.org/api/crypto.html",
+    "type": "official documentation"
+  },
+  {
+    "title": "Node HTTP",
+    "url": "https://nodejs.org/api/http.html",
+    "type": "official documentation"
+  },
+  {
+    "title": "OWASP Cryptographic Storage",
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html",
+    "type": "official documentation"
+  },
+  {
+    "title": "OWASP Secrets Management",
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html",
+    "type": "official documentation"
+  }
+]

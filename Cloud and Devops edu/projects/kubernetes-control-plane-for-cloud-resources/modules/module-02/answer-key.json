@@ -1,0 +1,145 @@
+{
+  "module_id": "module-02",
+  "answers": [
+    {
+      "question_id": "q2-01",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is control.go. It establishes that SchemaRegistry.Validate checks registered schemas; a kind with no schema is accepted. The source example is SchemaRegistry.Validate checks registered schemas; a kind with no schema is accepted. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect control.go.",
+        "b": "This source is not the component identified for the module. Inspect control.go.",
+        "d": "This source is not the component identified for the module. Inspect control.go."
+      },
+      "concept_tested": "Register and Validate Schemas",
+      "related_lesson_id": "lesson-01",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q2-02",
+      "correct_option_id": "b",
+      "explanation": "This is the module's lay explanation. The implementation source is control.go, where the more specific finding is: SchemaRegistry.Validate checks registered schemas; a kind with no schema is accepted. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Register and Validate Schemas",
+      "related_lesson_id": "lesson-01",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q2-03",
+      "correct_option_id": "a",
+      "explanation": "This excerpt or paraphrase is drawn from control.go. The source finding is: SchemaRegistry.Validate checks registered schemas; a kind with no schema is accepted. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "b": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Register and Validate Schemas",
+      "related_lesson_id": "lesson-01",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q2-04",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is control.go. It establishes that SchemaRegistry.Validate checks registered schemas; a kind with no schema is accepted. The source example is SchemaRegistry.Validate checks registered schemas; a kind with no schema is accepted. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect control.go.",
+        "b": "This source is not the component identified for the module. Inspect control.go.",
+        "c": "This source is not the component identified for the module. Inspect control.go."
+      },
+      "concept_tested": "Register and Validate Schemas",
+      "related_lesson_id": "lesson-02",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q2-05",
+      "correct_option_id": "c",
+      "explanation": "This excerpt or paraphrase is drawn from control.go. The source finding is: SchemaRegistry.Validate checks registered schemas; a kind with no schema is accepted. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Register and Validate Schemas",
+      "related_lesson_id": "lesson-02",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q2-06",
+      "correct_option_id": "b",
+      "explanation": "This excerpt or paraphrase is drawn from control.go. The source finding is: SchemaRegistry.Validate checks registered schemas; a kind with no schema is accepted. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Register and Validate Schemas",
+      "related_lesson_id": "lesson-02",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q2-07",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is control.go. It establishes that SchemaRegistry.Validate checks registered schemas; a kind with no schema is accepted. The source example is SchemaRegistry.Validate checks registered schemas; a kind with no schema is accepted. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "This source is not the component identified for the module. Inspect control.go.",
+        "c": "This source is not the component identified for the module. Inspect control.go.",
+        "d": "This source is not the component identified for the module. Inspect control.go."
+      },
+      "concept_tested": "Register and Validate Schemas",
+      "related_lesson_id": "lesson-02",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q2-08",
+      "correct_option_id": "d",
+      "explanation": "This excerpt or paraphrase is drawn from control.go. The source finding is: SchemaRegistry.Validate checks registered schemas; a kind with no schema is accepted. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "c": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Register and Validate Schemas",
+      "related_lesson_id": "lesson-02",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q2-09",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is control.go. It establishes that SchemaRegistry.Validate checks registered schemas; a kind with no schema is accepted. The source example is SchemaRegistry.Validate checks registered schemas; a kind with no schema is accepted. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "b": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Register and Validate Schemas",
+      "related_lesson_id": "lesson-03",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    },
+    {
+      "question_id": "q2-10",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is control.go. It establishes that SchemaRegistry.Validate checks registered schemas; a kind with no schema is accepted. The source example is SchemaRegistry.Validate checks registered schemas; a kind with no schema is accepted. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "A Go struct is only a local type; CRDs/controllers require Kubernetes API registration and a running controller.",
+        "c": "Parsing checks syntax/structure, not cluster admission, permissions, scheduling, or successful reconciliation.",
+        "d": "Local-path volumes are node-local and do not replicate data to other nodes."
+      },
+      "concept_tested": "Register and Validate Schemas",
+      "related_lesson_id": "lesson-03",
+      "source_file": "control.go",
+      "supporting_reference": "https://kubernetes.io/docs/concepts/architecture/controller/"
+    }
+  ]
+}

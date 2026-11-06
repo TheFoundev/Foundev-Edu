@@ -1,0 +1,41 @@
+{
+  "module_id": "module-12",
+  "title": "Uninstall and Restore Safely",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Uninstall and Restore Safely.",
+  "learning_objectives": [
+    "Explain uninstall and restore safely using a plain-language model",
+    "Trace the source implementation for uninstall and restore safely",
+    "Assess failure and operational limits of uninstall and restore safely"
+  ],
+  "prerequisites": [
+    "module-11"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Teardown scripts can remove a cluster and data; backup restore is a separate recovery process.",
+    "Uninstall is gated by --yes; runbook covers node replacement, token rotation, and snapshot restoration."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "bootstrap/99-uninstall.sh",
+    "README.md"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "bootstrap/99-uninstall.sh",
+    "symbol_or_search_term": "snapshot",
+    "line_start": 10,
+    "line_end": 19
+  }
+}

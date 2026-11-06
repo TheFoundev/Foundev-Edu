@@ -1,0 +1,40 @@
+{
+  "module_id": "module-06",
+  "title": "CRUD and Summary Endpoints",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: CRUD and Summary Endpoints.",
+  "learning_objectives": [
+    "Explain crud and summary endpoints using a plain-language model",
+    "Trace the source implementation for crud and summary endpoints",
+    "Assess failure and operational limits of crud and summary endpoints"
+  ],
+  "prerequisites": [
+    "module-05"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Management endpoints create, list, update, and delete checks; summary/session endpoints expose reporting data.",
+    "checks_list_create, check_detail, summary, and session are separate view functions."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "core/api.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "core/api.py",
+    "symbol_or_search_term": "checks_list_create",
+    "line_start": 112,
+    "line_end": 121
+  }
+}

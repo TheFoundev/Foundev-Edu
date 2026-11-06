@@ -1,0 +1,41 @@
+{
+  "module_id": "module-06",
+  "title": "HTTP Server and Client Flow",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: HTTP Server and Client Flow.",
+  "learning_objectives": [
+    "Explain http server and client flow using a plain-language model",
+    "Trace the source implementation for http server and client flow",
+    "Assess failure and operational limits of http server and client flow"
+  ],
+  "prerequisites": [
+    "module-05"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "The local HTTP API accepts bytes and returns a CID; IpfsClient names the helper but uses the project's HTTP endpoint.",
+    "createIpfsServer injects a store; DEFAULT_API is localhost:5001."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/server.js",
+    "src/ipfs.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/server.js",
+    "symbol_or_search_term": "createIpfsServer",
+    "line_start": 15,
+    "line_end": 24
+  }
+}

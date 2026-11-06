@@ -1,0 +1,255 @@
+{
+  "module_id": "module-07",
+  "questions": [
+    {
+      "question_id": "q7-01",
+      "question_text": "Which supplied source is primary for use json ingest and query api?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "metrics.go; main.go"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain use json ingest and query api using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q7-02",
+      "question_text": "In plain terms, which idea best explains use json ingest and query api?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "HTTP routes accept/query project-specific JSON and return summaries; they are not Prometheus remote-write or scrape APIs."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain use json ingest and query api using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q7-03",
+      "question_text": "Which source finding supports the basic model for use json ingest and query api?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "IngestHandler, QueryHandler, and main route registrations."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain use json ingest and query api using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q7-04",
+      "question_text": "Where should you trace the implementation of use json ingest and query api?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "metrics.go; main.go"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for use json ingest and query api",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-05",
+      "question_text": "Which source excerpt or paraphrase illustrates use json ingest and query api?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        },
+        {
+          "option_id": "d",
+          "text": "IngestHandler, QueryHandler, and main route registrations."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for use json ingest and query api",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-06",
+      "question_text": "A failure occurs while checking use json ingest and query api. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "IngestHandler, QueryHandler, and main route registrations."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for use json ingest and query api",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-07",
+      "question_text": "Which supplied source should be inspected before changing use json ingest and query api?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "metrics.go; main.go"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for use json ingest and query api",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-08",
+      "question_text": "Which source finding is accurate for use json ingest and query api?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "IngestHandler, QueryHandler, and main route registrations."
+        },
+        {
+          "option_id": "b",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for use json ingest and query api",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q7-09",
+      "question_text": "Which review best connects the basic model and source details in use json ingest and query api?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        },
+        {
+          "option_id": "d",
+          "text": "Use the model that HTTP routes accept/query project-specific JSON and return summaries; they are not Prometheus remote-write or scrape APIs., then trace metrics.go; main.go; the source finding is IngestHandler, QueryHandler, and main route registrations."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of use json ingest and query api",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q7-10",
+      "question_text": "After reading the whole module on use json ingest and query api, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "The example is IngestHandler, QueryHandler, and main route registrations.; interpret it with this finding: IngestHandler, QueryHandler, and main route registrations. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of use json ingest and query api",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

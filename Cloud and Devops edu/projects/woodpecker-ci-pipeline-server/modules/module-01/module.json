@@ -1,0 +1,38 @@
+{
+  "module_id": "module-01",
+  "title": "Pipeline and Build Models",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Pipeline and Build Models.",
+  "learning_objectives": [
+    "Explain pipeline and build models using a plain-language model",
+    "Trace the source implementation for pipeline and build models",
+    "Assess failure and operational limits of pipeline and build models"
+  ],
+  "prerequisites": [],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A Pipeline is a set of named steps; a Build is one triggered execution record.",
+    "Step/Pipeline/Build types store command, repo/commit, status, and logs."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "server.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "server.go",
+    "symbol_or_search_term": "Pipeline",
+    "line_start": 118,
+    "line_end": 127
+  }
+}

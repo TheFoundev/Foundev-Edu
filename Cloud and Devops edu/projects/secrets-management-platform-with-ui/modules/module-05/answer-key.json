@@ -1,0 +1,145 @@
+{
+  "module_id": "module-05",
+  "answers": [
+    {
+      "question_id": "q5-01",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is src/store.js. It establishes that get returns plaintext after decrypt; list never returns secret values. The source example is get returns plaintext after decrypt; list never returns secret values. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect src/store.js.",
+        "c": "This source is not the component identified for the module. Inspect src/store.js.",
+        "d": "This source is not the component identified for the module. Inspect src/store.js."
+      },
+      "concept_tested": "Use Set/Get/Delete Operations",
+      "related_lesson_id": "lesson-01",
+      "source_file": "src/store.js",
+      "supporting_reference": "https://nodejs.org/api/crypto.html"
+    },
+    {
+      "question_id": "q5-02",
+      "correct_option_id": "a",
+      "explanation": "This is the module's lay explanation. The implementation source is src/store.js, where the more specific finding is: get returns plaintext after decrypt; list never returns secret values. The analogy aids understanding but does not replace the operational limits in the other lessons.",
+      "incorrect_option_explanations": {
+        "b": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "c": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Use Set/Get/Delete Operations",
+      "related_lesson_id": "lesson-01",
+      "source_file": "src/store.js",
+      "supporting_reference": "https://nodejs.org/api/crypto.html"
+    },
+    {
+      "question_id": "q5-03",
+      "correct_option_id": "d",
+      "explanation": "This excerpt or paraphrase is drawn from src/store.js. The source finding is: get returns plaintext after decrypt; list never returns secret values. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "c": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Use Set/Get/Delete Operations",
+      "related_lesson_id": "lesson-01",
+      "source_file": "src/store.js",
+      "supporting_reference": "https://nodejs.org/api/crypto.html"
+    },
+    {
+      "question_id": "q5-04",
+      "correct_option_id": "c",
+      "explanation": "The relevant source is src/store.js. It establishes that get returns plaintext after decrypt; list never returns secret values. The source example is get returns plaintext after decrypt; list never returns secret values. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect src/store.js.",
+        "b": "This source is not the component identified for the module. Inspect src/store.js.",
+        "d": "This source is not the component identified for the module. Inspect src/store.js."
+      },
+      "concept_tested": "Use Set/Get/Delete Operations",
+      "related_lesson_id": "lesson-02",
+      "source_file": "src/store.js",
+      "supporting_reference": "https://nodejs.org/api/crypto.html"
+    },
+    {
+      "question_id": "q5-05",
+      "correct_option_id": "b",
+      "explanation": "This excerpt or paraphrase is drawn from src/store.js. The source finding is: get returns plaintext after decrypt; list never returns secret values. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "c": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Use Set/Get/Delete Operations",
+      "related_lesson_id": "lesson-02",
+      "source_file": "src/store.js",
+      "supporting_reference": "https://nodejs.org/api/crypto.html"
+    },
+    {
+      "question_id": "q5-06",
+      "correct_option_id": "a",
+      "explanation": "This excerpt or paraphrase is drawn from src/store.js. The source finding is: get returns plaintext after decrypt; list never returns secret values. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "b": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "c": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Use Set/Get/Delete Operations",
+      "related_lesson_id": "lesson-02",
+      "source_file": "src/store.js",
+      "supporting_reference": "https://nodejs.org/api/crypto.html"
+    },
+    {
+      "question_id": "q5-07",
+      "correct_option_id": "d",
+      "explanation": "The relevant source is src/store.js. It establishes that get returns plaintext after decrypt; list never returns secret values. The source example is get returns plaintext after decrypt; list never returns secret values. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "This source is not the component identified for the module. Inspect src/store.js.",
+        "b": "This source is not the component identified for the module. Inspect src/store.js.",
+        "c": "This source is not the component identified for the module. Inspect src/store.js."
+      },
+      "concept_tested": "Use Set/Get/Delete Operations",
+      "related_lesson_id": "lesson-02",
+      "source_file": "src/store.js",
+      "supporting_reference": "https://nodejs.org/api/crypto.html"
+    },
+    {
+      "question_id": "q5-08",
+      "correct_option_id": "c",
+      "explanation": "This excerpt or paraphrase is drawn from src/store.js. The source finding is: get returns plaintext after decrypt; list never returns secret values. The other lesson connects this expression to the whole system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "b": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Use Set/Get/Delete Operations",
+      "related_lesson_id": "lesson-02",
+      "source_file": "src/store.js",
+      "supporting_reference": "https://nodejs.org/api/crypto.html"
+    },
+    {
+      "question_id": "q5-09",
+      "correct_option_id": "b",
+      "explanation": "The relevant source is src/store.js. It establishes that get returns plaintext after decrypt; list never returns secret values. The source example is get returns plaintext after decrypt; list never returns secret values. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "a": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "c": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Use Set/Get/Delete Operations",
+      "related_lesson_id": "lesson-03",
+      "source_file": "src/store.js",
+      "supporting_reference": "https://nodejs.org/api/crypto.html"
+    },
+    {
+      "question_id": "q5-10",
+      "correct_option_id": "a",
+      "explanation": "The relevant source is src/store.js. It establishes that get returns plaintext after decrypt; list never returns secret values. The source example is get returns plaintext after decrypt; list never returns secret values. The other lessons place that component in the larger system flow.",
+      "incorrect_option_explanations": {
+        "b": "Tests cover specific cases; they are not an independent audit or proof of security.",
+        "c": "An event is an observable record, not by itself durable application state or an access policy.",
+        "d": "Repository files and logs may be visible to users with access; secrets must be protected separately."
+      },
+      "concept_tested": "Use Set/Get/Delete Operations",
+      "related_lesson_id": "lesson-03",
+      "source_file": "src/store.js",
+      "supporting_reference": "https://nodejs.org/api/crypto.html"
+    }
+  ]
+}

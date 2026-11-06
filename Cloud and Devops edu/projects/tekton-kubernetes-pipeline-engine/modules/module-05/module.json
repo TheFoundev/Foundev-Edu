@@ -1,0 +1,40 @@
+{
+  "module_id": "module-05",
+  "title": "Share a Workspace and Read Results",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Share a Workspace and Read Results.",
+  "learning_objectives": [
+    "Explain share a workspace and read results using a plain-language model",
+    "Trace the source implementation for share a workspace and read results",
+    "Assess failure and operational limits of share a workspace and read results"
+  ],
+  "prerequisites": [
+    "module-04"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A workspace is a directory shared by tasks so one task can write a file another task reads.",
+    "runTask creates/uses workspace; readResults collects declared result files."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "engine.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "engine.go",
+    "symbol_or_search_term": "readResults",
+    "line_start": 254,
+    "line_end": 263
+  }
+}

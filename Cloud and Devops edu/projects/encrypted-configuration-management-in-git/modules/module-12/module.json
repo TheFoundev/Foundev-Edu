@@ -1,0 +1,43 @@
+{
+  "module_id": "module-12",
+  "title": "Verify and State the Security Limits",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Verify and State the Security Limits.",
+  "learning_objectives": [
+    "Explain verify and state the security limits using a plain-language model",
+    "Trace the source implementation for verify and state the security limits",
+    "Assess failure and operational limits of verify and state the security limits"
+  ],
+  "prerequisites": [
+    "module-11"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Tests cover internal policy and tooling paths; they do not prove that every secret is detected or that an entire CI runner is safe.",
+    "AuditLog.verify checks a local hash chain and plaintext scanning uses configured patterns; neither detects every compromise or plaintext secret."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "tests/",
+    "secretsync/audit.py",
+    "secretsync/plaintext.py",
+    "README.md"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "tests/test_audit.py",
+    "symbol_or_search_term": "AuditLog",
+    "line_start": 6,
+    "line_end": 15
+  }
+}

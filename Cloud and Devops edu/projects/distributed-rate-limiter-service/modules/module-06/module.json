@@ -1,0 +1,40 @@
+{
+  "module_id": "module-06",
+  "title": "Read the RESP Client",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Read the RESP Client.",
+  "learning_objectives": [
+    "Explain read the resp client using a plain-language model",
+    "Trace the source implementation for read the resp client",
+    "Assess failure and operational limits of read the resp client"
+  ],
+  "prerequisites": [
+    "module-05"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "RESP is Redis's length-prefixed command/reply protocol; this project implements only a small subset.",
+    "respClient writes arrays/bulk strings and parses simple, error, integer, and bulk replies."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "store.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "store.go",
+    "symbol_or_search_term": "respClient",
+    "line_start": 217,
+    "line_end": 226
+  }
+}

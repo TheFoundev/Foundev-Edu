@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://foundev.example/schemas/assessment.schema.json",
+  "title": "Student-facing module assessment",
+  "type": "object",
+  "required": ["module_id", "questions"],
+  "properties": {
+    "module_id": {"type": "string"},
+    "questions": {
+      "type": "array", "minItems": 10, "maxItems": 10,
+      "items": {
+        "type": "object",
+        "required": ["question_id", "question_text", "options", "difficulty_level", "related_learning_objective", "related_lesson_id"],
+        "properties": {
+          "question_id": {"type": "string"}, "question_text": {"type": "string"},
+          "options": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"type": "object", "required": ["option_id", "text"], "properties": {"option_id": {"type": "string"}, "text": {"type": "string"}}, "additionalProperties": false}},
+          "difficulty_level": {"enum": ["basic", "intermediate", "advanced"]},
+          "related_learning_objective": {"type": "string"}, "related_lesson_id": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

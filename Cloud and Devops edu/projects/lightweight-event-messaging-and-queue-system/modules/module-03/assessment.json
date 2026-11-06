@@ -1,0 +1,255 @@
+{
+  "module_id": "module-03",
+  "questions": [
+    {
+      "question_id": "q3-01",
+      "question_text": "Which supplied source is primary for publish and assign offsets?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "queue.go"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain publish and assign offsets using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q3-02",
+      "question_text": "In plain terms, which idea best explains publish and assign offsets?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "An offset is a position within a partition; publishing appends a message and returns its assigned position."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain publish and assign offsets using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q3-03",
+      "question_text": "Which source finding supports the basic model for publish and assign offsets?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "Broker.Publish obtains/creates Topic, selects partition, increments per-partition offset."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain publish and assign offsets using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q3-04",
+      "question_text": "Where should you trace the implementation of publish and assign offsets?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "queue.go"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for publish and assign offsets",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-05",
+      "question_text": "Which source excerpt or paraphrase illustrates publish and assign offsets?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        },
+        {
+          "option_id": "d",
+          "text": "Broker.Publish obtains/creates Topic, selects partition, increments per-partition offset."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for publish and assign offsets",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-06",
+      "question_text": "A failure occurs while checking publish and assign offsets. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "Broker.Publish obtains/creates Topic, selects partition, increments per-partition offset."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for publish and assign offsets",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-07",
+      "question_text": "Which supplied source should be inspected before changing publish and assign offsets?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "queue.go"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for publish and assign offsets",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-08",
+      "question_text": "Which source finding is accurate for publish and assign offsets?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Broker.Publish obtains/creates Topic, selects partition, increments per-partition offset."
+        },
+        {
+          "option_id": "b",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "c",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for publish and assign offsets",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-09",
+      "question_text": "Which review best connects the basic model and source details in publish and assign offsets?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        },
+        {
+          "option_id": "d",
+          "text": "Use the model that An offset is a position within a partition; publishing appends a message and returns its assigned position., then trace queue.go; the source finding is Broker.Publish obtains/creates Topic, selects partition, increments per-partition offset."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of publish and assign offsets",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q3-10",
+      "question_text": "After reading the whole module on publish and assign offsets, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "An in-memory store survives process restarts and coordinates multiple replicas."
+        },
+        {
+          "option_id": "b",
+          "text": "A protocol-like component name proves wire compatibility with that protocol."
+        },
+        {
+          "option_id": "c",
+          "text": "The example is Broker.Publish obtains/creates Topic, selects partition, increments per-partition offset.; interpret it with this finding: Broker.Publish obtains/creates Topic, selects partition, increments per-partition offset. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "d",
+          "text": "A successful local unit test proves production delivery and availability guarantees."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of publish and assign offsets",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

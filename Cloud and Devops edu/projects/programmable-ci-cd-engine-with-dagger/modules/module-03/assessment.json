@@ -1,0 +1,255 @@
+{
+  "module_id": "module-03",
+  "questions": [
+    {
+      "question_id": "q3-01",
+      "question_text": "Which supplied source is primary for build correct cache digests?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "a provider/runtime component absent from the repository"
+        },
+        {
+          "option_id": "d",
+          "text": "engine.go"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain build correct cache digests using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q3-02",
+      "question_text": "In plain terms, which idea best explains build correct cache digests?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A cache key must change when a step or its upstream output changes, or stale results can be reused."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain build correct cache digests using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q3-03",
+      "question_text": "Which source finding supports the basic model for build correct cache digests?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "digestOf hashes step content together with dependency digests."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain build correct cache digests using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q3-04",
+      "question_text": "Where should you trace the implementation of build correct cache digests?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "engine.go"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for build correct cache digests",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-05",
+      "question_text": "Which source excerpt or paraphrase illustrates build correct cache digests?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "digestOf hashes step content together with dependency digests."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for build correct cache digests",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-06",
+      "question_text": "A failure occurs while checking build correct cache digests. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "digestOf hashes step content together with dependency digests."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for build correct cache digests",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-07",
+      "question_text": "Which supplied source should be inspected before changing build correct cache digests?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "engine.go"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for build correct cache digests",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-08",
+      "question_text": "Which source finding is accurate for build correct cache digests?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "digestOf hashes step content together with dependency digests."
+        },
+        {
+          "option_id": "b",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "c",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for build correct cache digests",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q3-09",
+      "question_text": "Which review best connects the basic model and source details in build correct cache digests?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "A metric or UI label proves the remote system is in that state."
+        },
+        {
+          "option_id": "d",
+          "text": "Use the model that A cache key must change when a step or its upstream output changes, or stale results can be reused., then trace engine.go; the source finding is digestOf hashes step content together with dependency digests."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of build correct cache digests",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q3-10",
+      "question_text": "After reading the whole module on build correct cache digests, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "A feature in a README exists even when its source file is absent."
+        },
+        {
+          "option_id": "b",
+          "text": "A local simulation proves behavior matches a production provider integration."
+        },
+        {
+          "option_id": "c",
+          "text": "The example is digestOf hashes step content together with dependency digests.; interpret it with this finding: digestOf hashes step content together with dependency digests. Verify the connected component before making a production claim."
+        },
+        {
+          "option_id": "d",
+          "text": "A metric or UI label proves the remote system is in that state."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of build correct cache digests",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

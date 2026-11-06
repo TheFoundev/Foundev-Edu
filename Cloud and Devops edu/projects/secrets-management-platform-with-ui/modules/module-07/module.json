@@ -1,0 +1,41 @@
+{
+  "module_id": "module-07",
+  "title": "Review Defaults and HTTP Exposure",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Review Defaults and HTTP Exposure.",
+  "learning_objectives": [
+    "Explain review defaults and http exposure using a plain-language model",
+    "Trace the source implementation for review defaults and http exposure",
+    "Assess failure and operational limits of review defaults and http exposure"
+  ],
+  "prerequisites": [
+    "module-06"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A demo default password and console-printed token are unsafe outside localhost; a plain HTTP server has no TLS.",
+    "When SECRETS_PASSWORD absent, main uses change-me; generated TOKEN is logged."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/server.js",
+    "README.md"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/server.js",
+    "symbol_or_search_term": "SECRETS_PASSWORD",
+    "line_start": 80,
+    "line_end": 89
+  }
+}

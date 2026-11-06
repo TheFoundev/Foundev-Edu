@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Kubernetes controllers",
+    "url": "https://kubernetes.io/docs/concepts/architecture/controller/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Kubernetes custom resources",
+    "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Kubernetes API concepts",
+    "url": "https://kubernetes.io/docs/reference/using-api/api-concepts/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Go JSON",
+    "url": "https://pkg.go.dev/encoding/json",
+    "type": "official documentation"
+  }
+]

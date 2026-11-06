@@ -1,0 +1,41 @@
+{
+  "module_id": "module-07",
+  "title": "Persist State with the Optional FileStore",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Persist State with the Optional FileStore.",
+  "learning_objectives": [
+    "Explain persist state with the optional filestore using a plain-language model",
+    "Trace the source implementation for persist state with the optional filestore",
+    "Assess failure and operational limits of persist state with the optional filestore"
+  ],
+  "prerequisites": [
+    "module-06"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "The default store is in memory; a supplied -state path loads/saves JSON between process starts.",
+    "main.go conditionally loads NewFileStore when state path is nonempty and saves after changes."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "control.go",
+    "main.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "main.go",
+    "symbol_or_search_term": "NewFileStore",
+    "line_start": 85,
+    "line_end": 94
+  }
+}

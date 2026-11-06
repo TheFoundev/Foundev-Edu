@@ -1,0 +1,40 @@
+{
+  "module_id": "module-02",
+  "title": "Store and Concurrency",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Store and Concurrency.",
+  "learning_objectives": [
+    "Explain store and concurrency using a plain-language model",
+    "Trace the source implementation for store and concurrency",
+    "Assess failure and operational limits of store and concurrency"
+  ],
+  "prerequisites": [
+    "module-01"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "The Store is a shared in-memory notebook; a mutex protects append and copy operations.",
+    "Store.Add locks for append; all returns a copied slice under RLock."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "tracing.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "tracing.go",
+    "symbol_or_search_term": "Add",
+    "line_start": 47,
+    "line_end": 56
+  }
+}

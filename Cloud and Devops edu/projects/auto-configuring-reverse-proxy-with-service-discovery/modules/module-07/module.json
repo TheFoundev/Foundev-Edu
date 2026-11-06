@@ -1,0 +1,40 @@
+{
+  "module_id": "module-07",
+  "title": "Test Routing and Failure Responses",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Test Routing and Failure Responses.",
+  "learning_objectives": [
+    "Explain test routing and failure responses using a plain-language model",
+    "Trace the source implementation for test routing and failure responses",
+    "Assess failure and operational limits of test routing and failure responses"
+  ],
+  "prerequisites": [
+    "module-06"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A temporary test server is a controlled backend that reveals what path the proxy forwards.",
+    "Tests cover config, round robin, manual health, proxy path, /health, unknown service, parser errors, and absent socket."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "proxy_test.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "proxy_test.go",
+    "symbol_or_search_term": "NewServer",
+    "line_start": 30,
+    "line_end": 39
+  }
+}

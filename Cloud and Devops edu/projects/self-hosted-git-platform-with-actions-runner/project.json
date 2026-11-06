@@ -1,0 +1,28 @@
+{
+  "title": "Self-Hosted Git Platform with Actions Runner",
+  "slug": "self-hosted-git-platform-with-actions-runner",
+  "description": "A Go teaching implementation stores Git-like objects, branches and commits, parses a small workflow syntax, and runs host commands.",
+  "problem_solved": "Understand content-addressed Git objects and workflow scheduling while recognizing that commands execute directly on the host.",
+  "target_audience": "Advanced beginner/intermediate Cloud and DevOps learners",
+  "technology_stack": [
+    "Go",
+    "Git object hashing",
+    "custom workflow parser",
+    "os/exec"
+  ],
+  "difficulty_level": "intermediate",
+  "prerequisites": [
+    "Basic programming and terminal use",
+    "Read the project's source tree and setup guide",
+    "Use disposable local/test environments for operational exercises"
+  ],
+  "learning_outcomes": [
+    "Explain the source system's implemented components and limitations",
+    "Trace data/control flow through modules and interfaces",
+    "Distinguish simulation, local implementation, and external production services",
+    "Use tests, logs, and safe experiments to verify claims",
+    "Apply security, operational, and failure-mode reasoning"
+  ],
+  "estimated_completion_time": "24–38 hours",
+  "content_schema_version": "1.0.0"
+}

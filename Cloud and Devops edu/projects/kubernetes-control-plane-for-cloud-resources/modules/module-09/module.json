@@ -1,0 +1,41 @@
+{
+  "module_id": "module-09",
+  "title": "Separate Simulation from Kubernetes",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Separate Simulation from Kubernetes.",
+  "learning_objectives": [
+    "Explain separate simulation from kubernetes using a plain-language model",
+    "Trace the source implementation for separate simulation from kubernetes",
+    "Assess failure and operational limits of separate simulation from kubernetes"
+  ],
+  "prerequisites": [
+    "module-08"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A custom-resource-shaped Go struct is not itself a Kubernetes CRD, API server, controller-runtime client, or cloud resource.",
+    "No Kubernetes API server/provider is contacted; status is set by local reconciliation."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "README.md",
+    "control.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "control.go",
+    "symbol_or_search_term": "Kubernetes",
+    "line_start": 19,
+    "line_end": 28
+  }
+}

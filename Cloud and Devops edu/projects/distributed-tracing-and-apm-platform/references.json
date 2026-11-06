@@ -1,0 +1,17 @@
+[
+  {
+    "title": "OpenTelemetry OTLP specification",
+    "url": "https://opentelemetry.io/docs/specs/otlp/",
+    "type": "official documentation"
+  },
+  {
+    "title": "Go net/http",
+    "url": "https://pkg.go.dev/net/http",
+    "type": "official documentation"
+  },
+  {
+    "title": "Prometheus exposition format",
+    "url": "https://prometheus.io/docs/instrumenting/exposition_formats/",
+    "type": "official documentation"
+  }
+]

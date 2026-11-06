@@ -1,0 +1,39 @@
+{
+  "module_id": "module-01",
+  "title": "OTP Application and Supervision",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: OTP Application and Supervision.",
+  "learning_objectives": [
+    "Explain otp application and supervision using a plain-language model",
+    "Trace the source implementation for otp application and supervision",
+    "Assess failure and operational limits of otp application and supervision"
+  ],
+  "prerequisites": [],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A supervisor is a caretaker that restarts child processes according to a strategy.",
+    "mbb_sup supervises connection, consumer, metrics, and HTTP workers."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/mbb_sup.erl",
+    "src/message_broker_backend.app.src"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/mbb_sup.erl",
+    "symbol_or_search_term": "mbb_sup",
+    "line_start": 8,
+    "line_end": 17
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "module_id": "module-04",
+  "title": "Detect State Changes",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Detect State Changes.",
+  "learning_objectives": [
+    "Explain detect state changes using a plain-language model",
+    "Trace the source implementation for detect state changes",
+    "Assess failure and operational limits of detect state changes"
+  ],
+  "prerequisites": [
+    "module-03"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Incident notifications should fire on transitions, not every repeated failed probe.",
+    "previousStatus and notificationsFor compare current/previous status to decide notifications."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/monitor.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/monitor.js",
+    "symbol_or_search_term": "previousStatus",
+    "line_start": 119,
+    "line_end": 125
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "module_id": "module-12",
+  "questions": [
+    {
+      "question_id": "q12-01",
+      "question_text": "Which supplied source is primary for deploy and audit limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "scripts/deploy.ts; hardhat.config.ts; README.md"
+        },
+        {
+          "option_id": "b",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain deploy and audit limits using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q12-02",
+      "question_text": "In plain terms, which idea best explains deploy and audit limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "A secret in source or logs remains confidential from repository users."
+        },
+        {
+          "option_id": "d",
+          "text": "A deploy script connects code to a chain; a test report is evidence for tested cases, not a security certification."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain deploy and audit limits using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q12-03",
+      "question_text": "Which source finding supports the basic model for deploy and audit limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "README reports local compile/tests, uses a zero-filled placeholder PRIVATE_KEY, and supplies no independent audit report."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain deploy and audit limits using a plain-language model",
+      "related_lesson_id": "lesson-01"
+    },
+    {
+      "question_id": "q12-04",
+      "question_text": "Where should you trace the implementation of deploy and audit limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "scripts/deploy.ts; hardhat.config.ts; README.md"
+        },
+        {
+          "option_id": "c",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for deploy and audit limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q12-05",
+      "question_text": "Which source excerpt or paraphrase illustrates deploy and audit limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "npm run compile; npx hardhat node; deploy only locally/testnet"
+        },
+        {
+          "option_id": "b",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for deploy and audit limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q12-06",
+      "question_text": "A failure occurs while checking deploy and audit limits. Which source finding should guide diagnosis?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "A secret in source or logs remains confidential from repository users."
+        },
+        {
+          "option_id": "d",
+          "text": "README reports local compile/tests, uses a zero-filled placeholder PRIVATE_KEY, and supplies no independent audit report."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for deploy and audit limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q12-07",
+      "question_text": "Which supplied source should be inspected before changing deploy and audit limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "README.md by itself"
+        },
+        {
+          "option_id": "b",
+          "text": "an unrelated test fixture"
+        },
+        {
+          "option_id": "c",
+          "text": "scripts/deploy.ts; hardhat.config.ts; README.md"
+        },
+        {
+          "option_id": "d",
+          "text": "a provider/runtime component absent from the repository"
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for deploy and audit limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q12-08",
+      "question_text": "Which source finding is accurate for deploy and audit limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "README reports local compile/tests, uses a zero-filled placeholder PRIVATE_KEY, and supplies no independent audit report."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace the source implementation for deploy and audit limits",
+      "related_lesson_id": "lesson-02"
+    },
+    {
+      "question_id": "q12-09",
+      "question_text": "Which review best connects the basic model and source details in deploy and audit limits?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Use the model that A deploy script connects code to a chain; a test report is evidence for tested cases, not a security certification., then trace scripts/deploy.ts; hardhat.config.ts; README.md; the source finding is README reports local compile/tests, uses a zero-filled placeholder PRIVATE_KEY, and supplies no independent audit report."
+        },
+        {
+          "option_id": "b",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "c",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "d",
+          "text": "A secret in source or logs remains confidential from repository users."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of deploy and audit limits",
+      "related_lesson_id": "lesson-03"
+    },
+    {
+      "question_id": "q12-10",
+      "question_text": "After reading the whole module on deploy and audit limits, which conclusion combines the source example and its limit?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "Passing tests alone proves the system is independently audited and production safe."
+        },
+        {
+          "option_id": "b",
+          "text": "An event log or label is the same as durable, access-controlled state."
+        },
+        {
+          "option_id": "c",
+          "text": "A secret in source or logs remains confidential from repository users."
+        },
+        {
+          "option_id": "d",
+          "text": "The example is npm run compile; npx hardhat node; deploy only locally/testnet; interpret it with this finding: README reports local compile/tests, uses a zero-filled placeholder PRIVATE_KEY, and supplies no independent audit report. Verify the connected component before making a production claim."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Assess failure and operational limits of deploy and audit limits",
+      "related_lesson_id": "lesson-03"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "module_id": "module-08",
+  "title": "Tests and Real-IPFS Limits",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Tests and Real-IPFS Limits.",
+  "learning_objectives": [
+    "Explain tests and real-ipfs limits using a plain-language model",
+    "Trace the source implementation for tests and real-ipfs limits",
+    "Assess failure and operational limits of tests and real-ipfs limits"
+  ],
+  "prerequisites": [
+    "module-07"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Tests cover the local client and content APIs, not integration with an IPFS peer network.",
+    "The client only calls a configured node URL; the included app does not provide an IPFS daemon, pinning service, replication, or garbage collection."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "test/ipfs.test.js",
+    "src/ipfs.js",
+    "README.md"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/ipfs.js",
+    "symbol_or_search_term": "DEFAULT_API",
+    "line_start": 5,
+    "line_end": 14
+  }
+}

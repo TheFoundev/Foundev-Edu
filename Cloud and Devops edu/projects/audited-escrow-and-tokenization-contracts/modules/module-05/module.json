@@ -1,0 +1,40 @@
+{
+  "module_id": "module-05",
+  "title": "Deadlines and Timeout Paths",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Deadlines and Timeout Paths.",
+  "learning_objectives": [
+    "Explain deadlines and timeout paths using a plain-language model",
+    "Trace the source implementation for deadlines and timeout paths",
+    "Assess failure and operational limits of deadlines and timeout paths"
+  ],
+  "prerequisites": [
+    "module-04"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A deadline is a timer attached to a promise; timeout paths resolve a deal when a party stays silent.",
+    "timeoutRelease and timeoutRefund are separate; refund, cancel, and release each have caller/state requirements."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "contracts/Escrow.sol"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "contracts/Escrow.sol",
+    "symbol_or_search_term": "cancel",
+    "line_start": 301,
+    "line_end": 310
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "module_id": "module-09",
+  "title": "Operational Limits and Recovery",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Operational Limits and Recovery.",
+  "learning_objectives": [
+    "Explain operational limits and recovery using a plain-language model",
+    "Trace the source implementation for operational limits and recovery",
+    "Assess failure and operational limits of operational limits and recovery"
+  ],
+  "prerequisites": [
+    "module-08"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A successful local put is not an off-site backup; production systems need retention, replication, access controls, key custody, and restore drills.",
+    "Restore reads encrypted local chunks; the code has no remote backend, scheduler, retention policy, snapshots, or prune command."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "repository.go",
+    "main.go",
+    "README.md"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "repository.go",
+    "symbol_or_search_term": "Restore",
+    "line_start": 228,
+    "line_end": 237
+  }
+}

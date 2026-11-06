@@ -1,0 +1,40 @@
+{
+  "module_id": "module-07",
+  "title": "Store Experiment Results",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Store Experiment Results.",
+  "learning_objectives": [
+    "Explain store experiment results using a plain-language model",
+    "Trace the source implementation for store experiment results",
+    "Assess failure and operational limits of store experiment results"
+  ],
+  "prerequisites": [
+    "module-06"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "A Store is an interchangeable place to save completed experiment reports.",
+    "MemoryStore keeps results in process; FileStore serializes results to JSON."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "chaos.go"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "chaos.go",
+    "symbol_or_search_term": "Save",
+    "line_start": 306,
+    "line_end": 315
+  }
+}

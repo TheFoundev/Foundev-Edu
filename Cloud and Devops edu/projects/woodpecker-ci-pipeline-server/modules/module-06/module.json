@@ -1,0 +1,41 @@
+{
+  "module_id": "module-06",
+  "title": "Serve the HTTP API and Console",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Serve the HTTP API and Console.",
+  "learning_objectives": [
+    "Explain serve the http api and console using a plain-language model",
+    "Trace the source implementation for serve the http api and console",
+    "Assess failure and operational limits of serve the http api and console"
+  ],
+  "prerequisites": [
+    "module-05"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "HTTP handlers trigger, list, and inspect builds; the web UI is a simple frontend.",
+    "ListHandler and TriggerHandler expose API functionality; frontend/server files are separate."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "server.go",
+    "web/"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "server.go",
+    "symbol_or_search_term": "ListHandler",
+    "line_start": 227,
+    "line_end": 236
+  }
+}

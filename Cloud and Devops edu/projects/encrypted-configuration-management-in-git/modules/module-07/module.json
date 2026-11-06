@@ -1,0 +1,41 @@
+{
+  "module_id": "module-07",
+  "title": "Rotate Recipients with a Grace Period",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Rotate Recipients with a Grace Period.",
+  "learning_objectives": [
+    "Explain rotate recipients with a grace period using a plain-language model",
+    "Trace the source implementation for rotate recipients with a grace period",
+    "Assess failure and operational limits of rotate recipients with a grace period"
+  ],
+  "prerequisites": [
+    "module-06"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Rotation adds new readers while previous recipients remain until the grace-period drop step.",
+    "rotate_env re-encrypts and updates previous_recipients; --drop-previous removes old recipients."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "secretsync/cli.py",
+    "secretsync/config.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "secretsync/cli.py",
+    "symbol_or_search_term": "previous_recipients",
+    "line_start": 606,
+    "line_end": 615
+  }
+}

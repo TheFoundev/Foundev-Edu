@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Solidity docs",
+    "url": "https://docs.soliditylang.org/en/latest/",
+    "type": "official documentation"
+  },
+  {
+    "title": "OpenZeppelin AccessControl",
+    "url": "https://docs.openzeppelin.com/contracts/5.x/access-control",
+    "type": "official documentation"
+  },
+  {
+    "title": "OpenZeppelin utilities",
+    "url": "https://docs.openzeppelin.com/contracts/5.x/api/utils",
+    "type": "official documentation"
+  },
+  {
+    "title": "Hardhat docs",
+    "url": "https://hardhat.org/docs",
+    "type": "official documentation"
+  }
+]

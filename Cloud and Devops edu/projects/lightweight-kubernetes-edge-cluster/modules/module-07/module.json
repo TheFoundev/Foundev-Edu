@@ -1,0 +1,41 @@
+{
+  "module_id": "module-07",
+  "title": "Understand Local-Path Storage Limits",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Understand Local-Path Storage Limits.",
+  "learning_objectives": [
+    "Explain understand local-path storage limits using a plain-language model",
+    "Trace the source implementation for understand local-path storage limits",
+    "Assess failure and operational limits of understand local-path storage limits"
+  ],
+  "prerequisites": [
+    "module-06"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Local-path storage lives on a node; it can be persistent across pod restarts but is not replicated across nodes.",
+    "README states node-bound volumes and says durability needs snapshots/application backups."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "helm/edge-stateful",
+    "docs"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "helm/edge-stateful/Chart.yaml",
+    "symbol_or_search_term": "application",
+    "line_start": 1,
+    "line_end": 8
+  }
+}

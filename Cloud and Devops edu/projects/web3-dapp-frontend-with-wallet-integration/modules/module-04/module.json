@@ -1,0 +1,40 @@
+{
+  "module_id": "module-04",
+  "title": "Understand Keccak-256 Implementation",
+  "description": "Progress from an intuitive model to the source implementation and its operational boundary: Understand Keccak-256 Implementation.",
+  "learning_objectives": [
+    "Explain understand keccak-256 implementation using a plain-language model",
+    "Trace the source implementation for understand keccak-256 implementation",
+    "Assess failure and operational limits of understand keccak-256 implementation"
+  ],
+  "prerequisites": [
+    "module-03"
+  ],
+  "lesson_ids": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03"
+  ],
+  "estimated_duration": "2–3 hours",
+  "concepts_covered": [
+    "Keccak-256 and standardized SHA3-256 have different padding; cryptographic helper correctness must be validated with known vectors.",
+    "Custom 24-round Keccak-f permutation uses BigInt lanes and rate 136 bytes."
+  ],
+  "practical_outcomes": [
+    "Trace the named source component",
+    "Explain at least one operational boundary"
+  ],
+  "completion_criteria": [
+    "Complete all three lessons and exercise",
+    "Score at least 7/10 on the assessment"
+  ],
+  "source_files": [
+    "src/keccak.js"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/keccak.js",
+    "symbol_or_search_term": "BigInt",
+    "line_start": 31,
+    "line_end": 40
+  }
+}
