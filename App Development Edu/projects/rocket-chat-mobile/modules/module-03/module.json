@@ -1,0 +1,41 @@
+{
+  "module_id": "rocket-chat-mobile-03-response-mapping-and-local-operations",
+  "title": "Map server-shaped data and manage channels/messages",
+  "description": "External objects need validation before entering a UI list. Follow mapping functions and local helpers, then see how a sent message is appended optimistically.",
+  "learning_objectives": [
+    "Explain tochannels/tomessages, filtering, unread counts, optimistic append in plain language.",
+    "Trace export function toMessages in `src/chat.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Method names and response shapes are a demo contract; confirm them against the target server version."
+  ],
+  "learning_objective_ids": [
+    "rocket-chat-mobile-03-response-mapping-and-local-operations-objective-01",
+    "rocket-chat-mobile-03-response-mapping-and-local-operations-objective-02",
+    "rocket-chat-mobile-03-response-mapping-and-local-operations-objective-03"
+  ],
+  "source_files": [
+    "src/chat.ts",
+    "src/screens/ChatScreen.tsx",
+    "src/screens/ChannelsScreen.tsx"
+  ],
+  "prerequisites": [
+    "rocket-chat-mobile-02-ddp-client-lifecycle"
+  ],
+  "ordered_lesson_ids": [
+    "rocket-chat-mobile-03-response-mapping-and-local-operations-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "toChannels/toMessages, filtering, unread counts, optimistic append",
+    "External objects need validation before entering a UI list. Follow mapping functions and local helpers, then see how a sent message is appended optimistically.",
+    "Method names and response shapes are a demo contract; confirm them against the target server version."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/chat.ts` around `export function toMessages`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/chat.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

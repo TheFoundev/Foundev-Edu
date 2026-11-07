@@ -1,0 +1,31 @@
+{
+  "title": "MovieSwiftUI",
+  "slug": "movieswiftui",
+  "description": "Build a SwiftUI movie-discovery mini app with catalogue mapping, search, genre selection, sorting, detail pages, and a persistent watchlist.",
+  "problem": "Learners need a source-grounded way to understand and extend MovieSwiftUI while separating implemented behavior from demo data, simulations, and missing integrations.",
+  "audience": "Third-year undergraduate students who have completed introductory programming and want a practical mobile mini-project.",
+  "stack": [
+    "Swift",
+    "SwiftUI",
+    "UserDefaults",
+    "XCTest",
+    "XcodeGen"
+  ],
+  "difficulty": "upper-intermediate",
+  "prerequisites": [
+    "Basic programming and source-code reading",
+    "Git basics and ability to run the platform tooling described in the source README"
+  ],
+  "learning_outcomes": [
+    "Explain and trace movie fields, identity, movieinfo projection, and seed records in its named source files.",
+    "Explain and trace response decoding/mapping and missing-field rejection in its named source files.",
+    "Explain and trace text search fields, genre filtering, rating/year ordering, and ui controls in its named source files.",
+    "Explain and trace store defaults, add/remove operations, and userdefaults reload in its named source files.",
+    "Explain and trace navigation, card poster rendering, shared store, and detail fields in its named source files.",
+    "Explain and trace mapping/filter tests, watchlist persistence tests, xcodegen targets, and simulator review in its named source files.",
+    "Distinguish unit-test evidence from device, service, and deployment evidence.",
+    "Propose a safe, bounded extension without describing it as already implemented."
+  ],
+  "estimated_duration_hours": 12,
+  "content_schema_version": "1.0.0"
+}

@@ -1,0 +1,135 @@
+{
+  "module_id": "peyara-remote-mouse-01-event-protocol-and-validation",
+  "answers": [
+    {
+      "question_id": "peyara-remote-mouse-m01-q01",
+      "correct_option_id": "peyara-remote-mouse-m01-q01-o1",
+      "correct_explanation": "The lesson and source file `src/protocol.ts` identify this behavior as: Event union, JSON encoding, decoding, bounds, and unknown-event rejection The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "peyara-remote-mouse-m01-q01-o2": "The lesson traces 'Event union, JSON encoding, decoding, bounds, and unknown-event rejection' to src/protocol.ts. This option instead claims 'PanResponder deltas, click/scroll actions, text and key events', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m01-q01-o3": "The lesson traces 'Event union, JSON encoding, decoding, bounds, and unknown-event rejection' to src/protocol.ts. This option instead claims 'Socket lifecycle, connection snapshots, exponential delay, max retry, and manual disconnect', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m01-q01-o4": "The lesson traces 'Event union, JSON encoding, decoding, bounds, and unknown-event rejection' to src/protocol.ts. This option instead claims 'Host validation, settings key, AsyncStorage adapter, and load/save flow', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Event union, JSON encoding, decoding, bounds, and unknown-event rejection",
+      "related_lesson_id": "peyara-remote-mouse-01-event-protocol-and-validation-lesson-01",
+      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/protocol.ts"
+    },
+    {
+      "question_id": "peyara-remote-mouse-m01-q02",
+      "correct_option_id": "peyara-remote-mouse-m01-q02-o1",
+      "correct_explanation": "The lesson and source file `src/protocol.ts` identify this behavior as: src/protocol.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "peyara-remote-mouse-m01-q02-o3": "The lesson traces 'src/protocol.ts' to src/protocol.ts. This option instead claims 'test/protocol.test.ts', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m01-q02-o4": "The lesson traces 'src/protocol.ts' to src/protocol.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m01-q02-o2": "The lesson traces 'src/protocol.ts' to src/protocol.ts. This option instead claims 'server/relay.js', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Event union, JSON encoding, decoding, bounds, and unknown-event rejection",
+      "related_lesson_id": "peyara-remote-mouse-01-event-protocol-and-validation-lesson-01",
+      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/protocol.ts"
+    },
+    {
+      "question_id": "peyara-remote-mouse-m01-q03",
+      "correct_option_id": "peyara-remote-mouse-m01-q03-o1",
+      "correct_explanation": "The lesson and source file `src/protocol.ts` identify this behavior as: Validation narrows malformed input but does not authenticate a sender. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "peyara-remote-mouse-m01-q03-o4": "The lesson traces 'Validation narrows malformed input but does not authenticate a sender.' to src/protocol.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m01-q03-o2": "The lesson traces 'Validation narrows malformed input but does not authenticate a sender.' to src/protocol.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m01-q03-o3": "The lesson traces 'Validation narrows malformed input but does not authenticate a sender.' to src/protocol.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Event union, JSON encoding, decoding, bounds, and unknown-event rejection",
+      "related_lesson_id": "peyara-remote-mouse-01-event-protocol-and-validation-lesson-01",
+      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/protocol.ts"
+    },
+    {
+      "question_id": "peyara-remote-mouse-m01-q04",
+      "correct_option_id": "peyara-remote-mouse-m01-q04-o1",
+      "correct_explanation": "The lesson and source file `src/protocol.ts` identify this behavior as: Two programs need to agree on message words. Learn the event shapes, then trace validation and JSON encoding on the phone and decoding at the relay. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "peyara-remote-mouse-m01-q04-o2": "The lesson traces 'Two programs need to agree on message words. Learn the event shapes, then trace validation and JSON encoding on the phone and decoding at the relay.' to src/protocol.ts. This option instead claims 'PanResponder deltas, click/scroll actions, text and key events', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m01-q04-o3": "The lesson traces 'Two programs need to agree on message words. Learn the event shapes, then trace validation and JSON encoding on the phone and decoding at the relay.' to src/protocol.ts. This option instead claims 'Socket lifecycle, connection snapshots, exponential delay, max retry, and manual disconnect', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m01-q04-o4": "The lesson traces 'Two programs need to agree on message words. Learn the event shapes, then trace validation and JSON encoding on the phone and decoding at the relay.' to src/protocol.ts. This option instead claims 'Host validation, settings key, AsyncStorage adapter, and load/save flow', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Event union, JSON encoding, decoding, bounds, and unknown-event rejection",
+      "related_lesson_id": "peyara-remote-mouse-01-event-protocol-and-validation-lesson-01",
+      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/protocol.ts"
+    },
+    {
+      "question_id": "peyara-remote-mouse-m01-q05",
+      "correct_option_id": "peyara-remote-mouse-m01-q05-o1",
+      "correct_explanation": "The lesson and source file `src/protocol.ts` identify this behavior as: Event union, JSON encoding, decoding, bounds, and unknown-event rejection The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "peyara-remote-mouse-m01-q05-o2": "The lesson traces 'Event union, JSON encoding, decoding, bounds, and unknown-event rejection' to src/protocol.ts. This option instead claims 'PanResponder deltas, click/scroll actions, text and key events', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m01-q05-o3": "The lesson traces 'Event union, JSON encoding, decoding, bounds, and unknown-event rejection' to src/protocol.ts. This option instead claims 'Socket lifecycle, connection snapshots, exponential delay, max retry, and manual disconnect', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m01-q05-o4": "The lesson traces 'Event union, JSON encoding, decoding, bounds, and unknown-event rejection' to src/protocol.ts. This option instead claims 'Host validation, settings key, AsyncStorage adapter, and load/save flow', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Event union, JSON encoding, decoding, bounds, and unknown-event rejection",
+      "related_lesson_id": "peyara-remote-mouse-01-event-protocol-and-validation-lesson-01",
+      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/protocol.ts"
+    },
+    {
+      "question_id": "peyara-remote-mouse-m01-q06",
+      "correct_option_id": "peyara-remote-mouse-m01-q06-o1",
+      "correct_explanation": "The lesson and source file `src/protocol.ts` identify this behavior as: Two programs need to agree on message words. Learn the event shapes, then trace validation and JSON encoding on the phone and decoding at the relay. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "peyara-remote-mouse-m01-q06-o3": "The lesson traces 'Two programs need to agree on message words. Learn the event shapes, then trace validation and JSON encoding on the phone and decoding at the relay.' to src/protocol.ts. This option instead claims 'Socket lifecycle, connection snapshots, exponential delay, max retry, and manual disconnect', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m01-q06-o4": "The lesson traces 'Two programs need to agree on message words. Learn the event shapes, then trace validation and JSON encoding on the phone and decoding at the relay.' to src/protocol.ts. This option instead claims 'Host validation, settings key, AsyncStorage adapter, and load/save flow', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m01-q06-o2": "The lesson traces 'Two programs need to agree on message words. Learn the event shapes, then trace validation and JSON encoding on the phone and decoding at the relay.' to src/protocol.ts. This option instead claims 'PanResponder deltas, click/scroll actions, text and key events', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Event union, JSON encoding, decoding, bounds, and unknown-event rejection",
+      "related_lesson_id": "peyara-remote-mouse-01-event-protocol-and-validation-lesson-01",
+      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/protocol.ts"
+    },
+    {
+      "question_id": "peyara-remote-mouse-m01-q07",
+      "correct_option_id": "peyara-remote-mouse-m01-q07-o1",
+      "correct_explanation": "The lesson and source file `src/protocol.ts` identify this behavior as: Validation narrows malformed input but does not authenticate a sender. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "peyara-remote-mouse-m01-q07-o4": "The lesson traces 'Validation narrows malformed input but does not authenticate a sender.' to src/protocol.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m01-q07-o2": "The lesson traces 'Validation narrows malformed input but does not authenticate a sender.' to src/protocol.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m01-q07-o3": "The lesson traces 'Validation narrows malformed input but does not authenticate a sender.' to src/protocol.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Event union, JSON encoding, decoding, bounds, and unknown-event rejection",
+      "related_lesson_id": "peyara-remote-mouse-01-event-protocol-and-validation-lesson-01",
+      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/protocol.ts"
+    },
+    {
+      "question_id": "peyara-remote-mouse-m01-q08",
+      "correct_option_id": "peyara-remote-mouse-m01-q08-o1",
+      "correct_explanation": "The lesson and source file `src/protocol.ts` identify this behavior as: src/protocol.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "peyara-remote-mouse-m01-q08-o2": "The lesson traces 'src/protocol.ts' to src/protocol.ts. This option instead claims 'server/relay.js', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m01-q08-o3": "The lesson traces 'src/protocol.ts' to src/protocol.ts. This option instead claims 'test/protocol.test.ts', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m01-q08-o4": "The lesson traces 'src/protocol.ts' to src/protocol.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Event union, JSON encoding, decoding, bounds, and unknown-event rejection",
+      "related_lesson_id": "peyara-remote-mouse-01-event-protocol-and-validation-lesson-01",
+      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/protocol.ts"
+    },
+    {
+      "question_id": "peyara-remote-mouse-m01-q09",
+      "correct_option_id": "peyara-remote-mouse-m01-q09-o1",
+      "correct_explanation": "The lesson and source file `src/protocol.ts` identify this behavior as: Do not claim production readiness: Validation narrows malformed input but does not authenticate a sender. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "peyara-remote-mouse-m01-q09-o2": "The lesson traces 'Do not claim production readiness: Validation narrows malformed input but does not authenticate a sender.' to src/protocol.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m01-q09-o3": "The lesson traces 'Do not claim production readiness: Validation narrows malformed input but does not authenticate a sender.' to src/protocol.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m01-q09-o4": "The lesson traces 'Do not claim production readiness: Validation narrows malformed input but does not authenticate a sender.' to src/protocol.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Event union, JSON encoding, decoding, bounds, and unknown-event rejection",
+      "related_lesson_id": "peyara-remote-mouse-01-event-protocol-and-validation-lesson-01",
+      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/protocol.ts"
+    },
+    {
+      "question_id": "peyara-remote-mouse-m01-q10",
+      "correct_option_id": "peyara-remote-mouse-m01-q10-o1",
+      "correct_explanation": "The lesson and source file `src/protocol.ts` identify this behavior as: Two programs need to agree on message words. Learn the event shapes, then trace validation and JSON encoding on the phone and decoding at the relay. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "peyara-remote-mouse-m01-q10-o3": "The lesson traces 'Two programs need to agree on message words. Learn the event shapes, then trace validation and JSON encoding on the phone and decoding at the relay.' to src/protocol.ts. This option instead claims 'Socket lifecycle, connection snapshots, exponential delay, max retry, and manual disconnect', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m01-q10-o4": "The lesson traces 'Two programs need to agree on message words. Learn the event shapes, then trace validation and JSON encoding on the phone and decoding at the relay.' to src/protocol.ts. This option instead claims 'Host validation, settings key, AsyncStorage adapter, and load/save flow', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m01-q10-o2": "The lesson traces 'Two programs need to agree on message words. Learn the event shapes, then trace validation and JSON encoding on the phone and decoding at the relay.' to src/protocol.ts. This option instead claims 'PanResponder deltas, click/scroll actions, text and key events', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Event union, JSON encoding, decoding, bounds, and unknown-event rejection",
+      "related_lesson_id": "peyara-remote-mouse-01-event-protocol-and-validation-lesson-01",
+      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/protocol.ts"
+    }
+  ]
+}

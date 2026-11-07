@@ -1,0 +1,37 @@
+{
+  "exercise_id": "gitpoint-06-tests-security-and-mini-project-exercise-01",
+  "title": "Inspect and extend: Verify API logic and plan safe integration",
+  "objective": "Use the real implementation in `test/github.test.ts` to demonstrate and safely improve mock response evidence, test script, public api boundary, and token risk.",
+  "problem": "Mocked responses prove mapping logic without contacting GitHub. Compare tests with API behavior and identify secure credential handling and pagination work needed for a real account client. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `test/github.test.ts` and the related project files: test/github.test.ts; package.json; README.md.",
+    "Add or improve a focused behavior related to mock response evidence, test script, public api boundary, and token risk.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: Do not put a personal access token in a client bundle or commit it into source.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "Mocked responses prove mapping logic without contacting GitHub. Compare tests with API behavior and identify secure credential handling and pagination work needed for a real account client.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `test/github.test.ts`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `fakeFetch` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

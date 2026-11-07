@@ -1,0 +1,40 @@
+{
+  "module_id": "firefox-for-ios-02-url-and-search-routing",
+  "title": "Turn an address-bar string into a destination",
+  "description": "The same text field can contain a web address or search words. Trace the decision and compare test cases; verify empty input does not create an accidental destination.",
+  "learning_objectives": [
+    "Explain url recognition, scheme normalization, and search fallback in plain language.",
+    "Trace func destination in `Sources/Core.swift` and explain the relevant behavior.",
+    "State and preserve this limit: Search and navigation behavior is a teaching implementation and may omit edge cases of the full Firefox browser."
+  ],
+  "learning_objective_ids": [
+    "firefox-for-ios-02-url-and-search-routing-objective-01",
+    "firefox-for-ios-02-url-and-search-routing-objective-02",
+    "firefox-for-ios-02-url-and-search-routing-objective-03"
+  ],
+  "source_files": [
+    "Sources/Core.swift",
+    "Tests/BrowserCoreTests.swift"
+  ],
+  "prerequisites": [
+    "firefox-for-ios-01-browser-domain-model"
+  ],
+  "ordered_lesson_ids": [
+    "firefox-for-ios-02-url-and-search-routing-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "URL recognition, scheme normalization, and search fallback",
+    "The same text field can contain a web address or search words. Trace the decision and compare test cases; verify empty input does not create an accidental destination.",
+    "Search and navigation behavior is a teaching implementation and may omit edge cases of the full Firefox browser."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Sources/Core.swift` around `func destination`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Sources/Core.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

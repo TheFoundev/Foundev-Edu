@@ -1,0 +1,41 @@
+{
+  "module_id": "bluewallet-01-wallet-model-and-ui",
+  "title": "A wallet screen is a view of money records",
+  "description": "A wallet dashboard is a summary board. Learn the Transaction record and satoshi units, then trace the sample rows and balance display into the screen. Separate sample values from values supplied by a network.",
+  "learning_objectives": [
+    "Explain transaction shape, satoshi formatting, seeded records, and tab shell in plain language.",
+    "Trace export type Transaction in `src/data.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Seed transactions and the receive address are placeholders; never send funds to them."
+  ],
+  "learning_objective_ids": [
+    "bluewallet-01-wallet-model-and-ui-objective-01",
+    "bluewallet-01-wallet-model-and-ui-objective-02",
+    "bluewallet-01-wallet-model-and-ui-objective-03"
+  ],
+  "source_files": [
+    "src/data.ts",
+    "src/screens/WalletScreen.tsx",
+    "src/components.tsx",
+    "src/theme.ts",
+    "App.tsx"
+  ],
+  "prerequisites": [],
+  "ordered_lesson_ids": [
+    "bluewallet-01-wallet-model-and-ui-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Transaction shape, satoshi formatting, seeded records, and tab shell",
+    "A wallet dashboard is a summary board. Learn the Transaction record and satoshi units, then trace the sample rows and balance display into the screen. Separate sample values from values supplied by a network.",
+    "Seed transactions and the receive address are placeholders; never send funds to them."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/data.ts` around `export type Transaction`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/data.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

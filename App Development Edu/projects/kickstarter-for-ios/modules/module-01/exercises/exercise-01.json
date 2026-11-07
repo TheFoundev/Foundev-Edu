@@ -1,0 +1,37 @@
+{
+  "exercise_id": "kickstarter-for-ios-01-project-records-and-sample-catalogue-exercise-01",
+  "title": "Inspect and extend: A project card starts with a project record",
+  "objective": "Use the real implementation in `Sources/Models.swift` to demonstrate and safely improve project fields, computed progress, identity, and sample catalogue.",
+  "problem": "A crowdfunding card is a view of a project record. Read fields such as goal and pledged amount, then follow computed progress into the reusable card UI. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `Sources/Models.swift` and the related project files: Sources/Models.swift; Sources/Components.swift.",
+    "Add or improve a focused behavior related to project fields, computed progress, identity, and sample catalogue.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: The catalogue is sample content and does not come from Kickstarter.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "A crowdfunding card is a view of a project record. Read fields such as goal and pledged amount, then follow computed progress into the reusable card UI.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `Sources/Models.swift`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `struct Project` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

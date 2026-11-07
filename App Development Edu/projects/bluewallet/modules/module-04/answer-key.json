@@ -1,0 +1,135 @@
+{
+  "module_id": "bluewallet-04-utxo-selection-and-fees",
+  "answers": [
+    {
+      "question_id": "bluewallet-m04-q01",
+      "correct_option_id": "bluewallet-m04-q01-o1",
+      "correct_explanation": "The lesson and source file `src/wallet-core.ts` identify this behavior as: UTXO selection, fee estimate, amount validation, and unsigned output construction The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m04-q01-o2": "The lesson traces 'UTXO selection, fee estimate, amount validation, and unsigned output construction' to src/wallet-core.ts. This option instead claims 'Transaction shape, satoshi formatting, seeded records, and tab shell', which the cited source does not establish for this behavior.",
+        "bluewallet-m04-q01-o3": "The lesson traces 'UTXO selection, fee estimate, amount validation, and unsigned output construction' to src/wallet-core.ts. This option instead claims 'Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary', which the cited source does not establish for this behavior.",
+        "bluewallet-m04-q01-o4": "The lesson traces 'UTXO selection, fee estimate, amount validation, and unsigned output construction' to src/wallet-core.ts. This option instead claims 'SHA-256 implementation and Electrum script hash preparation', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "UTXO selection, fee estimate, amount validation, and unsigned output construction",
+      "related_lesson_id": "bluewallet-04-utxo-selection-and-fees-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/wallet-core.ts"
+    },
+    {
+      "question_id": "bluewallet-m04-q02",
+      "correct_option_id": "bluewallet-m04-q02-o1",
+      "correct_explanation": "The lesson and source file `src/wallet-core.ts` identify this behavior as: src/wallet-core.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m04-q02-o3": "The lesson traces 'src/wallet-core.ts' to src/wallet-core.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "bluewallet-m04-q02-o4": "The lesson traces 'src/wallet-core.ts' to src/wallet-core.ts. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior.",
+        "bluewallet-m04-q02-o2": "The lesson traces 'src/wallet-core.ts' to src/wallet-core.ts. This option instead claims 'src/screens/SendScreen.tsx', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "UTXO selection, fee estimate, amount validation, and unsigned output construction",
+      "related_lesson_id": "bluewallet-04-utxo-selection-and-fees-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/wallet-core.ts"
+    },
+    {
+      "question_id": "bluewallet-m04-q03",
+      "correct_option_id": "bluewallet-m04-q03-o1",
+      "correct_explanation": "The lesson and source file `src/wallet-core.ts` identify this behavior as: The transaction is unsigned; fee size/rate assumptions are simplified, the change output currently uses an empty placeholder address, and no real payment should be made. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m04-q03-o4": "The lesson traces 'The transaction is unsigned; fee size/rate assumptions are simplified, the change output currently uses an empty placeholder address, and no real payment should be made.' to src/wallet-core.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "bluewallet-m04-q03-o2": "The lesson traces 'The transaction is unsigned; fee size/rate assumptions are simplified, the change output currently uses an empty placeholder address, and no real payment should be made.' to src/wallet-core.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "bluewallet-m04-q03-o3": "The lesson traces 'The transaction is unsigned; fee size/rate assumptions are simplified, the change output currently uses an empty placeholder address, and no real payment should be made.' to src/wallet-core.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "UTXO selection, fee estimate, amount validation, and unsigned output construction",
+      "related_lesson_id": "bluewallet-04-utxo-selection-and-fees-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/wallet-core.ts"
+    },
+    {
+      "question_id": "bluewallet-m04-q04",
+      "correct_option_id": "bluewallet-m04-q04-o1",
+      "correct_explanation": "The lesson and source file `src/wallet-core.ts` identify this behavior as: A UTXO is an unspent piece of value. The planner selects enough pieces to cover amount plus estimated fee, then considers change and a dust threshold. Trace the UI request into buildUnsignedTransaction. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m04-q04-o2": "The lesson traces 'A UTXO is an unspent piece of value. The planner selects enough pieces to cover amount plus estimated fee, then considers change and a dust threshold. Trace the UI request into buildUnsignedTransaction.' to src/wallet-core.ts. This option instead claims 'Transaction shape, satoshi formatting, seeded records, and tab shell', which the cited source does not establish for this behavior.",
+        "bluewallet-m04-q04-o3": "The lesson traces 'A UTXO is an unspent piece of value. The planner selects enough pieces to cover amount plus estimated fee, then considers change and a dust threshold. Trace the UI request into buildUnsignedTransaction.' to src/wallet-core.ts. This option instead claims 'Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary', which the cited source does not establish for this behavior.",
+        "bluewallet-m04-q04-o4": "The lesson traces 'A UTXO is an unspent piece of value. The planner selects enough pieces to cover amount plus estimated fee, then considers change and a dust threshold. Trace the UI request into buildUnsignedTransaction.' to src/wallet-core.ts. This option instead claims 'SHA-256 implementation and Electrum script hash preparation', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "UTXO selection, fee estimate, amount validation, and unsigned output construction",
+      "related_lesson_id": "bluewallet-04-utxo-selection-and-fees-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/wallet-core.ts"
+    },
+    {
+      "question_id": "bluewallet-m04-q05",
+      "correct_option_id": "bluewallet-m04-q05-o1",
+      "correct_explanation": "The lesson and source file `src/wallet-core.ts` identify this behavior as: UTXO selection, fee estimate, amount validation, and unsigned output construction The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m04-q05-o2": "The lesson traces 'UTXO selection, fee estimate, amount validation, and unsigned output construction' to src/wallet-core.ts. This option instead claims 'Transaction shape, satoshi formatting, seeded records, and tab shell', which the cited source does not establish for this behavior.",
+        "bluewallet-m04-q05-o3": "The lesson traces 'UTXO selection, fee estimate, amount validation, and unsigned output construction' to src/wallet-core.ts. This option instead claims 'Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary', which the cited source does not establish for this behavior.",
+        "bluewallet-m04-q05-o4": "The lesson traces 'UTXO selection, fee estimate, amount validation, and unsigned output construction' to src/wallet-core.ts. This option instead claims 'SHA-256 implementation and Electrum script hash preparation', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "UTXO selection, fee estimate, amount validation, and unsigned output construction",
+      "related_lesson_id": "bluewallet-04-utxo-selection-and-fees-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/wallet-core.ts"
+    },
+    {
+      "question_id": "bluewallet-m04-q06",
+      "correct_option_id": "bluewallet-m04-q06-o1",
+      "correct_explanation": "The lesson and source file `src/wallet-core.ts` identify this behavior as: A UTXO is an unspent piece of value. The planner selects enough pieces to cover amount plus estimated fee, then considers change and a dust threshold. Trace the UI request into buildUnsignedTransaction. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m04-q06-o3": "The lesson traces 'A UTXO is an unspent piece of value. The planner selects enough pieces to cover amount plus estimated fee, then considers change and a dust threshold. Trace the UI request into buildUnsignedTransaction.' to src/wallet-core.ts. This option instead claims 'Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary', which the cited source does not establish for this behavior.",
+        "bluewallet-m04-q06-o4": "The lesson traces 'A UTXO is an unspent piece of value. The planner selects enough pieces to cover amount plus estimated fee, then considers change and a dust threshold. Trace the UI request into buildUnsignedTransaction.' to src/wallet-core.ts. This option instead claims 'SHA-256 implementation and Electrum script hash preparation', which the cited source does not establish for this behavior.",
+        "bluewallet-m04-q06-o2": "The lesson traces 'A UTXO is an unspent piece of value. The planner selects enough pieces to cover amount plus estimated fee, then considers change and a dust threshold. Trace the UI request into buildUnsignedTransaction.' to src/wallet-core.ts. This option instead claims 'Transaction shape, satoshi formatting, seeded records, and tab shell', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "UTXO selection, fee estimate, amount validation, and unsigned output construction",
+      "related_lesson_id": "bluewallet-04-utxo-selection-and-fees-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/wallet-core.ts"
+    },
+    {
+      "question_id": "bluewallet-m04-q07",
+      "correct_option_id": "bluewallet-m04-q07-o1",
+      "correct_explanation": "The lesson and source file `src/wallet-core.ts` identify this behavior as: The transaction is unsigned; fee size/rate assumptions are simplified, the change output currently uses an empty placeholder address, and no real payment should be made. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m04-q07-o4": "The lesson traces 'The transaction is unsigned; fee size/rate assumptions are simplified, the change output currently uses an empty placeholder address, and no real payment should be made.' to src/wallet-core.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "bluewallet-m04-q07-o2": "The lesson traces 'The transaction is unsigned; fee size/rate assumptions are simplified, the change output currently uses an empty placeholder address, and no real payment should be made.' to src/wallet-core.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "bluewallet-m04-q07-o3": "The lesson traces 'The transaction is unsigned; fee size/rate assumptions are simplified, the change output currently uses an empty placeholder address, and no real payment should be made.' to src/wallet-core.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "UTXO selection, fee estimate, amount validation, and unsigned output construction",
+      "related_lesson_id": "bluewallet-04-utxo-selection-and-fees-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/wallet-core.ts"
+    },
+    {
+      "question_id": "bluewallet-m04-q08",
+      "correct_option_id": "bluewallet-m04-q08-o1",
+      "correct_explanation": "The lesson and source file `src/wallet-core.ts` identify this behavior as: src/wallet-core.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m04-q08-o2": "The lesson traces 'src/wallet-core.ts' to src/wallet-core.ts. This option instead claims 'src/screens/SendScreen.tsx', which the cited source does not establish for this behavior.",
+        "bluewallet-m04-q08-o3": "The lesson traces 'src/wallet-core.ts' to src/wallet-core.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "bluewallet-m04-q08-o4": "The lesson traces 'src/wallet-core.ts' to src/wallet-core.ts. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "UTXO selection, fee estimate, amount validation, and unsigned output construction",
+      "related_lesson_id": "bluewallet-04-utxo-selection-and-fees-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/wallet-core.ts"
+    },
+    {
+      "question_id": "bluewallet-m04-q09",
+      "correct_option_id": "bluewallet-m04-q09-o1",
+      "correct_explanation": "The lesson and source file `src/wallet-core.ts` identify this behavior as: Do not claim production readiness: The transaction is unsigned; fee size/rate assumptions are simplified, the change output currently uses an empty placeholder address, and no real payment should be made. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m04-q09-o2": "The lesson traces 'Do not claim production readiness: The transaction is unsigned; fee size/rate assumptions are simplified, the change output currently uses an empty placeholder address, and no real payment should be made.' to src/wallet-core.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "bluewallet-m04-q09-o3": "The lesson traces 'Do not claim production readiness: The transaction is unsigned; fee size/rate assumptions are simplified, the change output currently uses an empty placeholder address, and no real payment should be made.' to src/wallet-core.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior.",
+        "bluewallet-m04-q09-o4": "The lesson traces 'Do not claim production readiness: The transaction is unsigned; fee size/rate assumptions are simplified, the change output currently uses an empty placeholder address, and no real payment should be made.' to src/wallet-core.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "UTXO selection, fee estimate, amount validation, and unsigned output construction",
+      "related_lesson_id": "bluewallet-04-utxo-selection-and-fees-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/wallet-core.ts"
+    },
+    {
+      "question_id": "bluewallet-m04-q10",
+      "correct_option_id": "bluewallet-m04-q10-o1",
+      "correct_explanation": "The lesson and source file `src/wallet-core.ts` identify this behavior as: A UTXO is an unspent piece of value. The planner selects enough pieces to cover amount plus estimated fee, then considers change and a dust threshold. Trace the UI request into buildUnsignedTransaction. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m04-q10-o3": "The lesson traces 'A UTXO is an unspent piece of value. The planner selects enough pieces to cover amount plus estimated fee, then considers change and a dust threshold. Trace the UI request into buildUnsignedTransaction.' to src/wallet-core.ts. This option instead claims 'Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary', which the cited source does not establish for this behavior.",
+        "bluewallet-m04-q10-o4": "The lesson traces 'A UTXO is an unspent piece of value. The planner selects enough pieces to cover amount plus estimated fee, then considers change and a dust threshold. Trace the UI request into buildUnsignedTransaction.' to src/wallet-core.ts. This option instead claims 'SHA-256 implementation and Electrum script hash preparation', which the cited source does not establish for this behavior.",
+        "bluewallet-m04-q10-o2": "The lesson traces 'A UTXO is an unspent piece of value. The planner selects enough pieces to cover amount plus estimated fee, then considers change and a dust threshold. Trace the UI request into buildUnsignedTransaction.' to src/wallet-core.ts. This option instead claims 'Transaction shape, satoshi formatting, seeded records, and tab shell', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "UTXO selection, fee estimate, amount validation, and unsigned output construction",
+      "related_lesson_id": "bluewallet-04-utxo-selection-and-fees-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/wallet-core.ts"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "module_id": "new-expensify-07-tests-security-and-mini-project",
+  "answers": [
+    {
+      "question_id": "new-expensify-m07-q01",
+      "correct_option_id": "new-expensify-m07-q01-o1",
+      "correct_explanation": "The lesson and source file `test/model.test.ts` identify this behavior as: Unit coverage, test command, PII sensitivity, and runtime evidence The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "new-expensify-m07-q01-o2": "The lesson traces 'Unit coverage, test command, PII sensitivity, and runtime evidence' to test/model.test.ts. This option instead claims 'Expense and Report types, seed records, and derived totals', which the cited source does not establish for this behavior.",
+        "new-expensify-m07-q01-o3": "The lesson traces 'Unit coverage, test command, PII sensitivity, and runtime evidence' to test/model.test.ts. This option instead claims 'Positive amount/title validation, category aggregation, and money formatting', which the cited source does not establish for this behavior.",
+        "new-expensify-m07-q01-o4": "The lesson traces 'Unit coverage, test command, PII sensitivity, and runtime evidence' to test/model.test.ts. This option instead claims 'Allowed status transitions, submission preconditions, and immutable updates', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Unit coverage, test command, PII sensitivity, and runtime evidence",
+      "related_lesson_id": "new-expensify-07-tests-security-and-mini-project-lesson-01",
+      "supporting_reference": "../../../../../projects/new-expensify/test/model.test.ts"
+    },
+    {
+      "question_id": "new-expensify-m07-q02",
+      "correct_option_id": "new-expensify-m07-q02-o1",
+      "correct_explanation": "The lesson and source file `test/model.test.ts` identify this behavior as: test/model.test.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "new-expensify-m07-q02-o3": "The lesson traces 'test/model.test.ts' to test/model.test.ts. This option instead claims 'README.md', which the cited source does not establish for this behavior.",
+        "new-expensify-m07-q02-o4": "The lesson traces 'test/model.test.ts' to test/model.test.ts. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior.",
+        "new-expensify-m07-q02-o2": "The lesson traces 'test/model.test.ts' to test/model.test.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Unit coverage, test command, PII sensitivity, and runtime evidence",
+      "related_lesson_id": "new-expensify-07-tests-security-and-mini-project-lesson-01",
+      "supporting_reference": "../../../../../projects/new-expensify/test/model.test.ts"
+    },
+    {
+      "question_id": "new-expensify-m07-q03",
+      "correct_option_id": "new-expensify-m07-q03-o1",
+      "correct_explanation": "The lesson and source file `test/model.test.ts` identify this behavior as: Do not store real employee expense data in this educational app. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "new-expensify-m07-q03-o4": "The lesson traces 'Do not store real employee expense data in this educational app.' to test/model.test.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "new-expensify-m07-q03-o2": "The lesson traces 'Do not store real employee expense data in this educational app.' to test/model.test.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "new-expensify-m07-q03-o3": "The lesson traces 'Do not store real employee expense data in this educational app.' to test/model.test.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Unit coverage, test command, PII sensitivity, and runtime evidence",
+      "related_lesson_id": "new-expensify-07-tests-security-and-mini-project-lesson-01",
+      "supporting_reference": "../../../../../projects/new-expensify/test/model.test.ts"
+    },
+    {
+      "question_id": "new-expensify-m07-q04",
+      "correct_option_id": "new-expensify-m07-q04-o1",
+      "correct_explanation": "The lesson and source file `test/model.test.ts` identify this behavior as: Pure model tests make business rules repeatable, but they do not establish secure storage or accounting correctness. Build a demo and identify where real financial and privacy review would be needed. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "new-expensify-m07-q04-o2": "The lesson traces 'Pure model tests make business rules repeatable, but they do not establish secure storage or accounting correctness. Build a demo and identify where real financial and privacy review would be needed.' to test/model.test.ts. This option instead claims 'Expense and Report types, seed records, and derived totals', which the cited source does not establish for this behavior.",
+        "new-expensify-m07-q04-o3": "The lesson traces 'Pure model tests make business rules repeatable, but they do not establish secure storage or accounting correctness. Build a demo and identify where real financial and privacy review would be needed.' to test/model.test.ts. This option instead claims 'Positive amount/title validation, category aggregation, and money formatting', which the cited source does not establish for this behavior.",
+        "new-expensify-m07-q04-o4": "The lesson traces 'Pure model tests make business rules repeatable, but they do not establish secure storage or accounting correctness. Build a demo and identify where real financial and privacy review would be needed.' to test/model.test.ts. This option instead claims 'Allowed status transitions, submission preconditions, and immutable updates', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Unit coverage, test command, PII sensitivity, and runtime evidence",
+      "related_lesson_id": "new-expensify-07-tests-security-and-mini-project-lesson-01",
+      "supporting_reference": "../../../../../projects/new-expensify/test/model.test.ts"
+    },
+    {
+      "question_id": "new-expensify-m07-q05",
+      "correct_option_id": "new-expensify-m07-q05-o1",
+      "correct_explanation": "The lesson and source file `test/model.test.ts` identify this behavior as: Unit coverage, test command, PII sensitivity, and runtime evidence The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "new-expensify-m07-q05-o2": "The lesson traces 'Unit coverage, test command, PII sensitivity, and runtime evidence' to test/model.test.ts. This option instead claims 'Expense and Report types, seed records, and derived totals', which the cited source does not establish for this behavior.",
+        "new-expensify-m07-q05-o3": "The lesson traces 'Unit coverage, test command, PII sensitivity, and runtime evidence' to test/model.test.ts. This option instead claims 'Positive amount/title validation, category aggregation, and money formatting', which the cited source does not establish for this behavior.",
+        "new-expensify-m07-q05-o4": "The lesson traces 'Unit coverage, test command, PII sensitivity, and runtime evidence' to test/model.test.ts. This option instead claims 'Allowed status transitions, submission preconditions, and immutable updates', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Unit coverage, test command, PII sensitivity, and runtime evidence",
+      "related_lesson_id": "new-expensify-07-tests-security-and-mini-project-lesson-01",
+      "supporting_reference": "../../../../../projects/new-expensify/test/model.test.ts"
+    },
+    {
+      "question_id": "new-expensify-m07-q06",
+      "correct_option_id": "new-expensify-m07-q06-o1",
+      "correct_explanation": "The lesson and source file `test/model.test.ts` identify this behavior as: Pure model tests make business rules repeatable, but they do not establish secure storage or accounting correctness. Build a demo and identify where real financial and privacy review would be needed. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "new-expensify-m07-q06-o3": "The lesson traces 'Pure model tests make business rules repeatable, but they do not establish secure storage or accounting correctness. Build a demo and identify where real financial and privacy review would be needed.' to test/model.test.ts. This option instead claims 'Positive amount/title validation, category aggregation, and money formatting', which the cited source does not establish for this behavior.",
+        "new-expensify-m07-q06-o4": "The lesson traces 'Pure model tests make business rules repeatable, but they do not establish secure storage or accounting correctness. Build a demo and identify where real financial and privacy review would be needed.' to test/model.test.ts. This option instead claims 'Allowed status transitions, submission preconditions, and immutable updates', which the cited source does not establish for this behavior.",
+        "new-expensify-m07-q06-o2": "The lesson traces 'Pure model tests make business rules repeatable, but they do not establish secure storage or accounting correctness. Build a demo and identify where real financial and privacy review would be needed.' to test/model.test.ts. This option instead claims 'Expense and Report types, seed records, and derived totals', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Unit coverage, test command, PII sensitivity, and runtime evidence",
+      "related_lesson_id": "new-expensify-07-tests-security-and-mini-project-lesson-01",
+      "supporting_reference": "../../../../../projects/new-expensify/test/model.test.ts"
+    },
+    {
+      "question_id": "new-expensify-m07-q07",
+      "correct_option_id": "new-expensify-m07-q07-o1",
+      "correct_explanation": "The lesson and source file `test/model.test.ts` identify this behavior as: Do not store real employee expense data in this educational app. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "new-expensify-m07-q07-o4": "The lesson traces 'Do not store real employee expense data in this educational app.' to test/model.test.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "new-expensify-m07-q07-o2": "The lesson traces 'Do not store real employee expense data in this educational app.' to test/model.test.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "new-expensify-m07-q07-o3": "The lesson traces 'Do not store real employee expense data in this educational app.' to test/model.test.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Unit coverage, test command, PII sensitivity, and runtime evidence",
+      "related_lesson_id": "new-expensify-07-tests-security-and-mini-project-lesson-01",
+      "supporting_reference": "../../../../../projects/new-expensify/test/model.test.ts"
+    },
+    {
+      "question_id": "new-expensify-m07-q08",
+      "correct_option_id": "new-expensify-m07-q08-o1",
+      "correct_explanation": "The lesson and source file `test/model.test.ts` identify this behavior as: test/model.test.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "new-expensify-m07-q08-o2": "The lesson traces 'test/model.test.ts' to test/model.test.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "new-expensify-m07-q08-o3": "The lesson traces 'test/model.test.ts' to test/model.test.ts. This option instead claims 'README.md', which the cited source does not establish for this behavior.",
+        "new-expensify-m07-q08-o4": "The lesson traces 'test/model.test.ts' to test/model.test.ts. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Unit coverage, test command, PII sensitivity, and runtime evidence",
+      "related_lesson_id": "new-expensify-07-tests-security-and-mini-project-lesson-01",
+      "supporting_reference": "../../../../../projects/new-expensify/test/model.test.ts"
+    },
+    {
+      "question_id": "new-expensify-m07-q09",
+      "correct_option_id": "new-expensify-m07-q09-o1",
+      "correct_explanation": "The lesson and source file `test/model.test.ts` identify this behavior as: Do not claim production readiness: Do not store real employee expense data in this educational app. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "new-expensify-m07-q09-o2": "The lesson traces 'Do not claim production readiness: Do not store real employee expense data in this educational app.' to test/model.test.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "new-expensify-m07-q09-o3": "The lesson traces 'Do not claim production readiness: Do not store real employee expense data in this educational app.' to test/model.test.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior.",
+        "new-expensify-m07-q09-o4": "The lesson traces 'Do not claim production readiness: Do not store real employee expense data in this educational app.' to test/model.test.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Unit coverage, test command, PII sensitivity, and runtime evidence",
+      "related_lesson_id": "new-expensify-07-tests-security-and-mini-project-lesson-01",
+      "supporting_reference": "../../../../../projects/new-expensify/test/model.test.ts"
+    },
+    {
+      "question_id": "new-expensify-m07-q10",
+      "correct_option_id": "new-expensify-m07-q10-o1",
+      "correct_explanation": "The lesson and source file `test/model.test.ts` identify this behavior as: Pure model tests make business rules repeatable, but they do not establish secure storage or accounting correctness. Build a demo and identify where real financial and privacy review would be needed. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "new-expensify-m07-q10-o3": "The lesson traces 'Pure model tests make business rules repeatable, but they do not establish secure storage or accounting correctness. Build a demo and identify where real financial and privacy review would be needed.' to test/model.test.ts. This option instead claims 'Positive amount/title validation, category aggregation, and money formatting', which the cited source does not establish for this behavior.",
+        "new-expensify-m07-q10-o4": "The lesson traces 'Pure model tests make business rules repeatable, but they do not establish secure storage or accounting correctness. Build a demo and identify where real financial and privacy review would be needed.' to test/model.test.ts. This option instead claims 'Allowed status transitions, submission preconditions, and immutable updates', which the cited source does not establish for this behavior.",
+        "new-expensify-m07-q10-o2": "The lesson traces 'Pure model tests make business rules repeatable, but they do not establish secure storage or accounting correctness. Build a demo and identify where real financial and privacy review would be needed.' to test/model.test.ts. This option instead claims 'Expense and Report types, seed records, and derived totals', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Unit coverage, test command, PII sensitivity, and runtime evidence",
+      "related_lesson_id": "new-expensify-07-tests-security-and-mini-project-lesson-01",
+      "supporting_reference": "../../../../../projects/new-expensify/test/model.test.ts"
+    }
+  ]
+}

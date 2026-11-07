@@ -1,0 +1,37 @@
+{
+  "exercise_id": "covid-alert-07-mini-project-integration-exercise-01",
+  "title": "Inspect and extend: Present a complete transparent health-demo journey",
+  "objective": "Use the real implementation in `src/exposure.ts` to demonstrate and safely improve screen-to-model integration, clear-state wording, limitations, and demo script.",
+  "problem": "Demonstrate status, simulated check, symptom score, and saved history as one journey. Each screen must explain whether a value is simulated and what it cannot tell the user. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `src/exposure.ts` and the related project files: App.tsx; src/screens/StatusScreen.tsx; src/screens/SymptomsScreen.tsx; src/exposure.ts.",
+    "Add or improve a focused behavior related to screen-to-model integration, clear-state wording, limitations, and demo script.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: Never encourage a learner to make health decisions from the demo output.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "Demonstrate status, simulated check, symptom score, and saved history as one journey. Each screen must explain whether a value is simulated and what it cannot tell the user.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `src/exposure.ts`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `checkStatusLabel` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

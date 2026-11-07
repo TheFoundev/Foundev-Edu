@@ -1,0 +1,38 @@
+{
+  "module_id": "movieswiftui-01-movie-model-and-catalogue",
+  "title": "A movie record and a useful catalogue",
+  "description": "A catalogue row stores facts that screens need. Read the Movie model and seed entries, then see how a compact detail projection is derived.",
+  "learning_objectives": [
+    "Explain movie fields, identity, movieinfo projection, and seed records in plain language.",
+    "Trace struct Movie in `Sources/Models.swift` and explain the relevant behavior.",
+    "State and preserve this limit: The displayed catalogue is seeded sample data; live movie-service access is not configured."
+  ],
+  "learning_objective_ids": [
+    "movieswiftui-01-movie-model-and-catalogue-objective-01",
+    "movieswiftui-01-movie-model-and-catalogue-objective-02",
+    "movieswiftui-01-movie-model-and-catalogue-objective-03"
+  ],
+  "source_files": [
+    "Sources/Models.swift",
+    "Sources/Core.swift"
+  ],
+  "prerequisites": [],
+  "ordered_lesson_ids": [
+    "movieswiftui-01-movie-model-and-catalogue-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Movie fields, identity, MovieInfo projection, and seed records",
+    "A catalogue row stores facts that screens need. Read the Movie model and seed entries, then see how a compact detail projection is derived.",
+    "The displayed catalogue is seeded sample data; live movie-service access is not configured."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Sources/Models.swift` around `struct Movie`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Sources/Models.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "module_id": "bluewallet-02-address-validation",
+  "questions": [
+    {
+      "question_id": "bluewallet-m02-q01",
+      "text": "What is the main implementation topic of this lesson?",
+      "options": [
+        {
+          "option_id": "bluewallet-m02-q01-o2",
+          "text": "Transaction shape, satoshi formatting, seeded records, and tab shell"
+        },
+        {
+          "option_id": "bluewallet-m02-q01-o3",
+          "text": "SHA-256 implementation and Electrum script hash preparation"
+        },
+        {
+          "option_id": "bluewallet-m02-q01-o4",
+          "text": "UTXO selection, fee estimate, amount validation, and unsigned output construction"
+        },
+        {
+          "option_id": "bluewallet-m02-q01-o1",
+          "text": "Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary"
+        }
+      ],
+      "difficulty": "basic",
+      "learning_objective_id": "bluewallet-02-address-validation-objective-01",
+      "lesson_id": "bluewallet-02-address-validation-lesson-01"
+    },
+    {
+      "question_id": "bluewallet-m02-q02",
+      "text": "Which source path contains `export function isValidAddress` and the example implementation discussed here?",
+      "options": [
+        {
+          "option_id": "bluewallet-m02-q02-o3",
+          "text": "package.json"
+        },
+        {
+          "option_id": "bluewallet-m02-q02-o4",
+          "text": "An unrelated feature from another application layer (3)."
+        },
+        {
+          "option_id": "bluewallet-m02-q02-o1",
+          "text": "src/address.ts"
+        },
+        {
+          "option_id": "bluewallet-m02-q02-o2",
+          "text": "src/screens/SendScreen.tsx"
+        }
+      ],
+      "difficulty": "basic",
+      "learning_objective_id": "bluewallet-02-address-validation-objective-01",
+      "lesson_id": "bluewallet-02-address-validation-lesson-01"
+    },
+    {
+      "question_id": "bluewallet-m02-q03",
+      "text": "Which statement accurately describes a boundary learners must preserve?",
+      "options": [
+        {
+          "option_id": "bluewallet-m02-q03-o4",
+          "text": "It is safe to add production secrets directly to the mobile bundle."
+        },
+        {
+          "option_id": "bluewallet-m02-q03-o1",
+          "text": "Validation is not ownership proof: the Base58 path checks only prefix and length rather than checksum, and the implementation is not a substitute for audited wallet software."
+        },
+        {
+          "option_id": "bluewallet-m02-q03-o2",
+          "text": "It includes the full upstream product and all production integrations."
+        },
+        {
+          "option_id": "bluewallet-m02-q03-o3",
+          "text": "The local tests prove the external provider and deployment work end to end."
+        }
+      ],
+      "difficulty": "basic",
+      "learning_objective_id": "bluewallet-02-address-validation-objective-01",
+      "lesson_id": "bluewallet-02-address-validation-lesson-01"
+    },
+    {
+      "question_id": "bluewallet-m02-q04",
+      "text": "When you follow the source from its user-visible entry point, what behavior should you trace in `src/address.ts`?",
+      "options": [
+        {
+          "option_id": "bluewallet-m02-q04-o1",
+          "text": "An address is like a destination label with a built-in error check. Follow Bech32 decoding from characters to checksum and witness data, compare the simpler Base58 prefix/length screen, and see how the send screen rejects input before requesting a transaction plan."
+        },
+        {
+          "option_id": "bluewallet-m02-q04-o2",
+          "text": "Transaction shape, satoshi formatting, seeded records, and tab shell"
+        },
+        {
+          "option_id": "bluewallet-m02-q04-o3",
+          "text": "SHA-256 implementation and Electrum script hash preparation"
+        },
+        {
+          "option_id": "bluewallet-m02-q04-o4",
+          "text": "UTXO selection, fee estimate, amount validation, and unsigned output construction"
+        }
+      ],
+      "difficulty": "intermediate",
+      "learning_objective_id": "bluewallet-02-address-validation-objective-01",
+      "lesson_id": "bluewallet-02-address-validation-lesson-01"
+    },
+    {
+      "question_id": "bluewallet-m02-q05",
+      "text": "A code review finds a change to `export function isValidAddress`. Which responsibility should the reviewer check?",
+      "options": [
+        {
+          "option_id": "bluewallet-m02-q05-o2",
+          "text": "Transaction shape, satoshi formatting, seeded records, and tab shell"
+        },
+        {
+          "option_id": "bluewallet-m02-q05-o3",
+          "text": "SHA-256 implementation and Electrum script hash preparation"
+        },
+        {
+          "option_id": "bluewallet-m02-q05-o4",
+          "text": "UTXO selection, fee estimate, amount validation, and unsigned output construction"
+        },
+        {
+          "option_id": "bluewallet-m02-q05-o1",
+          "text": "Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary"
+        }
+      ],
+      "difficulty": "intermediate",
+      "learning_objective_id": "bluewallet-02-address-validation-objective-01",
+      "lesson_id": "bluewallet-02-address-validation-lesson-01"
+    },
+    {
+      "question_id": "bluewallet-m02-q06",
+      "text": "Which implementation statement is consistent with the source focus `An address is like a destination label with a built-in error check. Follow Bech32 decoding from characters to checksum and witness data, compare the simpler Base58 prefix/length screen, and see how the send screen rejects input before requesting a transaction plan.`?",
+      "options": [
+        {
+          "option_id": "bluewallet-m02-q06-o3",
+          "text": "SHA-256 implementation and Electrum script hash preparation"
+        },
+        {
+          "option_id": "bluewallet-m02-q06-o4",
+          "text": "UTXO selection, fee estimate, amount validation, and unsigned output construction"
+        },
+        {
+          "option_id": "bluewallet-m02-q06-o1",
+          "text": "An address is like a destination label with a built-in error check. Follow Bech32 decoding from characters to checksum and witness data, compare the simpler Base58 prefix/length screen, and see how the send screen rejects input before requesting a transaction plan."
+        },
+        {
+          "option_id": "bluewallet-m02-q06-o2",
+          "text": "Transaction shape, satoshi formatting, seeded records, and tab shell"
+        }
+      ],
+      "difficulty": "intermediate",
+      "learning_objective_id": "bluewallet-02-address-validation-objective-01",
+      "lesson_id": "bluewallet-02-address-validation-lesson-01"
+    },
+    {
+      "question_id": "bluewallet-m02-q07",
+      "text": "The feature behaves as though an absent integration exists. Which documented limit explains the mismatch?",
+      "options": [
+        {
+          "option_id": "bluewallet-m02-q07-o4",
+          "text": "It is safe to add production secrets directly to the mobile bundle."
+        },
+        {
+          "option_id": "bluewallet-m02-q07-o1",
+          "text": "Validation is not ownership proof: the Base58 path checks only prefix and length rather than checksum, and the implementation is not a substitute for audited wallet software."
+        },
+        {
+          "option_id": "bluewallet-m02-q07-o2",
+          "text": "It includes the full upstream product and all production integrations."
+        },
+        {
+          "option_id": "bluewallet-m02-q07-o3",
+          "text": "The local tests prove the external provider and deployment work end to end."
+        }
+      ],
+      "difficulty": "intermediate",
+      "learning_objective_id": "bluewallet-02-address-validation-objective-01",
+      "lesson_id": "bluewallet-02-address-validation-lesson-01"
+    },
+    {
+      "question_id": "bluewallet-m02-q08",
+      "text": "A learner is asked to make a bounded change to this behavior. Which source location is the best starting point?",
+      "options": [
+        {
+          "option_id": "bluewallet-m02-q08-o1",
+          "text": "src/address.ts"
+        },
+        {
+          "option_id": "bluewallet-m02-q08-o2",
+          "text": "src/screens/SendScreen.tsx"
+        },
+        {
+          "option_id": "bluewallet-m02-q08-o3",
+          "text": "package.json"
+        },
+        {
+          "option_id": "bluewallet-m02-q08-o4",
+          "text": "An unrelated feature from another application layer (3)."
+        }
+      ],
+      "difficulty": "intermediate",
+      "learning_objective_id": "bluewallet-02-address-validation-objective-01",
+      "lesson_id": "bluewallet-02-address-validation-lesson-01"
+    },
+    {
+      "question_id": "bluewallet-m02-q09",
+      "text": "A teammate wants to advertise production readiness. Which source-grounded action should the reviewer require?",
+      "options": [
+        {
+          "option_id": "bluewallet-m02-q09-o2",
+          "text": "It includes the full upstream product and all production integrations."
+        },
+        {
+          "option_id": "bluewallet-m02-q09-o3",
+          "text": "The local tests prove the external provider and deployment work end to end."
+        },
+        {
+          "option_id": "bluewallet-m02-q09-o4",
+          "text": "It is safe to add production secrets directly to the mobile bundle."
+        },
+        {
+          "option_id": "bluewallet-m02-q09-o1",
+          "text": "Do not claim production readiness: Validation is not ownership proof: the Base58 path checks only prefix and length rather than checksum, and the implementation is not a substitute for audited wallet software."
+        }
+      ],
+      "difficulty": "advanced",
+      "learning_objective_id": "bluewallet-02-address-validation-objective-01",
+      "lesson_id": "bluewallet-02-address-validation-lesson-01"
+    },
+    {
+      "question_id": "bluewallet-m02-q10",
+      "text": "A demo passes its isolated check, but a reviewer asks what the source actually implements. Which statement is supported?",
+      "options": [
+        {
+          "option_id": "bluewallet-m02-q10-o3",
+          "text": "SHA-256 implementation and Electrum script hash preparation"
+        },
+        {
+          "option_id": "bluewallet-m02-q10-o4",
+          "text": "UTXO selection, fee estimate, amount validation, and unsigned output construction"
+        },
+        {
+          "option_id": "bluewallet-m02-q10-o1",
+          "text": "An address is like a destination label with a built-in error check. Follow Bech32 decoding from characters to checksum and witness data, compare the simpler Base58 prefix/length screen, and see how the send screen rejects input before requesting a transaction plan."
+        },
+        {
+          "option_id": "bluewallet-m02-q10-o2",
+          "text": "Transaction shape, satoshi formatting, seeded records, and tab shell"
+        }
+      ],
+      "difficulty": "advanced",
+      "learning_objective_id": "bluewallet-02-address-validation-objective-01",
+      "lesson_id": "bluewallet-02-address-validation-lesson-01"
+    }
+  ]
+}

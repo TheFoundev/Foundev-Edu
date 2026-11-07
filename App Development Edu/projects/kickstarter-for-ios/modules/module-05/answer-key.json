@@ -1,0 +1,135 @@
+{
+  "module_id": "kickstarter-for-ios-05-swiftui-navigation-and-shared-store",
+  "answers": [
+    {
+      "question_id": "kickstarter-for-ios-m05-q01",
+      "correct_option_id": "kickstarter-for-ios-m05-q01-o1",
+      "correct_explanation": "The lesson and source file `Sources/ContentView.swift` identify this behavior as: Environment object injection, NavigationStack, and view actions The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "kickstarter-for-ios-m05-q01-o2": "The lesson traces 'Environment object injection, NavigationStack, and view actions' to Sources/ContentView.swift. This option instead claims 'Project fields, computed progress, identity, and sample catalogue', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m05-q01-o3": "The lesson traces 'Environment object injection, NavigationStack, and view actions' to Sources/ContentView.swift. This option instead claims 'Category data, search matching, sort ordering, and discovery rendering', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m05-q01-o4": "The lesson traces 'Environment object injection, NavigationStack, and view actions' to Sources/ContentView.swift. This option instead claims 'Pledge validation, status changes, detail state, and progress display', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Environment object injection, NavigationStack, and view actions",
+      "related_lesson_id": "kickstarter-for-ios-05-swiftui-navigation-and-shared-store-lesson-01",
+      "supporting_reference": "../../../../../projects/kickstarter-for-ios/Sources/ContentView.swift"
+    },
+    {
+      "question_id": "kickstarter-for-ios-m05-q02",
+      "correct_option_id": "kickstarter-for-ios-m05-q02-o1",
+      "correct_explanation": "The lesson and source file `Sources/ContentView.swift` identify this behavior as: Sources/ContentView.swift The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "kickstarter-for-ios-m05-q02-o3": "The lesson traces 'Sources/ContentView.swift' to Sources/ContentView.swift. This option instead claims 'Sources/Screens/DiscoverView.swift', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m05-q02-o4": "The lesson traces 'Sources/ContentView.swift' to Sources/ContentView.swift. This option instead claims 'Sources/Screens/SavedView.swift', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m05-q02-o2": "The lesson traces 'Sources/ContentView.swift' to Sources/ContentView.swift. This option instead claims 'Sources/Components.swift', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Environment object injection, NavigationStack, and view actions",
+      "related_lesson_id": "kickstarter-for-ios-05-swiftui-navigation-and-shared-store-lesson-01",
+      "supporting_reference": "../../../../../projects/kickstarter-for-ios/Sources/ContentView.swift"
+    },
+    {
+      "question_id": "kickstarter-for-ios-m05-q03",
+      "correct_option_id": "kickstarter-for-ios-m05-q03-o1",
+      "correct_explanation": "The lesson and source file `Sources/ContentView.swift` identify this behavior as: The source is a compact educational client, not production Kickstarter UI. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "kickstarter-for-ios-m05-q03-o4": "The lesson traces 'The source is a compact educational client, not production Kickstarter UI.' to Sources/ContentView.swift. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m05-q03-o2": "The lesson traces 'The source is a compact educational client, not production Kickstarter UI.' to Sources/ContentView.swift. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m05-q03-o3": "The lesson traces 'The source is a compact educational client, not production Kickstarter UI.' to Sources/ContentView.swift. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Environment object injection, NavigationStack, and view actions",
+      "related_lesson_id": "kickstarter-for-ios-05-swiftui-navigation-and-shared-store-lesson-01",
+      "supporting_reference": "../../../../../projects/kickstarter-for-ios/Sources/ContentView.swift"
+    },
+    {
+      "question_id": "kickstarter-for-ios-m05-q04",
+      "correct_option_id": "kickstarter-for-ios-m05-q04-o1",
+      "correct_explanation": "The lesson and source file `Sources/ContentView.swift` identify this behavior as: SwiftUI views describe the screens from current model state. Follow the shared store from the app root into lists, reusable cards, profile, and detail actions, then see state changes refresh the UI. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "kickstarter-for-ios-m05-q04-o2": "The lesson traces 'SwiftUI views describe the screens from current model state. Follow the shared store from the app root into lists, reusable cards, profile, and detail actions, then see state changes refresh the UI.' to Sources/ContentView.swift. This option instead claims 'Project fields, computed progress, identity, and sample catalogue', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m05-q04-o3": "The lesson traces 'SwiftUI views describe the screens from current model state. Follow the shared store from the app root into lists, reusable cards, profile, and detail actions, then see state changes refresh the UI.' to Sources/ContentView.swift. This option instead claims 'Category data, search matching, sort ordering, and discovery rendering', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m05-q04-o4": "The lesson traces 'SwiftUI views describe the screens from current model state. Follow the shared store from the app root into lists, reusable cards, profile, and detail actions, then see state changes refresh the UI.' to Sources/ContentView.swift. This option instead claims 'Pledge validation, status changes, detail state, and progress display', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Environment object injection, NavigationStack, and view actions",
+      "related_lesson_id": "kickstarter-for-ios-05-swiftui-navigation-and-shared-store-lesson-01",
+      "supporting_reference": "../../../../../projects/kickstarter-for-ios/Sources/ContentView.swift"
+    },
+    {
+      "question_id": "kickstarter-for-ios-m05-q05",
+      "correct_option_id": "kickstarter-for-ios-m05-q05-o1",
+      "correct_explanation": "The lesson and source file `Sources/ContentView.swift` identify this behavior as: Environment object injection, NavigationStack, and view actions The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "kickstarter-for-ios-m05-q05-o2": "The lesson traces 'Environment object injection, NavigationStack, and view actions' to Sources/ContentView.swift. This option instead claims 'Project fields, computed progress, identity, and sample catalogue', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m05-q05-o3": "The lesson traces 'Environment object injection, NavigationStack, and view actions' to Sources/ContentView.swift. This option instead claims 'Category data, search matching, sort ordering, and discovery rendering', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m05-q05-o4": "The lesson traces 'Environment object injection, NavigationStack, and view actions' to Sources/ContentView.swift. This option instead claims 'Pledge validation, status changes, detail state, and progress display', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Environment object injection, NavigationStack, and view actions",
+      "related_lesson_id": "kickstarter-for-ios-05-swiftui-navigation-and-shared-store-lesson-01",
+      "supporting_reference": "../../../../../projects/kickstarter-for-ios/Sources/ContentView.swift"
+    },
+    {
+      "question_id": "kickstarter-for-ios-m05-q06",
+      "correct_option_id": "kickstarter-for-ios-m05-q06-o1",
+      "correct_explanation": "The lesson and source file `Sources/ContentView.swift` identify this behavior as: SwiftUI views describe the screens from current model state. Follow the shared store from the app root into lists, reusable cards, profile, and detail actions, then see state changes refresh the UI. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "kickstarter-for-ios-m05-q06-o3": "The lesson traces 'SwiftUI views describe the screens from current model state. Follow the shared store from the app root into lists, reusable cards, profile, and detail actions, then see state changes refresh the UI.' to Sources/ContentView.swift. This option instead claims 'Category data, search matching, sort ordering, and discovery rendering', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m05-q06-o4": "The lesson traces 'SwiftUI views describe the screens from current model state. Follow the shared store from the app root into lists, reusable cards, profile, and detail actions, then see state changes refresh the UI.' to Sources/ContentView.swift. This option instead claims 'Pledge validation, status changes, detail state, and progress display', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m05-q06-o2": "The lesson traces 'SwiftUI views describe the screens from current model state. Follow the shared store from the app root into lists, reusable cards, profile, and detail actions, then see state changes refresh the UI.' to Sources/ContentView.swift. This option instead claims 'Project fields, computed progress, identity, and sample catalogue', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Environment object injection, NavigationStack, and view actions",
+      "related_lesson_id": "kickstarter-for-ios-05-swiftui-navigation-and-shared-store-lesson-01",
+      "supporting_reference": "../../../../../projects/kickstarter-for-ios/Sources/ContentView.swift"
+    },
+    {
+      "question_id": "kickstarter-for-ios-m05-q07",
+      "correct_option_id": "kickstarter-for-ios-m05-q07-o1",
+      "correct_explanation": "The lesson and source file `Sources/ContentView.swift` identify this behavior as: The source is a compact educational client, not production Kickstarter UI. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "kickstarter-for-ios-m05-q07-o4": "The lesson traces 'The source is a compact educational client, not production Kickstarter UI.' to Sources/ContentView.swift. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m05-q07-o2": "The lesson traces 'The source is a compact educational client, not production Kickstarter UI.' to Sources/ContentView.swift. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m05-q07-o3": "The lesson traces 'The source is a compact educational client, not production Kickstarter UI.' to Sources/ContentView.swift. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Environment object injection, NavigationStack, and view actions",
+      "related_lesson_id": "kickstarter-for-ios-05-swiftui-navigation-and-shared-store-lesson-01",
+      "supporting_reference": "../../../../../projects/kickstarter-for-ios/Sources/ContentView.swift"
+    },
+    {
+      "question_id": "kickstarter-for-ios-m05-q08",
+      "correct_option_id": "kickstarter-for-ios-m05-q08-o1",
+      "correct_explanation": "The lesson and source file `Sources/ContentView.swift` identify this behavior as: Sources/ContentView.swift The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "kickstarter-for-ios-m05-q08-o2": "The lesson traces 'Sources/ContentView.swift' to Sources/ContentView.swift. This option instead claims 'Sources/Components.swift', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m05-q08-o3": "The lesson traces 'Sources/ContentView.swift' to Sources/ContentView.swift. This option instead claims 'Sources/Screens/DiscoverView.swift', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m05-q08-o4": "The lesson traces 'Sources/ContentView.swift' to Sources/ContentView.swift. This option instead claims 'Sources/Screens/SavedView.swift', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Environment object injection, NavigationStack, and view actions",
+      "related_lesson_id": "kickstarter-for-ios-05-swiftui-navigation-and-shared-store-lesson-01",
+      "supporting_reference": "../../../../../projects/kickstarter-for-ios/Sources/ContentView.swift"
+    },
+    {
+      "question_id": "kickstarter-for-ios-m05-q09",
+      "correct_option_id": "kickstarter-for-ios-m05-q09-o1",
+      "correct_explanation": "The lesson and source file `Sources/ContentView.swift` identify this behavior as: Do not claim production readiness: The source is a compact educational client, not production Kickstarter UI. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "kickstarter-for-ios-m05-q09-o2": "The lesson traces 'Do not claim production readiness: The source is a compact educational client, not production Kickstarter UI.' to Sources/ContentView.swift. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m05-q09-o3": "The lesson traces 'Do not claim production readiness: The source is a compact educational client, not production Kickstarter UI.' to Sources/ContentView.swift. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m05-q09-o4": "The lesson traces 'Do not claim production readiness: The source is a compact educational client, not production Kickstarter UI.' to Sources/ContentView.swift. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Environment object injection, NavigationStack, and view actions",
+      "related_lesson_id": "kickstarter-for-ios-05-swiftui-navigation-and-shared-store-lesson-01",
+      "supporting_reference": "../../../../../projects/kickstarter-for-ios/Sources/ContentView.swift"
+    },
+    {
+      "question_id": "kickstarter-for-ios-m05-q10",
+      "correct_option_id": "kickstarter-for-ios-m05-q10-o1",
+      "correct_explanation": "The lesson and source file `Sources/ContentView.swift` identify this behavior as: SwiftUI views describe the screens from current model state. Follow the shared store from the app root into lists, reusable cards, profile, and detail actions, then see state changes refresh the UI. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "kickstarter-for-ios-m05-q10-o3": "The lesson traces 'SwiftUI views describe the screens from current model state. Follow the shared store from the app root into lists, reusable cards, profile, and detail actions, then see state changes refresh the UI.' to Sources/ContentView.swift. This option instead claims 'Category data, search matching, sort ordering, and discovery rendering', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m05-q10-o4": "The lesson traces 'SwiftUI views describe the screens from current model state. Follow the shared store from the app root into lists, reusable cards, profile, and detail actions, then see state changes refresh the UI.' to Sources/ContentView.swift. This option instead claims 'Pledge validation, status changes, detail state, and progress display', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m05-q10-o2": "The lesson traces 'SwiftUI views describe the screens from current model state. Follow the shared store from the app root into lists, reusable cards, profile, and detail actions, then see state changes refresh the UI.' to Sources/ContentView.swift. This option instead claims 'Project fields, computed progress, identity, and sample catalogue', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Environment object injection, NavigationStack, and view actions",
+      "related_lesson_id": "kickstarter-for-ios-05-swiftui-navigation-and-shared-store-lesson-01",
+      "supporting_reference": "../../../../../projects/kickstarter-for-ios/Sources/ContentView.swift"
+    }
+  ]
+}

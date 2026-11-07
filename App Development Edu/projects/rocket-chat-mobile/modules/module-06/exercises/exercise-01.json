@@ -1,0 +1,37 @@
+{
+  "exercise_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-exercise-01",
+  "title": "Inspect and extend: Connect channels, messages, and profile UI",
+  "objective": "Use the real implementation in `src/screens/ChatScreen.tsx` to demonstrate and safely improve tab shell, selected channel, offline banner, reconnect control, shared components, and status rendering.",
+  "problem": "A user journey crosses several screens and one shared provider. Follow a selected channel into message filtering and check how offline errors appear to the learner. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `src/screens/ChatScreen.tsx` and the related project files: App.tsx; src/screens/ChatScreen.tsx; src/screens/ChannelsScreen.tsx; src/screens/ProfileScreen.tsx; src/components.tsx; src/theme.ts.",
+    "Add or improve a focused behavior related to tab shell, selected channel, offline banner, reconnect control, shared components, and status rendering.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: The app has no login, push notification integration, or upstream client parity.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "A user journey crosses several screens and one shared provider. Follow a selected channel into message filtering and check how offline errors appear to the learner.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `src/screens/ChatScreen.tsx`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `export default function ChatScreen` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

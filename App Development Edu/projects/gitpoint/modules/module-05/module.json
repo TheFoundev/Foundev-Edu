@@ -1,0 +1,45 @@
+{
+  "module_id": "gitpoint-05-ui-state-and-navigation",
+  "title": "Connect the app shell to repository and issue screens",
+  "description": "The shell selects a screen while context provides shared API and cache state. Follow a tap from navigation through state into the rendered list and profile.",
+  "learning_objectives": [
+    "Explain context lifecycle, tabs, profile/repository/issue states, and reusable controls in plain language.",
+    "Trace export function GitHubProvider in `src/githubContext.tsx` and explain the relevant behavior.",
+    "State and preserve this limit: The UI does not reproduce every capability or policy of the upstream GitPoint app."
+  ],
+  "learning_objective_ids": [
+    "gitpoint-05-ui-state-and-navigation-objective-01",
+    "gitpoint-05-ui-state-and-navigation-objective-02",
+    "gitpoint-05-ui-state-and-navigation-objective-03"
+  ],
+  "source_files": [
+    "App.tsx",
+    "src/githubContext.tsx",
+    "src/screens/ReposScreen.tsx",
+    "src/screens/IssuesScreen.tsx",
+    "src/screens/ProfileScreen.tsx",
+    "src/components.tsx",
+    "src/theme.ts"
+  ],
+  "prerequisites": [
+    "gitpoint-04-cache-and-offline-behavior"
+  ],
+  "ordered_lesson_ids": [
+    "gitpoint-05-ui-state-and-navigation-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Context lifecycle, tabs, profile/repository/issue states, and reusable controls",
+    "The shell selects a screen while context provides shared API and cache state. Follow a tap from navigation through state into the rendered list and profile.",
+    "The UI does not reproduce every capability or policy of the upstream GitPoint app."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/githubContext.tsx` around `export function GitHubProvider`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/githubContext.tsx.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

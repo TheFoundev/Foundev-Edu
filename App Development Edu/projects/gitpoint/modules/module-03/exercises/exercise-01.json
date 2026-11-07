@@ -1,0 +1,37 @@
+{
+  "exercise_id": "gitpoint-03-search-sort-and-filter-exercise-01",
+  "title": "Inspect and extend: Turn a list into useful repository and issue views",
+  "objective": "Use the real implementation in `src/github.ts` to demonstrate and safely improve search fields, date ordering, state filters, and list rendering.",
+  "problem": "Filtering is like applying a sieve to a list. Trace text matching and state filtering into the screens, then verify which fields participate and how empty results are shown. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `src/github.ts` and the related project files: src/github.ts; src/screens/ReposScreen.tsx; src/screens/IssuesScreen.tsx.",
+    "Add or improve a focused behavior related to search fields, date ordering, state filters, and list rendering.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: Filtering the current dataset is not the same as server-side search across all GitHub.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "Filtering is like applying a sieve to a list. Trace text matching and state filtering into the screens, then verify which fields participate and how empty results are shown.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `src/github.ts`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `export function searchRepos` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

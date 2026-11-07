@@ -1,0 +1,135 @@
+{
+  "project_slug": "gitpoint",
+  "references": [
+    {
+      "id": "react-native",
+      "title": "React Native",
+      "url": "https://reactnative.dev/docs/getting-started",
+      "kind": "official documentation"
+    },
+    {
+      "id": "expo",
+      "title": "Expo",
+      "url": "https://docs.expo.dev/",
+      "kind": "official documentation"
+    },
+    {
+      "id": "async-storage",
+      "title": "Async Storage",
+      "url": "https://docs.expo.dev/versions/latest/sdk/async-storage/",
+      "kind": "official documentation"
+    },
+    {
+      "id": "github-rest",
+      "title": "Github Rest",
+      "url": "https://docs.github.com/en/rest",
+      "kind": "specification or source repository"
+    },
+    {
+      "id": "github-issues",
+      "title": "Github Issues",
+      "url": "https://docs.github.com/en/rest/issues/issues",
+      "kind": "specification or source repository"
+    },
+    {
+      "id": "github-repos",
+      "title": "Github Repos",
+      "url": "https://docs.github.com/en/rest/repos",
+      "kind": "specification or source repository"
+    },
+    {
+      "id": "node-test",
+      "title": "Node Test",
+      "url": "https://nodejs.org/api/test.html",
+      "kind": "official documentation"
+    },
+    {
+      "id": "owasp-mobile",
+      "title": "Owasp Mobile",
+      "url": "https://mas.owasp.org/MASVS/",
+      "kind": "official documentation"
+    }
+  ],
+  "source_references": [
+    {
+      "path": "src/github.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/data.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/github.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "test/github.test.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/github.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/ReposScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/IssuesScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/store.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/githubContext.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "test/github.test.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "App.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/githubContext.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/ReposScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/IssuesScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/ProfileScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/components.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/theme.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "test/github.test.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "package.json",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "README.md",
+      "purpose": "Implementation of record for the corresponding module"
+    }
+  ]
+}

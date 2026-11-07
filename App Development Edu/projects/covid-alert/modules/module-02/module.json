@@ -1,0 +1,40 @@
+{
+  "module_id": "covid-alert-02-simulated-check-service",
+  "title": "A service-shaped simulation",
+  "description": "A service interface is a plug shape. The current plug is a simulator that returns configured outcomes. Trace its implementation to checkStatusLabel and the status UI so a clear result cannot be mistaken for a real scan.",
+  "learning_objectives": [
+    "Explain exposureservice interface, simulated implementation, and simulation labelling in plain language.",
+    "Trace export class SimulatedExposureService in `src/exposure.ts` and explain the relevant behavior.",
+    "State and preserve this limit: No Bluetooth, Apple/Google exposure notification, diagnosis, or contact-tracing integration exists."
+  ],
+  "learning_objective_ids": [
+    "covid-alert-02-simulated-check-service-objective-01",
+    "covid-alert-02-simulated-check-service-objective-02",
+    "covid-alert-02-simulated-check-service-objective-03"
+  ],
+  "source_files": [
+    "src/exposure.ts",
+    "src/screens/StatusScreen.tsx"
+  ],
+  "prerequisites": [
+    "covid-alert-01-domain-model-and-fixtures"
+  ],
+  "ordered_lesson_ids": [
+    "covid-alert-02-simulated-check-service-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "ExposureService interface, simulated implementation, and simulation labelling",
+    "A service interface is a plug shape. The current plug is a simulator that returns configured outcomes. Trace its implementation to checkStatusLabel and the status UI so a clear result cannot be mistaken for a real scan.",
+    "No Bluetooth, Apple/Google exposure notification, diagnosis, or contact-tracing integration exists."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/exposure.ts` around `export class SimulatedExposureService`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/exposure.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

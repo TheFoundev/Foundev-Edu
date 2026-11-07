@@ -1,0 +1,41 @@
+{
+  "module_id": "kickstarter-for-ios-02-discovery-search-and-categories",
+  "title": "Find projects in a local catalogue",
+  "description": "Search and category controls narrow the sample catalogue. Follow the selected filter into the store/core and verify how the view receives the filtered projects.",
+  "learning_objectives": [
+    "Explain category data, search matching, sort ordering, and discovery rendering in plain language.",
+    "Trace func search in `Sources/Core.swift` and explain the relevant behavior.",
+    "State and preserve this limit: Search is local and only covers the included sample records."
+  ],
+  "learning_objective_ids": [
+    "kickstarter-for-ios-02-discovery-search-and-categories-objective-01",
+    "kickstarter-for-ios-02-discovery-search-and-categories-objective-02",
+    "kickstarter-for-ios-02-discovery-search-and-categories-objective-03"
+  ],
+  "source_files": [
+    "Sources/Core.swift",
+    "Sources/Screens/DiscoverView.swift",
+    "Tests/ProjectCoreTests.swift"
+  ],
+  "prerequisites": [
+    "kickstarter-for-ios-01-project-records-and-sample-catalogue"
+  ],
+  "ordered_lesson_ids": [
+    "kickstarter-for-ios-02-discovery-search-and-categories-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Category data, search matching, sort ordering, and discovery rendering",
+    "Search and category controls narrow the sample catalogue. Follow the selected filter into the store/core and verify how the view receives the filtered projects.",
+    "Search is local and only covers the included sample records."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Sources/Core.swift` around `func search`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Sources/Core.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

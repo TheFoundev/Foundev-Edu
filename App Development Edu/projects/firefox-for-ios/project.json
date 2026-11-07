@@ -1,0 +1,31 @@
+{
+  "title": "Firefox for iOS",
+  "slug": "firefox-for-ios",
+  "description": "Build a SwiftUI/WebKit browser-shell mini app with URL/search handling, tab state, protection settings, and rule-based tracking controls.",
+  "problem": "Learners need a source-grounded way to understand and extend Firefox for iOS while separating implemented behavior from demo data, simulations, and missing integrations.",
+  "audience": "Third-year undergraduate students who have completed introductory programming and want a practical mobile mini-project.",
+  "stack": [
+    "Swift",
+    "SwiftUI",
+    "WebKit",
+    "XCTest",
+    "XcodeGen"
+  ],
+  "difficulty": "upper-intermediate",
+  "prerequisites": [
+    "Basic programming and source-code reading",
+    "Git basics and ability to run the platform tooling described in the source README"
+  ],
+  "learning_outcomes": [
+    "Explain and trace tab, protection-level, and tracker data types in its named source files.",
+    "Explain and trace url recognition, scheme normalization, and search fallback in its named source files.",
+    "Explain and trace representable wrapper, load calls, and browser controls in its named source files.",
+    "Explain and trace protection modes, rule selection, rule compilation, and observed count in its named source files.",
+    "Explain and trace observable store lifecycle, tab navigation, and settings binding in its named source files.",
+    "Explain and trace xctest assertions, target configuration, and what a test does not establish in its named source files.",
+    "Distinguish unit-test evidence from device, service, and deployment evidence.",
+    "Propose a safe, bounded extension without describing it as already implemented."
+  ],
+  "estimated_duration_hours": 12,
+  "content_schema_version": "1.0.0"
+}

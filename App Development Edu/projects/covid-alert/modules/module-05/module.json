@@ -1,0 +1,45 @@
+{
+  "module_id": "covid-alert-05-state-storage-and-ui",
+  "title": "Local persistence and the screen flow",
+  "description": "The provider is a shared notebook service for screens. Follow app startup through storage load, check action through update, and persistence save; inspect the resource screen and error/corrupt-data fallback behavior.",
+  "learning_objectives": [
+    "Explain provider lifecycle, asyncstorage adapter, resources screen, reusable controls, and tabs in plain language.",
+    "Trace export function ExposureProvider in `src/exposureContext.tsx` and explain the relevant behavior.",
+    "State and preserve this limit: History stays on the device in this demo; local storage is not a protected health record system."
+  ],
+  "learning_objective_ids": [
+    "covid-alert-05-state-storage-and-ui-objective-01",
+    "covid-alert-05-state-storage-and-ui-objective-02",
+    "covid-alert-05-state-storage-and-ui-objective-03"
+  ],
+  "source_files": [
+    "src/exposureContext.tsx",
+    "src/store.ts",
+    "src/persistence.ts",
+    "src/screens/ResourcesScreen.tsx",
+    "src/components.tsx",
+    "src/theme.ts",
+    "App.tsx"
+  ],
+  "prerequisites": [
+    "covid-alert-04-check-history-and-time"
+  ],
+  "ordered_lesson_ids": [
+    "covid-alert-05-state-storage-and-ui-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Provider lifecycle, AsyncStorage adapter, resources screen, reusable controls, and tabs",
+    "The provider is a shared notebook service for screens. Follow app startup through storage load, check action through update, and persistence save; inspect the resource screen and error/corrupt-data fallback behavior.",
+    "History stays on the device in this demo; local storage is not a protected health record system."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/exposureContext.tsx` around `export function ExposureProvider`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/exposureContext.tsx.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "project_slug": "firefox-for-ios",
+  "references": [
+    {
+      "id": "swiftui",
+      "title": "Swiftui",
+      "url": "https://developer.apple.com/documentation/swiftui/",
+      "kind": "official documentation"
+    },
+    {
+      "id": "webkit",
+      "title": "Webkit",
+      "url": "https://developer.apple.com/documentation/webkit/wkwebview",
+      "kind": "official documentation"
+    },
+    {
+      "id": "xcodegen",
+      "title": "Xcodegen",
+      "url": "https://github.com/yonaskolb/XcodeGen",
+      "kind": "specification or source repository"
+    },
+    {
+      "id": "xctest",
+      "title": "Xctest",
+      "url": "https://developer.apple.com/documentation/xctest",
+      "kind": "official documentation"
+    },
+    {
+      "id": "owasp-mobile",
+      "title": "Owasp Mobile",
+      "url": "https://mas.owasp.org/MASVS/",
+      "kind": "official documentation"
+    }
+  ],
+  "source_references": [
+    {
+      "path": "Sources/Models.swift",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "Sources/Core.swift",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "Sources/Core.swift",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "Tests/BrowserCoreTests.swift",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "Sources/WebView.swift",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "Sources/Screens/BrowserScreen.swift",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "Sources/Core.swift",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "Sources/Models.swift",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "Sources/Screens/SettingsView.swift",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "Sources/ContentView.swift",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "Sources/Screens/TabsView.swift",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "Sources/Screens/HomeView.swift",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "Sources/Screens/SettingsView.swift",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "Tests/BrowserCoreTests.swift",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "project.yml",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "README.md",
+      "purpose": "Implementation of record for the corresponding module"
+    }
+  ]
+}

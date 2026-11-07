@@ -1,0 +1,41 @@
+{
+  "module_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety",
+  "title": "Make offline mode explicit and reject placeholders",
+  "description": "Offline mode should not accidentally dial a fake host. Trace endpoint validation and the early return in connect; then distinguish the seeded local UI from a live server session.",
+  "learning_objectives": [
+    "Explain expo_public_chat_url, secure websocket validation, `.example` rejection, idle status in plain language.",
+    "Trace export function isConfiguredChatEndpoint in `src/chat.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Only a compatible real wss endpoint should be configured; no server was tested here."
+  ],
+  "learning_objective_ids": [
+    "rocket-chat-mobile-04-offline-default-and-endpoint-safety-objective-01",
+    "rocket-chat-mobile-04-offline-default-and-endpoint-safety-objective-02",
+    "rocket-chat-mobile-04-offline-default-and-endpoint-safety-objective-03"
+  ],
+  "source_files": [
+    "src/chat.ts",
+    "src/chatContext.tsx",
+    "test/chat.test.ts"
+  ],
+  "prerequisites": [
+    "rocket-chat-mobile-03-response-mapping-and-local-operations"
+  ],
+  "ordered_lesson_ids": [
+    "rocket-chat-mobile-04-offline-default-and-endpoint-safety-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "EXPO_PUBLIC_CHAT_URL, secure WebSocket validation, `.example` rejection, idle status",
+    "Offline mode should not accidentally dial a fake host. Trace endpoint validation and the early return in connect; then distinguish the seeded local UI from a live server session.",
+    "Only a compatible real wss endpoint should be configured; no server was tested here."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/chat.ts` around `export function isConfiguredChatEndpoint`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/chat.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "module_id": "peyara-remote-mouse-05-relay-mapping-and-config",
+  "title": "Map validated events to host actions under explicit controls",
+  "description": "The relay is the boundary that can move the computer. Read configuration before message handling: loopback and logging are defaults, network binding needs explicit acknowledgement, and real input needs its own opt-in.",
+  "learning_objectives": [
+    "Explain loopback default, bind acknowledgement, port/sensitivity validation, opt-in robotjs, event mapping in plain language.",
+    "Trace function readConfig in `server/config.js` and explain the relevant behavior.",
+    "State and preserve this limit: There is no TLS or client authentication; network use remains unsafe on untrusted networks."
+  ],
+  "learning_objective_ids": [
+    "peyara-remote-mouse-05-relay-mapping-and-config-objective-01",
+    "peyara-remote-mouse-05-relay-mapping-and-config-objective-02",
+    "peyara-remote-mouse-05-relay-mapping-and-config-objective-03"
+  ],
+  "source_files": [
+    "server/config.js",
+    "server/relay.js",
+    "server/index.js",
+    "server/test/config.test.js"
+  ],
+  "prerequisites": [
+    "peyara-remote-mouse-04-settings-and-mobile-persistence"
+  ],
+  "ordered_lesson_ids": [
+    "peyara-remote-mouse-05-relay-mapping-and-config-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Loopback default, bind acknowledgement, port/sensitivity validation, opt-in robotjs, event mapping",
+    "The relay is the boundary that can move the computer. Read configuration before message handling: loopback and logging are defaults, network binding needs explicit acknowledgement, and real input needs its own opt-in.",
+    "There is no TLS or client authentication; network use remains unsafe on untrusted networks."
+  ],
+  "practical_outcomes": [
+    "Read and explain `server/config.js` around `function readConfig`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: server/config.js.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

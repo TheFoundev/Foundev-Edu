@@ -1,0 +1,43 @@
+{
+  "module_id": "peyara-remote-mouse-06-end-to-end-flow-and-debugging",
+  "title": "Debug one event from finger to cursor",
+  "description": "Trace one dx/dy event from a gesture through WebSocket framing to the relay mapping. Tests inject fake robot/socket objects, so they validate logic without moving a real cursor.",
+  "learning_objectives": [
+    "Explain end-to-end protocol path, fallback logging, and evidence from isolated tests in plain language.",
+    "Trace function createRelay in `server/relay.js` and explain the relevant behavior.",
+    "State and preserve this limit: The test suite does not prove the phone and host can reach each other on a real network."
+  ],
+  "learning_objective_ids": [
+    "peyara-remote-mouse-06-end-to-end-flow-and-debugging-objective-01",
+    "peyara-remote-mouse-06-end-to-end-flow-and-debugging-objective-02",
+    "peyara-remote-mouse-06-end-to-end-flow-and-debugging-objective-03"
+  ],
+  "source_files": [
+    "src/data.ts",
+    "src/connection.ts",
+    "server/index.js",
+    "server/relay.js",
+    "server/test/relay.test.js"
+  ],
+  "prerequisites": [
+    "peyara-remote-mouse-05-relay-mapping-and-config"
+  ],
+  "ordered_lesson_ids": [
+    "peyara-remote-mouse-06-end-to-end-flow-and-debugging-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "End-to-end protocol path, fallback logging, and evidence from isolated tests",
+    "Trace one dx/dy event from a gesture through WebSocket framing to the relay mapping. Tests inject fake robot/socket objects, so they validate logic without moving a real cursor.",
+    "The test suite does not prove the phone and host can reach each other on a real network."
+  ],
+  "practical_outcomes": [
+    "Read and explain `server/relay.js` around `function createRelay`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: server/relay.js.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

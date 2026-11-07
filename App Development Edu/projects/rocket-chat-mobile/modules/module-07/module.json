@@ -1,0 +1,41 @@
+{
+  "module_id": "rocket-chat-mobile-07-tests-and-mini-project-integration",
+  "title": "Test protocol edges and plan a compatible server demo",
+  "description": "Tests simulate server messages without a network. Use them to understand expected envelopes, then plan authenticated integration and server-version checks as future work.",
+  "learning_objectives": [
+    "Explain fake socket assertions, endpoint test cases, dependency and provider review in plain language.",
+    "Trace fakeSocket in `test/chat.test.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Current Rocket.Chat docs recommend REST by default and mark DDP method calls deprecated; the custom method names in this source have not been verified against a server."
+  ],
+  "learning_objective_ids": [
+    "rocket-chat-mobile-07-tests-and-mini-project-integration-objective-01",
+    "rocket-chat-mobile-07-tests-and-mini-project-integration-objective-02",
+    "rocket-chat-mobile-07-tests-and-mini-project-integration-objective-03"
+  ],
+  "source_files": [
+    "test/chat.test.ts",
+    "package.json",
+    "README.md"
+  ],
+  "prerequisites": [
+    "rocket-chat-mobile-06-screens-navigation-and-troubleshooting"
+  ],
+  "ordered_lesson_ids": [
+    "rocket-chat-mobile-07-tests-and-mini-project-integration-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Fake socket assertions, endpoint test cases, dependency and provider review",
+    "Tests simulate server messages without a network. Use them to understand expected envelopes, then plan authenticated integration and server-version checks as future work.",
+    "Current Rocket.Chat docs recommend REST by default and mark DDP method calls deprecated; the custom method names in this source have not been verified against a server."
+  ],
+  "practical_outcomes": [
+    "Read and explain `test/chat.test.ts` around `fakeSocket`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: test/chat.test.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

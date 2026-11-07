@@ -1,0 +1,41 @@
+{
+  "module_id": "gitpoint-04-cache-and-offline-behavior",
+  "title": "Keep a last-known view when storage or network fails",
+  "description": "A cache is a last-known copy, not the source of truth. Follow provider initialization and storage fallbacks, then inspect tests for malformed JSON and a failing backend.",
+  "learning_objectives": [
+    "Explain cache keys, load/save, corrupt data, provider startup, and fallback state in plain language.",
+    "Trace export class CacheStore in `src/store.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Cached repository/issue data can be stale and is not evidence of a current provider response."
+  ],
+  "learning_objective_ids": [
+    "gitpoint-04-cache-and-offline-behavior-objective-01",
+    "gitpoint-04-cache-and-offline-behavior-objective-02",
+    "gitpoint-04-cache-and-offline-behavior-objective-03"
+  ],
+  "source_files": [
+    "src/store.ts",
+    "src/githubContext.tsx",
+    "test/github.test.ts"
+  ],
+  "prerequisites": [
+    "gitpoint-03-search-sort-and-filter"
+  ],
+  "ordered_lesson_ids": [
+    "gitpoint-04-cache-and-offline-behavior-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Cache keys, load/save, corrupt data, provider startup, and fallback state",
+    "A cache is a last-known copy, not the source of truth. Follow provider initialization and storage fallbacks, then inspect tests for malformed JSON and a failing backend.",
+    "Cached repository/issue data can be stale and is not evidence of a current provider response."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/store.ts` around `export class CacheStore`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/store.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

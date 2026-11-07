@@ -1,0 +1,37 @@
+{
+  "exercise_id": "bluewallet-05-wallet-adapters-and-transport-exercise-01",
+  "title": "Inspect and extend: Demo wallet versus Electrum adapter",
+  "objective": "Use the real implementation in `src/wallet-core.ts` to demonstrate and safely improve walletcore boundary, demowalletcore, electrumwalletcore, and websocket transport.",
+  "problem": "An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `src/wallet-core.ts` and the related project files: src/wallet-core.ts; src/persistence.ts; src/walletContext.tsx.",
+    "Add or improve a focused behavior related to walletcore boundary, demowalletcore, electrumwalletcore, and websocket transport.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: Source mismatch: the client constructs a React Native WebSocket but defaults to protocol ssl (and accepts tcp), neither of which is an accepted WebSocket URL scheme. A raw Electrum TCP/TLS endpoint needs a compatible WebSocket gateway or a different transport. The adapter also sends only when the socket is OPEN while calls can be issued immediately, so a first request may be silently dropped. No live Electrum connection was tested.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `src/wallet-core.ts`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `this.protocol = options.protocol ?? 'ssl';` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

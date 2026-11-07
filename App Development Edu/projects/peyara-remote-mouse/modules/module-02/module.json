@@ -1,0 +1,41 @@
+{
+  "module_id": "peyara-remote-mouse-02-touchpad-and-keyboard-input",
+  "title": "Turn gestures and text into protocol messages",
+  "description": "A touchpad sends movement differences, not a picture of the whole screen. Follow gesture callbacks and keyboard controls into the shared send function.",
+  "learning_objectives": [
+    "Explain panresponder deltas, click/scroll actions, text and key events in plain language.",
+    "Trace PanResponder.create in `src/screens/TouchpadScreen.tsx` and explain the relevant behavior.",
+    "State and preserve this limit: Only the relay can control the host; the mobile UI itself does not perform desktop input."
+  ],
+  "learning_objective_ids": [
+    "peyara-remote-mouse-02-touchpad-and-keyboard-input-objective-01",
+    "peyara-remote-mouse-02-touchpad-and-keyboard-input-objective-02",
+    "peyara-remote-mouse-02-touchpad-and-keyboard-input-objective-03"
+  ],
+  "source_files": [
+    "src/screens/TouchpadScreen.tsx",
+    "src/screens/KeyboardScreen.tsx",
+    "src/data.ts"
+  ],
+  "prerequisites": [
+    "peyara-remote-mouse-01-event-protocol-and-validation"
+  ],
+  "ordered_lesson_ids": [
+    "peyara-remote-mouse-02-touchpad-and-keyboard-input-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "PanResponder deltas, click/scroll actions, text and key events",
+    "A touchpad sends movement differences, not a picture of the whole screen. Follow gesture callbacks and keyboard controls into the shared send function.",
+    "Only the relay can control the host; the mobile UI itself does not perform desktop input."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/screens/TouchpadScreen.tsx` around `PanResponder.create`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/screens/TouchpadScreen.tsx.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

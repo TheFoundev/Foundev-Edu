@@ -1,0 +1,135 @@
+{
+  "module_id": "rocket-chat-mobile-07-tests-and-mini-project-integration",
+  "answers": [
+    {
+      "question_id": "rocket-chat-mobile-m07-q01",
+      "correct_option_id": "rocket-chat-mobile-m07-q01-o1",
+      "correct_explanation": "The lesson and source file `test/chat.test.ts` identify this behavior as: Fake socket assertions, endpoint test cases, dependency and provider review The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m07-q01-o2": "The lesson traces 'Fake socket assertions, endpoint test cases, dependency and provider review' to test/chat.test.ts. This option instead claims 'Channel/ChatMessage models, seeded data, and unread display', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m07-q01-o3": "The lesson traces 'Fake socket assertions, endpoint test cases, dependency and provider review' to test/chat.test.ts. This option instead claims 'Socket abstraction, connect/session, method IDs, ping/pong, timeout and close', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m07-q01-o4": "The lesson traces 'Fake socket assertions, endpoint test cases, dependency and provider review' to test/chat.test.ts. This option instead claims 'toChannels/toMessages, filtering, unread counts, optimistic append', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Fake socket assertions, endpoint test cases, dependency and provider review",
+      "related_lesson_id": "rocket-chat-mobile-07-tests-and-mini-project-integration-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/test/chat.test.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m07-q02",
+      "correct_option_id": "rocket-chat-mobile-m07-q02-o1",
+      "correct_explanation": "The lesson and source file `test/chat.test.ts` identify this behavior as: test/chat.test.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m07-q02-o3": "The lesson traces 'test/chat.test.ts' to test/chat.test.ts. This option instead claims 'README.md', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m07-q02-o4": "The lesson traces 'test/chat.test.ts' to test/chat.test.ts. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m07-q02-o2": "The lesson traces 'test/chat.test.ts' to test/chat.test.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Fake socket assertions, endpoint test cases, dependency and provider review",
+      "related_lesson_id": "rocket-chat-mobile-07-tests-and-mini-project-integration-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/test/chat.test.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m07-q03",
+      "correct_option_id": "rocket-chat-mobile-m07-q03-o1",
+      "correct_explanation": "The lesson and source file `test/chat.test.ts` identify this behavior as: Current Rocket.Chat docs recommend REST by default and mark DDP method calls deprecated; the custom method names in this source have not been verified against a server. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m07-q03-o4": "The lesson traces 'Current Rocket.Chat docs recommend REST by default and mark DDP method calls deprecated; the custom method names in this source have not been verified against a server.' to test/chat.test.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m07-q03-o2": "The lesson traces 'Current Rocket.Chat docs recommend REST by default and mark DDP method calls deprecated; the custom method names in this source have not been verified against a server.' to test/chat.test.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m07-q03-o3": "The lesson traces 'Current Rocket.Chat docs recommend REST by default and mark DDP method calls deprecated; the custom method names in this source have not been verified against a server.' to test/chat.test.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Fake socket assertions, endpoint test cases, dependency and provider review",
+      "related_lesson_id": "rocket-chat-mobile-07-tests-and-mini-project-integration-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/test/chat.test.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m07-q04",
+      "correct_option_id": "rocket-chat-mobile-m07-q04-o1",
+      "correct_explanation": "The lesson and source file `test/chat.test.ts` identify this behavior as: Tests simulate server messages without a network. Use them to understand expected envelopes, then plan authenticated integration and server-version checks as future work. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m07-q04-o2": "The lesson traces 'Tests simulate server messages without a network. Use them to understand expected envelopes, then plan authenticated integration and server-version checks as future work.' to test/chat.test.ts. This option instead claims 'Channel/ChatMessage models, seeded data, and unread display', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m07-q04-o3": "The lesson traces 'Tests simulate server messages without a network. Use them to understand expected envelopes, then plan authenticated integration and server-version checks as future work.' to test/chat.test.ts. This option instead claims 'Socket abstraction, connect/session, method IDs, ping/pong, timeout and close', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m07-q04-o4": "The lesson traces 'Tests simulate server messages without a network. Use them to understand expected envelopes, then plan authenticated integration and server-version checks as future work.' to test/chat.test.ts. This option instead claims 'toChannels/toMessages, filtering, unread counts, optimistic append', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Fake socket assertions, endpoint test cases, dependency and provider review",
+      "related_lesson_id": "rocket-chat-mobile-07-tests-and-mini-project-integration-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/test/chat.test.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m07-q05",
+      "correct_option_id": "rocket-chat-mobile-m07-q05-o1",
+      "correct_explanation": "The lesson and source file `test/chat.test.ts` identify this behavior as: Fake socket assertions, endpoint test cases, dependency and provider review The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m07-q05-o2": "The lesson traces 'Fake socket assertions, endpoint test cases, dependency and provider review' to test/chat.test.ts. This option instead claims 'Channel/ChatMessage models, seeded data, and unread display', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m07-q05-o3": "The lesson traces 'Fake socket assertions, endpoint test cases, dependency and provider review' to test/chat.test.ts. This option instead claims 'Socket abstraction, connect/session, method IDs, ping/pong, timeout and close', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m07-q05-o4": "The lesson traces 'Fake socket assertions, endpoint test cases, dependency and provider review' to test/chat.test.ts. This option instead claims 'toChannels/toMessages, filtering, unread counts, optimistic append', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Fake socket assertions, endpoint test cases, dependency and provider review",
+      "related_lesson_id": "rocket-chat-mobile-07-tests-and-mini-project-integration-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/test/chat.test.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m07-q06",
+      "correct_option_id": "rocket-chat-mobile-m07-q06-o1",
+      "correct_explanation": "The lesson and source file `test/chat.test.ts` identify this behavior as: Tests simulate server messages without a network. Use them to understand expected envelopes, then plan authenticated integration and server-version checks as future work. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m07-q06-o3": "The lesson traces 'Tests simulate server messages without a network. Use them to understand expected envelopes, then plan authenticated integration and server-version checks as future work.' to test/chat.test.ts. This option instead claims 'Socket abstraction, connect/session, method IDs, ping/pong, timeout and close', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m07-q06-o4": "The lesson traces 'Tests simulate server messages without a network. Use them to understand expected envelopes, then plan authenticated integration and server-version checks as future work.' to test/chat.test.ts. This option instead claims 'toChannels/toMessages, filtering, unread counts, optimistic append', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m07-q06-o2": "The lesson traces 'Tests simulate server messages without a network. Use them to understand expected envelopes, then plan authenticated integration and server-version checks as future work.' to test/chat.test.ts. This option instead claims 'Channel/ChatMessage models, seeded data, and unread display', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Fake socket assertions, endpoint test cases, dependency and provider review",
+      "related_lesson_id": "rocket-chat-mobile-07-tests-and-mini-project-integration-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/test/chat.test.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m07-q07",
+      "correct_option_id": "rocket-chat-mobile-m07-q07-o1",
+      "correct_explanation": "The lesson and source file `test/chat.test.ts` identify this behavior as: Current Rocket.Chat docs recommend REST by default and mark DDP method calls deprecated; the custom method names in this source have not been verified against a server. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m07-q07-o4": "The lesson traces 'Current Rocket.Chat docs recommend REST by default and mark DDP method calls deprecated; the custom method names in this source have not been verified against a server.' to test/chat.test.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m07-q07-o2": "The lesson traces 'Current Rocket.Chat docs recommend REST by default and mark DDP method calls deprecated; the custom method names in this source have not been verified against a server.' to test/chat.test.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m07-q07-o3": "The lesson traces 'Current Rocket.Chat docs recommend REST by default and mark DDP method calls deprecated; the custom method names in this source have not been verified against a server.' to test/chat.test.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Fake socket assertions, endpoint test cases, dependency and provider review",
+      "related_lesson_id": "rocket-chat-mobile-07-tests-and-mini-project-integration-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/test/chat.test.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m07-q08",
+      "correct_option_id": "rocket-chat-mobile-m07-q08-o1",
+      "correct_explanation": "The lesson and source file `test/chat.test.ts` identify this behavior as: test/chat.test.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m07-q08-o2": "The lesson traces 'test/chat.test.ts' to test/chat.test.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m07-q08-o3": "The lesson traces 'test/chat.test.ts' to test/chat.test.ts. This option instead claims 'README.md', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m07-q08-o4": "The lesson traces 'test/chat.test.ts' to test/chat.test.ts. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Fake socket assertions, endpoint test cases, dependency and provider review",
+      "related_lesson_id": "rocket-chat-mobile-07-tests-and-mini-project-integration-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/test/chat.test.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m07-q09",
+      "correct_option_id": "rocket-chat-mobile-m07-q09-o1",
+      "correct_explanation": "The lesson and source file `test/chat.test.ts` identify this behavior as: Do not claim production readiness: Current Rocket.Chat docs recommend REST by default and mark DDP method calls deprecated; the custom method names in this source have not been verified against a server. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m07-q09-o2": "The lesson traces 'Do not claim production readiness: Current Rocket.Chat docs recommend REST by default and mark DDP method calls deprecated; the custom method names in this source have not been verified against a server.' to test/chat.test.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m07-q09-o3": "The lesson traces 'Do not claim production readiness: Current Rocket.Chat docs recommend REST by default and mark DDP method calls deprecated; the custom method names in this source have not been verified against a server.' to test/chat.test.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m07-q09-o4": "The lesson traces 'Do not claim production readiness: Current Rocket.Chat docs recommend REST by default and mark DDP method calls deprecated; the custom method names in this source have not been verified against a server.' to test/chat.test.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Fake socket assertions, endpoint test cases, dependency and provider review",
+      "related_lesson_id": "rocket-chat-mobile-07-tests-and-mini-project-integration-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/test/chat.test.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m07-q10",
+      "correct_option_id": "rocket-chat-mobile-m07-q10-o1",
+      "correct_explanation": "The lesson and source file `test/chat.test.ts` identify this behavior as: Tests simulate server messages without a network. Use them to understand expected envelopes, then plan authenticated integration and server-version checks as future work. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m07-q10-o3": "The lesson traces 'Tests simulate server messages without a network. Use them to understand expected envelopes, then plan authenticated integration and server-version checks as future work.' to test/chat.test.ts. This option instead claims 'Socket abstraction, connect/session, method IDs, ping/pong, timeout and close', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m07-q10-o4": "The lesson traces 'Tests simulate server messages without a network. Use them to understand expected envelopes, then plan authenticated integration and server-version checks as future work.' to test/chat.test.ts. This option instead claims 'toChannels/toMessages, filtering, unread counts, optimistic append', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m07-q10-o2": "The lesson traces 'Tests simulate server messages without a network. Use them to understand expected envelopes, then plan authenticated integration and server-version checks as future work.' to test/chat.test.ts. This option instead claims 'Channel/ChatMessage models, seeded data, and unread display', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Fake socket assertions, endpoint test cases, dependency and provider review",
+      "related_lesson_id": "rocket-chat-mobile-07-tests-and-mini-project-integration-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/test/chat.test.ts"
+    }
+  ]
+}

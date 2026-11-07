@@ -1,0 +1,37 @@
+{
+  "exercise_id": "bluewallet-04-utxo-selection-and-fees-exercise-01",
+  "title": "Inspect and extend: Plan inputs, fee, change, and dust",
+  "objective": "Use the real implementation in `src/wallet-core.ts` to demonstrate and safely improve utxo selection, fee estimate, amount validation, and unsigned output construction.",
+  "problem": "A UTXO is an unspent piece of value. The planner selects enough pieces to cover amount plus estimated fee, then considers change and a dust threshold. Trace the UI request into buildUnsignedTransaction. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `src/wallet-core.ts` and the related project files: src/wallet-core.ts; src/screens/SendScreen.tsx.",
+    "Add or improve a focused behavior related to utxo selection, fee estimate, amount validation, and unsigned output construction.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: The transaction is unsigned; fee size/rate assumptions are simplified, the change output currently uses an empty placeholder address, and no real payment should be made.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "A UTXO is an unspent piece of value. The planner selects enough pieces to cover amount plus estimated fee, then considers change and a dust threshold. Trace the UI request into buildUnsignedTransaction.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `src/wallet-core.ts`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `export function buildUnsignedTransaction` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

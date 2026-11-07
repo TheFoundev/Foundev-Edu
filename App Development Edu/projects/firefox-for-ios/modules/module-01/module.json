@@ -1,0 +1,38 @@
+{
+  "module_id": "firefox-for-ios-01-browser-domain-model",
+  "title": "Browser records and protection state",
+  "description": "A browser model is a set of labels and settings the interface can render. Read the record types and identify which data belongs to a tab and which belongs to a protection mode.",
+  "learning_objectives": [
+    "Explain tab, protection-level, and tracker data types in plain language.",
+    "Trace struct BrowserTab in `Sources/Models.swift` and explain the relevant behavior.",
+    "State and preserve this limit: The sample model is not the complete Firefox account/profile model."
+  ],
+  "learning_objective_ids": [
+    "firefox-for-ios-01-browser-domain-model-objective-01",
+    "firefox-for-ios-01-browser-domain-model-objective-02",
+    "firefox-for-ios-01-browser-domain-model-objective-03"
+  ],
+  "source_files": [
+    "Sources/Models.swift",
+    "Sources/Core.swift"
+  ],
+  "prerequisites": [],
+  "ordered_lesson_ids": [
+    "firefox-for-ios-01-browser-domain-model-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Tab, protection-level, and tracker data types",
+    "A browser model is a set of labels and settings the interface can render. Read the record types and identify which data belongs to a tab and which belongs to a protection mode.",
+    "The sample model is not the complete Firefox account/profile model."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Sources/Models.swift` around `struct BrowserTab`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Sources/Models.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

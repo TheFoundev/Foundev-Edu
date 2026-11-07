@@ -1,0 +1,37 @@
+{
+  "exercise_id": "new-expensify-02-validation-and-category-math-exercise-01",
+  "title": "Inspect and extend: Reject invalid rows and summarize categories",
+  "objective": "Use the real implementation in `src/model.ts` to demonstrate and safely improve positive amount/title validation, category aggregation, and money formatting.",
+  "problem": "Validation is a gate before a row enters the report. Follow amount/title checks, then trace how category groups and totals are calculated and tested. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `src/model.ts` and the related project files: src/model.ts; test/model.test.ts; src/screens/ReportsScreen.tsx.",
+    "Add or improve a focused behavior related to positive amount/title validation, category aggregation, and money formatting.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: This is not a tax, compliance, or accounting rules engine.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "Validation is a gate before a row enters the report. Follow amount/title checks, then trace how category groups and totals are calculated and tested.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `src/model.ts`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `export function checkExpense` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

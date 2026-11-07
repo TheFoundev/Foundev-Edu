@@ -1,0 +1,40 @@
+{
+  "module_id": "bluesky-social-app-02-publishing-and-validation",
+  "title": "From typed text to a post",
+  "description": "A composer is a small form with a gatekeeper. Trace the text field to canPublish and publishPost, note trimming and the 300-character rule, and follow how the new record is placed at the top without mutating the previous list.",
+  "learning_objectives": [
+    "Explain composer validation, length limits, and immutable insertion in plain language.",
+    "Trace export function publishPost in `src/feed.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Publishing stores a local post; there is no authenticated AT Protocol write."
+  ],
+  "learning_objective_ids": [
+    "bluesky-social-app-02-publishing-and-validation-objective-01",
+    "bluesky-social-app-02-publishing-and-validation-objective-02",
+    "bluesky-social-app-02-publishing-and-validation-objective-03"
+  ],
+  "source_files": [
+    "src/screens/FeedScreen.tsx",
+    "src/feed.ts"
+  ],
+  "prerequisites": [
+    "bluesky-social-app-01-feed-model"
+  ],
+  "ordered_lesson_ids": [
+    "bluesky-social-app-02-publishing-and-validation-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Composer validation, length limits, and immutable insertion",
+    "A composer is a small form with a gatekeeper. Trace the text field to canPublish and publishPost, note trimming and the 300-character rule, and follow how the new record is placed at the top without mutating the previous list.",
+    "Publishing stores a local post; there is no authenticated AT Protocol write."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/feed.ts` around `export function publishPost`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/feed.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

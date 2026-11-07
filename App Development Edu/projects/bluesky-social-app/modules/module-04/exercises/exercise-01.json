@@ -1,0 +1,37 @@
+{
+  "exercise_id": "bluesky-social-app-04-state-and-persistence-exercise-01",
+  "title": "Inspect and extend: One shared feed and its stored snapshot",
+  "objective": "Use the real implementation in `src/store.ts` to demonstrate and safely improve context state lifecycle, storage adapter, migration defaults, and corrupt data.",
+  "problem": "Context is the shared clipboard for screens; the store is the filing cabinet. Follow load, state initialization, effects that save changes, and the storage adapter. Inspect defaults for older saves with no bookmarks and malformed values. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `src/store.ts` and the related project files: src/feedContext.tsx; src/store.ts; src/persistence.ts.",
+    "Add or improve a focused behavior related to context state lifecycle, storage adapter, migration defaults, and corrupt data.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: AsyncStorage is persistent local key/value storage; it is not encrypted account sync.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "Context is the shared clipboard for screens; the store is the filing cabinet. Follow load, state initialization, effects that save changes, and the storage adapter. Inspect defaults for older saves with no bookmarks and malformed values.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `src/store.ts`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `export class FeedStore` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

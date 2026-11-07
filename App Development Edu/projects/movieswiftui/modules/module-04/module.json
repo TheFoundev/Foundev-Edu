@@ -1,0 +1,41 @@
+{
+  "module_id": "movieswiftui-04-watchlist-persistence",
+  "title": "Remember a watchlist without a service account",
+  "description": "A watchlist is a saved set of identifiers. Follow a toggle from button through the store to UserDefaults and verify persistence using the tests.",
+  "learning_objectives": [
+    "Explain store defaults, add/remove operations, and userdefaults reload in plain language.",
+    "Trace final class MovieStore in `Sources/Models.swift` and explain the relevant behavior.",
+    "State and preserve this limit: Local watchlist persistence does not create an account or sync across devices."
+  ],
+  "learning_objective_ids": [
+    "movieswiftui-04-watchlist-persistence-objective-01",
+    "movieswiftui-04-watchlist-persistence-objective-02",
+    "movieswiftui-04-watchlist-persistence-objective-03"
+  ],
+  "source_files": [
+    "Sources/Models.swift",
+    "Sources/Screens/WatchlistView.swift",
+    "Tests/MovieCoreTests.swift"
+  ],
+  "prerequisites": [
+    "movieswiftui-03-search-genres-and-sorting"
+  ],
+  "ordered_lesson_ids": [
+    "movieswiftui-04-watchlist-persistence-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Store defaults, add/remove operations, and UserDefaults reload",
+    "A watchlist is a saved set of identifiers. Follow a toggle from button through the store to UserDefaults and verify persistence using the tests.",
+    "Local watchlist persistence does not create an account or sync across devices."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Sources/Models.swift` around `final class MovieStore`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Sources/Models.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

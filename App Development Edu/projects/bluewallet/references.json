@@ -1,0 +1,149 @@
+{
+  "project_slug": "bluewallet",
+  "references": [
+    {
+      "id": "react-native",
+      "title": "React Native",
+      "url": "https://reactnative.dev/docs/getting-started",
+      "kind": "official documentation"
+    },
+    {
+      "id": "expo",
+      "title": "Expo",
+      "url": "https://docs.expo.dev/",
+      "kind": "official documentation"
+    },
+    {
+      "id": "async-storage",
+      "title": "Async Storage",
+      "url": "https://docs.expo.dev/versions/latest/sdk/async-storage/",
+      "kind": "official documentation"
+    },
+    {
+      "id": "bitcoin-bip173",
+      "title": "Bitcoin Bip173",
+      "url": "https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki",
+      "kind": "specification or source repository"
+    },
+    {
+      "id": "electrum",
+      "title": "Electrum",
+      "url": "https://electrum-protocol.readthedocs.io/en/latest/protocol.html",
+      "kind": "official documentation"
+    },
+    {
+      "id": "node-test",
+      "title": "Node Test",
+      "url": "https://nodejs.org/api/test.html",
+      "kind": "official documentation"
+    },
+    {
+      "id": "owasp-mobile",
+      "title": "Owasp Mobile",
+      "url": "https://mas.owasp.org/MASVS/",
+      "kind": "official documentation"
+    }
+  ],
+  "source_references": [
+    {
+      "path": "src/data.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/WalletScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/components.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/theme.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "App.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/address.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/SendScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/sha256.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/address.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "test/wallet.test.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/wallet-core.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/SendScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/wallet-core.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/persistence.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/walletContext.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/wallet-core.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/walletContext.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "test/wallet.test.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/store.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/persistence.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "test/store.test.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/SendScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/walletContext.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/wallet-core.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "test/wallet.test.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    }
+  ]
+}

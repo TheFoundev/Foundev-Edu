@@ -1,0 +1,41 @@
+{
+  "module_id": "new-expensify-02-validation-and-category-math",
+  "title": "Reject invalid rows and summarize categories",
+  "description": "Validation is a gate before a row enters the report. Follow amount/title checks, then trace how category groups and totals are calculated and tested.",
+  "learning_objectives": [
+    "Explain positive amount/title validation, category aggregation, and money formatting in plain language.",
+    "Trace export function checkExpense in `src/model.ts` and explain the relevant behavior.",
+    "State and preserve this limit: This is not a tax, compliance, or accounting rules engine."
+  ],
+  "learning_objective_ids": [
+    "new-expensify-02-validation-and-category-math-objective-01",
+    "new-expensify-02-validation-and-category-math-objective-02",
+    "new-expensify-02-validation-and-category-math-objective-03"
+  ],
+  "source_files": [
+    "src/model.ts",
+    "test/model.test.ts",
+    "src/screens/ReportsScreen.tsx"
+  ],
+  "prerequisites": [
+    "new-expensify-01-expense-and-report-data"
+  ],
+  "ordered_lesson_ids": [
+    "new-expensify-02-validation-and-category-math-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Positive amount/title validation, category aggregation, and money formatting",
+    "Validation is a gate before a row enters the report. Follow amount/title checks, then trace how category groups and totals are calculated and tested.",
+    "This is not a tax, compliance, or accounting rules engine."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/model.ts` around `export function checkExpense`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/model.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

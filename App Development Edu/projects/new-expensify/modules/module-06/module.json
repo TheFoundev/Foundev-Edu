@@ -1,0 +1,44 @@
+{
+  "module_id": "new-expensify-06-screens-and-controls",
+  "title": "Connect report, chat, and settings screens",
+  "description": "The same data model supports several screens. Follow each control’s handler back to context/model methods and distinguish display values from persisted settings.",
+  "learning_objectives": [
+    "Explain navigation tabs, shared controls/theme, action wiring, and ui status in plain language.",
+    "Trace const TABS in `App.tsx` and explain the relevant behavior.",
+    "State and preserve this limit: The UI does not implement identity, backend sync, or payment settlement."
+  ],
+  "learning_objective_ids": [
+    "new-expensify-06-screens-and-controls-objective-01",
+    "new-expensify-06-screens-and-controls-objective-02",
+    "new-expensify-06-screens-and-controls-objective-03"
+  ],
+  "source_files": [
+    "src/screens/ReportsScreen.tsx",
+    "src/screens/ChatScreen.tsx",
+    "src/screens/SettingsScreen.tsx",
+    "src/components.tsx",
+    "src/theme.ts",
+    "App.tsx"
+  ],
+  "prerequisites": [
+    "new-expensify-05-context-store-and-persistence"
+  ],
+  "ordered_lesson_ids": [
+    "new-expensify-06-screens-and-controls-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Navigation tabs, shared controls/theme, action wiring, and UI status",
+    "The same data model supports several screens. Follow each control’s handler back to context/model methods and distinguish display values from persisted settings.",
+    "The UI does not implement identity, backend sync, or payment settlement."
+  ],
+  "practical_outcomes": [
+    "Read and explain `App.tsx` around `const TABS`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: App.tsx.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

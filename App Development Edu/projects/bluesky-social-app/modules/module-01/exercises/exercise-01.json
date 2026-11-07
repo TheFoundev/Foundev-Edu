@@ -1,0 +1,37 @@
+{
+  "exercise_id": "bluesky-social-app-01-feed-model-exercise-01",
+  "title": "Inspect and extend: The feed as a small library",
+  "objective": "Use the real implementation in `src/feed.ts` to demonstrate and safely improve post records, seed fixtures, and pure feed operations.",
+  "problem": "Start by seeing a feed as a list of labelled cards. Read the Post shape and seed data, then follow pure functions that publish, filter, merge, and count records. Keep display concerns out of these transformations. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `src/feed.ts` and the related project files: src/data.ts; src/feed.ts.",
+    "Add or improve a focused behavior related to post records, seed fixtures, and pure feed operations.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: Posts are local sample records; mergeRemotePosts is a helper and does not itself call a network.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "Start by seeing a feed as a list of labelled cards. Read the Post shape and seed data, then follow pure functions that publish, filter, merge, and count records. Keep display concerns out of these transformations.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `src/feed.ts`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `export function canPublish` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

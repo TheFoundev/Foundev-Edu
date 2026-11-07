@@ -1,0 +1,41 @@
+{
+  "module_id": "firefox-for-ios-04-protection-levels-and-rules",
+  "title": "Map a settings choice to tracker rules",
+  "description": "A protection switch chooses a collection of content rules. Follow the selected level into rule creation and display; distinguish a configured rule count from independently verified blocking.",
+  "learning_objectives": [
+    "Explain protection modes, rule selection, rule compilation, and observed count in plain language.",
+    "Trace standardTrackers in `Sources/Core.swift` and explain the relevant behavior.",
+    "State and preserve this limit: Rules are a small sample, not Firefox’s full tracking-protection lists or guarantees."
+  ],
+  "learning_objective_ids": [
+    "firefox-for-ios-04-protection-levels-and-rules-objective-01",
+    "firefox-for-ios-04-protection-levels-and-rules-objective-02",
+    "firefox-for-ios-04-protection-levels-and-rules-objective-03"
+  ],
+  "source_files": [
+    "Sources/Core.swift",
+    "Sources/Models.swift",
+    "Sources/Screens/SettingsView.swift"
+  ],
+  "prerequisites": [
+    "firefox-for-ios-03-webkit-browser-wrapper"
+  ],
+  "ordered_lesson_ids": [
+    "firefox-for-ios-04-protection-levels-and-rules-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Protection modes, rule selection, rule compilation, and observed count",
+    "A protection switch chooses a collection of content rules. Follow the selected level into rule creation and display; distinguish a configured rule count from independently verified blocking.",
+    "Rules are a small sample, not Firefox’s full tracking-protection lists or guarantees."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Sources/Core.swift` around `standardTrackers`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Sources/Core.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "module_id": "duckduckgo-for-ios-06-tests-and-mini-project-release",
+  "title": "Test routing, tab lifecycle, and privacy claims",
+  "description": "Tests are executable examples of expected browser rules. Compare each claim to source and tests, then identify runtime checks for navigation, persistence, and content rules.",
+  "learning_objectives": [
+    "Explain xctest coverage, xcodegen project configuration, and documentation boundary in plain language.",
+    "Trace func testThePrivateModeThrowsTheDataAway in `Tests/BrowserCoreTests.swift` and explain the relevant behavior.",
+    "State and preserve this limit: No Xcode build was run in this workspace; simulator behavior remains unverified."
+  ],
+  "learning_objective_ids": [
+    "duckduckgo-for-ios-06-tests-and-mini-project-release-objective-01",
+    "duckduckgo-for-ios-06-tests-and-mini-project-release-objective-02",
+    "duckduckgo-for-ios-06-tests-and-mini-project-release-objective-03"
+  ],
+  "source_files": [
+    "Tests/BrowserCoreTests.swift",
+    "project.yml",
+    "README.md"
+  ],
+  "prerequisites": [
+    "duckduckgo-for-ios-05-screen-composition-and-controls"
+  ],
+  "ordered_lesson_ids": [
+    "duckduckgo-for-ios-06-tests-and-mini-project-release-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "XCTest coverage, XcodeGen project configuration, and documentation boundary",
+    "Tests are executable examples of expected browser rules. Compare each claim to source and tests, then identify runtime checks for navigation, persistence, and content rules.",
+    "No Xcode build was run in this workspace; simulator behavior remains unverified."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Tests/BrowserCoreTests.swift` around `func testThePrivateModeThrowsTheDataAway`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Tests/BrowserCoreTests.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

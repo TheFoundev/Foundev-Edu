@@ -1,0 +1,37 @@
+{
+  "exercise_id": "firefox-for-ios-06-tests-and-platform-configuration-exercise-01",
+  "title": "Inspect and extend: Read the test suite and XcodeGen spec",
+  "objective": "Use the real implementation in `Tests/BrowserCoreTests.swift` to demonstrate and safely improve xctest assertions, target configuration, and what a test does not establish.",
+  "problem": "Unit tests check the pure rules; project.yml describes how XcodeGen assembles targets. Use both to plan actual simulator checks that this Windows environment could not perform. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `Tests/BrowserCoreTests.swift` and the related project files: Tests/BrowserCoreTests.swift; project.yml; README.md.",
+    "Add or improve a focused behavior related to xctest assertions, target configuration, and what a test does not establish.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: The source was not built or deployed here; no runtime result is implied.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "Unit tests check the pure rules; project.yml describes how XcodeGen assembles targets. Use both to plan actual simulator checks that this Windows environment could not perform.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `Tests/BrowserCoreTests.swift`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `final class BrowserCoreTests` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

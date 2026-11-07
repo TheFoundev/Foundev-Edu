@@ -1,0 +1,41 @@
+{
+  "module_id": "gitpoint-06-tests-security-and-mini-project",
+  "title": "Verify API logic and plan safe integration",
+  "description": "Mocked responses prove mapping logic without contacting GitHub. Compare tests with API behavior and identify secure credential handling and pagination work needed for a real account client.",
+  "learning_objectives": [
+    "Explain mock response evidence, test script, public api boundary, and token risk in plain language.",
+    "Trace fakeFetch in `test/github.test.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Do not put a personal access token in a client bundle or commit it into source."
+  ],
+  "learning_objective_ids": [
+    "gitpoint-06-tests-security-and-mini-project-objective-01",
+    "gitpoint-06-tests-security-and-mini-project-objective-02",
+    "gitpoint-06-tests-security-and-mini-project-objective-03"
+  ],
+  "source_files": [
+    "test/github.test.ts",
+    "package.json",
+    "README.md"
+  ],
+  "prerequisites": [
+    "gitpoint-05-ui-state-and-navigation"
+  ],
+  "ordered_lesson_ids": [
+    "gitpoint-06-tests-security-and-mini-project-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Mock response evidence, test script, public API boundary, and token risk",
+    "Mocked responses prove mapping logic without contacting GitHub. Compare tests with API behavior and identify secure credential handling and pagination work needed for a real account client.",
+    "Do not put a personal access token in a client bundle or commit it into source."
+  ],
+  "practical_outcomes": [
+    "Read and explain `test/github.test.ts` around `fakeFetch`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: test/github.test.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

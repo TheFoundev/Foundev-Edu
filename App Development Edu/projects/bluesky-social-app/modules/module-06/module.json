@@ -1,0 +1,41 @@
+{
+  "module_id": "bluesky-social-app-06-tests-and-protocol-boundary",
+  "title": "Test the model and define the network boundary",
+  "description": "A good boundary makes the core easy to test without a phone or server. Read tests as examples of the intended contract, then compare README claims with imports and runtime code to identify what is absent.",
+  "learning_objectives": [
+    "Explain node test coverage, pure-model boundaries, and absent protocol integration in plain language.",
+    "Trace toggleBookmark in `test/feed.test.ts` and explain the relevant behavior.",
+    "State and preserve this limit: No AT Protocol login, moderation, network feed, or remote post creation is implemented."
+  ],
+  "learning_objective_ids": [
+    "bluesky-social-app-06-tests-and-protocol-boundary-objective-01",
+    "bluesky-social-app-06-tests-and-protocol-boundary-objective-02",
+    "bluesky-social-app-06-tests-and-protocol-boundary-objective-03"
+  ],
+  "source_files": [
+    "test/feed.test.ts",
+    "README.md",
+    "package.json"
+  ],
+  "prerequisites": [
+    "bluesky-social-app-05-screens-and-navigation"
+  ],
+  "ordered_lesson_ids": [
+    "bluesky-social-app-06-tests-and-protocol-boundary-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Node test coverage, pure-model boundaries, and absent protocol integration",
+    "A good boundary makes the core easy to test without a phone or server. Read tests as examples of the intended contract, then compare README claims with imports and runtime code to identify what is absent.",
+    "No AT Protocol login, moderation, network feed, or remote post creation is implemented."
+  ],
+  "practical_outcomes": [
+    "Read and explain `test/feed.test.ts` around `toggleBookmark`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: test/feed.test.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

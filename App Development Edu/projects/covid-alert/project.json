@@ -1,0 +1,31 @@
+{
+  "title": "COVID Alert",
+  "slug": "covid-alert",
+  "description": "Build an educational symptom and simulated exposure-check app with clearly labelled outcomes and local history.",
+  "problem": "Learners need a source-grounded way to understand and extend COVID Alert while separating implemented behavior from demo data, simulations, and missing integrations.",
+  "audience": "Third-year undergraduate students who have completed introductory programming and want a practical mobile mini-project.",
+  "stack": [
+    "Expo",
+    "React Native",
+    "TypeScript",
+    "AsyncStorage"
+  ],
+  "difficulty": "upper-intermediate",
+  "prerequisites": [
+    "Basic programming and source-code reading",
+    "Git basics and ability to run the platform tooling described in the source README"
+  ],
+  "learning_outcomes": [
+    "Explain and trace check and exposureresult types, symptom catalogue, resources, and sample data in its named source files.",
+    "Explain and trace exposureservice interface, simulated implementation, and simulation labelling in its named source files.",
+    "Explain and trace weights, duplicate/unknown filtering, thresholds, advice, and disclaimer in its named source files.",
+    "Explain and trace tocheck, lastcheck, formatting, interval calculation, and empty state in its named source files.",
+    "Explain and trace provider lifecycle, asyncstorage adapter, resources screen, reusable controls, and tabs in its named source files.",
+    "Explain and trace simulation tests, storage failures, labels, disclosure, and evidence limits in its named source files.",
+    "Explain and trace screen-to-model integration, clear-state wording, limitations, and demo script in its named source files.",
+    "Distinguish unit-test evidence from device, service, and deployment evidence.",
+    "Propose a safe, bounded extension without describing it as already implemented."
+  ],
+  "estimated_duration_hours": 14,
+  "content_schema_version": "1.0.0"
+}

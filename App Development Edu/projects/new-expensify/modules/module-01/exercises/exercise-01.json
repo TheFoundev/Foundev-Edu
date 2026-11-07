@@ -1,0 +1,37 @@
+{
+  "exercise_id": "new-expensify-01-expense-and-report-data-exercise-01",
+  "title": "Inspect and extend: Reports contain expenses, not just totals",
+  "objective": "Use the real implementation in `src/model.ts` to demonstrate and safely improve expense and report types, seed records, and derived totals.",
+  "problem": "A report is a folder containing expense rows. Read the typed shapes and seed data, then see how a displayed total should be derived from the rows rather than typed separately. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `src/model.ts` and the related project files: src/model.ts; src/data.ts; src/screens/ReportsScreen.tsx.",
+    "Add or improve a focused behavior related to expense and report types, seed records, and derived totals.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: Seed reports and the CAD profile are demo data; no accounting backend is connected.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "A report is a folder containing expense rows. Read the typed shapes and seed data, then see how a displayed total should be derived from the rows rather than typed separately.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `src/model.ts`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `export type Report` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

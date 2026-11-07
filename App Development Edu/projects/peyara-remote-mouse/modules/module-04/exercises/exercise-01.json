@@ -1,0 +1,37 @@
+{
+  "exercise_id": "peyara-remote-mouse-04-settings-and-mobile-persistence-exercise-01",
+  "title": "Inspect and extend: Remember the relay address with a storage seam",
+  "objective": "Use the real implementation in `src/settings.ts` to demonstrate and safely improve host validation, settings key, asyncstorage adapter, and load/save flow.",
+  "problem": "A saved address is a convenience, not proof that the host is safe. Follow input validation into settings storage and inspect how the app reloads the last host. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `src/settings.ts` and the related project files: src/settings.ts; src/persistence.ts; src/screens/ConnectScreen.tsx.",
+    "Add or improve a focused behavior related to host validation, settings key, asyncstorage adapter, and load/save flow.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: A LAN address is private configuration; only connect to a relay you trust.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "A saved address is a convenience, not proof that the host is safe. Follow input validation into settings storage and inspect how the app reloads the last host.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `src/settings.ts`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `export async function loadSettings` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

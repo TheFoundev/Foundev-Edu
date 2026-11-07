@@ -1,0 +1,41 @@
+{
+  "module_id": "new-expensify-03-report-workflow-states",
+  "title": "Draft, submission, approval, and rejection rules",
+  "description": "A report workflow is a state machine: each action changes state only if the current state allows it. Trace the guard conditions and see what tests assert about invalid transitions.",
+  "learning_objectives": [
+    "Explain allowed status transitions, submission preconditions, and immutable updates in plain language.",
+    "Trace export function canTransition in `src/model.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Approvals are local demo transitions; they do not represent an employer’s authorization."
+  ],
+  "learning_objective_ids": [
+    "new-expensify-03-report-workflow-states-objective-01",
+    "new-expensify-03-report-workflow-states-objective-02",
+    "new-expensify-03-report-workflow-states-objective-03"
+  ],
+  "source_files": [
+    "src/model.ts",
+    "src/screens/ReportsScreen.tsx",
+    "test/model.test.ts"
+  ],
+  "prerequisites": [
+    "new-expensify-02-validation-and-category-math"
+  ],
+  "ordered_lesson_ids": [
+    "new-expensify-03-report-workflow-states-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Allowed status transitions, submission preconditions, and immutable updates",
+    "A report workflow is a state machine: each action changes state only if the current state allows it. Trace the guard conditions and see what tests assert about invalid transitions.",
+    "Approvals are local demo transitions; they do not represent an employer’s authorization."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/model.ts` around `export function canTransition`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/model.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

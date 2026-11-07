@@ -1,0 +1,135 @@
+{
+  "module_id": "gitpoint-01-github-data-models",
+  "answers": [
+    {
+      "question_id": "gitpoint-m01-q01",
+      "correct_option_id": "gitpoint-m01-q01-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: Repository/issue shapes, response mapping, sample data, and sort fields The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m01-q01-o2": "The lesson traces 'Repository/issue shapes, response mapping, sample data, and sort fields' to src/github.ts. This option instead claims 'Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers', which the cited source does not establish for this behavior.",
+        "gitpoint-m01-q01-o3": "The lesson traces 'Repository/issue shapes, response mapping, sample data, and sort fields' to src/github.ts. This option instead claims 'Search fields, date ordering, state filters, and list rendering', which the cited source does not establish for this behavior.",
+        "gitpoint-m01-q01-o4": "The lesson traces 'Repository/issue shapes, response mapping, sample data, and sort fields' to src/github.ts. This option instead claims 'Cache keys, load/save, corrupt data, provider startup, and fallback state', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Repository/issue shapes, response mapping, sample data, and sort fields",
+      "related_lesson_id": "gitpoint-01-github-data-models-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m01-q02",
+      "correct_option_id": "gitpoint-m01-q02-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: src/github.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m01-q02-o3": "The lesson traces 'src/github.ts' to src/github.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "gitpoint-m01-q02-o4": "The lesson traces 'src/github.ts' to src/github.ts. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior.",
+        "gitpoint-m01-q02-o2": "The lesson traces 'src/github.ts' to src/github.ts. This option instead claims 'src/data.ts', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Repository/issue shapes, response mapping, sample data, and sort fields",
+      "related_lesson_id": "gitpoint-01-github-data-models-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m01-q03",
+      "correct_option_id": "gitpoint-m01-q03-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: Seed data is a fallback/demo and should not be confused with live account data. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m01-q03-o4": "The lesson traces 'Seed data is a fallback/demo and should not be confused with live account data.' to src/github.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "gitpoint-m01-q03-o2": "The lesson traces 'Seed data is a fallback/demo and should not be confused with live account data.' to src/github.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "gitpoint-m01-q03-o3": "The lesson traces 'Seed data is a fallback/demo and should not be confused with live account data.' to src/github.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Repository/issue shapes, response mapping, sample data, and sort fields",
+      "related_lesson_id": "gitpoint-01-github-data-models-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m01-q04",
+      "correct_option_id": "gitpoint-m01-q04-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: An API response is not yet a screen-ready object. Learn the normalized types and mapper functions, then compare sample rows with fields expected from GitHub. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m01-q04-o2": "The lesson traces 'An API response is not yet a screen-ready object. Learn the normalized types and mapper functions, then compare sample rows with fields expected from GitHub.' to src/github.ts. This option instead claims 'Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers', which the cited source does not establish for this behavior.",
+        "gitpoint-m01-q04-o3": "The lesson traces 'An API response is not yet a screen-ready object. Learn the normalized types and mapper functions, then compare sample rows with fields expected from GitHub.' to src/github.ts. This option instead claims 'Search fields, date ordering, state filters, and list rendering', which the cited source does not establish for this behavior.",
+        "gitpoint-m01-q04-o4": "The lesson traces 'An API response is not yet a screen-ready object. Learn the normalized types and mapper functions, then compare sample rows with fields expected from GitHub.' to src/github.ts. This option instead claims 'Cache keys, load/save, corrupt data, provider startup, and fallback state', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Repository/issue shapes, response mapping, sample data, and sort fields",
+      "related_lesson_id": "gitpoint-01-github-data-models-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m01-q05",
+      "correct_option_id": "gitpoint-m01-q05-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: Repository/issue shapes, response mapping, sample data, and sort fields The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m01-q05-o2": "The lesson traces 'Repository/issue shapes, response mapping, sample data, and sort fields' to src/github.ts. This option instead claims 'Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers', which the cited source does not establish for this behavior.",
+        "gitpoint-m01-q05-o3": "The lesson traces 'Repository/issue shapes, response mapping, sample data, and sort fields' to src/github.ts. This option instead claims 'Search fields, date ordering, state filters, and list rendering', which the cited source does not establish for this behavior.",
+        "gitpoint-m01-q05-o4": "The lesson traces 'Repository/issue shapes, response mapping, sample data, and sort fields' to src/github.ts. This option instead claims 'Cache keys, load/save, corrupt data, provider startup, and fallback state', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Repository/issue shapes, response mapping, sample data, and sort fields",
+      "related_lesson_id": "gitpoint-01-github-data-models-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m01-q06",
+      "correct_option_id": "gitpoint-m01-q06-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: An API response is not yet a screen-ready object. Learn the normalized types and mapper functions, then compare sample rows with fields expected from GitHub. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m01-q06-o3": "The lesson traces 'An API response is not yet a screen-ready object. Learn the normalized types and mapper functions, then compare sample rows with fields expected from GitHub.' to src/github.ts. This option instead claims 'Search fields, date ordering, state filters, and list rendering', which the cited source does not establish for this behavior.",
+        "gitpoint-m01-q06-o4": "The lesson traces 'An API response is not yet a screen-ready object. Learn the normalized types and mapper functions, then compare sample rows with fields expected from GitHub.' to src/github.ts. This option instead claims 'Cache keys, load/save, corrupt data, provider startup, and fallback state', which the cited source does not establish for this behavior.",
+        "gitpoint-m01-q06-o2": "The lesson traces 'An API response is not yet a screen-ready object. Learn the normalized types and mapper functions, then compare sample rows with fields expected from GitHub.' to src/github.ts. This option instead claims 'Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Repository/issue shapes, response mapping, sample data, and sort fields",
+      "related_lesson_id": "gitpoint-01-github-data-models-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m01-q07",
+      "correct_option_id": "gitpoint-m01-q07-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: Seed data is a fallback/demo and should not be confused with live account data. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m01-q07-o4": "The lesson traces 'Seed data is a fallback/demo and should not be confused with live account data.' to src/github.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "gitpoint-m01-q07-o2": "The lesson traces 'Seed data is a fallback/demo and should not be confused with live account data.' to src/github.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "gitpoint-m01-q07-o3": "The lesson traces 'Seed data is a fallback/demo and should not be confused with live account data.' to src/github.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Repository/issue shapes, response mapping, sample data, and sort fields",
+      "related_lesson_id": "gitpoint-01-github-data-models-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m01-q08",
+      "correct_option_id": "gitpoint-m01-q08-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: src/github.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m01-q08-o2": "The lesson traces 'src/github.ts' to src/github.ts. This option instead claims 'src/data.ts', which the cited source does not establish for this behavior.",
+        "gitpoint-m01-q08-o3": "The lesson traces 'src/github.ts' to src/github.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "gitpoint-m01-q08-o4": "The lesson traces 'src/github.ts' to src/github.ts. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Repository/issue shapes, response mapping, sample data, and sort fields",
+      "related_lesson_id": "gitpoint-01-github-data-models-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m01-q09",
+      "correct_option_id": "gitpoint-m01-q09-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: Do not claim production readiness: Seed data is a fallback/demo and should not be confused with live account data. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m01-q09-o2": "The lesson traces 'Do not claim production readiness: Seed data is a fallback/demo and should not be confused with live account data.' to src/github.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "gitpoint-m01-q09-o3": "The lesson traces 'Do not claim production readiness: Seed data is a fallback/demo and should not be confused with live account data.' to src/github.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior.",
+        "gitpoint-m01-q09-o4": "The lesson traces 'Do not claim production readiness: Seed data is a fallback/demo and should not be confused with live account data.' to src/github.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Repository/issue shapes, response mapping, sample data, and sort fields",
+      "related_lesson_id": "gitpoint-01-github-data-models-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m01-q10",
+      "correct_option_id": "gitpoint-m01-q10-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: An API response is not yet a screen-ready object. Learn the normalized types and mapper functions, then compare sample rows with fields expected from GitHub. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m01-q10-o3": "The lesson traces 'An API response is not yet a screen-ready object. Learn the normalized types and mapper functions, then compare sample rows with fields expected from GitHub.' to src/github.ts. This option instead claims 'Search fields, date ordering, state filters, and list rendering', which the cited source does not establish for this behavior.",
+        "gitpoint-m01-q10-o4": "The lesson traces 'An API response is not yet a screen-ready object. Learn the normalized types and mapper functions, then compare sample rows with fields expected from GitHub.' to src/github.ts. This option instead claims 'Cache keys, load/save, corrupt data, provider startup, and fallback state', which the cited source does not establish for this behavior.",
+        "gitpoint-m01-q10-o2": "The lesson traces 'An API response is not yet a screen-ready object. Learn the normalized types and mapper functions, then compare sample rows with fields expected from GitHub.' to src/github.ts. This option instead claims 'Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Repository/issue shapes, response mapping, sample data, and sort fields",
+      "related_lesson_id": "gitpoint-01-github-data-models-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "module_id": "duckduckgo-for-ios-02-tabs-and-persistence",
+  "title": "Tabs as identifiable records",
+  "description": "A tab is a labelled bookmark to a current page. Follow its ID through selection and closing, then inspect what the store saves across launches and what happens when the last tab closes.",
+  "learning_objectives": [
+    "Explain browsertab identity, selected-tab behavior, close rules, and userdefaults persistence in plain language.",
+    "Trace final class BrowserStore in `Sources/Models.swift` and explain the relevant behavior.",
+    "State and preserve this limit: Persisted URLs are ordinary browsing data and this sample has limited privacy guarantees."
+  ],
+  "learning_objective_ids": [
+    "duckduckgo-for-ios-02-tabs-and-persistence-objective-01",
+    "duckduckgo-for-ios-02-tabs-and-persistence-objective-02",
+    "duckduckgo-for-ios-02-tabs-and-persistence-objective-03"
+  ],
+  "source_files": [
+    "Sources/Models.swift",
+    "Sources/Screens/TabsView.swift",
+    "Tests/BrowserCoreTests.swift"
+  ],
+  "prerequisites": [
+    "duckduckgo-for-ios-01-browser-core-and-url-routing"
+  ],
+  "ordered_lesson_ids": [
+    "duckduckgo-for-ios-02-tabs-and-persistence-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "BrowserTab identity, selected-tab behavior, close rules, and UserDefaults persistence",
+    "A tab is a labelled bookmark to a current page. Follow its ID through selection and closing, then inspect what the store saves across launches and what happens when the last tab closes.",
+    "Persisted URLs are ordinary browsing data and this sample has limited privacy guarantees."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Sources/Models.swift` around `final class BrowserStore`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Sources/Models.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

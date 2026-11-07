@@ -1,0 +1,31 @@
+{
+  "title": "DuckDuckGo for iOS",
+  "slug": "duckduckgo-for-ios",
+  "description": "Build a SwiftUI/WebKit browser sample with search routing, tabs, settings, tracker-rule demonstrations, and a private-mode data policy.",
+  "problem": "Learners need a source-grounded way to understand and extend DuckDuckGo for iOS while separating implemented behavior from demo data, simulations, and missing integrations.",
+  "audience": "Third-year undergraduate students who have completed introductory programming and want a practical mobile mini-project.",
+  "stack": [
+    "Swift",
+    "SwiftUI",
+    "WebKit",
+    "XCTest",
+    "XcodeGen"
+  ],
+  "difficulty": "upper-intermediate",
+  "prerequisites": [
+    "Basic programming and source-code reading",
+    "Git basics and ability to run the platform tooling described in the source README"
+  ],
+  "learning_outcomes": [
+    "Explain and trace input classification, scheme handling, empty input, and search-engine selection in its named source files.",
+    "Explain and trace browsertab identity, selected-tab behavior, close rules, and userdefaults persistence in its named source files.",
+    "Explain and trace uiviewrepresentable/webkit bridge, navigation state, and page loading in its named source files.",
+    "Explain and trace rule-list json, rule compilation, blocked-count reporting, and private data behavior in its named source files.",
+    "Explain and trace observable store injection, navigation, toolbar actions, and settings binding in its named source files.",
+    "Explain and trace xctest coverage, xcodegen project configuration, and documentation boundary in its named source files.",
+    "Distinguish unit-test evidence from device, service, and deployment evidence.",
+    "Propose a safe, bounded extension without describing it as already implemented."
+  ],
+  "estimated_duration_hours": 12,
+  "content_schema_version": "1.0.0"
+}

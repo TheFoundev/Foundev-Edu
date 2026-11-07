@@ -1,0 +1,135 @@
+{
+  "module_id": "rocket-chat-mobile-02-ddp-client-lifecycle",
+  "answers": [
+    {
+      "question_id": "rocket-chat-mobile-m02-q01",
+      "correct_option_id": "rocket-chat-mobile-m02-q01-o1",
+      "correct_explanation": "The lesson and source file `src/chat.ts` identify this behavior as: Socket abstraction, connect/session, method IDs, ping/pong, timeout and close The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m02-q01-o2": "The lesson traces 'Socket abstraction, connect/session, method IDs, ping/pong, timeout and close' to src/chat.ts. This option instead claims 'Channel/ChatMessage models, seeded data, and unread display', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m02-q01-o3": "The lesson traces 'Socket abstraction, connect/session, method IDs, ping/pong, timeout and close' to src/chat.ts. This option instead claims 'toChannels/toMessages, filtering, unread counts, optimistic append', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m02-q01-o4": "The lesson traces 'Socket abstraction, connect/session, method IDs, ping/pong, timeout and close' to src/chat.ts. This option instead claims 'EXPO_PUBLIC_CHAT_URL, secure WebSocket validation, `.example` rejection, idle status', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Socket abstraction, connect/session, method IDs, ping/pong, timeout and close",
+      "related_lesson_id": "rocket-chat-mobile-02-ddp-client-lifecycle-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/src/chat.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m02-q02",
+      "correct_option_id": "rocket-chat-mobile-m02-q02-o1",
+      "correct_explanation": "The lesson and source file `src/chat.ts` identify this behavior as: src/chat.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m02-q02-o3": "The lesson traces 'src/chat.ts' to src/chat.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m02-q02-o4": "The lesson traces 'src/chat.ts' to src/chat.ts. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m02-q02-o2": "The lesson traces 'src/chat.ts' to src/chat.ts. This option instead claims 'test/chat.test.ts', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Socket abstraction, connect/session, method IDs, ping/pong, timeout and close",
+      "related_lesson_id": "rocket-chat-mobile-02-ddp-client-lifecycle-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/src/chat.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m02-q03",
+      "correct_option_id": "rocket-chat-mobile-m02-q03-o1",
+      "correct_explanation": "The lesson and source file `src/chat.ts` identify this behavior as: The app-specific methods channels.list, chat.sendMessage, and chat.getMessages are not verified Rocket.Chat method names; DDP method calls are marked deprecated in current Rocket.Chat documentation. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m02-q03-o4": "The lesson traces 'The app-specific methods channels.list, chat.sendMessage, and chat.getMessages are not verified Rocket.Chat method names; DDP method calls are marked deprecated in current Rocket.Chat documentation.' to src/chat.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m02-q03-o2": "The lesson traces 'The app-specific methods channels.list, chat.sendMessage, and chat.getMessages are not verified Rocket.Chat method names; DDP method calls are marked deprecated in current Rocket.Chat documentation.' to src/chat.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m02-q03-o3": "The lesson traces 'The app-specific methods channels.list, chat.sendMessage, and chat.getMessages are not verified Rocket.Chat method names; DDP method calls are marked deprecated in current Rocket.Chat documentation.' to src/chat.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Socket abstraction, connect/session, method IDs, ping/pong, timeout and close",
+      "related_lesson_id": "rocket-chat-mobile-02-ddp-client-lifecycle-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/src/chat.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m02-q04",
+      "correct_option_id": "rocket-chat-mobile-m02-q04-o1",
+      "correct_explanation": "The lesson and source file `src/chat.ts` identify this behavior as: A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m02-q04-o2": "The lesson traces 'A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests.' to src/chat.ts. This option instead claims 'Channel/ChatMessage models, seeded data, and unread display', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m02-q04-o3": "The lesson traces 'A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests.' to src/chat.ts. This option instead claims 'toChannels/toMessages, filtering, unread counts, optimistic append', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m02-q04-o4": "The lesson traces 'A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests.' to src/chat.ts. This option instead claims 'EXPO_PUBLIC_CHAT_URL, secure WebSocket validation, `.example` rejection, idle status', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Socket abstraction, connect/session, method IDs, ping/pong, timeout and close",
+      "related_lesson_id": "rocket-chat-mobile-02-ddp-client-lifecycle-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/src/chat.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m02-q05",
+      "correct_option_id": "rocket-chat-mobile-m02-q05-o1",
+      "correct_explanation": "The lesson and source file `src/chat.ts` identify this behavior as: Socket abstraction, connect/session, method IDs, ping/pong, timeout and close The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m02-q05-o2": "The lesson traces 'Socket abstraction, connect/session, method IDs, ping/pong, timeout and close' to src/chat.ts. This option instead claims 'Channel/ChatMessage models, seeded data, and unread display', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m02-q05-o3": "The lesson traces 'Socket abstraction, connect/session, method IDs, ping/pong, timeout and close' to src/chat.ts. This option instead claims 'toChannels/toMessages, filtering, unread counts, optimistic append', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m02-q05-o4": "The lesson traces 'Socket abstraction, connect/session, method IDs, ping/pong, timeout and close' to src/chat.ts. This option instead claims 'EXPO_PUBLIC_CHAT_URL, secure WebSocket validation, `.example` rejection, idle status', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Socket abstraction, connect/session, method IDs, ping/pong, timeout and close",
+      "related_lesson_id": "rocket-chat-mobile-02-ddp-client-lifecycle-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/src/chat.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m02-q06",
+      "correct_option_id": "rocket-chat-mobile-m02-q06-o1",
+      "correct_explanation": "The lesson and source file `src/chat.ts` identify this behavior as: A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m02-q06-o3": "The lesson traces 'A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests.' to src/chat.ts. This option instead claims 'toChannels/toMessages, filtering, unread counts, optimistic append', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m02-q06-o4": "The lesson traces 'A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests.' to src/chat.ts. This option instead claims 'EXPO_PUBLIC_CHAT_URL, secure WebSocket validation, `.example` rejection, idle status', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m02-q06-o2": "The lesson traces 'A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests.' to src/chat.ts. This option instead claims 'Channel/ChatMessage models, seeded data, and unread display', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Socket abstraction, connect/session, method IDs, ping/pong, timeout and close",
+      "related_lesson_id": "rocket-chat-mobile-02-ddp-client-lifecycle-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/src/chat.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m02-q07",
+      "correct_option_id": "rocket-chat-mobile-m02-q07-o1",
+      "correct_explanation": "The lesson and source file `src/chat.ts` identify this behavior as: The app-specific methods channels.list, chat.sendMessage, and chat.getMessages are not verified Rocket.Chat method names; DDP method calls are marked deprecated in current Rocket.Chat documentation. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m02-q07-o4": "The lesson traces 'The app-specific methods channels.list, chat.sendMessage, and chat.getMessages are not verified Rocket.Chat method names; DDP method calls are marked deprecated in current Rocket.Chat documentation.' to src/chat.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m02-q07-o2": "The lesson traces 'The app-specific methods channels.list, chat.sendMessage, and chat.getMessages are not verified Rocket.Chat method names; DDP method calls are marked deprecated in current Rocket.Chat documentation.' to src/chat.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m02-q07-o3": "The lesson traces 'The app-specific methods channels.list, chat.sendMessage, and chat.getMessages are not verified Rocket.Chat method names; DDP method calls are marked deprecated in current Rocket.Chat documentation.' to src/chat.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Socket abstraction, connect/session, method IDs, ping/pong, timeout and close",
+      "related_lesson_id": "rocket-chat-mobile-02-ddp-client-lifecycle-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/src/chat.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m02-q08",
+      "correct_option_id": "rocket-chat-mobile-m02-q08-o1",
+      "correct_explanation": "The lesson and source file `src/chat.ts` identify this behavior as: src/chat.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m02-q08-o2": "The lesson traces 'src/chat.ts' to src/chat.ts. This option instead claims 'test/chat.test.ts', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m02-q08-o3": "The lesson traces 'src/chat.ts' to src/chat.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m02-q08-o4": "The lesson traces 'src/chat.ts' to src/chat.ts. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Socket abstraction, connect/session, method IDs, ping/pong, timeout and close",
+      "related_lesson_id": "rocket-chat-mobile-02-ddp-client-lifecycle-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/src/chat.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m02-q09",
+      "correct_option_id": "rocket-chat-mobile-m02-q09-o1",
+      "correct_explanation": "The lesson and source file `src/chat.ts` identify this behavior as: Do not claim production readiness: The app-specific methods channels.list, chat.sendMessage, and chat.getMessages are not verified Rocket.Chat method names; DDP method calls are marked deprecated in current Rocket.Chat documentation. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m02-q09-o2": "The lesson traces 'Do not claim production readiness: The app-specific methods channels.list, chat.sendMessage, and chat.getMessages are not verified Rocket.Chat method names; DDP method calls are marked deprecated in current Rocket.Chat documentation.' to src/chat.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m02-q09-o3": "The lesson traces 'Do not claim production readiness: The app-specific methods channels.list, chat.sendMessage, and chat.getMessages are not verified Rocket.Chat method names; DDP method calls are marked deprecated in current Rocket.Chat documentation.' to src/chat.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m02-q09-o4": "The lesson traces 'Do not claim production readiness: The app-specific methods channels.list, chat.sendMessage, and chat.getMessages are not verified Rocket.Chat method names; DDP method calls are marked deprecated in current Rocket.Chat documentation.' to src/chat.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Socket abstraction, connect/session, method IDs, ping/pong, timeout and close",
+      "related_lesson_id": "rocket-chat-mobile-02-ddp-client-lifecycle-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/src/chat.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m02-q10",
+      "correct_option_id": "rocket-chat-mobile-m02-q10-o1",
+      "correct_explanation": "The lesson and source file `src/chat.ts` identify this behavior as: A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m02-q10-o3": "The lesson traces 'A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests.' to src/chat.ts. This option instead claims 'toChannels/toMessages, filtering, unread counts, optimistic append', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m02-q10-o4": "The lesson traces 'A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests.' to src/chat.ts. This option instead claims 'EXPO_PUBLIC_CHAT_URL, secure WebSocket validation, `.example` rejection, idle status', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m02-q10-o2": "The lesson traces 'A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests.' to src/chat.ts. This option instead claims 'Channel/ChatMessage models, seeded data, and unread display', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Socket abstraction, connect/session, method IDs, ping/pong, timeout and close",
+      "related_lesson_id": "rocket-chat-mobile-02-ddp-client-lifecycle-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/src/chat.ts"
+    }
+  ]
+}

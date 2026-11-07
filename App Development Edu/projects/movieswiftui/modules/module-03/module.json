@@ -1,0 +1,41 @@
+{
+  "module_id": "movieswiftui-03-search-genres-and-sorting",
+  "title": "Narrow and order the catalogue",
+  "description": "Search removes items that do not match; sorting changes order without changing the movie facts. Trace each control to its pure function and compare boundary cases in tests.",
+  "learning_objectives": [
+    "Explain text search fields, genre filtering, rating/year ordering, and ui controls in plain language.",
+    "Trace func search in `Sources/Core.swift` and explain the relevant behavior.",
+    "State and preserve this limit: Results only cover the in-memory catalogue available to the store."
+  ],
+  "learning_objective_ids": [
+    "movieswiftui-03-search-genres-and-sorting-objective-01",
+    "movieswiftui-03-search-genres-and-sorting-objective-02",
+    "movieswiftui-03-search-genres-and-sorting-objective-03"
+  ],
+  "source_files": [
+    "Sources/Core.swift",
+    "Sources/Screens/SearchView.swift",
+    "Sources/Screens/DiscoverView.swift"
+  ],
+  "prerequisites": [
+    "movieswiftui-02-api-response-mapping"
+  ],
+  "ordered_lesson_ids": [
+    "movieswiftui-03-search-genres-and-sorting-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Text search fields, genre filtering, rating/year ordering, and UI controls",
+    "Search removes items that do not match; sorting changes order without changing the movie facts. Trace each control to its pure function and compare boundary cases in tests.",
+    "Results only cover the in-memory catalogue available to the store."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Sources/Core.swift` around `func search`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Sources/Core.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

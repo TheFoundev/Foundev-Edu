@@ -1,0 +1,40 @@
+{
+  "module_id": "duckduckgo-for-ios-03-webkit-integration",
+  "title": "Embed a web page inside a SwiftUI screen",
+  "description": "SwiftUI draws the controls; WebKit renders the actual webpage. Read the wrapper boundary and trace URL changes from browser state into WKWebView.",
+  "learning_objectives": [
+    "Explain uiviewrepresentable/webkit bridge, navigation state, and page loading in plain language.",
+    "Trace struct WebView in `Sources/WebView.swift` and explain the relevant behavior.",
+    "State and preserve this limit: This is an educational WebKit wrapper, not a custom browser engine or hardened production browser."
+  ],
+  "learning_objective_ids": [
+    "duckduckgo-for-ios-03-webkit-integration-objective-01",
+    "duckduckgo-for-ios-03-webkit-integration-objective-02",
+    "duckduckgo-for-ios-03-webkit-integration-objective-03"
+  ],
+  "source_files": [
+    "Sources/WebView.swift",
+    "Sources/Screens/BrowseView.swift"
+  ],
+  "prerequisites": [
+    "duckduckgo-for-ios-02-tabs-and-persistence"
+  ],
+  "ordered_lesson_ids": [
+    "duckduckgo-for-ios-03-webkit-integration-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "UIViewRepresentable/WebKit bridge, navigation state, and page loading",
+    "SwiftUI draws the controls; WebKit renders the actual webpage. Read the wrapper boundary and trace URL changes from browser state into WKWebView.",
+    "This is an educational WebKit wrapper, not a custom browser engine or hardened production browser."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Sources/WebView.swift` around `struct WebView`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Sources/WebView.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

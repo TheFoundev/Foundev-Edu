@@ -1,0 +1,41 @@
+{
+  "module_id": "bluesky-social-app-03-interactions",
+  "title": "Likes and saved posts",
+  "description": "A like or bookmark is a personal switch keyed by post ID. Trace each button into its toggle function, then inspect how bookmarkedPosts resolves IDs back into feed records while keeping feed order.",
+  "learning_objectives": [
+    "Explain likemap, bookmarkmap, toggles, and the saved-post projection in plain language.",
+    "Trace export function toggleBookmark in `src/feed.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Bookmarks and likes are per-device demo state, not synced account records."
+  ],
+  "learning_objective_ids": [
+    "bluesky-social-app-03-interactions-objective-01",
+    "bluesky-social-app-03-interactions-objective-02",
+    "bluesky-social-app-03-interactions-objective-03"
+  ],
+  "source_files": [
+    "src/screens/FeedScreen.tsx",
+    "src/screens/ProfileScreen.tsx",
+    "src/feed.ts"
+  ],
+  "prerequisites": [
+    "bluesky-social-app-02-publishing-and-validation"
+  ],
+  "ordered_lesson_ids": [
+    "bluesky-social-app-03-interactions-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "LikeMap, BookmarkMap, toggles, and the saved-post projection",
+    "A like or bookmark is a personal switch keyed by post ID. Trace each button into its toggle function, then inspect how bookmarkedPosts resolves IDs back into feed records while keeping feed order.",
+    "Bookmarks and likes are per-device demo state, not synced account records."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/feed.ts` around `export function toggleBookmark`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/feed.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

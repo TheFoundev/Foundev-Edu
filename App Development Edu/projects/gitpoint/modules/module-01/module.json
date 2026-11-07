@@ -1,0 +1,38 @@
+{
+  "module_id": "gitpoint-01-github-data-models",
+  "title": "Repositories and issues as typed records",
+  "description": "An API response is not yet a screen-ready object. Learn the normalized types and mapper functions, then compare sample rows with fields expected from GitHub.",
+  "learning_objectives": [
+    "Explain repository/issue shapes, response mapping, sample data, and sort fields in plain language.",
+    "Trace export type Repo in `src/github.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Seed data is a fallback/demo and should not be confused with live account data."
+  ],
+  "learning_objective_ids": [
+    "gitpoint-01-github-data-models-objective-01",
+    "gitpoint-01-github-data-models-objective-02",
+    "gitpoint-01-github-data-models-objective-03"
+  ],
+  "source_files": [
+    "src/github.ts",
+    "src/data.ts"
+  ],
+  "prerequisites": [],
+  "ordered_lesson_ids": [
+    "gitpoint-01-github-data-models-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Repository/issue shapes, response mapping, sample data, and sort fields",
+    "An API response is not yet a screen-ready object. Learn the normalized types and mapper functions, then compare sample rows with fields expected from GitHub.",
+    "Seed data is a fallback/demo and should not be confused with live account data."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/github.ts` around `export type Repo`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/github.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

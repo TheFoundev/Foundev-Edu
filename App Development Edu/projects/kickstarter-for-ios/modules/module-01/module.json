@@ -1,0 +1,38 @@
+{
+  "module_id": "kickstarter-for-ios-01-project-records-and-sample-catalogue",
+  "title": "A project card starts with a project record",
+  "description": "A crowdfunding card is a view of a project record. Read fields such as goal and pledged amount, then follow computed progress into the reusable card UI.",
+  "learning_objectives": [
+    "Explain project fields, computed progress, identity, and sample catalogue in plain language.",
+    "Trace struct Project in `Sources/Models.swift` and explain the relevant behavior.",
+    "State and preserve this limit: The catalogue is sample content and does not come from Kickstarter."
+  ],
+  "learning_objective_ids": [
+    "kickstarter-for-ios-01-project-records-and-sample-catalogue-objective-01",
+    "kickstarter-for-ios-01-project-records-and-sample-catalogue-objective-02",
+    "kickstarter-for-ios-01-project-records-and-sample-catalogue-objective-03"
+  ],
+  "source_files": [
+    "Sources/Models.swift",
+    "Sources/Components.swift"
+  ],
+  "prerequisites": [],
+  "ordered_lesson_ids": [
+    "kickstarter-for-ios-01-project-records-and-sample-catalogue-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Project fields, computed progress, identity, and sample catalogue",
+    "A crowdfunding card is a view of a project record. Read fields such as goal and pledged amount, then follow computed progress into the reusable card UI.",
+    "The catalogue is sample content and does not come from Kickstarter."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Sources/Models.swift` around `struct Project`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Sources/Models.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

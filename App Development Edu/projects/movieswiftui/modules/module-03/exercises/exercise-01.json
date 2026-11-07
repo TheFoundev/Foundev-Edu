@@ -1,0 +1,37 @@
+{
+  "exercise_id": "movieswiftui-03-search-genres-and-sorting-exercise-01",
+  "title": "Inspect and extend: Narrow and order the catalogue",
+  "objective": "Use the real implementation in `Sources/Core.swift` to demonstrate and safely improve text search fields, genre filtering, rating/year ordering, and ui controls.",
+  "problem": "Search removes items that do not match; sorting changes order without changing the movie facts. Trace each control to its pure function and compare boundary cases in tests. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `Sources/Core.swift` and the related project files: Sources/Core.swift; Sources/Screens/SearchView.swift; Sources/Screens/DiscoverView.swift.",
+    "Add or improve a focused behavior related to text search fields, genre filtering, rating/year ordering, and ui controls.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: Results only cover the in-memory catalogue available to the store.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "Search removes items that do not match; sorting changes order without changing the movie facts. Trace each control to its pure function and compare boundary cases in tests.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `Sources/Core.swift`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `func search` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

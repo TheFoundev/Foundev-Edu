@@ -1,0 +1,37 @@
+{
+  "exercise_id": "duckduckgo-for-ios-05-screen-composition-and-controls-exercise-01",
+  "title": "Inspect and extend: Compose browse, tabs, and settings views",
+  "objective": "Use the real implementation in `Sources/ContentView.swift` to demonstrate and safely improve observable store injection, navigation, toolbar actions, and settings binding.",
+  "problem": "A view tree is a set of nested controls that observe one shared store. Trace the store environment from ContentView into controls and see how a setting changes the core behavior. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `Sources/ContentView.swift` and the related project files: Sources/ContentView.swift; Sources/Screens/BrowseView.swift; Sources/Screens/SettingsView.swift.",
+    "Add or improve a focused behavior related to observable store injection, navigation, toolbar actions, and settings binding.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: The views demonstrate a subset of a browser workflow and are not a production browser UX.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "A view tree is a set of nested controls that observe one shared store. Trace the store environment from ContentView into controls and see how a setting changes the core behavior.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `Sources/ContentView.swift`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `struct ContentView` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

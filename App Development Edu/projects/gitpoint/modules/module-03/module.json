@@ -1,0 +1,41 @@
+{
+  "module_id": "gitpoint-03-search-sort-and-filter",
+  "title": "Turn a list into useful repository and issue views",
+  "description": "Filtering is like applying a sieve to a list. Trace text matching and state filtering into the screens, then verify which fields participate and how empty results are shown.",
+  "learning_objectives": [
+    "Explain search fields, date ordering, state filters, and list rendering in plain language.",
+    "Trace export function searchRepos in `src/github.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Filtering the current dataset is not the same as server-side search across all GitHub."
+  ],
+  "learning_objective_ids": [
+    "gitpoint-03-search-sort-and-filter-objective-01",
+    "gitpoint-03-search-sort-and-filter-objective-02",
+    "gitpoint-03-search-sort-and-filter-objective-03"
+  ],
+  "source_files": [
+    "src/github.ts",
+    "src/screens/ReposScreen.tsx",
+    "src/screens/IssuesScreen.tsx"
+  ],
+  "prerequisites": [
+    "gitpoint-02-rest-client-and-errors"
+  ],
+  "ordered_lesson_ids": [
+    "gitpoint-03-search-sort-and-filter-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Search fields, date ordering, state filters, and list rendering",
+    "Filtering is like applying a sieve to a list. Trace text matching and state filtering into the screens, then verify which fields participate and how empty results are shown.",
+    "Filtering the current dataset is not the same as server-side search across all GitHub."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/github.ts` around `export function searchRepos`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/github.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

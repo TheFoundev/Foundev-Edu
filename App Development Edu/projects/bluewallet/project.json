@@ -1,0 +1,33 @@
+{
+  "title": "BlueWallet",
+  "slug": "bluewallet",
+  "description": "Build and inspect a wallet-learning demo covering address validation, transaction planning, wallet adapters, and defensive refusal of incomplete transaction broadcast.",
+  "problem": "Learners need a source-grounded way to understand and extend BlueWallet while separating implemented behavior from demo data, simulations, and missing integrations.",
+  "audience": "Third-year undergraduate students who have completed introductory programming and want a practical mobile mini-project.",
+  "stack": [
+    "Expo",
+    "React Native",
+    "TypeScript",
+    "Bitcoin address formats",
+    "Electrum JSON-RPC adapter with React Native WebSocket transport (not operational as configured)"
+  ],
+  "difficulty": "upper-intermediate",
+  "prerequisites": [
+    "Basic programming and source-code reading",
+    "Git basics and ability to run the platform tooling described in the source README"
+  ],
+  "learning_outcomes": [
+    "Explain and trace transaction shape, satoshi formatting, seeded records, and tab shell in its named source files.",
+    "Explain and trace bech32 checksum and witness program validation; base58 prefix/length screening; accepted address boundary in its named source files.",
+    "Explain and trace sha-256 implementation and electrum script hash preparation in its named source files.",
+    "Explain and trace utxo selection, fee estimate, amount validation, and unsigned output construction in its named source files.",
+    "Explain and trace walletcore boundary, demowalletcore, electrumwalletcore, and websocket transport in its named source files.",
+    "Explain and trace unsignedtransaction type, signing gap, refusal path, and no-send regression test in its named source files.",
+    "Explain and trace key/value adapter, json parsing, corrupt state, and local transaction storage in its named source files.",
+    "Explain and trace validation-to-plan flow, explicit limitations, test evidence, and release boundary in its named source files.",
+    "Distinguish unit-test evidence from device, service, and deployment evidence.",
+    "Propose a safe, bounded extension without describing it as already implemented."
+  ],
+  "estimated_duration_hours": 16,
+  "content_schema_version": "1.0.0"
+}

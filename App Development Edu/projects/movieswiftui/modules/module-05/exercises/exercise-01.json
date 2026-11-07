@@ -1,0 +1,37 @@
+{
+  "exercise_id": "movieswiftui-05-detail-and-view-composition-exercise-01",
+  "title": "Inspect and extend: Compose discovery, detail, and reusable poster views",
+  "objective": "Use the real implementation in `Sources/Components.swift` to demonstrate and safely improve navigation, card poster rendering, shared store, and detail fields.",
+  "problem": "SwiftUI composes reusable views around the selected movie. Follow the navigation value into the detail and understand which fields are present even when artwork is only a placeholder. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `Sources/Components.swift` and the related project files: Sources/ContentView.swift; Sources/Components.swift; Sources/Screens/MovieDetailView.swift; Sources/Screens/DiscoverView.swift.",
+    "Add or improve a focused behavior related to navigation, card poster rendering, shared store, and detail fields.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: Poster URLs/assets may be absent; do not imply a live streaming/catalogue integration.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "SwiftUI composes reusable views around the selected movie. Follow the navigation value into the detail and understand which fields are present even when artwork is only a placeholder.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `Sources/Components.swift`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `struct MoviePoster` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

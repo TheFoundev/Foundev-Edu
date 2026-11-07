@@ -1,0 +1,41 @@
+{
+  "module_id": "bluewallet-05-wallet-adapters-and-transport",
+  "title": "Demo wallet versus Electrum adapter",
+  "description": "An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel.",
+  "learning_objectives": [
+    "Explain walletcore boundary, demowalletcore, electrumwalletcore, and websocket transport in plain language.",
+    "Trace this.protocol = options.protocol ?? 'ssl'; in `src/wallet-core.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Source mismatch: the client constructs a React Native WebSocket but defaults to protocol ssl (and accepts tcp), neither of which is an accepted WebSocket URL scheme. A raw Electrum TCP/TLS endpoint needs a compatible WebSocket gateway or a different transport. The adapter also sends only when the socket is OPEN while calls can be issued immediately, so a first request may be silently dropped. No live Electrum connection was tested."
+  ],
+  "learning_objective_ids": [
+    "bluewallet-05-wallet-adapters-and-transport-objective-01",
+    "bluewallet-05-wallet-adapters-and-transport-objective-02",
+    "bluewallet-05-wallet-adapters-and-transport-objective-03"
+  ],
+  "source_files": [
+    "src/wallet-core.ts",
+    "src/persistence.ts",
+    "src/walletContext.tsx"
+  ],
+  "prerequisites": [
+    "bluewallet-04-utxo-selection-and-fees"
+  ],
+  "ordered_lesson_ids": [
+    "bluewallet-05-wallet-adapters-and-transport-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport",
+    "An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel.",
+    "Source mismatch: the client constructs a React Native WebSocket but defaults to protocol ssl (and accepts tcp), neither of which is an accepted WebSocket URL scheme. A raw Electrum TCP/TLS endpoint needs a compatible WebSocket gateway or a different transport. The adapter also sends only when the socket is OPEN while calls can be issued immediately, so a first request may be silently dropped. No live Electrum connection was tested."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/wallet-core.ts` around `this.protocol = options.protocol ?? 'ssl';`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/wallet-core.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

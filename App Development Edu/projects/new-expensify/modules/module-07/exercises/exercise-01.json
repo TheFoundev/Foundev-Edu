@@ -1,0 +1,37 @@
+{
+  "exercise_id": "new-expensify-07-tests-security-and-mini-project-exercise-01",
+  "title": "Inspect and extend: Test invariants and explain privacy limits",
+  "objective": "Use the real implementation in `test/model.test.ts` to demonstrate and safely improve unit coverage, test command, pii sensitivity, and runtime evidence.",
+  "problem": "Pure model tests make business rules repeatable, but they do not establish secure storage or accounting correctness. Build a demo and identify where real financial and privacy review would be needed. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `test/model.test.ts` and the related project files: test/model.test.ts; package.json; README.md.",
+    "Add or improve a focused behavior related to unit coverage, test command, pii sensitivity, and runtime evidence.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: Do not store real employee expense data in this educational app.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "Pure model tests make business rules repeatable, but they do not establish secure storage or accounting correctness. Build a demo and identify where real financial and privacy review would be needed.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `test/model.test.ts`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `expense needs a title and a positive amount` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

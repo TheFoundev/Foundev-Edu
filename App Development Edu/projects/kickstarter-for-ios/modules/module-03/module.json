@@ -1,0 +1,41 @@
+{
+  "module_id": "kickstarter-for-ios-03-project-detail-and-pledge-rules",
+  "title": "Validate a pledge without moving money",
+  "description": "A pledge form can validate an amount and update a demo model. Trace input through the rule method and back to the detail screen. This models workflow only; it never calls a payment processor.",
+  "learning_objectives": [
+    "Explain pledge validation, status changes, detail state, and progress display in plain language.",
+    "Trace checkPledge in `Sources/Core.swift` and explain the relevant behavior.",
+    "State and preserve this limit: No charge, payment authorization, or server-side pledge is performed."
+  ],
+  "learning_objective_ids": [
+    "kickstarter-for-ios-03-project-detail-and-pledge-rules-objective-01",
+    "kickstarter-for-ios-03-project-detail-and-pledge-rules-objective-02",
+    "kickstarter-for-ios-03-project-detail-and-pledge-rules-objective-03"
+  ],
+  "source_files": [
+    "Sources/Core.swift",
+    "Sources/Screens/ProjectDetailView.swift",
+    "Tests/ProjectCoreTests.swift"
+  ],
+  "prerequisites": [
+    "kickstarter-for-ios-02-discovery-search-and-categories"
+  ],
+  "ordered_lesson_ids": [
+    "kickstarter-for-ios-03-project-detail-and-pledge-rules-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Pledge validation, status changes, detail state, and progress display",
+    "A pledge form can validate an amount and update a demo model. Trace input through the rule method and back to the detail screen. This models workflow only; it never calls a payment processor.",
+    "No charge, payment authorization, or server-side pledge is performed."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Sources/Core.swift` around `checkPledge`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Sources/Core.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "exercise_id": "bluewallet-07-local-persistence-and-failure-cases-exercise-01",
+  "title": "Inspect and extend: Store wallet state without inventing chain truth",
+  "objective": "Use the real implementation in `src/store.ts` to demonstrate and safely improve key/value adapter, json parsing, corrupt state, and local transaction storage.",
+  "problem": "Local storage is a notebook, not a blockchain. Read the storage adapter and store tests, then distinguish persisted demo history from provider-synchronized history. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `src/store.ts` and the related project files: src/store.ts; src/persistence.ts; test/store.test.ts.",
+    "Add or improve a focused behavior related to key/value adapter, json parsing, corrupt state, and local transaction storage.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: Local changes can survive restarts but are not proof of confirmed on-chain transactions.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "Local storage is a notebook, not a blockchain. Read the storage adapter and store tests, then distinguish persisted demo history from provider-synchronized history.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `src/store.ts`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `export class WalletStore` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

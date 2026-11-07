@@ -1,0 +1,44 @@
+{
+  "module_id": "kickstarter-for-ios-05-swiftui-navigation-and-shared-store",
+  "title": "Build a screen flow around one observable store",
+  "description": "SwiftUI views describe the screens from current model state. Follow the shared store from the app root into lists, reusable cards, profile, and detail actions, then see state changes refresh the UI.",
+  "learning_objectives": [
+    "Explain environment object injection, navigationstack, and view actions in plain language.",
+    "Trace struct ContentView in `Sources/ContentView.swift` and explain the relevant behavior.",
+    "State and preserve this limit: The source is a compact educational client, not production Kickstarter UI."
+  ],
+  "learning_objective_ids": [
+    "kickstarter-for-ios-05-swiftui-navigation-and-shared-store-objective-01",
+    "kickstarter-for-ios-05-swiftui-navigation-and-shared-store-objective-02",
+    "kickstarter-for-ios-05-swiftui-navigation-and-shared-store-objective-03"
+  ],
+  "source_files": [
+    "Sources/ContentView.swift",
+    "Sources/Components.swift",
+    "Sources/Screens/DiscoverView.swift",
+    "Sources/Screens/SavedView.swift",
+    "Sources/Screens/ProjectDetailView.swift",
+    "Sources/Screens/ProfileView.swift"
+  ],
+  "prerequisites": [
+    "kickstarter-for-ios-04-saved-and-backed-state"
+  ],
+  "ordered_lesson_ids": [
+    "kickstarter-for-ios-05-swiftui-navigation-and-shared-store-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Environment object injection, NavigationStack, and view actions",
+    "SwiftUI views describe the screens from current model state. Follow the shared store from the app root into lists, reusable cards, profile, and detail actions, then see state changes refresh the UI.",
+    "The source is a compact educational client, not production Kickstarter UI."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Sources/ContentView.swift` around `struct ContentView`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Sources/ContentView.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

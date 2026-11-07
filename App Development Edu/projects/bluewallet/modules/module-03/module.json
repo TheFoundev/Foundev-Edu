@@ -1,0 +1,41 @@
+{
+  "module_id": "bluewallet-03-hashing-and-electrum-identifiers",
+  "title": "Hashing and script-hash derivation",
+  "description": "Hashing turns bytes into a fixed fingerprint; Electrum queries use a script-derived identifier. Follow the SHA implementation and the address-to-script-hash conversion, including byte order and test vectors.",
+  "learning_objectives": [
+    "Explain sha-256 implementation and electrum script hash preparation in plain language.",
+    "Trace export function scriptHashFromSegwitAddress in `src/address.ts` and explain the relevant behavior.",
+    "State and preserve this limit: A correct hash does not sign a transaction or protect a connection."
+  ],
+  "learning_objective_ids": [
+    "bluewallet-03-hashing-and-electrum-identifiers-objective-01",
+    "bluewallet-03-hashing-and-electrum-identifiers-objective-02",
+    "bluewallet-03-hashing-and-electrum-identifiers-objective-03"
+  ],
+  "source_files": [
+    "src/sha256.ts",
+    "src/address.ts",
+    "test/wallet.test.ts"
+  ],
+  "prerequisites": [
+    "bluewallet-02-address-validation"
+  ],
+  "ordered_lesson_ids": [
+    "bluewallet-03-hashing-and-electrum-identifiers-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "SHA-256 implementation and Electrum script hash preparation",
+    "Hashing turns bytes into a fixed fingerprint; Electrum queries use a script-derived identifier. Follow the SHA implementation and the address-to-script-hash conversion, including byte order and test vectors.",
+    "A correct hash does not sign a transaction or protect a connection."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/address.ts` around `export function scriptHashFromSegwitAddress`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/address.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

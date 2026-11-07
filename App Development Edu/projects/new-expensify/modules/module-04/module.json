@@ -1,0 +1,41 @@
+{
+  "module_id": "new-expensify-04-local-chat-and-search",
+  "title": "A report chat is a local message list",
+  "description": "A chat screen can feel live while messages remain local. Follow a typed message through the model and UI, and note there is no remote participant or server in this implementation.",
+  "learning_objectives": [
+    "Explain message append, trimming/search, and conversation display in plain language.",
+    "Trace export function addMessage in `src/model.ts` and explain the relevant behavior.",
+    "State and preserve this limit: No real-time chat, identity system, or server moderation is implemented."
+  ],
+  "learning_objective_ids": [
+    "new-expensify-04-local-chat-and-search-objective-01",
+    "new-expensify-04-local-chat-and-search-objective-02",
+    "new-expensify-04-local-chat-and-search-objective-03"
+  ],
+  "source_files": [
+    "src/model.ts",
+    "src/screens/ChatScreen.tsx",
+    "test/model.test.ts"
+  ],
+  "prerequisites": [
+    "new-expensify-03-report-workflow-states"
+  ],
+  "ordered_lesson_ids": [
+    "new-expensify-04-local-chat-and-search-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Message append, trimming/search, and conversation display",
+    "A chat screen can feel live while messages remain local. Follow a typed message through the model and UI, and note there is no remote participant or server in this implementation.",
+    "No real-time chat, identity system, or server moderation is implemented."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/model.ts` around `export function addMessage`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/model.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

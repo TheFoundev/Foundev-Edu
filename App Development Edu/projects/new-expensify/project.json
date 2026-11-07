@@ -1,0 +1,31 @@
+{
+  "title": "New Expensify",
+  "slug": "new-expensify",
+  "description": "Build an expense-report learning app with validation, workflow transitions, category totals, local chat, settings, and persistent local state.",
+  "problem": "Learners need a source-grounded way to understand and extend New Expensify while separating implemented behavior from demo data, simulations, and missing integrations.",
+  "audience": "Third-year undergraduate students who have completed introductory programming and want a practical mobile mini-project.",
+  "stack": [
+    "Expo",
+    "React Native",
+    "TypeScript",
+    "AsyncStorage"
+  ],
+  "difficulty": "upper-intermediate",
+  "prerequisites": [
+    "Basic programming and source-code reading",
+    "Git basics and ability to run the platform tooling described in the source README"
+  ],
+  "learning_outcomes": [
+    "Explain and trace expense and report types, seed records, and derived totals in its named source files.",
+    "Explain and trace positive amount/title validation, category aggregation, and money formatting in its named source files.",
+    "Explain and trace allowed status transitions, submission preconditions, and immutable updates in its named source files.",
+    "Explain and trace message append, trimming/search, and conversation display in its named source files.",
+    "Explain and trace context initialization, asyncstorage adapter, store keys, hydration and effects in its named source files.",
+    "Explain and trace navigation tabs, shared controls/theme, action wiring, and ui status in its named source files.",
+    "Explain and trace unit coverage, test command, pii sensitivity, and runtime evidence in its named source files.",
+    "Distinguish unit-test evidence from device, service, and deployment evidence.",
+    "Propose a safe, bounded extension without describing it as already implemented."
+  ],
+  "estimated_duration_hours": 14,
+  "content_schema_version": "1.0.0"
+}

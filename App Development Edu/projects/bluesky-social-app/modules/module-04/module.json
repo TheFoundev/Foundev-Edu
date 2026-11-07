@@ -1,0 +1,41 @@
+{
+  "module_id": "bluesky-social-app-04-state-and-persistence",
+  "title": "One shared feed and its stored snapshot",
+  "description": "Context is the shared clipboard for screens; the store is the filing cabinet. Follow load, state initialization, effects that save changes, and the storage adapter. Inspect defaults for older saves with no bookmarks and malformed values.",
+  "learning_objectives": [
+    "Explain context state lifecycle, storage adapter, migration defaults, and corrupt data in plain language.",
+    "Trace export class FeedStore in `src/store.ts` and explain the relevant behavior.",
+    "State and preserve this limit: AsyncStorage is persistent local key/value storage; it is not encrypted account sync."
+  ],
+  "learning_objective_ids": [
+    "bluesky-social-app-04-state-and-persistence-objective-01",
+    "bluesky-social-app-04-state-and-persistence-objective-02",
+    "bluesky-social-app-04-state-and-persistence-objective-03"
+  ],
+  "source_files": [
+    "src/feedContext.tsx",
+    "src/store.ts",
+    "src/persistence.ts"
+  ],
+  "prerequisites": [
+    "bluesky-social-app-03-interactions"
+  ],
+  "ordered_lesson_ids": [
+    "bluesky-social-app-04-state-and-persistence-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Context state lifecycle, storage adapter, migration defaults, and corrupt data",
+    "Context is the shared clipboard for screens; the store is the filing cabinet. Follow load, state initialization, effects that save changes, and the storage adapter. Inspect defaults for older saves with no bookmarks and malformed values.",
+    "AsyncStorage is persistent local key/value storage; it is not encrypted account sync."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/store.ts` around `export class FeedStore`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/store.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

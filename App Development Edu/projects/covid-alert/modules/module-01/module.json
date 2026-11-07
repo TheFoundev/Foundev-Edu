@@ -1,0 +1,38 @@
+{
+  "module_id": "covid-alert-01-domain-model-and-fixtures",
+  "title": "What a check record means",
+  "description": "A record is a dated note about an app action, not a diagnosis. Read the types and fixtures, identify where sample checks and symptom choices come from, and mark which information is fictional.",
+  "learning_objectives": [
+    "Explain check and exposureresult types, symptom catalogue, resources, and sample data in plain language.",
+    "Trace export const symptomItems in `src/data.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Seeded content is demonstration data; no public-health data source is contacted."
+  ],
+  "learning_objective_ids": [
+    "covid-alert-01-domain-model-and-fixtures-objective-01",
+    "covid-alert-01-domain-model-and-fixtures-objective-02",
+    "covid-alert-01-domain-model-and-fixtures-objective-03"
+  ],
+  "source_files": [
+    "src/exposure.ts",
+    "src/data.ts"
+  ],
+  "prerequisites": [],
+  "ordered_lesson_ids": [
+    "covid-alert-01-domain-model-and-fixtures-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Check and ExposureResult types, symptom catalogue, resources, and sample data",
+    "A record is a dated note about an app action, not a diagnosis. Read the types and fixtures, identify where sample checks and symptom choices come from, and mark which information is fictional.",
+    "Seeded content is demonstration data; no public-health data source is contacted."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/data.ts` around `export const symptomItems`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/data.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

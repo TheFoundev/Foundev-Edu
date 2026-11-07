@@ -1,0 +1,40 @@
+{
+  "module_id": "gitpoint-02-rest-client-and-errors",
+  "title": "Make and interpret GitHub API requests",
+  "description": "An HTTP client sends a request and turns a response into a useful shape. Trace URL construction and response handling, then inspect how API errors and rate-limit metadata are represented.",
+  "learning_objectives": [
+    "Explain fetch client, request paths, headers, response mapping, githuberror, and rate-limit headers in plain language.",
+    "Trace export class GitHubClient in `src/github.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Authentication, token storage, pagination breadth, and current provider quotas need review before production use."
+  ],
+  "learning_objective_ids": [
+    "gitpoint-02-rest-client-and-errors-objective-01",
+    "gitpoint-02-rest-client-and-errors-objective-02",
+    "gitpoint-02-rest-client-and-errors-objective-03"
+  ],
+  "source_files": [
+    "src/github.ts",
+    "test/github.test.ts"
+  ],
+  "prerequisites": [
+    "gitpoint-01-github-data-models"
+  ],
+  "ordered_lesson_ids": [
+    "gitpoint-02-rest-client-and-errors-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
+    "An HTTP client sends a request and turns a response into a useful shape. Trace URL construction and response handling, then inspect how API errors and rate-limit metadata are represented.",
+    "Authentication, token storage, pagination breadth, and current provider quotas need review before production use."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/github.ts` around `export class GitHubClient`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/github.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

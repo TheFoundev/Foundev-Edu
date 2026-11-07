@@ -1,0 +1,133 @@
+{
+  "project_slug": "new-expensify",
+  "references": [
+    {
+      "id": "react-native",
+      "title": "React Native",
+      "url": "https://reactnative.dev/docs/getting-started",
+      "kind": "official documentation"
+    },
+    {
+      "id": "expo",
+      "title": "Expo",
+      "url": "https://docs.expo.dev/",
+      "kind": "official documentation"
+    },
+    {
+      "id": "async-storage",
+      "title": "Async Storage",
+      "url": "https://docs.expo.dev/versions/latest/sdk/async-storage/",
+      "kind": "official documentation"
+    },
+    {
+      "id": "node-test",
+      "title": "Node Test",
+      "url": "https://nodejs.org/api/test.html",
+      "kind": "official documentation"
+    },
+    {
+      "id": "owasp-mobile",
+      "title": "Owasp Mobile",
+      "url": "https://mas.owasp.org/MASVS/",
+      "kind": "official documentation"
+    }
+  ],
+  "source_references": [
+    {
+      "path": "src/model.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/data.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/ReportsScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/model.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "test/model.test.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/ReportsScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/model.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/ReportsScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "test/model.test.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/model.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/ChatScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "test/model.test.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/expenseContext.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/store.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "App.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/ReportsScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/ChatScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/SettingsScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/components.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/theme.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "App.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "test/model.test.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "package.json",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "README.md",
+      "purpose": "Implementation of record for the corresponding module"
+    }
+  ]
+}

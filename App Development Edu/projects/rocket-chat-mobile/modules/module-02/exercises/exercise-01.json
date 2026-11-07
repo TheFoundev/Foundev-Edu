@@ -1,0 +1,37 @@
+{
+  "exercise_id": "rocket-chat-mobile-02-ddp-client-lifecycle-exercise-01",
+  "title": "Inspect and extend: A client opens a socket and speaks DDP messages",
+  "objective": "Use the real implementation in `src/chat.ts` to demonstrate and safely improve socket abstraction, connect/session, method ids, ping/pong, timeout and close.",
+  "problem": "A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `src/chat.ts` and the related project files: src/chat.ts; test/chat.test.ts.",
+    "Add or improve a focused behavior related to socket abstraction, connect/session, method ids, ping/pong, timeout and close.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: The app-specific methods channels.list, chat.sendMessage, and chat.getMessages are not verified Rocket.Chat method names; DDP method calls are marked deprecated in current Rocket.Chat documentation.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `src/chat.ts`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `export class DdpClient` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

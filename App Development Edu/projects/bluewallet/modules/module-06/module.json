@@ -1,0 +1,41 @@
+{
+  "module_id": "bluewallet-06-signing-and-broadcast-safety",
+  "title": "Why unsigned bytes must not be broadcast",
+  "description": "A payment plan is an unsigned instruction sheet, not a valid signed transaction. Trace the UI flow to broadcast and confirm the Electrum adapter throws before sending anything because signing and raw serialization are missing.",
+  "learning_objectives": [
+    "Explain unsignedtransaction type, signing gap, refusal path, and no-send regression test in plain language.",
+    "Trace async broadcast(tx: UnsignedTransaction) in `src/wallet-core.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Key management, signing, raw serialization, Lightning, and production broadcast are not implemented."
+  ],
+  "learning_objective_ids": [
+    "bluewallet-06-signing-and-broadcast-safety-objective-01",
+    "bluewallet-06-signing-and-broadcast-safety-objective-02",
+    "bluewallet-06-signing-and-broadcast-safety-objective-03"
+  ],
+  "source_files": [
+    "src/wallet-core.ts",
+    "src/walletContext.tsx",
+    "test/wallet.test.ts"
+  ],
+  "prerequisites": [
+    "bluewallet-05-wallet-adapters-and-transport"
+  ],
+  "ordered_lesson_ids": [
+    "bluewallet-06-signing-and-broadcast-safety-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "UnsignedTransaction type, signing gap, refusal path, and no-send regression test",
+    "A payment plan is an unsigned instruction sheet, not a valid signed transaction. Trace the UI flow to broadcast and confirm the Electrum adapter throws before sending anything because signing and raw serialization are missing.",
+    "Key management, signing, raw serialization, Lightning, and production broadcast are not implemented."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/wallet-core.ts` around `async broadcast(tx: UnsignedTransaction)`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/wallet-core.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

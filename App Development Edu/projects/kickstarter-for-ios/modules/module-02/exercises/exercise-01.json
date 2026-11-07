@@ -1,0 +1,37 @@
+{
+  "exercise_id": "kickstarter-for-ios-02-discovery-search-and-categories-exercise-01",
+  "title": "Inspect and extend: Find projects in a local catalogue",
+  "objective": "Use the real implementation in `Sources/Core.swift` to demonstrate and safely improve category data, search matching, sort ordering, and discovery rendering.",
+  "problem": "Search and category controls narrow the sample catalogue. Follow the selected filter into the store/core and verify how the view receives the filtered projects. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `Sources/Core.swift` and the related project files: Sources/Core.swift; Sources/Screens/DiscoverView.swift; Tests/ProjectCoreTests.swift.",
+    "Add or improve a focused behavior related to category data, search matching, sort ordering, and discovery rendering.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: Search is local and only covers the included sample records.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "Search and category controls narrow the sample catalogue. Follow the selected filter into the store/core and verify how the view receives the filtered projects.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `Sources/Core.swift`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `func search` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

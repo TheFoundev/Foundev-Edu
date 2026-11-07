@@ -1,0 +1,37 @@
+{
+  "exercise_id": "bluewallet-01-wallet-model-and-ui-exercise-01",
+  "title": "Inspect and extend: A wallet screen is a view of money records",
+  "objective": "Use the real implementation in `src/data.ts` to demonstrate and safely improve transaction shape, satoshi formatting, seeded records, and tab shell.",
+  "problem": "A wallet dashboard is a summary board. Learn the Transaction record and satoshi units, then trace the sample rows and balance display into the screen. Separate sample values from values supplied by a network. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `src/data.ts` and the related project files: src/data.ts; src/screens/WalletScreen.tsx; src/components.tsx; src/theme.ts; App.tsx.",
+    "Add or improve a focused behavior related to transaction shape, satoshi formatting, seeded records, and tab shell.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: Seed transactions and the receive address are placeholders; never send funds to them.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "A wallet dashboard is a summary board. Learn the Transaction record and satoshi units, then trace the sample rows and balance display into the screen. Separate sample values from values supplied by a network.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `src/data.ts`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `export type Transaction` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

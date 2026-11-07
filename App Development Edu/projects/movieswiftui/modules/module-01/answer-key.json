@@ -1,0 +1,135 @@
+{
+  "module_id": "movieswiftui-01-movie-model-and-catalogue",
+  "answers": [
+    {
+      "question_id": "movieswiftui-m01-q01",
+      "correct_option_id": "movieswiftui-m01-q01-o1",
+      "correct_explanation": "The lesson and source file `Sources/Models.swift` identify this behavior as: Movie fields, identity, MovieInfo projection, and seed records The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "movieswiftui-m01-q01-o2": "The lesson traces 'Movie fields, identity, MovieInfo projection, and seed records' to Sources/Models.swift. This option instead claims 'Response decoding/mapping and missing-field rejection', which the cited source does not establish for this behavior.",
+        "movieswiftui-m01-q01-o3": "The lesson traces 'Movie fields, identity, MovieInfo projection, and seed records' to Sources/Models.swift. This option instead claims 'Text search fields, genre filtering, rating/year ordering, and UI controls', which the cited source does not establish for this behavior.",
+        "movieswiftui-m01-q01-o4": "The lesson traces 'Movie fields, identity, MovieInfo projection, and seed records' to Sources/Models.swift. This option instead claims 'Store defaults, add/remove operations, and UserDefaults reload', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Movie fields, identity, MovieInfo projection, and seed records",
+      "related_lesson_id": "movieswiftui-01-movie-model-and-catalogue-lesson-01",
+      "supporting_reference": "../../../../../projects/movieswiftui/Sources/Models.swift"
+    },
+    {
+      "question_id": "movieswiftui-m01-q02",
+      "correct_option_id": "movieswiftui-m01-q02-o1",
+      "correct_explanation": "The lesson and source file `Sources/Models.swift` identify this behavior as: Sources/Models.swift The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "movieswiftui-m01-q02-o3": "The lesson traces 'Sources/Models.swift' to Sources/Models.swift. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "movieswiftui-m01-q02-o4": "The lesson traces 'Sources/Models.swift' to Sources/Models.swift. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior.",
+        "movieswiftui-m01-q02-o2": "The lesson traces 'Sources/Models.swift' to Sources/Models.swift. This option instead claims 'Sources/Core.swift', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Movie fields, identity, MovieInfo projection, and seed records",
+      "related_lesson_id": "movieswiftui-01-movie-model-and-catalogue-lesson-01",
+      "supporting_reference": "../../../../../projects/movieswiftui/Sources/Models.swift"
+    },
+    {
+      "question_id": "movieswiftui-m01-q03",
+      "correct_option_id": "movieswiftui-m01-q03-o1",
+      "correct_explanation": "The lesson and source file `Sources/Models.swift` identify this behavior as: The displayed catalogue is seeded sample data; live movie-service access is not configured. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "movieswiftui-m01-q03-o4": "The lesson traces 'The displayed catalogue is seeded sample data; live movie-service access is not configured.' to Sources/Models.swift. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "movieswiftui-m01-q03-o2": "The lesson traces 'The displayed catalogue is seeded sample data; live movie-service access is not configured.' to Sources/Models.swift. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "movieswiftui-m01-q03-o3": "The lesson traces 'The displayed catalogue is seeded sample data; live movie-service access is not configured.' to Sources/Models.swift. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Movie fields, identity, MovieInfo projection, and seed records",
+      "related_lesson_id": "movieswiftui-01-movie-model-and-catalogue-lesson-01",
+      "supporting_reference": "../../../../../projects/movieswiftui/Sources/Models.swift"
+    },
+    {
+      "question_id": "movieswiftui-m01-q04",
+      "correct_option_id": "movieswiftui-m01-q04-o1",
+      "correct_explanation": "The lesson and source file `Sources/Models.swift` identify this behavior as: A catalogue row stores facts that screens need. Read the Movie model and seed entries, then see how a compact detail projection is derived. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "movieswiftui-m01-q04-o2": "The lesson traces 'A catalogue row stores facts that screens need. Read the Movie model and seed entries, then see how a compact detail projection is derived.' to Sources/Models.swift. This option instead claims 'Response decoding/mapping and missing-field rejection', which the cited source does not establish for this behavior.",
+        "movieswiftui-m01-q04-o3": "The lesson traces 'A catalogue row stores facts that screens need. Read the Movie model and seed entries, then see how a compact detail projection is derived.' to Sources/Models.swift. This option instead claims 'Text search fields, genre filtering, rating/year ordering, and UI controls', which the cited source does not establish for this behavior.",
+        "movieswiftui-m01-q04-o4": "The lesson traces 'A catalogue row stores facts that screens need. Read the Movie model and seed entries, then see how a compact detail projection is derived.' to Sources/Models.swift. This option instead claims 'Store defaults, add/remove operations, and UserDefaults reload', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Movie fields, identity, MovieInfo projection, and seed records",
+      "related_lesson_id": "movieswiftui-01-movie-model-and-catalogue-lesson-01",
+      "supporting_reference": "../../../../../projects/movieswiftui/Sources/Models.swift"
+    },
+    {
+      "question_id": "movieswiftui-m01-q05",
+      "correct_option_id": "movieswiftui-m01-q05-o1",
+      "correct_explanation": "The lesson and source file `Sources/Models.swift` identify this behavior as: Movie fields, identity, MovieInfo projection, and seed records The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "movieswiftui-m01-q05-o2": "The lesson traces 'Movie fields, identity, MovieInfo projection, and seed records' to Sources/Models.swift. This option instead claims 'Response decoding/mapping and missing-field rejection', which the cited source does not establish for this behavior.",
+        "movieswiftui-m01-q05-o3": "The lesson traces 'Movie fields, identity, MovieInfo projection, and seed records' to Sources/Models.swift. This option instead claims 'Text search fields, genre filtering, rating/year ordering, and UI controls', which the cited source does not establish for this behavior.",
+        "movieswiftui-m01-q05-o4": "The lesson traces 'Movie fields, identity, MovieInfo projection, and seed records' to Sources/Models.swift. This option instead claims 'Store defaults, add/remove operations, and UserDefaults reload', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Movie fields, identity, MovieInfo projection, and seed records",
+      "related_lesson_id": "movieswiftui-01-movie-model-and-catalogue-lesson-01",
+      "supporting_reference": "../../../../../projects/movieswiftui/Sources/Models.swift"
+    },
+    {
+      "question_id": "movieswiftui-m01-q06",
+      "correct_option_id": "movieswiftui-m01-q06-o1",
+      "correct_explanation": "The lesson and source file `Sources/Models.swift` identify this behavior as: A catalogue row stores facts that screens need. Read the Movie model and seed entries, then see how a compact detail projection is derived. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "movieswiftui-m01-q06-o3": "The lesson traces 'A catalogue row stores facts that screens need. Read the Movie model and seed entries, then see how a compact detail projection is derived.' to Sources/Models.swift. This option instead claims 'Text search fields, genre filtering, rating/year ordering, and UI controls', which the cited source does not establish for this behavior.",
+        "movieswiftui-m01-q06-o4": "The lesson traces 'A catalogue row stores facts that screens need. Read the Movie model and seed entries, then see how a compact detail projection is derived.' to Sources/Models.swift. This option instead claims 'Store defaults, add/remove operations, and UserDefaults reload', which the cited source does not establish for this behavior.",
+        "movieswiftui-m01-q06-o2": "The lesson traces 'A catalogue row stores facts that screens need. Read the Movie model and seed entries, then see how a compact detail projection is derived.' to Sources/Models.swift. This option instead claims 'Response decoding/mapping and missing-field rejection', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Movie fields, identity, MovieInfo projection, and seed records",
+      "related_lesson_id": "movieswiftui-01-movie-model-and-catalogue-lesson-01",
+      "supporting_reference": "../../../../../projects/movieswiftui/Sources/Models.swift"
+    },
+    {
+      "question_id": "movieswiftui-m01-q07",
+      "correct_option_id": "movieswiftui-m01-q07-o1",
+      "correct_explanation": "The lesson and source file `Sources/Models.swift` identify this behavior as: The displayed catalogue is seeded sample data; live movie-service access is not configured. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "movieswiftui-m01-q07-o4": "The lesson traces 'The displayed catalogue is seeded sample data; live movie-service access is not configured.' to Sources/Models.swift. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "movieswiftui-m01-q07-o2": "The lesson traces 'The displayed catalogue is seeded sample data; live movie-service access is not configured.' to Sources/Models.swift. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "movieswiftui-m01-q07-o3": "The lesson traces 'The displayed catalogue is seeded sample data; live movie-service access is not configured.' to Sources/Models.swift. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Movie fields, identity, MovieInfo projection, and seed records",
+      "related_lesson_id": "movieswiftui-01-movie-model-and-catalogue-lesson-01",
+      "supporting_reference": "../../../../../projects/movieswiftui/Sources/Models.swift"
+    },
+    {
+      "question_id": "movieswiftui-m01-q08",
+      "correct_option_id": "movieswiftui-m01-q08-o1",
+      "correct_explanation": "The lesson and source file `Sources/Models.swift` identify this behavior as: Sources/Models.swift The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "movieswiftui-m01-q08-o2": "The lesson traces 'Sources/Models.swift' to Sources/Models.swift. This option instead claims 'Sources/Core.swift', which the cited source does not establish for this behavior.",
+        "movieswiftui-m01-q08-o3": "The lesson traces 'Sources/Models.swift' to Sources/Models.swift. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "movieswiftui-m01-q08-o4": "The lesson traces 'Sources/Models.swift' to Sources/Models.swift. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Movie fields, identity, MovieInfo projection, and seed records",
+      "related_lesson_id": "movieswiftui-01-movie-model-and-catalogue-lesson-01",
+      "supporting_reference": "../../../../../projects/movieswiftui/Sources/Models.swift"
+    },
+    {
+      "question_id": "movieswiftui-m01-q09",
+      "correct_option_id": "movieswiftui-m01-q09-o1",
+      "correct_explanation": "The lesson and source file `Sources/Models.swift` identify this behavior as: Do not claim production readiness: The displayed catalogue is seeded sample data; live movie-service access is not configured. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "movieswiftui-m01-q09-o2": "The lesson traces 'Do not claim production readiness: The displayed catalogue is seeded sample data; live movie-service access is not configured.' to Sources/Models.swift. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "movieswiftui-m01-q09-o3": "The lesson traces 'Do not claim production readiness: The displayed catalogue is seeded sample data; live movie-service access is not configured.' to Sources/Models.swift. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior.",
+        "movieswiftui-m01-q09-o4": "The lesson traces 'Do not claim production readiness: The displayed catalogue is seeded sample data; live movie-service access is not configured.' to Sources/Models.swift. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Movie fields, identity, MovieInfo projection, and seed records",
+      "related_lesson_id": "movieswiftui-01-movie-model-and-catalogue-lesson-01",
+      "supporting_reference": "../../../../../projects/movieswiftui/Sources/Models.swift"
+    },
+    {
+      "question_id": "movieswiftui-m01-q10",
+      "correct_option_id": "movieswiftui-m01-q10-o1",
+      "correct_explanation": "The lesson and source file `Sources/Models.swift` identify this behavior as: A catalogue row stores facts that screens need. Read the Movie model and seed entries, then see how a compact detail projection is derived. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "movieswiftui-m01-q10-o3": "The lesson traces 'A catalogue row stores facts that screens need. Read the Movie model and seed entries, then see how a compact detail projection is derived.' to Sources/Models.swift. This option instead claims 'Text search fields, genre filtering, rating/year ordering, and UI controls', which the cited source does not establish for this behavior.",
+        "movieswiftui-m01-q10-o4": "The lesson traces 'A catalogue row stores facts that screens need. Read the Movie model and seed entries, then see how a compact detail projection is derived.' to Sources/Models.swift. This option instead claims 'Store defaults, add/remove operations, and UserDefaults reload', which the cited source does not establish for this behavior.",
+        "movieswiftui-m01-q10-o2": "The lesson traces 'A catalogue row stores facts that screens need. Read the Movie model and seed entries, then see how a compact detail projection is derived.' to Sources/Models.swift. This option instead claims 'Response decoding/mapping and missing-field rejection', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Movie fields, identity, MovieInfo projection, and seed records",
+      "related_lesson_id": "movieswiftui-01-movie-model-and-catalogue-lesson-01",
+      "supporting_reference": "../../../../../projects/movieswiftui/Sources/Models.swift"
+    }
+  ]
+}

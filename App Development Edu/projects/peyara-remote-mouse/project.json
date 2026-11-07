@@ -1,0 +1,34 @@
+{
+  "title": "Peyara Remote Mouse",
+  "slug": "peyara-remote-mouse",
+  "description": "Build a phone touchpad and keyboard plus a WebSocket relay, with validated messages, reconnect logic, storage, and safe-by-default relay settings.",
+  "problem": "Learners need a source-grounded way to understand and extend Peyara Remote Mouse while separating implemented behavior from demo data, simulations, and missing integrations.",
+  "audience": "Third-year undergraduate students who have completed introductory programming and want a practical mobile mini-project.",
+  "stack": [
+    "Expo",
+    "React Native",
+    "TypeScript",
+    "Node.js",
+    "WebSocket",
+    "optional robotjs"
+  ],
+  "difficulty": "upper-intermediate",
+  "prerequisites": [
+    "Basic programming and source-code reading",
+    "Git basics and ability to run the platform tooling described in the source README"
+  ],
+  "learning_outcomes": [
+    "Explain and trace event union, json encoding, decoding, bounds, and unknown-event rejection in its named source files.",
+    "Explain and trace panresponder deltas, click/scroll actions, text and key events in its named source files.",
+    "Explain and trace socket lifecycle, connection snapshots, exponential delay, max retry, and manual disconnect in its named source files.",
+    "Explain and trace host validation, settings key, asyncstorage adapter, and load/save flow in its named source files.",
+    "Explain and trace loopback default, bind acknowledgement, port/sensitivity validation, opt-in robotjs, event mapping in its named source files.",
+    "Explain and trace end-to-end protocol path, fallback logging, and evidence from isolated tests in its named source files.",
+    "Explain and trace safe defaults, trusted lan warning, robotjs native dependency, and shutdown/review in its named source files.",
+    "Explain and trace integration checklist, ui feedback, observable connection state, demonstration, and safe teardown in its named source files.",
+    "Distinguish unit-test evidence from device, service, and deployment evidence.",
+    "Propose a safe, bounded extension without describing it as already implemented."
+  ],
+  "estimated_duration_hours": 16,
+  "content_schema_version": "1.0.0"
+}

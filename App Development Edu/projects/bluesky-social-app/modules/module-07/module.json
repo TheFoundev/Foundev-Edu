@@ -1,0 +1,43 @@
+{
+  "module_id": "bluesky-social-app-07-mini-project-integration",
+  "title": "Integrating a coherent social-feed release",
+  "description": "Follow a user action from screen through context to model and storage, and back to the rendered list. Use this map to design an integration demo that labels local-only behavior honestly.",
+  "learning_objectives": [
+    "Explain end-to-end feature tracing, persistence evidence, and safe demo scope in plain language.",
+    "Trace toggleBookmark in `src/feedContext.tsx` and explain the relevant behavior.",
+    "State and preserve this limit: The app is a learning implementation, not upstream Bluesky client parity."
+  ],
+  "learning_objective_ids": [
+    "bluesky-social-app-07-mini-project-integration-objective-01",
+    "bluesky-social-app-07-mini-project-integration-objective-02",
+    "bluesky-social-app-07-mini-project-integration-objective-03"
+  ],
+  "source_files": [
+    "App.tsx",
+    "src/feedContext.tsx",
+    "src/screens/FeedScreen.tsx",
+    "src/screens/ProfileScreen.tsx",
+    "test/feed.test.ts"
+  ],
+  "prerequisites": [
+    "bluesky-social-app-06-tests-and-protocol-boundary"
+  ],
+  "ordered_lesson_ids": [
+    "bluesky-social-app-07-mini-project-integration-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "End-to-end feature tracing, persistence evidence, and safe demo scope",
+    "Follow a user action from screen through context to model and storage, and back to the rendered list. Use this map to design an integration demo that labels local-only behavior honestly.",
+    "The app is a learning implementation, not upstream Bluesky client parity."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/feedContext.tsx` around `toggleBookmark`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/feedContext.tsx.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

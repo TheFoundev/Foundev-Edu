@@ -1,0 +1,45 @@
+{
+  "module_id": "peyara-remote-mouse-08-mini-project-integration",
+  "title": "Deliver a tested phone-to-host demo",
+  "description": "Bring protocol, client, shared components, and screens together in a controlled lab. Demonstrate local logging first; enable real input only on a trusted isolated setup and reset it afterward.",
+  "learning_objectives": [
+    "Explain integration checklist, ui feedback, observable connection state, demonstration, and safe teardown in plain language.",
+    "Trace export function connect in `src/data.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Do not operate the unauthenticated relay outside a controlled trusted environment."
+  ],
+  "learning_objective_ids": [
+    "peyara-remote-mouse-08-mini-project-integration-objective-01",
+    "peyara-remote-mouse-08-mini-project-integration-objective-02",
+    "peyara-remote-mouse-08-mini-project-integration-objective-03"
+  ],
+  "source_files": [
+    "App.tsx",
+    "src/protocol.ts",
+    "src/connection.ts",
+    "src/components.tsx",
+    "src/theme.ts",
+    "server/config.js",
+    "test/connection.test.ts"
+  ],
+  "prerequisites": [
+    "peyara-remote-mouse-07-operation-and-security"
+  ],
+  "ordered_lesson_ids": [
+    "peyara-remote-mouse-08-mini-project-integration-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Integration checklist, UI feedback, observable connection state, demonstration, and safe teardown",
+    "Bring protocol, client, shared components, and screens together in a controlled lab. Demonstrate local logging first; enable real input only on a trusted isolated setup and reset it afterward.",
+    "Do not operate the unauthenticated relay outside a controlled trusted environment."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/data.ts` around `export function connect`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/data.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

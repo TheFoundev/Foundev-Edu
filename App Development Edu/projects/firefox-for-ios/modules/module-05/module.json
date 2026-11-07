@@ -1,0 +1,42 @@
+{
+  "module_id": "firefox-for-ios-05-state-and-screen-composition",
+  "title": "Share browser state across screens",
+  "description": "A shared store lets multiple screens show the same browser state. Trace initialization and environment injection before following a tap into a state-changing method.",
+  "learning_objectives": [
+    "Explain observable store lifecycle, tab navigation, and settings binding in plain language.",
+    "Trace struct ContentView in `Sources/ContentView.swift` and explain the relevant behavior.",
+    "State and preserve this limit: Account sync, history sync, and production data management are not implemented."
+  ],
+  "learning_objective_ids": [
+    "firefox-for-ios-05-state-and-screen-composition-objective-01",
+    "firefox-for-ios-05-state-and-screen-composition-objective-02",
+    "firefox-for-ios-05-state-and-screen-composition-objective-03"
+  ],
+  "source_files": [
+    "Sources/ContentView.swift",
+    "Sources/Screens/TabsView.swift",
+    "Sources/Screens/HomeView.swift",
+    "Sources/Screens/SettingsView.swift"
+  ],
+  "prerequisites": [
+    "firefox-for-ios-04-protection-levels-and-rules"
+  ],
+  "ordered_lesson_ids": [
+    "firefox-for-ios-05-state-and-screen-composition-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Observable store lifecycle, tab navigation, and settings binding",
+    "A shared store lets multiple screens show the same browser state. Trace initialization and environment injection before following a tap into a state-changing method.",
+    "Account sync, history sync, and production data management are not implemented."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Sources/ContentView.swift` around `struct ContentView`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Sources/ContentView.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "exercise_id": "peyara-remote-mouse-02-touchpad-and-keyboard-input-exercise-01",
+  "title": "Inspect and extend: Turn gestures and text into protocol messages",
+  "objective": "Use the real implementation in `src/screens/TouchpadScreen.tsx` to demonstrate and safely improve panresponder deltas, click/scroll actions, text and key events.",
+  "problem": "A touchpad sends movement differences, not a picture of the whole screen. Follow gesture callbacks and keyboard controls into the shared send function. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `src/screens/TouchpadScreen.tsx` and the related project files: src/screens/TouchpadScreen.tsx; src/screens/KeyboardScreen.tsx; src/data.ts.",
+    "Add or improve a focused behavior related to panresponder deltas, click/scroll actions, text and key events.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: Only the relay can control the host; the mobile UI itself does not perform desktop input.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "A touchpad sends movement differences, not a picture of the whole screen. Follow gesture callbacks and keyboard controls into the shared send function.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `src/screens/TouchpadScreen.tsx`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `PanResponder.create` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

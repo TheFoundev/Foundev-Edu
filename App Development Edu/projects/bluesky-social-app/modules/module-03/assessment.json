@@ -1,0 +1,255 @@
+{
+  "module_id": "bluesky-social-app-03-interactions",
+  "questions": [
+    {
+      "question_id": "bluesky-social-app-m03-q01",
+      "text": "What is the main implementation topic of this lesson?",
+      "options": [
+        {
+          "option_id": "bluesky-social-app-m03-q01-o2",
+          "text": "Post records, seed fixtures, and pure feed operations"
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q01-o3",
+          "text": "Composer validation, length limits, and immutable insertion"
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q01-o4",
+          "text": "Context state lifecycle, storage adapter, migration defaults, and corrupt data"
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q01-o1",
+          "text": "LikeMap, BookmarkMap, toggles, and the saved-post projection"
+        }
+      ],
+      "difficulty": "basic",
+      "learning_objective_id": "bluesky-social-app-03-interactions-objective-01",
+      "lesson_id": "bluesky-social-app-03-interactions-lesson-01"
+    },
+    {
+      "question_id": "bluesky-social-app-m03-q02",
+      "text": "Which source path contains `export function toggleBookmark` and the example implementation discussed here?",
+      "options": [
+        {
+          "option_id": "bluesky-social-app-m03-q02-o3",
+          "text": "src/screens/ProfileScreen.tsx"
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q02-o4",
+          "text": "package.json"
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q02-o1",
+          "text": "src/feed.ts"
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q02-o2",
+          "text": "src/screens/FeedScreen.tsx"
+        }
+      ],
+      "difficulty": "basic",
+      "learning_objective_id": "bluesky-social-app-03-interactions-objective-01",
+      "lesson_id": "bluesky-social-app-03-interactions-lesson-01"
+    },
+    {
+      "question_id": "bluesky-social-app-m03-q03",
+      "text": "Which statement accurately describes a boundary learners must preserve?",
+      "options": [
+        {
+          "option_id": "bluesky-social-app-m03-q03-o4",
+          "text": "It is safe to add production secrets directly to the mobile bundle."
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q03-o1",
+          "text": "Bookmarks and likes are per-device demo state, not synced account records."
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q03-o2",
+          "text": "It includes the full upstream product and all production integrations."
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q03-o3",
+          "text": "The local tests prove the external provider and deployment work end to end."
+        }
+      ],
+      "difficulty": "basic",
+      "learning_objective_id": "bluesky-social-app-03-interactions-objective-01",
+      "lesson_id": "bluesky-social-app-03-interactions-lesson-01"
+    },
+    {
+      "question_id": "bluesky-social-app-m03-q04",
+      "text": "When you follow the source from its user-visible entry point, what behavior should you trace in `src/feed.ts`?",
+      "options": [
+        {
+          "option_id": "bluesky-social-app-m03-q04-o1",
+          "text": "A like or bookmark is a personal switch keyed by post ID. Trace each button into its toggle function, then inspect how bookmarkedPosts resolves IDs back into feed records while keeping feed order."
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q04-o2",
+          "text": "Post records, seed fixtures, and pure feed operations"
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q04-o3",
+          "text": "Composer validation, length limits, and immutable insertion"
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q04-o4",
+          "text": "Context state lifecycle, storage adapter, migration defaults, and corrupt data"
+        }
+      ],
+      "difficulty": "intermediate",
+      "learning_objective_id": "bluesky-social-app-03-interactions-objective-01",
+      "lesson_id": "bluesky-social-app-03-interactions-lesson-01"
+    },
+    {
+      "question_id": "bluesky-social-app-m03-q05",
+      "text": "A code review finds a change to `export function toggleBookmark`. Which responsibility should the reviewer check?",
+      "options": [
+        {
+          "option_id": "bluesky-social-app-m03-q05-o2",
+          "text": "Post records, seed fixtures, and pure feed operations"
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q05-o3",
+          "text": "Composer validation, length limits, and immutable insertion"
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q05-o4",
+          "text": "Context state lifecycle, storage adapter, migration defaults, and corrupt data"
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q05-o1",
+          "text": "LikeMap, BookmarkMap, toggles, and the saved-post projection"
+        }
+      ],
+      "difficulty": "intermediate",
+      "learning_objective_id": "bluesky-social-app-03-interactions-objective-01",
+      "lesson_id": "bluesky-social-app-03-interactions-lesson-01"
+    },
+    {
+      "question_id": "bluesky-social-app-m03-q06",
+      "text": "Which implementation statement is consistent with the source focus `A like or bookmark is a personal switch keyed by post ID. Trace each button into its toggle function, then inspect how bookmarkedPosts resolves IDs back into feed records while keeping feed order.`?",
+      "options": [
+        {
+          "option_id": "bluesky-social-app-m03-q06-o3",
+          "text": "Composer validation, length limits, and immutable insertion"
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q06-o4",
+          "text": "Context state lifecycle, storage adapter, migration defaults, and corrupt data"
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q06-o1",
+          "text": "A like or bookmark is a personal switch keyed by post ID. Trace each button into its toggle function, then inspect how bookmarkedPosts resolves IDs back into feed records while keeping feed order."
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q06-o2",
+          "text": "Post records, seed fixtures, and pure feed operations"
+        }
+      ],
+      "difficulty": "intermediate",
+      "learning_objective_id": "bluesky-social-app-03-interactions-objective-01",
+      "lesson_id": "bluesky-social-app-03-interactions-lesson-01"
+    },
+    {
+      "question_id": "bluesky-social-app-m03-q07",
+      "text": "The feature behaves as though an absent integration exists. Which documented limit explains the mismatch?",
+      "options": [
+        {
+          "option_id": "bluesky-social-app-m03-q07-o4",
+          "text": "It is safe to add production secrets directly to the mobile bundle."
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q07-o1",
+          "text": "Bookmarks and likes are per-device demo state, not synced account records."
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q07-o2",
+          "text": "It includes the full upstream product and all production integrations."
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q07-o3",
+          "text": "The local tests prove the external provider and deployment work end to end."
+        }
+      ],
+      "difficulty": "intermediate",
+      "learning_objective_id": "bluesky-social-app-03-interactions-objective-01",
+      "lesson_id": "bluesky-social-app-03-interactions-lesson-01"
+    },
+    {
+      "question_id": "bluesky-social-app-m03-q08",
+      "text": "A learner is asked to make a bounded change to this behavior. Which source location is the best starting point?",
+      "options": [
+        {
+          "option_id": "bluesky-social-app-m03-q08-o1",
+          "text": "src/feed.ts"
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q08-o2",
+          "text": "src/screens/FeedScreen.tsx"
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q08-o3",
+          "text": "src/screens/ProfileScreen.tsx"
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q08-o4",
+          "text": "package.json"
+        }
+      ],
+      "difficulty": "intermediate",
+      "learning_objective_id": "bluesky-social-app-03-interactions-objective-01",
+      "lesson_id": "bluesky-social-app-03-interactions-lesson-01"
+    },
+    {
+      "question_id": "bluesky-social-app-m03-q09",
+      "text": "A teammate wants to advertise production readiness. Which source-grounded action should the reviewer require?",
+      "options": [
+        {
+          "option_id": "bluesky-social-app-m03-q09-o2",
+          "text": "It includes the full upstream product and all production integrations."
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q09-o3",
+          "text": "The local tests prove the external provider and deployment work end to end."
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q09-o4",
+          "text": "It is safe to add production secrets directly to the mobile bundle."
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q09-o1",
+          "text": "Do not claim production readiness: Bookmarks and likes are per-device demo state, not synced account records."
+        }
+      ],
+      "difficulty": "advanced",
+      "learning_objective_id": "bluesky-social-app-03-interactions-objective-01",
+      "lesson_id": "bluesky-social-app-03-interactions-lesson-01"
+    },
+    {
+      "question_id": "bluesky-social-app-m03-q10",
+      "text": "A demo passes its isolated check, but a reviewer asks what the source actually implements. Which statement is supported?",
+      "options": [
+        {
+          "option_id": "bluesky-social-app-m03-q10-o3",
+          "text": "Composer validation, length limits, and immutable insertion"
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q10-o4",
+          "text": "Context state lifecycle, storage adapter, migration defaults, and corrupt data"
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q10-o1",
+          "text": "A like or bookmark is a personal switch keyed by post ID. Trace each button into its toggle function, then inspect how bookmarkedPosts resolves IDs back into feed records while keeping feed order."
+        },
+        {
+          "option_id": "bluesky-social-app-m03-q10-o2",
+          "text": "Post records, seed fixtures, and pure feed operations"
+        }
+      ],
+      "difficulty": "advanced",
+      "learning_objective_id": "bluesky-social-app-03-interactions-objective-01",
+      "lesson_id": "bluesky-social-app-03-interactions-lesson-01"
+    }
+  ]
+}

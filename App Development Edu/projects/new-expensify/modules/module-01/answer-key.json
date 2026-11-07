@@ -1,0 +1,135 @@
+{
+  "module_id": "new-expensify-01-expense-and-report-data",
+  "answers": [
+    {
+      "question_id": "new-expensify-m01-q01",
+      "correct_option_id": "new-expensify-m01-q01-o1",
+      "correct_explanation": "The lesson and source file `src/model.ts` identify this behavior as: Expense and Report types, seed records, and derived totals The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "new-expensify-m01-q01-o2": "The lesson traces 'Expense and Report types, seed records, and derived totals' to src/model.ts. This option instead claims 'Positive amount/title validation, category aggregation, and money formatting', which the cited source does not establish for this behavior.",
+        "new-expensify-m01-q01-o3": "The lesson traces 'Expense and Report types, seed records, and derived totals' to src/model.ts. This option instead claims 'Allowed status transitions, submission preconditions, and immutable updates', which the cited source does not establish for this behavior.",
+        "new-expensify-m01-q01-o4": "The lesson traces 'Expense and Report types, seed records, and derived totals' to src/model.ts. This option instead claims 'Message append, trimming/search, and conversation display', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Expense and Report types, seed records, and derived totals",
+      "related_lesson_id": "new-expensify-01-expense-and-report-data-lesson-01",
+      "supporting_reference": "../../../../../projects/new-expensify/src/model.ts"
+    },
+    {
+      "question_id": "new-expensify-m01-q02",
+      "correct_option_id": "new-expensify-m01-q02-o1",
+      "correct_explanation": "The lesson and source file `src/model.ts` identify this behavior as: src/model.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "new-expensify-m01-q02-o3": "The lesson traces 'src/model.ts' to src/model.ts. This option instead claims 'src/screens/ReportsScreen.tsx', which the cited source does not establish for this behavior.",
+        "new-expensify-m01-q02-o4": "The lesson traces 'src/model.ts' to src/model.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "new-expensify-m01-q02-o2": "The lesson traces 'src/model.ts' to src/model.ts. This option instead claims 'src/data.ts', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Expense and Report types, seed records, and derived totals",
+      "related_lesson_id": "new-expensify-01-expense-and-report-data-lesson-01",
+      "supporting_reference": "../../../../../projects/new-expensify/src/model.ts"
+    },
+    {
+      "question_id": "new-expensify-m01-q03",
+      "correct_option_id": "new-expensify-m01-q03-o1",
+      "correct_explanation": "The lesson and source file `src/model.ts` identify this behavior as: Seed reports and the CAD profile are demo data; no accounting backend is connected. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "new-expensify-m01-q03-o4": "The lesson traces 'Seed reports and the CAD profile are demo data; no accounting backend is connected.' to src/model.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "new-expensify-m01-q03-o2": "The lesson traces 'Seed reports and the CAD profile are demo data; no accounting backend is connected.' to src/model.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "new-expensify-m01-q03-o3": "The lesson traces 'Seed reports and the CAD profile are demo data; no accounting backend is connected.' to src/model.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Expense and Report types, seed records, and derived totals",
+      "related_lesson_id": "new-expensify-01-expense-and-report-data-lesson-01",
+      "supporting_reference": "../../../../../projects/new-expensify/src/model.ts"
+    },
+    {
+      "question_id": "new-expensify-m01-q04",
+      "correct_option_id": "new-expensify-m01-q04-o1",
+      "correct_explanation": "The lesson and source file `src/model.ts` identify this behavior as: A report is a folder containing expense rows. Read the typed shapes and seed data, then see how a displayed total should be derived from the rows rather than typed separately. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "new-expensify-m01-q04-o2": "The lesson traces 'A report is a folder containing expense rows. Read the typed shapes and seed data, then see how a displayed total should be derived from the rows rather than typed separately.' to src/model.ts. This option instead claims 'Positive amount/title validation, category aggregation, and money formatting', which the cited source does not establish for this behavior.",
+        "new-expensify-m01-q04-o3": "The lesson traces 'A report is a folder containing expense rows. Read the typed shapes and seed data, then see how a displayed total should be derived from the rows rather than typed separately.' to src/model.ts. This option instead claims 'Allowed status transitions, submission preconditions, and immutable updates', which the cited source does not establish for this behavior.",
+        "new-expensify-m01-q04-o4": "The lesson traces 'A report is a folder containing expense rows. Read the typed shapes and seed data, then see how a displayed total should be derived from the rows rather than typed separately.' to src/model.ts. This option instead claims 'Message append, trimming/search, and conversation display', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Expense and Report types, seed records, and derived totals",
+      "related_lesson_id": "new-expensify-01-expense-and-report-data-lesson-01",
+      "supporting_reference": "../../../../../projects/new-expensify/src/model.ts"
+    },
+    {
+      "question_id": "new-expensify-m01-q05",
+      "correct_option_id": "new-expensify-m01-q05-o1",
+      "correct_explanation": "The lesson and source file `src/model.ts` identify this behavior as: Expense and Report types, seed records, and derived totals The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "new-expensify-m01-q05-o2": "The lesson traces 'Expense and Report types, seed records, and derived totals' to src/model.ts. This option instead claims 'Positive amount/title validation, category aggregation, and money formatting', which the cited source does not establish for this behavior.",
+        "new-expensify-m01-q05-o3": "The lesson traces 'Expense and Report types, seed records, and derived totals' to src/model.ts. This option instead claims 'Allowed status transitions, submission preconditions, and immutable updates', which the cited source does not establish for this behavior.",
+        "new-expensify-m01-q05-o4": "The lesson traces 'Expense and Report types, seed records, and derived totals' to src/model.ts. This option instead claims 'Message append, trimming/search, and conversation display', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Expense and Report types, seed records, and derived totals",
+      "related_lesson_id": "new-expensify-01-expense-and-report-data-lesson-01",
+      "supporting_reference": "../../../../../projects/new-expensify/src/model.ts"
+    },
+    {
+      "question_id": "new-expensify-m01-q06",
+      "correct_option_id": "new-expensify-m01-q06-o1",
+      "correct_explanation": "The lesson and source file `src/model.ts` identify this behavior as: A report is a folder containing expense rows. Read the typed shapes and seed data, then see how a displayed total should be derived from the rows rather than typed separately. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "new-expensify-m01-q06-o3": "The lesson traces 'A report is a folder containing expense rows. Read the typed shapes and seed data, then see how a displayed total should be derived from the rows rather than typed separately.' to src/model.ts. This option instead claims 'Allowed status transitions, submission preconditions, and immutable updates', which the cited source does not establish for this behavior.",
+        "new-expensify-m01-q06-o4": "The lesson traces 'A report is a folder containing expense rows. Read the typed shapes and seed data, then see how a displayed total should be derived from the rows rather than typed separately.' to src/model.ts. This option instead claims 'Message append, trimming/search, and conversation display', which the cited source does not establish for this behavior.",
+        "new-expensify-m01-q06-o2": "The lesson traces 'A report is a folder containing expense rows. Read the typed shapes and seed data, then see how a displayed total should be derived from the rows rather than typed separately.' to src/model.ts. This option instead claims 'Positive amount/title validation, category aggregation, and money formatting', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Expense and Report types, seed records, and derived totals",
+      "related_lesson_id": "new-expensify-01-expense-and-report-data-lesson-01",
+      "supporting_reference": "../../../../../projects/new-expensify/src/model.ts"
+    },
+    {
+      "question_id": "new-expensify-m01-q07",
+      "correct_option_id": "new-expensify-m01-q07-o1",
+      "correct_explanation": "The lesson and source file `src/model.ts` identify this behavior as: Seed reports and the CAD profile are demo data; no accounting backend is connected. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "new-expensify-m01-q07-o4": "The lesson traces 'Seed reports and the CAD profile are demo data; no accounting backend is connected.' to src/model.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "new-expensify-m01-q07-o2": "The lesson traces 'Seed reports and the CAD profile are demo data; no accounting backend is connected.' to src/model.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "new-expensify-m01-q07-o3": "The lesson traces 'Seed reports and the CAD profile are demo data; no accounting backend is connected.' to src/model.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Expense and Report types, seed records, and derived totals",
+      "related_lesson_id": "new-expensify-01-expense-and-report-data-lesson-01",
+      "supporting_reference": "../../../../../projects/new-expensify/src/model.ts"
+    },
+    {
+      "question_id": "new-expensify-m01-q08",
+      "correct_option_id": "new-expensify-m01-q08-o1",
+      "correct_explanation": "The lesson and source file `src/model.ts` identify this behavior as: src/model.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "new-expensify-m01-q08-o2": "The lesson traces 'src/model.ts' to src/model.ts. This option instead claims 'src/data.ts', which the cited source does not establish for this behavior.",
+        "new-expensify-m01-q08-o3": "The lesson traces 'src/model.ts' to src/model.ts. This option instead claims 'src/screens/ReportsScreen.tsx', which the cited source does not establish for this behavior.",
+        "new-expensify-m01-q08-o4": "The lesson traces 'src/model.ts' to src/model.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Expense and Report types, seed records, and derived totals",
+      "related_lesson_id": "new-expensify-01-expense-and-report-data-lesson-01",
+      "supporting_reference": "../../../../../projects/new-expensify/src/model.ts"
+    },
+    {
+      "question_id": "new-expensify-m01-q09",
+      "correct_option_id": "new-expensify-m01-q09-o1",
+      "correct_explanation": "The lesson and source file `src/model.ts` identify this behavior as: Do not claim production readiness: Seed reports and the CAD profile are demo data; no accounting backend is connected. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "new-expensify-m01-q09-o2": "The lesson traces 'Do not claim production readiness: Seed reports and the CAD profile are demo data; no accounting backend is connected.' to src/model.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "new-expensify-m01-q09-o3": "The lesson traces 'Do not claim production readiness: Seed reports and the CAD profile are demo data; no accounting backend is connected.' to src/model.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior.",
+        "new-expensify-m01-q09-o4": "The lesson traces 'Do not claim production readiness: Seed reports and the CAD profile are demo data; no accounting backend is connected.' to src/model.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Expense and Report types, seed records, and derived totals",
+      "related_lesson_id": "new-expensify-01-expense-and-report-data-lesson-01",
+      "supporting_reference": "../../../../../projects/new-expensify/src/model.ts"
+    },
+    {
+      "question_id": "new-expensify-m01-q10",
+      "correct_option_id": "new-expensify-m01-q10-o1",
+      "correct_explanation": "The lesson and source file `src/model.ts` identify this behavior as: A report is a folder containing expense rows. Read the typed shapes and seed data, then see how a displayed total should be derived from the rows rather than typed separately. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "new-expensify-m01-q10-o3": "The lesson traces 'A report is a folder containing expense rows. Read the typed shapes and seed data, then see how a displayed total should be derived from the rows rather than typed separately.' to src/model.ts. This option instead claims 'Allowed status transitions, submission preconditions, and immutable updates', which the cited source does not establish for this behavior.",
+        "new-expensify-m01-q10-o4": "The lesson traces 'A report is a folder containing expense rows. Read the typed shapes and seed data, then see how a displayed total should be derived from the rows rather than typed separately.' to src/model.ts. This option instead claims 'Message append, trimming/search, and conversation display', which the cited source does not establish for this behavior.",
+        "new-expensify-m01-q10-o2": "The lesson traces 'A report is a folder containing expense rows. Read the typed shapes and seed data, then see how a displayed total should be derived from the rows rather than typed separately.' to src/model.ts. This option instead claims 'Positive amount/title validation, category aggregation, and money formatting', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Expense and Report types, seed records, and derived totals",
+      "related_lesson_id": "new-expensify-01-expense-and-report-data-lesson-01",
+      "supporting_reference": "../../../../../projects/new-expensify/src/model.ts"
+    }
+  ]
+}

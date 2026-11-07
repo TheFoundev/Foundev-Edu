@@ -1,0 +1,41 @@
+{
+  "module_id": "firefox-for-ios-06-tests-and-platform-configuration",
+  "title": "Read the test suite and XcodeGen spec",
+  "description": "Unit tests check the pure rules; project.yml describes how XcodeGen assembles targets. Use both to plan actual simulator checks that this Windows environment could not perform.",
+  "learning_objectives": [
+    "Explain xctest assertions, target configuration, and what a test does not establish in plain language.",
+    "Trace final class BrowserCoreTests in `Tests/BrowserCoreTests.swift` and explain the relevant behavior.",
+    "State and preserve this limit: The source was not built or deployed here; no runtime result is implied."
+  ],
+  "learning_objective_ids": [
+    "firefox-for-ios-06-tests-and-platform-configuration-objective-01",
+    "firefox-for-ios-06-tests-and-platform-configuration-objective-02",
+    "firefox-for-ios-06-tests-and-platform-configuration-objective-03"
+  ],
+  "source_files": [
+    "Tests/BrowserCoreTests.swift",
+    "project.yml",
+    "README.md"
+  ],
+  "prerequisites": [
+    "firefox-for-ios-05-state-and-screen-composition"
+  ],
+  "ordered_lesson_ids": [
+    "firefox-for-ios-06-tests-and-platform-configuration-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "XCTest assertions, target configuration, and what a test does not establish",
+    "Unit tests check the pure rules; project.yml describes how XcodeGen assembles targets. Use both to plan actual simulator checks that this Windows environment could not perform.",
+    "The source was not built or deployed here; no runtime result is implied."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Tests/BrowserCoreTests.swift` around `final class BrowserCoreTests`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Tests/BrowserCoreTests.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

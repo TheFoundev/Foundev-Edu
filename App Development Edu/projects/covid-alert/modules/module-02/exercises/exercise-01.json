@@ -1,0 +1,37 @@
+{
+  "exercise_id": "covid-alert-02-simulated-check-service-exercise-01",
+  "title": "Inspect and extend: A service-shaped simulation",
+  "objective": "Use the real implementation in `src/exposure.ts` to demonstrate and safely improve exposureservice interface, simulated implementation, and simulation labelling.",
+  "problem": "A service interface is a plug shape. The current plug is a simulator that returns configured outcomes. Trace its implementation to checkStatusLabel and the status UI so a clear result cannot be mistaken for a real scan. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `src/exposure.ts` and the related project files: src/exposure.ts; src/screens/StatusScreen.tsx.",
+    "Add or improve a focused behavior related to exposureservice interface, simulated implementation, and simulation labelling.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: No Bluetooth, Apple/Google exposure notification, diagnosis, or contact-tracing integration exists.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "A service interface is a plug shape. The current plug is a simulator that returns configured outcomes. Trace its implementation to checkStatusLabel and the status UI so a clear result cannot be mistaken for a real scan.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `src/exposure.ts`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `export class SimulatedExposureService` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

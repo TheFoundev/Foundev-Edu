@@ -1,0 +1,37 @@
+{
+  "exercise_id": "firefox-for-ios-01-browser-domain-model-exercise-01",
+  "title": "Inspect and extend: Browser records and protection state",
+  "objective": "Use the real implementation in `Sources/Models.swift` to demonstrate and safely improve tab, protection-level, and tracker data types.",
+  "problem": "A browser model is a set of labels and settings the interface can render. Read the record types and identify which data belongs to a tab and which belongs to a protection mode. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `Sources/Models.swift` and the related project files: Sources/Models.swift; Sources/Core.swift.",
+    "Add or improve a focused behavior related to tab, protection-level, and tracker data types.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: The sample model is not the complete Firefox account/profile model.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "A browser model is a set of labels and settings the interface can render. Read the record types and identify which data belongs to a tab and which belongs to a protection mode.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `Sources/Models.swift`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `struct BrowserTab` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

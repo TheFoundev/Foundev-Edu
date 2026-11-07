@@ -1,0 +1,149 @@
+{
+  "project_slug": "rocket-chat-mobile",
+  "references": [
+    {
+      "id": "react-native",
+      "title": "React Native",
+      "url": "https://reactnative.dev/docs/getting-started",
+      "kind": "official documentation"
+    },
+    {
+      "id": "expo",
+      "title": "Expo",
+      "url": "https://docs.expo.dev/",
+      "kind": "official documentation"
+    },
+    {
+      "id": "async-storage",
+      "title": "Async Storage",
+      "url": "https://docs.expo.dev/versions/latest/sdk/async-storage/",
+      "kind": "official documentation"
+    },
+    {
+      "id": "expo-env",
+      "title": "Expo Env",
+      "url": "https://docs.expo.dev/guides/environment-variables/",
+      "kind": "official documentation"
+    },
+    {
+      "id": "rocket-ddp",
+      "title": "Rocket Ddp",
+      "url": "https://developer.rocket.chat/apidocs/which-api-should-i-use",
+      "kind": "official documentation"
+    },
+    {
+      "id": "rocket-ddp-methods",
+      "title": "Rocket Ddp Methods",
+      "url": "https://developer.rocket.chat/apidocs/realtime-method-calls",
+      "kind": "official documentation"
+    },
+    {
+      "id": "websocket",
+      "title": "Websocket",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSocket",
+      "kind": "official documentation"
+    },
+    {
+      "id": "node-test",
+      "title": "Node Test",
+      "url": "https://nodejs.org/api/test.html",
+      "kind": "official documentation"
+    },
+    {
+      "id": "owasp-mobile",
+      "title": "Owasp Mobile",
+      "url": "https://mas.owasp.org/MASVS/",
+      "kind": "official documentation"
+    }
+  ],
+  "source_references": [
+    {
+      "path": "src/chat.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/data.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/ChannelsScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/chat.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "test/chat.test.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/chat.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/ChatScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/ChannelsScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/chat.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/chatContext.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "test/chat.test.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/store.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/chatContext.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "App.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/ChatScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/ChannelsScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/ProfileScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/components.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/theme.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "test/chat.test.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "package.json",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "README.md",
+      "purpose": "Implementation of record for the corresponding module"
+    }
+  ]
+}

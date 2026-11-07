@@ -1,0 +1,41 @@
+{
+  "module_id": "new-expensify-05-context-store-and-persistence",
+  "title": "Share and save reports, messages, and settings",
+  "description": "The provider is the app-wide coordinator and the store is its persistence seam. Follow load and save for the three stored domains and inspect malformed-data recovery tests.",
+  "learning_objectives": [
+    "Explain context initialization, asyncstorage adapter, store keys, hydration and effects in plain language.",
+    "Trace export class ExpenseStore in `src/store.ts` and explain the relevant behavior.",
+    "State and preserve this limit: AsyncStorage is local, unencrypted key/value persistence; it is not financial-grade secure storage."
+  ],
+  "learning_objective_ids": [
+    "new-expensify-05-context-store-and-persistence-objective-01",
+    "new-expensify-05-context-store-and-persistence-objective-02",
+    "new-expensify-05-context-store-and-persistence-objective-03"
+  ],
+  "source_files": [
+    "src/expenseContext.tsx",
+    "src/store.ts",
+    "App.tsx"
+  ],
+  "prerequisites": [
+    "new-expensify-04-local-chat-and-search"
+  ],
+  "ordered_lesson_ids": [
+    "new-expensify-05-context-store-and-persistence-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Context initialization, AsyncStorage adapter, store keys, hydration and effects",
+    "The provider is the app-wide coordinator and the store is its persistence seam. Follow load and save for the three stored domains and inspect malformed-data recovery tests.",
+    "AsyncStorage is local, unencrypted key/value persistence; it is not financial-grade secure storage."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/store.ts` around `export class ExpenseStore`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/store.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

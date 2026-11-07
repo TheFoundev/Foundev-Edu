@@ -1,0 +1,37 @@
+{
+  "exercise_id": "kickstarter-for-ios-04-saved-and-backed-state-exercise-01",
+  "title": "Inspect and extend: Save choices and persist local identifiers",
+  "objective": "Use the real implementation in `Sources/Models.swift` to demonstrate and safely improve projectstore, userdefaults keys, toggling, and backed/saved projections.",
+  "problem": "Saving is a personal bookmark; backing is a local demo state. Trace both sets through UserDefaults and determine why a stored ID does not equal a real pledge. Your implementation or debugging result must remain consistent with the source architecture.",
+  "requirements": [
+    "Read `Sources/Models.swift` and the related project files: Sources/Models.swift; Sources/Screens/SavedView.swift; Sources/Screens/ProfileView.swift.",
+    "Add or improve a focused behavior related to projectstore, userdefaults keys, toggling, and backed/saved projections.",
+    "Add a meaningful unit test or, when platform tooling is unavailable, document a reproducible manual check.",
+    "Update documentation to identify local, simulated, external, and missing behavior accurately."
+  ],
+  "constraints": [
+    "Do not claim or implement as complete a capability outside this boundary: Saved/backed IDs persist locally; changing pledge totals is sample in-memory state and does not sync.",
+    "Do not add credentials, personal records, real funds, or unsafe public network exposure.",
+    "Keep the change within the existing project architecture and name any new dependencies."
+  ],
+  "expected_behavior": "Saving is a personal bookmark; backing is a local demo state. Trace both sets through UserDefaults and determine why a stored ID does not equal a real pledge.",
+  "acceptance_criteria": [
+    "The implementation change is traceable to `Sources/Models.swift`.",
+    "Normal and failure/edge cases are described and tested.",
+    "The test outcome and environment are recorded honestly.",
+    "README or source comments correctly state remaining limitations."
+  ],
+  "hints": [
+    "Search for `final class ProjectStore` first.",
+    "Read the caller and the closest existing test before editing.",
+    "Separate a pure rule test from any UI, device, provider, or network test."
+  ],
+  "difficulty": "intermediate",
+  "estimated_time_minutes": 60,
+  "exercise_type": [
+    "source reading",
+    "implementation",
+    "debugging",
+    "safe operations"
+  ]
+}

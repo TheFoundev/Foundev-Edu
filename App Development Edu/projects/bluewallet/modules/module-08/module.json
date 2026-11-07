@@ -1,0 +1,42 @@
+{
+  "module_id": "bluewallet-08-mini-project-integration",
+  "title": "Integrate a safe wallet-demo workflow",
+  "description": "Map address input to validation, UTXO planning, and the final refusal boundary. Prepare a demo that shows what would be needed for signing while preventing real-fund expectations.",
+  "learning_objectives": [
+    "Explain validation-to-plan flow, explicit limitations, test evidence, and release boundary in plain language.",
+    "Trace buildTransaction in `src/walletContext.tsx` and explain the relevant behavior.",
+    "State and preserve this limit: Do not connect real keys or funds to this educational build."
+  ],
+  "learning_objective_ids": [
+    "bluewallet-08-mini-project-integration-objective-01",
+    "bluewallet-08-mini-project-integration-objective-02",
+    "bluewallet-08-mini-project-integration-objective-03"
+  ],
+  "source_files": [
+    "src/screens/SendScreen.tsx",
+    "src/walletContext.tsx",
+    "src/wallet-core.ts",
+    "test/wallet.test.ts"
+  ],
+  "prerequisites": [
+    "bluewallet-07-local-persistence-and-failure-cases"
+  ],
+  "ordered_lesson_ids": [
+    "bluewallet-08-mini-project-integration-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Validation-to-plan flow, explicit limitations, test evidence, and release boundary",
+    "Map address input to validation, UTXO planning, and the final refusal boundary. Prepare a demo that shows what would be needed for signing while preventing real-fund expectations.",
+    "Do not connect real keys or funds to this educational build."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/walletContext.tsx` around `buildTransaction`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/walletContext.tsx.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

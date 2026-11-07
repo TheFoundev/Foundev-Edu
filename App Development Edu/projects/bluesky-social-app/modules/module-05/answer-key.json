@@ -1,0 +1,135 @@
+{
+  "module_id": "bluesky-social-app-05-screens-and-navigation",
+  "answers": [
+    {
+      "question_id": "bluesky-social-app-m05-q01",
+      "correct_option_id": "bluesky-social-app-m05-q01-o1",
+      "correct_explanation": "The lesson and source file `App.tsx` identify this behavior as: Tab selection, screen composition, action props, and theme tokens The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluesky-social-app-m05-q01-o2": "The lesson traces 'Tab selection, screen composition, action props, and theme tokens' to App.tsx. This option instead claims 'Post records, seed fixtures, and pure feed operations', which the cited source does not establish for this behavior.",
+        "bluesky-social-app-m05-q01-o3": "The lesson traces 'Tab selection, screen composition, action props, and theme tokens' to App.tsx. This option instead claims 'Composer validation, length limits, and immutable insertion', which the cited source does not establish for this behavior.",
+        "bluesky-social-app-m05-q01-o4": "The lesson traces 'Tab selection, screen composition, action props, and theme tokens' to App.tsx. This option instead claims 'LikeMap, BookmarkMap, toggles, and the saved-post projection', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Tab selection, screen composition, action props, and theme tokens",
+      "related_lesson_id": "bluesky-social-app-05-screens-and-navigation-lesson-01",
+      "supporting_reference": "../../../../../projects/bluesky-social-app/App.tsx"
+    },
+    {
+      "question_id": "bluesky-social-app-m05-q02",
+      "correct_option_id": "bluesky-social-app-m05-q02-o1",
+      "correct_explanation": "The lesson and source file `App.tsx` identify this behavior as: App.tsx The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluesky-social-app-m05-q02-o3": "The lesson traces 'App.tsx' to App.tsx. This option instead claims 'src/screens/DiscoverScreen.tsx', which the cited source does not establish for this behavior.",
+        "bluesky-social-app-m05-q02-o4": "The lesson traces 'App.tsx' to App.tsx. This option instead claims 'src/screens/ProfileScreen.tsx', which the cited source does not establish for this behavior.",
+        "bluesky-social-app-m05-q02-o2": "The lesson traces 'App.tsx' to App.tsx. This option instead claims 'src/screens/FeedScreen.tsx', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Tab selection, screen composition, action props, and theme tokens",
+      "related_lesson_id": "bluesky-social-app-05-screens-and-navigation-lesson-01",
+      "supporting_reference": "../../../../../projects/bluesky-social-app/App.tsx"
+    },
+    {
+      "question_id": "bluesky-social-app-m05-q03",
+      "correct_option_id": "bluesky-social-app-m05-q03-o1",
+      "correct_explanation": "The lesson and source file `App.tsx` identify this behavior as: The tabs and suggested feeds are local UI; they are not loaded from a Bluesky server. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluesky-social-app-m05-q03-o4": "The lesson traces 'The tabs and suggested feeds are local UI; they are not loaded from a Bluesky server.' to App.tsx. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "bluesky-social-app-m05-q03-o2": "The lesson traces 'The tabs and suggested feeds are local UI; they are not loaded from a Bluesky server.' to App.tsx. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "bluesky-social-app-m05-q03-o3": "The lesson traces 'The tabs and suggested feeds are local UI; they are not loaded from a Bluesky server.' to App.tsx. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Tab selection, screen composition, action props, and theme tokens",
+      "related_lesson_id": "bluesky-social-app-05-screens-and-navigation-lesson-01",
+      "supporting_reference": "../../../../../projects/bluesky-social-app/App.tsx"
+    },
+    {
+      "question_id": "bluesky-social-app-m05-q04",
+      "correct_option_id": "bluesky-social-app-m05-q04-o1",
+      "correct_explanation": "The lesson and source file `App.tsx` identify this behavior as: The shell chooses which room is visible; reusable components and theme tokens keep each room consistent. Trace tabs into screen components, then follow props from shared controls to their event handlers. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluesky-social-app-m05-q04-o2": "The lesson traces 'The shell chooses which room is visible; reusable components and theme tokens keep each room consistent. Trace tabs into screen components, then follow props from shared controls to their event handlers.' to App.tsx. This option instead claims 'Post records, seed fixtures, and pure feed operations', which the cited source does not establish for this behavior.",
+        "bluesky-social-app-m05-q04-o3": "The lesson traces 'The shell chooses which room is visible; reusable components and theme tokens keep each room consistent. Trace tabs into screen components, then follow props from shared controls to their event handlers.' to App.tsx. This option instead claims 'Composer validation, length limits, and immutable insertion', which the cited source does not establish for this behavior.",
+        "bluesky-social-app-m05-q04-o4": "The lesson traces 'The shell chooses which room is visible; reusable components and theme tokens keep each room consistent. Trace tabs into screen components, then follow props from shared controls to their event handlers.' to App.tsx. This option instead claims 'LikeMap, BookmarkMap, toggles, and the saved-post projection', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Tab selection, screen composition, action props, and theme tokens",
+      "related_lesson_id": "bluesky-social-app-05-screens-and-navigation-lesson-01",
+      "supporting_reference": "../../../../../projects/bluesky-social-app/App.tsx"
+    },
+    {
+      "question_id": "bluesky-social-app-m05-q05",
+      "correct_option_id": "bluesky-social-app-m05-q05-o1",
+      "correct_explanation": "The lesson and source file `App.tsx` identify this behavior as: Tab selection, screen composition, action props, and theme tokens The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluesky-social-app-m05-q05-o2": "The lesson traces 'Tab selection, screen composition, action props, and theme tokens' to App.tsx. This option instead claims 'Post records, seed fixtures, and pure feed operations', which the cited source does not establish for this behavior.",
+        "bluesky-social-app-m05-q05-o3": "The lesson traces 'Tab selection, screen composition, action props, and theme tokens' to App.tsx. This option instead claims 'Composer validation, length limits, and immutable insertion', which the cited source does not establish for this behavior.",
+        "bluesky-social-app-m05-q05-o4": "The lesson traces 'Tab selection, screen composition, action props, and theme tokens' to App.tsx. This option instead claims 'LikeMap, BookmarkMap, toggles, and the saved-post projection', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Tab selection, screen composition, action props, and theme tokens",
+      "related_lesson_id": "bluesky-social-app-05-screens-and-navigation-lesson-01",
+      "supporting_reference": "../../../../../projects/bluesky-social-app/App.tsx"
+    },
+    {
+      "question_id": "bluesky-social-app-m05-q06",
+      "correct_option_id": "bluesky-social-app-m05-q06-o1",
+      "correct_explanation": "The lesson and source file `App.tsx` identify this behavior as: The shell chooses which room is visible; reusable components and theme tokens keep each room consistent. Trace tabs into screen components, then follow props from shared controls to their event handlers. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluesky-social-app-m05-q06-o3": "The lesson traces 'The shell chooses which room is visible; reusable components and theme tokens keep each room consistent. Trace tabs into screen components, then follow props from shared controls to their event handlers.' to App.tsx. This option instead claims 'Composer validation, length limits, and immutable insertion', which the cited source does not establish for this behavior.",
+        "bluesky-social-app-m05-q06-o4": "The lesson traces 'The shell chooses which room is visible; reusable components and theme tokens keep each room consistent. Trace tabs into screen components, then follow props from shared controls to their event handlers.' to App.tsx. This option instead claims 'LikeMap, BookmarkMap, toggles, and the saved-post projection', which the cited source does not establish for this behavior.",
+        "bluesky-social-app-m05-q06-o2": "The lesson traces 'The shell chooses which room is visible; reusable components and theme tokens keep each room consistent. Trace tabs into screen components, then follow props from shared controls to their event handlers.' to App.tsx. This option instead claims 'Post records, seed fixtures, and pure feed operations', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Tab selection, screen composition, action props, and theme tokens",
+      "related_lesson_id": "bluesky-social-app-05-screens-and-navigation-lesson-01",
+      "supporting_reference": "../../../../../projects/bluesky-social-app/App.tsx"
+    },
+    {
+      "question_id": "bluesky-social-app-m05-q07",
+      "correct_option_id": "bluesky-social-app-m05-q07-o1",
+      "correct_explanation": "The lesson and source file `App.tsx` identify this behavior as: The tabs and suggested feeds are local UI; they are not loaded from a Bluesky server. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluesky-social-app-m05-q07-o4": "The lesson traces 'The tabs and suggested feeds are local UI; they are not loaded from a Bluesky server.' to App.tsx. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "bluesky-social-app-m05-q07-o2": "The lesson traces 'The tabs and suggested feeds are local UI; they are not loaded from a Bluesky server.' to App.tsx. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "bluesky-social-app-m05-q07-o3": "The lesson traces 'The tabs and suggested feeds are local UI; they are not loaded from a Bluesky server.' to App.tsx. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Tab selection, screen composition, action props, and theme tokens",
+      "related_lesson_id": "bluesky-social-app-05-screens-and-navigation-lesson-01",
+      "supporting_reference": "../../../../../projects/bluesky-social-app/App.tsx"
+    },
+    {
+      "question_id": "bluesky-social-app-m05-q08",
+      "correct_option_id": "bluesky-social-app-m05-q08-o1",
+      "correct_explanation": "The lesson and source file `App.tsx` identify this behavior as: App.tsx The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluesky-social-app-m05-q08-o2": "The lesson traces 'App.tsx' to App.tsx. This option instead claims 'src/screens/FeedScreen.tsx', which the cited source does not establish for this behavior.",
+        "bluesky-social-app-m05-q08-o3": "The lesson traces 'App.tsx' to App.tsx. This option instead claims 'src/screens/DiscoverScreen.tsx', which the cited source does not establish for this behavior.",
+        "bluesky-social-app-m05-q08-o4": "The lesson traces 'App.tsx' to App.tsx. This option instead claims 'src/screens/ProfileScreen.tsx', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Tab selection, screen composition, action props, and theme tokens",
+      "related_lesson_id": "bluesky-social-app-05-screens-and-navigation-lesson-01",
+      "supporting_reference": "../../../../../projects/bluesky-social-app/App.tsx"
+    },
+    {
+      "question_id": "bluesky-social-app-m05-q09",
+      "correct_option_id": "bluesky-social-app-m05-q09-o1",
+      "correct_explanation": "The lesson and source file `App.tsx` identify this behavior as: Do not claim production readiness: The tabs and suggested feeds are local UI; they are not loaded from a Bluesky server. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluesky-social-app-m05-q09-o2": "The lesson traces 'Do not claim production readiness: The tabs and suggested feeds are local UI; they are not loaded from a Bluesky server.' to App.tsx. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "bluesky-social-app-m05-q09-o3": "The lesson traces 'Do not claim production readiness: The tabs and suggested feeds are local UI; they are not loaded from a Bluesky server.' to App.tsx. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior.",
+        "bluesky-social-app-m05-q09-o4": "The lesson traces 'Do not claim production readiness: The tabs and suggested feeds are local UI; they are not loaded from a Bluesky server.' to App.tsx. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Tab selection, screen composition, action props, and theme tokens",
+      "related_lesson_id": "bluesky-social-app-05-screens-and-navigation-lesson-01",
+      "supporting_reference": "../../../../../projects/bluesky-social-app/App.tsx"
+    },
+    {
+      "question_id": "bluesky-social-app-m05-q10",
+      "correct_option_id": "bluesky-social-app-m05-q10-o1",
+      "correct_explanation": "The lesson and source file `App.tsx` identify this behavior as: The shell chooses which room is visible; reusable components and theme tokens keep each room consistent. Trace tabs into screen components, then follow props from shared controls to their event handlers. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluesky-social-app-m05-q10-o3": "The lesson traces 'The shell chooses which room is visible; reusable components and theme tokens keep each room consistent. Trace tabs into screen components, then follow props from shared controls to their event handlers.' to App.tsx. This option instead claims 'Composer validation, length limits, and immutable insertion', which the cited source does not establish for this behavior.",
+        "bluesky-social-app-m05-q10-o4": "The lesson traces 'The shell chooses which room is visible; reusable components and theme tokens keep each room consistent. Trace tabs into screen components, then follow props from shared controls to their event handlers.' to App.tsx. This option instead claims 'LikeMap, BookmarkMap, toggles, and the saved-post projection', which the cited source does not establish for this behavior.",
+        "bluesky-social-app-m05-q10-o2": "The lesson traces 'The shell chooses which room is visible; reusable components and theme tokens keep each room consistent. Trace tabs into screen components, then follow props from shared controls to their event handlers.' to App.tsx. This option instead claims 'Post records, seed fixtures, and pure feed operations', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Tab selection, screen composition, action props, and theme tokens",
+      "related_lesson_id": "bluesky-social-app-05-screens-and-navigation-lesson-01",
+      "supporting_reference": "../../../../../projects/bluesky-social-app/App.tsx"
+    }
+  ]
+}

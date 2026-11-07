@@ -1,0 +1,38 @@
+{
+  "module_id": "duckduckgo-for-ios-01-browser-core-and-url-routing",
+  "title": "Decide whether text is a web address or a search",
+  "description": "A browser address box has two jobs: open a likely URL or search ordinary words. Read the core decision function and tests for empty text, scheme insertion, and selected engine behavior.",
+  "learning_objectives": [
+    "Explain input classification, scheme handling, empty input, and search-engine selection in plain language.",
+    "Trace func destination in `Sources/Core.swift` and explain the relevant behavior.",
+    "State and preserve this limit: The engine routing is a sample rule; it does not implement DuckDuckGo product services."
+  ],
+  "learning_objective_ids": [
+    "duckduckgo-for-ios-01-browser-core-and-url-routing-objective-01",
+    "duckduckgo-for-ios-01-browser-core-and-url-routing-objective-02",
+    "duckduckgo-for-ios-01-browser-core-and-url-routing-objective-03"
+  ],
+  "source_files": [
+    "Sources/Core.swift",
+    "Tests/BrowserCoreTests.swift"
+  ],
+  "prerequisites": [],
+  "ordered_lesson_ids": [
+    "duckduckgo-for-ios-01-browser-core-and-url-routing-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Input classification, scheme handling, empty input, and search-engine selection",
+    "A browser address box has two jobs: open a likely URL or search ordinary words. Read the core decision function and tests for empty text, scheme insertion, and selected engine behavior.",
+    "The engine routing is a sample rule; it does not implement DuckDuckGo product services."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Sources/Core.swift` around `func destination`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Sources/Core.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

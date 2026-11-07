@@ -1,0 +1,41 @@
+{
+  "module_id": "kickstarter-for-ios-04-saved-and-backed-state",
+  "title": "Save choices and persist local identifiers",
+  "description": "Saving is a personal bookmark; backing is a local demo state. Trace both sets through UserDefaults and determine why a stored ID does not equal a real pledge.",
+  "learning_objectives": [
+    "Explain projectstore, userdefaults keys, toggling, and backed/saved projections in plain language.",
+    "Trace final class ProjectStore in `Sources/Models.swift` and explain the relevant behavior.",
+    "State and preserve this limit: Saved/backed IDs persist locally; changing pledge totals is sample in-memory state and does not sync."
+  ],
+  "learning_objective_ids": [
+    "kickstarter-for-ios-04-saved-and-backed-state-objective-01",
+    "kickstarter-for-ios-04-saved-and-backed-state-objective-02",
+    "kickstarter-for-ios-04-saved-and-backed-state-objective-03"
+  ],
+  "source_files": [
+    "Sources/Models.swift",
+    "Sources/Screens/SavedView.swift",
+    "Sources/Screens/ProfileView.swift"
+  ],
+  "prerequisites": [
+    "kickstarter-for-ios-03-project-detail-and-pledge-rules"
+  ],
+  "ordered_lesson_ids": [
+    "kickstarter-for-ios-04-saved-and-backed-state-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "ProjectStore, UserDefaults keys, toggling, and backed/saved projections",
+    "Saving is a personal bookmark; backing is a local demo state. Trace both sets through UserDefaults and determine why a stored ID does not equal a real pledge.",
+    "Saved/backed IDs persist locally; changing pledge totals is sample in-memory state and does not sync."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Sources/Models.swift` around `final class ProjectStore`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Sources/Models.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

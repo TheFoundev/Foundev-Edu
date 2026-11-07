@@ -1,0 +1,42 @@
+{
+  "module_id": "covid-alert-07-mini-project-integration",
+  "title": "Present a complete transparent health-demo journey",
+  "description": "Demonstrate status, simulated check, symptom score, and saved history as one journey. Each screen must explain whether a value is simulated and what it cannot tell the user.",
+  "learning_objectives": [
+    "Explain screen-to-model integration, clear-state wording, limitations, and demo script in plain language.",
+    "Trace checkStatusLabel in `src/exposure.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Never encourage a learner to make health decisions from the demo output."
+  ],
+  "learning_objective_ids": [
+    "covid-alert-07-mini-project-integration-objective-01",
+    "covid-alert-07-mini-project-integration-objective-02",
+    "covid-alert-07-mini-project-integration-objective-03"
+  ],
+  "source_files": [
+    "App.tsx",
+    "src/screens/StatusScreen.tsx",
+    "src/screens/SymptomsScreen.tsx",
+    "src/exposure.ts"
+  ],
+  "prerequisites": [
+    "covid-alert-06-tests-privacy-and-accessibility"
+  ],
+  "ordered_lesson_ids": [
+    "covid-alert-07-mini-project-integration-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Screen-to-model integration, clear-state wording, limitations, and demo script",
+    "Demonstrate status, simulated check, symptom score, and saved history as one journey. Each screen must explain whether a value is simulated and what it cannot tell the user.",
+    "Never encourage a learner to make health decisions from the demo output."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/exposure.ts` around `checkStatusLabel`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/exposure.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

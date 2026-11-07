@@ -1,0 +1,31 @@
+{
+  "title": "GitPoint",
+  "slug": "gitpoint",
+  "description": "Build a GitHub-oriented repository and issue browser with API mapping, search/filtering, cached state, and clear authentication limits.",
+  "problem": "Learners need a source-grounded way to understand and extend GitPoint while separating implemented behavior from demo data, simulations, and missing integrations.",
+  "audience": "Third-year undergraduate students who have completed introductory programming and want a practical mobile mini-project.",
+  "stack": [
+    "Expo",
+    "React Native",
+    "TypeScript",
+    "GitHub REST API",
+    "AsyncStorage"
+  ],
+  "difficulty": "upper-intermediate",
+  "prerequisites": [
+    "Basic programming and source-code reading",
+    "Git basics and ability to run the platform tooling described in the source README"
+  ],
+  "learning_outcomes": [
+    "Explain and trace repository/issue shapes, response mapping, sample data, and sort fields in its named source files.",
+    "Explain and trace fetch client, request paths, headers, response mapping, githuberror, and rate-limit headers in its named source files.",
+    "Explain and trace search fields, date ordering, state filters, and list rendering in its named source files.",
+    "Explain and trace cache keys, load/save, corrupt data, provider startup, and fallback state in its named source files.",
+    "Explain and trace context lifecycle, tabs, profile/repository/issue states, and reusable controls in its named source files.",
+    "Explain and trace mock response evidence, test script, public api boundary, and token risk in its named source files.",
+    "Distinguish unit-test evidence from device, service, and deployment evidence.",
+    "Propose a safe, bounded extension without describing it as already implemented."
+  ],
+  "estimated_duration_hours": 12,
+  "content_schema_version": "1.0.0"
+}

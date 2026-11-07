@@ -1,0 +1,41 @@
+{
+  "module_id": "peyara-remote-mouse-03-mobile-connection-and-backoff",
+  "title": "Connect, report status, and retry carefully",
+  "description": "A dropped connection is like a phone call that needs a retry schedule. Follow states and timers, then see how a manual disconnect stops retries.",
+  "learning_objectives": [
+    "Explain socket lifecycle, connection snapshots, exponential delay, max retry, and manual disconnect in plain language.",
+    "Trace export class RelayConnection in `src/connection.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Retry logic does not add TLS, pairing, or authentication to the relay."
+  ],
+  "learning_objective_ids": [
+    "peyara-remote-mouse-03-mobile-connection-and-backoff-objective-01",
+    "peyara-remote-mouse-03-mobile-connection-and-backoff-objective-02",
+    "peyara-remote-mouse-03-mobile-connection-and-backoff-objective-03"
+  ],
+  "source_files": [
+    "src/connection.ts",
+    "src/data.ts",
+    "test/connection.test.ts"
+  ],
+  "prerequisites": [
+    "peyara-remote-mouse-02-touchpad-and-keyboard-input"
+  ],
+  "ordered_lesson_ids": [
+    "peyara-remote-mouse-03-mobile-connection-and-backoff-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Socket lifecycle, connection snapshots, exponential delay, max retry, and manual disconnect",
+    "A dropped connection is like a phone call that needs a retry schedule. Follow states and timers, then see how a manual disconnect stops retries.",
+    "Retry logic does not add TLS, pairing, or authentication to the relay."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/connection.ts` around `export class RelayConnection`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/connection.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

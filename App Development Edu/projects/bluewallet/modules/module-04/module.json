@@ -1,0 +1,40 @@
+{
+  "module_id": "bluewallet-04-utxo-selection-and-fees",
+  "title": "Plan inputs, fee, change, and dust",
+  "description": "A UTXO is an unspent piece of value. The planner selects enough pieces to cover amount plus estimated fee, then considers change and a dust threshold. Trace the UI request into buildUnsignedTransaction.",
+  "learning_objectives": [
+    "Explain utxo selection, fee estimate, amount validation, and unsigned output construction in plain language.",
+    "Trace export function buildUnsignedTransaction in `src/wallet-core.ts` and explain the relevant behavior.",
+    "State and preserve this limit: The transaction is unsigned; fee size/rate assumptions are simplified, the change output currently uses an empty placeholder address, and no real payment should be made."
+  ],
+  "learning_objective_ids": [
+    "bluewallet-04-utxo-selection-and-fees-objective-01",
+    "bluewallet-04-utxo-selection-and-fees-objective-02",
+    "bluewallet-04-utxo-selection-and-fees-objective-03"
+  ],
+  "source_files": [
+    "src/wallet-core.ts",
+    "src/screens/SendScreen.tsx"
+  ],
+  "prerequisites": [
+    "bluewallet-03-hashing-and-electrum-identifiers"
+  ],
+  "ordered_lesson_ids": [
+    "bluewallet-04-utxo-selection-and-fees-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "UTXO selection, fee estimate, amount validation, and unsigned output construction",
+    "A UTXO is an unspent piece of value. The planner selects enough pieces to cover amount plus estimated fee, then considers change and a dust threshold. Trace the UI request into buildUnsignedTransaction.",
+    "The transaction is unsigned; fee size/rate assumptions are simplified, the change output currently uses an empty placeholder address, and no real payment should be made."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/wallet-core.ts` around `export function buildUnsignedTransaction`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/wallet-core.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

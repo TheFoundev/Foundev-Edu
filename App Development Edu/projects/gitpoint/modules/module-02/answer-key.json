@@ -1,0 +1,135 @@
+{
+  "module_id": "gitpoint-02-rest-client-and-errors",
+  "answers": [
+    {
+      "question_id": "gitpoint-m02-q01",
+      "correct_option_id": "gitpoint-m02-q01-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m02-q01-o2": "The lesson traces 'Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers' to src/github.ts. This option instead claims 'Repository/issue shapes, response mapping, sample data, and sort fields', which the cited source does not establish for this behavior.",
+        "gitpoint-m02-q01-o3": "The lesson traces 'Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers' to src/github.ts. This option instead claims 'Search fields, date ordering, state filters, and list rendering', which the cited source does not establish for this behavior.",
+        "gitpoint-m02-q01-o4": "The lesson traces 'Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers' to src/github.ts. This option instead claims 'Cache keys, load/save, corrupt data, provider startup, and fallback state', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
+      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m02-q02",
+      "correct_option_id": "gitpoint-m02-q02-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: src/github.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m02-q02-o3": "The lesson traces 'src/github.ts' to src/github.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "gitpoint-m02-q02-o4": "The lesson traces 'src/github.ts' to src/github.ts. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior.",
+        "gitpoint-m02-q02-o2": "The lesson traces 'src/github.ts' to src/github.ts. This option instead claims 'test/github.test.ts', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
+      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m02-q03",
+      "correct_option_id": "gitpoint-m02-q03-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: Authentication, token storage, pagination breadth, and current provider quotas need review before production use. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m02-q03-o4": "The lesson traces 'Authentication, token storage, pagination breadth, and current provider quotas need review before production use.' to src/github.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "gitpoint-m02-q03-o2": "The lesson traces 'Authentication, token storage, pagination breadth, and current provider quotas need review before production use.' to src/github.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "gitpoint-m02-q03-o3": "The lesson traces 'Authentication, token storage, pagination breadth, and current provider quotas need review before production use.' to src/github.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
+      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m02-q04",
+      "correct_option_id": "gitpoint-m02-q04-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: An HTTP client sends a request and turns a response into a useful shape. Trace URL construction and response handling, then inspect how API errors and rate-limit metadata are represented. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m02-q04-o2": "The lesson traces 'An HTTP client sends a request and turns a response into a useful shape. Trace URL construction and response handling, then inspect how API errors and rate-limit metadata are represented.' to src/github.ts. This option instead claims 'Repository/issue shapes, response mapping, sample data, and sort fields', which the cited source does not establish for this behavior.",
+        "gitpoint-m02-q04-o3": "The lesson traces 'An HTTP client sends a request and turns a response into a useful shape. Trace URL construction and response handling, then inspect how API errors and rate-limit metadata are represented.' to src/github.ts. This option instead claims 'Search fields, date ordering, state filters, and list rendering', which the cited source does not establish for this behavior.",
+        "gitpoint-m02-q04-o4": "The lesson traces 'An HTTP client sends a request and turns a response into a useful shape. Trace URL construction and response handling, then inspect how API errors and rate-limit metadata are represented.' to src/github.ts. This option instead claims 'Cache keys, load/save, corrupt data, provider startup, and fallback state', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
+      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m02-q05",
+      "correct_option_id": "gitpoint-m02-q05-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m02-q05-o2": "The lesson traces 'Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers' to src/github.ts. This option instead claims 'Repository/issue shapes, response mapping, sample data, and sort fields', which the cited source does not establish for this behavior.",
+        "gitpoint-m02-q05-o3": "The lesson traces 'Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers' to src/github.ts. This option instead claims 'Search fields, date ordering, state filters, and list rendering', which the cited source does not establish for this behavior.",
+        "gitpoint-m02-q05-o4": "The lesson traces 'Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers' to src/github.ts. This option instead claims 'Cache keys, load/save, corrupt data, provider startup, and fallback state', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
+      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m02-q06",
+      "correct_option_id": "gitpoint-m02-q06-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: An HTTP client sends a request and turns a response into a useful shape. Trace URL construction and response handling, then inspect how API errors and rate-limit metadata are represented. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m02-q06-o3": "The lesson traces 'An HTTP client sends a request and turns a response into a useful shape. Trace URL construction and response handling, then inspect how API errors and rate-limit metadata are represented.' to src/github.ts. This option instead claims 'Search fields, date ordering, state filters, and list rendering', which the cited source does not establish for this behavior.",
+        "gitpoint-m02-q06-o4": "The lesson traces 'An HTTP client sends a request and turns a response into a useful shape. Trace URL construction and response handling, then inspect how API errors and rate-limit metadata are represented.' to src/github.ts. This option instead claims 'Cache keys, load/save, corrupt data, provider startup, and fallback state', which the cited source does not establish for this behavior.",
+        "gitpoint-m02-q06-o2": "The lesson traces 'An HTTP client sends a request and turns a response into a useful shape. Trace URL construction and response handling, then inspect how API errors and rate-limit metadata are represented.' to src/github.ts. This option instead claims 'Repository/issue shapes, response mapping, sample data, and sort fields', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
+      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m02-q07",
+      "correct_option_id": "gitpoint-m02-q07-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: Authentication, token storage, pagination breadth, and current provider quotas need review before production use. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m02-q07-o4": "The lesson traces 'Authentication, token storage, pagination breadth, and current provider quotas need review before production use.' to src/github.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "gitpoint-m02-q07-o2": "The lesson traces 'Authentication, token storage, pagination breadth, and current provider quotas need review before production use.' to src/github.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "gitpoint-m02-q07-o3": "The lesson traces 'Authentication, token storage, pagination breadth, and current provider quotas need review before production use.' to src/github.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
+      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m02-q08",
+      "correct_option_id": "gitpoint-m02-q08-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: src/github.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m02-q08-o2": "The lesson traces 'src/github.ts' to src/github.ts. This option instead claims 'test/github.test.ts', which the cited source does not establish for this behavior.",
+        "gitpoint-m02-q08-o3": "The lesson traces 'src/github.ts' to src/github.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "gitpoint-m02-q08-o4": "The lesson traces 'src/github.ts' to src/github.ts. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
+      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m02-q09",
+      "correct_option_id": "gitpoint-m02-q09-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: Do not claim production readiness: Authentication, token storage, pagination breadth, and current provider quotas need review before production use. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m02-q09-o2": "The lesson traces 'Do not claim production readiness: Authentication, token storage, pagination breadth, and current provider quotas need review before production use.' to src/github.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "gitpoint-m02-q09-o3": "The lesson traces 'Do not claim production readiness: Authentication, token storage, pagination breadth, and current provider quotas need review before production use.' to src/github.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior.",
+        "gitpoint-m02-q09-o4": "The lesson traces 'Do not claim production readiness: Authentication, token storage, pagination breadth, and current provider quotas need review before production use.' to src/github.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
+      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m02-q10",
+      "correct_option_id": "gitpoint-m02-q10-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: An HTTP client sends a request and turns a response into a useful shape. Trace URL construction and response handling, then inspect how API errors and rate-limit metadata are represented. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m02-q10-o3": "The lesson traces 'An HTTP client sends a request and turns a response into a useful shape. Trace URL construction and response handling, then inspect how API errors and rate-limit metadata are represented.' to src/github.ts. This option instead claims 'Search fields, date ordering, state filters, and list rendering', which the cited source does not establish for this behavior.",
+        "gitpoint-m02-q10-o4": "The lesson traces 'An HTTP client sends a request and turns a response into a useful shape. Trace URL construction and response handling, then inspect how API errors and rate-limit metadata are represented.' to src/github.ts. This option instead claims 'Cache keys, load/save, corrupt data, provider startup, and fallback state', which the cited source does not establish for this behavior.",
+        "gitpoint-m02-q10-o2": "The lesson traces 'An HTTP client sends a request and turns a response into a useful shape. Trace URL construction and response handling, then inspect how API errors and rate-limit metadata are represented.' to src/github.ts. This option instead claims 'Repository/issue shapes, response mapping, sample data, and sort fields', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
+      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    }
+  ]
+}

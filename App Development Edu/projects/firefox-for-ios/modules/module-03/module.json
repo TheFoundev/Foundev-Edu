@@ -1,0 +1,40 @@
+{
+  "module_id": "firefox-for-ios-03-webkit-browser-wrapper",
+  "title": "Render navigation through WebKit",
+  "description": "The app’s native controls sit around a WebKit page. Follow a selected URL into the wrapper and understand which behavior is delegated to Apple’s WebKit engine.",
+  "learning_objectives": [
+    "Explain representable wrapper, load calls, and browser controls in plain language.",
+    "Trace struct WebView in `Sources/WebView.swift` and explain the relevant behavior.",
+    "State and preserve this limit: The project does not embed Firefox’s Gecko engine."
+  ],
+  "learning_objective_ids": [
+    "firefox-for-ios-03-webkit-browser-wrapper-objective-01",
+    "firefox-for-ios-03-webkit-browser-wrapper-objective-02",
+    "firefox-for-ios-03-webkit-browser-wrapper-objective-03"
+  ],
+  "source_files": [
+    "Sources/WebView.swift",
+    "Sources/Screens/BrowserScreen.swift"
+  ],
+  "prerequisites": [
+    "firefox-for-ios-02-url-and-search-routing"
+  ],
+  "ordered_lesson_ids": [
+    "firefox-for-ios-03-webkit-browser-wrapper-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Representable wrapper, load calls, and browser controls",
+    "The app’s native controls sit around a WebKit page. Follow a selected URL into the wrapper and understand which behavior is delegated to Apple’s WebKit engine.",
+    "The project does not embed Firefox’s Gecko engine."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Sources/WebView.swift` around `struct WebView`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Sources/WebView.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

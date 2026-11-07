@@ -1,0 +1,135 @@
+{
+  "module_id": "duckduckgo-for-ios-01-browser-core-and-url-routing",
+  "answers": [
+    {
+      "question_id": "duckduckgo-for-ios-m01-q01",
+      "correct_option_id": "duckduckgo-for-ios-m01-q01-o1",
+      "correct_explanation": "The lesson and source file `Sources/Core.swift` identify this behavior as: Input classification, scheme handling, empty input, and search-engine selection The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "duckduckgo-for-ios-m01-q01-o2": "The lesson traces 'Input classification, scheme handling, empty input, and search-engine selection' to Sources/Core.swift. This option instead claims 'BrowserTab identity, selected-tab behavior, close rules, and UserDefaults persistence', which the cited source does not establish for this behavior.",
+        "duckduckgo-for-ios-m01-q01-o3": "The lesson traces 'Input classification, scheme handling, empty input, and search-engine selection' to Sources/Core.swift. This option instead claims 'UIViewRepresentable/WebKit bridge, navigation state, and page loading', which the cited source does not establish for this behavior.",
+        "duckduckgo-for-ios-m01-q01-o4": "The lesson traces 'Input classification, scheme handling, empty input, and search-engine selection' to Sources/Core.swift. This option instead claims 'Rule-list JSON, rule compilation, blocked-count reporting, and private data behavior', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Input classification, scheme handling, empty input, and search-engine selection",
+      "related_lesson_id": "duckduckgo-for-ios-01-browser-core-and-url-routing-lesson-01",
+      "supporting_reference": "../../../../../projects/duckduckgo-for-ios/Sources/Core.swift"
+    },
+    {
+      "question_id": "duckduckgo-for-ios-m01-q02",
+      "correct_option_id": "duckduckgo-for-ios-m01-q02-o1",
+      "correct_explanation": "The lesson and source file `Sources/Core.swift` identify this behavior as: Sources/Core.swift The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "duckduckgo-for-ios-m01-q02-o3": "The lesson traces 'Sources/Core.swift' to Sources/Core.swift. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "duckduckgo-for-ios-m01-q02-o4": "The lesson traces 'Sources/Core.swift' to Sources/Core.swift. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior.",
+        "duckduckgo-for-ios-m01-q02-o2": "The lesson traces 'Sources/Core.swift' to Sources/Core.swift. This option instead claims 'Tests/BrowserCoreTests.swift', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Input classification, scheme handling, empty input, and search-engine selection",
+      "related_lesson_id": "duckduckgo-for-ios-01-browser-core-and-url-routing-lesson-01",
+      "supporting_reference": "../../../../../projects/duckduckgo-for-ios/Sources/Core.swift"
+    },
+    {
+      "question_id": "duckduckgo-for-ios-m01-q03",
+      "correct_option_id": "duckduckgo-for-ios-m01-q03-o1",
+      "correct_explanation": "The lesson and source file `Sources/Core.swift` identify this behavior as: The engine routing is a sample rule; it does not implement DuckDuckGo product services. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "duckduckgo-for-ios-m01-q03-o4": "The lesson traces 'The engine routing is a sample rule; it does not implement DuckDuckGo product services.' to Sources/Core.swift. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "duckduckgo-for-ios-m01-q03-o2": "The lesson traces 'The engine routing is a sample rule; it does not implement DuckDuckGo product services.' to Sources/Core.swift. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "duckduckgo-for-ios-m01-q03-o3": "The lesson traces 'The engine routing is a sample rule; it does not implement DuckDuckGo product services.' to Sources/Core.swift. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Input classification, scheme handling, empty input, and search-engine selection",
+      "related_lesson_id": "duckduckgo-for-ios-01-browser-core-and-url-routing-lesson-01",
+      "supporting_reference": "../../../../../projects/duckduckgo-for-ios/Sources/Core.swift"
+    },
+    {
+      "question_id": "duckduckgo-for-ios-m01-q04",
+      "correct_option_id": "duckduckgo-for-ios-m01-q04-o1",
+      "correct_explanation": "The lesson and source file `Sources/Core.swift` identify this behavior as: A browser address box has two jobs: open a likely URL or search ordinary words. Read the core decision function and tests for empty text, scheme insertion, and selected engine behavior. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "duckduckgo-for-ios-m01-q04-o2": "The lesson traces 'A browser address box has two jobs: open a likely URL or search ordinary words. Read the core decision function and tests for empty text, scheme insertion, and selected engine behavior.' to Sources/Core.swift. This option instead claims 'BrowserTab identity, selected-tab behavior, close rules, and UserDefaults persistence', which the cited source does not establish for this behavior.",
+        "duckduckgo-for-ios-m01-q04-o3": "The lesson traces 'A browser address box has two jobs: open a likely URL or search ordinary words. Read the core decision function and tests for empty text, scheme insertion, and selected engine behavior.' to Sources/Core.swift. This option instead claims 'UIViewRepresentable/WebKit bridge, navigation state, and page loading', which the cited source does not establish for this behavior.",
+        "duckduckgo-for-ios-m01-q04-o4": "The lesson traces 'A browser address box has two jobs: open a likely URL or search ordinary words. Read the core decision function and tests for empty text, scheme insertion, and selected engine behavior.' to Sources/Core.swift. This option instead claims 'Rule-list JSON, rule compilation, blocked-count reporting, and private data behavior', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Input classification, scheme handling, empty input, and search-engine selection",
+      "related_lesson_id": "duckduckgo-for-ios-01-browser-core-and-url-routing-lesson-01",
+      "supporting_reference": "../../../../../projects/duckduckgo-for-ios/Sources/Core.swift"
+    },
+    {
+      "question_id": "duckduckgo-for-ios-m01-q05",
+      "correct_option_id": "duckduckgo-for-ios-m01-q05-o1",
+      "correct_explanation": "The lesson and source file `Sources/Core.swift` identify this behavior as: Input classification, scheme handling, empty input, and search-engine selection The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "duckduckgo-for-ios-m01-q05-o2": "The lesson traces 'Input classification, scheme handling, empty input, and search-engine selection' to Sources/Core.swift. This option instead claims 'BrowserTab identity, selected-tab behavior, close rules, and UserDefaults persistence', which the cited source does not establish for this behavior.",
+        "duckduckgo-for-ios-m01-q05-o3": "The lesson traces 'Input classification, scheme handling, empty input, and search-engine selection' to Sources/Core.swift. This option instead claims 'UIViewRepresentable/WebKit bridge, navigation state, and page loading', which the cited source does not establish for this behavior.",
+        "duckduckgo-for-ios-m01-q05-o4": "The lesson traces 'Input classification, scheme handling, empty input, and search-engine selection' to Sources/Core.swift. This option instead claims 'Rule-list JSON, rule compilation, blocked-count reporting, and private data behavior', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Input classification, scheme handling, empty input, and search-engine selection",
+      "related_lesson_id": "duckduckgo-for-ios-01-browser-core-and-url-routing-lesson-01",
+      "supporting_reference": "../../../../../projects/duckduckgo-for-ios/Sources/Core.swift"
+    },
+    {
+      "question_id": "duckduckgo-for-ios-m01-q06",
+      "correct_option_id": "duckduckgo-for-ios-m01-q06-o1",
+      "correct_explanation": "The lesson and source file `Sources/Core.swift` identify this behavior as: A browser address box has two jobs: open a likely URL or search ordinary words. Read the core decision function and tests for empty text, scheme insertion, and selected engine behavior. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "duckduckgo-for-ios-m01-q06-o3": "The lesson traces 'A browser address box has two jobs: open a likely URL or search ordinary words. Read the core decision function and tests for empty text, scheme insertion, and selected engine behavior.' to Sources/Core.swift. This option instead claims 'UIViewRepresentable/WebKit bridge, navigation state, and page loading', which the cited source does not establish for this behavior.",
+        "duckduckgo-for-ios-m01-q06-o4": "The lesson traces 'A browser address box has two jobs: open a likely URL or search ordinary words. Read the core decision function and tests for empty text, scheme insertion, and selected engine behavior.' to Sources/Core.swift. This option instead claims 'Rule-list JSON, rule compilation, blocked-count reporting, and private data behavior', which the cited source does not establish for this behavior.",
+        "duckduckgo-for-ios-m01-q06-o2": "The lesson traces 'A browser address box has two jobs: open a likely URL or search ordinary words. Read the core decision function and tests for empty text, scheme insertion, and selected engine behavior.' to Sources/Core.swift. This option instead claims 'BrowserTab identity, selected-tab behavior, close rules, and UserDefaults persistence', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Input classification, scheme handling, empty input, and search-engine selection",
+      "related_lesson_id": "duckduckgo-for-ios-01-browser-core-and-url-routing-lesson-01",
+      "supporting_reference": "../../../../../projects/duckduckgo-for-ios/Sources/Core.swift"
+    },
+    {
+      "question_id": "duckduckgo-for-ios-m01-q07",
+      "correct_option_id": "duckduckgo-for-ios-m01-q07-o1",
+      "correct_explanation": "The lesson and source file `Sources/Core.swift` identify this behavior as: The engine routing is a sample rule; it does not implement DuckDuckGo product services. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "duckduckgo-for-ios-m01-q07-o4": "The lesson traces 'The engine routing is a sample rule; it does not implement DuckDuckGo product services.' to Sources/Core.swift. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "duckduckgo-for-ios-m01-q07-o2": "The lesson traces 'The engine routing is a sample rule; it does not implement DuckDuckGo product services.' to Sources/Core.swift. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "duckduckgo-for-ios-m01-q07-o3": "The lesson traces 'The engine routing is a sample rule; it does not implement DuckDuckGo product services.' to Sources/Core.swift. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Input classification, scheme handling, empty input, and search-engine selection",
+      "related_lesson_id": "duckduckgo-for-ios-01-browser-core-and-url-routing-lesson-01",
+      "supporting_reference": "../../../../../projects/duckduckgo-for-ios/Sources/Core.swift"
+    },
+    {
+      "question_id": "duckduckgo-for-ios-m01-q08",
+      "correct_option_id": "duckduckgo-for-ios-m01-q08-o1",
+      "correct_explanation": "The lesson and source file `Sources/Core.swift` identify this behavior as: Sources/Core.swift The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "duckduckgo-for-ios-m01-q08-o2": "The lesson traces 'Sources/Core.swift' to Sources/Core.swift. This option instead claims 'Tests/BrowserCoreTests.swift', which the cited source does not establish for this behavior.",
+        "duckduckgo-for-ios-m01-q08-o3": "The lesson traces 'Sources/Core.swift' to Sources/Core.swift. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "duckduckgo-for-ios-m01-q08-o4": "The lesson traces 'Sources/Core.swift' to Sources/Core.swift. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Input classification, scheme handling, empty input, and search-engine selection",
+      "related_lesson_id": "duckduckgo-for-ios-01-browser-core-and-url-routing-lesson-01",
+      "supporting_reference": "../../../../../projects/duckduckgo-for-ios/Sources/Core.swift"
+    },
+    {
+      "question_id": "duckduckgo-for-ios-m01-q09",
+      "correct_option_id": "duckduckgo-for-ios-m01-q09-o1",
+      "correct_explanation": "The lesson and source file `Sources/Core.swift` identify this behavior as: Do not claim production readiness: The engine routing is a sample rule; it does not implement DuckDuckGo product services. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "duckduckgo-for-ios-m01-q09-o2": "The lesson traces 'Do not claim production readiness: The engine routing is a sample rule; it does not implement DuckDuckGo product services.' to Sources/Core.swift. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "duckduckgo-for-ios-m01-q09-o3": "The lesson traces 'Do not claim production readiness: The engine routing is a sample rule; it does not implement DuckDuckGo product services.' to Sources/Core.swift. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior.",
+        "duckduckgo-for-ios-m01-q09-o4": "The lesson traces 'Do not claim production readiness: The engine routing is a sample rule; it does not implement DuckDuckGo product services.' to Sources/Core.swift. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Input classification, scheme handling, empty input, and search-engine selection",
+      "related_lesson_id": "duckduckgo-for-ios-01-browser-core-and-url-routing-lesson-01",
+      "supporting_reference": "../../../../../projects/duckduckgo-for-ios/Sources/Core.swift"
+    },
+    {
+      "question_id": "duckduckgo-for-ios-m01-q10",
+      "correct_option_id": "duckduckgo-for-ios-m01-q10-o1",
+      "correct_explanation": "The lesson and source file `Sources/Core.swift` identify this behavior as: A browser address box has two jobs: open a likely URL or search ordinary words. Read the core decision function and tests for empty text, scheme insertion, and selected engine behavior. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "duckduckgo-for-ios-m01-q10-o3": "The lesson traces 'A browser address box has two jobs: open a likely URL or search ordinary words. Read the core decision function and tests for empty text, scheme insertion, and selected engine behavior.' to Sources/Core.swift. This option instead claims 'UIViewRepresentable/WebKit bridge, navigation state, and page loading', which the cited source does not establish for this behavior.",
+        "duckduckgo-for-ios-m01-q10-o4": "The lesson traces 'A browser address box has two jobs: open a likely URL or search ordinary words. Read the core decision function and tests for empty text, scheme insertion, and selected engine behavior.' to Sources/Core.swift. This option instead claims 'Rule-list JSON, rule compilation, blocked-count reporting, and private data behavior', which the cited source does not establish for this behavior.",
+        "duckduckgo-for-ios-m01-q10-o2": "The lesson traces 'A browser address box has two jobs: open a likely URL or search ordinary words. Read the core decision function and tests for empty text, scheme insertion, and selected engine behavior.' to Sources/Core.swift. This option instead claims 'BrowserTab identity, selected-tab behavior, close rules, and UserDefaults persistence', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Input classification, scheme handling, empty input, and search-engine selection",
+      "related_lesson_id": "duckduckgo-for-ios-01-browser-core-and-url-routing-lesson-01",
+      "supporting_reference": "../../../../../projects/duckduckgo-for-ios/Sources/Core.swift"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "module_id": "covid-alert-04-check-history-and-time",
+  "title": "History ordering and next-check time",
+  "description": "A history list is a stack of dated events. Trace how a service response becomes a row, how newest checks are selected, and how a due timestamp is calculated. Notice that no history means “No check yet.”",
+  "learning_objectives": [
+    "Explain tocheck, lastcheck, formatting, interval calculation, and empty state in plain language.",
+    "Trace export function nextCheckDue in `src/exposure.ts` and explain the relevant behavior.",
+    "State and preserve this limit: The configured interval is a UI rule, not health guidance."
+  ],
+  "learning_objective_ids": [
+    "covid-alert-04-check-history-and-time-objective-01",
+    "covid-alert-04-check-history-and-time-objective-02",
+    "covid-alert-04-check-history-and-time-objective-03"
+  ],
+  "source_files": [
+    "src/exposure.ts",
+    "src/screens/StatusScreen.tsx"
+  ],
+  "prerequisites": [
+    "covid-alert-03-symptom-scoring"
+  ],
+  "ordered_lesson_ids": [
+    "covid-alert-04-check-history-and-time-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "toCheck, lastCheck, formatting, interval calculation, and empty state",
+    "A history list is a stack of dated events. Trace how a service response becomes a row, how newest checks are selected, and how a due timestamp is calculated. Notice that no history means “No check yet.”",
+    "The configured interval is a UI rule, not health guidance."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/exposure.ts` around `export function nextCheckDue`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/exposure.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

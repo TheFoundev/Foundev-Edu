@@ -1,0 +1,39 @@
+{
+  "module_id": "new-expensify-01-expense-and-report-data",
+  "title": "Reports contain expenses, not just totals",
+  "description": "A report is a folder containing expense rows. Read the typed shapes and seed data, then see how a displayed total should be derived from the rows rather than typed separately.",
+  "learning_objectives": [
+    "Explain expense and report types, seed records, and derived totals in plain language.",
+    "Trace export type Report in `src/model.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Seed reports and the CAD profile are demo data; no accounting backend is connected."
+  ],
+  "learning_objective_ids": [
+    "new-expensify-01-expense-and-report-data-objective-01",
+    "new-expensify-01-expense-and-report-data-objective-02",
+    "new-expensify-01-expense-and-report-data-objective-03"
+  ],
+  "source_files": [
+    "src/model.ts",
+    "src/data.ts",
+    "src/screens/ReportsScreen.tsx"
+  ],
+  "prerequisites": [],
+  "ordered_lesson_ids": [
+    "new-expensify-01-expense-and-report-data-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Expense and Report types, seed records, and derived totals",
+    "A report is a folder containing expense rows. Read the typed shapes and seed data, then see how a displayed total should be derived from the rows rather than typed separately.",
+    "Seed reports and the CAD profile are demo data; no accounting backend is connected."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/model.ts` around `export type Report`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/model.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

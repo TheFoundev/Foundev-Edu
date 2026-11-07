@@ -1,0 +1,31 @@
+{
+  "title": "MovieSwiftUI mini-project rubric",
+  "total_points": 100,
+  "criteria": [
+    {
+      "criterion": "Source-grounded architecture and traceability",
+      "points": 20,
+      "excellent": "Every feature is mapped to the correct model, screen, state, and boundary in source."
+    },
+    {
+      "criterion": "Functional implementation and integration",
+      "points": 25,
+      "excellent": "End-to-end workflow is complete, has useful states, and follows existing architecture."
+    },
+    {
+      "criterion": "Tests and debugging evidence",
+      "points": 20,
+      "excellent": "Tests cover core, edge, and failure cases; runtime checks are recorded precisely."
+    },
+    {
+      "criterion": "Security, privacy, and reliability",
+      "points": 15,
+      "excellent": "Inputs, local data, secrets, network, and simulation boundaries are handled responsibly."
+    },
+    {
+      "criterion": "Demo, documentation, and reflection",
+      "points": 20,
+      "excellent": "Clear demo, accurate setup, known limits, and thoughtful future work."
+    }
+  ]
+}

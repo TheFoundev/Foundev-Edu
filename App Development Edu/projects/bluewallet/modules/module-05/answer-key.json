@@ -1,0 +1,135 @@
+{
+  "module_id": "bluewallet-05-wallet-adapters-and-transport",
+  "answers": [
+    {
+      "question_id": "bluewallet-m05-q01",
+      "correct_option_id": "bluewallet-m05-q01-o1",
+      "correct_explanation": "The lesson and source file `src/wallet-core.ts` identify this behavior as: WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m05-q01-o2": "The lesson traces 'WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport' to src/wallet-core.ts. This option instead claims 'Transaction shape, satoshi formatting, seeded records, and tab shell', which the cited source does not establish for this behavior.",
+        "bluewallet-m05-q01-o3": "The lesson traces 'WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport' to src/wallet-core.ts. This option instead claims 'Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary', which the cited source does not establish for this behavior.",
+        "bluewallet-m05-q01-o4": "The lesson traces 'WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport' to src/wallet-core.ts. This option instead claims 'SHA-256 implementation and Electrum script hash preparation', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport",
+      "related_lesson_id": "bluewallet-05-wallet-adapters-and-transport-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/wallet-core.ts"
+    },
+    {
+      "question_id": "bluewallet-m05-q02",
+      "correct_option_id": "bluewallet-m05-q02-o1",
+      "correct_explanation": "The lesson and source file `src/wallet-core.ts` identify this behavior as: src/wallet-core.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m05-q02-o3": "The lesson traces 'src/wallet-core.ts' to src/wallet-core.ts. This option instead claims 'src/walletContext.tsx', which the cited source does not establish for this behavior.",
+        "bluewallet-m05-q02-o4": "The lesson traces 'src/wallet-core.ts' to src/wallet-core.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "bluewallet-m05-q02-o2": "The lesson traces 'src/wallet-core.ts' to src/wallet-core.ts. This option instead claims 'src/persistence.ts', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport",
+      "related_lesson_id": "bluewallet-05-wallet-adapters-and-transport-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/wallet-core.ts"
+    },
+    {
+      "question_id": "bluewallet-m05-q03",
+      "correct_option_id": "bluewallet-m05-q03-o1",
+      "correct_explanation": "The lesson and source file `src/wallet-core.ts` identify this behavior as: Source mismatch: the client constructs a React Native WebSocket but defaults to protocol ssl (and accepts tcp), neither of which is an accepted WebSocket URL scheme. A raw Electrum TCP/TLS endpoint needs a compatible WebSocket gateway or a different transport. The adapter also sends only when the socket is OPEN while calls can be issued immediately, so a first request may be silently dropped. No live Electrum connection was tested. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m05-q03-o4": "The lesson traces 'Source mismatch: the client constructs a React Native WebSocket but defaults to protocol ssl (and accepts tcp), neither of which is an accepted WebSocket URL scheme. A raw Electrum TCP/TLS endpoint needs a compatible WebSocket gateway or a different transport. The adapter also sends only when the socket is OPEN while calls can be issued immediately, so a first request may be silently dropped. No live Electrum connection was tested.' to src/wallet-core.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "bluewallet-m05-q03-o2": "The lesson traces 'Source mismatch: the client constructs a React Native WebSocket but defaults to protocol ssl (and accepts tcp), neither of which is an accepted WebSocket URL scheme. A raw Electrum TCP/TLS endpoint needs a compatible WebSocket gateway or a different transport. The adapter also sends only when the socket is OPEN while calls can be issued immediately, so a first request may be silently dropped. No live Electrum connection was tested.' to src/wallet-core.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "bluewallet-m05-q03-o3": "The lesson traces 'Source mismatch: the client constructs a React Native WebSocket but defaults to protocol ssl (and accepts tcp), neither of which is an accepted WebSocket URL scheme. A raw Electrum TCP/TLS endpoint needs a compatible WebSocket gateway or a different transport. The adapter also sends only when the socket is OPEN while calls can be issued immediately, so a first request may be silently dropped. No live Electrum connection was tested.' to src/wallet-core.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport",
+      "related_lesson_id": "bluewallet-05-wallet-adapters-and-transport-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/wallet-core.ts"
+    },
+    {
+      "question_id": "bluewallet-m05-q04",
+      "correct_option_id": "bluewallet-m05-q04-o1",
+      "correct_explanation": "The lesson and source file `src/wallet-core.ts` identify this behavior as: An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m05-q04-o2": "The lesson traces 'An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel.' to src/wallet-core.ts. This option instead claims 'Transaction shape, satoshi formatting, seeded records, and tab shell', which the cited source does not establish for this behavior.",
+        "bluewallet-m05-q04-o3": "The lesson traces 'An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel.' to src/wallet-core.ts. This option instead claims 'Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary', which the cited source does not establish for this behavior.",
+        "bluewallet-m05-q04-o4": "The lesson traces 'An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel.' to src/wallet-core.ts. This option instead claims 'SHA-256 implementation and Electrum script hash preparation', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport",
+      "related_lesson_id": "bluewallet-05-wallet-adapters-and-transport-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/wallet-core.ts"
+    },
+    {
+      "question_id": "bluewallet-m05-q05",
+      "correct_option_id": "bluewallet-m05-q05-o1",
+      "correct_explanation": "The lesson and source file `src/wallet-core.ts` identify this behavior as: WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m05-q05-o2": "The lesson traces 'WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport' to src/wallet-core.ts. This option instead claims 'Transaction shape, satoshi formatting, seeded records, and tab shell', which the cited source does not establish for this behavior.",
+        "bluewallet-m05-q05-o3": "The lesson traces 'WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport' to src/wallet-core.ts. This option instead claims 'Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary', which the cited source does not establish for this behavior.",
+        "bluewallet-m05-q05-o4": "The lesson traces 'WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport' to src/wallet-core.ts. This option instead claims 'SHA-256 implementation and Electrum script hash preparation', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport",
+      "related_lesson_id": "bluewallet-05-wallet-adapters-and-transport-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/wallet-core.ts"
+    },
+    {
+      "question_id": "bluewallet-m05-q06",
+      "correct_option_id": "bluewallet-m05-q06-o1",
+      "correct_explanation": "The lesson and source file `src/wallet-core.ts` identify this behavior as: An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m05-q06-o3": "The lesson traces 'An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel.' to src/wallet-core.ts. This option instead claims 'Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary', which the cited source does not establish for this behavior.",
+        "bluewallet-m05-q06-o4": "The lesson traces 'An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel.' to src/wallet-core.ts. This option instead claims 'SHA-256 implementation and Electrum script hash preparation', which the cited source does not establish for this behavior.",
+        "bluewallet-m05-q06-o2": "The lesson traces 'An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel.' to src/wallet-core.ts. This option instead claims 'Transaction shape, satoshi formatting, seeded records, and tab shell', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport",
+      "related_lesson_id": "bluewallet-05-wallet-adapters-and-transport-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/wallet-core.ts"
+    },
+    {
+      "question_id": "bluewallet-m05-q07",
+      "correct_option_id": "bluewallet-m05-q07-o1",
+      "correct_explanation": "The lesson and source file `src/wallet-core.ts` identify this behavior as: Source mismatch: the client constructs a React Native WebSocket but defaults to protocol ssl (and accepts tcp), neither of which is an accepted WebSocket URL scheme. A raw Electrum TCP/TLS endpoint needs a compatible WebSocket gateway or a different transport. The adapter also sends only when the socket is OPEN while calls can be issued immediately, so a first request may be silently dropped. No live Electrum connection was tested. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m05-q07-o4": "The lesson traces 'Source mismatch: the client constructs a React Native WebSocket but defaults to protocol ssl (and accepts tcp), neither of which is an accepted WebSocket URL scheme. A raw Electrum TCP/TLS endpoint needs a compatible WebSocket gateway or a different transport. The adapter also sends only when the socket is OPEN while calls can be issued immediately, so a first request may be silently dropped. No live Electrum connection was tested.' to src/wallet-core.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "bluewallet-m05-q07-o2": "The lesson traces 'Source mismatch: the client constructs a React Native WebSocket but defaults to protocol ssl (and accepts tcp), neither of which is an accepted WebSocket URL scheme. A raw Electrum TCP/TLS endpoint needs a compatible WebSocket gateway or a different transport. The adapter also sends only when the socket is OPEN while calls can be issued immediately, so a first request may be silently dropped. No live Electrum connection was tested.' to src/wallet-core.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "bluewallet-m05-q07-o3": "The lesson traces 'Source mismatch: the client constructs a React Native WebSocket but defaults to protocol ssl (and accepts tcp), neither of which is an accepted WebSocket URL scheme. A raw Electrum TCP/TLS endpoint needs a compatible WebSocket gateway or a different transport. The adapter also sends only when the socket is OPEN while calls can be issued immediately, so a first request may be silently dropped. No live Electrum connection was tested.' to src/wallet-core.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport",
+      "related_lesson_id": "bluewallet-05-wallet-adapters-and-transport-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/wallet-core.ts"
+    },
+    {
+      "question_id": "bluewallet-m05-q08",
+      "correct_option_id": "bluewallet-m05-q08-o1",
+      "correct_explanation": "The lesson and source file `src/wallet-core.ts` identify this behavior as: src/wallet-core.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m05-q08-o2": "The lesson traces 'src/wallet-core.ts' to src/wallet-core.ts. This option instead claims 'src/persistence.ts', which the cited source does not establish for this behavior.",
+        "bluewallet-m05-q08-o3": "The lesson traces 'src/wallet-core.ts' to src/wallet-core.ts. This option instead claims 'src/walletContext.tsx', which the cited source does not establish for this behavior.",
+        "bluewallet-m05-q08-o4": "The lesson traces 'src/wallet-core.ts' to src/wallet-core.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport",
+      "related_lesson_id": "bluewallet-05-wallet-adapters-and-transport-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/wallet-core.ts"
+    },
+    {
+      "question_id": "bluewallet-m05-q09",
+      "correct_option_id": "bluewallet-m05-q09-o1",
+      "correct_explanation": "The lesson and source file `src/wallet-core.ts` identify this behavior as: Do not claim production readiness: Source mismatch: the client constructs a React Native WebSocket but defaults to protocol ssl (and accepts tcp), neither of which is an accepted WebSocket URL scheme. A raw Electrum TCP/TLS endpoint needs a compatible WebSocket gateway or a different transport. The adapter also sends only when the socket is OPEN while calls can be issued immediately, so a first request may be silently dropped. No live Electrum connection was tested. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m05-q09-o2": "The lesson traces 'Do not claim production readiness: Source mismatch: the client constructs a React Native WebSocket but defaults to protocol ssl (and accepts tcp), neither of which is an accepted WebSocket URL scheme. A raw Electrum TCP/TLS endpoint needs a compatible WebSocket gateway or a different transport. The adapter also sends only when the socket is OPEN while calls can be issued immediately, so a first request may be silently dropped. No live Electrum connection was tested.' to src/wallet-core.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "bluewallet-m05-q09-o3": "The lesson traces 'Do not claim production readiness: Source mismatch: the client constructs a React Native WebSocket but defaults to protocol ssl (and accepts tcp), neither of which is an accepted WebSocket URL scheme. A raw Electrum TCP/TLS endpoint needs a compatible WebSocket gateway or a different transport. The adapter also sends only when the socket is OPEN while calls can be issued immediately, so a first request may be silently dropped. No live Electrum connection was tested.' to src/wallet-core.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior.",
+        "bluewallet-m05-q09-o4": "The lesson traces 'Do not claim production readiness: Source mismatch: the client constructs a React Native WebSocket but defaults to protocol ssl (and accepts tcp), neither of which is an accepted WebSocket URL scheme. A raw Electrum TCP/TLS endpoint needs a compatible WebSocket gateway or a different transport. The adapter also sends only when the socket is OPEN while calls can be issued immediately, so a first request may be silently dropped. No live Electrum connection was tested.' to src/wallet-core.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport",
+      "related_lesson_id": "bluewallet-05-wallet-adapters-and-transport-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/wallet-core.ts"
+    },
+    {
+      "question_id": "bluewallet-m05-q10",
+      "correct_option_id": "bluewallet-m05-q10-o1",
+      "correct_explanation": "The lesson and source file `src/wallet-core.ts` identify this behavior as: An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m05-q10-o3": "The lesson traces 'An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel.' to src/wallet-core.ts. This option instead claims 'Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary', which the cited source does not establish for this behavior.",
+        "bluewallet-m05-q10-o4": "The lesson traces 'An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel.' to src/wallet-core.ts. This option instead claims 'SHA-256 implementation and Electrum script hash preparation', which the cited source does not establish for this behavior.",
+        "bluewallet-m05-q10-o2": "The lesson traces 'An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel.' to src/wallet-core.ts. This option instead claims 'Transaction shape, satoshi formatting, seeded records, and tab shell', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport",
+      "related_lesson_id": "bluewallet-05-wallet-adapters-and-transport-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/wallet-core.ts"
+    }
+  ]
+}

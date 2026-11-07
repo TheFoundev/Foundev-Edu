@@ -1,0 +1,40 @@
+{
+  "module_id": "rocket-chat-mobile-05-persistence-and-context",
+  "title": "Hydrate local chat state and coordinate shared actions",
+  "description": "Context shares messages across views; storage restores a prior local snapshot. Follow startup hydration and then how sent messages are persisted after local insertion.",
+  "learning_objectives": [
+    "Explain asyncstorage adapter, load/save effects, context actions, and optimistic state in plain language.",
+    "Trace export class ChatStore in `src/store.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Local chat persistence is not end-to-end encrypted server sync."
+  ],
+  "learning_objective_ids": [
+    "rocket-chat-mobile-05-persistence-and-context-objective-01",
+    "rocket-chat-mobile-05-persistence-and-context-objective-02",
+    "rocket-chat-mobile-05-persistence-and-context-objective-03"
+  ],
+  "source_files": [
+    "src/store.ts",
+    "src/chatContext.tsx"
+  ],
+  "prerequisites": [
+    "rocket-chat-mobile-04-offline-default-and-endpoint-safety"
+  ],
+  "ordered_lesson_ids": [
+    "rocket-chat-mobile-05-persistence-and-context-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "AsyncStorage adapter, load/save effects, context actions, and optimistic state",
+    "Context shares messages across views; storage restores a prior local snapshot. Follow startup hydration and then how sent messages are persisted after local insertion.",
+    "Local chat persistence is not end-to-end encrypted server sync."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/store.ts` around `export class ChatStore`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/store.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

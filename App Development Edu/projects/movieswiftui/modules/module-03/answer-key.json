@@ -1,0 +1,135 @@
+{
+  "module_id": "movieswiftui-03-search-genres-and-sorting",
+  "answers": [
+    {
+      "question_id": "movieswiftui-m03-q01",
+      "correct_option_id": "movieswiftui-m03-q01-o1",
+      "correct_explanation": "The lesson and source file `Sources/Core.swift` identify this behavior as: Text search fields, genre filtering, rating/year ordering, and UI controls The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "movieswiftui-m03-q01-o2": "The lesson traces 'Text search fields, genre filtering, rating/year ordering, and UI controls' to Sources/Core.swift. This option instead claims 'Movie fields, identity, MovieInfo projection, and seed records', which the cited source does not establish for this behavior.",
+        "movieswiftui-m03-q01-o3": "The lesson traces 'Text search fields, genre filtering, rating/year ordering, and UI controls' to Sources/Core.swift. This option instead claims 'Response decoding/mapping and missing-field rejection', which the cited source does not establish for this behavior.",
+        "movieswiftui-m03-q01-o4": "The lesson traces 'Text search fields, genre filtering, rating/year ordering, and UI controls' to Sources/Core.swift. This option instead claims 'Store defaults, add/remove operations, and UserDefaults reload', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Text search fields, genre filtering, rating/year ordering, and UI controls",
+      "related_lesson_id": "movieswiftui-03-search-genres-and-sorting-lesson-01",
+      "supporting_reference": "../../../../../projects/movieswiftui/Sources/Core.swift"
+    },
+    {
+      "question_id": "movieswiftui-m03-q02",
+      "correct_option_id": "movieswiftui-m03-q02-o1",
+      "correct_explanation": "The lesson and source file `Sources/Core.swift` identify this behavior as: Sources/Core.swift The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "movieswiftui-m03-q02-o3": "The lesson traces 'Sources/Core.swift' to Sources/Core.swift. This option instead claims 'Sources/Screens/DiscoverView.swift', which the cited source does not establish for this behavior.",
+        "movieswiftui-m03-q02-o4": "The lesson traces 'Sources/Core.swift' to Sources/Core.swift. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "movieswiftui-m03-q02-o2": "The lesson traces 'Sources/Core.swift' to Sources/Core.swift. This option instead claims 'Sources/Screens/SearchView.swift', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Text search fields, genre filtering, rating/year ordering, and UI controls",
+      "related_lesson_id": "movieswiftui-03-search-genres-and-sorting-lesson-01",
+      "supporting_reference": "../../../../../projects/movieswiftui/Sources/Core.swift"
+    },
+    {
+      "question_id": "movieswiftui-m03-q03",
+      "correct_option_id": "movieswiftui-m03-q03-o1",
+      "correct_explanation": "The lesson and source file `Sources/Core.swift` identify this behavior as: Results only cover the in-memory catalogue available to the store. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "movieswiftui-m03-q03-o4": "The lesson traces 'Results only cover the in-memory catalogue available to the store.' to Sources/Core.swift. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "movieswiftui-m03-q03-o2": "The lesson traces 'Results only cover the in-memory catalogue available to the store.' to Sources/Core.swift. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "movieswiftui-m03-q03-o3": "The lesson traces 'Results only cover the in-memory catalogue available to the store.' to Sources/Core.swift. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Text search fields, genre filtering, rating/year ordering, and UI controls",
+      "related_lesson_id": "movieswiftui-03-search-genres-and-sorting-lesson-01",
+      "supporting_reference": "../../../../../projects/movieswiftui/Sources/Core.swift"
+    },
+    {
+      "question_id": "movieswiftui-m03-q04",
+      "correct_option_id": "movieswiftui-m03-q04-o1",
+      "correct_explanation": "The lesson and source file `Sources/Core.swift` identify this behavior as: Search removes items that do not match; sorting changes order without changing the movie facts. Trace each control to its pure function and compare boundary cases in tests. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "movieswiftui-m03-q04-o2": "The lesson traces 'Search removes items that do not match; sorting changes order without changing the movie facts. Trace each control to its pure function and compare boundary cases in tests.' to Sources/Core.swift. This option instead claims 'Movie fields, identity, MovieInfo projection, and seed records', which the cited source does not establish for this behavior.",
+        "movieswiftui-m03-q04-o3": "The lesson traces 'Search removes items that do not match; sorting changes order without changing the movie facts. Trace each control to its pure function and compare boundary cases in tests.' to Sources/Core.swift. This option instead claims 'Response decoding/mapping and missing-field rejection', which the cited source does not establish for this behavior.",
+        "movieswiftui-m03-q04-o4": "The lesson traces 'Search removes items that do not match; sorting changes order without changing the movie facts. Trace each control to its pure function and compare boundary cases in tests.' to Sources/Core.swift. This option instead claims 'Store defaults, add/remove operations, and UserDefaults reload', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Text search fields, genre filtering, rating/year ordering, and UI controls",
+      "related_lesson_id": "movieswiftui-03-search-genres-and-sorting-lesson-01",
+      "supporting_reference": "../../../../../projects/movieswiftui/Sources/Core.swift"
+    },
+    {
+      "question_id": "movieswiftui-m03-q05",
+      "correct_option_id": "movieswiftui-m03-q05-o1",
+      "correct_explanation": "The lesson and source file `Sources/Core.swift` identify this behavior as: Text search fields, genre filtering, rating/year ordering, and UI controls The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "movieswiftui-m03-q05-o2": "The lesson traces 'Text search fields, genre filtering, rating/year ordering, and UI controls' to Sources/Core.swift. This option instead claims 'Movie fields, identity, MovieInfo projection, and seed records', which the cited source does not establish for this behavior.",
+        "movieswiftui-m03-q05-o3": "The lesson traces 'Text search fields, genre filtering, rating/year ordering, and UI controls' to Sources/Core.swift. This option instead claims 'Response decoding/mapping and missing-field rejection', which the cited source does not establish for this behavior.",
+        "movieswiftui-m03-q05-o4": "The lesson traces 'Text search fields, genre filtering, rating/year ordering, and UI controls' to Sources/Core.swift. This option instead claims 'Store defaults, add/remove operations, and UserDefaults reload', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Text search fields, genre filtering, rating/year ordering, and UI controls",
+      "related_lesson_id": "movieswiftui-03-search-genres-and-sorting-lesson-01",
+      "supporting_reference": "../../../../../projects/movieswiftui/Sources/Core.swift"
+    },
+    {
+      "question_id": "movieswiftui-m03-q06",
+      "correct_option_id": "movieswiftui-m03-q06-o1",
+      "correct_explanation": "The lesson and source file `Sources/Core.swift` identify this behavior as: Search removes items that do not match; sorting changes order without changing the movie facts. Trace each control to its pure function and compare boundary cases in tests. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "movieswiftui-m03-q06-o3": "The lesson traces 'Search removes items that do not match; sorting changes order without changing the movie facts. Trace each control to its pure function and compare boundary cases in tests.' to Sources/Core.swift. This option instead claims 'Response decoding/mapping and missing-field rejection', which the cited source does not establish for this behavior.",
+        "movieswiftui-m03-q06-o4": "The lesson traces 'Search removes items that do not match; sorting changes order without changing the movie facts. Trace each control to its pure function and compare boundary cases in tests.' to Sources/Core.swift. This option instead claims 'Store defaults, add/remove operations, and UserDefaults reload', which the cited source does not establish for this behavior.",
+        "movieswiftui-m03-q06-o2": "The lesson traces 'Search removes items that do not match; sorting changes order without changing the movie facts. Trace each control to its pure function and compare boundary cases in tests.' to Sources/Core.swift. This option instead claims 'Movie fields, identity, MovieInfo projection, and seed records', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Text search fields, genre filtering, rating/year ordering, and UI controls",
+      "related_lesson_id": "movieswiftui-03-search-genres-and-sorting-lesson-01",
+      "supporting_reference": "../../../../../projects/movieswiftui/Sources/Core.swift"
+    },
+    {
+      "question_id": "movieswiftui-m03-q07",
+      "correct_option_id": "movieswiftui-m03-q07-o1",
+      "correct_explanation": "The lesson and source file `Sources/Core.swift` identify this behavior as: Results only cover the in-memory catalogue available to the store. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "movieswiftui-m03-q07-o4": "The lesson traces 'Results only cover the in-memory catalogue available to the store.' to Sources/Core.swift. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "movieswiftui-m03-q07-o2": "The lesson traces 'Results only cover the in-memory catalogue available to the store.' to Sources/Core.swift. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "movieswiftui-m03-q07-o3": "The lesson traces 'Results only cover the in-memory catalogue available to the store.' to Sources/Core.swift. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Text search fields, genre filtering, rating/year ordering, and UI controls",
+      "related_lesson_id": "movieswiftui-03-search-genres-and-sorting-lesson-01",
+      "supporting_reference": "../../../../../projects/movieswiftui/Sources/Core.swift"
+    },
+    {
+      "question_id": "movieswiftui-m03-q08",
+      "correct_option_id": "movieswiftui-m03-q08-o1",
+      "correct_explanation": "The lesson and source file `Sources/Core.swift` identify this behavior as: Sources/Core.swift The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "movieswiftui-m03-q08-o2": "The lesson traces 'Sources/Core.swift' to Sources/Core.swift. This option instead claims 'Sources/Screens/SearchView.swift', which the cited source does not establish for this behavior.",
+        "movieswiftui-m03-q08-o3": "The lesson traces 'Sources/Core.swift' to Sources/Core.swift. This option instead claims 'Sources/Screens/DiscoverView.swift', which the cited source does not establish for this behavior.",
+        "movieswiftui-m03-q08-o4": "The lesson traces 'Sources/Core.swift' to Sources/Core.swift. This option instead claims 'package.json', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Text search fields, genre filtering, rating/year ordering, and UI controls",
+      "related_lesson_id": "movieswiftui-03-search-genres-and-sorting-lesson-01",
+      "supporting_reference": "../../../../../projects/movieswiftui/Sources/Core.swift"
+    },
+    {
+      "question_id": "movieswiftui-m03-q09",
+      "correct_option_id": "movieswiftui-m03-q09-o1",
+      "correct_explanation": "The lesson and source file `Sources/Core.swift` identify this behavior as: Do not claim production readiness: Results only cover the in-memory catalogue available to the store. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "movieswiftui-m03-q09-o2": "The lesson traces 'Do not claim production readiness: Results only cover the in-memory catalogue available to the store.' to Sources/Core.swift. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "movieswiftui-m03-q09-o3": "The lesson traces 'Do not claim production readiness: Results only cover the in-memory catalogue available to the store.' to Sources/Core.swift. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior.",
+        "movieswiftui-m03-q09-o4": "The lesson traces 'Do not claim production readiness: Results only cover the in-memory catalogue available to the store.' to Sources/Core.swift. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Text search fields, genre filtering, rating/year ordering, and UI controls",
+      "related_lesson_id": "movieswiftui-03-search-genres-and-sorting-lesson-01",
+      "supporting_reference": "../../../../../projects/movieswiftui/Sources/Core.swift"
+    },
+    {
+      "question_id": "movieswiftui-m03-q10",
+      "correct_option_id": "movieswiftui-m03-q10-o1",
+      "correct_explanation": "The lesson and source file `Sources/Core.swift` identify this behavior as: Search removes items that do not match; sorting changes order without changing the movie facts. Trace each control to its pure function and compare boundary cases in tests. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "movieswiftui-m03-q10-o3": "The lesson traces 'Search removes items that do not match; sorting changes order without changing the movie facts. Trace each control to its pure function and compare boundary cases in tests.' to Sources/Core.swift. This option instead claims 'Response decoding/mapping and missing-field rejection', which the cited source does not establish for this behavior.",
+        "movieswiftui-m03-q10-o4": "The lesson traces 'Search removes items that do not match; sorting changes order without changing the movie facts. Trace each control to its pure function and compare boundary cases in tests.' to Sources/Core.swift. This option instead claims 'Store defaults, add/remove operations, and UserDefaults reload', which the cited source does not establish for this behavior.",
+        "movieswiftui-m03-q10-o2": "The lesson traces 'Search removes items that do not match; sorting changes order without changing the movie facts. Trace each control to its pure function and compare boundary cases in tests.' to Sources/Core.swift. This option instead claims 'Movie fields, identity, MovieInfo projection, and seed records', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Text search fields, genre filtering, rating/year ordering, and UI controls",
+      "related_lesson_id": "movieswiftui-03-search-genres-and-sorting-lesson-01",
+      "supporting_reference": "../../../../../projects/movieswiftui/Sources/Core.swift"
+    }
+  ]
+}

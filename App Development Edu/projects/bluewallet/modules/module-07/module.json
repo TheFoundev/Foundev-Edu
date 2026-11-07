@@ -1,0 +1,41 @@
+{
+  "module_id": "bluewallet-07-local-persistence-and-failure-cases",
+  "title": "Store wallet state without inventing chain truth",
+  "description": "Local storage is a notebook, not a blockchain. Read the storage adapter and store tests, then distinguish persisted demo history from provider-synchronized history.",
+  "learning_objectives": [
+    "Explain key/value adapter, json parsing, corrupt state, and local transaction storage in plain language.",
+    "Trace export class WalletStore in `src/store.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Local changes can survive restarts but are not proof of confirmed on-chain transactions."
+  ],
+  "learning_objective_ids": [
+    "bluewallet-07-local-persistence-and-failure-cases-objective-01",
+    "bluewallet-07-local-persistence-and-failure-cases-objective-02",
+    "bluewallet-07-local-persistence-and-failure-cases-objective-03"
+  ],
+  "source_files": [
+    "src/store.ts",
+    "src/persistence.ts",
+    "test/store.test.ts"
+  ],
+  "prerequisites": [
+    "bluewallet-06-signing-and-broadcast-safety"
+  ],
+  "ordered_lesson_ids": [
+    "bluewallet-07-local-persistence-and-failure-cases-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Key/value adapter, JSON parsing, corrupt state, and local transaction storage",
+    "Local storage is a notebook, not a blockchain. Read the storage adapter and store tests, then distinguish persisted demo history from provider-synchronized history.",
+    "Local changes can survive restarts but are not proof of confirmed on-chain transactions."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/store.ts` around `export class WalletStore`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/store.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

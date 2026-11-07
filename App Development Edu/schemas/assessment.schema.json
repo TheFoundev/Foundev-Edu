@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "assessment.schema.json",
+  "type": "object",
+  "required": [
+    "module_id",
+    "questions"
+  ],
+  "properties": {
+    "module_id": {
+      "type": "string"
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "required": [
+          "question_id",
+          "text",
+          "options",
+          "difficulty",
+          "learning_objective_id",
+          "lesson_id"
+        ],
+        "properties": {
+          "question_id": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "options": {
+            "type": "array",
+            "minItems": 4,
+            "maxItems": 4,
+            "items": {
+              "type": "object",
+              "required": [
+                "option_id",
+                "text"
+              ],
+              "properties": {
+                "option_id": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "difficulty": {
+            "enum": [
+              "basic",
+              "intermediate",
+              "advanced"
+            ]
+          },
+          "learning_objective_id": {
+            "type": "string"
+          },
+          "lesson_id": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

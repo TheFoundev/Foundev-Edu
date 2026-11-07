@@ -1,0 +1,40 @@
+{
+  "module_id": "movieswiftui-02-api-response-mapping",
+  "title": "Convert untrusted response data into movie records",
+  "description": "A mapper is a translator between an external shape and the app’s model. Follow the function that accepts a generic response and the test that rejects incomplete fields.",
+  "learning_objectives": [
+    "Explain response decoding/mapping and missing-field rejection in plain language.",
+    "Trace func movie in `Sources/Core.swift` and explain the relevant behavior.",
+    "State and preserve this limit: No API credentials or live server call are present in the sample app."
+  ],
+  "learning_objective_ids": [
+    "movieswiftui-02-api-response-mapping-objective-01",
+    "movieswiftui-02-api-response-mapping-objective-02",
+    "movieswiftui-02-api-response-mapping-objective-03"
+  ],
+  "source_files": [
+    "Sources/Core.swift",
+    "Tests/MovieCoreTests.swift"
+  ],
+  "prerequisites": [
+    "movieswiftui-01-movie-model-and-catalogue"
+  ],
+  "ordered_lesson_ids": [
+    "movieswiftui-02-api-response-mapping-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Response decoding/mapping and missing-field rejection",
+    "A mapper is a translator between an external shape and the app’s model. Follow the function that accepts a generic response and the test that rejects incomplete fields.",
+    "No API credentials or live server call are present in the sample app."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Sources/Core.swift` around `func movie`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Sources/Core.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "module_id": "rocket-chat-mobile-03-response-mapping-and-local-operations",
+  "answers": [
+    {
+      "question_id": "rocket-chat-mobile-m03-q01",
+      "correct_option_id": "rocket-chat-mobile-m03-q01-o1",
+      "correct_explanation": "The lesson and source file `src/chat.ts` identify this behavior as: toChannels/toMessages, filtering, unread counts, optimistic append The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m03-q01-o2": "The lesson traces 'toChannels/toMessages, filtering, unread counts, optimistic append' to src/chat.ts. This option instead claims 'Channel/ChatMessage models, seeded data, and unread display', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m03-q01-o3": "The lesson traces 'toChannels/toMessages, filtering, unread counts, optimistic append' to src/chat.ts. This option instead claims 'Socket abstraction, connect/session, method IDs, ping/pong, timeout and close', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m03-q01-o4": "The lesson traces 'toChannels/toMessages, filtering, unread counts, optimistic append' to src/chat.ts. This option instead claims 'EXPO_PUBLIC_CHAT_URL, secure WebSocket validation, `.example` rejection, idle status', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "toChannels/toMessages, filtering, unread counts, optimistic append",
+      "related_lesson_id": "rocket-chat-mobile-03-response-mapping-and-local-operations-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/src/chat.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m03-q02",
+      "correct_option_id": "rocket-chat-mobile-m03-q02-o1",
+      "correct_explanation": "The lesson and source file `src/chat.ts` identify this behavior as: src/chat.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m03-q02-o3": "The lesson traces 'src/chat.ts' to src/chat.ts. This option instead claims 'src/screens/ChannelsScreen.tsx', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m03-q02-o4": "The lesson traces 'src/chat.ts' to src/chat.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m03-q02-o2": "The lesson traces 'src/chat.ts' to src/chat.ts. This option instead claims 'src/screens/ChatScreen.tsx', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "toChannels/toMessages, filtering, unread counts, optimistic append",
+      "related_lesson_id": "rocket-chat-mobile-03-response-mapping-and-local-operations-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/src/chat.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m03-q03",
+      "correct_option_id": "rocket-chat-mobile-m03-q03-o1",
+      "correct_explanation": "The lesson and source file `src/chat.ts` identify this behavior as: Method names and response shapes are a demo contract; confirm them against the target server version. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m03-q03-o4": "The lesson traces 'Method names and response shapes are a demo contract; confirm them against the target server version.' to src/chat.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m03-q03-o2": "The lesson traces 'Method names and response shapes are a demo contract; confirm them against the target server version.' to src/chat.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m03-q03-o3": "The lesson traces 'Method names and response shapes are a demo contract; confirm them against the target server version.' to src/chat.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "toChannels/toMessages, filtering, unread counts, optimistic append",
+      "related_lesson_id": "rocket-chat-mobile-03-response-mapping-and-local-operations-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/src/chat.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m03-q04",
+      "correct_option_id": "rocket-chat-mobile-m03-q04-o1",
+      "correct_explanation": "The lesson and source file `src/chat.ts` identify this behavior as: External objects need validation before entering a UI list. Follow mapping functions and local helpers, then see how a sent message is appended optimistically. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m03-q04-o2": "The lesson traces 'External objects need validation before entering a UI list. Follow mapping functions and local helpers, then see how a sent message is appended optimistically.' to src/chat.ts. This option instead claims 'Channel/ChatMessage models, seeded data, and unread display', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m03-q04-o3": "The lesson traces 'External objects need validation before entering a UI list. Follow mapping functions and local helpers, then see how a sent message is appended optimistically.' to src/chat.ts. This option instead claims 'Socket abstraction, connect/session, method IDs, ping/pong, timeout and close', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m03-q04-o4": "The lesson traces 'External objects need validation before entering a UI list. Follow mapping functions and local helpers, then see how a sent message is appended optimistically.' to src/chat.ts. This option instead claims 'EXPO_PUBLIC_CHAT_URL, secure WebSocket validation, `.example` rejection, idle status', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "toChannels/toMessages, filtering, unread counts, optimistic append",
+      "related_lesson_id": "rocket-chat-mobile-03-response-mapping-and-local-operations-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/src/chat.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m03-q05",
+      "correct_option_id": "rocket-chat-mobile-m03-q05-o1",
+      "correct_explanation": "The lesson and source file `src/chat.ts` identify this behavior as: toChannels/toMessages, filtering, unread counts, optimistic append The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m03-q05-o2": "The lesson traces 'toChannels/toMessages, filtering, unread counts, optimistic append' to src/chat.ts. This option instead claims 'Channel/ChatMessage models, seeded data, and unread display', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m03-q05-o3": "The lesson traces 'toChannels/toMessages, filtering, unread counts, optimistic append' to src/chat.ts. This option instead claims 'Socket abstraction, connect/session, method IDs, ping/pong, timeout and close', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m03-q05-o4": "The lesson traces 'toChannels/toMessages, filtering, unread counts, optimistic append' to src/chat.ts. This option instead claims 'EXPO_PUBLIC_CHAT_URL, secure WebSocket validation, `.example` rejection, idle status', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "toChannels/toMessages, filtering, unread counts, optimistic append",
+      "related_lesson_id": "rocket-chat-mobile-03-response-mapping-and-local-operations-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/src/chat.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m03-q06",
+      "correct_option_id": "rocket-chat-mobile-m03-q06-o1",
+      "correct_explanation": "The lesson and source file `src/chat.ts` identify this behavior as: External objects need validation before entering a UI list. Follow mapping functions and local helpers, then see how a sent message is appended optimistically. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m03-q06-o3": "The lesson traces 'External objects need validation before entering a UI list. Follow mapping functions and local helpers, then see how a sent message is appended optimistically.' to src/chat.ts. This option instead claims 'Socket abstraction, connect/session, method IDs, ping/pong, timeout and close', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m03-q06-o4": "The lesson traces 'External objects need validation before entering a UI list. Follow mapping functions and local helpers, then see how a sent message is appended optimistically.' to src/chat.ts. This option instead claims 'EXPO_PUBLIC_CHAT_URL, secure WebSocket validation, `.example` rejection, idle status', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m03-q06-o2": "The lesson traces 'External objects need validation before entering a UI list. Follow mapping functions and local helpers, then see how a sent message is appended optimistically.' to src/chat.ts. This option instead claims 'Channel/ChatMessage models, seeded data, and unread display', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "toChannels/toMessages, filtering, unread counts, optimistic append",
+      "related_lesson_id": "rocket-chat-mobile-03-response-mapping-and-local-operations-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/src/chat.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m03-q07",
+      "correct_option_id": "rocket-chat-mobile-m03-q07-o1",
+      "correct_explanation": "The lesson and source file `src/chat.ts` identify this behavior as: Method names and response shapes are a demo contract; confirm them against the target server version. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m03-q07-o4": "The lesson traces 'Method names and response shapes are a demo contract; confirm them against the target server version.' to src/chat.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m03-q07-o2": "The lesson traces 'Method names and response shapes are a demo contract; confirm them against the target server version.' to src/chat.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m03-q07-o3": "The lesson traces 'Method names and response shapes are a demo contract; confirm them against the target server version.' to src/chat.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "toChannels/toMessages, filtering, unread counts, optimistic append",
+      "related_lesson_id": "rocket-chat-mobile-03-response-mapping-and-local-operations-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/src/chat.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m03-q08",
+      "correct_option_id": "rocket-chat-mobile-m03-q08-o1",
+      "correct_explanation": "The lesson and source file `src/chat.ts` identify this behavior as: src/chat.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m03-q08-o2": "The lesson traces 'src/chat.ts' to src/chat.ts. This option instead claims 'src/screens/ChatScreen.tsx', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m03-q08-o3": "The lesson traces 'src/chat.ts' to src/chat.ts. This option instead claims 'src/screens/ChannelsScreen.tsx', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m03-q08-o4": "The lesson traces 'src/chat.ts' to src/chat.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "toChannels/toMessages, filtering, unread counts, optimistic append",
+      "related_lesson_id": "rocket-chat-mobile-03-response-mapping-and-local-operations-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/src/chat.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m03-q09",
+      "correct_option_id": "rocket-chat-mobile-m03-q09-o1",
+      "correct_explanation": "The lesson and source file `src/chat.ts` identify this behavior as: Do not claim production readiness: Method names and response shapes are a demo contract; confirm them against the target server version. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m03-q09-o2": "The lesson traces 'Do not claim production readiness: Method names and response shapes are a demo contract; confirm them against the target server version.' to src/chat.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m03-q09-o3": "The lesson traces 'Do not claim production readiness: Method names and response shapes are a demo contract; confirm them against the target server version.' to src/chat.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m03-q09-o4": "The lesson traces 'Do not claim production readiness: Method names and response shapes are a demo contract; confirm them against the target server version.' to src/chat.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "toChannels/toMessages, filtering, unread counts, optimistic append",
+      "related_lesson_id": "rocket-chat-mobile-03-response-mapping-and-local-operations-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/src/chat.ts"
+    },
+    {
+      "question_id": "rocket-chat-mobile-m03-q10",
+      "correct_option_id": "rocket-chat-mobile-m03-q10-o1",
+      "correct_explanation": "The lesson and source file `src/chat.ts` identify this behavior as: External objects need validation before entering a UI list. Follow mapping functions and local helpers, then see how a sent message is appended optimistically. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "rocket-chat-mobile-m03-q10-o3": "The lesson traces 'External objects need validation before entering a UI list. Follow mapping functions and local helpers, then see how a sent message is appended optimistically.' to src/chat.ts. This option instead claims 'Socket abstraction, connect/session, method IDs, ping/pong, timeout and close', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m03-q10-o4": "The lesson traces 'External objects need validation before entering a UI list. Follow mapping functions and local helpers, then see how a sent message is appended optimistically.' to src/chat.ts. This option instead claims 'EXPO_PUBLIC_CHAT_URL, secure WebSocket validation, `.example` rejection, idle status', which the cited source does not establish for this behavior.",
+        "rocket-chat-mobile-m03-q10-o2": "The lesson traces 'External objects need validation before entering a UI list. Follow mapping functions and local helpers, then see how a sent message is appended optimistically.' to src/chat.ts. This option instead claims 'Channel/ChatMessage models, seeded data, and unread display', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "toChannels/toMessages, filtering, unread counts, optimistic append",
+      "related_lesson_id": "rocket-chat-mobile-03-response-mapping-and-local-operations-lesson-01",
+      "supporting_reference": "../../../../../projects/rocket-chat-mobile/src/chat.ts"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "module_id": "covid-alert-03-symptom-scoring",
+  "title": "From selected symptoms to an informational score",
+  "description": "A score is a simple weighted tally, like adding points on a checklist. Follow each selected symptom to its weight, thresholds, output advice, and UI disclaimer. It is not a clinical model.",
+  "learning_objectives": [
+    "Explain weights, duplicate/unknown filtering, thresholds, advice, and disclaimer in plain language.",
+    "Trace export function assessSymptoms in `src/exposure.ts` and explain the relevant behavior.",
+    "State and preserve this limit: The score is educational and is not medical advice or a validated clinical decision tool."
+  ],
+  "learning_objective_ids": [
+    "covid-alert-03-symptom-scoring-objective-01",
+    "covid-alert-03-symptom-scoring-objective-02",
+    "covid-alert-03-symptom-scoring-objective-03"
+  ],
+  "source_files": [
+    "src/exposure.ts",
+    "src/screens/SymptomsScreen.tsx"
+  ],
+  "prerequisites": [
+    "covid-alert-02-simulated-check-service"
+  ],
+  "ordered_lesson_ids": [
+    "covid-alert-03-symptom-scoring-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Weights, duplicate/unknown filtering, thresholds, advice, and disclaimer",
+    "A score is a simple weighted tally, like adding points on a checklist. Follow each selected symptom to its weight, thresholds, output advice, and UI disclaimer. It is not a clinical model.",
+    "The score is educational and is not medical advice or a validated clinical decision tool."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/exposure.ts` around `export function assessSymptoms`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/exposure.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

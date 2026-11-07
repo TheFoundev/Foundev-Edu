@@ -1,0 +1,38 @@
+{
+  "module_id": "bluesky-social-app-01-feed-model",
+  "title": "The feed as a small library",
+  "description": "Start by seeing a feed as a list of labelled cards. Read the Post shape and seed data, then follow pure functions that publish, filter, merge, and count records. Keep display concerns out of these transformations.",
+  "learning_objectives": [
+    "Explain post records, seed fixtures, and pure feed operations in plain language.",
+    "Trace export function canPublish in `src/feed.ts` and explain the relevant behavior.",
+    "State and preserve this limit: Posts are local sample records; mergeRemotePosts is a helper and does not itself call a network."
+  ],
+  "learning_objective_ids": [
+    "bluesky-social-app-01-feed-model-objective-01",
+    "bluesky-social-app-01-feed-model-objective-02",
+    "bluesky-social-app-01-feed-model-objective-03"
+  ],
+  "source_files": [
+    "src/data.ts",
+    "src/feed.ts"
+  ],
+  "prerequisites": [],
+  "ordered_lesson_ids": [
+    "bluesky-social-app-01-feed-model-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Post records, seed fixtures, and pure feed operations",
+    "Start by seeing a feed as a list of labelled cards. Read the Post shape and seed data, then follow pure functions that publish, filter, merge, and count records. Keep display concerns out of these transformations.",
+    "Posts are local sample records; mergeRemotePosts is a helper and does not itself call a network."
+  ],
+  "practical_outcomes": [
+    "Read and explain `src/feed.ts` around `export function canPublish`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: src/feed.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

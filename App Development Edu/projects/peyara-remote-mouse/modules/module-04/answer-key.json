@@ -1,0 +1,135 @@
+{
+  "module_id": "peyara-remote-mouse-04-settings-and-mobile-persistence",
+  "answers": [
+    {
+      "question_id": "peyara-remote-mouse-m04-q01",
+      "correct_option_id": "peyara-remote-mouse-m04-q01-o1",
+      "correct_explanation": "The lesson and source file `src/settings.ts` identify this behavior as: Host validation, settings key, AsyncStorage adapter, and load/save flow The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "peyara-remote-mouse-m04-q01-o2": "The lesson traces 'Host validation, settings key, AsyncStorage adapter, and load/save flow' to src/settings.ts. This option instead claims 'Event union, JSON encoding, decoding, bounds, and unknown-event rejection', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m04-q01-o3": "The lesson traces 'Host validation, settings key, AsyncStorage adapter, and load/save flow' to src/settings.ts. This option instead claims 'PanResponder deltas, click/scroll actions, text and key events', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m04-q01-o4": "The lesson traces 'Host validation, settings key, AsyncStorage adapter, and load/save flow' to src/settings.ts. This option instead claims 'Socket lifecycle, connection snapshots, exponential delay, max retry, and manual disconnect', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Host validation, settings key, AsyncStorage adapter, and load/save flow",
+      "related_lesson_id": "peyara-remote-mouse-04-settings-and-mobile-persistence-lesson-01",
+      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/settings.ts"
+    },
+    {
+      "question_id": "peyara-remote-mouse-m04-q02",
+      "correct_option_id": "peyara-remote-mouse-m04-q02-o1",
+      "correct_explanation": "The lesson and source file `src/settings.ts` identify this behavior as: src/settings.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "peyara-remote-mouse-m04-q02-o3": "The lesson traces 'src/settings.ts' to src/settings.ts. This option instead claims 'src/screens/ConnectScreen.tsx', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m04-q02-o4": "The lesson traces 'src/settings.ts' to src/settings.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m04-q02-o2": "The lesson traces 'src/settings.ts' to src/settings.ts. This option instead claims 'src/persistence.ts', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Host validation, settings key, AsyncStorage adapter, and load/save flow",
+      "related_lesson_id": "peyara-remote-mouse-04-settings-and-mobile-persistence-lesson-01",
+      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/settings.ts"
+    },
+    {
+      "question_id": "peyara-remote-mouse-m04-q03",
+      "correct_option_id": "peyara-remote-mouse-m04-q03-o1",
+      "correct_explanation": "The lesson and source file `src/settings.ts` identify this behavior as: A LAN address is private configuration; only connect to a relay you trust. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "peyara-remote-mouse-m04-q03-o4": "The lesson traces 'A LAN address is private configuration; only connect to a relay you trust.' to src/settings.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m04-q03-o2": "The lesson traces 'A LAN address is private configuration; only connect to a relay you trust.' to src/settings.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m04-q03-o3": "The lesson traces 'A LAN address is private configuration; only connect to a relay you trust.' to src/settings.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Host validation, settings key, AsyncStorage adapter, and load/save flow",
+      "related_lesson_id": "peyara-remote-mouse-04-settings-and-mobile-persistence-lesson-01",
+      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/settings.ts"
+    },
+    {
+      "question_id": "peyara-remote-mouse-m04-q04",
+      "correct_option_id": "peyara-remote-mouse-m04-q04-o1",
+      "correct_explanation": "The lesson and source file `src/settings.ts` identify this behavior as: A saved address is a convenience, not proof that the host is safe. Follow input validation into settings storage and inspect how the app reloads the last host. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "peyara-remote-mouse-m04-q04-o2": "The lesson traces 'A saved address is a convenience, not proof that the host is safe. Follow input validation into settings storage and inspect how the app reloads the last host.' to src/settings.ts. This option instead claims 'Event union, JSON encoding, decoding, bounds, and unknown-event rejection', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m04-q04-o3": "The lesson traces 'A saved address is a convenience, not proof that the host is safe. Follow input validation into settings storage and inspect how the app reloads the last host.' to src/settings.ts. This option instead claims 'PanResponder deltas, click/scroll actions, text and key events', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m04-q04-o4": "The lesson traces 'A saved address is a convenience, not proof that the host is safe. Follow input validation into settings storage and inspect how the app reloads the last host.' to src/settings.ts. This option instead claims 'Socket lifecycle, connection snapshots, exponential delay, max retry, and manual disconnect', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Host validation, settings key, AsyncStorage adapter, and load/save flow",
+      "related_lesson_id": "peyara-remote-mouse-04-settings-and-mobile-persistence-lesson-01",
+      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/settings.ts"
+    },
+    {
+      "question_id": "peyara-remote-mouse-m04-q05",
+      "correct_option_id": "peyara-remote-mouse-m04-q05-o1",
+      "correct_explanation": "The lesson and source file `src/settings.ts` identify this behavior as: Host validation, settings key, AsyncStorage adapter, and load/save flow The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "peyara-remote-mouse-m04-q05-o2": "The lesson traces 'Host validation, settings key, AsyncStorage adapter, and load/save flow' to src/settings.ts. This option instead claims 'Event union, JSON encoding, decoding, bounds, and unknown-event rejection', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m04-q05-o3": "The lesson traces 'Host validation, settings key, AsyncStorage adapter, and load/save flow' to src/settings.ts. This option instead claims 'PanResponder deltas, click/scroll actions, text and key events', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m04-q05-o4": "The lesson traces 'Host validation, settings key, AsyncStorage adapter, and load/save flow' to src/settings.ts. This option instead claims 'Socket lifecycle, connection snapshots, exponential delay, max retry, and manual disconnect', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Host validation, settings key, AsyncStorage adapter, and load/save flow",
+      "related_lesson_id": "peyara-remote-mouse-04-settings-and-mobile-persistence-lesson-01",
+      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/settings.ts"
+    },
+    {
+      "question_id": "peyara-remote-mouse-m04-q06",
+      "correct_option_id": "peyara-remote-mouse-m04-q06-o1",
+      "correct_explanation": "The lesson and source file `src/settings.ts` identify this behavior as: A saved address is a convenience, not proof that the host is safe. Follow input validation into settings storage and inspect how the app reloads the last host. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "peyara-remote-mouse-m04-q06-o3": "The lesson traces 'A saved address is a convenience, not proof that the host is safe. Follow input validation into settings storage and inspect how the app reloads the last host.' to src/settings.ts. This option instead claims 'PanResponder deltas, click/scroll actions, text and key events', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m04-q06-o4": "The lesson traces 'A saved address is a convenience, not proof that the host is safe. Follow input validation into settings storage and inspect how the app reloads the last host.' to src/settings.ts. This option instead claims 'Socket lifecycle, connection snapshots, exponential delay, max retry, and manual disconnect', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m04-q06-o2": "The lesson traces 'A saved address is a convenience, not proof that the host is safe. Follow input validation into settings storage and inspect how the app reloads the last host.' to src/settings.ts. This option instead claims 'Event union, JSON encoding, decoding, bounds, and unknown-event rejection', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Host validation, settings key, AsyncStorage adapter, and load/save flow",
+      "related_lesson_id": "peyara-remote-mouse-04-settings-and-mobile-persistence-lesson-01",
+      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/settings.ts"
+    },
+    {
+      "question_id": "peyara-remote-mouse-m04-q07",
+      "correct_option_id": "peyara-remote-mouse-m04-q07-o1",
+      "correct_explanation": "The lesson and source file `src/settings.ts` identify this behavior as: A LAN address is private configuration; only connect to a relay you trust. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "peyara-remote-mouse-m04-q07-o4": "The lesson traces 'A LAN address is private configuration; only connect to a relay you trust.' to src/settings.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m04-q07-o2": "The lesson traces 'A LAN address is private configuration; only connect to a relay you trust.' to src/settings.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m04-q07-o3": "The lesson traces 'A LAN address is private configuration; only connect to a relay you trust.' to src/settings.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Host validation, settings key, AsyncStorage adapter, and load/save flow",
+      "related_lesson_id": "peyara-remote-mouse-04-settings-and-mobile-persistence-lesson-01",
+      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/settings.ts"
+    },
+    {
+      "question_id": "peyara-remote-mouse-m04-q08",
+      "correct_option_id": "peyara-remote-mouse-m04-q08-o1",
+      "correct_explanation": "The lesson and source file `src/settings.ts` identify this behavior as: src/settings.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "peyara-remote-mouse-m04-q08-o2": "The lesson traces 'src/settings.ts' to src/settings.ts. This option instead claims 'src/persistence.ts', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m04-q08-o3": "The lesson traces 'src/settings.ts' to src/settings.ts. This option instead claims 'src/screens/ConnectScreen.tsx', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m04-q08-o4": "The lesson traces 'src/settings.ts' to src/settings.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Host validation, settings key, AsyncStorage adapter, and load/save flow",
+      "related_lesson_id": "peyara-remote-mouse-04-settings-and-mobile-persistence-lesson-01",
+      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/settings.ts"
+    },
+    {
+      "question_id": "peyara-remote-mouse-m04-q09",
+      "correct_option_id": "peyara-remote-mouse-m04-q09-o1",
+      "correct_explanation": "The lesson and source file `src/settings.ts` identify this behavior as: Do not claim production readiness: A LAN address is private configuration; only connect to a relay you trust. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "peyara-remote-mouse-m04-q09-o2": "The lesson traces 'Do not claim production readiness: A LAN address is private configuration; only connect to a relay you trust.' to src/settings.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m04-q09-o3": "The lesson traces 'Do not claim production readiness: A LAN address is private configuration; only connect to a relay you trust.' to src/settings.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m04-q09-o4": "The lesson traces 'Do not claim production readiness: A LAN address is private configuration; only connect to a relay you trust.' to src/settings.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Host validation, settings key, AsyncStorage adapter, and load/save flow",
+      "related_lesson_id": "peyara-remote-mouse-04-settings-and-mobile-persistence-lesson-01",
+      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/settings.ts"
+    },
+    {
+      "question_id": "peyara-remote-mouse-m04-q10",
+      "correct_option_id": "peyara-remote-mouse-m04-q10-o1",
+      "correct_explanation": "The lesson and source file `src/settings.ts` identify this behavior as: A saved address is a convenience, not proof that the host is safe. Follow input validation into settings storage and inspect how the app reloads the last host. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "peyara-remote-mouse-m04-q10-o3": "The lesson traces 'A saved address is a convenience, not proof that the host is safe. Follow input validation into settings storage and inspect how the app reloads the last host.' to src/settings.ts. This option instead claims 'PanResponder deltas, click/scroll actions, text and key events', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m04-q10-o4": "The lesson traces 'A saved address is a convenience, not proof that the host is safe. Follow input validation into settings storage and inspect how the app reloads the last host.' to src/settings.ts. This option instead claims 'Socket lifecycle, connection snapshots, exponential delay, max retry, and manual disconnect', which the cited source does not establish for this behavior.",
+        "peyara-remote-mouse-m04-q10-o2": "The lesson traces 'A saved address is a convenience, not proof that the host is safe. Follow input validation into settings storage and inspect how the app reloads the last host.' to src/settings.ts. This option instead claims 'Event union, JSON encoding, decoding, bounds, and unknown-event rejection', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Host validation, settings key, AsyncStorage adapter, and load/save flow",
+      "related_lesson_id": "peyara-remote-mouse-04-settings-and-mobile-persistence-lesson-01",
+      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/settings.ts"
+    }
+  ]
+}

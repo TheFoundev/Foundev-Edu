@@ -1,0 +1,41 @@
+{
+  "module_id": "covid-alert-06-tests-privacy-and-accessibility",
+  "title": "Verify behavior and avoid overstating results",
+  "description": "Tests can prove the model returns the expected simulation; they cannot prove a health service is present. Inspect assertions and visible disclaimers, then identify privacy and accessibility checks needed on-device.",
+  "learning_objectives": [
+    "Explain simulation tests, storage failures, labels, disclosure, and evidence limits in plain language.",
+    "Trace empty history is labeled as unchecked in `test/exposure.test.ts` and explain the relevant behavior.",
+    "State and preserve this limit: A passing unit suite does not validate clinical advice, health policy, or native exposure notifications."
+  ],
+  "learning_objective_ids": [
+    "covid-alert-06-tests-privacy-and-accessibility-objective-01",
+    "covid-alert-06-tests-privacy-and-accessibility-objective-02",
+    "covid-alert-06-tests-privacy-and-accessibility-objective-03"
+  ],
+  "source_files": [
+    "test/exposure.test.ts",
+    "src/components.tsx",
+    "README.md"
+  ],
+  "prerequisites": [
+    "covid-alert-05-state-storage-and-ui"
+  ],
+  "ordered_lesson_ids": [
+    "covid-alert-06-tests-privacy-and-accessibility-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Simulation tests, storage failures, labels, disclosure, and evidence limits",
+    "Tests can prove the model returns the expected simulation; they cannot prove a health service is present. Inspect assertions and visible disclaimers, then identify privacy and accessibility checks needed on-device.",
+    "A passing unit suite does not validate clinical advice, health policy, or native exposure notifications."
+  ],
+  "practical_outcomes": [
+    "Read and explain `test/exposure.test.ts` around `empty history is labeled as unchecked`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: test/exposure.test.ts.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "module_id": "bluewallet-01-wallet-model-and-ui",
+  "answers": [
+    {
+      "question_id": "bluewallet-m01-q01",
+      "correct_option_id": "bluewallet-m01-q01-o1",
+      "correct_explanation": "The lesson and source file `src/data.ts` identify this behavior as: Transaction shape, satoshi formatting, seeded records, and tab shell The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m01-q01-o2": "The lesson traces 'Transaction shape, satoshi formatting, seeded records, and tab shell' to src/data.ts. This option instead claims 'Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary', which the cited source does not establish for this behavior.",
+        "bluewallet-m01-q01-o3": "The lesson traces 'Transaction shape, satoshi formatting, seeded records, and tab shell' to src/data.ts. This option instead claims 'SHA-256 implementation and Electrum script hash preparation', which the cited source does not establish for this behavior.",
+        "bluewallet-m01-q01-o4": "The lesson traces 'Transaction shape, satoshi formatting, seeded records, and tab shell' to src/data.ts. This option instead claims 'UTXO selection, fee estimate, amount validation, and unsigned output construction', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Transaction shape, satoshi formatting, seeded records, and tab shell",
+      "related_lesson_id": "bluewallet-01-wallet-model-and-ui-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/data.ts"
+    },
+    {
+      "question_id": "bluewallet-m01-q02",
+      "correct_option_id": "bluewallet-m01-q02-o1",
+      "correct_explanation": "The lesson and source file `src/data.ts` identify this behavior as: src/data.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m01-q02-o3": "The lesson traces 'src/data.ts' to src/data.ts. This option instead claims 'src/components.tsx', which the cited source does not establish for this behavior.",
+        "bluewallet-m01-q02-o4": "The lesson traces 'src/data.ts' to src/data.ts. This option instead claims 'src/theme.ts', which the cited source does not establish for this behavior.",
+        "bluewallet-m01-q02-o2": "The lesson traces 'src/data.ts' to src/data.ts. This option instead claims 'src/screens/WalletScreen.tsx', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Transaction shape, satoshi formatting, seeded records, and tab shell",
+      "related_lesson_id": "bluewallet-01-wallet-model-and-ui-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/data.ts"
+    },
+    {
+      "question_id": "bluewallet-m01-q03",
+      "correct_option_id": "bluewallet-m01-q03-o1",
+      "correct_explanation": "The lesson and source file `src/data.ts` identify this behavior as: Seed transactions and the receive address are placeholders; never send funds to them. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m01-q03-o4": "The lesson traces 'Seed transactions and the receive address are placeholders; never send funds to them.' to src/data.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "bluewallet-m01-q03-o2": "The lesson traces 'Seed transactions and the receive address are placeholders; never send funds to them.' to src/data.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "bluewallet-m01-q03-o3": "The lesson traces 'Seed transactions and the receive address are placeholders; never send funds to them.' to src/data.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Transaction shape, satoshi formatting, seeded records, and tab shell",
+      "related_lesson_id": "bluewallet-01-wallet-model-and-ui-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/data.ts"
+    },
+    {
+      "question_id": "bluewallet-m01-q04",
+      "correct_option_id": "bluewallet-m01-q04-o1",
+      "correct_explanation": "The lesson and source file `src/data.ts` identify this behavior as: A wallet dashboard is a summary board. Learn the Transaction record and satoshi units, then trace the sample rows and balance display into the screen. Separate sample values from values supplied by a network. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m01-q04-o2": "The lesson traces 'A wallet dashboard is a summary board. Learn the Transaction record and satoshi units, then trace the sample rows and balance display into the screen. Separate sample values from values supplied by a network.' to src/data.ts. This option instead claims 'Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary', which the cited source does not establish for this behavior.",
+        "bluewallet-m01-q04-o3": "The lesson traces 'A wallet dashboard is a summary board. Learn the Transaction record and satoshi units, then trace the sample rows and balance display into the screen. Separate sample values from values supplied by a network.' to src/data.ts. This option instead claims 'SHA-256 implementation and Electrum script hash preparation', which the cited source does not establish for this behavior.",
+        "bluewallet-m01-q04-o4": "The lesson traces 'A wallet dashboard is a summary board. Learn the Transaction record and satoshi units, then trace the sample rows and balance display into the screen. Separate sample values from values supplied by a network.' to src/data.ts. This option instead claims 'UTXO selection, fee estimate, amount validation, and unsigned output construction', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Transaction shape, satoshi formatting, seeded records, and tab shell",
+      "related_lesson_id": "bluewallet-01-wallet-model-and-ui-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/data.ts"
+    },
+    {
+      "question_id": "bluewallet-m01-q05",
+      "correct_option_id": "bluewallet-m01-q05-o1",
+      "correct_explanation": "The lesson and source file `src/data.ts` identify this behavior as: Transaction shape, satoshi formatting, seeded records, and tab shell The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m01-q05-o2": "The lesson traces 'Transaction shape, satoshi formatting, seeded records, and tab shell' to src/data.ts. This option instead claims 'Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary', which the cited source does not establish for this behavior.",
+        "bluewallet-m01-q05-o3": "The lesson traces 'Transaction shape, satoshi formatting, seeded records, and tab shell' to src/data.ts. This option instead claims 'SHA-256 implementation and Electrum script hash preparation', which the cited source does not establish for this behavior.",
+        "bluewallet-m01-q05-o4": "The lesson traces 'Transaction shape, satoshi formatting, seeded records, and tab shell' to src/data.ts. This option instead claims 'UTXO selection, fee estimate, amount validation, and unsigned output construction', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Transaction shape, satoshi formatting, seeded records, and tab shell",
+      "related_lesson_id": "bluewallet-01-wallet-model-and-ui-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/data.ts"
+    },
+    {
+      "question_id": "bluewallet-m01-q06",
+      "correct_option_id": "bluewallet-m01-q06-o1",
+      "correct_explanation": "The lesson and source file `src/data.ts` identify this behavior as: A wallet dashboard is a summary board. Learn the Transaction record and satoshi units, then trace the sample rows and balance display into the screen. Separate sample values from values supplied by a network. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m01-q06-o3": "The lesson traces 'A wallet dashboard is a summary board. Learn the Transaction record and satoshi units, then trace the sample rows and balance display into the screen. Separate sample values from values supplied by a network.' to src/data.ts. This option instead claims 'SHA-256 implementation and Electrum script hash preparation', which the cited source does not establish for this behavior.",
+        "bluewallet-m01-q06-o4": "The lesson traces 'A wallet dashboard is a summary board. Learn the Transaction record and satoshi units, then trace the sample rows and balance display into the screen. Separate sample values from values supplied by a network.' to src/data.ts. This option instead claims 'UTXO selection, fee estimate, amount validation, and unsigned output construction', which the cited source does not establish for this behavior.",
+        "bluewallet-m01-q06-o2": "The lesson traces 'A wallet dashboard is a summary board. Learn the Transaction record and satoshi units, then trace the sample rows and balance display into the screen. Separate sample values from values supplied by a network.' to src/data.ts. This option instead claims 'Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Transaction shape, satoshi formatting, seeded records, and tab shell",
+      "related_lesson_id": "bluewallet-01-wallet-model-and-ui-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/data.ts"
+    },
+    {
+      "question_id": "bluewallet-m01-q07",
+      "correct_option_id": "bluewallet-m01-q07-o1",
+      "correct_explanation": "The lesson and source file `src/data.ts` identify this behavior as: Seed transactions and the receive address are placeholders; never send funds to them. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m01-q07-o4": "The lesson traces 'Seed transactions and the receive address are placeholders; never send funds to them.' to src/data.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "bluewallet-m01-q07-o2": "The lesson traces 'Seed transactions and the receive address are placeholders; never send funds to them.' to src/data.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "bluewallet-m01-q07-o3": "The lesson traces 'Seed transactions and the receive address are placeholders; never send funds to them.' to src/data.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Transaction shape, satoshi formatting, seeded records, and tab shell",
+      "related_lesson_id": "bluewallet-01-wallet-model-and-ui-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/data.ts"
+    },
+    {
+      "question_id": "bluewallet-m01-q08",
+      "correct_option_id": "bluewallet-m01-q08-o1",
+      "correct_explanation": "The lesson and source file `src/data.ts` identify this behavior as: src/data.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m01-q08-o2": "The lesson traces 'src/data.ts' to src/data.ts. This option instead claims 'src/screens/WalletScreen.tsx', which the cited source does not establish for this behavior.",
+        "bluewallet-m01-q08-o3": "The lesson traces 'src/data.ts' to src/data.ts. This option instead claims 'src/components.tsx', which the cited source does not establish for this behavior.",
+        "bluewallet-m01-q08-o4": "The lesson traces 'src/data.ts' to src/data.ts. This option instead claims 'src/theme.ts', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Transaction shape, satoshi formatting, seeded records, and tab shell",
+      "related_lesson_id": "bluewallet-01-wallet-model-and-ui-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/data.ts"
+    },
+    {
+      "question_id": "bluewallet-m01-q09",
+      "correct_option_id": "bluewallet-m01-q09-o1",
+      "correct_explanation": "The lesson and source file `src/data.ts` identify this behavior as: Do not claim production readiness: Seed transactions and the receive address are placeholders; never send funds to them. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m01-q09-o2": "The lesson traces 'Do not claim production readiness: Seed transactions and the receive address are placeholders; never send funds to them.' to src/data.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "bluewallet-m01-q09-o3": "The lesson traces 'Do not claim production readiness: Seed transactions and the receive address are placeholders; never send funds to them.' to src/data.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior.",
+        "bluewallet-m01-q09-o4": "The lesson traces 'Do not claim production readiness: Seed transactions and the receive address are placeholders; never send funds to them.' to src/data.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Transaction shape, satoshi formatting, seeded records, and tab shell",
+      "related_lesson_id": "bluewallet-01-wallet-model-and-ui-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/data.ts"
+    },
+    {
+      "question_id": "bluewallet-m01-q10",
+      "correct_option_id": "bluewallet-m01-q10-o1",
+      "correct_explanation": "The lesson and source file `src/data.ts` identify this behavior as: A wallet dashboard is a summary board. Learn the Transaction record and satoshi units, then trace the sample rows and balance display into the screen. Separate sample values from values supplied by a network. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "bluewallet-m01-q10-o3": "The lesson traces 'A wallet dashboard is a summary board. Learn the Transaction record and satoshi units, then trace the sample rows and balance display into the screen. Separate sample values from values supplied by a network.' to src/data.ts. This option instead claims 'SHA-256 implementation and Electrum script hash preparation', which the cited source does not establish for this behavior.",
+        "bluewallet-m01-q10-o4": "The lesson traces 'A wallet dashboard is a summary board. Learn the Transaction record and satoshi units, then trace the sample rows and balance display into the screen. Separate sample values from values supplied by a network.' to src/data.ts. This option instead claims 'UTXO selection, fee estimate, amount validation, and unsigned output construction', which the cited source does not establish for this behavior.",
+        "bluewallet-m01-q10-o2": "The lesson traces 'A wallet dashboard is a summary board. Learn the Transaction record and satoshi units, then trace the sample rows and balance display into the screen. Separate sample values from values supplied by a network.' to src/data.ts. This option instead claims 'Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Transaction shape, satoshi formatting, seeded records, and tab shell",
+      "related_lesson_id": "bluewallet-01-wallet-model-and-ui-lesson-01",
+      "supporting_reference": "../../../../../projects/bluewallet/src/data.ts"
+    }
+  ]
+}

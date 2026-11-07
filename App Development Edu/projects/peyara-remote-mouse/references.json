@@ -1,0 +1,167 @@
+{
+  "project_slug": "peyara-remote-mouse",
+  "references": [
+    {
+      "id": "react-native",
+      "title": "React Native",
+      "url": "https://reactnative.dev/docs/getting-started",
+      "kind": "official documentation"
+    },
+    {
+      "id": "expo",
+      "title": "Expo",
+      "url": "https://docs.expo.dev/",
+      "kind": "official documentation"
+    },
+    {
+      "id": "async-storage",
+      "title": "Async Storage",
+      "url": "https://docs.expo.dev/versions/latest/sdk/async-storage/",
+      "kind": "official documentation"
+    },
+    {
+      "id": "websocket",
+      "title": "Websocket",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSocket",
+      "kind": "official documentation"
+    },
+    {
+      "id": "node-test",
+      "title": "Node Test",
+      "url": "https://nodejs.org/api/test.html",
+      "kind": "official documentation"
+    },
+    {
+      "id": "owasp-mobile",
+      "title": "Owasp Mobile",
+      "url": "https://mas.owasp.org/MASVS/",
+      "kind": "official documentation"
+    }
+  ],
+  "source_references": [
+    {
+      "path": "src/protocol.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "server/relay.js",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "test/protocol.test.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/TouchpadScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/KeyboardScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/data.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/connection.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/data.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "test/connection.test.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/settings.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/persistence.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/screens/ConnectScreen.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "server/config.js",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "server/relay.js",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "server/index.js",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "server/test/config.test.js",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/data.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/connection.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "server/index.js",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "server/relay.js",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "server/test/relay.test.js",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "server/config.js",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "server/index.js",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "README.md",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "App.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/protocol.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/connection.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/components.tsx",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "src/theme.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "server/config.js",
+      "purpose": "Implementation of record for the corresponding module"
+    },
+    {
+      "path": "test/connection.test.ts",
+      "purpose": "Implementation of record for the corresponding module"
+    }
+  ]
+}

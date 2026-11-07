@@ -1,0 +1,135 @@
+{
+  "module_id": "kickstarter-for-ios-01-project-records-and-sample-catalogue",
+  "answers": [
+    {
+      "question_id": "kickstarter-for-ios-m01-q01",
+      "correct_option_id": "kickstarter-for-ios-m01-q01-o1",
+      "correct_explanation": "The lesson and source file `Sources/Models.swift` identify this behavior as: Project fields, computed progress, identity, and sample catalogue The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "kickstarter-for-ios-m01-q01-o2": "The lesson traces 'Project fields, computed progress, identity, and sample catalogue' to Sources/Models.swift. This option instead claims 'Category data, search matching, sort ordering, and discovery rendering', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m01-q01-o3": "The lesson traces 'Project fields, computed progress, identity, and sample catalogue' to Sources/Models.swift. This option instead claims 'Pledge validation, status changes, detail state, and progress display', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m01-q01-o4": "The lesson traces 'Project fields, computed progress, identity, and sample catalogue' to Sources/Models.swift. This option instead claims 'ProjectStore, UserDefaults keys, toggling, and backed/saved projections', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Project fields, computed progress, identity, and sample catalogue",
+      "related_lesson_id": "kickstarter-for-ios-01-project-records-and-sample-catalogue-lesson-01",
+      "supporting_reference": "../../../../../projects/kickstarter-for-ios/Sources/Models.swift"
+    },
+    {
+      "question_id": "kickstarter-for-ios-m01-q02",
+      "correct_option_id": "kickstarter-for-ios-m01-q02-o1",
+      "correct_explanation": "The lesson and source file `Sources/Models.swift` identify this behavior as: Sources/Models.swift The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "kickstarter-for-ios-m01-q02-o3": "The lesson traces 'Sources/Models.swift' to Sources/Models.swift. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m01-q02-o4": "The lesson traces 'Sources/Models.swift' to Sources/Models.swift. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m01-q02-o2": "The lesson traces 'Sources/Models.swift' to Sources/Models.swift. This option instead claims 'Sources/Components.swift', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Project fields, computed progress, identity, and sample catalogue",
+      "related_lesson_id": "kickstarter-for-ios-01-project-records-and-sample-catalogue-lesson-01",
+      "supporting_reference": "../../../../../projects/kickstarter-for-ios/Sources/Models.swift"
+    },
+    {
+      "question_id": "kickstarter-for-ios-m01-q03",
+      "correct_option_id": "kickstarter-for-ios-m01-q03-o1",
+      "correct_explanation": "The lesson and source file `Sources/Models.swift` identify this behavior as: The catalogue is sample content and does not come from Kickstarter. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "kickstarter-for-ios-m01-q03-o4": "The lesson traces 'The catalogue is sample content and does not come from Kickstarter.' to Sources/Models.swift. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m01-q03-o2": "The lesson traces 'The catalogue is sample content and does not come from Kickstarter.' to Sources/Models.swift. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m01-q03-o3": "The lesson traces 'The catalogue is sample content and does not come from Kickstarter.' to Sources/Models.swift. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Project fields, computed progress, identity, and sample catalogue",
+      "related_lesson_id": "kickstarter-for-ios-01-project-records-and-sample-catalogue-lesson-01",
+      "supporting_reference": "../../../../../projects/kickstarter-for-ios/Sources/Models.swift"
+    },
+    {
+      "question_id": "kickstarter-for-ios-m01-q04",
+      "correct_option_id": "kickstarter-for-ios-m01-q04-o1",
+      "correct_explanation": "The lesson and source file `Sources/Models.swift` identify this behavior as: A crowdfunding card is a view of a project record. Read fields such as goal and pledged amount, then follow computed progress into the reusable card UI. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "kickstarter-for-ios-m01-q04-o2": "The lesson traces 'A crowdfunding card is a view of a project record. Read fields such as goal and pledged amount, then follow computed progress into the reusable card UI.' to Sources/Models.swift. This option instead claims 'Category data, search matching, sort ordering, and discovery rendering', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m01-q04-o3": "The lesson traces 'A crowdfunding card is a view of a project record. Read fields such as goal and pledged amount, then follow computed progress into the reusable card UI.' to Sources/Models.swift. This option instead claims 'Pledge validation, status changes, detail state, and progress display', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m01-q04-o4": "The lesson traces 'A crowdfunding card is a view of a project record. Read fields such as goal and pledged amount, then follow computed progress into the reusable card UI.' to Sources/Models.swift. This option instead claims 'ProjectStore, UserDefaults keys, toggling, and backed/saved projections', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Project fields, computed progress, identity, and sample catalogue",
+      "related_lesson_id": "kickstarter-for-ios-01-project-records-and-sample-catalogue-lesson-01",
+      "supporting_reference": "../../../../../projects/kickstarter-for-ios/Sources/Models.swift"
+    },
+    {
+      "question_id": "kickstarter-for-ios-m01-q05",
+      "correct_option_id": "kickstarter-for-ios-m01-q05-o1",
+      "correct_explanation": "The lesson and source file `Sources/Models.swift` identify this behavior as: Project fields, computed progress, identity, and sample catalogue The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "kickstarter-for-ios-m01-q05-o2": "The lesson traces 'Project fields, computed progress, identity, and sample catalogue' to Sources/Models.swift. This option instead claims 'Category data, search matching, sort ordering, and discovery rendering', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m01-q05-o3": "The lesson traces 'Project fields, computed progress, identity, and sample catalogue' to Sources/Models.swift. This option instead claims 'Pledge validation, status changes, detail state, and progress display', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m01-q05-o4": "The lesson traces 'Project fields, computed progress, identity, and sample catalogue' to Sources/Models.swift. This option instead claims 'ProjectStore, UserDefaults keys, toggling, and backed/saved projections', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Project fields, computed progress, identity, and sample catalogue",
+      "related_lesson_id": "kickstarter-for-ios-01-project-records-and-sample-catalogue-lesson-01",
+      "supporting_reference": "../../../../../projects/kickstarter-for-ios/Sources/Models.swift"
+    },
+    {
+      "question_id": "kickstarter-for-ios-m01-q06",
+      "correct_option_id": "kickstarter-for-ios-m01-q06-o1",
+      "correct_explanation": "The lesson and source file `Sources/Models.swift` identify this behavior as: A crowdfunding card is a view of a project record. Read fields such as goal and pledged amount, then follow computed progress into the reusable card UI. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "kickstarter-for-ios-m01-q06-o3": "The lesson traces 'A crowdfunding card is a view of a project record. Read fields such as goal and pledged amount, then follow computed progress into the reusable card UI.' to Sources/Models.swift. This option instead claims 'Pledge validation, status changes, detail state, and progress display', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m01-q06-o4": "The lesson traces 'A crowdfunding card is a view of a project record. Read fields such as goal and pledged amount, then follow computed progress into the reusable card UI.' to Sources/Models.swift. This option instead claims 'ProjectStore, UserDefaults keys, toggling, and backed/saved projections', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m01-q06-o2": "The lesson traces 'A crowdfunding card is a view of a project record. Read fields such as goal and pledged amount, then follow computed progress into the reusable card UI.' to Sources/Models.swift. This option instead claims 'Category data, search matching, sort ordering, and discovery rendering', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Project fields, computed progress, identity, and sample catalogue",
+      "related_lesson_id": "kickstarter-for-ios-01-project-records-and-sample-catalogue-lesson-01",
+      "supporting_reference": "../../../../../projects/kickstarter-for-ios/Sources/Models.swift"
+    },
+    {
+      "question_id": "kickstarter-for-ios-m01-q07",
+      "correct_option_id": "kickstarter-for-ios-m01-q07-o1",
+      "correct_explanation": "The lesson and source file `Sources/Models.swift` identify this behavior as: The catalogue is sample content and does not come from Kickstarter. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "kickstarter-for-ios-m01-q07-o4": "The lesson traces 'The catalogue is sample content and does not come from Kickstarter.' to Sources/Models.swift. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m01-q07-o2": "The lesson traces 'The catalogue is sample content and does not come from Kickstarter.' to Sources/Models.swift. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m01-q07-o3": "The lesson traces 'The catalogue is sample content and does not come from Kickstarter.' to Sources/Models.swift. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Project fields, computed progress, identity, and sample catalogue",
+      "related_lesson_id": "kickstarter-for-ios-01-project-records-and-sample-catalogue-lesson-01",
+      "supporting_reference": "../../../../../projects/kickstarter-for-ios/Sources/Models.swift"
+    },
+    {
+      "question_id": "kickstarter-for-ios-m01-q08",
+      "correct_option_id": "kickstarter-for-ios-m01-q08-o1",
+      "correct_explanation": "The lesson and source file `Sources/Models.swift` identify this behavior as: Sources/Models.swift The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "kickstarter-for-ios-m01-q08-o2": "The lesson traces 'Sources/Models.swift' to Sources/Models.swift. This option instead claims 'Sources/Components.swift', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m01-q08-o3": "The lesson traces 'Sources/Models.swift' to Sources/Models.swift. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m01-q08-o4": "The lesson traces 'Sources/Models.swift' to Sources/Models.swift. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Project fields, computed progress, identity, and sample catalogue",
+      "related_lesson_id": "kickstarter-for-ios-01-project-records-and-sample-catalogue-lesson-01",
+      "supporting_reference": "../../../../../projects/kickstarter-for-ios/Sources/Models.swift"
+    },
+    {
+      "question_id": "kickstarter-for-ios-m01-q09",
+      "correct_option_id": "kickstarter-for-ios-m01-q09-o1",
+      "correct_explanation": "The lesson and source file `Sources/Models.swift` identify this behavior as: Do not claim production readiness: The catalogue is sample content and does not come from Kickstarter. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "kickstarter-for-ios-m01-q09-o2": "The lesson traces 'Do not claim production readiness: The catalogue is sample content and does not come from Kickstarter.' to Sources/Models.swift. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m01-q09-o3": "The lesson traces 'Do not claim production readiness: The catalogue is sample content and does not come from Kickstarter.' to Sources/Models.swift. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m01-q09-o4": "The lesson traces 'Do not claim production readiness: The catalogue is sample content and does not come from Kickstarter.' to Sources/Models.swift. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Project fields, computed progress, identity, and sample catalogue",
+      "related_lesson_id": "kickstarter-for-ios-01-project-records-and-sample-catalogue-lesson-01",
+      "supporting_reference": "../../../../../projects/kickstarter-for-ios/Sources/Models.swift"
+    },
+    {
+      "question_id": "kickstarter-for-ios-m01-q10",
+      "correct_option_id": "kickstarter-for-ios-m01-q10-o1",
+      "correct_explanation": "The lesson and source file `Sources/Models.swift` identify this behavior as: A crowdfunding card is a view of a project record. Read fields such as goal and pledged amount, then follow computed progress into the reusable card UI. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "kickstarter-for-ios-m01-q10-o3": "The lesson traces 'A crowdfunding card is a view of a project record. Read fields such as goal and pledged amount, then follow computed progress into the reusable card UI.' to Sources/Models.swift. This option instead claims 'Pledge validation, status changes, detail state, and progress display', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m01-q10-o4": "The lesson traces 'A crowdfunding card is a view of a project record. Read fields such as goal and pledged amount, then follow computed progress into the reusable card UI.' to Sources/Models.swift. This option instead claims 'ProjectStore, UserDefaults keys, toggling, and backed/saved projections', which the cited source does not establish for this behavior.",
+        "kickstarter-for-ios-m01-q10-o2": "The lesson traces 'A crowdfunding card is a view of a project record. Read fields such as goal and pledged amount, then follow computed progress into the reusable card UI.' to Sources/Models.swift. This option instead claims 'Category data, search matching, sort ordering, and discovery rendering', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Project fields, computed progress, identity, and sample catalogue",
+      "related_lesson_id": "kickstarter-for-ios-01-project-records-and-sample-catalogue-lesson-01",
+      "supporting_reference": "../../../../../projects/kickstarter-for-ios/Sources/Models.swift"
+    }
+  ]
+}

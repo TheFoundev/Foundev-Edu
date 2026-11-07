@@ -1,0 +1,41 @@
+{
+  "module_id": "movieswiftui-06-tests-and-mini-project-release",
+  "title": "Read test evidence and plan runtime checks",
+  "description": "The tests exercise core functions and model persistence, not visual correctness or a provider. Use the project spec to run them on macOS and add screen-level checks.",
+  "learning_objectives": [
+    "Explain mapping/filter tests, watchlist persistence tests, xcodegen targets, and simulator review in plain language.",
+    "Trace final class MovieCoreTests in `Tests/MovieCoreTests.swift` and explain the relevant behavior.",
+    "State and preserve this limit: No Xcode or simulator execution was available in this build environment."
+  ],
+  "learning_objective_ids": [
+    "movieswiftui-06-tests-and-mini-project-release-objective-01",
+    "movieswiftui-06-tests-and-mini-project-release-objective-02",
+    "movieswiftui-06-tests-and-mini-project-release-objective-03"
+  ],
+  "source_files": [
+    "Tests/MovieCoreTests.swift",
+    "project.yml",
+    "README.md"
+  ],
+  "prerequisites": [
+    "movieswiftui-05-detail-and-view-composition"
+  ],
+  "ordered_lesson_ids": [
+    "movieswiftui-06-tests-and-mini-project-release-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Mapping/filter tests, watchlist persistence tests, XcodeGen targets, and simulator review",
+    "The tests exercise core functions and model persistence, not visual correctness or a provider. Use the project spec to run them on macOS and add screen-level checks.",
+    "No Xcode or simulator execution was available in this build environment."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Tests/MovieCoreTests.swift` around `final class MovieCoreTests`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Tests/MovieCoreTests.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

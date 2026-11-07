@@ -1,0 +1,41 @@
+{
+  "module_id": "kickstarter-for-ios-06-tests-and-platform-build",
+  "title": "Use XCTest and XcodeGen to check the sample",
+  "description": "Tests isolate rules and persistence using controlled defaults. The XcodeGen file describes build targets; on macOS, generate and run the simulator suite before calling it verified.",
+  "learning_objectives": [
+    "Explain core rule tests, temporary userdefaults, target generation, and simulator checklist in plain language.",
+    "Trace final class ProjectCoreTests in `Tests/ProjectCoreTests.swift` and explain the relevant behavior.",
+    "State and preserve this limit: This workspace lacked Xcode; build and UI behavior remain unverified."
+  ],
+  "learning_objective_ids": [
+    "kickstarter-for-ios-06-tests-and-platform-build-objective-01",
+    "kickstarter-for-ios-06-tests-and-platform-build-objective-02",
+    "kickstarter-for-ios-06-tests-and-platform-build-objective-03"
+  ],
+  "source_files": [
+    "Tests/ProjectCoreTests.swift",
+    "project.yml",
+    "README.md"
+  ],
+  "prerequisites": [
+    "kickstarter-for-ios-05-swiftui-navigation-and-shared-store"
+  ],
+  "ordered_lesson_ids": [
+    "kickstarter-for-ios-06-tests-and-platform-build-lesson-01"
+  ],
+  "estimated_duration_minutes": 100,
+  "concepts": [
+    "Core rule tests, temporary UserDefaults, target generation, and simulator checklist",
+    "Tests isolate rules and persistence using controlled defaults. The XcodeGen file describes build targets; on macOS, generate and run the simulator suite before calling it verified.",
+    "This workspace lacked Xcode; build and UI behavior remain unverified."
+  ],
+  "practical_outcomes": [
+    "Read and explain `Tests/ProjectCoreTests.swift` around `final class ProjectCoreTests`.",
+    "Complete a bounded source change or debugging exercise without claiming absent behavior."
+  ],
+  "completion_criteria": [
+    "Can explain the relevant source path and its boundary: Tests/ProjectCoreTests.swift.",
+    "Exercise acceptance criteria are met with a recorded test or manual review result.",
+    "Can distinguish source behavior from mock, simulation, or unverified integration."
+  ]
+}

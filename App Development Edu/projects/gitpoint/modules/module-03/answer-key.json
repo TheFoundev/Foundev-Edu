@@ -1,0 +1,135 @@
+{
+  "module_id": "gitpoint-03-search-sort-and-filter",
+  "answers": [
+    {
+      "question_id": "gitpoint-m03-q01",
+      "correct_option_id": "gitpoint-m03-q01-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: Search fields, date ordering, state filters, and list rendering The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m03-q01-o2": "The lesson traces 'Search fields, date ordering, state filters, and list rendering' to src/github.ts. This option instead claims 'Repository/issue shapes, response mapping, sample data, and sort fields', which the cited source does not establish for this behavior.",
+        "gitpoint-m03-q01-o3": "The lesson traces 'Search fields, date ordering, state filters, and list rendering' to src/github.ts. This option instead claims 'Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers', which the cited source does not establish for this behavior.",
+        "gitpoint-m03-q01-o4": "The lesson traces 'Search fields, date ordering, state filters, and list rendering' to src/github.ts. This option instead claims 'Cache keys, load/save, corrupt data, provider startup, and fallback state', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Search fields, date ordering, state filters, and list rendering",
+      "related_lesson_id": "gitpoint-03-search-sort-and-filter-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m03-q02",
+      "correct_option_id": "gitpoint-m03-q02-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: src/github.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m03-q02-o3": "The lesson traces 'src/github.ts' to src/github.ts. This option instead claims 'src/screens/IssuesScreen.tsx', which the cited source does not establish for this behavior.",
+        "gitpoint-m03-q02-o4": "The lesson traces 'src/github.ts' to src/github.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior.",
+        "gitpoint-m03-q02-o2": "The lesson traces 'src/github.ts' to src/github.ts. This option instead claims 'src/screens/ReposScreen.tsx', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Search fields, date ordering, state filters, and list rendering",
+      "related_lesson_id": "gitpoint-03-search-sort-and-filter-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m03-q03",
+      "correct_option_id": "gitpoint-m03-q03-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: Filtering the current dataset is not the same as server-side search across all GitHub. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m03-q03-o4": "The lesson traces 'Filtering the current dataset is not the same as server-side search across all GitHub.' to src/github.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "gitpoint-m03-q03-o2": "The lesson traces 'Filtering the current dataset is not the same as server-side search across all GitHub.' to src/github.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "gitpoint-m03-q03-o3": "The lesson traces 'Filtering the current dataset is not the same as server-side search across all GitHub.' to src/github.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Search fields, date ordering, state filters, and list rendering",
+      "related_lesson_id": "gitpoint-03-search-sort-and-filter-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m03-q04",
+      "correct_option_id": "gitpoint-m03-q04-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: Filtering is like applying a sieve to a list. Trace text matching and state filtering into the screens, then verify which fields participate and how empty results are shown. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m03-q04-o2": "The lesson traces 'Filtering is like applying a sieve to a list. Trace text matching and state filtering into the screens, then verify which fields participate and how empty results are shown.' to src/github.ts. This option instead claims 'Repository/issue shapes, response mapping, sample data, and sort fields', which the cited source does not establish for this behavior.",
+        "gitpoint-m03-q04-o3": "The lesson traces 'Filtering is like applying a sieve to a list. Trace text matching and state filtering into the screens, then verify which fields participate and how empty results are shown.' to src/github.ts. This option instead claims 'Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers', which the cited source does not establish for this behavior.",
+        "gitpoint-m03-q04-o4": "The lesson traces 'Filtering is like applying a sieve to a list. Trace text matching and state filtering into the screens, then verify which fields participate and how empty results are shown.' to src/github.ts. This option instead claims 'Cache keys, load/save, corrupt data, provider startup, and fallback state', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Search fields, date ordering, state filters, and list rendering",
+      "related_lesson_id": "gitpoint-03-search-sort-and-filter-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m03-q05",
+      "correct_option_id": "gitpoint-m03-q05-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: Search fields, date ordering, state filters, and list rendering The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m03-q05-o2": "The lesson traces 'Search fields, date ordering, state filters, and list rendering' to src/github.ts. This option instead claims 'Repository/issue shapes, response mapping, sample data, and sort fields', which the cited source does not establish for this behavior.",
+        "gitpoint-m03-q05-o3": "The lesson traces 'Search fields, date ordering, state filters, and list rendering' to src/github.ts. This option instead claims 'Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers', which the cited source does not establish for this behavior.",
+        "gitpoint-m03-q05-o4": "The lesson traces 'Search fields, date ordering, state filters, and list rendering' to src/github.ts. This option instead claims 'Cache keys, load/save, corrupt data, provider startup, and fallback state', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Search fields, date ordering, state filters, and list rendering",
+      "related_lesson_id": "gitpoint-03-search-sort-and-filter-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m03-q06",
+      "correct_option_id": "gitpoint-m03-q06-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: Filtering is like applying a sieve to a list. Trace text matching and state filtering into the screens, then verify which fields participate and how empty results are shown. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m03-q06-o3": "The lesson traces 'Filtering is like applying a sieve to a list. Trace text matching and state filtering into the screens, then verify which fields participate and how empty results are shown.' to src/github.ts. This option instead claims 'Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers', which the cited source does not establish for this behavior.",
+        "gitpoint-m03-q06-o4": "The lesson traces 'Filtering is like applying a sieve to a list. Trace text matching and state filtering into the screens, then verify which fields participate and how empty results are shown.' to src/github.ts. This option instead claims 'Cache keys, load/save, corrupt data, provider startup, and fallback state', which the cited source does not establish for this behavior.",
+        "gitpoint-m03-q06-o2": "The lesson traces 'Filtering is like applying a sieve to a list. Trace text matching and state filtering into the screens, then verify which fields participate and how empty results are shown.' to src/github.ts. This option instead claims 'Repository/issue shapes, response mapping, sample data, and sort fields', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Search fields, date ordering, state filters, and list rendering",
+      "related_lesson_id": "gitpoint-03-search-sort-and-filter-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m03-q07",
+      "correct_option_id": "gitpoint-m03-q07-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: Filtering the current dataset is not the same as server-side search across all GitHub. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m03-q07-o4": "The lesson traces 'Filtering the current dataset is not the same as server-side search across all GitHub.' to src/github.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior.",
+        "gitpoint-m03-q07-o2": "The lesson traces 'Filtering the current dataset is not the same as server-side search across all GitHub.' to src/github.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "gitpoint-m03-q07-o3": "The lesson traces 'Filtering the current dataset is not the same as server-side search across all GitHub.' to src/github.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Search fields, date ordering, state filters, and list rendering",
+      "related_lesson_id": "gitpoint-03-search-sort-and-filter-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m03-q08",
+      "correct_option_id": "gitpoint-m03-q08-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: src/github.ts The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m03-q08-o2": "The lesson traces 'src/github.ts' to src/github.ts. This option instead claims 'src/screens/ReposScreen.tsx', which the cited source does not establish for this behavior.",
+        "gitpoint-m03-q08-o3": "The lesson traces 'src/github.ts' to src/github.ts. This option instead claims 'src/screens/IssuesScreen.tsx', which the cited source does not establish for this behavior.",
+        "gitpoint-m03-q08-o4": "The lesson traces 'src/github.ts' to src/github.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Search fields, date ordering, state filters, and list rendering",
+      "related_lesson_id": "gitpoint-03-search-sort-and-filter-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m03-q09",
+      "correct_option_id": "gitpoint-m03-q09-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: Do not claim production readiness: Filtering the current dataset is not the same as server-side search across all GitHub. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m03-q09-o2": "The lesson traces 'Do not claim production readiness: Filtering the current dataset is not the same as server-side search across all GitHub.' to src/github.ts. This option instead claims 'It includes the full upstream product and all production integrations.', which the cited source does not establish for this behavior.",
+        "gitpoint-m03-q09-o3": "The lesson traces 'Do not claim production readiness: Filtering the current dataset is not the same as server-side search across all GitHub.' to src/github.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior.",
+        "gitpoint-m03-q09-o4": "The lesson traces 'Do not claim production readiness: Filtering the current dataset is not the same as server-side search across all GitHub.' to src/github.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Search fields, date ordering, state filters, and list rendering",
+      "related_lesson_id": "gitpoint-03-search-sort-and-filter-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    },
+    {
+      "question_id": "gitpoint-m03-q10",
+      "correct_option_id": "gitpoint-m03-q10-o1",
+      "correct_explanation": "The lesson and source file `src/github.ts` identify this behavior as: Filtering is like applying a sieve to a list. Trace text matching and state filtering into the screens, then verify which fields participate and how empty results are shown. The source excerpt and the described module boundary support this answer; the app README also marks the limitation where relevant.",
+      "incorrect_explanations": {
+        "gitpoint-m03-q10-o3": "The lesson traces 'Filtering is like applying a sieve to a list. Trace text matching and state filtering into the screens, then verify which fields participate and how empty results are shown.' to src/github.ts. This option instead claims 'Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers', which the cited source does not establish for this behavior.",
+        "gitpoint-m03-q10-o4": "The lesson traces 'Filtering is like applying a sieve to a list. Trace text matching and state filtering into the screens, then verify which fields participate and how empty results are shown.' to src/github.ts. This option instead claims 'Cache keys, load/save, corrupt data, provider startup, and fallback state', which the cited source does not establish for this behavior.",
+        "gitpoint-m03-q10-o2": "The lesson traces 'Filtering is like applying a sieve to a list. Trace text matching and state filtering into the screens, then verify which fields participate and how empty results are shown.' to src/github.ts. This option instead claims 'Repository/issue shapes, response mapping, sample data, and sort fields', which the cited source does not establish for this behavior."
+      },
+      "tested_concept": "Search fields, date ordering, state filters, and list rendering",
+      "related_lesson_id": "gitpoint-03-search-sort-and-filter-lesson-01",
+      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+    }
+  ]
+}
