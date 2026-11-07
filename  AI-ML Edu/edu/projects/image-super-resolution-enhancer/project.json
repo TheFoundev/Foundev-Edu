@@ -1,0 +1,27 @@
+{
+  "title": "Image Super-Resolution Enhancer",
+  "slug": "image-super-resolution-enhancer",
+  "description": "Upscale small images with bicubic resampling and sharpening.",
+  "problem_solved": "Enhance blurry or low-resolution images such as document scans, satellite, or medical imagery with Real-ESRGAN and benchmark quality metrics and runtime on CPU versus GPU. Actual implementation note: Synthetic low/high resolution image pairs",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "Python",
+    "Matplotlib",
+    "NumPy",
+    "Pillow"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of Image Super-Resolution Enhancer using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

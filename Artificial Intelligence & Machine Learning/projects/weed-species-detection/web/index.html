@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Weed Species Detection · project console</title>
+<meta name="description" content="Classify synthetic weed species from leaf features: procedurally drawn leaves, shape and colour summary features, a random forest with per-species accuracy, and sample images saved for inspection.">
+<meta name="theme-color" content="hsl(110 72% 46%)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700;800&family=ui-sans-serif,+system-ui,+'Segoe+UI',+sans-serif:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/theme.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the content</a>
+<header class="topbar">
+  <a class="brand" href="index.html">
+    <span class="mark">WD</span>
+    <span><strong>Weed Species Detection</strong><small>Leaf features, four species</small></span>
+  </a>
+  <nav class="nav"><a href="index.html" class="active">Overview</a><a href="console.html">Console</a></nav>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <span class="eyebrow">machine learning · Python</span>
+      <h1>Which species is this leaf?</h1>
+      <p class="lede">Classify synthetic weed species from leaf features: procedurally drawn leaves, shape and colour summary features, a random forest with per-species accuracy, and sample images saved for inspection.</p>
+      <div class="actions">
+        <a class="btn primary" href="console.html">Open the console</a>
+        <a class="btn" href="#how">How it works</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="banner" style="display:block">
+        <strong>This is a Python model, not a hosted product.</strong>
+        It is part of the Foundev portfolio: a self-contained repository with its own tests and README.
+        The page you are reading is a project console — the numbers below are computed from the repository, and the demo runs the project's own command.
+      </div>
+      <div class="head reveal">
+        <div>
+          <span class="eyebrow">What it does</span>
+          <h2 style="margin-top:10px">The capabilities</h2>
+        </div>
+        <p class="lede" style="max-width:42ch">Every panel below is served by the console's real API — nothing here is a mock-up.</p>
+      </div>
+      <div class="grid cols-3">
+        <article class="card reveal">
+          <div class="icon">◫</div>
+          <h3>Procedural leaves</h3>
+          <p>Four species are drawn with distinct shapes and colours, so the project needs no image download.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">⌗</div>
+          <h3>Shape and colour features</h3>
+          <p>Each leaf becomes a compact feature vector.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">◈</div>
+          <h3>A classifier with per-species accuracy</h3>
+          <p>The random forest reports where it succeeds and where it confuses species.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">⇩</div>
+          <h3>Images you can inspect</h3>
+          <p>Sample leaves are written out so the data is visible, not abstract.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">✓</div>
+          <h3>Train and demo commands</h3>
+          <p>One command trains, another evaluates.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="wrap">
+      <div class="grid cols-2">
+        <div class="reveal">
+          <span class="eyebrow">Architecture</span>
+          <h2 style="margin:10px 0 12px">How it works</h2>
+          <p class="lede">src/ draws the leaves, extracts the features and trains the model. main.py exposes train and demo; the demo prints the per-species accuracy and writes sample images. The CSV stack names ResNet50 and InceptionV3 transfer learning; pretrained ImageNet weights are not available offline, so the build uses hand-built features and a random forest, as the README records.</p>
+          <div style="display:flex;flex-wrap:wrap;gap:7px;margin-top:18px"><span class="badge">Python</span><span class="badge">Matplotlib</span><span class="badge">NumPy</span><span class="badge">scikit-learn</span><span class="badge">Random forest</span></div>
+        </div>
+        <div class="reveal">
+          <span class="eyebrow">The console API</span>
+          <h2 style="margin:10px 0 12px">Endpoints</h2>
+          <div class="panel">
+            <table>
+              <thead><tr><th>Method</th><th>Path</th><th>What it does</th></tr></thead>
+              <tbody>
+                <tr><td><code>GET</code></td><td><code>/api/summary</code></td><td>Counts files, lines and tests in this repository, and groups the lines by language</td></tr>
+                <tr><td><code>POST</code></td><td><code>/api/run</code></td><td>Runs the project's own demo command and returns its real output</td></tr>
+                <tr><td><code>GET</code></td><td><code>/console.html</code></td><td>The console of this site</td></tr>
+                <tr><td><code>GET</code></td><td><code>/assets/theme.css</code></td><td>The design system of this site</td></tr>
+                <tr><td><code>CLI</code></td><td><code>py -3 main.py demo</code></td><td>The project's own native entry point</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="grid cols-2">
+        <div class="reveal">
+          <span class="eyebrow">Quick start</span>
+          <h2 style="margin:10px 0 12px">Run it locally</h2>
+          <div class="panel">
+            <table>
+              <thead><tr><th>Command</th><th>What it does</th></tr></thead>
+              <tbody><tr><td><code>pip install -r requirements.txt</code></td><td>install Matplotlib, NumPy and scikit-learn</td></tr><tr><td><code>py -3 main.py train</code></td><td>train the classifier</td></tr><tr><td><code>py -3 main.py demo</code></td><td>report per-species accuracy</td></tr></tbody>
+            </table>
+          </div>
+          <p class="lede" style="margin-top:12px;font-size:.86rem">The console itself needs nothing but Python: <code>py -3 web/server.py</code>.</p>
+        </div>
+        <div class="reveal">
+          <span class="eyebrow">Live</span>
+          <h2 style="margin:10px 0 12px">The repository, counted</h2>
+          <div class="stats" id="stats"><div class="stat"><div class="value" data-stat="Files">—</div><div class="label">Files</div></div><div class="stat"><div class="value" data-stat="Lines">—</div><div class="label">Lines</div></div><div class="stat"><div class="value" data-stat="Tests">—</div><div class="label">Tests</div></div><div class="stat"><div class="value" data-stat="Language">—</div><div class="label">Language</div></div></div>
+          <p class="lede" style="margin-top:12px;font-size:.86rem">Start <code>web/server.py</code> to replace these dashes with the real counts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Weed Species Detection — part of the Foundev portfolio.</span>
+    <span>A Python model.</span>
+  </div>
+</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>

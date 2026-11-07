@@ -1,0 +1,42 @@
+{
+  "module_id": "ml-experiment-tracking-and-registry-module-03",
+  "title": "Features and Intermediate Representation",
+  "description": "Begins with a plain-language explanation of Features are the measurements or encoded representations the algorithm can use; their shape determines what the model can learn., then traces the corresponding implementation and its limits in ml-experiment-tracking-and-registry.",
+  "learning_objectives": [
+    "Explain Features are the measurements or encoded representations the algorithm can use; their shape determines what the model can learn. in plain language and connect it to src/data.py; src/model.py.",
+    "Trace one input through the features and intermediate representation stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-03-01",
+    "lesson-03-02",
+    "lesson-03-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "Features are the measurements or encoded representations the algorithm can use; their shape determines what the model can learn.",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the features and intermediate representation stage through the cited source paths.",
+    "Produce a small test or diagnostic for Features are the measurements or encoded representations the algorithm can use; their shape determines what the model can learn.."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/data.py",
+    "src/model.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "candidates",
+    "excerpt_file": "src/model.py"
+  }
+}

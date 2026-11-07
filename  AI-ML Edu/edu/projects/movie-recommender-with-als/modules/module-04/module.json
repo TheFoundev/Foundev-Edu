@@ -1,0 +1,41 @@
+{
+  "module_id": "movie-recommender-with-als-module-04",
+  "title": "Latent Factors and Ranking Metrics",
+  "description": "Begins with a plain-language explanation of Latent factors represent users and movies in a smaller shared space; ranking metrics measure whether useful items appear near the top., then traces the corresponding implementation and its limits in movie-recommender-with-als.",
+  "learning_objectives": [
+    "Explain Latent factors represent users and movies in a smaller shared space; ranking metrics measure whether useful items appear near the top. in plain language and connect it to src/model.py.",
+    "Trace one input through the latent factors and ranking metrics stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-04-01",
+    "lesson-04-02",
+    "lesson-04-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "Latent factors represent users and movies in a smaller shared space; ranking metrics measure whether useful items appear near the top.",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the latent factors and ranking metrics stage through the cited source paths.",
+    "Produce a small test or diagnostic for Latent factors represent users and movies in a smaller shared space; ranking metrics measure whether useful items appear near the top.."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/model.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "fit",
+    "excerpt_file": "src/model.py"
+  }
+}

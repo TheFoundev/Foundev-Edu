@@ -1,0 +1,27 @@
+{
+  "title": "Outlier Detection Benchmark",
+  "slug": "outlier-detection-benchmark",
+  "description": "Compare four outlier detectors on several synthetic datasets.",
+  "problem_solved": "Benchmark dozens of outlier detectors (LOF, Isolation Forest, autoencoders) on tabular and credit-fraud data to flag rare anomalous records. Actual implementation note: Gaussian, ring and clustered 2D datasets with labelled outliers",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "Python",
+    "Matplotlib",
+    "NumPy",
+    "scikit-learn"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of Outlier Detection Benchmark using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

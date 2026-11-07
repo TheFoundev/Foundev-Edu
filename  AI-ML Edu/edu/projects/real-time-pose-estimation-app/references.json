@@ -1,0 +1,30 @@
+{
+  "project_slug": "real-time-pose-estimation-app",
+  "references": [
+    {
+      "title": "Source project README",
+      "url": "../README.md",
+      "type": "package-documentation"
+    },
+    {
+      "title": "Source project workflow",
+      "url": "../setup-guide.md",
+      "type": "package-documentation"
+    },
+    {
+      "title": "Python documentation",
+      "url": "https://docs.python.org/3/",
+      "type": "official-documentation"
+    },
+    {
+      "title": "Flask documentation",
+      "url": "https://flask.palletsprojects.com/en/stable/",
+      "type": "official-documentation"
+    },
+    {
+      "title": "MediaPipe documentation",
+      "url": "https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker",
+      "type": "official-documentation"
+    }
+  ]
+}

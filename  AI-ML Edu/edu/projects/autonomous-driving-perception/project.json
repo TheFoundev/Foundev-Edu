@@ -1,0 +1,27 @@
+{
+  "title": "Autonomous Driving Perception",
+  "slug": "autonomous-driving-perception",
+  "description": "A tiny road-scene perception pipeline using thresholding and connected components.",
+  "problem_solved": "Study and extend an open-source driver-assistance perception stack: lane detection, vehicle detection, and driver-attention monitoring on real driving video. Actual implementation note: A lane detector and a vehicle detector over a road scene",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "Python",
+    "Matplotlib",
+    "NumPy",
+    "SciPy"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of Autonomous Driving Perception using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

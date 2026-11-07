@@ -1,0 +1,257 @@
+{
+  "module_id": "monai-medical-imaging-pipeline-module-03",
+  "title": "Features and Intermediate Representation",
+  "instructions": "Choose one best answer. Every question is based on this module; consult the lessons before answering.",
+  "questions": [
+    {
+      "question_id": "monai-medical-imaging-pipeline-m03-q01",
+      "question_text": "Which statement best explains features and intermediate representation in this project?",
+      "options": [
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q01-o3",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q01-o4",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q01-o1",
+          "text": "Understand Features are the measurements or encoded representations the algorithm can use; their shape determines what the model can learn.. In this repository, the claim must be grounded in the documented behavior and source paths: src/data.py; src/model.py."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q01-o2",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain Features are the measurements or encoded representations the algorithm can use; their shape determines what the model can learn. in plain language and connect it to src/data.py; src/model.py.",
+      "related_lesson_id": "lesson-03-01"
+    },
+    {
+      "question_id": "monai-medical-imaging-pipeline-m03-q02",
+      "question_text": "When inspecting features and intermediate representation, which implementation claim is supported by the module lessons?",
+      "options": [
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q02-o2",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q02-o3",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q02-o4",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q02-o1",
+          "text": "The source-specific focus for this module is `make_volume` in `src/data.py`. Use the excerpt below to trace the actual inputs, transformation, and output for Features are the measurements or encoded representations the algorithm can use; their shape determines what the model can learn.. Where a behavior is absent, follow the documented boundary rather than assuming it exists."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Trace one input through the features and intermediate representation stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-03-02"
+    },
+    {
+      "question_id": "monai-medical-imaging-pipeline-m03-q03",
+      "question_text": "A learner is tracing features and intermediate representation. Which conclusion follows from the taught source behavior?",
+      "options": [
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q03-o1",
+          "text": "Validate outputs and identify limitations for features and intermediate representation. In this repository, the claim must be grounded in the documented behavior and source paths: src/data.py; src/model.py."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q03-o2",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q03-o3",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q03-o4",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-03-03"
+    },
+    {
+      "question_id": "monai-medical-imaging-pipeline-m03-q04",
+      "question_text": "Which statement is the best source-grounded interpretation of features and intermediate representation?",
+      "options": [
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q04-o4",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q04-o1",
+          "text": "src/data.py; src/model.py is the repository location to inspect for this module stage."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q04-o2",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q04-o3",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain Features are the measurements or encoded representations the algorithm can use; their shape determines what the model can learn. in plain language and connect it to src/data.py; src/model.py.",
+      "related_lesson_id": "lesson-03-01"
+    },
+    {
+      "question_id": "monai-medical-imaging-pipeline-m03-q05",
+      "question_text": "An engineer is reviewing features and intermediate representation. Which risk or limitation should be documented?",
+      "options": [
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q05-o3",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q05-o4",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q05-o1",
+          "text": "Volumes are generated in memory; no DICOM or NIfTI files are read."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q05-o2",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the features and intermediate representation stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-03-02"
+    },
+    {
+      "question_id": "monai-medical-imaging-pipeline-m03-q06",
+      "question_text": "Which investigation step best validates features and intermediate representation?",
+      "options": [
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q06-o2",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q06-o3",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q06-o4",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q06-o1",
+          "text": "The module requires tracing input, transformation, output, and failure behavior."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-03-03"
+    },
+    {
+      "question_id": "monai-medical-imaging-pipeline-m03-q07",
+      "question_text": "Which test design matches the module guidance for features and intermediate representation?",
+      "options": [
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q07-o1",
+          "text": "A test or diagnostic should check both expected output and an edge case."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q07-o2",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q07-o3",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q07-o4",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain Features are the measurements or encoded representations the algorithm can use; their shape determines what the model can learn. in plain language and connect it to src/data.py; src/model.py.",
+      "related_lesson_id": "lesson-03-01"
+    },
+    {
+      "question_id": "monai-medical-imaging-pipeline-m03-q08",
+      "question_text": "A UI displays a result during features and intermediate representation. What can safely be concluded?",
+      "options": [
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q08-o4",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q08-o1",
+          "text": "An interface can be present without proving a model or backend is connected."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q08-o2",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q08-o3",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the features and intermediate representation stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-03-02"
+    },
+    {
+      "question_id": "monai-medical-imaging-pipeline-m03-q09",
+      "question_text": "How should a learner interpret an output from features and intermediate representation?",
+      "options": [
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q09-o3",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q09-o4",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q09-o1",
+          "text": "An output score is not automatically calibrated probability or proof."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q09-o2",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-03-03"
+    },
+    {
+      "question_id": "monai-medical-imaging-pipeline-m03-q10",
+      "question_text": "Which data-handling practice is appropriate while studying features and intermediate representation?",
+      "options": [
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q10-o2",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q10-o3",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q10-o4",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "monai-medical-imaging-pipeline-m03-q10-o1",
+          "text": "Sensitive inputs require minimization, access controls, and a human correction path."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Explain Features are the measurements or encoded representations the algorithm can use; their shape determines what the model can learn. in plain language and connect it to src/data.py; src/model.py.",
+      "related_lesson_id": "lesson-03-01"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "module_id": "semantic-segmentation-with-u-net-and-deeplab-module-06",
+  "title": "Inference, Demo, Tests, and Responsible Limits",
+  "description": "Begins with a plain-language explanation of A demo presents one output; tests and limitations tell you how far that output should be trusted. Inference means applying the trained or configured method to a new input; a user interface is only the path that sends that input and displays the result., then traces the corresponding implementation and its limits in semantic-segmentation-with-u-net-and-deeplab.",
+  "learning_objectives": [
+    "Explain A demo presents one output; tests and limitations tell you how far that output should be trusted. Inference means applying the trained or configured method to a new input; a user interface is only the path that sends that input and displays the result. in plain language and connect it to web/api_impl.py; main.py; tests/test_pipeline.py; README.md.",
+    "Trace one input through the inference, demo, tests, and responsible limits stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-06-01",
+    "lesson-06-02",
+    "lesson-06-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "A demo presents one output; tests and limitations tell you how far that output should be trusted. Inference means applying the trained or configured method to a new input; a user interface is only the path that sends that input and displays the result.",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the inference, demo, tests, and responsible limits stage through the cited source paths.",
+    "Produce a small test or diagnostic for A demo presents one output; tests and limitations tell you how far that output should be trusted. Inference means applying the trained or configured method to a new input; a user interface is only the path that sends that input and displays the result.."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "web/api_impl.py",
+    "main.py",
+    "tests/test_pipeline.py",
+    "README.md"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "summary",
+    "excerpt_file": "web/api_impl.py"
+  }
+}

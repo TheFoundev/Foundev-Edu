@@ -1,0 +1,41 @@
+{
+  "module_id": "time-series-classification-pipelines-module-04",
+  "title": "Time-Domain and Frequency Features",
+  "description": "Begins with a plain-language explanation of A classifier can summarize a sequence with statistics and frequency components before making a prediction., then traces the corresponding implementation and its limits in time-series-classification-pipelines.",
+  "learning_objectives": [
+    "Explain A classifier can summarize a sequence with statistics and frequency components before making a prediction. in plain language and connect it to src/model.py.",
+    "Trace one input through the time-domain and frequency features stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-04-01",
+    "lesson-04-02",
+    "lesson-04-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "A classifier can summarize a sequence with statistics and frequency components before making a prediction.",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the time-domain and frequency features stage through the cited source paths.",
+    "Produce a small test or diagnostic for A classifier can summarize a sequence with statistics and frequency components before making a prediction.."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/model.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "featurize",
+    "excerpt_file": "src/model.py"
+  }
+}

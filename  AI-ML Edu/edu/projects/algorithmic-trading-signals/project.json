@@ -1,0 +1,27 @@
+{
+  "title": "Algorithmic Trading Signals",
+  "slug": "algorithmic-trading-signals",
+  "description": "Technical indicators and a small next-day direction model.",
+  "problem_solved": "Turn market and technical data into trading strategies: feature engineering, supervised return prediction, backtesting, and portfolio-level evaluation. Actual implementation note: RSI, moving averages, a gap feature and a momentum feature (the rate of change over ten days)",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "Python",
+    "pandas",
+    "scikit-learn",
+    "TA-Lib"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of Algorithmic Trading Signals using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

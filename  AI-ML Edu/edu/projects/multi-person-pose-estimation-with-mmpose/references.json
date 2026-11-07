@@ -1,0 +1,30 @@
+{
+  "project_slug": "multi-person-pose-estimation-with-mmpose",
+  "references": [
+    {
+      "title": "Source project README",
+      "url": "../README.md",
+      "type": "package-documentation"
+    },
+    {
+      "title": "Source project workflow",
+      "url": "../setup-guide.md",
+      "type": "package-documentation"
+    },
+    {
+      "title": "Python documentation",
+      "url": "https://docs.python.org/3/",
+      "type": "official-documentation"
+    },
+    {
+      "title": "NumPy documentation",
+      "url": "https://numpy.org/doc/stable/",
+      "type": "official-documentation"
+    },
+    {
+      "title": "Matplotlib documentation",
+      "url": "https://matplotlib.org/stable/",
+      "type": "official-documentation"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "module_id": "offline-speech-recognition-engine-module-07",
+  "title": "Tests, Limitations, and Responsible Extensions",
+  "instructions": "Choose one best answer. Every question is based on this module; consult the lessons before answering.",
+  "questions": [
+    {
+      "question_id": "offline-speech-recognition-engine-m07-q01",
+      "question_text": "Which statement best explains tests, limitations, and responsible extensions in this project?",
+      "options": [
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q01-o3",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q01-o4",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q01-o1",
+          "text": "Understand Tests are spot checks, not proof that the method works on every population or in production. Treat the README limits as part of the model\u2019s operating conditions.. In this repository, the claim must be grounded in the documented behavior and source paths: tests/test_pipeline.py; README.md; src/model.py."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q01-o2",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain Tests are spot checks, not proof that the method works on every population or in production. Treat the README limits as part of the model\u2019s operating conditions. in plain language and connect it to tests/test_pipeline.py; README.md; src/model.py.",
+      "related_lesson_id": "lesson-07-01"
+    },
+    {
+      "question_id": "offline-speech-recognition-engine-m07-q02",
+      "question_text": "When inspecting tests, limitations, and responsible extensions, which implementation claim is supported by the module lessons?",
+      "options": [
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q02-o2",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q02-o3",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q02-o4",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q02-o1",
+          "text": "The source-specific focus for this module is `test_the_distance_of_two_empty_sequences_is_not_a_number` in `tests/test_pipeline.py`. Use the excerpt below to trace the actual inputs, transformation, and output for Tests are spot checks, not proof that the method works on every population or in production. Treat the README limits as part of the model\u2019s operating conditions.. Where a behavior is absent, follow the documented boundary rather than assuming it exists."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Trace one input through the tests, limitations, and responsible extensions stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-07-02"
+    },
+    {
+      "question_id": "offline-speech-recognition-engine-m07-q03",
+      "question_text": "A learner is tracing tests, limitations, and responsible extensions. Which conclusion follows from the taught source behavior?",
+      "options": [
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q03-o1",
+          "text": "Validate outputs and identify limitations for tests, limitations, and responsible extensions. In this repository, the claim must be grounded in the documented behavior and source paths: tests/test_pipeline.py; README.md; src/model.py."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q03-o2",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q03-o3",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q03-o4",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-07-03"
+    },
+    {
+      "question_id": "offline-speech-recognition-engine-m07-q04",
+      "question_text": "Which statement is the best source-grounded interpretation of tests, limitations, and responsible extensions?",
+      "options": [
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q04-o4",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q04-o1",
+          "text": "tests/test_pipeline.py; README.md; src/model.py is the repository location to inspect for this module stage."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q04-o2",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q04-o3",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain Tests are spot checks, not proof that the method works on every population or in production. Treat the README limits as part of the model\u2019s operating conditions. in plain language and connect it to tests/test_pipeline.py; README.md; src/model.py.",
+      "related_lesson_id": "lesson-07-01"
+    },
+    {
+      "question_id": "offline-speech-recognition-engine-m07-q05",
+      "question_text": "An engineer is reviewing tests, limitations, and responsible extensions. Which risk or limitation should be documented?",
+      "options": [
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q05-o3",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q05-o4",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q05-o1",
+          "text": "Audio is synthetic and limited to eight command words."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q05-o2",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the tests, limitations, and responsible extensions stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-07-02"
+    },
+    {
+      "question_id": "offline-speech-recognition-engine-m07-q06",
+      "question_text": "Which investigation step best validates tests, limitations, and responsible extensions?",
+      "options": [
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q06-o2",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q06-o3",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q06-o4",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q06-o1",
+          "text": "The module requires tracing input, transformation, output, and failure behavior."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-07-03"
+    },
+    {
+      "question_id": "offline-speech-recognition-engine-m07-q07",
+      "question_text": "Which test design matches the module guidance for tests, limitations, and responsible extensions?",
+      "options": [
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q07-o1",
+          "text": "A test or diagnostic should check both expected output and an edge case."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q07-o2",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q07-o3",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q07-o4",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain Tests are spot checks, not proof that the method works on every population or in production. Treat the README limits as part of the model\u2019s operating conditions. in plain language and connect it to tests/test_pipeline.py; README.md; src/model.py.",
+      "related_lesson_id": "lesson-07-01"
+    },
+    {
+      "question_id": "offline-speech-recognition-engine-m07-q08",
+      "question_text": "A UI displays a result during tests, limitations, and responsible extensions. What can safely be concluded?",
+      "options": [
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q08-o4",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q08-o1",
+          "text": "An interface can be present without proving a model or backend is connected."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q08-o2",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q08-o3",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the tests, limitations, and responsible extensions stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-07-02"
+    },
+    {
+      "question_id": "offline-speech-recognition-engine-m07-q09",
+      "question_text": "How should a learner interpret an output from tests, limitations, and responsible extensions?",
+      "options": [
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q09-o3",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q09-o4",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q09-o1",
+          "text": "An output score is not automatically calibrated probability or proof."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q09-o2",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-07-03"
+    },
+    {
+      "question_id": "offline-speech-recognition-engine-m07-q10",
+      "question_text": "Which data-handling practice is appropriate while studying tests, limitations, and responsible extensions?",
+      "options": [
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q10-o2",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q10-o3",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q10-o4",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "offline-speech-recognition-engine-m07-q10-o1",
+          "text": "Sensitive inputs require minimization, access controls, and a human correction path."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Explain Tests are spot checks, not proof that the method works on every population or in production. Treat the README limits as part of the model\u2019s operating conditions. in plain language and connect it to tests/test_pipeline.py; README.md; src/model.py.",
+      "related_lesson_id": "lesson-07-01"
+    }
+  ]
+}

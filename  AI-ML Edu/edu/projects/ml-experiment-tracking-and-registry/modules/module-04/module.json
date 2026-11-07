@@ -1,0 +1,41 @@
+{
+  "module_id": "ml-experiment-tracking-and-registry-module-04",
+  "title": "Experiment Records and Model Registry",
+  "description": "Begins with a plain-language explanation of A registry remembers which run and artifact path produced a selected model., then traces the corresponding implementation and its limits in ml-experiment-tracking-and-registry.",
+  "learning_objectives": [
+    "Explain A registry remembers which run and artifact path produced a selected model. in plain language and connect it to src/model.py.",
+    "Trace one input through the experiment records and model registry stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-04-01",
+    "lesson-04-02",
+    "lesson-04-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "A registry remembers which run and artifact path produced a selected model.",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the experiment records and model registry stage through the cited source paths.",
+    "Produce a small test or diagnostic for A registry remembers which run and artifact path produced a selected model.."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/model.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "best_run",
+    "excerpt_file": "src/model.py"
+  }
+}

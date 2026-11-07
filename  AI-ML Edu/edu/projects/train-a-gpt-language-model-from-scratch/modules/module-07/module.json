@@ -1,0 +1,42 @@
+{
+  "module_id": "train-a-gpt-language-model-from-scratch-module-07",
+  "title": "Inference, Demo, and User Interface",
+  "description": "Begins with a plain-language explanation of Inference means applying the trained or configured method to a new input; a user interface is only the path that sends that input and displays the result., then traces the corresponding implementation and its limits in train-a-gpt-language-model-from-scratch.",
+  "learning_objectives": [
+    "Explain Inference means applying the trained or configured method to a new input; a user interface is only the path that sends that input and displays the result. in plain language and connect it to main.py; src/model.py.",
+    "Trace one input through the inference, demo, and user interface stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-07-01",
+    "lesson-07-02",
+    "lesson-07-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "Inference means applying the trained or configured method to a new input; a user interface is only the path that sends that input and displays the result.",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the inference, demo, and user interface stage through the cited source paths.",
+    "Produce a small test or diagnostic for Inference means applying the trained or configured method to a new input; a user interface is only the path that sends that input and displays the result.."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "main.py",
+    "src/model.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "demo",
+    "excerpt_file": "src/model.py"
+  }
+}

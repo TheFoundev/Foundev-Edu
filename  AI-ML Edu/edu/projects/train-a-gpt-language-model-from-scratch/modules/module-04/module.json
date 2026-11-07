@@ -1,0 +1,41 @@
+{
+  "module_id": "train-a-gpt-language-model-from-scratch-module-04",
+  "title": "Self-Attention Model Architecture",
+  "description": "Begins with a plain-language explanation of Self-attention lets each character representation use information from other positions in its context window., then traces the corresponding implementation and its limits in train-a-gpt-language-model-from-scratch.",
+  "learning_objectives": [
+    "Explain Self-attention lets each character representation use information from other positions in its context window. in plain language and connect it to src/model.py.",
+    "Trace one input through the self-attention model architecture stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-04-01",
+    "lesson-04-02",
+    "lesson-04-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "Self-attention lets each character representation use information from other positions in its context window.",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the self-attention model architecture stage through the cited source paths.",
+    "Produce a small test or diagnostic for Self-attention lets each character representation use information from other positions in its context window.."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/model.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "build_model",
+    "excerpt_file": "src/model.py"
+  }
+}

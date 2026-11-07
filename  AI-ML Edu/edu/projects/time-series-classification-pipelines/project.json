@@ -1,0 +1,27 @@
+{
+  "title": "Time-Series Classification Pipelines",
+  "slug": "time-series-classification-pipelines",
+  "description": "Classify short time series with summary and frequency features.",
+  "problem_solved": "Apply unified time-series pipelines to classification and forecasting tasks such as human activity recognition using sktime's scikit-compatible API. Actual implementation note: Synthetic sine, square and trending series",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "Python",
+    "Matplotlib",
+    "NumPy",
+    "scikit-learn"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of Time-Series Classification Pipelines using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

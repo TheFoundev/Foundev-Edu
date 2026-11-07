@@ -1,0 +1,41 @@
+{
+  "module_id": "tensorflow-object-detection-api-module-04",
+  "title": "Object Proposals and Box Matching",
+  "description": "Begins with a plain-language explanation of A proposal marks a possible object region; IoU measures how much that box overlaps a labelled box., then traces the corresponding implementation and its limits in tensorflow-object-detection-api.",
+  "learning_objectives": [
+    "Explain A proposal marks a possible object region; IoU measures how much that box overlaps a labelled box. in plain language and connect it to src/model.py.",
+    "Trace one input through the object proposals and box matching stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-04-01",
+    "lesson-04-02",
+    "lesson-04-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "A proposal marks a possible object region; IoU measures how much that box overlaps a labelled box.",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the object proposals and box matching stage through the cited source paths.",
+    "Produce a small test or diagnostic for A proposal marks a possible object region; IoU measures how much that box overlaps a labelled box.."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/model.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "proposal_boxes",
+    "excerpt_file": "src/model.py"
+  }
+}

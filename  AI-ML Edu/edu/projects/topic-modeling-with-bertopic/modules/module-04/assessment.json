@@ -1,0 +1,257 @@
+{
+  "module_id": "topic-modeling-with-bertopic-module-04",
+  "title": "Core Algorithm and Model Mechanics",
+  "instructions": "Choose one best answer. Every question is based on this module; consult the lessons before answering.",
+  "questions": [
+    {
+      "question_id": "topic-modeling-with-bertopic-m04-q01",
+      "question_text": "Which statement best explains core algorithm and model mechanics in this project?",
+      "options": [
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q01-o4",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q01-o1",
+          "text": "Understand The model or algorithm is the rule that maps prepared examples to scores, labels, masks, recommendations, or generated output; the real implementation may be simpler than the project brief.. In this repository, the claim must be grounded in the documented behavior and source paths: src/model.py."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q01-o2",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q01-o3",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Explain The model or algorithm is the rule that maps prepared examples to scores, labels, masks, recommendations, or generated output; the real implementation may be simpler than the project brief. in plain language and connect it to src/model.py.",
+      "related_lesson_id": "lesson-04-01"
+    },
+    {
+      "question_id": "topic-modeling-with-bertopic-m04-q02",
+      "question_text": "When inspecting core algorithm and model mechanics, which implementation claim is supported by the module lessons?",
+      "options": [
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q02-o3",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q02-o4",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q02-o1",
+          "text": "The source-specific focus for this module is `train` in `src/model.py`. Use the excerpt below to trace the actual inputs, transformation, and output for The model or algorithm is the rule that maps prepared examples to scores, labels, masks, recommendations, or generated output; the real implementation may be simpler than the project brief.. Where a behavior is absent, follow the documented boundary rather than assuming it exists."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q02-o2",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Trace one input through the core algorithm and model mechanics stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-04-02"
+    },
+    {
+      "question_id": "topic-modeling-with-bertopic-m04-q03",
+      "question_text": "A learner is tracing core algorithm and model mechanics. Which conclusion follows from the taught source behavior?",
+      "options": [
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q03-o2",
+          "text": "A single overall accuracy value is sufficient to establish reliability on every population and input condition."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q03-o3",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q03-o4",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q03-o1",
+          "text": "Validate outputs and identify limitations for core algorithm and model mechanics. In this repository, the claim must be grounded in the documented behavior and source paths: src/model.py."
+        }
+      ],
+      "difficulty_level": "basic",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-04-03"
+    },
+    {
+      "question_id": "topic-modeling-with-bertopic-m04-q04",
+      "question_text": "Which statement is the best source-grounded interpretation of core algorithm and model mechanics?",
+      "options": [
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q04-o1",
+          "text": "src/model.py is the repository location to inspect for this module stage."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q04-o2",
+          "text": "If a score is numeric, it is a calibrated probability and can directly determine a consequential action."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q04-o3",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q04-o4",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain The model or algorithm is the rule that maps prepared examples to scores, labels, masks, recommendations, or generated output; the real implementation may be simpler than the project brief. in plain language and connect it to src/model.py.",
+      "related_lesson_id": "lesson-04-01"
+    },
+    {
+      "question_id": "topic-modeling-with-bertopic-m04-q05",
+      "question_text": "An engineer is reviewing core algorithm and model mechanics. Which risk or limitation should be documented?",
+      "options": [
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q05-o4",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q05-o1",
+          "text": "Documents are short synthetic news snippets."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q05-o2",
+          "text": "The safest test is to use real identifiable user records and keep them in application logs."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q05-o3",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the core algorithm and model mechanics stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-04-02"
+    },
+    {
+      "question_id": "topic-modeling-with-bertopic-m04-q06",
+      "question_text": "Which investigation step best validates core algorithm and model mechanics?",
+      "options": [
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q06-o3",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q06-o4",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q06-o1",
+          "text": "The module requires tracing input, transformation, output, and failure behavior."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q06-o2",
+          "text": "A test only needs to cover the expected successful input; missing assets and malformed input are irrelevant."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-04-03"
+    },
+    {
+      "question_id": "topic-modeling-with-bertopic-m04-q07",
+      "question_text": "Which test design matches the module guidance for core algorithm and model mechanics?",
+      "options": [
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q07-o2",
+          "text": "The project title is sufficient evidence of the algorithm and data flow; code and workflow documentation can be ignored."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q07-o3",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q07-o4",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q07-o1",
+          "text": "A test or diagnostic should check both expected output and an edge case."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Explain The model or algorithm is the rule that maps prepared examples to scores, labels, masks, recommendations, or generated output; the real implementation may be simpler than the project brief. in plain language and connect it to src/model.py.",
+      "related_lesson_id": "lesson-04-01"
+    },
+    {
+      "question_id": "topic-modeling-with-bertopic-m04-q08",
+      "question_text": "A UI displays a result during core algorithm and model mechanics. What can safely be concluded?",
+      "options": [
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q08-o1",
+          "text": "An interface can be present without proving a model or backend is connected."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q08-o2",
+          "text": "Future work described in a proposal should be reported as completed functionality."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q08-o3",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q08-o4",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        }
+      ],
+      "difficulty_level": "intermediate",
+      "related_learning_objective": "Trace one input through the core algorithm and model mechanics stage and identify its output and assumptions.",
+      "related_lesson_id": "lesson-04-02"
+    },
+    {
+      "question_id": "topic-modeling-with-bertopic-m04-q09",
+      "question_text": "How should a learner interpret an output from core algorithm and model mechanics?",
+      "options": [
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q09-o4",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q09-o1",
+          "text": "An output score is not automatically calibrated probability or proof."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q09-o2",
+          "text": "If an implementation uses a learned model anywhere, every output component is itself learned."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q09-o3",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Diagnose one failure mode or limitation before extending this stage.",
+      "related_lesson_id": "lesson-04-03"
+    },
+    {
+      "question_id": "topic-modeling-with-bertopic-m04-q10",
+      "question_text": "Which data-handling practice is appropriate while studying core algorithm and model mechanics?",
+      "options": [
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q10-o3",
+          "text": "The repository guarantees the behavior even when required data, model weights, or services are missing."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q10-o4",
+          "text": "A polished interface proves that every advertised model and backend feature is implemented."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q10-o1",
+          "text": "Sensitive inputs require minimization, access controls, and a human correction path."
+        },
+        {
+          "option_id": "topic-modeling-with-bertopic-m04-q10-o2",
+          "text": "The stage should be treated as a black box; source tracing does not add useful evidence."
+        }
+      ],
+      "difficulty_level": "advanced",
+      "related_learning_objective": "Explain The model or algorithm is the rule that maps prepared examples to scores, labels, masks, recommendations, or generated output; the real implementation may be simpler than the project brief. in plain language and connect it to src/model.py.",
+      "related_lesson_id": "lesson-04-01"
+    }
+  ]
+}

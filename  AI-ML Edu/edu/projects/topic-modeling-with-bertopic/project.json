@@ -1,0 +1,26 @@
+{
+  "title": "Topic Modeling with BERTopic",
+  "slug": "topic-modeling-with-bertopic",
+  "description": "Group short news snippets into topics with TF-IDF and NMF.",
+  "problem_solved": "Uncover latent themes in large text corpora such as research abstracts, reviews, or support tickets with transformer embeddings, HDBSCAN clustering, and interactive charts. Actual implementation note: Small built-in news corpus",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "Python",
+    "NumPy",
+    "scikit-learn"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of Topic Modeling with BERTopic using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

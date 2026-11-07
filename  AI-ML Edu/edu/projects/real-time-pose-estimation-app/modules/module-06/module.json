@@ -1,0 +1,41 @@
+{
+  "module_id": "real-time-pose-estimation-app-module-06",
+  "title": "API Input, Model Persistence, and Safety",
+  "description": "Begins with a plain-language explanation of An inference endpoint checks an uploaded image, runs the model, and returns a structured result., then traces the corresponding implementation and its limits in real-time-pose-estimation-app.",
+  "learning_objectives": [
+    "Explain An inference endpoint checks an uploaded image, runs the model, and returns a structured result. in plain language and connect it to app.py.",
+    "Trace one input through the api input, model persistence, and safety stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-06-01",
+    "lesson-06-02",
+    "lesson-06-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "An inference endpoint checks an uploaded image, runs the model, and returns a structured result.",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the api input, model persistence, and safety stage through the cited source paths.",
+    "Produce a small test or diagnostic for An inference endpoint checks an uploaded image, runs the model, and returns a structured result.."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "app.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "uploaded_frame",
+    "excerpt_file": "app.py"
+  }
+}

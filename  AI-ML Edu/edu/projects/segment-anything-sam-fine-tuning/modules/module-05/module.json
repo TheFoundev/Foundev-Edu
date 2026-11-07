@@ -1,0 +1,41 @@
+{
+  "module_id": "segment-anything-sam-fine-tuning-module-05",
+  "title": "Prompt Decoding, Fine-Tuning, and Mask Metrics",
+  "description": "Begins with a plain-language explanation of Fine-tuning changes selected parameters using labeled examples; IoU checks the overlap between predicted and target masks., then traces the corresponding implementation and its limits in segment-anything-sam-fine-tuning.",
+  "learning_objectives": [
+    "Explain Fine-tuning changes selected parameters using labeled examples; IoU checks the overlap between predicted and target masks. in plain language and connect it to src/model.py.",
+    "Trace one input through the prompt decoding, fine-tuning, and mask metrics stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-05-01",
+    "lesson-05-02",
+    "lesson-05-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "Fine-tuning changes selected parameters using labeled examples; IoU checks the overlap between predicted and target masks.",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the prompt decoding, fine-tuning, and mask metrics stage through the cited source paths.",
+    "Produce a small test or diagnostic for Fine-tuning changes selected parameters using labeled examples; IoU checks the overlap between predicted and target masks.."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/model.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "fine_tune",
+    "excerpt_file": "src/model.py"
+  }
+}

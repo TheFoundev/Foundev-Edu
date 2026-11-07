@@ -1,0 +1,41 @@
+{
+  "module_id": "offline-speech-recognition-engine-module-04",
+  "title": "Dynamic Time Warping and Template Matching",
+  "description": "Begins with a plain-language explanation of Dynamic time warping compares two sequences while allowing their timing to stretch or compress., then traces the corresponding implementation and its limits in offline-speech-recognition-engine.",
+  "learning_objectives": [
+    "Explain Dynamic time warping compares two sequences while allowing their timing to stretch or compress. in plain language and connect it to src/model.py.",
+    "Trace one input through the dynamic time warping and template matching stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-04-01",
+    "lesson-04-02",
+    "lesson-04-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "Dynamic time warping compares two sequences while allowing their timing to stretch or compress.",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the dynamic time warping and template matching stage through the cited source paths.",
+    "Produce a small test or diagnostic for Dynamic time warping compares two sequences while allowing their timing to stretch or compress.."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/model.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "dtw_distance",
+    "excerpt_file": "src/model.py"
+  }
+}

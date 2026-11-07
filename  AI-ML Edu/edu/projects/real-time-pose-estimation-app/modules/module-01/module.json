@@ -1,0 +1,42 @@
+{
+  "module_id": "real-time-pose-estimation-app-module-01",
+  "title": "Task, Input Contract, and Source Scope",
+  "description": "Begins with a plain-language explanation of Think of Real-Time Pose Estimation App as a small workshop: the input is prepared, a method transforms it, and a result is checked. The brief and the implementation may describe different levels of ambition., then traces the corresponding implementation and its limits in real-time-pose-estimation-app.",
+  "learning_objectives": [
+    "Explain Think of Real-Time Pose Estimation App as a small workshop: the input is prepared, a method transforms it, and a result is checked. The brief and the implementation may describe different levels of ambition. in plain language and connect it to README.md; main.py.",
+    "Trace one input through the task, input contract, and source scope stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-01-01",
+    "lesson-01-02",
+    "lesson-01-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "Think of Real-Time Pose Estimation App as a small workshop: the input is prepared, a method transforms it, and a result is checked. The brief and the implementation may describe different levels of ambition.",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the task, input contract, and source scope stage through the cited source paths.",
+    "Produce a small test or diagnostic for Think of Real-Time Pose Estimation App as a small workshop: the input is prepared, a method transforms it, and a result is checked. The brief and the implementation may describe different levels of ambition.."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "README.md",
+    "main.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "main",
+    "excerpt_file": "main.py"
+  }
+}

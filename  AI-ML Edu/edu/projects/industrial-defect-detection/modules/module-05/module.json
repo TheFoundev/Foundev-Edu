@@ -1,0 +1,42 @@
+{
+  "module_id": "industrial-defect-detection-module-05",
+  "title": "Training, Metrics, and Validation",
+  "description": "Begins with a plain-language explanation of Training adjusts or configures the method; evaluation checks it on held-out examples with task-appropriate metrics., then traces the corresponding implementation and its limits in industrial-defect-detection.",
+  "learning_objectives": [
+    "Explain Training adjusts or configures the method; evaluation checks it on held-out examples with task-appropriate metrics. in plain language and connect it to src/model.py; tests/test_pipeline.py.",
+    "Trace one input through the training, metrics, and validation stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-05-01",
+    "lesson-05-02",
+    "lesson-05-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "Training adjusts or configures the method; evaluation checks it on held-out examples with task-appropriate metrics.",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the training, metrics, and validation stage through the cited source paths.",
+    "Produce a small test or diagnostic for Training adjusts or configures the method; evaluation checks it on held-out examples with task-appropriate metrics.."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/model.py",
+    "tests/test_pipeline.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "test_a_clean_patch_and_a_defective_one_are_not_the_same",
+    "excerpt_file": "tests/test_pipeline.py"
+  }
+}

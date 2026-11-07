@@ -1,0 +1,41 @@
+{
+  "module_id": "streaming-anomaly-detection-module-04",
+  "title": "Online Updates, Thresholds, and Detection Delay",
+  "description": "Begins with a plain-language explanation of An online detector updates its baseline as each value arrives and flags values far from that baseline., then traces the corresponding implementation and its limits in streaming-anomaly-detection.",
+  "learning_objectives": [
+    "Explain An online detector updates its baseline as each value arrives and flags values far from that baseline. in plain language and connect it to src/model.py.",
+    "Trace one input through the online updates, thresholds, and detection delay stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-04-01",
+    "lesson-04-02",
+    "lesson-04-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "An online detector updates its baseline as each value arrives and flags values far from that baseline.",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the online updates, thresholds, and detection delay stage through the cited source paths.",
+    "Produce a small test or diagnostic for An online detector updates its baseline as each value arrives and flags values far from that baseline.."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/model.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "simulate",
+    "excerpt_file": "src/model.py"
+  }
+}

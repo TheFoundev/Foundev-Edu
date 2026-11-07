@@ -1,0 +1,41 @@
+{
+  "module_id": "wav2vec2-low-resource-asr-fine-tuning-module-04",
+  "title": "Frame Labels, Greedy Decoding, and Error Rate",
+  "description": "Begins with a plain-language explanation of Frame-level predictions must be collapsed into token sequences before comparing the transcript with a reference., then traces the corresponding implementation and its limits in wav2vec2-low-resource-asr-fine-tuning.",
+  "learning_objectives": [
+    "Explain Frame-level predictions must be collapsed into token sequences before comparing the transcript with a reference. in plain language and connect it to src/model.py.",
+    "Trace one input through the frame labels, greedy decoding, and error rate stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-04-01",
+    "lesson-04-02",
+    "lesson-04-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "Frame-level predictions must be collapsed into token sequences before comparing the transcript with a reference.",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the frame labels, greedy decoding, and error rate stage through the cited source paths.",
+    "Produce a small test or diagnostic for Frame-level predictions must be collapsed into token sequences before comparing the transcript with a reference.."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/model.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "decode",
+    "excerpt_file": "src/model.py"
+  }
+}

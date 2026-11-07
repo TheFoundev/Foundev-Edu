@@ -1,0 +1,41 @@
+{
+  "module_id": "real-time-pose-estimation-app-module-05",
+  "title": "Regress Keypoints from Cropped Features",
+  "description": "Begins with a plain-language explanation of A regressor maps a fixed-size crop description to joint coordinates; it needs examples with known target joints., then traces the corresponding implementation and its limits in real-time-pose-estimation-app.",
+  "learning_objectives": [
+    "Explain A regressor maps a fixed-size crop description to joint coordinates; it needs examples with known target joints. in plain language and connect it to src/model.py.",
+    "Trace one input through the regress keypoints from cropped features stage and identify its output and assumptions.",
+    "Diagnose one failure mode or limitation before extending this stage."
+  ],
+  "prerequisites": [
+    "Read project prerequisites and the previous module when present."
+  ],
+  "lesson_ids": [
+    "lesson-05-01",
+    "lesson-05-02",
+    "lesson-05-03"
+  ],
+  "estimated_duration_minutes": 150,
+  "concepts_covered": [
+    "A regressor maps a fixed-size crop description to joint coordinates; it needs examples with known target joints.",
+    "source tracing",
+    "failure analysis",
+    "responsible use"
+  ],
+  "practical_outcomes": [
+    "Trace the regress keypoints from cropped features stage through the cited source paths.",
+    "Produce a small test or diagnostic for A regressor maps a fixed-size crop description to joint coordinates; it needs examples with known target joints.."
+  ],
+  "completion_criteria": [
+    "Complete the three lessons and exercise.",
+    "Answer all ten module questions using material from these lessons.",
+    "Submit a short source citation and limitation note."
+  ],
+  "source_files": [
+    "src/model.py"
+  ],
+  "source_code_focus": {
+    "symbol_or_search_term": "fit_ridge",
+    "excerpt_file": "src/model.py"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Real-Time Pose Estimation App",
+  "slug": "real-time-pose-estimation-app",
+  "description": "A single-person pose estimator with a small Flask API.",
+  "problem_solved": "Create real-time human pose, hand, and face-mesh applications such as a fitness rep counter, gesture controller, or rehabilitation angle-measuring app. Actual implementation note: Moving synthetic figure across frames",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "Python",
+    "MediaPipe",
+    "OpenCV",
+    "Flask"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of Real-Time Pose Estimation App using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

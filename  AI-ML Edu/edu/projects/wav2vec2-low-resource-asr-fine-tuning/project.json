@@ -1,0 +1,26 @@
+{
+  "title": "Wav2Vec2 Low-Resource ASR Fine-tuning",
+  "slug": "wav2vec2-low-resource-asr-fine-tuning",
+  "description": "Frame-level phonetic classification with greedy decoding.",
+  "problem_solved": "Adapt self-supervised speech representations by fine-tuning Wav2Vec 2.0 with very limited labels for low-resource language or accented ASR. Actual implementation note: Synthetic words made from phoneme-like tone segments",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "Python",
+    "NumPy",
+    "scikit-learn"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of Wav2Vec2 Low-Resource ASR Fine-tuning using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}

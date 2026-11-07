@@ -1,0 +1,27 @@
+{
+  "title": "Model Explainability with SHAP",
+  "slug": "model-explainability-with-shap",
+  "description": "Permutation importance and partial dependence for a tabular model.",
+  "problem_solved": "Explain black-box classifiers and regressors (churn, fraud, diagnosis) with Shapley-value attributions and build an explainability report for stakeholders. Actual implementation note: Synthetic dataset with a known non-linear signal",
+  "target_audience": "Intermediate learners with basic Python familiarity; some projects require additional math, data, or system prerequisites.",
+  "technology_stack": [
+    "Python",
+    "SHAP",
+    "scikit-learn",
+    "Matplotlib"
+  ],
+  "difficulty_level": "intermediate to advanced",
+  "prerequisites": [
+    "Python fundamentals and command-line use",
+    "Basic data handling and charts",
+    "Introductory probability and supervised learning; read the project prerequisite guide for project-specific needs"
+  ],
+  "learning_outcomes": [
+    "Explain the implementation stages of Model Explainability with SHAP using named source files.",
+    "Separate model or algorithm behavior from its interface, data pipeline, and configured dependencies.",
+    "Inspect likely failure modes, metrics, limitations, privacy, and human-review needs appropriate to the application.",
+    "Propose a reproducible, source-aligned extension and test plan."
+  ],
+  "estimated_completion_time": "18\u201330 hours, depending on optional data/model downloads",
+  "content_schema_version": "1.0.0"
+}
