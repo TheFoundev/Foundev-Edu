@@ -21,9 +21,11 @@
     "new-expensify-06-screens-and-controls"
   ],
   "ordered_lesson_ids": [
-    "new-expensify-07-tests-security-and-mini-project-lesson-01"
+    "new-expensify-07-tests-security-and-mini-project-lesson-01",
+    "new-expensify-07-tests-security-and-mini-project-lesson-02",
+    "new-expensify-07-tests-security-and-mini-project-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Unit coverage, test command, PII sensitivity, and runtime evidence",
     "Pure model tests make business rules repeatable, but they do not establish secure storage or accounting correctness. Build a demo and identify where real financial and privacy review would be needed.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: test/model.test.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "test/model.test.ts",
+    "symbol_or_search_term": "model.test"
+  }
 }

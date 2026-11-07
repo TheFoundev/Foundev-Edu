@@ -1,45 +1,57 @@
 {
   "module_id": "automated-eda-tool-module-01",
-  "title": "App and Feature Selector",
-  "description": "Study the implementation in [backend/app.py] and [autoeda/feature_selector.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include is_valid_email, is_strong_password, validate_contact_form, handle_contact, signup, remove_low_variance, remove_highly_correlated; confirm their complete definitions and callers in the file.",
+  "title": "API and Feature Selection",
+  "description": "Begins with an everyday explanation, then traces is_valid_email in backend/app.py. Source units combined: App and Feature Selector.",
+  "learning_objectives": [
+    {
+      "objective_id": "automated-eda-tool-module-01-objective-1",
+      "text": "Explain api and feature selection in plain language using the project source."
+    },
+    {
+      "objective_id": "automated-eda-tool-module-01-objective-2",
+      "text": "Trace `is_valid_email` in `backend/app.py` and explain its inputs, behavior, and output."
+    },
+    {
+      "objective_id": "automated-eda-tool-module-01-objective-3",
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
+    }
+  ],
+  "learning_objective_ids": [
+    "automated-eda-tool-module-01-objective-1",
+    "automated-eda-tool-module-01-objective-2",
+    "automated-eda-tool-module-01-objective-3"
+  ],
   "source_files": [
     "backend/app.py",
     "autoeda/feature_selector.py"
   ],
-  "learning_objectives": [
-    {
-      "objective_id": "automated-eda-tool-module-01-objective-1",
-      "text": "Explain the source role and visible behavior in backend/app.py, autoeda/feature_selector.py."
-    },
-    {
-      "objective_id": "automated-eda-tool-module-01-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
-    },
-    {
-      "objective_id": "automated-eda-tool-module-01-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
-    }
-  ],
-  "prerequisites": [
-    "Basic command-line and programming literacy"
-  ],
+  "source_code_focus": {
+    "excerpt_file": "backend/app.py",
+    "symbol_or_search_term": "is_valid_email",
+    "line_start": null,
+    "line_end": null,
+    "source_status": "source tree absent; excerpt retained from earlier package"
+  },
+  "prerequisites": [],
   "ordered_lesson_ids": [
-    "automated-eda-tool-module-01-lesson-1",
-    "automated-eda-tool-module-01-lesson-2"
+    "automated-eda-tool-module-01-lesson-01",
+    "automated-eda-tool-module-01-lesson-02",
+    "automated-eda-tool-module-01-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "source declarations",
     "imports and callers",
-    "inputs and outputs"
+    "inputs and outputs",
+    "source focus: is_valid_email"
   ],
   "practical_outcomes": [
-    "Evidence map for backend/app.py, autoeda/feature_selector.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `is_valid_email` through `backend/app.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

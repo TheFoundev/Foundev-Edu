@@ -1,45 +1,59 @@
 {
   "module_id": "electricity-consumption-analytics-module-02",
   "title": "Constants and Decorators",
-  "description": "Study the implementation in [smap/constants.py] and [smap/decorators.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include replace_na_with_defaults_decorator, decorator, wrapper; confirm their complete definitions and callers in the file.",
+  "description": "Begins with an everyday explanation, then traces constants in smap/constants.py. Source units combined: Constants and Decorators.",
+  "learning_objectives": [
+    {
+      "objective_id": "electricity-consumption-analytics-module-02-objective-1",
+      "text": "Explain constants and decorators in plain language using the project source."
+    },
+    {
+      "objective_id": "electricity-consumption-analytics-module-02-objective-2",
+      "text": "Trace `constants` in `smap/constants.py` and explain its inputs, behavior, and output."
+    },
+    {
+      "objective_id": "electricity-consumption-analytics-module-02-objective-3",
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
+    }
+  ],
+  "learning_objective_ids": [
+    "electricity-consumption-analytics-module-02-objective-1",
+    "electricity-consumption-analytics-module-02-objective-2",
+    "electricity-consumption-analytics-module-02-objective-3"
+  ],
   "source_files": [
     "smap/constants.py",
     "smap/decorators.py"
   ],
-  "learning_objectives": [
-    {
-      "objective_id": "electricity-consumption-analytics-module-02-objective-1",
-      "text": "Explain the source role and visible behavior in smap/constants.py, smap/decorators.py."
-    },
-    {
-      "objective_id": "electricity-consumption-analytics-module-02-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
-    },
-    {
-      "objective_id": "electricity-consumption-analytics-module-02-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
-    }
-  ],
+  "source_code_focus": {
+    "excerpt_file": "smap/constants.py",
+    "symbol_or_search_term": "constants",
+    "line_start": null,
+    "line_end": null,
+    "source_status": "source tree absent; excerpt retained from earlier package"
+  },
   "prerequisites": [
     "electricity-consumption-analytics-module-01"
   ],
   "ordered_lesson_ids": [
-    "electricity-consumption-analytics-module-02-lesson-1",
-    "electricity-consumption-analytics-module-02-lesson-2"
+    "electricity-consumption-analytics-module-02-lesson-01",
+    "electricity-consumption-analytics-module-02-lesson-02",
+    "electricity-consumption-analytics-module-02-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "source declarations",
     "imports and callers",
-    "inputs and outputs"
+    "inputs and outputs",
+    "source focus: constants"
   ],
   "practical_outcomes": [
-    "Evidence map for smap/constants.py, smap/decorators.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `constants` through `smap/constants.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

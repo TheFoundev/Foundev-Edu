@@ -1,0 +1,93 @@
+# Turn a list into useful repository and issue views: Check behavior and limits
+
+**Lesson ID:** `gitpoint-03-search-sort-and-filter-lesson-03`  
+**Module ID:** `gitpoint-03-search-sort-and-filter`  
+**Source focus:** `src/github.ts` → `github`
+
+## Purpose and learning objectives
+
+Use `src/github.ts` at `github` to inspect a failure or edge case. Follow its caller and test rather than inferring behavior from the screen. By the end, explain the behavior and identify what the source does not establish.
+
+## Prerequisites
+
+Complete the previous lesson in this module. Read the project [README](../../../README.md) and [setup guide](../../../setup-guide.md).
+
+## Progressive explanation
+
+### Beginner explanation
+
+A feature is only reliable within the cases it handles. In plain terms, **Turn a list into useful repository and issue views** means: Filtering is like applying a sieve to a list. Trace text matching and state filtering into the screens, then verify which fields participate and how empty results are shown. Today we trace one normal path and one boundary.
+
+### Step toward the implementation
+
+Use `src/github.ts` at `github` to inspect a failure or edge case. Follow its caller and test rather than inferring behavior from the screen. The source files for this module are `src/github.ts`, `src/screens/ReposScreen.tsx`, `src/screens/IssuesScreen.tsx`.
+
+## Source evidence
+
+Excerpt from [`src/github.ts`](../../../../../../App%20Development/gitpoint/src/github.ts); copied from the source, not executed during package refinement. Read surrounding lines for full context.
+
+```ts
+/**
+ * The GitHub client.
+ *
+ * The client talks to the REST API of GitHub and turns the answers into the
+ * types the screens use. The fetch function is given to the client, so the
+ * tests can answer without a network.
+ *
+ * No imports, so the client can be tested without a React Native runtime.
+ */
+
+export type Repo = {
+  id: string;
+  name: string;
+  fullName: string;
+  description: string;
+  language: string;
+  stars: number;
+  forks: number;
+  openIssues: number;
+  updated: string;
+  htmlUrl: string;
+```
+
+### Read it step by step
+
+1. Find the focus cue `github` and identify its arguments or input values.
+2. Follow the condition or transformation and identify the returned value or state update.
+3. Trace one caller and compare the result with the README claim.
+4. Note any local-only, mock, placeholder, or external-service boundary.
+
+## Expected behavior and boundaries
+
+The lesson should produce a source-backed explanation of **Turn a list into useful repository and issue views**. A test or code excerpt establishes only the behavior it covers; it does not prove an external API, device, deployment, or provider works.
+
+## Practical exercise
+
+Complete [`exercise-01.json`](../exercises/exercise-01.json). Add an input or edge case, cite the source, and write the expected result before changing code.
+
+## Common mistakes and debugging
+
+- Inferring feature behavior from the product name or screen alone.
+- Skipping the caller, model/state layer, or error path.
+- Treating local sample data or a mock response as a real service result.
+- Debug by tracing input → validation → transformation → output and then checking the relevant test.
+
+## Best practices and security
+
+Protect credentials and personal data, validate untrusted inputs, request only necessary device permissions, and keep provider/device behavior explicitly unverified until tested in an authorized environment.
+
+## Summary
+
+You began with the module’s plain meaning, traced `github` in `src/github.ts`, and identified one limit or testable boundary.
+
+## Knowledge checks
+
+1. What input or action reaches the source focus?
+2. What does the code change or return?
+3. Which edge case or integration boundary needs verification?
+
+## References
+
+- [Project README](../../../README.md)
+- [Setup guide](../../../setup-guide.md)
+- [Source file](../../../../../../App%20Development/gitpoint/src/github.ts)

@@ -22,9 +22,11 @@
     "movieswiftui-04-watchlist-persistence"
   ],
   "ordered_lesson_ids": [
-    "movieswiftui-05-detail-and-view-composition-lesson-01"
+    "movieswiftui-05-detail-and-view-composition-lesson-01",
+    "movieswiftui-05-detail-and-view-composition-lesson-02",
+    "movieswiftui-05-detail-and-view-composition-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Navigation, card poster rendering, shared store, and detail fields",
     "SwiftUI composes reusable views around the selected movie. Follow the navigation value into the detail and understand which fields are present even when artwork is only a placeholder.",
@@ -35,8 +37,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: Sources/Components.swift.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "Sources/ContentView.swift",
+    "symbol_or_search_term": "ContentView"
+  }
 }

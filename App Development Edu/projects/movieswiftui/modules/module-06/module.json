@@ -21,9 +21,11 @@
     "movieswiftui-05-detail-and-view-composition"
   ],
   "ordered_lesson_ids": [
-    "movieswiftui-06-tests-and-mini-project-release-lesson-01"
+    "movieswiftui-06-tests-and-mini-project-release-lesson-01",
+    "movieswiftui-06-tests-and-mini-project-release-lesson-02",
+    "movieswiftui-06-tests-and-mini-project-release-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Mapping/filter tests, watchlist persistence tests, XcodeGen targets, and simulator review",
     "The tests exercise core functions and model persistence, not visual correctness or a provider. Use the project spec to run them on macOS and add screen-level checks.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: Tests/MovieCoreTests.swift.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "Tests/MovieCoreTests.swift",
+    "symbol_or_search_term": "MovieCoreTests"
+  }
 }

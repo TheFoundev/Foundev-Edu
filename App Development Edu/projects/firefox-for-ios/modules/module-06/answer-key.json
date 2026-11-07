@@ -12,7 +12,7 @@
       },
       "tested_concept": "XCTest assertions, target configuration, and what a test does not establish",
       "related_lesson_id": "firefox-for-ios-06-tests-and-platform-configuration-lesson-01",
-      "supporting_reference": "../../../../../projects/firefox-for-ios/Tests/BrowserCoreTests.swift"
+      "supporting_reference": "../../../../../App Development/firefox-for-ios/Tests/BrowserCoreTests.swift"
     },
     {
       "question_id": "firefox-for-ios-m06-q02",
@@ -25,7 +25,7 @@
       },
       "tested_concept": "XCTest assertions, target configuration, and what a test does not establish",
       "related_lesson_id": "firefox-for-ios-06-tests-and-platform-configuration-lesson-01",
-      "supporting_reference": "../../../../../projects/firefox-for-ios/Tests/BrowserCoreTests.swift"
+      "supporting_reference": "../../../../../App Development/firefox-for-ios/Tests/BrowserCoreTests.swift"
     },
     {
       "question_id": "firefox-for-ios-m06-q03",
@@ -38,7 +38,7 @@
       },
       "tested_concept": "XCTest assertions, target configuration, and what a test does not establish",
       "related_lesson_id": "firefox-for-ios-06-tests-and-platform-configuration-lesson-01",
-      "supporting_reference": "../../../../../projects/firefox-for-ios/Tests/BrowserCoreTests.swift"
+      "supporting_reference": "../../../../../App Development/firefox-for-ios/Tests/BrowserCoreTests.swift"
     },
     {
       "question_id": "firefox-for-ios-m06-q04",
@@ -50,8 +50,8 @@
         "firefox-for-ios-m06-q04-o4": "The lesson traces 'Unit tests check the pure rules; project.yml describes how XcodeGen assembles targets. Use both to plan actual simulator checks that this Windows environment could not perform.' to Tests/BrowserCoreTests.swift. This option instead claims 'Representable wrapper, load calls, and browser controls', which the cited source does not establish for this behavior."
       },
       "tested_concept": "XCTest assertions, target configuration, and what a test does not establish",
-      "related_lesson_id": "firefox-for-ios-06-tests-and-platform-configuration-lesson-01",
-      "supporting_reference": "../../../../../projects/firefox-for-ios/Tests/BrowserCoreTests.swift"
+      "related_lesson_id": "firefox-for-ios-06-tests-and-platform-configuration-lesson-02",
+      "supporting_reference": "../../../../../App Development/firefox-for-ios/Tests/BrowserCoreTests.swift"
     },
     {
       "question_id": "firefox-for-ios-m06-q05",
@@ -63,8 +63,8 @@
         "firefox-for-ios-m06-q05-o4": "The lesson traces 'XCTest assertions, target configuration, and what a test does not establish' to Tests/BrowserCoreTests.swift. This option instead claims 'Representable wrapper, load calls, and browser controls', which the cited source does not establish for this behavior."
       },
       "tested_concept": "XCTest assertions, target configuration, and what a test does not establish",
-      "related_lesson_id": "firefox-for-ios-06-tests-and-platform-configuration-lesson-01",
-      "supporting_reference": "../../../../../projects/firefox-for-ios/Tests/BrowserCoreTests.swift"
+      "related_lesson_id": "firefox-for-ios-06-tests-and-platform-configuration-lesson-02",
+      "supporting_reference": "../../../../../App Development/firefox-for-ios/Tests/BrowserCoreTests.swift"
     },
     {
       "question_id": "firefox-for-ios-m06-q06",
@@ -76,8 +76,8 @@
         "firefox-for-ios-m06-q06-o2": "The lesson traces 'Unit tests check the pure rules; project.yml describes how XcodeGen assembles targets. Use both to plan actual simulator checks that this Windows environment could not perform.' to Tests/BrowserCoreTests.swift. This option instead claims 'Tab, protection-level, and tracker data types', which the cited source does not establish for this behavior."
       },
       "tested_concept": "XCTest assertions, target configuration, and what a test does not establish",
-      "related_lesson_id": "firefox-for-ios-06-tests-and-platform-configuration-lesson-01",
-      "supporting_reference": "../../../../../projects/firefox-for-ios/Tests/BrowserCoreTests.swift"
+      "related_lesson_id": "firefox-for-ios-06-tests-and-platform-configuration-lesson-02",
+      "supporting_reference": "../../../../../App Development/firefox-for-ios/Tests/BrowserCoreTests.swift"
     },
     {
       "question_id": "firefox-for-ios-m06-q07",
@@ -89,8 +89,8 @@
         "firefox-for-ios-m06-q07-o3": "The lesson traces 'The source was not built or deployed here; no runtime result is implied.' to Tests/BrowserCoreTests.swift. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
       },
       "tested_concept": "XCTest assertions, target configuration, and what a test does not establish",
-      "related_lesson_id": "firefox-for-ios-06-tests-and-platform-configuration-lesson-01",
-      "supporting_reference": "../../../../../projects/firefox-for-ios/Tests/BrowserCoreTests.swift"
+      "related_lesson_id": "firefox-for-ios-06-tests-and-platform-configuration-lesson-02",
+      "supporting_reference": "../../../../../App Development/firefox-for-ios/Tests/BrowserCoreTests.swift"
     },
     {
       "question_id": "firefox-for-ios-m06-q08",
@@ -102,8 +102,8 @@
         "firefox-for-ios-m06-q08-o4": "The lesson traces 'Tests/BrowserCoreTests.swift' to Tests/BrowserCoreTests.swift. This option instead claims 'package.json', which the cited source does not establish for this behavior."
       },
       "tested_concept": "XCTest assertions, target configuration, and what a test does not establish",
-      "related_lesson_id": "firefox-for-ios-06-tests-and-platform-configuration-lesson-01",
-      "supporting_reference": "../../../../../projects/firefox-for-ios/Tests/BrowserCoreTests.swift"
+      "related_lesson_id": "firefox-for-ios-06-tests-and-platform-configuration-lesson-02",
+      "supporting_reference": "../../../../../App Development/firefox-for-ios/Tests/BrowserCoreTests.swift"
     },
     {
       "question_id": "firefox-for-ios-m06-q09",
@@ -115,8 +115,8 @@
         "firefox-for-ios-m06-q09-o4": "The lesson traces 'Do not claim production readiness: The source was not built or deployed here; no runtime result is implied.' to Tests/BrowserCoreTests.swift. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
       },
       "tested_concept": "XCTest assertions, target configuration, and what a test does not establish",
-      "related_lesson_id": "firefox-for-ios-06-tests-and-platform-configuration-lesson-01",
-      "supporting_reference": "../../../../../projects/firefox-for-ios/Tests/BrowserCoreTests.swift"
+      "related_lesson_id": "firefox-for-ios-06-tests-and-platform-configuration-lesson-03",
+      "supporting_reference": "../../../../../App Development/firefox-for-ios/Tests/BrowserCoreTests.swift"
     },
     {
       "question_id": "firefox-for-ios-m06-q10",
@@ -128,8 +128,8 @@
         "firefox-for-ios-m06-q10-o2": "The lesson traces 'Unit tests check the pure rules; project.yml describes how XcodeGen assembles targets. Use both to plan actual simulator checks that this Windows environment could not perform.' to Tests/BrowserCoreTests.swift. This option instead claims 'Tab, protection-level, and tracker data types', which the cited source does not establish for this behavior."
       },
       "tested_concept": "XCTest assertions, target configuration, and what a test does not establish",
-      "related_lesson_id": "firefox-for-ios-06-tests-and-platform-configuration-lesson-01",
-      "supporting_reference": "../../../../../projects/firefox-for-ios/Tests/BrowserCoreTests.swift"
+      "related_lesson_id": "firefox-for-ios-06-tests-and-platform-configuration-lesson-03",
+      "supporting_reference": "../../../../../App Development/firefox-for-ios/Tests/BrowserCoreTests.swift"
     }
   ]
 }

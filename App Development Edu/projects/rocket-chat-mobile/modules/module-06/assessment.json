@@ -98,8 +98,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-objective-01",
-      "lesson_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-objective-02",
+      "lesson_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-lesson-02"
     },
     {
       "question_id": "rocket-chat-mobile-m06-q05",
@@ -123,8 +123,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-objective-01",
-      "lesson_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-objective-02",
+      "lesson_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-lesson-02"
     },
     {
       "question_id": "rocket-chat-mobile-m06-q06",
@@ -148,8 +148,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-objective-01",
-      "lesson_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-objective-02",
+      "lesson_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-lesson-02"
     },
     {
       "question_id": "rocket-chat-mobile-m06-q07",
@@ -173,8 +173,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-objective-01",
-      "lesson_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-objective-02",
+      "lesson_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-lesson-02"
     },
     {
       "question_id": "rocket-chat-mobile-m06-q08",
@@ -198,8 +198,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-objective-01",
-      "lesson_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-objective-02",
+      "lesson_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-lesson-02"
     },
     {
       "question_id": "rocket-chat-mobile-m06-q09",
@@ -223,8 +223,8 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-objective-01",
-      "lesson_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-objective-03",
+      "lesson_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-lesson-03"
     },
     {
       "question_id": "rocket-chat-mobile-m06-q10",
@@ -248,8 +248,8 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-objective-01",
-      "lesson_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-objective-03",
+      "lesson_id": "rocket-chat-mobile-06-screens-navigation-and-troubleshooting-lesson-03"
     }
   ]
 }

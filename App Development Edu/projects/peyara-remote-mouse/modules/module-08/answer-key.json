@@ -12,7 +12,7 @@
       },
       "tested_concept": "Integration checklist, UI feedback, observable connection state, demonstration, and safe teardown",
       "related_lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-01",
-      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/data.ts"
+      "supporting_reference": "../../../../../App Development/peyara-remote-mouse/App.tsx"
     },
     {
       "question_id": "peyara-remote-mouse-m08-q02",
@@ -25,7 +25,7 @@
       },
       "tested_concept": "Integration checklist, UI feedback, observable connection state, demonstration, and safe teardown",
       "related_lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-01",
-      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/data.ts"
+      "supporting_reference": "../../../../../App Development/peyara-remote-mouse/App.tsx"
     },
     {
       "question_id": "peyara-remote-mouse-m08-q03",
@@ -38,7 +38,7 @@
       },
       "tested_concept": "Integration checklist, UI feedback, observable connection state, demonstration, and safe teardown",
       "related_lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-01",
-      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/data.ts"
+      "supporting_reference": "../../../../../App Development/peyara-remote-mouse/App.tsx"
     },
     {
       "question_id": "peyara-remote-mouse-m08-q04",
@@ -50,8 +50,8 @@
         "peyara-remote-mouse-m08-q04-o4": "The lesson traces 'Bring protocol, client, shared components, and screens together in a controlled lab. Demonstrate local logging first; enable real input only on a trusted isolated setup and reset it afterward.' to src/data.ts. This option instead claims 'Socket lifecycle, connection snapshots, exponential delay, max retry, and manual disconnect', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Integration checklist, UI feedback, observable connection state, demonstration, and safe teardown",
-      "related_lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-01",
-      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/data.ts"
+      "related_lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-02",
+      "supporting_reference": "../../../../../App Development/peyara-remote-mouse/App.tsx"
     },
     {
       "question_id": "peyara-remote-mouse-m08-q05",
@@ -63,8 +63,8 @@
         "peyara-remote-mouse-m08-q05-o4": "The lesson traces 'Integration checklist, UI feedback, observable connection state, demonstration, and safe teardown' to src/data.ts. This option instead claims 'Socket lifecycle, connection snapshots, exponential delay, max retry, and manual disconnect', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Integration checklist, UI feedback, observable connection state, demonstration, and safe teardown",
-      "related_lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-01",
-      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/data.ts"
+      "related_lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-02",
+      "supporting_reference": "../../../../../App Development/peyara-remote-mouse/App.tsx"
     },
     {
       "question_id": "peyara-remote-mouse-m08-q06",
@@ -76,8 +76,8 @@
         "peyara-remote-mouse-m08-q06-o2": "The lesson traces 'Bring protocol, client, shared components, and screens together in a controlled lab. Demonstrate local logging first; enable real input only on a trusted isolated setup and reset it afterward.' to src/data.ts. This option instead claims 'Event union, JSON encoding, decoding, bounds, and unknown-event rejection', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Integration checklist, UI feedback, observable connection state, demonstration, and safe teardown",
-      "related_lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-01",
-      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/data.ts"
+      "related_lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-02",
+      "supporting_reference": "../../../../../App Development/peyara-remote-mouse/App.tsx"
     },
     {
       "question_id": "peyara-remote-mouse-m08-q07",
@@ -89,8 +89,8 @@
         "peyara-remote-mouse-m08-q07-o3": "The lesson traces 'Do not operate the unauthenticated relay outside a controlled trusted environment.' to src/data.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Integration checklist, UI feedback, observable connection state, demonstration, and safe teardown",
-      "related_lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-01",
-      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/data.ts"
+      "related_lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-02",
+      "supporting_reference": "../../../../../App Development/peyara-remote-mouse/App.tsx"
     },
     {
       "question_id": "peyara-remote-mouse-m08-q08",
@@ -102,8 +102,8 @@
         "peyara-remote-mouse-m08-q08-o4": "The lesson traces 'src/data.ts' to src/data.ts. This option instead claims 'src/connection.ts', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Integration checklist, UI feedback, observable connection state, demonstration, and safe teardown",
-      "related_lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-01",
-      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/data.ts"
+      "related_lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-02",
+      "supporting_reference": "../../../../../App Development/peyara-remote-mouse/App.tsx"
     },
     {
       "question_id": "peyara-remote-mouse-m08-q09",
@@ -115,8 +115,8 @@
         "peyara-remote-mouse-m08-q09-o4": "The lesson traces 'Do not claim production readiness: Do not operate the unauthenticated relay outside a controlled trusted environment.' to src/data.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Integration checklist, UI feedback, observable connection state, demonstration, and safe teardown",
-      "related_lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-01",
-      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/data.ts"
+      "related_lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-03",
+      "supporting_reference": "../../../../../App Development/peyara-remote-mouse/App.tsx"
     },
     {
       "question_id": "peyara-remote-mouse-m08-q10",
@@ -128,8 +128,8 @@
         "peyara-remote-mouse-m08-q10-o2": "The lesson traces 'Bring protocol, client, shared components, and screens together in a controlled lab. Demonstrate local logging first; enable real input only on a trusted isolated setup and reset it afterward.' to src/data.ts. This option instead claims 'Event union, JSON encoding, decoding, bounds, and unknown-event rejection', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Integration checklist, UI feedback, observable connection state, demonstration, and safe teardown",
-      "related_lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-01",
-      "supporting_reference": "../../../../../projects/peyara-remote-mouse/src/data.ts"
+      "related_lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-03",
+      "supporting_reference": "../../../../../App Development/peyara-remote-mouse/App.tsx"
     }
   ]
 }

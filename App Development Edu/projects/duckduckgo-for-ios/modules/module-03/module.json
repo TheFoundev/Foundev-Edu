@@ -20,9 +20,11 @@
     "duckduckgo-for-ios-02-tabs-and-persistence"
   ],
   "ordered_lesson_ids": [
-    "duckduckgo-for-ios-03-webkit-integration-lesson-01"
+    "duckduckgo-for-ios-03-webkit-integration-lesson-01",
+    "duckduckgo-for-ios-03-webkit-integration-lesson-02",
+    "duckduckgo-for-ios-03-webkit-integration-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "UIViewRepresentable/WebKit bridge, navigation state, and page loading",
     "SwiftUI draws the controls; WebKit renders the actual webpage. Read the wrapper boundary and trace URL changes from browser state into WKWebView.",
@@ -33,8 +35,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: Sources/WebView.swift.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "Sources/WebView.swift",
+    "symbol_or_search_term": "WebView"
+  }
 }

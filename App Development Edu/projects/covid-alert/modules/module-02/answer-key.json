@@ -12,7 +12,7 @@
       },
       "tested_concept": "ExposureService interface, simulated implementation, and simulation labelling",
       "related_lesson_id": "covid-alert-02-simulated-check-service-lesson-01",
-      "supporting_reference": "../../../../../projects/covid-alert/src/exposure.ts"
+      "supporting_reference": "../../../../../App Development/covid-alert/src/exposure.ts"
     },
     {
       "question_id": "covid-alert-m02-q02",
@@ -25,7 +25,7 @@
       },
       "tested_concept": "ExposureService interface, simulated implementation, and simulation labelling",
       "related_lesson_id": "covid-alert-02-simulated-check-service-lesson-01",
-      "supporting_reference": "../../../../../projects/covid-alert/src/exposure.ts"
+      "supporting_reference": "../../../../../App Development/covid-alert/src/exposure.ts"
     },
     {
       "question_id": "covid-alert-m02-q03",
@@ -38,7 +38,7 @@
       },
       "tested_concept": "ExposureService interface, simulated implementation, and simulation labelling",
       "related_lesson_id": "covid-alert-02-simulated-check-service-lesson-01",
-      "supporting_reference": "../../../../../projects/covid-alert/src/exposure.ts"
+      "supporting_reference": "../../../../../App Development/covid-alert/src/exposure.ts"
     },
     {
       "question_id": "covid-alert-m02-q04",
@@ -50,8 +50,8 @@
         "covid-alert-m02-q04-o4": "The lesson traces 'A service interface is a plug shape. The current plug is a simulator that returns configured outcomes. Trace its implementation to checkStatusLabel and the status UI so a clear result cannot be mistaken for a real scan.' to src/exposure.ts. This option instead claims 'toCheck, lastCheck, formatting, interval calculation, and empty state', which the cited source does not establish for this behavior."
       },
       "tested_concept": "ExposureService interface, simulated implementation, and simulation labelling",
-      "related_lesson_id": "covid-alert-02-simulated-check-service-lesson-01",
-      "supporting_reference": "../../../../../projects/covid-alert/src/exposure.ts"
+      "related_lesson_id": "covid-alert-02-simulated-check-service-lesson-02",
+      "supporting_reference": "../../../../../App Development/covid-alert/src/exposure.ts"
     },
     {
       "question_id": "covid-alert-m02-q05",
@@ -63,8 +63,8 @@
         "covid-alert-m02-q05-o4": "The lesson traces 'ExposureService interface, simulated implementation, and simulation labelling' to src/exposure.ts. This option instead claims 'toCheck, lastCheck, formatting, interval calculation, and empty state', which the cited source does not establish for this behavior."
       },
       "tested_concept": "ExposureService interface, simulated implementation, and simulation labelling",
-      "related_lesson_id": "covid-alert-02-simulated-check-service-lesson-01",
-      "supporting_reference": "../../../../../projects/covid-alert/src/exposure.ts"
+      "related_lesson_id": "covid-alert-02-simulated-check-service-lesson-02",
+      "supporting_reference": "../../../../../App Development/covid-alert/src/exposure.ts"
     },
     {
       "question_id": "covid-alert-m02-q06",
@@ -76,8 +76,8 @@
         "covid-alert-m02-q06-o2": "The lesson traces 'A service interface is a plug shape. The current plug is a simulator that returns configured outcomes. Trace its implementation to checkStatusLabel and the status UI so a clear result cannot be mistaken for a real scan.' to src/exposure.ts. This option instead claims 'Check and ExposureResult types, symptom catalogue, resources, and sample data', which the cited source does not establish for this behavior."
       },
       "tested_concept": "ExposureService interface, simulated implementation, and simulation labelling",
-      "related_lesson_id": "covid-alert-02-simulated-check-service-lesson-01",
-      "supporting_reference": "../../../../../projects/covid-alert/src/exposure.ts"
+      "related_lesson_id": "covid-alert-02-simulated-check-service-lesson-02",
+      "supporting_reference": "../../../../../App Development/covid-alert/src/exposure.ts"
     },
     {
       "question_id": "covid-alert-m02-q07",
@@ -89,8 +89,8 @@
         "covid-alert-m02-q07-o3": "The lesson traces 'No Bluetooth, Apple/Google exposure notification, diagnosis, or contact-tracing integration exists.' to src/exposure.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
       },
       "tested_concept": "ExposureService interface, simulated implementation, and simulation labelling",
-      "related_lesson_id": "covid-alert-02-simulated-check-service-lesson-01",
-      "supporting_reference": "../../../../../projects/covid-alert/src/exposure.ts"
+      "related_lesson_id": "covid-alert-02-simulated-check-service-lesson-02",
+      "supporting_reference": "../../../../../App Development/covid-alert/src/exposure.ts"
     },
     {
       "question_id": "covid-alert-m02-q08",
@@ -102,8 +102,8 @@
         "covid-alert-m02-q08-o4": "The lesson traces 'src/exposure.ts' to src/exposure.ts. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior."
       },
       "tested_concept": "ExposureService interface, simulated implementation, and simulation labelling",
-      "related_lesson_id": "covid-alert-02-simulated-check-service-lesson-01",
-      "supporting_reference": "../../../../../projects/covid-alert/src/exposure.ts"
+      "related_lesson_id": "covid-alert-02-simulated-check-service-lesson-02",
+      "supporting_reference": "../../../../../App Development/covid-alert/src/exposure.ts"
     },
     {
       "question_id": "covid-alert-m02-q09",
@@ -115,8 +115,8 @@
         "covid-alert-m02-q09-o4": "The lesson traces 'Do not claim production readiness: No Bluetooth, Apple/Google exposure notification, diagnosis, or contact-tracing integration exists.' to src/exposure.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
       },
       "tested_concept": "ExposureService interface, simulated implementation, and simulation labelling",
-      "related_lesson_id": "covid-alert-02-simulated-check-service-lesson-01",
-      "supporting_reference": "../../../../../projects/covid-alert/src/exposure.ts"
+      "related_lesson_id": "covid-alert-02-simulated-check-service-lesson-03",
+      "supporting_reference": "../../../../../App Development/covid-alert/src/exposure.ts"
     },
     {
       "question_id": "covid-alert-m02-q10",
@@ -128,8 +128,8 @@
         "covid-alert-m02-q10-o2": "The lesson traces 'A service interface is a plug shape. The current plug is a simulator that returns configured outcomes. Trace its implementation to checkStatusLabel and the status UI so a clear result cannot be mistaken for a real scan.' to src/exposure.ts. This option instead claims 'Check and ExposureResult types, symptom catalogue, resources, and sample data', which the cited source does not establish for this behavior."
       },
       "tested_concept": "ExposureService interface, simulated implementation, and simulation labelling",
-      "related_lesson_id": "covid-alert-02-simulated-check-service-lesson-01",
-      "supporting_reference": "../../../../../projects/covid-alert/src/exposure.ts"
+      "related_lesson_id": "covid-alert-02-simulated-check-service-lesson-03",
+      "supporting_reference": "../../../../../App Development/covid-alert/src/exposure.ts"
     }
   ]
 }

@@ -21,9 +21,11 @@
     "new-expensify-03-report-workflow-states"
   ],
   "ordered_lesson_ids": [
-    "new-expensify-04-local-chat-and-search-lesson-01"
+    "new-expensify-04-local-chat-and-search-lesson-01",
+    "new-expensify-04-local-chat-and-search-lesson-02",
+    "new-expensify-04-local-chat-and-search-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Message append, trimming/search, and conversation display",
     "A chat screen can feel live while messages remain local. Follow a typed message through the model and UI, and note there is no remote participant or server in this implementation.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/model.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/model.ts",
+    "symbol_or_search_term": "model"
+  }
 }

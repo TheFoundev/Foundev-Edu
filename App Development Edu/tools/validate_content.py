@@ -6,6 +6,7 @@ and ZIP integrity. It does not prove educational accuracy or run the apps.
 """
 from __future__ import annotations
 import json, re, sys, zipfile
+from urllib.parse import unquote
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -13,6 +14,7 @@ ROOT=Path(__file__).resolve().parents[1]
 PROJECTS=ROOT/'projects'
 REPORTS=ROOT/'reports'
 DIST=ROOT/'dist'
+SOURCE_ROOT=ROOT.parent/'App Development'
 REQUIRED_ROOT={'manifest.json','project.json','README.md','prerequisites.md','setup-guide.md','architecture.md','glossary.md','references.json','modules','final-project'}
 
 def read_json(path, errors):
@@ -55,7 +57,7 @@ def check_package(folder: Path):
         for field in ['title','description','learning_objectives','learning_objective_ids','source_files','prerequisites','ordered_lesson_ids','estimated_duration_minutes','concepts','practical_outcomes','completion_criteria']:
             if field not in mod or (field!='prerequisites' and mod[field] in ('',[],None)): errors.append(f'{md.name}/module.json missing `{field}`')
         for source_file in mod.get('source_files',[]):
-            if not (ROOT.parent/'projects'/slug/source_file).is_file(): errors.append(f'{md.name}/module.json has a missing source file `{source_file}`')
+            if not (SOURCE_ROOT/slug/source_file).is_file(): errors.append(f'{md.name}/module.json has a missing source file `{source_file}`')
         lesson_dir=md/'lessons'; exercise_dir=md/'exercises'
         lesson_files=sorted(lesson_dir.glob('*.md')) if lesson_dir.exists() else []
         if not lesson_files: errors.append(f'{md.name} has no standalone lesson Markdown.')
@@ -72,7 +74,7 @@ def check_package(folder: Path):
                 if f'## {heading}' not in body: errors.append(f'{lp.relative_to(folder)} lacks section `{heading}`')
             for rel in re.findall(r'\]\(([^)]+)\)',body):
                 if rel.startswith(('http://','https://','#','mailto:')): continue
-                target=(lp.parent/rel.split('#',1)[0]).resolve()
+                target=(lp.parent/unquote(rel.split('#',1)[0])).resolve()
                 if not target.exists(): errors.append(f'Broken lesson link in {lp.relative_to(folder)}: {rel}')
         expected_ids=mod.get('ordered_lesson_ids',[])
         if len(expected_ids)!=len(set(expected_ids)) or set(expected_ids)!=set(actual_ids): errors.append(f'{md.name} lesson IDs do not match module.json ordered_lesson_ids.')
@@ -125,14 +127,14 @@ def check_package(folder: Path):
     refs=read_json(folder/'references.json',errors) if (folder/'references.json').exists() else {}
     if refs:
         for source in refs.get('source_references',[]):
-            if not (ROOT.parent/'projects'/slug/source.get('path','')).exists(): errors.append(f'Broken source reference: {source.get("path")}')
+            if not (SOURCE_ROOT/slug/source.get('path','')).exists(): errors.append(f'Broken source reference: {source.get("path")}')
     # Check internal package links from every Markdown file.
     for mdfile in folder.rglob('*.md'):
         expected.add(str(mdfile.relative_to(folder)).replace('\\','/'))
         body=mdfile.read_text(encoding='utf-8')
         for rel in re.findall(r'\]\(([^)]+)\)',body):
             if rel.startswith(('http://','https://','#','mailto:')): continue
-            target=(mdfile.parent/rel.split('#',1)[0]).resolve()
+            target=(mdfile.parent/unquote(rel.split('#',1)[0])).resolve()
             if not target.exists(): errors.append(f'Broken package link in {mdfile.relative_to(folder)}: {rel}')
     if not (folder/'final-project/evaluation-rubric.json').exists(): pass
     else: read_json(folder/'final-project/evaluation-rubric.json',errors)
@@ -156,7 +158,7 @@ def check_package(folder: Path):
     passed += ['JSON parsed; package-internal and source links checked.','Unique module, lesson, exercise, and question IDs checked.','Per-module lesson references, 10-question assessments, option sets, answer keys, and explanations checked.','Manifest counts and included_files checked.']
     if not errors: passed.append('Required file inventory is complete; no unlisted package files detected.')
     warnings += ['Structural validation does not establish instructional accuracy, compile apps, prove provider/API behavior, verify device behavior, or establish deployment.','Confirm framework/provider documentation versions and run platform-specific builds in the intended environment.']
-    source_package=ROOT.parent/'projects'/slug/'package.json'
+    source_package=SOURCE_ROOT/slug/'package.json'
     if source_package.exists():
         try:
             source_deps=json.loads(source_package.read_text(encoding='utf-8')).get('dependencies',{})

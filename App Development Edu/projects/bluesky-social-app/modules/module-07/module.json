@@ -23,9 +23,11 @@
     "bluesky-social-app-06-tests-and-protocol-boundary"
   ],
   "ordered_lesson_ids": [
-    "bluesky-social-app-07-mini-project-integration-lesson-01"
+    "bluesky-social-app-07-mini-project-integration-lesson-01",
+    "bluesky-social-app-07-mini-project-integration-lesson-02",
+    "bluesky-social-app-07-mini-project-integration-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "End-to-end feature tracing, persistence evidence, and safe demo scope",
     "Follow a user action from screen through context to model and storage, and back to the rendered list. Use this map to design an integration demo that labels local-only behavior honestly.",
@@ -36,8 +38,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/feedContext.tsx.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "App.tsx",
+    "symbol_or_search_term": "App"
+  }
 }

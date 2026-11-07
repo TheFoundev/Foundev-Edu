@@ -1,44 +1,58 @@
 {
   "module_id": "self-hosted-bi-with-apache-superset-module-04",
   "title": "Top Products",
-  "description": "Study the implementation in [sql/top_products.sql]. Trace its declarations and dependencies into a caller or test. Inspect imports, declarations, and call sites in the file; filenames alone do not establish its role.",
-  "source_files": [
-    "sql/top_products.sql"
-  ],
+  "description": "Begins with an everyday explanation, then traces its in sql/top_products.sql. Source units combined: Top Products.",
   "learning_objectives": [
     {
       "objective_id": "self-hosted-bi-with-apache-superset-module-04-objective-1",
-      "text": "Explain the source role and visible behavior in sql/top_products.sql."
+      "text": "Explain top products in plain language using the project source."
     },
     {
       "objective_id": "self-hosted-bi-with-apache-superset-module-04-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+      "text": "Trace `its` in `sql/top_products.sql` and explain its inputs, behavior, and output."
     },
     {
       "objective_id": "self-hosted-bi-with-apache-superset-module-04-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
     }
   ],
+  "learning_objective_ids": [
+    "self-hosted-bi-with-apache-superset-module-04-objective-1",
+    "self-hosted-bi-with-apache-superset-module-04-objective-2",
+    "self-hosted-bi-with-apache-superset-module-04-objective-3"
+  ],
+  "source_files": [
+    "sql/top_products.sql"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "sql/top_products.sql",
+    "symbol_or_search_term": "its",
+    "line_start": 1,
+    "line_end": 9,
+    "source_status": "verified source file exists"
+  },
   "prerequisites": [
     "self-hosted-bi-with-apache-superset-module-03"
   ],
   "ordered_lesson_ids": [
-    "self-hosted-bi-with-apache-superset-module-04-lesson-1",
-    "self-hosted-bi-with-apache-superset-module-04-lesson-2"
+    "self-hosted-bi-with-apache-superset-module-04-lesson-01",
+    "self-hosted-bi-with-apache-superset-module-04-lesson-02",
+    "self-hosted-bi-with-apache-superset-module-04-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "source declarations",
     "imports and callers",
-    "inputs and outputs"
+    "inputs and outputs",
+    "source focus: its"
   ],
   "practical_outcomes": [
-    "Evidence map for sql/top_products.sql",
-    "Source-grounded call/data/configuration trace"
+    "Trace `its` through `sql/top_products.sql`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

@@ -21,9 +21,11 @@
     "kickstarter-for-ios-03-project-detail-and-pledge-rules"
   ],
   "ordered_lesson_ids": [
-    "kickstarter-for-ios-04-saved-and-backed-state-lesson-01"
+    "kickstarter-for-ios-04-saved-and-backed-state-lesson-01",
+    "kickstarter-for-ios-04-saved-and-backed-state-lesson-02",
+    "kickstarter-for-ios-04-saved-and-backed-state-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "ProjectStore, UserDefaults keys, toggling, and backed/saved projections",
     "Saving is a personal bookmark; backing is a local demo state. Trace both sets through UserDefaults and determine why a stored ID does not equal a real pledge.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: Sources/Models.swift.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "Sources/Models.swift",
+    "symbol_or_search_term": "Models"
+  }
 }

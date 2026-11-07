@@ -18,9 +18,11 @@
   ],
   "prerequisites": [],
   "ordered_lesson_ids": [
-    "movieswiftui-01-movie-model-and-catalogue-lesson-01"
+    "movieswiftui-01-movie-model-and-catalogue-lesson-01",
+    "movieswiftui-01-movie-model-and-catalogue-lesson-02",
+    "movieswiftui-01-movie-model-and-catalogue-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Movie fields, identity, MovieInfo projection, and seed records",
     "A catalogue row stores facts that screens need. Read the Movie model and seed entries, then see how a compact detail projection is derived.",
@@ -31,8 +33,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: Sources/Models.swift.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "Sources/Models.swift",
+    "symbol_or_search_term": "Models"
+  }
 }

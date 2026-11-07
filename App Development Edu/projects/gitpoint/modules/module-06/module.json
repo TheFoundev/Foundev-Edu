@@ -21,9 +21,11 @@
     "gitpoint-05-ui-state-and-navigation"
   ],
   "ordered_lesson_ids": [
-    "gitpoint-06-tests-security-and-mini-project-lesson-01"
+    "gitpoint-06-tests-security-and-mini-project-lesson-01",
+    "gitpoint-06-tests-security-and-mini-project-lesson-02",
+    "gitpoint-06-tests-security-and-mini-project-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Mock response evidence, test script, public API boundary, and token risk",
     "Mocked responses prove mapping logic without contacting GitHub. Compare tests with API behavior and identify secure credential handling and pagination work needed for a real account client.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: test/github.test.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "test/github.test.ts",
+    "symbol_or_search_term": "github.test"
+  }
 }

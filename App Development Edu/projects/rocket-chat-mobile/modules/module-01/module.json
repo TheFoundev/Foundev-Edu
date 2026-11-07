@@ -19,9 +19,11 @@
   ],
   "prerequisites": [],
   "ordered_lesson_ids": [
-    "rocket-chat-mobile-01-chat-records-and-seed-state-lesson-01"
+    "rocket-chat-mobile-01-chat-records-and-seed-state-lesson-01",
+    "rocket-chat-mobile-01-chat-records-and-seed-state-lesson-02",
+    "rocket-chat-mobile-01-chat-records-and-seed-state-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Channel/ChatMessage models, seeded data, and unread display",
     "A channel is a named room and a message is one entry in its timeline. Read the typed models and seed fixtures before tracing how lists display them.",
@@ -32,8 +34,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/chat.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/chat.ts",
+    "symbol_or_search_term": "chat"
+  }
 }

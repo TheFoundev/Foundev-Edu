@@ -1,0 +1,94 @@
+# Api Impl: Test the boundary
+
+**Lesson ID:** `streamlit-analytics-web-app-module-03-lesson-03`  
+**Module ID:** `streamlit-analytics-web-app-module-03`  
+**Source focus:** `web/api_impl.py` → `_frame`
+
+## Purpose and learning objectives
+
+Use a test or boundary case to assess what the implementation proves and what remains unverified.
+
+## Prerequisites
+
+Complete the earlier lesson in this module first. This module covers: Api Impl.
+
+## Beginner explanation
+
+In plain language, api impl is one stage in turning source data into a result. This is a mental model, not a claim that every named source component uses a production-grade implementation.
+
+## Step-by-step source reading
+
+1. Open `web/api_impl.py` and locate `_frame`.
+2. Identify its input and returned, stored, displayed, or emitted output.
+3. Follow one caller/test into a related source path: `web/api_impl.py`.
+4. Compare that path with the source README, test fixtures, and documented limitations.
+
+## Source evidence
+
+The selected source finding is: source declarations; imports and callers; inputs and outputs
+
+**Excerpt:** `web/api_impl.py` at lines 26–46. Source code was not executed during refinement.
+
+### web/api_impl.py
+
+The excerpt below is the selected implementation focus.
+
+```py
+_CACHE: dict[str, object] = {}
+
+
+def _frame():
+    """The subscriptions of the project."""
+    if "frame" not in _CACHE:
+        _CACHE["frame"] = load(base_dir=str(ROOT / "artifacts"))
+    return _CACHE["frame"]
+
+
+def _numbers():
+    """The metrics of the current month."""
+    return pipeline_summary(_frame(), CURRENT_MONTH)
+
+
+def _monthly() -> list[dict]:
+    """The MRR, the customers, the new and the churned of every month."""
+    monthly = mrr_by_month(_frame(), MONTHS)
+    return [
+        {
+            "month": str(row["month"]),
+```
+
+Use the test or boundary to separate checked behavior from real-world performance, deployment, or provider claims.
+
+## Expected behavior and limits
+
+source declarations; imports and callers; inputs and outputs The repository’s README notes and tests are part of the scope; no application execution is claimed by this package.
+
+## Practical exercise
+
+Complete [`exercise-03.md`](../exercises/exercise-03.md). Cite the focus symbol and source path, record an expected result, and describe one edge case.
+
+## Common mistakes and debugging
+
+- Confusing the repository’s title or project brief with the implementation that is present.
+- Treating a test definition as evidence that the test passed.
+- Ignoring sample-data, small-dataset, synthetic-input, or runtime limitations.
+- Follow the focus symbol through its caller before drawing conclusions.
+
+## Best practices and security
+
+Use non-sensitive test data, protect credentials, document split and metric assumptions, and do not present synthetic results as production performance. For hiring, public policy, finance, health, or personal data, require qualified human review.
+
+## Summary
+
+You moved from a plain-language model to `_frame` in the source and identified one verification boundary.
+
+## Knowledge checks
+
+1. What input does this stage receive?
+2. What does `_frame` change, return, or measure?
+3. What limitation would you report before using the result outside this sample?
+
+## References
+
+- [Package README](../../../README.md)
+- Source project files listed in module.json (relative to the Data Science & Analytics source tree).

@@ -1,45 +1,61 @@
 {
   "module_id": "automated-eda-tool-module-03",
-  "title": "Data Optimizer and Encoding Categorical",
-  "description": "Study the implementation in [autoeda/data_optimizer.py] and [autoeda/encoding_categorical.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include optimize_dtypes, optimize_csv, label_encode, one_hot_encode; confirm their complete definitions and callers in the file.",
-  "source_files": [
-    "autoeda/data_optimizer.py",
-    "autoeda/encoding_categorical.py"
-  ],
+  "title": "Scaling, Null Handling, and Outliers",
+  "description": "Begins with an everyday explanation, then traces process_scaling in autoeda/feat_scaling.py. Source units combined: Feat Scaling and Notebook Data Optimization, Null Handler and Outliers.",
   "learning_objectives": [
     {
       "objective_id": "automated-eda-tool-module-03-objective-1",
-      "text": "Explain the source role and visible behavior in autoeda/data_optimizer.py, autoeda/encoding_categorical.py."
+      "text": "Explain scaling, null handling, and outliers in plain language using the project source."
     },
     {
       "objective_id": "automated-eda-tool-module-03-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+      "text": "Trace `process_scaling` in `autoeda/feat_scaling.py` and explain its inputs, behavior, and output."
     },
     {
       "objective_id": "automated-eda-tool-module-03-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
     }
   ],
+  "learning_objective_ids": [
+    "automated-eda-tool-module-03-objective-1",
+    "automated-eda-tool-module-03-objective-2",
+    "automated-eda-tool-module-03-objective-3"
+  ],
+  "source_files": [
+    "autoeda/feat_scaling.py",
+    "autoeda/notebook_data_optimization.py",
+    "autoeda/null_handler.py",
+    "autoeda/outliers.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "autoeda/feat_scaling.py",
+    "symbol_or_search_term": "process_scaling",
+    "line_start": null,
+    "line_end": null,
+    "source_status": "source tree absent; excerpt retained from earlier package"
+  },
   "prerequisites": [
     "automated-eda-tool-module-02"
   ],
   "ordered_lesson_ids": [
-    "automated-eda-tool-module-03-lesson-1",
-    "automated-eda-tool-module-03-lesson-2"
+    "automated-eda-tool-module-03-lesson-01",
+    "automated-eda-tool-module-03-lesson-02",
+    "automated-eda-tool-module-03-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "source declarations",
     "imports and callers",
-    "inputs and outputs"
+    "inputs and outputs",
+    "source focus: process_scaling"
   ],
   "practical_outcomes": [
-    "Evidence map for autoeda/data_optimizer.py, autoeda/encoding_categorical.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `process_scaling` through `autoeda/feat_scaling.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

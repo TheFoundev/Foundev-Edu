@@ -1,45 +1,59 @@
 {
   "module_id": "self-hosted-bi-with-apache-superset-module-02",
   "title": "Pipeline and Monthly Revenue",
-  "description": "Study the implementation in [src/pipeline.py] and [sql/monthly_revenue.sql]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include make_orders, run, demo; confirm their complete definitions and callers in the file.",
+  "description": "Begins with an everyday explanation, then traces make_orders in src/pipeline.py. Source units combined: Pipeline and Monthly Revenue.",
+  "learning_objectives": [
+    {
+      "objective_id": "self-hosted-bi-with-apache-superset-module-02-objective-1",
+      "text": "Explain pipeline and monthly revenue in plain language using the project source."
+    },
+    {
+      "objective_id": "self-hosted-bi-with-apache-superset-module-02-objective-2",
+      "text": "Trace `make_orders` in `src/pipeline.py` and explain its inputs, behavior, and output."
+    },
+    {
+      "objective_id": "self-hosted-bi-with-apache-superset-module-02-objective-3",
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
+    }
+  ],
+  "learning_objective_ids": [
+    "self-hosted-bi-with-apache-superset-module-02-objective-1",
+    "self-hosted-bi-with-apache-superset-module-02-objective-2",
+    "self-hosted-bi-with-apache-superset-module-02-objective-3"
+  ],
   "source_files": [
     "src/pipeline.py",
     "sql/monthly_revenue.sql"
   ],
-  "learning_objectives": [
-    {
-      "objective_id": "self-hosted-bi-with-apache-superset-module-02-objective-1",
-      "text": "Explain the source role and visible behavior in src/pipeline.py, sql/monthly_revenue.sql."
-    },
-    {
-      "objective_id": "self-hosted-bi-with-apache-superset-module-02-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
-    },
-    {
-      "objective_id": "self-hosted-bi-with-apache-superset-module-02-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
-    }
-  ],
+  "source_code_focus": {
+    "excerpt_file": "src/pipeline.py",
+    "symbol_or_search_term": "make_orders",
+    "line_start": 10,
+    "line_end": 30,
+    "source_status": "verified source file exists"
+  },
   "prerequisites": [
     "self-hosted-bi-with-apache-superset-module-01"
   ],
   "ordered_lesson_ids": [
-    "self-hosted-bi-with-apache-superset-module-02-lesson-1",
-    "self-hosted-bi-with-apache-superset-module-02-lesson-2"
+    "self-hosted-bi-with-apache-superset-module-02-lesson-01",
+    "self-hosted-bi-with-apache-superset-module-02-lesson-02",
+    "self-hosted-bi-with-apache-superset-module-02-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "source declarations",
     "imports and callers",
-    "inputs and outputs"
+    "inputs and outputs",
+    "source focus: make_orders"
   ],
   "practical_outcomes": [
-    "Evidence map for src/pipeline.py, sql/monthly_revenue.sql",
-    "Source-grounded call/data/configuration trace"
+    "Trace `make_orders` through `src/pipeline.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

@@ -20,9 +20,11 @@
     "gitpoint-01-github-data-models"
   ],
   "ordered_lesson_ids": [
-    "gitpoint-02-rest-client-and-errors-lesson-01"
+    "gitpoint-02-rest-client-and-errors-lesson-01",
+    "gitpoint-02-rest-client-and-errors-lesson-02",
+    "gitpoint-02-rest-client-and-errors-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
     "An HTTP client sends a request and turns a response into a useful shape. Trace URL construction and response handling, then inspect how API errors and rate-limit metadata are represented.",
@@ -33,8 +35,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/github.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/github.ts",
+    "symbol_or_search_term": "github"
+  }
 }

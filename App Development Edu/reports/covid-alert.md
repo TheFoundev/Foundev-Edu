@@ -1,7 +1,7 @@
 # Validation report — covid-alert
 
-- Generated: 2026-11-07T05:29:16.715530+00:00
-- Modules: 7; lessons: 7; questions: 70
+- Generated: 2026-11-07T09:03:58.531026+00:00
+- Modules: 7; lessons: 21; questions: 70
 - Structural result: **PASS**
 
 ## Passed checks

@@ -1,5 +1,7 @@
 {
   "module_id": "automated-eda-tool-module-10",
+  "title": "Dependencies and Runtime Configuration",
+  "instructions": "Choose one best answer. The questions address this module; read its three lessons.",
   "questions": [
     {
       "question_id": "automated-eda-tool-module-10-q01",
@@ -7,28 +9,29 @@
       "options": [
         {
           "option_id": "automated-eda-tool-module-10-q01-o1",
-          "text": "frontend/src/components/Dashboard.jsx"
-        },
-        {
-          "option_id": "automated-eda-tool-module-10-q01-o2",
-          "text": "frontend/src/components/FileUpload.jsx"
-        },
-        {
-          "option_id": "automated-eda-tool-module-10-q01-o3",
           "text": ".github/workflows/ci.yml"
         },
         {
+          "option_id": "automated-eda-tool-module-10-q01-o2",
+          "text": "backend/DOCKERFILE"
+        },
+        {
+          "option_id": "automated-eda-tool-module-10-q01-o3",
+          "text": "backend/docker-compose.yml"
+        },
+        {
           "option_id": "automated-eda-tool-module-10-q01-o4",
-          "text": "CODE_OF_CONDUCT.md"
+          "text": "backend/requirements.txt"
         }
       ],
       "difficulty": "basic",
       "learning_objective_id": "automated-eda-tool-module-10-objective-1",
-      "related_lesson_id": "automated-eda-tool-module-10-lesson-1"
+      "related_lesson_id": "automated-eda-tool-module-10-lesson-01",
+      "lesson_id": "automated-eda-tool-module-10-lesson-01"
     },
     {
       "question_id": "automated-eda-tool-module-10-q02",
-      "text": "When reading frontend/src/components/Dashboard.jsx, what is the best way to establish how its main operation is used?",
+      "text": "When reading .github/workflows/ci.yml, what is the best way to establish how its main operation is used?",
       "options": [
         {
           "option_id": "automated-eda-tool-module-10-q02-o1",
@@ -48,12 +51,13 @@
         }
       ],
       "difficulty": "basic",
-      "learning_objective_id": "automated-eda-tool-module-10-objective-2",
-      "related_lesson_id": "automated-eda-tool-module-10-lesson-2"
+      "learning_objective_id": "automated-eda-tool-module-10-objective-1",
+      "related_lesson_id": "automated-eda-tool-module-10-lesson-01",
+      "lesson_id": "automated-eda-tool-module-10-lesson-01"
     },
     {
       "question_id": "automated-eda-tool-module-10-q03",
-      "text": "What can the excerpt for frontend/src/components/Dashboard.jsx establish without running the application?",
+      "text": "What can the excerpt for .github/workflows/ci.yml establish without running the application?",
       "options": [
         {
           "option_id": "automated-eda-tool-module-10-q03-o1",
@@ -73,12 +77,13 @@
         }
       ],
       "difficulty": "basic",
-      "learning_objective_id": "automated-eda-tool-module-10-objective-3",
-      "related_lesson_id": "automated-eda-tool-module-10-lesson-1"
+      "learning_objective_id": "automated-eda-tool-module-10-objective-1",
+      "related_lesson_id": "automated-eda-tool-module-10-lesson-01",
+      "lesson_id": "automated-eda-tool-module-10-lesson-01"
     },
     {
       "question_id": "automated-eda-tool-module-10-q04",
-      "text": "Which next step best checks whether code in frontend/src/components/Dashboard.jsx is reachable from an entry point?",
+      "text": "Which next step best checks whether code in .github/workflows/ci.yml is reachable from an entry point?",
       "options": [
         {
           "option_id": "automated-eda-tool-module-10-q04-o1",
@@ -98,12 +103,13 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "automated-eda-tool-module-10-objective-1",
-      "related_lesson_id": "automated-eda-tool-module-10-lesson-2"
+      "learning_objective_id": "automated-eda-tool-module-10-objective-2",
+      "related_lesson_id": "automated-eda-tool-module-10-lesson-02",
+      "lesson_id": "automated-eda-tool-module-10-lesson-02"
     },
     {
       "question_id": "automated-eda-tool-module-10-q05",
-      "text": "If a test mentions behavior related to frontend/src/components/Dashboard.jsx, what does the test source show before execution?",
+      "text": "If a test mentions behavior related to .github/workflows/ci.yml, what does the test source show before execution?",
       "options": [
         {
           "option_id": "automated-eda-tool-module-10-q05-o1",
@@ -124,11 +130,12 @@
       ],
       "difficulty": "intermediate",
       "learning_objective_id": "automated-eda-tool-module-10-objective-2",
-      "related_lesson_id": "automated-eda-tool-module-10-lesson-1"
+      "related_lesson_id": "automated-eda-tool-module-10-lesson-02",
+      "lesson_id": "automated-eda-tool-module-10-lesson-02"
     },
     {
       "question_id": "automated-eda-tool-module-10-q06",
-      "text": "A README claim about frontend/src/components/Dashboard.jsx differs from source. What should the learner record?",
+      "text": "A README claim about .github/workflows/ci.yml differs from source. What should the learner record?",
       "options": [
         {
           "option_id": "automated-eda-tool-module-10-q06-o1",
@@ -148,12 +155,13 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "automated-eda-tool-module-10-objective-3",
-      "related_lesson_id": "automated-eda-tool-module-10-lesson-2"
+      "learning_objective_id": "automated-eda-tool-module-10-objective-2",
+      "related_lesson_id": "automated-eda-tool-module-10-lesson-02",
+      "lesson_id": "automated-eda-tool-module-10-lesson-02"
     },
     {
       "question_id": "automated-eda-tool-module-10-q07",
-      "text": "When tracing a value through frontend/src/components/Dashboard.jsx, which evidence is most useful?",
+      "text": "When tracing a value through .github/workflows/ci.yml, which evidence is most useful?",
       "options": [
         {
           "option_id": "automated-eda-tool-module-10-q07-o1",
@@ -173,12 +181,13 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "automated-eda-tool-module-10-objective-1",
-      "related_lesson_id": "automated-eda-tool-module-10-lesson-1"
+      "learning_objective_id": "automated-eda-tool-module-10-objective-2",
+      "related_lesson_id": "automated-eda-tool-module-10-lesson-02",
+      "lesson_id": "automated-eda-tool-module-10-lesson-02"
     },
     {
       "question_id": "automated-eda-tool-module-10-q08",
-      "text": "What is a safe conclusion when configuration is declared for frontend/src/components/Dashboard.jsx but its runtime use is not traced?",
+      "text": "What is a safe conclusion when configuration is declared for .github/workflows/ci.yml but its runtime use is not traced?",
       "options": [
         {
           "option_id": "automated-eda-tool-module-10-q08-o1",
@@ -199,11 +208,12 @@
       ],
       "difficulty": "intermediate",
       "learning_objective_id": "automated-eda-tool-module-10-objective-2",
-      "related_lesson_id": "automated-eda-tool-module-10-lesson-2"
+      "related_lesson_id": "automated-eda-tool-module-10-lesson-02",
+      "lesson_id": "automated-eda-tool-module-10-lesson-02"
     },
     {
       "question_id": "automated-eda-tool-module-10-q09",
-      "text": "How should a proposed change to frontend/src/components/Dashboard.jsx be verified?",
+      "text": "How should a proposed change to .github/workflows/ci.yml be verified?",
       "options": [
         {
           "option_id": "automated-eda-tool-module-10-q09-o1",
@@ -224,11 +234,12 @@
       ],
       "difficulty": "advanced",
       "learning_objective_id": "automated-eda-tool-module-10-objective-3",
-      "related_lesson_id": "automated-eda-tool-module-10-lesson-1"
+      "related_lesson_id": "automated-eda-tool-module-10-lesson-03",
+      "lesson_id": "automated-eda-tool-module-10-lesson-03"
     },
     {
       "question_id": "automated-eda-tool-module-10-q10",
-      "text": "Which evidence is required before claiming the path in frontend/src/components/Dashboard.jsx works end to end?",
+      "text": "Which evidence is required before claiming the path in .github/workflows/ci.yml works end to end?",
       "options": [
         {
           "option_id": "automated-eda-tool-module-10-q10-o1",
@@ -248,8 +259,9 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "automated-eda-tool-module-10-objective-1",
-      "related_lesson_id": "automated-eda-tool-module-10-lesson-2"
+      "learning_objective_id": "automated-eda-tool-module-10-objective-3",
+      "related_lesson_id": "automated-eda-tool-module-10-lesson-03",
+      "lesson_id": "automated-eda-tool-module-10-lesson-03"
     }
   ]
 }

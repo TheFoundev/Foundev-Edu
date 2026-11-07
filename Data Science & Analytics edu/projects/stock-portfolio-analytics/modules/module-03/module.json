@@ -1,45 +1,59 @@
 {
   "module_id": "stock-portfolio-analytics-module-03",
   "title": "Ratios and Sharpe Ratio",
-  "description": "Study the implementation in [lib/ratios/ratios.js] and [lib/ratios/sharpe-ratio.js]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include sharpeRatioStatistics_; confirm their complete definitions and callers in the file.",
+  "description": "Begins with an everyday explanation, then traces gainToPainRatio in lib/ratios/ratios.js. Source units combined: Ratios and Sharpe Ratio.",
+  "learning_objectives": [
+    {
+      "objective_id": "stock-portfolio-analytics-module-03-objective-1",
+      "text": "Explain ratios and sharpe ratio in plain language using the project source."
+    },
+    {
+      "objective_id": "stock-portfolio-analytics-module-03-objective-2",
+      "text": "Trace `gainToPainRatio` in `lib/ratios/ratios.js` and explain its inputs, behavior, and output."
+    },
+    {
+      "objective_id": "stock-portfolio-analytics-module-03-objective-3",
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
+    }
+  ],
+  "learning_objective_ids": [
+    "stock-portfolio-analytics-module-03-objective-1",
+    "stock-portfolio-analytics-module-03-objective-2",
+    "stock-portfolio-analytics-module-03-objective-3"
+  ],
   "source_files": [
     "lib/ratios/ratios.js",
     "lib/ratios/sharpe-ratio.js"
   ],
-  "learning_objectives": [
-    {
-      "objective_id": "stock-portfolio-analytics-module-03-objective-1",
-      "text": "Explain the source role and visible behavior in lib/ratios/ratios.js, lib/ratios/sharpe-ratio.js."
-    },
-    {
-      "objective_id": "stock-portfolio-analytics-module-03-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
-    },
-    {
-      "objective_id": "stock-portfolio-analytics-module-03-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
-    }
-  ],
+  "source_code_focus": {
+    "excerpt_file": "lib/ratios/ratios.js",
+    "symbol_or_search_term": "gainToPainRatio",
+    "line_start": null,
+    "line_end": null,
+    "source_status": "source tree absent; excerpt retained from earlier package"
+  },
   "prerequisites": [
     "stock-portfolio-analytics-module-02"
   ],
   "ordered_lesson_ids": [
-    "stock-portfolio-analytics-module-03-lesson-1",
-    "stock-portfolio-analytics-module-03-lesson-2"
+    "stock-portfolio-analytics-module-03-lesson-01",
+    "stock-portfolio-analytics-module-03-lesson-02",
+    "stock-portfolio-analytics-module-03-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "source declarations",
     "imports and callers",
-    "inputs and outputs"
+    "inputs and outputs",
+    "source focus: gainToPainRatio"
   ],
   "practical_outcomes": [
-    "Evidence map for lib/ratios/ratios.js, lib/ratios/sharpe-ratio.js",
-    "Source-grounded call/data/configuration trace"
+    "Trace `gainToPainRatio` through `lib/ratios/ratios.js`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

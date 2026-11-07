@@ -21,9 +21,11 @@
     "bluewallet-04-utxo-selection-and-fees"
   ],
   "ordered_lesson_ids": [
-    "bluewallet-05-wallet-adapters-and-transport-lesson-01"
+    "bluewallet-05-wallet-adapters-and-transport-lesson-01",
+    "bluewallet-05-wallet-adapters-and-transport-lesson-02",
+    "bluewallet-05-wallet-adapters-and-transport-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport",
     "An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/wallet-core.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/wallet-core.ts",
+    "symbol_or_search_term": "wallet-core"
+  }
 }

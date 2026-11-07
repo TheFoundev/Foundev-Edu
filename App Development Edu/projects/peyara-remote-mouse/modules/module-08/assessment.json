@@ -98,8 +98,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "peyara-remote-mouse-08-mini-project-integration-objective-01",
-      "lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-08-mini-project-integration-objective-02",
+      "lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-02"
     },
     {
       "question_id": "peyara-remote-mouse-m08-q05",
@@ -123,8 +123,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "peyara-remote-mouse-08-mini-project-integration-objective-01",
-      "lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-08-mini-project-integration-objective-02",
+      "lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-02"
     },
     {
       "question_id": "peyara-remote-mouse-m08-q06",
@@ -148,8 +148,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "peyara-remote-mouse-08-mini-project-integration-objective-01",
-      "lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-08-mini-project-integration-objective-02",
+      "lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-02"
     },
     {
       "question_id": "peyara-remote-mouse-m08-q07",
@@ -173,8 +173,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "peyara-remote-mouse-08-mini-project-integration-objective-01",
-      "lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-08-mini-project-integration-objective-02",
+      "lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-02"
     },
     {
       "question_id": "peyara-remote-mouse-m08-q08",
@@ -198,8 +198,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "peyara-remote-mouse-08-mini-project-integration-objective-01",
-      "lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-08-mini-project-integration-objective-02",
+      "lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-02"
     },
     {
       "question_id": "peyara-remote-mouse-m08-q09",
@@ -223,8 +223,8 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "peyara-remote-mouse-08-mini-project-integration-objective-01",
-      "lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-08-mini-project-integration-objective-03",
+      "lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-03"
     },
     {
       "question_id": "peyara-remote-mouse-m08-q10",
@@ -248,8 +248,8 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "peyara-remote-mouse-08-mini-project-integration-objective-01",
-      "lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-08-mini-project-integration-objective-03",
+      "lesson_id": "peyara-remote-mouse-08-mini-project-integration-lesson-03"
     }
   ]
 }

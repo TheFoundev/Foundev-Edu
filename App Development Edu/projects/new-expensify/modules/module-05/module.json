@@ -21,9 +21,11 @@
     "new-expensify-04-local-chat-and-search"
   ],
   "ordered_lesson_ids": [
-    "new-expensify-05-context-store-and-persistence-lesson-01"
+    "new-expensify-05-context-store-and-persistence-lesson-01",
+    "new-expensify-05-context-store-and-persistence-lesson-02",
+    "new-expensify-05-context-store-and-persistence-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Context initialization, AsyncStorage adapter, store keys, hydration and effects",
     "The provider is the app-wide coordinator and the store is its persistence seam. Follow load and save for the three stored domains and inspect malformed-data recovery tests.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/store.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/expenseContext.tsx",
+    "symbol_or_search_term": "expenseContext"
+  }
 }

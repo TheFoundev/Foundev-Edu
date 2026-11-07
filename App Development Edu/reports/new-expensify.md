@@ -1,7 +1,7 @@
 # Validation report — new-expensify
 
-- Generated: 2026-11-07T05:29:20.298977+00:00
-- Modules: 7; lessons: 7; questions: 70
+- Generated: 2026-11-07T09:03:58.613107+00:00
+- Modules: 7; lessons: 21; questions: 70
 - Structural result: **PASS**
 
 ## Passed checks

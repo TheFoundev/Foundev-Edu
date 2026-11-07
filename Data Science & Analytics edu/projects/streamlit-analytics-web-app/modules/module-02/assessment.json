@@ -1,5 +1,7 @@
 {
   "module_id": "streamlit-analytics-web-app-module-02",
+  "title": "Server and Pipeline",
+  "instructions": "Choose one best answer. The questions address this module; read its three lessons.",
   "questions": [
     {
       "question_id": "streamlit-analytics-web-app-module-02-q01",
@@ -24,7 +26,8 @@
       ],
       "difficulty": "basic",
       "learning_objective_id": "streamlit-analytics-web-app-module-02-objective-1",
-      "related_lesson_id": "streamlit-analytics-web-app-module-02-lesson-1"
+      "related_lesson_id": "streamlit-analytics-web-app-module-02-lesson-01",
+      "lesson_id": "streamlit-analytics-web-app-module-02-lesson-01"
     },
     {
       "question_id": "streamlit-analytics-web-app-module-02-q02",
@@ -48,8 +51,9 @@
         }
       ],
       "difficulty": "basic",
-      "learning_objective_id": "streamlit-analytics-web-app-module-02-objective-2",
-      "related_lesson_id": "streamlit-analytics-web-app-module-02-lesson-2"
+      "learning_objective_id": "streamlit-analytics-web-app-module-02-objective-1",
+      "related_lesson_id": "streamlit-analytics-web-app-module-02-lesson-01",
+      "lesson_id": "streamlit-analytics-web-app-module-02-lesson-01"
     },
     {
       "question_id": "streamlit-analytics-web-app-module-02-q03",
@@ -73,8 +77,9 @@
         }
       ],
       "difficulty": "basic",
-      "learning_objective_id": "streamlit-analytics-web-app-module-02-objective-3",
-      "related_lesson_id": "streamlit-analytics-web-app-module-02-lesson-1"
+      "learning_objective_id": "streamlit-analytics-web-app-module-02-objective-1",
+      "related_lesson_id": "streamlit-analytics-web-app-module-02-lesson-01",
+      "lesson_id": "streamlit-analytics-web-app-module-02-lesson-01"
     },
     {
       "question_id": "streamlit-analytics-web-app-module-02-q04",
@@ -98,8 +103,9 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "streamlit-analytics-web-app-module-02-objective-1",
-      "related_lesson_id": "streamlit-analytics-web-app-module-02-lesson-2"
+      "learning_objective_id": "streamlit-analytics-web-app-module-02-objective-2",
+      "related_lesson_id": "streamlit-analytics-web-app-module-02-lesson-02",
+      "lesson_id": "streamlit-analytics-web-app-module-02-lesson-02"
     },
     {
       "question_id": "streamlit-analytics-web-app-module-02-q05",
@@ -124,7 +130,8 @@
       ],
       "difficulty": "intermediate",
       "learning_objective_id": "streamlit-analytics-web-app-module-02-objective-2",
-      "related_lesson_id": "streamlit-analytics-web-app-module-02-lesson-1"
+      "related_lesson_id": "streamlit-analytics-web-app-module-02-lesson-02",
+      "lesson_id": "streamlit-analytics-web-app-module-02-lesson-02"
     },
     {
       "question_id": "streamlit-analytics-web-app-module-02-q06",
@@ -148,8 +155,9 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "streamlit-analytics-web-app-module-02-objective-3",
-      "related_lesson_id": "streamlit-analytics-web-app-module-02-lesson-2"
+      "learning_objective_id": "streamlit-analytics-web-app-module-02-objective-2",
+      "related_lesson_id": "streamlit-analytics-web-app-module-02-lesson-02",
+      "lesson_id": "streamlit-analytics-web-app-module-02-lesson-02"
     },
     {
       "question_id": "streamlit-analytics-web-app-module-02-q07",
@@ -173,8 +181,9 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "streamlit-analytics-web-app-module-02-objective-1",
-      "related_lesson_id": "streamlit-analytics-web-app-module-02-lesson-1"
+      "learning_objective_id": "streamlit-analytics-web-app-module-02-objective-2",
+      "related_lesson_id": "streamlit-analytics-web-app-module-02-lesson-02",
+      "lesson_id": "streamlit-analytics-web-app-module-02-lesson-02"
     },
     {
       "question_id": "streamlit-analytics-web-app-module-02-q08",
@@ -199,7 +208,8 @@
       ],
       "difficulty": "intermediate",
       "learning_objective_id": "streamlit-analytics-web-app-module-02-objective-2",
-      "related_lesson_id": "streamlit-analytics-web-app-module-02-lesson-2"
+      "related_lesson_id": "streamlit-analytics-web-app-module-02-lesson-02",
+      "lesson_id": "streamlit-analytics-web-app-module-02-lesson-02"
     },
     {
       "question_id": "streamlit-analytics-web-app-module-02-q09",
@@ -224,7 +234,8 @@
       ],
       "difficulty": "advanced",
       "learning_objective_id": "streamlit-analytics-web-app-module-02-objective-3",
-      "related_lesson_id": "streamlit-analytics-web-app-module-02-lesson-1"
+      "related_lesson_id": "streamlit-analytics-web-app-module-02-lesson-03",
+      "lesson_id": "streamlit-analytics-web-app-module-02-lesson-03"
     },
     {
       "question_id": "streamlit-analytics-web-app-module-02-q10",
@@ -248,8 +259,9 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "streamlit-analytics-web-app-module-02-objective-1",
-      "related_lesson_id": "streamlit-analytics-web-app-module-02-lesson-2"
+      "learning_objective_id": "streamlit-analytics-web-app-module-02-objective-3",
+      "related_lesson_id": "streamlit-analytics-web-app-module-02-lesson-03",
+      "lesson_id": "streamlit-analytics-web-app-module-02-lesson-03"
     }
   ]
 }

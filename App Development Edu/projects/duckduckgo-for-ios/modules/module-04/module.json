@@ -22,9 +22,11 @@
     "duckduckgo-for-ios-03-webkit-integration"
   ],
   "ordered_lesson_ids": [
-    "duckduckgo-for-ios-04-tracker-rules-and-privacy-mode-lesson-01"
+    "duckduckgo-for-ios-04-tracker-rules-and-privacy-mode-lesson-01",
+    "duckduckgo-for-ios-04-tracker-rules-and-privacy-mode-lesson-02",
+    "duckduckgo-for-ios-04-tracker-rules-and-privacy-mode-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Rule-list JSON, rule compilation, blocked-count reporting, and private data behavior",
     "A rule list is a set of instructions sent to WebKit’s content blocker. Follow its JSON shape and how settings select it, then examine tests for private-mode cleanup and tracker counts.",
@@ -35,8 +37,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: Sources/Core.swift.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "Sources/Core.swift",
+    "symbol_or_search_term": "Core"
+  }
 }

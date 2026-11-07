@@ -1,46 +1,60 @@
 {
   "module_id": "sales-kpi-dashboard-with-plotly-dash-module-05",
   "title": "Documented goals mapped to implementation",
-  "description": "Compare the source documentation in README.md with implementation anchors app.py, main.py, src/pipeline.py. Trace one feature claim to its code path and record any mismatch or evidence gap.",
+  "description": "Begins with an everyday explanation, then traces index in app.py. Source units combined: Documented goals mapped to implementation.",
+  "learning_objectives": [
+    {
+      "objective_id": "sales-kpi-dashboard-with-plotly-dash-module-05-objective-1",
+      "text": "Explain documented goals mapped to implementation in plain language using the project source."
+    },
+    {
+      "objective_id": "sales-kpi-dashboard-with-plotly-dash-module-05-objective-2",
+      "text": "Trace `index` in `app.py` and explain its inputs, behavior, and output."
+    },
+    {
+      "objective_id": "sales-kpi-dashboard-with-plotly-dash-module-05-objective-3",
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
+    }
+  ],
+  "learning_objective_ids": [
+    "sales-kpi-dashboard-with-plotly-dash-module-05-objective-1",
+    "sales-kpi-dashboard-with-plotly-dash-module-05-objective-2",
+    "sales-kpi-dashboard-with-plotly-dash-module-05-objective-3"
+  ],
   "source_files": [
     "README.md",
     "app.py",
     "main.py"
   ],
-  "learning_objectives": [
-    {
-      "objective_id": "sales-kpi-dashboard-with-plotly-dash-module-05-objective-1",
-      "text": "Explain the source role and visible behavior in README.md, app.py, main.py."
-    },
-    {
-      "objective_id": "sales-kpi-dashboard-with-plotly-dash-module-05-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
-    },
-    {
-      "objective_id": "sales-kpi-dashboard-with-plotly-dash-module-05-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
-    }
-  ],
+  "source_code_focus": {
+    "excerpt_file": "app.py",
+    "symbol_or_search_term": "index",
+    "line_start": 45,
+    "line_end": 65,
+    "source_status": "verified source file exists"
+  },
   "prerequisites": [
     "sales-kpi-dashboard-with-plotly-dash-module-04"
   ],
   "ordered_lesson_ids": [
-    "sales-kpi-dashboard-with-plotly-dash-module-05-lesson-1",
-    "sales-kpi-dashboard-with-plotly-dash-module-05-lesson-2"
+    "sales-kpi-dashboard-with-plotly-dash-module-05-lesson-01",
+    "sales-kpi-dashboard-with-plotly-dash-module-05-lesson-02",
+    "sales-kpi-dashboard-with-plotly-dash-module-05-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "documentation claims",
     "implementation mapping",
-    "limitations"
+    "limitations",
+    "source focus: index"
   ],
   "practical_outcomes": [
-    "Evidence map for README.md, app.py, main.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `index` through `app.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

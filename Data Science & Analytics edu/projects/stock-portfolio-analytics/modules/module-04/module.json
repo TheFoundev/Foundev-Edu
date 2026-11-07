@@ -1,45 +1,59 @@
 {
   "module_id": "stock-portfolio-analytics-module-04",
   "title": "Returns and Distributions",
-  "description": "Study the implementation in [lib/returns/returns.js] and [lib/stats/distributions.js]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include treatAsUTC, norminv_; confirm their complete definitions and callers in the file.",
+  "description": "Begins with an everyday explanation, then traces cumulativeReturn in lib/returns/returns.js. Source units combined: Returns and Distributions.",
+  "learning_objectives": [
+    {
+      "objective_id": "stock-portfolio-analytics-module-04-objective-1",
+      "text": "Explain returns and distributions in plain language using the project source."
+    },
+    {
+      "objective_id": "stock-portfolio-analytics-module-04-objective-2",
+      "text": "Trace `cumulativeReturn` in `lib/returns/returns.js` and explain its inputs, behavior, and output."
+    },
+    {
+      "objective_id": "stock-portfolio-analytics-module-04-objective-3",
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
+    }
+  ],
+  "learning_objective_ids": [
+    "stock-portfolio-analytics-module-04-objective-1",
+    "stock-portfolio-analytics-module-04-objective-2",
+    "stock-portfolio-analytics-module-04-objective-3"
+  ],
   "source_files": [
     "lib/returns/returns.js",
     "lib/stats/distributions.js"
   ],
-  "learning_objectives": [
-    {
-      "objective_id": "stock-portfolio-analytics-module-04-objective-1",
-      "text": "Explain the source role and visible behavior in lib/returns/returns.js, lib/stats/distributions.js."
-    },
-    {
-      "objective_id": "stock-portfolio-analytics-module-04-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
-    },
-    {
-      "objective_id": "stock-portfolio-analytics-module-04-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
-    }
-  ],
+  "source_code_focus": {
+    "excerpt_file": "lib/returns/returns.js",
+    "symbol_or_search_term": "cumulativeReturn",
+    "line_start": null,
+    "line_end": null,
+    "source_status": "source tree absent; excerpt retained from earlier package"
+  },
   "prerequisites": [
     "stock-portfolio-analytics-module-03"
   ],
   "ordered_lesson_ids": [
-    "stock-portfolio-analytics-module-04-lesson-1",
-    "stock-portfolio-analytics-module-04-lesson-2"
+    "stock-portfolio-analytics-module-04-lesson-01",
+    "stock-portfolio-analytics-module-04-lesson-02",
+    "stock-portfolio-analytics-module-04-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "source declarations",
     "imports and callers",
-    "inputs and outputs"
+    "inputs and outputs",
+    "source focus: cumulativeReturn"
   ],
   "practical_outcomes": [
-    "Evidence map for lib/returns/returns.js, lib/stats/distributions.js",
-    "Source-grounded call/data/configuration trace"
+    "Trace `cumulativeReturn` through `lib/returns/returns.js`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

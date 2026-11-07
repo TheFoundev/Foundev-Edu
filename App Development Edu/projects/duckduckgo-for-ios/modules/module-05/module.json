@@ -21,9 +21,11 @@
     "duckduckgo-for-ios-04-tracker-rules-and-privacy-mode"
   ],
   "ordered_lesson_ids": [
-    "duckduckgo-for-ios-05-screen-composition-and-controls-lesson-01"
+    "duckduckgo-for-ios-05-screen-composition-and-controls-lesson-01",
+    "duckduckgo-for-ios-05-screen-composition-and-controls-lesson-02",
+    "duckduckgo-for-ios-05-screen-composition-and-controls-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Observable store injection, navigation, toolbar actions, and settings binding",
     "A view tree is a set of nested controls that observe one shared store. Trace the store environment from ContentView into controls and see how a setting changes the core behavior.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: Sources/ContentView.swift.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "Sources/ContentView.swift",
+    "symbol_or_search_term": "ContentView"
+  }
 }

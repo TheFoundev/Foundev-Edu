@@ -18,9 +18,11 @@
   ],
   "prerequisites": [],
   "ordered_lesson_ids": [
-    "covid-alert-01-domain-model-and-fixtures-lesson-01"
+    "covid-alert-01-domain-model-and-fixtures-lesson-01",
+    "covid-alert-01-domain-model-and-fixtures-lesson-02",
+    "covid-alert-01-domain-model-and-fixtures-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Check and ExposureResult types, symptom catalogue, resources, and sample data",
     "A record is a dated note about an app action, not a diagnosis. Read the types and fixtures, identify where sample checks and symptom choices come from, and mark which information is fictional.",
@@ -31,8 +33,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/data.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/exposure.ts",
+    "symbol_or_search_term": "exposure"
+  }
 }

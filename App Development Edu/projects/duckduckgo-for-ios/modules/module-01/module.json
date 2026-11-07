@@ -18,9 +18,11 @@
   ],
   "prerequisites": [],
   "ordered_lesson_ids": [
-    "duckduckgo-for-ios-01-browser-core-and-url-routing-lesson-01"
+    "duckduckgo-for-ios-01-browser-core-and-url-routing-lesson-01",
+    "duckduckgo-for-ios-01-browser-core-and-url-routing-lesson-02",
+    "duckduckgo-for-ios-01-browser-core-and-url-routing-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Input classification, scheme handling, empty input, and search-engine selection",
     "A browser address box has two jobs: open a likely URL or search ordinary words. Read the core decision function and tests for empty text, scheme insertion, and selected engine behavior.",
@@ -31,8 +33,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: Sources/Core.swift.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "Sources/Core.swift",
+    "symbol_or_search_term": "Core"
+  }
 }

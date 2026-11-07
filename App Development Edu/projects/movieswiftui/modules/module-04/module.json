@@ -21,9 +21,11 @@
     "movieswiftui-03-search-genres-and-sorting"
   ],
   "ordered_lesson_ids": [
-    "movieswiftui-04-watchlist-persistence-lesson-01"
+    "movieswiftui-04-watchlist-persistence-lesson-01",
+    "movieswiftui-04-watchlist-persistence-lesson-02",
+    "movieswiftui-04-watchlist-persistence-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Store defaults, add/remove operations, and UserDefaults reload",
     "A watchlist is a saved set of identifiers. Follow a toggle from button through the store to UserDefaults and verify persistence using the tests.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: Sources/Models.swift.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "Sources/Models.swift",
+    "symbol_or_search_term": "Models"
+  }
 }

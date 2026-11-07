@@ -98,8 +98,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "covid-alert-01-domain-model-and-fixtures-objective-01",
-      "lesson_id": "covid-alert-01-domain-model-and-fixtures-lesson-01"
+      "learning_objective_id": "covid-alert-01-domain-model-and-fixtures-objective-02",
+      "lesson_id": "covid-alert-01-domain-model-and-fixtures-lesson-02"
     },
     {
       "question_id": "covid-alert-m01-q05",
@@ -123,8 +123,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "covid-alert-01-domain-model-and-fixtures-objective-01",
-      "lesson_id": "covid-alert-01-domain-model-and-fixtures-lesson-01"
+      "learning_objective_id": "covid-alert-01-domain-model-and-fixtures-objective-02",
+      "lesson_id": "covid-alert-01-domain-model-and-fixtures-lesson-02"
     },
     {
       "question_id": "covid-alert-m01-q06",
@@ -148,8 +148,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "covid-alert-01-domain-model-and-fixtures-objective-01",
-      "lesson_id": "covid-alert-01-domain-model-and-fixtures-lesson-01"
+      "learning_objective_id": "covid-alert-01-domain-model-and-fixtures-objective-02",
+      "lesson_id": "covid-alert-01-domain-model-and-fixtures-lesson-02"
     },
     {
       "question_id": "covid-alert-m01-q07",
@@ -173,8 +173,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "covid-alert-01-domain-model-and-fixtures-objective-01",
-      "lesson_id": "covid-alert-01-domain-model-and-fixtures-lesson-01"
+      "learning_objective_id": "covid-alert-01-domain-model-and-fixtures-objective-02",
+      "lesson_id": "covid-alert-01-domain-model-and-fixtures-lesson-02"
     },
     {
       "question_id": "covid-alert-m01-q08",
@@ -198,8 +198,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "covid-alert-01-domain-model-and-fixtures-objective-01",
-      "lesson_id": "covid-alert-01-domain-model-and-fixtures-lesson-01"
+      "learning_objective_id": "covid-alert-01-domain-model-and-fixtures-objective-02",
+      "lesson_id": "covid-alert-01-domain-model-and-fixtures-lesson-02"
     },
     {
       "question_id": "covid-alert-m01-q09",
@@ -223,8 +223,8 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "covid-alert-01-domain-model-and-fixtures-objective-01",
-      "lesson_id": "covid-alert-01-domain-model-and-fixtures-lesson-01"
+      "learning_objective_id": "covid-alert-01-domain-model-and-fixtures-objective-03",
+      "lesson_id": "covid-alert-01-domain-model-and-fixtures-lesson-03"
     },
     {
       "question_id": "covid-alert-m01-q10",
@@ -248,8 +248,8 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "covid-alert-01-domain-model-and-fixtures-objective-01",
-      "lesson_id": "covid-alert-01-domain-model-and-fixtures-lesson-01"
+      "learning_objective_id": "covid-alert-01-domain-model-and-fixtures-objective-03",
+      "lesson_id": "covid-alert-01-domain-model-and-fixtures-lesson-03"
     }
   ]
 }

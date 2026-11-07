@@ -21,9 +21,11 @@
     "covid-alert-05-state-storage-and-ui"
   ],
   "ordered_lesson_ids": [
-    "covid-alert-06-tests-privacy-and-accessibility-lesson-01"
+    "covid-alert-06-tests-privacy-and-accessibility-lesson-01",
+    "covid-alert-06-tests-privacy-and-accessibility-lesson-02",
+    "covid-alert-06-tests-privacy-and-accessibility-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Simulation tests, storage failures, labels, disclosure, and evidence limits",
     "Tests can prove the model returns the expected simulation; they cannot prove a health service is present. Inspect assertions and visible disclaimers, then identify privacy and accessibility checks needed on-device.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: test/exposure.test.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "test/exposure.test.ts",
+    "symbol_or_search_term": "exposure.test"
+  }
 }

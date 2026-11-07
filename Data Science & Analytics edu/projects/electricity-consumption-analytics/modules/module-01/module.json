@@ -1,45 +1,57 @@
 {
   "module_id": "electricity-consumption-analytics-module-01",
   "title": "Setup and undefined undefined Init undefined undefined",
-  "description": "Study the implementation in [setup.py] and [smap/__init__.py]. Trace its declarations and dependencies into a caller or test. Inspect imports, declarations, and call sites in the file; filenames alone do not establish its role.",
+  "description": "Begins with an everyday explanation, then traces setup in setup.py. Source units combined: Setup and undefined undefined Init undefined undefined.",
+  "learning_objectives": [
+    {
+      "objective_id": "electricity-consumption-analytics-module-01-objective-1",
+      "text": "Explain setup and undefined undefined init undefined undefined in plain language using the project source."
+    },
+    {
+      "objective_id": "electricity-consumption-analytics-module-01-objective-2",
+      "text": "Trace `setup` in `setup.py` and explain its inputs, behavior, and output."
+    },
+    {
+      "objective_id": "electricity-consumption-analytics-module-01-objective-3",
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
+    }
+  ],
+  "learning_objective_ids": [
+    "electricity-consumption-analytics-module-01-objective-1",
+    "electricity-consumption-analytics-module-01-objective-2",
+    "electricity-consumption-analytics-module-01-objective-3"
+  ],
   "source_files": [
     "setup.py",
     "smap/__init__.py"
   ],
-  "learning_objectives": [
-    {
-      "objective_id": "electricity-consumption-analytics-module-01-objective-1",
-      "text": "Explain the source role and visible behavior in setup.py, smap/__init__.py."
-    },
-    {
-      "objective_id": "electricity-consumption-analytics-module-01-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
-    },
-    {
-      "objective_id": "electricity-consumption-analytics-module-01-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
-    }
-  ],
-  "prerequisites": [
-    "Basic command-line and programming literacy"
-  ],
+  "source_code_focus": {
+    "excerpt_file": "setup.py",
+    "symbol_or_search_term": "setup",
+    "line_start": null,
+    "line_end": null,
+    "source_status": "source tree absent; excerpt retained from earlier package"
+  },
+  "prerequisites": [],
   "ordered_lesson_ids": [
-    "electricity-consumption-analytics-module-01-lesson-1",
-    "electricity-consumption-analytics-module-01-lesson-2"
+    "electricity-consumption-analytics-module-01-lesson-01",
+    "electricity-consumption-analytics-module-01-lesson-02",
+    "electricity-consumption-analytics-module-01-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "source declarations",
     "imports and callers",
-    "inputs and outputs"
+    "inputs and outputs",
+    "source focus: setup"
   ],
   "practical_outcomes": [
-    "Evidence map for setup.py, smap/__init__.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `setup` through `setup.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

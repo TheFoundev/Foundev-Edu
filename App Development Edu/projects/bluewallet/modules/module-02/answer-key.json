@@ -12,7 +12,7 @@
       },
       "tested_concept": "Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary",
       "related_lesson_id": "bluewallet-02-address-validation-lesson-01",
-      "supporting_reference": "../../../../../projects/bluewallet/src/address.ts"
+      "supporting_reference": "../../../../../App Development/bluewallet/src/address.ts"
     },
     {
       "question_id": "bluewallet-m02-q02",
@@ -25,7 +25,7 @@
       },
       "tested_concept": "Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary",
       "related_lesson_id": "bluewallet-02-address-validation-lesson-01",
-      "supporting_reference": "../../../../../projects/bluewallet/src/address.ts"
+      "supporting_reference": "../../../../../App Development/bluewallet/src/address.ts"
     },
     {
       "question_id": "bluewallet-m02-q03",
@@ -38,7 +38,7 @@
       },
       "tested_concept": "Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary",
       "related_lesson_id": "bluewallet-02-address-validation-lesson-01",
-      "supporting_reference": "../../../../../projects/bluewallet/src/address.ts"
+      "supporting_reference": "../../../../../App Development/bluewallet/src/address.ts"
     },
     {
       "question_id": "bluewallet-m02-q04",
@@ -50,8 +50,8 @@
         "bluewallet-m02-q04-o4": "The lesson traces 'An address is like a destination label with a built-in error check. Follow Bech32 decoding from characters to checksum and witness data, compare the simpler Base58 prefix/length screen, and see how the send screen rejects input before requesting a transaction plan.' to src/address.ts. This option instead claims 'UTXO selection, fee estimate, amount validation, and unsigned output construction', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary",
-      "related_lesson_id": "bluewallet-02-address-validation-lesson-01",
-      "supporting_reference": "../../../../../projects/bluewallet/src/address.ts"
+      "related_lesson_id": "bluewallet-02-address-validation-lesson-02",
+      "supporting_reference": "../../../../../App Development/bluewallet/src/address.ts"
     },
     {
       "question_id": "bluewallet-m02-q05",
@@ -63,8 +63,8 @@
         "bluewallet-m02-q05-o4": "The lesson traces 'Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary' to src/address.ts. This option instead claims 'UTXO selection, fee estimate, amount validation, and unsigned output construction', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary",
-      "related_lesson_id": "bluewallet-02-address-validation-lesson-01",
-      "supporting_reference": "../../../../../projects/bluewallet/src/address.ts"
+      "related_lesson_id": "bluewallet-02-address-validation-lesson-02",
+      "supporting_reference": "../../../../../App Development/bluewallet/src/address.ts"
     },
     {
       "question_id": "bluewallet-m02-q06",
@@ -76,8 +76,8 @@
         "bluewallet-m02-q06-o2": "The lesson traces 'An address is like a destination label with a built-in error check. Follow Bech32 decoding from characters to checksum and witness data, compare the simpler Base58 prefix/length screen, and see how the send screen rejects input before requesting a transaction plan.' to src/address.ts. This option instead claims 'Transaction shape, satoshi formatting, seeded records, and tab shell', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary",
-      "related_lesson_id": "bluewallet-02-address-validation-lesson-01",
-      "supporting_reference": "../../../../../projects/bluewallet/src/address.ts"
+      "related_lesson_id": "bluewallet-02-address-validation-lesson-02",
+      "supporting_reference": "../../../../../App Development/bluewallet/src/address.ts"
     },
     {
       "question_id": "bluewallet-m02-q07",
@@ -89,8 +89,8 @@
         "bluewallet-m02-q07-o3": "The lesson traces 'Validation is not ownership proof: the Base58 path checks only prefix and length rather than checksum, and the implementation is not a substitute for audited wallet software.' to src/address.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary",
-      "related_lesson_id": "bluewallet-02-address-validation-lesson-01",
-      "supporting_reference": "../../../../../projects/bluewallet/src/address.ts"
+      "related_lesson_id": "bluewallet-02-address-validation-lesson-02",
+      "supporting_reference": "../../../../../App Development/bluewallet/src/address.ts"
     },
     {
       "question_id": "bluewallet-m02-q08",
@@ -102,8 +102,8 @@
         "bluewallet-m02-q08-o4": "The lesson traces 'src/address.ts' to src/address.ts. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary",
-      "related_lesson_id": "bluewallet-02-address-validation-lesson-01",
-      "supporting_reference": "../../../../../projects/bluewallet/src/address.ts"
+      "related_lesson_id": "bluewallet-02-address-validation-lesson-02",
+      "supporting_reference": "../../../../../App Development/bluewallet/src/address.ts"
     },
     {
       "question_id": "bluewallet-m02-q09",
@@ -115,8 +115,8 @@
         "bluewallet-m02-q09-o4": "The lesson traces 'Do not claim production readiness: Validation is not ownership proof: the Base58 path checks only prefix and length rather than checksum, and the implementation is not a substitute for audited wallet software.' to src/address.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary",
-      "related_lesson_id": "bluewallet-02-address-validation-lesson-01",
-      "supporting_reference": "../../../../../projects/bluewallet/src/address.ts"
+      "related_lesson_id": "bluewallet-02-address-validation-lesson-03",
+      "supporting_reference": "../../../../../App Development/bluewallet/src/address.ts"
     },
     {
       "question_id": "bluewallet-m02-q10",
@@ -128,8 +128,8 @@
         "bluewallet-m02-q10-o2": "The lesson traces 'An address is like a destination label with a built-in error check. Follow Bech32 decoding from characters to checksum and witness data, compare the simpler Base58 prefix/length screen, and see how the send screen rejects input before requesting a transaction plan.' to src/address.ts. This option instead claims 'Transaction shape, satoshi formatting, seeded records, and tab shell', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary",
-      "related_lesson_id": "bluewallet-02-address-validation-lesson-01",
-      "supporting_reference": "../../../../../projects/bluewallet/src/address.ts"
+      "related_lesson_id": "bluewallet-02-address-validation-lesson-03",
+      "supporting_reference": "../../../../../App Development/bluewallet/src/address.ts"
     }
   ]
 }

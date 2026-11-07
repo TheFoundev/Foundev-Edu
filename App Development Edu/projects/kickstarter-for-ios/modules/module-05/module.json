@@ -24,9 +24,11 @@
     "kickstarter-for-ios-04-saved-and-backed-state"
   ],
   "ordered_lesson_ids": [
-    "kickstarter-for-ios-05-swiftui-navigation-and-shared-store-lesson-01"
+    "kickstarter-for-ios-05-swiftui-navigation-and-shared-store-lesson-01",
+    "kickstarter-for-ios-05-swiftui-navigation-and-shared-store-lesson-02",
+    "kickstarter-for-ios-05-swiftui-navigation-and-shared-store-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Environment object injection, NavigationStack, and view actions",
     "SwiftUI views describe the screens from current model state. Follow the shared store from the app root into lists, reusable cards, profile, and detail actions, then see state changes refresh the UI.",
@@ -37,8 +39,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: Sources/ContentView.swift.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "Sources/ContentView.swift",
+    "symbol_or_search_term": "ContentView"
+  }
 }

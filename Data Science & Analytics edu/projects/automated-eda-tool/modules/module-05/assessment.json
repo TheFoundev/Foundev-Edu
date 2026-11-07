@@ -1,5 +1,7 @@
 {
   "module_id": "automated-eda-tool-module-05",
+  "title": "Application Shell and Authentication",
+  "instructions": "Choose one best answer. The questions address this module; read its three lessons.",
   "questions": [
     {
       "question_id": "automated-eda-tool-module-05-q01",
@@ -7,11 +9,11 @@
       "options": [
         {
           "option_id": "automated-eda-tool-module-05-q01-o1",
-          "text": "autoeda/null_handler.py"
+          "text": "frontend/src/App.jsx"
         },
         {
           "option_id": "automated-eda-tool-module-05-q01-o2",
-          "text": "autoeda/outliers.py"
+          "text": "frontend/src/components/About.jsx"
         },
         {
           "option_id": "automated-eda-tool-module-05-q01-o3",
@@ -24,11 +26,12 @@
       ],
       "difficulty": "basic",
       "learning_objective_id": "automated-eda-tool-module-05-objective-1",
-      "related_lesson_id": "automated-eda-tool-module-05-lesson-1"
+      "related_lesson_id": "automated-eda-tool-module-05-lesson-01",
+      "lesson_id": "automated-eda-tool-module-05-lesson-01"
     },
     {
       "question_id": "automated-eda-tool-module-05-q02",
-      "text": "When reading autoeda/null_handler.py, what is the best way to establish how its main operation is used?",
+      "text": "When reading frontend/src/App.jsx, what is the best way to establish how its main operation is used?",
       "options": [
         {
           "option_id": "automated-eda-tool-module-05-q02-o1",
@@ -48,16 +51,17 @@
         }
       ],
       "difficulty": "basic",
-      "learning_objective_id": "automated-eda-tool-module-05-objective-2",
-      "related_lesson_id": "automated-eda-tool-module-05-lesson-2"
+      "learning_objective_id": "automated-eda-tool-module-05-objective-1",
+      "related_lesson_id": "automated-eda-tool-module-05-lesson-01",
+      "lesson_id": "automated-eda-tool-module-05-lesson-01"
     },
     {
       "question_id": "automated-eda-tool-module-05-q03",
-      "text": "What can the excerpt for autoeda/null_handler.py establish without running the application?",
+      "text": "What can the excerpt for frontend/src/App.jsx establish without running the application?",
       "options": [
         {
           "option_id": "automated-eda-tool-module-05-q03-o1",
-          "text": "It contains a declaration named drop_nulls"
+          "text": "It contains visible source text at the cited path"
         },
         {
           "option_id": "automated-eda-tool-module-05-q03-o2",
@@ -73,12 +77,13 @@
         }
       ],
       "difficulty": "basic",
-      "learning_objective_id": "automated-eda-tool-module-05-objective-3",
-      "related_lesson_id": "automated-eda-tool-module-05-lesson-1"
+      "learning_objective_id": "automated-eda-tool-module-05-objective-1",
+      "related_lesson_id": "automated-eda-tool-module-05-lesson-01",
+      "lesson_id": "automated-eda-tool-module-05-lesson-01"
     },
     {
       "question_id": "automated-eda-tool-module-05-q04",
-      "text": "Which next step best checks whether code in autoeda/null_handler.py is reachable from an entry point?",
+      "text": "Which next step best checks whether code in frontend/src/App.jsx is reachable from an entry point?",
       "options": [
         {
           "option_id": "automated-eda-tool-module-05-q04-o1",
@@ -98,12 +103,13 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "automated-eda-tool-module-05-objective-1",
-      "related_lesson_id": "automated-eda-tool-module-05-lesson-2"
+      "learning_objective_id": "automated-eda-tool-module-05-objective-2",
+      "related_lesson_id": "automated-eda-tool-module-05-lesson-02",
+      "lesson_id": "automated-eda-tool-module-05-lesson-02"
     },
     {
       "question_id": "automated-eda-tool-module-05-q05",
-      "text": "If a test mentions behavior related to autoeda/null_handler.py, what does the test source show before execution?",
+      "text": "If a test mentions behavior related to frontend/src/App.jsx, what does the test source show before execution?",
       "options": [
         {
           "option_id": "automated-eda-tool-module-05-q05-o1",
@@ -124,11 +130,12 @@
       ],
       "difficulty": "intermediate",
       "learning_objective_id": "automated-eda-tool-module-05-objective-2",
-      "related_lesson_id": "automated-eda-tool-module-05-lesson-1"
+      "related_lesson_id": "automated-eda-tool-module-05-lesson-02",
+      "lesson_id": "automated-eda-tool-module-05-lesson-02"
     },
     {
       "question_id": "automated-eda-tool-module-05-q06",
-      "text": "A README claim about autoeda/null_handler.py differs from source. What should the learner record?",
+      "text": "A README claim about frontend/src/App.jsx differs from source. What should the learner record?",
       "options": [
         {
           "option_id": "automated-eda-tool-module-05-q06-o1",
@@ -148,12 +155,13 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "automated-eda-tool-module-05-objective-3",
-      "related_lesson_id": "automated-eda-tool-module-05-lesson-2"
+      "learning_objective_id": "automated-eda-tool-module-05-objective-2",
+      "related_lesson_id": "automated-eda-tool-module-05-lesson-02",
+      "lesson_id": "automated-eda-tool-module-05-lesson-02"
     },
     {
       "question_id": "automated-eda-tool-module-05-q07",
-      "text": "When tracing a value through autoeda/null_handler.py, which evidence is most useful?",
+      "text": "When tracing a value through frontend/src/App.jsx, which evidence is most useful?",
       "options": [
         {
           "option_id": "automated-eda-tool-module-05-q07-o1",
@@ -173,12 +181,13 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "automated-eda-tool-module-05-objective-1",
-      "related_lesson_id": "automated-eda-tool-module-05-lesson-1"
+      "learning_objective_id": "automated-eda-tool-module-05-objective-2",
+      "related_lesson_id": "automated-eda-tool-module-05-lesson-02",
+      "lesson_id": "automated-eda-tool-module-05-lesson-02"
     },
     {
       "question_id": "automated-eda-tool-module-05-q08",
-      "text": "What is a safe conclusion when configuration is declared for autoeda/null_handler.py but its runtime use is not traced?",
+      "text": "What is a safe conclusion when configuration is declared for frontend/src/App.jsx but its runtime use is not traced?",
       "options": [
         {
           "option_id": "automated-eda-tool-module-05-q08-o1",
@@ -199,11 +208,12 @@
       ],
       "difficulty": "intermediate",
       "learning_objective_id": "automated-eda-tool-module-05-objective-2",
-      "related_lesson_id": "automated-eda-tool-module-05-lesson-2"
+      "related_lesson_id": "automated-eda-tool-module-05-lesson-02",
+      "lesson_id": "automated-eda-tool-module-05-lesson-02"
     },
     {
       "question_id": "automated-eda-tool-module-05-q09",
-      "text": "How should a proposed change to autoeda/null_handler.py be verified?",
+      "text": "How should a proposed change to frontend/src/App.jsx be verified?",
       "options": [
         {
           "option_id": "automated-eda-tool-module-05-q09-o1",
@@ -224,11 +234,12 @@
       ],
       "difficulty": "advanced",
       "learning_objective_id": "automated-eda-tool-module-05-objective-3",
-      "related_lesson_id": "automated-eda-tool-module-05-lesson-1"
+      "related_lesson_id": "automated-eda-tool-module-05-lesson-03",
+      "lesson_id": "automated-eda-tool-module-05-lesson-03"
     },
     {
       "question_id": "automated-eda-tool-module-05-q10",
-      "text": "Which evidence is required before claiming the path in autoeda/null_handler.py works end to end?",
+      "text": "Which evidence is required before claiming the path in frontend/src/App.jsx works end to end?",
       "options": [
         {
           "option_id": "automated-eda-tool-module-05-q10-o1",
@@ -248,8 +259,9 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "automated-eda-tool-module-05-objective-1",
-      "related_lesson_id": "automated-eda-tool-module-05-lesson-2"
+      "learning_objective_id": "automated-eda-tool-module-05-objective-3",
+      "related_lesson_id": "automated-eda-tool-module-05-lesson-03",
+      "lesson_id": "automated-eda-tool-module-05-lesson-03"
     }
   ]
 }

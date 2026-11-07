@@ -98,8 +98,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-objective-01",
-      "lesson_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-objective-02",
+      "lesson_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-lesson-02"
     },
     {
       "question_id": "peyara-remote-mouse-m03-q05",
@@ -123,8 +123,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-objective-01",
-      "lesson_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-objective-02",
+      "lesson_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-lesson-02"
     },
     {
       "question_id": "peyara-remote-mouse-m03-q06",
@@ -148,8 +148,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-objective-01",
-      "lesson_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-objective-02",
+      "lesson_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-lesson-02"
     },
     {
       "question_id": "peyara-remote-mouse-m03-q07",
@@ -173,8 +173,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-objective-01",
-      "lesson_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-objective-02",
+      "lesson_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-lesson-02"
     },
     {
       "question_id": "peyara-remote-mouse-m03-q08",
@@ -198,8 +198,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-objective-01",
-      "lesson_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-objective-02",
+      "lesson_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-lesson-02"
     },
     {
       "question_id": "peyara-remote-mouse-m03-q09",
@@ -223,8 +223,8 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-objective-01",
-      "lesson_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-objective-03",
+      "lesson_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-lesson-03"
     },
     {
       "question_id": "peyara-remote-mouse-m03-q10",
@@ -248,8 +248,8 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-objective-01",
-      "lesson_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-objective-03",
+      "lesson_id": "peyara-remote-mouse-03-mobile-connection-and-backoff-lesson-03"
     }
   ]
 }

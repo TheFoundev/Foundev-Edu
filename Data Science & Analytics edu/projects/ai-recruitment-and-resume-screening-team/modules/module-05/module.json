@@ -1,46 +1,60 @@
 {
   "module_id": "ai-recruitment-and-resume-screening-team-module-05",
   "title": "Documented goals mapped to implementation",
-  "description": "Compare the source documentation in README.md with implementation anchors app.py, main.py, src/data.py. Trace one feature claim to its code path and record any mismatch or evidence gap.",
+  "description": "Begins with an everyday explanation, then traces candidates in app.py. Source units combined: Documented goals mapped to implementation.",
+  "learning_objectives": [
+    {
+      "objective_id": "ai-recruitment-and-resume-screening-team-module-05-objective-1",
+      "text": "Explain documented goals mapped to implementation in plain language using the project source."
+    },
+    {
+      "objective_id": "ai-recruitment-and-resume-screening-team-module-05-objective-2",
+      "text": "Trace `candidates` in `app.py` and explain its inputs, behavior, and output."
+    },
+    {
+      "objective_id": "ai-recruitment-and-resume-screening-team-module-05-objective-3",
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
+    }
+  ],
+  "learning_objective_ids": [
+    "ai-recruitment-and-resume-screening-team-module-05-objective-1",
+    "ai-recruitment-and-resume-screening-team-module-05-objective-2",
+    "ai-recruitment-and-resume-screening-team-module-05-objective-3"
+  ],
   "source_files": [
     "README.md",
     "app.py",
     "main.py"
   ],
-  "learning_objectives": [
-    {
-      "objective_id": "ai-recruitment-and-resume-screening-team-module-05-objective-1",
-      "text": "Explain the source role and visible behavior in README.md, app.py, main.py."
-    },
-    {
-      "objective_id": "ai-recruitment-and-resume-screening-team-module-05-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
-    },
-    {
-      "objective_id": "ai-recruitment-and-resume-screening-team-module-05-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
-    }
-  ],
+  "source_code_focus": {
+    "excerpt_file": "app.py",
+    "symbol_or_search_term": "candidates",
+    "line_start": 58,
+    "line_end": 78,
+    "source_status": "verified source file exists"
+  },
   "prerequisites": [
     "ai-recruitment-and-resume-screening-team-module-04"
   ],
   "ordered_lesson_ids": [
-    "ai-recruitment-and-resume-screening-team-module-05-lesson-1",
-    "ai-recruitment-and-resume-screening-team-module-05-lesson-2"
+    "ai-recruitment-and-resume-screening-team-module-05-lesson-01",
+    "ai-recruitment-and-resume-screening-team-module-05-lesson-02",
+    "ai-recruitment-and-resume-screening-team-module-05-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "documentation claims",
     "implementation mapping",
-    "limitations"
+    "limitations",
+    "source focus: candidates"
   ],
   "practical_outcomes": [
-    "Evidence map for README.md, app.py, main.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `candidates` through `app.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

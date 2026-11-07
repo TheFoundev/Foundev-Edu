@@ -21,9 +21,11 @@
     "gitpoint-02-rest-client-and-errors"
   ],
   "ordered_lesson_ids": [
-    "gitpoint-03-search-sort-and-filter-lesson-01"
+    "gitpoint-03-search-sort-and-filter-lesson-01",
+    "gitpoint-03-search-sort-and-filter-lesson-02",
+    "gitpoint-03-search-sort-and-filter-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Search fields, date ordering, state filters, and list rendering",
     "Filtering is like applying a sieve to a list. Trace text matching and state filtering into the screens, then verify which fields participate and how empty results are shown.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/github.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/github.ts",
+    "symbol_or_search_term": "github"
+  }
 }

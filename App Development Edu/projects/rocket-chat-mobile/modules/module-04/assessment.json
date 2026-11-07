@@ -98,8 +98,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-objective-01",
-      "lesson_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-objective-02",
+      "lesson_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-lesson-02"
     },
     {
       "question_id": "rocket-chat-mobile-m04-q05",
@@ -123,8 +123,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-objective-01",
-      "lesson_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-objective-02",
+      "lesson_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-lesson-02"
     },
     {
       "question_id": "rocket-chat-mobile-m04-q06",
@@ -148,8 +148,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-objective-01",
-      "lesson_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-objective-02",
+      "lesson_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-lesson-02"
     },
     {
       "question_id": "rocket-chat-mobile-m04-q07",
@@ -173,8 +173,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-objective-01",
-      "lesson_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-objective-02",
+      "lesson_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-lesson-02"
     },
     {
       "question_id": "rocket-chat-mobile-m04-q08",
@@ -198,8 +198,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-objective-01",
-      "lesson_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-objective-02",
+      "lesson_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-lesson-02"
     },
     {
       "question_id": "rocket-chat-mobile-m04-q09",
@@ -223,8 +223,8 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-objective-01",
-      "lesson_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-objective-03",
+      "lesson_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-lesson-03"
     },
     {
       "question_id": "rocket-chat-mobile-m04-q10",
@@ -248,8 +248,8 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-objective-01",
-      "lesson_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-objective-03",
+      "lesson_id": "rocket-chat-mobile-04-offline-default-and-endpoint-safety-lesson-03"
     }
   ]
 }

@@ -1,47 +1,61 @@
 {
   "module_id": "crime-data-hotspot-analysis-module-06",
   "title": "Code review and safe change 6",
-  "description": "Use EDA.py to identify a bounded change, its callers, and a testable acceptance condition. Do not infer unobserved behavior.",
+  "description": "Begins with an everyday explanation, then traces load_preprocessed_data in EDA.py. Source units combined: Code review and safe change 6.",
+  "learning_objectives": [
+    {
+      "objective_id": "crime-data-hotspot-analysis-module-06-objective-1",
+      "text": "Explain code review and safe change 6 in plain language using the project source."
+    },
+    {
+      "objective_id": "crime-data-hotspot-analysis-module-06-objective-2",
+      "text": "Trace `load_preprocessed_data` in `EDA.py` and explain its inputs, behavior, and output."
+    },
+    {
+      "objective_id": "crime-data-hotspot-analysis-module-06-objective-3",
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
+    }
+  ],
+  "learning_objective_ids": [
+    "crime-data-hotspot-analysis-module-06-objective-1",
+    "crime-data-hotspot-analysis-module-06-objective-2",
+    "crime-data-hotspot-analysis-module-06-objective-3"
+  ],
   "source_files": [
     "EDA.py",
     "app.py",
     "clustering_analysis.py",
     "dimensionality_reduction.py"
   ],
-  "learning_objectives": [
-    {
-      "objective_id": "crime-data-hotspot-analysis-module-06-objective-1",
-      "text": "Explain the source role and visible behavior in EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py."
-    },
-    {
-      "objective_id": "crime-data-hotspot-analysis-module-06-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
-    },
-    {
-      "objective_id": "crime-data-hotspot-analysis-module-06-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
-    }
-  ],
+  "source_code_focus": {
+    "excerpt_file": "EDA.py",
+    "symbol_or_search_term": "load_preprocessed_data",
+    "line_start": null,
+    "line_end": null,
+    "source_status": "source tree absent; excerpt retained from earlier package"
+  },
   "prerequisites": [
     "crime-data-hotspot-analysis-module-05"
   ],
   "ordered_lesson_ids": [
-    "crime-data-hotspot-analysis-module-06-lesson-1",
-    "crime-data-hotspot-analysis-module-06-lesson-2"
+    "crime-data-hotspot-analysis-module-06-lesson-01",
+    "crime-data-hotspot-analysis-module-06-lesson-02",
+    "crime-data-hotspot-analysis-module-06-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "call graph",
     "failure cases",
-    "safe extension"
+    "safe extension",
+    "source focus: load_preprocessed_data"
   ],
   "practical_outcomes": [
-    "Evidence map for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `load_preprocessed_data` through `EDA.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

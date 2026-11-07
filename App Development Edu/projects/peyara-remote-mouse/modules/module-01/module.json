@@ -19,9 +19,11 @@
   ],
   "prerequisites": [],
   "ordered_lesson_ids": [
-    "peyara-remote-mouse-01-event-protocol-and-validation-lesson-01"
+    "peyara-remote-mouse-01-event-protocol-and-validation-lesson-01",
+    "peyara-remote-mouse-01-event-protocol-and-validation-lesson-02",
+    "peyara-remote-mouse-01-event-protocol-and-validation-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Event union, JSON encoding, decoding, bounds, and unknown-event rejection",
     "Two programs need to agree on message words. Learn the event shapes, then trace validation and JSON encoding on the phone and decoding at the relay.",
@@ -32,8 +34,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/protocol.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/protocol.ts",
+    "symbol_or_search_term": "protocol"
+  }
 }

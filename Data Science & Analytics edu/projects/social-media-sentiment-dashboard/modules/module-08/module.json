@@ -1,45 +1,59 @@
 {
   "module_id": "social-media-sentiment-dashboard-module-08",
-  "title": "Instagram Fetcher and Medium Fetcher",
-  "description": "Study the implementation in [src/fetchers/instagram_fetcher.py] and [src/fetchers/medium_fetcher.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include InstagramFetcher, __init__, get_data, MediumFetcher, __init__, get_data; confirm their complete definitions and callers in the file.",
-  "source_files": [
-    "src/fetchers/instagram_fetcher.py",
-    "src/fetchers/medium_fetcher.py"
-  ],
+  "title": "Scheduler, Utilities, and Tests",
+  "description": "Begins with an everyday explanation, then traces requirements in requirements.txt. Source units combined: Declared dependencies and runtime configuration.",
   "learning_objectives": [
     {
       "objective_id": "social-media-sentiment-dashboard-module-08-objective-1",
-      "text": "Explain the source role and visible behavior in src/fetchers/instagram_fetcher.py, src/fetchers/medium_fetcher.py."
+      "text": "Explain scheduler, utilities, and tests in plain language using the project source."
     },
     {
       "objective_id": "social-media-sentiment-dashboard-module-08-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+      "text": "Trace `requirements` in `requirements.txt` and explain its inputs, behavior, and output."
     },
     {
       "objective_id": "social-media-sentiment-dashboard-module-08-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
     }
   ],
+  "learning_objective_ids": [
+    "social-media-sentiment-dashboard-module-08-objective-1",
+    "social-media-sentiment-dashboard-module-08-objective-2",
+    "social-media-sentiment-dashboard-module-08-objective-3"
+  ],
+  "source_files": [
+    "requirements.txt",
+    "src/main.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "requirements.txt",
+    "symbol_or_search_term": "requirements",
+    "line_start": null,
+    "line_end": null,
+    "source_status": "source tree absent; excerpt retained from earlier package"
+  },
   "prerequisites": [
     "social-media-sentiment-dashboard-module-07"
   ],
   "ordered_lesson_ids": [
-    "social-media-sentiment-dashboard-module-08-lesson-1",
-    "social-media-sentiment-dashboard-module-08-lesson-2"
+    "social-media-sentiment-dashboard-module-08-lesson-01",
+    "social-media-sentiment-dashboard-module-08-lesson-02",
+    "social-media-sentiment-dashboard-module-08-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
-    "source declarations",
-    "imports and callers",
-    "inputs and outputs"
+    "declared dependencies",
+    "configuration keys",
+    "safe setup",
+    "source focus: requirements"
   ],
   "practical_outcomes": [
-    "Evidence map for src/fetchers/instagram_fetcher.py, src/fetchers/medium_fetcher.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `requirements` through `requirements.txt`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

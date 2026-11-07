@@ -18,9 +18,11 @@
   ],
   "prerequisites": [],
   "ordered_lesson_ids": [
-    "kickstarter-for-ios-01-project-records-and-sample-catalogue-lesson-01"
+    "kickstarter-for-ios-01-project-records-and-sample-catalogue-lesson-01",
+    "kickstarter-for-ios-01-project-records-and-sample-catalogue-lesson-02",
+    "kickstarter-for-ios-01-project-records-and-sample-catalogue-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Project fields, computed progress, identity, and sample catalogue",
     "A crowdfunding card is a view of a project record. Read fields such as goal and pledged amount, then follow computed progress into the reusable card UI.",
@@ -31,8 +33,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: Sources/Models.swift.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "Sources/Models.swift",
+    "symbol_or_search_term": "Models"
+  }
 }

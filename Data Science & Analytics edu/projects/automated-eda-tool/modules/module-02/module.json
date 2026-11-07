@@ -1,45 +1,61 @@
 {
   "module_id": "automated-eda-tool-module-02",
-  "title": "Pca Transformer and Pipeline",
-  "description": "Study the implementation in [autoeda/pca_transformer.py] and [autoeda/pipeline.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include apply_pca, run_outlier_pipeline, run_pca_pipeline; confirm their complete definitions and callers in the file.",
-  "source_files": [
-    "autoeda/pca_transformer.py",
-    "autoeda/pipeline.py"
-  ],
+  "title": "PCA Pipeline and Categorical Encoding",
+  "description": "Begins with an everyday explanation, then traces apply_pca in autoeda/pca_transformer.py. Source units combined: Pca Transformer and Pipeline, Data Optimizer and Encoding Categorical.",
   "learning_objectives": [
     {
       "objective_id": "automated-eda-tool-module-02-objective-1",
-      "text": "Explain the source role and visible behavior in autoeda/pca_transformer.py, autoeda/pipeline.py."
+      "text": "Explain pca pipeline and categorical encoding in plain language using the project source."
     },
     {
       "objective_id": "automated-eda-tool-module-02-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+      "text": "Trace `apply_pca` in `autoeda/pca_transformer.py` and explain its inputs, behavior, and output."
     },
     {
       "objective_id": "automated-eda-tool-module-02-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
     }
   ],
+  "learning_objective_ids": [
+    "automated-eda-tool-module-02-objective-1",
+    "automated-eda-tool-module-02-objective-2",
+    "automated-eda-tool-module-02-objective-3"
+  ],
+  "source_files": [
+    "autoeda/pca_transformer.py",
+    "autoeda/pipeline.py",
+    "autoeda/data_optimizer.py",
+    "autoeda/encoding_categorical.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "autoeda/pca_transformer.py",
+    "symbol_or_search_term": "apply_pca",
+    "line_start": null,
+    "line_end": null,
+    "source_status": "source tree absent; excerpt retained from earlier package"
+  },
   "prerequisites": [
     "automated-eda-tool-module-01"
   ],
   "ordered_lesson_ids": [
-    "automated-eda-tool-module-02-lesson-1",
-    "automated-eda-tool-module-02-lesson-2"
+    "automated-eda-tool-module-02-lesson-01",
+    "automated-eda-tool-module-02-lesson-02",
+    "automated-eda-tool-module-02-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "source declarations",
     "imports and callers",
-    "inputs and outputs"
+    "inputs and outputs",
+    "source focus: apply_pca"
   ],
   "practical_outcomes": [
-    "Evidence map for autoeda/pca_transformer.py, autoeda/pipeline.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `apply_pca` through `autoeda/pca_transformer.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

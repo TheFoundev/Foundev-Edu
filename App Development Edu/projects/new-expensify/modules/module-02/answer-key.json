@@ -12,7 +12,7 @@
       },
       "tested_concept": "Positive amount/title validation, category aggregation, and money formatting",
       "related_lesson_id": "new-expensify-02-validation-and-category-math-lesson-01",
-      "supporting_reference": "../../../../../projects/new-expensify/src/model.ts"
+      "supporting_reference": "../../../../../App Development/new-expensify/src/model.ts"
     },
     {
       "question_id": "new-expensify-m02-q02",
@@ -25,7 +25,7 @@
       },
       "tested_concept": "Positive amount/title validation, category aggregation, and money formatting",
       "related_lesson_id": "new-expensify-02-validation-and-category-math-lesson-01",
-      "supporting_reference": "../../../../../projects/new-expensify/src/model.ts"
+      "supporting_reference": "../../../../../App Development/new-expensify/src/model.ts"
     },
     {
       "question_id": "new-expensify-m02-q03",
@@ -38,7 +38,7 @@
       },
       "tested_concept": "Positive amount/title validation, category aggregation, and money formatting",
       "related_lesson_id": "new-expensify-02-validation-and-category-math-lesson-01",
-      "supporting_reference": "../../../../../projects/new-expensify/src/model.ts"
+      "supporting_reference": "../../../../../App Development/new-expensify/src/model.ts"
     },
     {
       "question_id": "new-expensify-m02-q04",
@@ -50,8 +50,8 @@
         "new-expensify-m02-q04-o4": "The lesson traces 'Validation is a gate before a row enters the report. Follow amount/title checks, then trace how category groups and totals are calculated and tested.' to src/model.ts. This option instead claims 'Message append, trimming/search, and conversation display', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Positive amount/title validation, category aggregation, and money formatting",
-      "related_lesson_id": "new-expensify-02-validation-and-category-math-lesson-01",
-      "supporting_reference": "../../../../../projects/new-expensify/src/model.ts"
+      "related_lesson_id": "new-expensify-02-validation-and-category-math-lesson-02",
+      "supporting_reference": "../../../../../App Development/new-expensify/src/model.ts"
     },
     {
       "question_id": "new-expensify-m02-q05",
@@ -63,8 +63,8 @@
         "new-expensify-m02-q05-o4": "The lesson traces 'Positive amount/title validation, category aggregation, and money formatting' to src/model.ts. This option instead claims 'Message append, trimming/search, and conversation display', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Positive amount/title validation, category aggregation, and money formatting",
-      "related_lesson_id": "new-expensify-02-validation-and-category-math-lesson-01",
-      "supporting_reference": "../../../../../projects/new-expensify/src/model.ts"
+      "related_lesson_id": "new-expensify-02-validation-and-category-math-lesson-02",
+      "supporting_reference": "../../../../../App Development/new-expensify/src/model.ts"
     },
     {
       "question_id": "new-expensify-m02-q06",
@@ -76,8 +76,8 @@
         "new-expensify-m02-q06-o2": "The lesson traces 'Validation is a gate before a row enters the report. Follow amount/title checks, then trace how category groups and totals are calculated and tested.' to src/model.ts. This option instead claims 'Expense and Report types, seed records, and derived totals', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Positive amount/title validation, category aggregation, and money formatting",
-      "related_lesson_id": "new-expensify-02-validation-and-category-math-lesson-01",
-      "supporting_reference": "../../../../../projects/new-expensify/src/model.ts"
+      "related_lesson_id": "new-expensify-02-validation-and-category-math-lesson-02",
+      "supporting_reference": "../../../../../App Development/new-expensify/src/model.ts"
     },
     {
       "question_id": "new-expensify-m02-q07",
@@ -89,8 +89,8 @@
         "new-expensify-m02-q07-o3": "The lesson traces 'This is not a tax, compliance, or accounting rules engine.' to src/model.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Positive amount/title validation, category aggregation, and money formatting",
-      "related_lesson_id": "new-expensify-02-validation-and-category-math-lesson-01",
-      "supporting_reference": "../../../../../projects/new-expensify/src/model.ts"
+      "related_lesson_id": "new-expensify-02-validation-and-category-math-lesson-02",
+      "supporting_reference": "../../../../../App Development/new-expensify/src/model.ts"
     },
     {
       "question_id": "new-expensify-m02-q08",
@@ -102,8 +102,8 @@
         "new-expensify-m02-q08-o4": "The lesson traces 'src/model.ts' to src/model.ts. This option instead claims 'package.json', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Positive amount/title validation, category aggregation, and money formatting",
-      "related_lesson_id": "new-expensify-02-validation-and-category-math-lesson-01",
-      "supporting_reference": "../../../../../projects/new-expensify/src/model.ts"
+      "related_lesson_id": "new-expensify-02-validation-and-category-math-lesson-02",
+      "supporting_reference": "../../../../../App Development/new-expensify/src/model.ts"
     },
     {
       "question_id": "new-expensify-m02-q09",
@@ -115,8 +115,8 @@
         "new-expensify-m02-q09-o4": "The lesson traces 'Do not claim production readiness: This is not a tax, compliance, or accounting rules engine.' to src/model.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Positive amount/title validation, category aggregation, and money formatting",
-      "related_lesson_id": "new-expensify-02-validation-and-category-math-lesson-01",
-      "supporting_reference": "../../../../../projects/new-expensify/src/model.ts"
+      "related_lesson_id": "new-expensify-02-validation-and-category-math-lesson-03",
+      "supporting_reference": "../../../../../App Development/new-expensify/src/model.ts"
     },
     {
       "question_id": "new-expensify-m02-q10",
@@ -128,8 +128,8 @@
         "new-expensify-m02-q10-o2": "The lesson traces 'Validation is a gate before a row enters the report. Follow amount/title checks, then trace how category groups and totals are calculated and tested.' to src/model.ts. This option instead claims 'Expense and Report types, seed records, and derived totals', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Positive amount/title validation, category aggregation, and money formatting",
-      "related_lesson_id": "new-expensify-02-validation-and-category-math-lesson-01",
-      "supporting_reference": "../../../../../projects/new-expensify/src/model.ts"
+      "related_lesson_id": "new-expensify-02-validation-and-category-math-lesson-03",
+      "supporting_reference": "../../../../../App Development/new-expensify/src/model.ts"
     }
   ]
 }

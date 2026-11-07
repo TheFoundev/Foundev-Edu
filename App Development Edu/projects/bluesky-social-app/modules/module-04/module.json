@@ -21,9 +21,11 @@
     "bluesky-social-app-03-interactions"
   ],
   "ordered_lesson_ids": [
-    "bluesky-social-app-04-state-and-persistence-lesson-01"
+    "bluesky-social-app-04-state-and-persistence-lesson-01",
+    "bluesky-social-app-04-state-and-persistence-lesson-02",
+    "bluesky-social-app-04-state-and-persistence-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Context state lifecycle, storage adapter, migration defaults, and corrupt data",
     "Context is the shared clipboard for screens; the store is the filing cabinet. Follow load, state initialization, effects that save changes, and the storage adapter. Inspect defaults for older saves with no bookmarks and malformed values.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/store.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/feedContext.tsx",
+    "symbol_or_search_term": "feedContext"
+  }
 }

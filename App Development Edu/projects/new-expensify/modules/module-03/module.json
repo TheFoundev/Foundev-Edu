@@ -21,9 +21,11 @@
     "new-expensify-02-validation-and-category-math"
   ],
   "ordered_lesson_ids": [
-    "new-expensify-03-report-workflow-states-lesson-01"
+    "new-expensify-03-report-workflow-states-lesson-01",
+    "new-expensify-03-report-workflow-states-lesson-02",
+    "new-expensify-03-report-workflow-states-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Allowed status transitions, submission preconditions, and immutable updates",
     "A report workflow is a state machine: each action changes state only if the current state allows it. Trace the guard conditions and see what tests assert about invalid transitions.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/model.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/model.ts",
+    "symbol_or_search_term": "model"
+  }
 }

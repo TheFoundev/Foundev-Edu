@@ -98,8 +98,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "new-expensify-06-screens-and-controls-objective-01",
-      "lesson_id": "new-expensify-06-screens-and-controls-lesson-01"
+      "learning_objective_id": "new-expensify-06-screens-and-controls-objective-02",
+      "lesson_id": "new-expensify-06-screens-and-controls-lesson-02"
     },
     {
       "question_id": "new-expensify-m06-q05",
@@ -123,8 +123,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "new-expensify-06-screens-and-controls-objective-01",
-      "lesson_id": "new-expensify-06-screens-and-controls-lesson-01"
+      "learning_objective_id": "new-expensify-06-screens-and-controls-objective-02",
+      "lesson_id": "new-expensify-06-screens-and-controls-lesson-02"
     },
     {
       "question_id": "new-expensify-m06-q06",
@@ -148,8 +148,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "new-expensify-06-screens-and-controls-objective-01",
-      "lesson_id": "new-expensify-06-screens-and-controls-lesson-01"
+      "learning_objective_id": "new-expensify-06-screens-and-controls-objective-02",
+      "lesson_id": "new-expensify-06-screens-and-controls-lesson-02"
     },
     {
       "question_id": "new-expensify-m06-q07",
@@ -173,8 +173,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "new-expensify-06-screens-and-controls-objective-01",
-      "lesson_id": "new-expensify-06-screens-and-controls-lesson-01"
+      "learning_objective_id": "new-expensify-06-screens-and-controls-objective-02",
+      "lesson_id": "new-expensify-06-screens-and-controls-lesson-02"
     },
     {
       "question_id": "new-expensify-m06-q08",
@@ -198,8 +198,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "new-expensify-06-screens-and-controls-objective-01",
-      "lesson_id": "new-expensify-06-screens-and-controls-lesson-01"
+      "learning_objective_id": "new-expensify-06-screens-and-controls-objective-02",
+      "lesson_id": "new-expensify-06-screens-and-controls-lesson-02"
     },
     {
       "question_id": "new-expensify-m06-q09",
@@ -223,8 +223,8 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "new-expensify-06-screens-and-controls-objective-01",
-      "lesson_id": "new-expensify-06-screens-and-controls-lesson-01"
+      "learning_objective_id": "new-expensify-06-screens-and-controls-objective-03",
+      "lesson_id": "new-expensify-06-screens-and-controls-lesson-03"
     },
     {
       "question_id": "new-expensify-m06-q10",
@@ -248,8 +248,8 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "new-expensify-06-screens-and-controls-objective-01",
-      "lesson_id": "new-expensify-06-screens-and-controls-lesson-01"
+      "learning_objective_id": "new-expensify-06-screens-and-controls-objective-03",
+      "lesson_id": "new-expensify-06-screens-and-controls-lesson-03"
     }
   ]
 }

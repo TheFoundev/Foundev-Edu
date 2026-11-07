@@ -1,45 +1,59 @@
 {
   "module_id": "rag-evaluation-harness-with-ragas-module-03",
   "title": "Test code and evidence boundaries",
-  "description": "Read test implementations tests/test_pipeline.py. Identify the behavior each assertion encodes, connect it to implementation, and distinguish a test file from an executed passing result. The test/configuration evidence is traced into implementation src/pipeline.py.",
+  "description": "Begins with an everyday explanation, then traces test_pipeline_runs in tests/test_pipeline.py. Source units combined: Test code and evidence boundaries.",
+  "learning_objectives": [
+    {
+      "objective_id": "rag-evaluation-harness-with-ragas-module-03-objective-1",
+      "text": "Explain test code and evidence boundaries in plain language using the project source."
+    },
+    {
+      "objective_id": "rag-evaluation-harness-with-ragas-module-03-objective-2",
+      "text": "Trace `test_pipeline_runs` in `tests/test_pipeline.py` and explain its inputs, behavior, and output."
+    },
+    {
+      "objective_id": "rag-evaluation-harness-with-ragas-module-03-objective-3",
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
+    }
+  ],
+  "learning_objective_ids": [
+    "rag-evaluation-harness-with-ragas-module-03-objective-1",
+    "rag-evaluation-harness-with-ragas-module-03-objective-2",
+    "rag-evaluation-harness-with-ragas-module-03-objective-3"
+  ],
   "source_files": [
     "tests/test_pipeline.py",
     "src/pipeline.py"
   ],
-  "learning_objectives": [
-    {
-      "objective_id": "rag-evaluation-harness-with-ragas-module-03-objective-1",
-      "text": "Explain the source role and visible behavior in tests/test_pipeline.py."
-    },
-    {
-      "objective_id": "rag-evaluation-harness-with-ragas-module-03-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
-    },
-    {
-      "objective_id": "rag-evaluation-harness-with-ragas-module-03-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
-    }
-  ],
+  "source_code_focus": {
+    "excerpt_file": "tests/test_pipeline.py",
+    "symbol_or_search_term": "test_pipeline_runs",
+    "line_start": 2,
+    "line_end": 22,
+    "source_status": "verified source file exists"
+  },
   "prerequisites": [
     "rag-evaluation-harness-with-ragas-module-02"
   ],
   "ordered_lesson_ids": [
-    "rag-evaluation-harness-with-ragas-module-03-lesson-1",
-    "rag-evaluation-harness-with-ragas-module-03-lesson-2"
+    "rag-evaluation-harness-with-ragas-module-03-lesson-01",
+    "rag-evaluation-harness-with-ragas-module-03-lesson-02",
+    "rag-evaluation-harness-with-ragas-module-03-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "test assertions",
     "fixtures",
-    "limits of test evidence"
+    "limits of test evidence",
+    "source focus: test_pipeline_runs"
   ],
   "practical_outcomes": [
-    "Evidence map for tests/test_pipeline.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `test_pipeline_runs` through `tests/test_pipeline.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

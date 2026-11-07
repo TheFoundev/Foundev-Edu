@@ -21,9 +21,11 @@
     "duckduckgo-for-ios-01-browser-core-and-url-routing"
   ],
   "ordered_lesson_ids": [
-    "duckduckgo-for-ios-02-tabs-and-persistence-lesson-01"
+    "duckduckgo-for-ios-02-tabs-and-persistence-lesson-01",
+    "duckduckgo-for-ios-02-tabs-and-persistence-lesson-02",
+    "duckduckgo-for-ios-02-tabs-and-persistence-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "BrowserTab identity, selected-tab behavior, close rules, and UserDefaults persistence",
     "A tab is a labelled bookmark to a current page. Follow its ID through selection and closing, then inspect what the store saves across launches and what happens when the last tab closes.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: Sources/Models.swift.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "Sources/Models.swift",
+    "symbol_or_search_term": "Models"
+  }
 }

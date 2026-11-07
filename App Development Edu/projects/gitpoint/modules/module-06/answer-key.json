@@ -12,7 +12,7 @@
       },
       "tested_concept": "Mock response evidence, test script, public API boundary, and token risk",
       "related_lesson_id": "gitpoint-06-tests-security-and-mini-project-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/test/github.test.ts"
+      "supporting_reference": "../../../../../App Development/gitpoint/test/github.test.ts"
     },
     {
       "question_id": "gitpoint-m06-q02",
@@ -25,7 +25,7 @@
       },
       "tested_concept": "Mock response evidence, test script, public API boundary, and token risk",
       "related_lesson_id": "gitpoint-06-tests-security-and-mini-project-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/test/github.test.ts"
+      "supporting_reference": "../../../../../App Development/gitpoint/test/github.test.ts"
     },
     {
       "question_id": "gitpoint-m06-q03",
@@ -38,7 +38,7 @@
       },
       "tested_concept": "Mock response evidence, test script, public API boundary, and token risk",
       "related_lesson_id": "gitpoint-06-tests-security-and-mini-project-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/test/github.test.ts"
+      "supporting_reference": "../../../../../App Development/gitpoint/test/github.test.ts"
     },
     {
       "question_id": "gitpoint-m06-q04",
@@ -50,8 +50,8 @@
         "gitpoint-m06-q04-o4": "The lesson traces 'Mocked responses prove mapping logic without contacting GitHub. Compare tests with API behavior and identify secure credential handling and pagination work needed for a real account client.' to test/github.test.ts. This option instead claims 'Search fields, date ordering, state filters, and list rendering', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Mock response evidence, test script, public API boundary, and token risk",
-      "related_lesson_id": "gitpoint-06-tests-security-and-mini-project-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/test/github.test.ts"
+      "related_lesson_id": "gitpoint-06-tests-security-and-mini-project-lesson-02",
+      "supporting_reference": "../../../../../App Development/gitpoint/test/github.test.ts"
     },
     {
       "question_id": "gitpoint-m06-q05",
@@ -63,8 +63,8 @@
         "gitpoint-m06-q05-o4": "The lesson traces 'Mock response evidence, test script, public API boundary, and token risk' to test/github.test.ts. This option instead claims 'Search fields, date ordering, state filters, and list rendering', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Mock response evidence, test script, public API boundary, and token risk",
-      "related_lesson_id": "gitpoint-06-tests-security-and-mini-project-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/test/github.test.ts"
+      "related_lesson_id": "gitpoint-06-tests-security-and-mini-project-lesson-02",
+      "supporting_reference": "../../../../../App Development/gitpoint/test/github.test.ts"
     },
     {
       "question_id": "gitpoint-m06-q06",
@@ -76,8 +76,8 @@
         "gitpoint-m06-q06-o2": "The lesson traces 'Mocked responses prove mapping logic without contacting GitHub. Compare tests with API behavior and identify secure credential handling and pagination work needed for a real account client.' to test/github.test.ts. This option instead claims 'Repository/issue shapes, response mapping, sample data, and sort fields', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Mock response evidence, test script, public API boundary, and token risk",
-      "related_lesson_id": "gitpoint-06-tests-security-and-mini-project-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/test/github.test.ts"
+      "related_lesson_id": "gitpoint-06-tests-security-and-mini-project-lesson-02",
+      "supporting_reference": "../../../../../App Development/gitpoint/test/github.test.ts"
     },
     {
       "question_id": "gitpoint-m06-q07",
@@ -89,8 +89,8 @@
         "gitpoint-m06-q07-o3": "The lesson traces 'Do not put a personal access token in a client bundle or commit it into source.' to test/github.test.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Mock response evidence, test script, public API boundary, and token risk",
-      "related_lesson_id": "gitpoint-06-tests-security-and-mini-project-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/test/github.test.ts"
+      "related_lesson_id": "gitpoint-06-tests-security-and-mini-project-lesson-02",
+      "supporting_reference": "../../../../../App Development/gitpoint/test/github.test.ts"
     },
     {
       "question_id": "gitpoint-m06-q08",
@@ -102,8 +102,8 @@
         "gitpoint-m06-q08-o4": "The lesson traces 'test/github.test.ts' to test/github.test.ts. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Mock response evidence, test script, public API boundary, and token risk",
-      "related_lesson_id": "gitpoint-06-tests-security-and-mini-project-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/test/github.test.ts"
+      "related_lesson_id": "gitpoint-06-tests-security-and-mini-project-lesson-02",
+      "supporting_reference": "../../../../../App Development/gitpoint/test/github.test.ts"
     },
     {
       "question_id": "gitpoint-m06-q09",
@@ -115,8 +115,8 @@
         "gitpoint-m06-q09-o4": "The lesson traces 'Do not claim production readiness: Do not put a personal access token in a client bundle or commit it into source.' to test/github.test.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Mock response evidence, test script, public API boundary, and token risk",
-      "related_lesson_id": "gitpoint-06-tests-security-and-mini-project-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/test/github.test.ts"
+      "related_lesson_id": "gitpoint-06-tests-security-and-mini-project-lesson-03",
+      "supporting_reference": "../../../../../App Development/gitpoint/test/github.test.ts"
     },
     {
       "question_id": "gitpoint-m06-q10",
@@ -128,8 +128,8 @@
         "gitpoint-m06-q10-o2": "The lesson traces 'Mocked responses prove mapping logic without contacting GitHub. Compare tests with API behavior and identify secure credential handling and pagination work needed for a real account client.' to test/github.test.ts. This option instead claims 'Repository/issue shapes, response mapping, sample data, and sort fields', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Mock response evidence, test script, public API boundary, and token risk",
-      "related_lesson_id": "gitpoint-06-tests-security-and-mini-project-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/test/github.test.ts"
+      "related_lesson_id": "gitpoint-06-tests-security-and-mini-project-lesson-03",
+      "supporting_reference": "../../../../../App Development/gitpoint/test/github.test.ts"
     }
   ]
 }

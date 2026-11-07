@@ -1,45 +1,61 @@
 {
   "module_id": "social-media-sentiment-dashboard-module-02",
-  "title": "Social Post and Conftest",
-  "description": "Study the implementation in [src/models/social_post.py] and [conftest.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include SocialPost; confirm their complete definitions and callers in the file.",
-  "source_files": [
-    "src/models/social_post.py",
-    "conftest.py"
-  ],
+  "title": "Analytics Metrics and Sentiment/Trend",
+  "description": "Begins with an everyday explanation, then traces __init__ in src/analytics/__init__.py. Source units combined: undefined undefined Init undefined undefined and Metrics, Sentiment Analysis and Trend Analysis.",
   "learning_objectives": [
     {
       "objective_id": "social-media-sentiment-dashboard-module-02-objective-1",
-      "text": "Explain the source role and visible behavior in src/models/social_post.py, conftest.py."
+      "text": "Explain analytics metrics and sentiment/trend in plain language using the project source."
     },
     {
       "objective_id": "social-media-sentiment-dashboard-module-02-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+      "text": "Trace `__init__` in `src/analytics/__init__.py` and explain its inputs, behavior, and output."
     },
     {
       "objective_id": "social-media-sentiment-dashboard-module-02-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
     }
   ],
+  "learning_objective_ids": [
+    "social-media-sentiment-dashboard-module-02-objective-1",
+    "social-media-sentiment-dashboard-module-02-objective-2",
+    "social-media-sentiment-dashboard-module-02-objective-3"
+  ],
+  "source_files": [
+    "src/analytics/__init__.py",
+    "src/analytics/metrics.py",
+    "src/analytics/sentiment_analysis.py",
+    "src/analytics/trend_analysis.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/analytics/__init__.py",
+    "symbol_or_search_term": "__init__",
+    "line_start": null,
+    "line_end": null,
+    "source_status": "source tree absent; excerpt retained from earlier package"
+  },
   "prerequisites": [
     "social-media-sentiment-dashboard-module-01"
   ],
   "ordered_lesson_ids": [
-    "social-media-sentiment-dashboard-module-02-lesson-1",
-    "social-media-sentiment-dashboard-module-02-lesson-2"
+    "social-media-sentiment-dashboard-module-02-lesson-01",
+    "social-media-sentiment-dashboard-module-02-lesson-02",
+    "social-media-sentiment-dashboard-module-02-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "source declarations",
     "imports and callers",
-    "inputs and outputs"
+    "inputs and outputs",
+    "source focus: __init__"
   ],
   "practical_outcomes": [
-    "Evidence map for src/models/social_post.py, conftest.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `__init__` through `src/analytics/__init__.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

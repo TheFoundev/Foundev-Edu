@@ -21,9 +21,11 @@
     "kickstarter-for-ios-01-project-records-and-sample-catalogue"
   ],
   "ordered_lesson_ids": [
-    "kickstarter-for-ios-02-discovery-search-and-categories-lesson-01"
+    "kickstarter-for-ios-02-discovery-search-and-categories-lesson-01",
+    "kickstarter-for-ios-02-discovery-search-and-categories-lesson-02",
+    "kickstarter-for-ios-02-discovery-search-and-categories-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Category data, search matching, sort ordering, and discovery rendering",
     "Search and category controls narrow the sample catalogue. Follow the selected filter into the store/core and verify how the view receives the filtered projects.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: Sources/Core.swift.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "Sources/Core.swift",
+    "symbol_or_search_term": "Core"
+  }
 }

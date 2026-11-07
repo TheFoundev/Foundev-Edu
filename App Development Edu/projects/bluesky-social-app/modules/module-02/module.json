@@ -20,9 +20,11 @@
     "bluesky-social-app-01-feed-model"
   ],
   "ordered_lesson_ids": [
-    "bluesky-social-app-02-publishing-and-validation-lesson-01"
+    "bluesky-social-app-02-publishing-and-validation-lesson-01",
+    "bluesky-social-app-02-publishing-and-validation-lesson-02",
+    "bluesky-social-app-02-publishing-and-validation-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Composer validation, length limits, and immutable insertion",
     "A composer is a small form with a gatekeeper. Trace the text field to canPublish and publishPost, note trimming and the 300-character rule, and follow how the new record is placed at the top without mutating the previous list.",
@@ -33,8 +35,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/feed.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/screens/FeedScreen.tsx",
+    "symbol_or_search_term": "FeedScreen"
+  }
 }

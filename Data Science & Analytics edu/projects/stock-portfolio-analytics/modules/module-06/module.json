@@ -1,7 +1,26 @@
 {
   "module_id": "stock-portfolio-analytics-module-06",
   "title": "Test code and evidence boundaries",
-  "description": "Read test implementations test/drawdowns/tests_dev.js, test/drawdowns/tests_dist.js, test/ratios/test_sharpe-ratios_dev.js, test/ratios/tests_dist.js. Identify the behavior each assertion encodes, connect it to implementation, and distinguish a test file from an executed passing result. The test/configuration evidence is traced into implementation Gruntfile.js.",
+  "description": "Begins with an everyday explanation, then traces tests_dev in test/drawdowns/tests_dev.js. Source units combined: Test code and evidence boundaries.",
+  "learning_objectives": [
+    {
+      "objective_id": "stock-portfolio-analytics-module-06-objective-1",
+      "text": "Explain test code and evidence boundaries in plain language using the project source."
+    },
+    {
+      "objective_id": "stock-portfolio-analytics-module-06-objective-2",
+      "text": "Trace `tests_dev` in `test/drawdowns/tests_dev.js` and explain its inputs, behavior, and output."
+    },
+    {
+      "objective_id": "stock-portfolio-analytics-module-06-objective-3",
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
+    }
+  ],
+  "learning_objective_ids": [
+    "stock-portfolio-analytics-module-06-objective-1",
+    "stock-portfolio-analytics-module-06-objective-2",
+    "stock-portfolio-analytics-module-06-objective-3"
+  ],
   "source_files": [
     "test/drawdowns/tests_dev.js",
     "test/drawdowns/tests_dist.js",
@@ -9,40 +28,35 @@
     "test/ratios/tests_dist.js",
     "Gruntfile.js"
   ],
-  "learning_objectives": [
-    {
-      "objective_id": "stock-portfolio-analytics-module-06-objective-1",
-      "text": "Explain the source role and visible behavior in test/drawdowns/tests_dev.js, test/drawdowns/tests_dist.js, test/ratios/test_sharpe-ratios_dev.js, test/ratios/tests_dist.js."
-    },
-    {
-      "objective_id": "stock-portfolio-analytics-module-06-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
-    },
-    {
-      "objective_id": "stock-portfolio-analytics-module-06-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
-    }
-  ],
+  "source_code_focus": {
+    "excerpt_file": "test/drawdowns/tests_dev.js",
+    "symbol_or_search_term": "tests_dev",
+    "line_start": null,
+    "line_end": null,
+    "source_status": "source tree absent; excerpt retained from earlier package"
+  },
   "prerequisites": [
     "stock-portfolio-analytics-module-05"
   ],
   "ordered_lesson_ids": [
-    "stock-portfolio-analytics-module-06-lesson-1",
-    "stock-portfolio-analytics-module-06-lesson-2"
+    "stock-portfolio-analytics-module-06-lesson-01",
+    "stock-portfolio-analytics-module-06-lesson-02",
+    "stock-portfolio-analytics-module-06-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "test assertions",
     "fixtures",
-    "limits of test evidence"
+    "limits of test evidence",
+    "source focus: tests_dev"
   ],
   "practical_outcomes": [
-    "Evidence map for test/drawdowns/tests_dev.js, test/drawdowns/tests_dist.js, test/ratios/test_sharpe-ratios_dev.js, test/ratios/tests_dist.js",
-    "Source-grounded call/data/configuration trace"
+    "Trace `tests_dev` through `test/drawdowns/tests_dev.js`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

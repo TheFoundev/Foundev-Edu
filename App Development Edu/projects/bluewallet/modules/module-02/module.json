@@ -20,9 +20,11 @@
     "bluewallet-01-wallet-model-and-ui"
   ],
   "ordered_lesson_ids": [
-    "bluewallet-02-address-validation-lesson-01"
+    "bluewallet-02-address-validation-lesson-01",
+    "bluewallet-02-address-validation-lesson-02",
+    "bluewallet-02-address-validation-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Bech32 checksum and witness program validation; Base58 prefix/length screening; accepted address boundary",
     "An address is like a destination label with a built-in error check. Follow Bech32 decoding from characters to checksum and witness data, compare the simpler Base58 prefix/length screen, and see how the send screen rejects input before requesting a transaction plan.",
@@ -33,8 +35,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/address.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/address.ts",
+    "symbol_or_search_term": "address"
+  }
 }

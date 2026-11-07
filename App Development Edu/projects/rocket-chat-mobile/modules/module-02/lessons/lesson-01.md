@@ -1,122 +1,93 @@
-# A client opens a socket and speaks DDP messages
+# A client opens a socket and speaks DDP messages: Begin with the idea
 
 **Lesson ID:** `rocket-chat-mobile-02-ddp-client-lifecycle-lesson-01`  
-**Project:** Rocket.Chat Mobile  
-**Source focus:** `src/chat.ts` — `export class DdpClient`
+**Module ID:** `rocket-chat-mobile-02-ddp-client-lifecycle`  
+**Source focus:** `src/chat.ts` → `chat`
 
 ## Purpose and learning objectives
 
-In plain terms, this lesson teaches **A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests**. After finishing, you can:
-
-- Explain the behavior above to a new learner using the project’s actual behavior.
-- Locate and trace the implementation in `src/chat.ts` and distinguish it from nearby UI or storage layers.
-- Describe the exact limitation: The app-specific methods channels.list, chat.sendMessage, and chat.getMessages are not verified Rocket.Chat method names; DDP method calls are marked deprecated in current Rocket.Chat documentation.
-- Use the provided exercise to inspect, change, or debug this part without claiming integrations that are absent.
+Before reading the excerpt, name the input, the result the user expects, and one assumption the app makes. By the end, explain the behavior and identify what the source does not establish.
 
 ## Prerequisites
 
-- Read the project [README](../../../README.md) and [setup guide](../../../setup-guide.md).
-- Be comfortable opening a source file and reading a function or view declaration. The [glossary](../../../glossary.md) defines project terms.
-
-## Begin with the everyday picture
-
-The everyday problem is simple: A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests. First understand what the user is trying to do and what result they expect; then follow the source to see how the code handles it. The core implementation concept is **Socket abstraction, connect/session, method IDs, ping/pong, timeout and close**. This is a learning implementation, so keep the limit in view: The app-specific methods channels.list, chat.sendMessage, and chat.getMessages are not verified Rocket.Chat method names; DDP method calls are marked deprecated in current Rocket.Chat documentation.
-
-## Learning objectives
-
-1. Describe the everyday behavior: A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests.
-2. Find the relevant implementation in `src/chat.ts` and explain the named symbol.
-3. Trace the responsibility across the related files: `src/chat.ts`, `test/chat.test.ts`.
-4. Identify a realistic failure or safety boundary and state how the source handles it.
+Basic programming and a way to read the source project.Read the project [README](../../../README.md) and [setup guide](../../../setup-guide.md).
 
 ## Progressive explanation
 
-### 1. Start with the user-visible problem
+### Beginner explanation
 
-The user is trying to complete one small task in the app: A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests. A reliable implementation gives that task a clear input, an explicit result, and a predictable state change. In this project, the main concept is **Socket abstraction, connect/session, method IDs, ping/pong, timeout and close**.
+Imagine **A client opens a socket and speaks DDP messages** as a small part of a phone app: it receives a value or action and helps produce a result. This module’s plain-language model is: A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests.
 
-### 2. Build the mental model
+### Step toward the implementation
 
-Treat the source file as the rulebook for this operation. The other files in the map provide the event, data, or rendered result. Do not assume a network, payment, account, or platform capability just because the product concept usually has one. Here the documented limit is: The app-specific methods channels.list, chat.sendMessage, and chat.getMessages are not verified Rocket.Chat method names; DDP method calls are marked deprecated in current Rocket.Chat documentation.
+Before reading the excerpt, name the input, the result the user expects, and one assumption the app makes. The source files for this module are `src/chat.ts`, `test/chat.test.ts`.
 
-### 3. Read the real implementation
+## Source evidence
 
-The excerpt below is copied directly from `src/chat.ts` around `export class DdpClient`. Use it to identify inputs, state or return values, and the next boundary. The full file is authoritative when the excerpt omits surrounding context.
+Excerpt from [`src/chat.ts`](../../../../../../App%20Development/rocket-chat-mobile/src/chat.ts); copied from the source, not executed during package refinement. Read surrounding lines for full context.
 
-```typescript
-export class DdpClient {
-  private socket: Socket | null = null;
-  private nextId = 1;
-  private pending = new Map<number, { resolve: (value: unknown) => void; reject: (error: Error) => void }>();
-  private messageHandler: ((message: DdpMessage) => void) | null = null;
-  private currentState: ConnectionState = 'idle';
+```ts
+/**
+ * The chat client.
+ *
+ * The client speaks the DDP protocol over a websocket: a JSON message with a
+ * `msg` field, a `method` for the calls and a `id` for the answers. The
+ * socket is given to the client, so the tests can answer without a network.
+ *
+ * No imports, so the client can be tested without a React Native runtime.
+ */
 
-  private socketFactory: (url: string) => Socket;
+export type Channel = {
+  id: string;
+  name: string;
+  topic: string;
+  unread: number;
+  members: number;
+  private?: boolean;
+};
 
-  constructor(socketFactory: (url: string) => Socket) {
-    this.socketFactory = socketFactory;
-  }
-
-  /** The state of the connection. */
-  get state(): ConnectionState {
-    return this.currentState;
-  }
-
+export type ChatMessage = {
+  id: string;
 ```
 
+### Read it step by step
 
+1. Find the focus cue `chat` and identify its arguments or input values.
+2. Follow the condition or transformation and identify the returned value or state update.
+3. Trace one caller and compare the result with the README claim.
+4. Note any local-only, mock, placeholder, or external-service boundary.
 
-The selected symbol is `export class DdpClient`. Relate its code to this source map:
+## Expected behavior and boundaries
 
-- `src/chat.ts` — inspect how this part participates in socket abstraction, connect/session, method ids, ping/pong, timeout and close.
-- `test/chat.test.ts` — inspect how this part participates in socket abstraction, connect/session, method ids, ping/pong, timeout and close.
-
-### 4. Step-by-step source reading
-
-1. Open `src/chat.ts` and search for `export class DdpClient`.
-2. Read the containing function/type and write down its input, output, and state effects.
-3. Follow the user action or caller into the related files listed above. Note where the source crosses from UI into model, storage, or service code.
-4. Compare the implemented path with the project README’s feature and limitation notes. Mark statements that are sample data, local state, simulation, or an external integration.
-5. Read the closest test or configuration file (if present) and separate asserted behavior from untested runtime behavior.
-6. Make one small change in your own working copy, run the documented check when available, and record what the check does not prove.
-
-### 5. Expected behavior and limitations
-
-Expected behavior follows the source focus: A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests. The known limitation is explicit: The app-specific methods channels.list, chat.sendMessage, and chat.getMessages are not verified Rocket.Chat method names; DDP method calls are marked deprecated in current Rocket.Chat documentation. A structural test or pure unit test can support the local rule, but cannot establish that an outside API, device permission, simulator, server, payment provider, or deployment works.
+The lesson should produce a source-backed explanation of **A client opens a socket and speaks DDP messages**. A test or code excerpt establishes only the behavior it covers; it does not prove an external API, device, deployment, or provider works.
 
 ## Practical exercise
 
-Complete exercise `rocket-chat-mobile-02-ddp-client-lifecycle-exercise-01` in `exercises/exercise-01.json`. The exercise asks you to inspect the named source, implement or debug a bounded change, add evidence, and preserve the stated safety constraints. Estimated time: 45–90 minutes.
+Complete [`exercise-01.json`](../exercises/exercise-01.json). Add an input or edge case, cite the source, and write the expected result before changing code.
 
 ## Common mistakes and debugging
 
-- **Reading only the screen:** follow the action to `src/chat.ts`; UI labels alone do not define behavior.
-- **Assuming a product-name feature exists:** compare the implementation and the limitation above with the project README.
-- **Changing state in several places:** identify the owning model/store/context before editing.
-- **Calling a test a full-system check:** determine whether it uses fake data, fake storage, a fake socket, or a real runtime.
-- **Debug sequence:** reproduce the behavior, inspect the relevant input, log or assert the model result, verify the caller and rendered state, then check persistence or network boundaries separately.
+- Inferring feature behavior from the product name or screen alone.
+- Skipping the caller, model/state layer, or error path.
+- Treating local sample data or a mock response as a real service result.
+- Debug by tracing input → validation → transformation → output and then checking the relevant test.
 
 ## Best practices and security
 
-- Keep this behavior small and testable; make validation and failure outcomes explicit.
-- Preserve the typed boundary and avoid trusting unvalidated input.
-- Do not place credentials, private keys, health details, financial records, or trusted-network controls in an insecure client setting.
-- If a service integration is proposed, add authentication, transport protection, privacy review, and provider-specific tests before describing it as implemented.
-- See the project-specific review items and [Owasp Mobile](https://mas.owasp.org/MASVS/).
+Protect credentials and personal data, validate untrusted inputs, request only necessary device permissions, and keep provider/device behavior explicitly unverified until tested in an authorized environment.
 
 ## Summary
 
-You started from the user task, named its everyday model, followed `export class DdpClient` in `src/chat.ts`, and traced the related files. The implemented behavior is **A protocol client is a translator that sends structured envelopes and waits for matching replies. Follow connect, request IDs, timeouts, and ping handling through the fake-socket tests**; the boundary is **The app-specific methods channels.list, chat.sendMessage, and chat.getMessages are not verified Rocket.Chat method names; DDP method calls are marked deprecated in current Rocket.Chat documentation**.
+You began with the module’s plain meaning, traced `chat` in `src/chat.ts`, and identified one limit or testable boundary.
 
 ## Knowledge checks
 
-1. Which source file owns the core rule, and which file calls it?
-2. What does the named implementation actually change or return?
-3. What is deliberately absent, simulated, local-only, or still unverified?
-4. Which test would you add to guard the behavior after a change?
+1. What input or action reaches the source focus?
+2. What does the code change or return?
+3. Which edge case or integration boundary needs verification?
 
 ## References
 
-- Project source: [`src/chat.ts`](../../../../../../projects/rocket-chat-mobile/src/chat.ts)
-- Project documentation: [README](../../../README.md), [architecture](../../../architecture.md), [setup guide](../../../setup-guide.md)
-- Official learning references: [React Native](https://reactnative.dev/docs/getting-started), [Expo](https://docs.expo.dev/), [Async Storage](https://docs.expo.dev/versions/latest/sdk/async-storage/), [Expo Env](https://docs.expo.dev/guides/environment-variables/), [Rocket Ddp](https://developer.rocket.chat/apidocs/which-api-should-i-use), [Rocket Ddp Methods](https://developer.rocket.chat/apidocs/realtime-method-calls), [Websocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket), [Node Test](https://nodejs.org/api/test.html), [Owasp Mobile](https://mas.owasp.org/MASVS/)
+- [Project README](../../../README.md)
+- [Setup guide](../../../setup-guide.md)
+- [Source file](../../../../../../App%20Development/rocket-chat-mobile/src/chat.ts)

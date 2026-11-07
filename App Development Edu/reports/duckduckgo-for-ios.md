@@ -1,7 +1,7 @@
 # Validation report — duckduckgo-for-ios
 
-- Generated: 2026-11-07T05:29:17.264390+00:00
-- Modules: 6; lessons: 6; questions: 60
+- Generated: 2026-11-07T09:03:58.543308+00:00
+- Modules: 6; lessons: 18; questions: 60
 - Structural result: **PASS**
 
 ## Passed checks

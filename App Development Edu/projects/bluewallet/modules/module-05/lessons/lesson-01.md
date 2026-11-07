@@ -1,146 +1,73 @@
-# Demo wallet versus Electrum adapter
+# Demo wallet versus Electrum adapter: Begin with the idea
 
 **Lesson ID:** `bluewallet-05-wallet-adapters-and-transport-lesson-01`  
-**Project:** BlueWallet  
-**Source focus:** `src/wallet-core.ts` — `this.protocol = options.protocol ?? 'ssl';`
+**Module ID:** `bluewallet-05-wallet-adapters-and-transport`  
+**Source focus:** `src/wallet-core.ts` → `wallet-core`
 
 ## Purpose and learning objectives
 
-In plain terms, this lesson teaches **An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel**. After finishing, you can:
-
-- Explain the behavior above to a new learner using the project’s actual behavior.
-- Locate and trace the implementation in `src/wallet-core.ts` and distinguish it from nearby UI or storage layers.
-- Describe the exact limitation: Source mismatch: the client constructs a React Native WebSocket but defaults to protocol ssl (and accepts tcp), neither of which is an accepted WebSocket URL scheme. A raw Electrum TCP/TLS endpoint needs a compatible WebSocket gateway or a different transport. The adapter also sends only when the socket is OPEN while calls can be issued immediately, so a first request may be silently dropped. No live Electrum connection was tested.
-- Use the provided exercise to inspect, change, or debug this part without claiming integrations that are absent.
+Before reading the excerpt, name the input, the result the user expects, and one assumption the app makes. By the end, explain the behavior and identify what the source does not establish.
 
 ## Prerequisites
 
-- Read the project [README](../../../README.md) and [setup guide](../../../setup-guide.md).
-- Be comfortable opening a source file and reading a function or view declaration. The [glossary](../../../glossary.md) defines project terms.
-
-## Begin with the everyday picture
-
-The everyday problem is simple: An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel. First understand what the user is trying to do and what result they expect; then follow the source to see how the code handles it. The core implementation concept is **WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport**. This is a learning implementation, so keep the limit in view: Source mismatch: the client constructs a React Native WebSocket but defaults to protocol ssl (and accepts tcp), neither of which is an accepted WebSocket URL scheme. A raw Electrum TCP/TLS endpoint needs a compatible WebSocket gateway or a different transport. The adapter also sends only when the socket is OPEN while calls can be issued immediately, so a first request may be silently dropped. No live Electrum connection was tested.
-
-## Learning objectives
-
-1. Describe the everyday behavior: An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel.
-2. Find the relevant implementation in `src/wallet-core.ts` and explain the named symbol.
-3. Trace the responsibility across the related files: `src/wallet-core.ts`, `src/persistence.ts`, `src/walletContext.tsx`.
-4. Identify a realistic failure or safety boundary and state how the source handles it.
+Basic programming and a way to read the source project.Read the project [README](../../../README.md) and [setup guide](../../../setup-guide.md).
 
 ## Progressive explanation
 
-### 1. Start with the user-visible problem
+### Beginner explanation
 
-The user is trying to complete one small task in the app: An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel. A reliable implementation gives that task a clear input, an explicit result, and a predictable state change. In this project, the main concept is **WalletCore boundary, DemoWalletCore, ElectrumWalletCore, and WebSocket transport**.
+Imagine **Demo wallet versus Electrum adapter** as a small part of a phone app: it receives a value or action and helps produce a result. This module’s plain-language model is: An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel.
 
-### 2. Build the mental model
+### Step toward the implementation
 
-Treat the source file as the rulebook for this operation. The other files in the map provide the event, data, or rendered result. Do not assume a network, payment, account, or platform capability just because the product concept usually has one. Here the documented limit is: Source mismatch: the client constructs a React Native WebSocket but defaults to protocol ssl (and accepts tcp), neither of which is an accepted WebSocket URL scheme. A raw Electrum TCP/TLS endpoint needs a compatible WebSocket gateway or a different transport. The adapter also sends only when the socket is OPEN while calls can be issued immediately, so a first request may be silently dropped. No live Electrum connection was tested.
+Before reading the excerpt, name the input, the result the user expects, and one assumption the app makes. The source files for this module are `src/wallet-core.ts`, `src/persistence.ts`, `src/walletContext.tsx`.
 
-### 3. Read the real implementation
+## Source evidence
 
-The excerpt below is copied directly from `src/wallet-core.ts` around `this.protocol = options.protocol ?? 'ssl';`. Use it to identify inputs, state or return values, and the next boundary. The full file is authoritative when the excerpt omits surrounding context.
+Excerpt from [`src/wallet-core.ts`](../../../../../../App%20Development/bluewallet/src/wallet-core.ts); copied from the source, not executed during package refinement. Read surrounding lines for full context.
 
-```typescript
-    this.protocol = options.protocol ?? 'ssl';
-  }
-
-  private host: string;
-  private port: number;
-  private protocol: string;
-  private transportFactory: TransportFactory;
-
-  /** Open the connection, if it is not open already. */
-  connect(): Transport {
-    if (this.transport) return this.transport;
-
-    const url = `${this.protocol}://${this.host}:${this.port}`;
-    const transport = this.transportFactory(url);
-
-    transport.onMessage((data) => {
-      let message: { id?: number; result?: unknown; error?: { message?: string } };
-      try {
+```text
+Source excerpt unavailable; inspect this source path and locate the focus symbol before teaching this module.
 ```
 
-The transport boundary in `src/persistence.ts` confirms that this factory constructs a WebSocket and sends only after its state is open:
+### Read it step by step
 
-```typescript
-export const websocketTransport: TransportFactory = (url) => {
-  const socket = new WebSocket(url);
-  let messageHandler: (data: string) => void = () => {};
-  let closeHandler: () => void = () => {};
+1. Find the focus cue `wallet-core` and identify its arguments or input values.
+2. Follow the condition or transformation and identify the returned value or state update.
+3. Trace one caller and compare the result with the README claim.
+4. Note any local-only, mock, placeholder, or external-service boundary.
 
-  socket.onmessage = (event) => messageHandler(String(event.data));
-  socket.onclose = () => closeHandler();
-  socket.onerror = () => closeHandler();
+## Expected behavior and boundaries
 
-  return {
-    send(payload) {
-      if (socket.readyState === WebSocket.OPEN) socket.send(payload);
-    },
-    close() {
-      socket.close();
-    },
-    onMessage(handler) {
-      messageHandler = handler;
-```
-
-Read both excerpts together: the configured URL scheme must be accepted by this transport, and the caller must wait until the socket is ready before sending.
-
-The selected symbol is `this.protocol = options.protocol ?? 'ssl';`. Relate its code to this source map:
-
-- `src/wallet-core.ts` — inspect how this part participates in walletcore boundary, demowalletcore, electrumwalletcore, and websocket transport.
-- `src/persistence.ts` — inspect how this part participates in walletcore boundary, demowalletcore, electrumwalletcore, and websocket transport.
-- `src/walletContext.tsx` — inspect how this part participates in walletcore boundary, demowalletcore, electrumwalletcore, and websocket transport.
-
-### 4. Step-by-step source reading
-
-1. Open `src/wallet-core.ts` and search for `this.protocol = options.protocol ?? 'ssl';`.
-2. Read the containing function/type and write down its input, output, and state effects.
-3. Follow the user action or caller into the related files listed above. Note where the source crosses from UI into model, storage, or service code.
-4. Compare the implemented path with the project README’s feature and limitation notes. Mark statements that are sample data, local state, simulation, or an external integration.
-5. Read the closest test or configuration file (if present) and separate asserted behavior from untested runtime behavior.
-6. Make one small change in your own working copy, run the documented check when available, and record what the check does not prove.
-
-### 5. Expected behavior and limitations
-
-Expected behavior follows the source focus: An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel. The known limitation is explicit: Source mismatch: the client constructs a React Native WebSocket but defaults to protocol ssl (and accepts tcp), neither of which is an accepted WebSocket URL scheme. A raw Electrum TCP/TLS endpoint needs a compatible WebSocket gateway or a different transport. The adapter also sends only when the socket is OPEN while calls can be issued immediately, so a first request may be silently dropped. No live Electrum connection was tested. A structural test or pure unit test can support the local rule, but cannot establish that an outside API, device permission, simulator, server, payment provider, or deployment works.
+The lesson should produce a source-backed explanation of **Demo wallet versus Electrum adapter**. A test or code excerpt establishes only the behavior it covers; it does not prove an external API, device, deployment, or provider works.
 
 ## Practical exercise
 
-Complete exercise `bluewallet-05-wallet-adapters-and-transport-exercise-01` in `exercises/exercise-01.json`. The exercise asks you to inspect the named source, implement or debug a bounded change, add evidence, and preserve the stated safety constraints. Estimated time: 45–90 minutes.
+Complete [`exercise-01.json`](../exercises/exercise-01.json). Add an input or edge case, cite the source, and write the expected result before changing code.
 
 ## Common mistakes and debugging
 
-- **Reading only the screen:** follow the action to `src/wallet-core.ts`; UI labels alone do not define behavior.
-- **Assuming a product-name feature exists:** compare the implementation and the limitation above with the project README.
-- **Changing state in several places:** identify the owning model/store/context before editing.
-- **Calling a test a full-system check:** determine whether it uses fake data, fake storage, a fake socket, or a real runtime.
-- **Debug sequence:** reproduce the behavior, inspect the relevant input, log or assert the model result, verify the caller and rendered state, then check persistence or network boundaries separately.
+- Inferring feature behavior from the product name or screen alone.
+- Skipping the caller, model/state layer, or error path.
+- Treating local sample data or a mock response as a real service result.
+- Debug by tracing input → validation → transformation → output and then checking the relevant test.
 
 ## Best practices and security
 
-- Keep this behavior small and testable; make validation and failure outcomes explicit.
-- Preserve the typed boundary and avoid trusting unvalidated input.
-- Do not place credentials, private keys, health details, financial records, or trusted-network controls in an insecure client setting.
-- If a service integration is proposed, add authentication, transport protection, privacy review, and provider-specific tests before describing it as implemented.
-- See the project-specific review items and [Owasp Mobile](https://mas.owasp.org/MASVS/).
+Protect credentials and personal data, validate untrusted inputs, request only necessary device permissions, and keep provider/device behavior explicitly unverified until tested in an authorized environment.
 
 ## Summary
 
-You started from the user task, named its everyday model, followed `this.protocol = options.protocol ?? 'ssl';` in `src/wallet-core.ts`, and traced the related files. The implemented behavior is **An adapter lets the same screen ask different backends for wallet operations. Compare the local demo with the Electrum client and trace how context selects/wires it and how JSON-RPC messages travel**; the boundary is **Source mismatch: the client constructs a React Native WebSocket but defaults to protocol ssl (and accepts tcp), neither of which is an accepted WebSocket URL scheme. A raw Electrum TCP/TLS endpoint needs a compatible WebSocket gateway or a different transport. The adapter also sends only when the socket is OPEN while calls can be issued immediately, so a first request may be silently dropped. No live Electrum connection was tested**.
+You began with the module’s plain meaning, traced `wallet-core` in `src/wallet-core.ts`, and identified one limit or testable boundary.
 
 ## Knowledge checks
 
-1. Which source file owns the core rule, and which file calls it?
-2. What does the named implementation actually change or return?
-3. What is deliberately absent, simulated, local-only, or still unverified?
-4. Which test would you add to guard the behavior after a change?
+1. What input or action reaches the source focus?
+2. What does the code change or return?
+3. Which edge case or integration boundary needs verification?
 
 ## References
 
-- Project source: [`src/wallet-core.ts`](../../../../../../projects/bluewallet/src/wallet-core.ts)
-- Project documentation: [README](../../../README.md), [architecture](../../../architecture.md), [setup guide](../../../setup-guide.md)
-- Official learning references: [React Native](https://reactnative.dev/docs/getting-started), [Expo](https://docs.expo.dev/), [Async Storage](https://docs.expo.dev/versions/latest/sdk/async-storage/), [Bitcoin Bip173](https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki), [Electrum](https://electrum-protocol.readthedocs.io/en/latest/protocol.html), [Node Test](https://nodejs.org/api/test.html), [Owasp Mobile](https://mas.owasp.org/MASVS/)
+- [Project README](../../../README.md)
+- [Setup guide](../../../setup-guide.md)
+- [Source file](../../../../../../App%20Development/bluewallet/src/wallet-core.ts)

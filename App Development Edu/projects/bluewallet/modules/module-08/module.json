@@ -22,9 +22,11 @@
     "bluewallet-07-local-persistence-and-failure-cases"
   ],
   "ordered_lesson_ids": [
-    "bluewallet-08-mini-project-integration-lesson-01"
+    "bluewallet-08-mini-project-integration-lesson-01",
+    "bluewallet-08-mini-project-integration-lesson-02",
+    "bluewallet-08-mini-project-integration-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Validation-to-plan flow, explicit limitations, test evidence, and release boundary",
     "Map address input to validation, UTXO planning, and the final refusal boundary. Prepare a demo that shows what would be needed for signing while preventing real-fund expectations.",
@@ -35,8 +37,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/walletContext.tsx.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/screens/SendScreen.tsx",
+    "symbol_or_search_term": "SendScreen"
+  }
 }

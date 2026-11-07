@@ -1,7 +1,7 @@
 # Validation report — peyara-remote-mouse
 
-- Generated: 2026-11-07T05:29:20.864038+00:00
-- Modules: 8; lessons: 8; questions: 80
+- Generated: 2026-11-07T09:03:58.631433+00:00
+- Modules: 8; lessons: 24; questions: 80
 - Structural result: **PASS**
 
 ## Passed checks

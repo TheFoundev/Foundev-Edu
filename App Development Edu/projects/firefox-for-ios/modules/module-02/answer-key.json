@@ -12,7 +12,7 @@
       },
       "tested_concept": "URL recognition, scheme normalization, and search fallback",
       "related_lesson_id": "firefox-for-ios-02-url-and-search-routing-lesson-01",
-      "supporting_reference": "../../../../../projects/firefox-for-ios/Sources/Core.swift"
+      "supporting_reference": "../../../../../App Development/firefox-for-ios/Sources/Core.swift"
     },
     {
       "question_id": "firefox-for-ios-m02-q02",
@@ -25,7 +25,7 @@
       },
       "tested_concept": "URL recognition, scheme normalization, and search fallback",
       "related_lesson_id": "firefox-for-ios-02-url-and-search-routing-lesson-01",
-      "supporting_reference": "../../../../../projects/firefox-for-ios/Sources/Core.swift"
+      "supporting_reference": "../../../../../App Development/firefox-for-ios/Sources/Core.swift"
     },
     {
       "question_id": "firefox-for-ios-m02-q03",
@@ -38,7 +38,7 @@
       },
       "tested_concept": "URL recognition, scheme normalization, and search fallback",
       "related_lesson_id": "firefox-for-ios-02-url-and-search-routing-lesson-01",
-      "supporting_reference": "../../../../../projects/firefox-for-ios/Sources/Core.swift"
+      "supporting_reference": "../../../../../App Development/firefox-for-ios/Sources/Core.swift"
     },
     {
       "question_id": "firefox-for-ios-m02-q04",
@@ -50,8 +50,8 @@
         "firefox-for-ios-m02-q04-o4": "The lesson traces 'The same text field can contain a web address or search words. Trace the decision and compare test cases; verify empty input does not create an accidental destination.' to Sources/Core.swift. This option instead claims 'Protection modes, rule selection, rule compilation, and observed count', which the cited source does not establish for this behavior."
       },
       "tested_concept": "URL recognition, scheme normalization, and search fallback",
-      "related_lesson_id": "firefox-for-ios-02-url-and-search-routing-lesson-01",
-      "supporting_reference": "../../../../../projects/firefox-for-ios/Sources/Core.swift"
+      "related_lesson_id": "firefox-for-ios-02-url-and-search-routing-lesson-02",
+      "supporting_reference": "../../../../../App Development/firefox-for-ios/Sources/Core.swift"
     },
     {
       "question_id": "firefox-for-ios-m02-q05",
@@ -63,8 +63,8 @@
         "firefox-for-ios-m02-q05-o4": "The lesson traces 'URL recognition, scheme normalization, and search fallback' to Sources/Core.swift. This option instead claims 'Protection modes, rule selection, rule compilation, and observed count', which the cited source does not establish for this behavior."
       },
       "tested_concept": "URL recognition, scheme normalization, and search fallback",
-      "related_lesson_id": "firefox-for-ios-02-url-and-search-routing-lesson-01",
-      "supporting_reference": "../../../../../projects/firefox-for-ios/Sources/Core.swift"
+      "related_lesson_id": "firefox-for-ios-02-url-and-search-routing-lesson-02",
+      "supporting_reference": "../../../../../App Development/firefox-for-ios/Sources/Core.swift"
     },
     {
       "question_id": "firefox-for-ios-m02-q06",
@@ -76,8 +76,8 @@
         "firefox-for-ios-m02-q06-o2": "The lesson traces 'The same text field can contain a web address or search words. Trace the decision and compare test cases; verify empty input does not create an accidental destination.' to Sources/Core.swift. This option instead claims 'Tab, protection-level, and tracker data types', which the cited source does not establish for this behavior."
       },
       "tested_concept": "URL recognition, scheme normalization, and search fallback",
-      "related_lesson_id": "firefox-for-ios-02-url-and-search-routing-lesson-01",
-      "supporting_reference": "../../../../../projects/firefox-for-ios/Sources/Core.swift"
+      "related_lesson_id": "firefox-for-ios-02-url-and-search-routing-lesson-02",
+      "supporting_reference": "../../../../../App Development/firefox-for-ios/Sources/Core.swift"
     },
     {
       "question_id": "firefox-for-ios-m02-q07",
@@ -89,8 +89,8 @@
         "firefox-for-ios-m02-q07-o3": "The lesson traces 'Search and navigation behavior is a teaching implementation and may omit edge cases of the full Firefox browser.' to Sources/Core.swift. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
       },
       "tested_concept": "URL recognition, scheme normalization, and search fallback",
-      "related_lesson_id": "firefox-for-ios-02-url-and-search-routing-lesson-01",
-      "supporting_reference": "../../../../../projects/firefox-for-ios/Sources/Core.swift"
+      "related_lesson_id": "firefox-for-ios-02-url-and-search-routing-lesson-02",
+      "supporting_reference": "../../../../../App Development/firefox-for-ios/Sources/Core.swift"
     },
     {
       "question_id": "firefox-for-ios-m02-q08",
@@ -102,8 +102,8 @@
         "firefox-for-ios-m02-q08-o4": "The lesson traces 'Sources/Core.swift' to Sources/Core.swift. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior."
       },
       "tested_concept": "URL recognition, scheme normalization, and search fallback",
-      "related_lesson_id": "firefox-for-ios-02-url-and-search-routing-lesson-01",
-      "supporting_reference": "../../../../../projects/firefox-for-ios/Sources/Core.swift"
+      "related_lesson_id": "firefox-for-ios-02-url-and-search-routing-lesson-02",
+      "supporting_reference": "../../../../../App Development/firefox-for-ios/Sources/Core.swift"
     },
     {
       "question_id": "firefox-for-ios-m02-q09",
@@ -115,8 +115,8 @@
         "firefox-for-ios-m02-q09-o4": "The lesson traces 'Do not claim production readiness: Search and navigation behavior is a teaching implementation and may omit edge cases of the full Firefox browser.' to Sources/Core.swift. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
       },
       "tested_concept": "URL recognition, scheme normalization, and search fallback",
-      "related_lesson_id": "firefox-for-ios-02-url-and-search-routing-lesson-01",
-      "supporting_reference": "../../../../../projects/firefox-for-ios/Sources/Core.swift"
+      "related_lesson_id": "firefox-for-ios-02-url-and-search-routing-lesson-03",
+      "supporting_reference": "../../../../../App Development/firefox-for-ios/Sources/Core.swift"
     },
     {
       "question_id": "firefox-for-ios-m02-q10",
@@ -128,8 +128,8 @@
         "firefox-for-ios-m02-q10-o2": "The lesson traces 'The same text field can contain a web address or search words. Trace the decision and compare test cases; verify empty input does not create an accidental destination.' to Sources/Core.swift. This option instead claims 'Tab, protection-level, and tracker data types', which the cited source does not establish for this behavior."
       },
       "tested_concept": "URL recognition, scheme normalization, and search fallback",
-      "related_lesson_id": "firefox-for-ios-02-url-and-search-routing-lesson-01",
-      "supporting_reference": "../../../../../projects/firefox-for-ios/Sources/Core.swift"
+      "related_lesson_id": "firefox-for-ios-02-url-and-search-routing-lesson-03",
+      "supporting_reference": "../../../../../App Development/firefox-for-ios/Sources/Core.swift"
     }
   ]
 }

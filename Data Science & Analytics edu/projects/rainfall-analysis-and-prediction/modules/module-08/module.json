@@ -1,45 +1,59 @@
 {
   "module_id": "rainfall-analysis-and-prediction-module-08",
-  "title": "Cemaneigehystgr4jice Model and Cemaneigehystgr4jice",
-  "description": "Study the implementation in [rrmpg/models/cemaneigehystgr4jice_model.py] and [rrmpg/models/cemaneigehystgr4jice.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include run_cemaneigehystgr4jice, CemaneigeHystGR4JIce, __init__; confirm their complete definitions and callers in the file.",
-  "source_files": [
-    "rrmpg/models/cemaneigehystgr4jice_model.py",
-    "rrmpg/models/cemaneigehystgr4jice.py"
-  ],
+  "title": "Metrics and Plotting",
+  "description": "Begins with an everyday explanation, then traces calc_nse in rrmpg/utils/metrics.py. Source units combined: Metrics and Plot Utils.",
   "learning_objectives": [
     {
       "objective_id": "rainfall-analysis-and-prediction-module-08-objective-1",
-      "text": "Explain the source role and visible behavior in rrmpg/models/cemaneigehystgr4jice_model.py, rrmpg/models/cemaneigehystgr4jice.py."
+      "text": "Explain metrics and plotting in plain language using the project source."
     },
     {
       "objective_id": "rainfall-analysis-and-prediction-module-08-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+      "text": "Trace `calc_nse` in `rrmpg/utils/metrics.py` and explain its inputs, behavior, and output."
     },
     {
       "objective_id": "rainfall-analysis-and-prediction-module-08-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
     }
   ],
+  "learning_objective_ids": [
+    "rainfall-analysis-and-prediction-module-08-objective-1",
+    "rainfall-analysis-and-prediction-module-08-objective-2",
+    "rainfall-analysis-and-prediction-module-08-objective-3"
+  ],
+  "source_files": [
+    "rrmpg/utils/metrics.py",
+    "rrmpg/utils/plot_utils.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "rrmpg/utils/metrics.py",
+    "symbol_or_search_term": "calc_nse",
+    "line_start": null,
+    "line_end": null,
+    "source_status": "source tree absent; excerpt retained from earlier package"
+  },
   "prerequisites": [
     "rainfall-analysis-and-prediction-module-07"
   ],
   "ordered_lesson_ids": [
-    "rainfall-analysis-and-prediction-module-08-lesson-1",
-    "rainfall-analysis-and-prediction-module-08-lesson-2"
+    "rainfall-analysis-and-prediction-module-08-lesson-01",
+    "rainfall-analysis-and-prediction-module-08-lesson-02",
+    "rainfall-analysis-and-prediction-module-08-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "source declarations",
     "imports and callers",
-    "inputs and outputs"
+    "inputs and outputs",
+    "source focus: calc_nse"
   ],
   "practical_outcomes": [
-    "Evidence map for rrmpg/models/cemaneigehystgr4jice_model.py, rrmpg/models/cemaneigehystgr4jice.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `calc_nse` through `rrmpg/utils/metrics.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

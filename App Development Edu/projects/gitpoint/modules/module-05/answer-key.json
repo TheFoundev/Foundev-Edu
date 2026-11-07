@@ -12,7 +12,7 @@
       },
       "tested_concept": "Context lifecycle, tabs, profile/repository/issue states, and reusable controls",
       "related_lesson_id": "gitpoint-05-ui-state-and-navigation-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/src/githubContext.tsx"
+      "supporting_reference": "../../../../../App Development/gitpoint/App.tsx"
     },
     {
       "question_id": "gitpoint-m05-q02",
@@ -25,7 +25,7 @@
       },
       "tested_concept": "Context lifecycle, tabs, profile/repository/issue states, and reusable controls",
       "related_lesson_id": "gitpoint-05-ui-state-and-navigation-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/src/githubContext.tsx"
+      "supporting_reference": "../../../../../App Development/gitpoint/App.tsx"
     },
     {
       "question_id": "gitpoint-m05-q03",
@@ -38,7 +38,7 @@
       },
       "tested_concept": "Context lifecycle, tabs, profile/repository/issue states, and reusable controls",
       "related_lesson_id": "gitpoint-05-ui-state-and-navigation-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/src/githubContext.tsx"
+      "supporting_reference": "../../../../../App Development/gitpoint/App.tsx"
     },
     {
       "question_id": "gitpoint-m05-q04",
@@ -50,8 +50,8 @@
         "gitpoint-m05-q04-o4": "The lesson traces 'The shell selects a screen while context provides shared API and cache state. Follow a tap from navigation through state into the rendered list and profile.' to src/githubContext.tsx. This option instead claims 'Search fields, date ordering, state filters, and list rendering', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Context lifecycle, tabs, profile/repository/issue states, and reusable controls",
-      "related_lesson_id": "gitpoint-05-ui-state-and-navigation-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/src/githubContext.tsx"
+      "related_lesson_id": "gitpoint-05-ui-state-and-navigation-lesson-02",
+      "supporting_reference": "../../../../../App Development/gitpoint/App.tsx"
     },
     {
       "question_id": "gitpoint-m05-q05",
@@ -63,8 +63,8 @@
         "gitpoint-m05-q05-o4": "The lesson traces 'Context lifecycle, tabs, profile/repository/issue states, and reusable controls' to src/githubContext.tsx. This option instead claims 'Search fields, date ordering, state filters, and list rendering', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Context lifecycle, tabs, profile/repository/issue states, and reusable controls",
-      "related_lesson_id": "gitpoint-05-ui-state-and-navigation-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/src/githubContext.tsx"
+      "related_lesson_id": "gitpoint-05-ui-state-and-navigation-lesson-02",
+      "supporting_reference": "../../../../../App Development/gitpoint/App.tsx"
     },
     {
       "question_id": "gitpoint-m05-q06",
@@ -76,8 +76,8 @@
         "gitpoint-m05-q06-o2": "The lesson traces 'The shell selects a screen while context provides shared API and cache state. Follow a tap from navigation through state into the rendered list and profile.' to src/githubContext.tsx. This option instead claims 'Repository/issue shapes, response mapping, sample data, and sort fields', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Context lifecycle, tabs, profile/repository/issue states, and reusable controls",
-      "related_lesson_id": "gitpoint-05-ui-state-and-navigation-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/src/githubContext.tsx"
+      "related_lesson_id": "gitpoint-05-ui-state-and-navigation-lesson-02",
+      "supporting_reference": "../../../../../App Development/gitpoint/App.tsx"
     },
     {
       "question_id": "gitpoint-m05-q07",
@@ -89,8 +89,8 @@
         "gitpoint-m05-q07-o3": "The lesson traces 'The UI does not reproduce every capability or policy of the upstream GitPoint app.' to src/githubContext.tsx. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Context lifecycle, tabs, profile/repository/issue states, and reusable controls",
-      "related_lesson_id": "gitpoint-05-ui-state-and-navigation-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/src/githubContext.tsx"
+      "related_lesson_id": "gitpoint-05-ui-state-and-navigation-lesson-02",
+      "supporting_reference": "../../../../../App Development/gitpoint/App.tsx"
     },
     {
       "question_id": "gitpoint-m05-q08",
@@ -102,8 +102,8 @@
         "gitpoint-m05-q08-o4": "The lesson traces 'src/githubContext.tsx' to src/githubContext.tsx. This option instead claims 'src/screens/IssuesScreen.tsx', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Context lifecycle, tabs, profile/repository/issue states, and reusable controls",
-      "related_lesson_id": "gitpoint-05-ui-state-and-navigation-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/src/githubContext.tsx"
+      "related_lesson_id": "gitpoint-05-ui-state-and-navigation-lesson-02",
+      "supporting_reference": "../../../../../App Development/gitpoint/App.tsx"
     },
     {
       "question_id": "gitpoint-m05-q09",
@@ -115,8 +115,8 @@
         "gitpoint-m05-q09-o4": "The lesson traces 'Do not claim production readiness: The UI does not reproduce every capability or policy of the upstream GitPoint app.' to src/githubContext.tsx. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Context lifecycle, tabs, profile/repository/issue states, and reusable controls",
-      "related_lesson_id": "gitpoint-05-ui-state-and-navigation-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/src/githubContext.tsx"
+      "related_lesson_id": "gitpoint-05-ui-state-and-navigation-lesson-03",
+      "supporting_reference": "../../../../../App Development/gitpoint/App.tsx"
     },
     {
       "question_id": "gitpoint-m05-q10",
@@ -128,8 +128,8 @@
         "gitpoint-m05-q10-o2": "The lesson traces 'The shell selects a screen while context provides shared API and cache state. Follow a tap from navigation through state into the rendered list and profile.' to src/githubContext.tsx. This option instead claims 'Repository/issue shapes, response mapping, sample data, and sort fields', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Context lifecycle, tabs, profile/repository/issue states, and reusable controls",
-      "related_lesson_id": "gitpoint-05-ui-state-and-navigation-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/src/githubContext.tsx"
+      "related_lesson_id": "gitpoint-05-ui-state-and-navigation-lesson-03",
+      "supporting_reference": "../../../../../App Development/gitpoint/App.tsx"
     }
   ]
 }

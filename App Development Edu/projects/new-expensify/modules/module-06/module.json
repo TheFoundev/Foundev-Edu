@@ -24,9 +24,11 @@
     "new-expensify-05-context-store-and-persistence"
   ],
   "ordered_lesson_ids": [
-    "new-expensify-06-screens-and-controls-lesson-01"
+    "new-expensify-06-screens-and-controls-lesson-01",
+    "new-expensify-06-screens-and-controls-lesson-02",
+    "new-expensify-06-screens-and-controls-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Navigation tabs, shared controls/theme, action wiring, and UI status",
     "The same data model supports several screens. Follow each control’s handler back to context/model methods and distinguish display values from persisted settings.",
@@ -37,8 +39,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: App.tsx.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/screens/ReportsScreen.tsx",
+    "symbol_or_search_term": "ReportsScreen"
+  }
 }

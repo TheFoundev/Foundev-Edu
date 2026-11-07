@@ -1,45 +1,59 @@
 {
   "module_id": "dbt-analytics-transformation-layer-module-04",
   "title": "Staging Orders and Pipeline",
-  "description": "Study the implementation in [models/staging_orders.sql] and [src/pipeline.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include model_names, dependencies, order_models, render, replace, make_raw, run; confirm their complete definitions and callers in the file.",
+  "description": "Begins with an everyday explanation, then traces model_names in src/pipeline.py. Source units combined: Staging Orders and Pipeline.",
+  "learning_objectives": [
+    {
+      "objective_id": "dbt-analytics-transformation-layer-module-04-objective-1",
+      "text": "Explain staging orders and pipeline in plain language using the project source."
+    },
+    {
+      "objective_id": "dbt-analytics-transformation-layer-module-04-objective-2",
+      "text": "Trace `model_names` in `src/pipeline.py` and explain its inputs, behavior, and output."
+    },
+    {
+      "objective_id": "dbt-analytics-transformation-layer-module-04-objective-3",
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
+    }
+  ],
+  "learning_objective_ids": [
+    "dbt-analytics-transformation-layer-module-04-objective-1",
+    "dbt-analytics-transformation-layer-module-04-objective-2",
+    "dbt-analytics-transformation-layer-module-04-objective-3"
+  ],
   "source_files": [
     "models/staging_orders.sql",
     "src/pipeline.py"
   ],
-  "learning_objectives": [
-    {
-      "objective_id": "dbt-analytics-transformation-layer-module-04-objective-1",
-      "text": "Explain the source role and visible behavior in models/staging_orders.sql, src/pipeline.py."
-    },
-    {
-      "objective_id": "dbt-analytics-transformation-layer-module-04-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
-    },
-    {
-      "objective_id": "dbt-analytics-transformation-layer-module-04-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
-    }
-  ],
+  "source_code_focus": {
+    "excerpt_file": "src/pipeline.py",
+    "symbol_or_search_term": "model_names",
+    "line_start": 16,
+    "line_end": 36,
+    "source_status": "verified source file exists"
+  },
   "prerequisites": [
     "dbt-analytics-transformation-layer-module-03"
   ],
   "ordered_lesson_ids": [
-    "dbt-analytics-transformation-layer-module-04-lesson-1",
-    "dbt-analytics-transformation-layer-module-04-lesson-2"
+    "dbt-analytics-transformation-layer-module-04-lesson-01",
+    "dbt-analytics-transformation-layer-module-04-lesson-02",
+    "dbt-analytics-transformation-layer-module-04-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "source declarations",
     "imports and callers",
-    "inputs and outputs"
+    "inputs and outputs",
+    "source focus: model_names"
   ],
   "practical_outcomes": [
-    "Evidence map for models/staging_orders.sql, src/pipeline.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `model_names` through `src/pipeline.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

@@ -1,45 +1,61 @@
 {
   "module_id": "social-media-sentiment-dashboard-module-03",
-  "title": "undefined undefined Init undefined undefined and Metrics",
-  "description": "Study the implementation in [src/analytics/__init__.py] and [src/analytics/metrics.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include compute_metrics_for_platform, compute_overall_metrics; confirm their complete definitions and callers in the file.",
-  "source_files": [
-    "src/analytics/__init__.py",
-    "src/analytics/metrics.py"
-  ],
+  "title": "Dashboard Configuration and Data Manager",
+  "description": "Begins with an everyday explanation, then traces load_config in src/config.py. Source units combined: Config and Dashboard, Data Manager and undefined undefined Init undefined undefined.",
   "learning_objectives": [
     {
       "objective_id": "social-media-sentiment-dashboard-module-03-objective-1",
-      "text": "Explain the source role and visible behavior in src/analytics/__init__.py, src/analytics/metrics.py."
+      "text": "Explain dashboard configuration and data manager in plain language using the project source."
     },
     {
       "objective_id": "social-media-sentiment-dashboard-module-03-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+      "text": "Trace `load_config` in `src/config.py` and explain its inputs, behavior, and output."
     },
     {
       "objective_id": "social-media-sentiment-dashboard-module-03-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
     }
   ],
+  "learning_objective_ids": [
+    "social-media-sentiment-dashboard-module-03-objective-1",
+    "social-media-sentiment-dashboard-module-03-objective-2",
+    "social-media-sentiment-dashboard-module-03-objective-3"
+  ],
+  "source_files": [
+    "src/config.py",
+    "src/dashboard.py",
+    "src/data_manager.py",
+    "src/fetchers/__init__.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/config.py",
+    "symbol_or_search_term": "load_config",
+    "line_start": null,
+    "line_end": null,
+    "source_status": "source tree absent; excerpt retained from earlier package"
+  },
   "prerequisites": [
     "social-media-sentiment-dashboard-module-02"
   ],
   "ordered_lesson_ids": [
-    "social-media-sentiment-dashboard-module-03-lesson-1",
-    "social-media-sentiment-dashboard-module-03-lesson-2"
+    "social-media-sentiment-dashboard-module-03-lesson-01",
+    "social-media-sentiment-dashboard-module-03-lesson-02",
+    "social-media-sentiment-dashboard-module-03-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "source declarations",
     "imports and callers",
-    "inputs and outputs"
+    "inputs and outputs",
+    "source focus: load_config"
   ],
   "practical_outcomes": [
-    "Evidence map for src/analytics/__init__.py, src/analytics/metrics.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `load_config` through `src/config.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

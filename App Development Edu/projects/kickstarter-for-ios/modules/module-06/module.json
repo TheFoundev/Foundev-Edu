@@ -21,9 +21,11 @@
     "kickstarter-for-ios-05-swiftui-navigation-and-shared-store"
   ],
   "ordered_lesson_ids": [
-    "kickstarter-for-ios-06-tests-and-platform-build-lesson-01"
+    "kickstarter-for-ios-06-tests-and-platform-build-lesson-01",
+    "kickstarter-for-ios-06-tests-and-platform-build-lesson-02",
+    "kickstarter-for-ios-06-tests-and-platform-build-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Core rule tests, temporary UserDefaults, target generation, and simulator checklist",
     "Tests isolate rules and persistence using controlled defaults. The XcodeGen file describes build targets; on macOS, generate and run the simulator suite before calling it verified.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: Tests/ProjectCoreTests.swift.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "Tests/ProjectCoreTests.swift",
+    "symbol_or_search_term": "ProjectCoreTests"
+  }
 }

@@ -21,9 +21,11 @@
     "peyara-remote-mouse-01-event-protocol-and-validation"
   ],
   "ordered_lesson_ids": [
-    "peyara-remote-mouse-02-touchpad-and-keyboard-input-lesson-01"
+    "peyara-remote-mouse-02-touchpad-and-keyboard-input-lesson-01",
+    "peyara-remote-mouse-02-touchpad-and-keyboard-input-lesson-02",
+    "peyara-remote-mouse-02-touchpad-and-keyboard-input-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "PanResponder deltas, click/scroll actions, text and key events",
     "A touchpad sends movement differences, not a picture of the whole screen. Follow gesture callbacks and keyboard controls into the shared send function.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/screens/TouchpadScreen.tsx.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/screens/TouchpadScreen.tsx",
+    "symbol_or_search_term": "TouchpadScreen"
+  }
 }

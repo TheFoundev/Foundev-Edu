@@ -1,6 +1,6 @@
 # Data Science & Analytics learning packages
 
-Portable, source-grounded educational packages for 22 repositories from C:\Foundev\AIML-foundev-main\Data Science & Analytics. Each package is independent under projects/{slug}.
+Portable, source-grounded educational packages for 18 repositories from the workspace source collection. Each package is independent under projects/{slug}.
 
 ## Use
 
@@ -12,7 +12,7 @@ No application was executed or deployed during generation. Structural validation
 
 ## Contents
 
-- projects/: 22 portable learning packages.
+- projects/: 18 portable learning packages.
 - schemas/: JSON schema documents.
 - tools/validate_content.py: structural validator.
 - reports/: project-specific inspection and validation summaries.

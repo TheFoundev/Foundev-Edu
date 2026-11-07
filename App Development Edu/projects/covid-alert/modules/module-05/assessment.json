@@ -98,8 +98,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "covid-alert-05-state-storage-and-ui-objective-01",
-      "lesson_id": "covid-alert-05-state-storage-and-ui-lesson-01"
+      "learning_objective_id": "covid-alert-05-state-storage-and-ui-objective-02",
+      "lesson_id": "covid-alert-05-state-storage-and-ui-lesson-02"
     },
     {
       "question_id": "covid-alert-m05-q05",
@@ -123,8 +123,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "covid-alert-05-state-storage-and-ui-objective-01",
-      "lesson_id": "covid-alert-05-state-storage-and-ui-lesson-01"
+      "learning_objective_id": "covid-alert-05-state-storage-and-ui-objective-02",
+      "lesson_id": "covid-alert-05-state-storage-and-ui-lesson-02"
     },
     {
       "question_id": "covid-alert-m05-q06",
@@ -148,8 +148,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "covid-alert-05-state-storage-and-ui-objective-01",
-      "lesson_id": "covid-alert-05-state-storage-and-ui-lesson-01"
+      "learning_objective_id": "covid-alert-05-state-storage-and-ui-objective-02",
+      "lesson_id": "covid-alert-05-state-storage-and-ui-lesson-02"
     },
     {
       "question_id": "covid-alert-m05-q07",
@@ -173,8 +173,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "covid-alert-05-state-storage-and-ui-objective-01",
-      "lesson_id": "covid-alert-05-state-storage-and-ui-lesson-01"
+      "learning_objective_id": "covid-alert-05-state-storage-and-ui-objective-02",
+      "lesson_id": "covid-alert-05-state-storage-and-ui-lesson-02"
     },
     {
       "question_id": "covid-alert-m05-q08",
@@ -198,8 +198,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "covid-alert-05-state-storage-and-ui-objective-01",
-      "lesson_id": "covid-alert-05-state-storage-and-ui-lesson-01"
+      "learning_objective_id": "covid-alert-05-state-storage-and-ui-objective-02",
+      "lesson_id": "covid-alert-05-state-storage-and-ui-lesson-02"
     },
     {
       "question_id": "covid-alert-m05-q09",
@@ -223,8 +223,8 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "covid-alert-05-state-storage-and-ui-objective-01",
-      "lesson_id": "covid-alert-05-state-storage-and-ui-lesson-01"
+      "learning_objective_id": "covid-alert-05-state-storage-and-ui-objective-03",
+      "lesson_id": "covid-alert-05-state-storage-and-ui-lesson-03"
     },
     {
       "question_id": "covid-alert-m05-q10",
@@ -248,8 +248,8 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "covid-alert-05-state-storage-and-ui-objective-01",
-      "lesson_id": "covid-alert-05-state-storage-and-ui-lesson-01"
+      "learning_objective_id": "covid-alert-05-state-storage-and-ui-objective-03",
+      "lesson_id": "covid-alert-05-state-storage-and-ui-lesson-03"
     }
   ]
 }

@@ -98,8 +98,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "rocket-chat-mobile-05-persistence-and-context-objective-01",
-      "lesson_id": "rocket-chat-mobile-05-persistence-and-context-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-05-persistence-and-context-objective-02",
+      "lesson_id": "rocket-chat-mobile-05-persistence-and-context-lesson-02"
     },
     {
       "question_id": "rocket-chat-mobile-m05-q05",
@@ -123,8 +123,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "rocket-chat-mobile-05-persistence-and-context-objective-01",
-      "lesson_id": "rocket-chat-mobile-05-persistence-and-context-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-05-persistence-and-context-objective-02",
+      "lesson_id": "rocket-chat-mobile-05-persistence-and-context-lesson-02"
     },
     {
       "question_id": "rocket-chat-mobile-m05-q06",
@@ -148,8 +148,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "rocket-chat-mobile-05-persistence-and-context-objective-01",
-      "lesson_id": "rocket-chat-mobile-05-persistence-and-context-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-05-persistence-and-context-objective-02",
+      "lesson_id": "rocket-chat-mobile-05-persistence-and-context-lesson-02"
     },
     {
       "question_id": "rocket-chat-mobile-m05-q07",
@@ -173,8 +173,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "rocket-chat-mobile-05-persistence-and-context-objective-01",
-      "lesson_id": "rocket-chat-mobile-05-persistence-and-context-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-05-persistence-and-context-objective-02",
+      "lesson_id": "rocket-chat-mobile-05-persistence-and-context-lesson-02"
     },
     {
       "question_id": "rocket-chat-mobile-m05-q08",
@@ -198,8 +198,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "rocket-chat-mobile-05-persistence-and-context-objective-01",
-      "lesson_id": "rocket-chat-mobile-05-persistence-and-context-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-05-persistence-and-context-objective-02",
+      "lesson_id": "rocket-chat-mobile-05-persistence-and-context-lesson-02"
     },
     {
       "question_id": "rocket-chat-mobile-m05-q09",
@@ -223,8 +223,8 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "rocket-chat-mobile-05-persistence-and-context-objective-01",
-      "lesson_id": "rocket-chat-mobile-05-persistence-and-context-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-05-persistence-and-context-objective-03",
+      "lesson_id": "rocket-chat-mobile-05-persistence-and-context-lesson-03"
     },
     {
       "question_id": "rocket-chat-mobile-m05-q10",
@@ -248,8 +248,8 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "rocket-chat-mobile-05-persistence-and-context-objective-01",
-      "lesson_id": "rocket-chat-mobile-05-persistence-and-context-lesson-01"
+      "learning_objective_id": "rocket-chat-mobile-05-persistence-and-context-objective-03",
+      "lesson_id": "rocket-chat-mobile-05-persistence-and-context-lesson-03"
     }
   ]
 }

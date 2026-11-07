@@ -1,7 +1,7 @@
 # Validation report — rocket-chat-mobile
 
-- Generated: 2026-11-07T05:29:21.348303+00:00
-- Modules: 7; lessons: 7; questions: 70
+- Generated: 2026-11-07T09:03:58.645422+00:00
+- Modules: 7; lessons: 21; questions: 70
 - Structural result: **PASS**
 
 ## Passed checks

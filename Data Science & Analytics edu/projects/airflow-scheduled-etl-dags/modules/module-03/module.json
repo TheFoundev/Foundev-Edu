@@ -1,44 +1,58 @@
 {
   "module_id": "airflow-scheduled-etl-dags-module-03",
   "title": "Api Impl",
-  "description": "Study the implementation in [web/api_impl.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include run_pipeline, history, tasks, summary, handle; confirm their complete definitions and callers in the file.",
-  "source_files": [
-    "web/api_impl.py"
-  ],
+  "description": "Begins with an everyday explanation, then traces run_pipeline in web/api_impl.py. Source units combined: Api Impl.",
   "learning_objectives": [
     {
       "objective_id": "airflow-scheduled-etl-dags-module-03-objective-1",
-      "text": "Explain the source role and visible behavior in web/api_impl.py."
+      "text": "Explain api impl in plain language using the project source."
     },
     {
       "objective_id": "airflow-scheduled-etl-dags-module-03-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+      "text": "Trace `run_pipeline` in `web/api_impl.py` and explain its inputs, behavior, and output."
     },
     {
       "objective_id": "airflow-scheduled-etl-dags-module-03-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
     }
   ],
+  "learning_objective_ids": [
+    "airflow-scheduled-etl-dags-module-03-objective-1",
+    "airflow-scheduled-etl-dags-module-03-objective-2",
+    "airflow-scheduled-etl-dags-module-03-objective-3"
+  ],
+  "source_files": [
+    "web/api_impl.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "web/api_impl.py",
+    "symbol_or_search_term": "run_pipeline",
+    "line_start": 25,
+    "line_end": 45,
+    "source_status": "verified source file exists"
+  },
   "prerequisites": [
     "airflow-scheduled-etl-dags-module-02"
   ],
   "ordered_lesson_ids": [
-    "airflow-scheduled-etl-dags-module-03-lesson-1",
-    "airflow-scheduled-etl-dags-module-03-lesson-2"
+    "airflow-scheduled-etl-dags-module-03-lesson-01",
+    "airflow-scheduled-etl-dags-module-03-lesson-02",
+    "airflow-scheduled-etl-dags-module-03-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "source declarations",
     "imports and callers",
-    "inputs and outputs"
+    "inputs and outputs",
+    "source focus: run_pipeline"
   ],
   "practical_outcomes": [
-    "Evidence map for web/api_impl.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `run_pipeline` through `web/api_impl.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

@@ -1,45 +1,61 @@
 {
   "module_id": "rainfall-analysis-and-prediction-module-02",
-  "title": "Abcmodel and Basemodel",
-  "description": "Study the implementation in [rrmpg/models/abcmodel.py] and [rrmpg/models/basemodel.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include ABCModel, __init__, get_random_params, simulate, BaseModel, __init__, get_random_params, get_params, set_params; confirm their complete definitions and callers in the file.",
-  "source_files": [
-    "rrmpg/models/abcmodel.py",
-    "rrmpg/models/basemodel.py"
-  ],
+  "title": "CemaNeige Snow and Temperature Components",
+  "description": "Begins with an everyday explanation, then traces run_cemaneige in rrmpg/models/cemaneige_model.py. Source units combined: Cemaneige Model and Cemaneige Utils, Cemaneige and Cemaneigegr4j Model.",
   "learning_objectives": [
     {
       "objective_id": "rainfall-analysis-and-prediction-module-02-objective-1",
-      "text": "Explain the source role and visible behavior in rrmpg/models/abcmodel.py, rrmpg/models/basemodel.py."
+      "text": "Explain cemaneige snow and temperature components in plain language using the project source."
     },
     {
       "objective_id": "rainfall-analysis-and-prediction-module-02-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+      "text": "Trace `run_cemaneige` in `rrmpg/models/cemaneige_model.py` and explain its inputs, behavior, and output."
     },
     {
       "objective_id": "rainfall-analysis-and-prediction-module-02-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
     }
   ],
+  "learning_objective_ids": [
+    "rainfall-analysis-and-prediction-module-02-objective-1",
+    "rainfall-analysis-and-prediction-module-02-objective-2",
+    "rainfall-analysis-and-prediction-module-02-objective-3"
+  ],
+  "source_files": [
+    "rrmpg/models/cemaneige_model.py",
+    "rrmpg/models/cemaneige_utils.py",
+    "rrmpg/models/cemaneige.py",
+    "rrmpg/models/cemaneigegr4j_model.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "rrmpg/models/cemaneige_model.py",
+    "symbol_or_search_term": "run_cemaneige",
+    "line_start": null,
+    "line_end": null,
+    "source_status": "source tree absent; excerpt retained from earlier package"
+  },
   "prerequisites": [
     "rainfall-analysis-and-prediction-module-01"
   ],
   "ordered_lesson_ids": [
-    "rainfall-analysis-and-prediction-module-02-lesson-1",
-    "rainfall-analysis-and-prediction-module-02-lesson-2"
+    "rainfall-analysis-and-prediction-module-02-lesson-01",
+    "rainfall-analysis-and-prediction-module-02-lesson-02",
+    "rainfall-analysis-and-prediction-module-02-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "source declarations",
     "imports and callers",
-    "inputs and outputs"
+    "inputs and outputs",
+    "source focus: run_cemaneige"
   ],
   "practical_outcomes": [
-    "Evidence map for rrmpg/models/abcmodel.py, rrmpg/models/basemodel.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `run_cemaneige` through `rrmpg/models/cemaneige_model.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

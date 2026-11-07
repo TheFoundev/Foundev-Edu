@@ -22,9 +22,11 @@
     "peyara-remote-mouse-04-settings-and-mobile-persistence"
   ],
   "ordered_lesson_ids": [
-    "peyara-remote-mouse-05-relay-mapping-and-config-lesson-01"
+    "peyara-remote-mouse-05-relay-mapping-and-config-lesson-01",
+    "peyara-remote-mouse-05-relay-mapping-and-config-lesson-02",
+    "peyara-remote-mouse-05-relay-mapping-and-config-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Loopback default, bind acknowledgement, port/sensitivity validation, opt-in robotjs, event mapping",
     "The relay is the boundary that can move the computer. Read configuration before message handling: loopback and logging are defaults, network binding needs explicit acknowledgement, and real input needs its own opt-in.",
@@ -35,8 +37,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: server/config.js.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "server/config.js",
+    "symbol_or_search_term": "config"
+  }
 }

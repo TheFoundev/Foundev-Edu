@@ -20,9 +20,11 @@
     "covid-alert-03-symptom-scoring"
   ],
   "ordered_lesson_ids": [
-    "covid-alert-04-check-history-and-time-lesson-01"
+    "covid-alert-04-check-history-and-time-lesson-01",
+    "covid-alert-04-check-history-and-time-lesson-02",
+    "covid-alert-04-check-history-and-time-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "toCheck, lastCheck, formatting, interval calculation, and empty state",
     "A history list is a stack of dated events. Trace how a service response becomes a row, how newest checks are selected, and how a due timestamp is calculated. Notice that no history means “No check yet.”",
@@ -33,8 +35,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/exposure.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/exposure.ts",
+    "symbol_or_search_term": "exposure"
+  }
 }

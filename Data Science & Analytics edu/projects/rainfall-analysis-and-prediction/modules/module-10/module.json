@@ -1,45 +1,64 @@
 {
   "module_id": "rainfall-analysis-and-prediction-module-10",
-  "title": "Hbvedu Model and Hbvedu",
-  "description": "Study the implementation in [rrmpg/models/hbvedu_model.py] and [rrmpg/models/hbvedu.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include run_hbvedu, and, HBVEdu, __init__, simulate; confirm their complete definitions and callers in the file.",
-  "source_files": [
-    "rrmpg/models/hbvedu_model.py",
-    "rrmpg/models/hbvedu.py"
-  ],
+  "title": "Model Test Suite",
+  "description": "Begins with an everyday explanation, then traces TestBaseModelFunctions in test/test_models.py. Source units combined: Test code and evidence boundaries.",
   "learning_objectives": [
     {
       "objective_id": "rainfall-analysis-and-prediction-module-10-objective-1",
-      "text": "Explain the source role and visible behavior in rrmpg/models/hbvedu_model.py, rrmpg/models/hbvedu.py."
+      "text": "Explain model test suite in plain language using the project source."
     },
     {
       "objective_id": "rainfall-analysis-and-prediction-module-10-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+      "text": "Trace `TestBaseModelFunctions` in `test/test_models.py` and explain its inputs, behavior, and output."
     },
     {
       "objective_id": "rainfall-analysis-and-prediction-module-10-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
     }
   ],
+  "learning_objective_ids": [
+    "rainfall-analysis-and-prediction-module-10-objective-1",
+    "rainfall-analysis-and-prediction-module-10-objective-2",
+    "rainfall-analysis-and-prediction-module-10-objective-3"
+  ],
+  "source_files": [
+    "test/test_models.py",
+    "test/test_tools.py",
+    "test/test_utils.py",
+    "rrmpg/models/__init__.py",
+    "rrmpg/__init__.py",
+    "rrmpg/models/basemodel.py",
+    "README.rst"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "test/test_models.py",
+    "symbol_or_search_term": "TestBaseModelFunctions",
+    "line_start": null,
+    "line_end": null,
+    "source_status": "source tree absent; excerpt retained from earlier package"
+  },
   "prerequisites": [
     "rainfall-analysis-and-prediction-module-09"
   ],
   "ordered_lesson_ids": [
-    "rainfall-analysis-and-prediction-module-10-lesson-1",
-    "rainfall-analysis-and-prediction-module-10-lesson-2"
+    "rainfall-analysis-and-prediction-module-10-lesson-01",
+    "rainfall-analysis-and-prediction-module-10-lesson-02",
+    "rainfall-analysis-and-prediction-module-10-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
-    "source declarations",
-    "imports and callers",
-    "inputs and outputs"
+    "test assertions",
+    "fixtures",
+    "limits of test evidence",
+    "source focus: TestBaseModelFunctions"
   ],
   "practical_outcomes": [
-    "Evidence map for rrmpg/models/hbvedu_model.py, rrmpg/models/hbvedu.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `TestBaseModelFunctions` through `test/test_models.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

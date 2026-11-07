@@ -21,9 +21,11 @@
     "bluewallet-05-wallet-adapters-and-transport"
   ],
   "ordered_lesson_ids": [
-    "bluewallet-06-signing-and-broadcast-safety-lesson-01"
+    "bluewallet-06-signing-and-broadcast-safety-lesson-01",
+    "bluewallet-06-signing-and-broadcast-safety-lesson-02",
+    "bluewallet-06-signing-and-broadcast-safety-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "UnsignedTransaction type, signing gap, refusal path, and no-send regression test",
     "A payment plan is an unsigned instruction sheet, not a valid signed transaction. Trace the UI flow to broadcast and confirm the Electrum adapter throws before sending anything because signing and raw serialization are missing.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/wallet-core.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/wallet-core.ts",
+    "symbol_or_search_term": "wallet-core"
+  }
 }

@@ -20,9 +20,11 @@
     "firefox-for-ios-01-browser-domain-model"
   ],
   "ordered_lesson_ids": [
-    "firefox-for-ios-02-url-and-search-routing-lesson-01"
+    "firefox-for-ios-02-url-and-search-routing-lesson-01",
+    "firefox-for-ios-02-url-and-search-routing-lesson-02",
+    "firefox-for-ios-02-url-and-search-routing-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "URL recognition, scheme normalization, and search fallback",
     "The same text field can contain a web address or search words. Trace the decision and compare test cases; verify empty input does not create an accidental destination.",
@@ -33,8 +35,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: Sources/Core.swift.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "Sources/Core.swift",
+    "symbol_or_search_term": "Core"
+  }
 }

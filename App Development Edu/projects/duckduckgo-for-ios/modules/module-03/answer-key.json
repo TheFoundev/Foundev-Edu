@@ -12,7 +12,7 @@
       },
       "tested_concept": "UIViewRepresentable/WebKit bridge, navigation state, and page loading",
       "related_lesson_id": "duckduckgo-for-ios-03-webkit-integration-lesson-01",
-      "supporting_reference": "../../../../../projects/duckduckgo-for-ios/Sources/WebView.swift"
+      "supporting_reference": "../../../../../App Development/duckduckgo-for-ios/Sources/WebView.swift"
     },
     {
       "question_id": "duckduckgo-for-ios-m03-q02",
@@ -25,7 +25,7 @@
       },
       "tested_concept": "UIViewRepresentable/WebKit bridge, navigation state, and page loading",
       "related_lesson_id": "duckduckgo-for-ios-03-webkit-integration-lesson-01",
-      "supporting_reference": "../../../../../projects/duckduckgo-for-ios/Sources/WebView.swift"
+      "supporting_reference": "../../../../../App Development/duckduckgo-for-ios/Sources/WebView.swift"
     },
     {
       "question_id": "duckduckgo-for-ios-m03-q03",
@@ -38,7 +38,7 @@
       },
       "tested_concept": "UIViewRepresentable/WebKit bridge, navigation state, and page loading",
       "related_lesson_id": "duckduckgo-for-ios-03-webkit-integration-lesson-01",
-      "supporting_reference": "../../../../../projects/duckduckgo-for-ios/Sources/WebView.swift"
+      "supporting_reference": "../../../../../App Development/duckduckgo-for-ios/Sources/WebView.swift"
     },
     {
       "question_id": "duckduckgo-for-ios-m03-q04",
@@ -50,8 +50,8 @@
         "duckduckgo-for-ios-m03-q04-o4": "The lesson traces 'SwiftUI draws the controls; WebKit renders the actual webpage. Read the wrapper boundary and trace URL changes from browser state into WKWebView.' to Sources/WebView.swift. This option instead claims 'Rule-list JSON, rule compilation, blocked-count reporting, and private data behavior', which the cited source does not establish for this behavior."
       },
       "tested_concept": "UIViewRepresentable/WebKit bridge, navigation state, and page loading",
-      "related_lesson_id": "duckduckgo-for-ios-03-webkit-integration-lesson-01",
-      "supporting_reference": "../../../../../projects/duckduckgo-for-ios/Sources/WebView.swift"
+      "related_lesson_id": "duckduckgo-for-ios-03-webkit-integration-lesson-02",
+      "supporting_reference": "../../../../../App Development/duckduckgo-for-ios/Sources/WebView.swift"
     },
     {
       "question_id": "duckduckgo-for-ios-m03-q05",
@@ -63,8 +63,8 @@
         "duckduckgo-for-ios-m03-q05-o4": "The lesson traces 'UIViewRepresentable/WebKit bridge, navigation state, and page loading' to Sources/WebView.swift. This option instead claims 'Rule-list JSON, rule compilation, blocked-count reporting, and private data behavior', which the cited source does not establish for this behavior."
       },
       "tested_concept": "UIViewRepresentable/WebKit bridge, navigation state, and page loading",
-      "related_lesson_id": "duckduckgo-for-ios-03-webkit-integration-lesson-01",
-      "supporting_reference": "../../../../../projects/duckduckgo-for-ios/Sources/WebView.swift"
+      "related_lesson_id": "duckduckgo-for-ios-03-webkit-integration-lesson-02",
+      "supporting_reference": "../../../../../App Development/duckduckgo-for-ios/Sources/WebView.swift"
     },
     {
       "question_id": "duckduckgo-for-ios-m03-q06",
@@ -76,8 +76,8 @@
         "duckduckgo-for-ios-m03-q06-o2": "The lesson traces 'SwiftUI draws the controls; WebKit renders the actual webpage. Read the wrapper boundary and trace URL changes from browser state into WKWebView.' to Sources/WebView.swift. This option instead claims 'Input classification, scheme handling, empty input, and search-engine selection', which the cited source does not establish for this behavior."
       },
       "tested_concept": "UIViewRepresentable/WebKit bridge, navigation state, and page loading",
-      "related_lesson_id": "duckduckgo-for-ios-03-webkit-integration-lesson-01",
-      "supporting_reference": "../../../../../projects/duckduckgo-for-ios/Sources/WebView.swift"
+      "related_lesson_id": "duckduckgo-for-ios-03-webkit-integration-lesson-02",
+      "supporting_reference": "../../../../../App Development/duckduckgo-for-ios/Sources/WebView.swift"
     },
     {
       "question_id": "duckduckgo-for-ios-m03-q07",
@@ -89,8 +89,8 @@
         "duckduckgo-for-ios-m03-q07-o3": "The lesson traces 'This is an educational WebKit wrapper, not a custom browser engine or hardened production browser.' to Sources/WebView.swift. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
       },
       "tested_concept": "UIViewRepresentable/WebKit bridge, navigation state, and page loading",
-      "related_lesson_id": "duckduckgo-for-ios-03-webkit-integration-lesson-01",
-      "supporting_reference": "../../../../../projects/duckduckgo-for-ios/Sources/WebView.swift"
+      "related_lesson_id": "duckduckgo-for-ios-03-webkit-integration-lesson-02",
+      "supporting_reference": "../../../../../App Development/duckduckgo-for-ios/Sources/WebView.swift"
     },
     {
       "question_id": "duckduckgo-for-ios-m03-q08",
@@ -102,8 +102,8 @@
         "duckduckgo-for-ios-m03-q08-o4": "The lesson traces 'Sources/WebView.swift' to Sources/WebView.swift. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior."
       },
       "tested_concept": "UIViewRepresentable/WebKit bridge, navigation state, and page loading",
-      "related_lesson_id": "duckduckgo-for-ios-03-webkit-integration-lesson-01",
-      "supporting_reference": "../../../../../projects/duckduckgo-for-ios/Sources/WebView.swift"
+      "related_lesson_id": "duckduckgo-for-ios-03-webkit-integration-lesson-02",
+      "supporting_reference": "../../../../../App Development/duckduckgo-for-ios/Sources/WebView.swift"
     },
     {
       "question_id": "duckduckgo-for-ios-m03-q09",
@@ -115,8 +115,8 @@
         "duckduckgo-for-ios-m03-q09-o4": "The lesson traces 'Do not claim production readiness: This is an educational WebKit wrapper, not a custom browser engine or hardened production browser.' to Sources/WebView.swift. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
       },
       "tested_concept": "UIViewRepresentable/WebKit bridge, navigation state, and page loading",
-      "related_lesson_id": "duckduckgo-for-ios-03-webkit-integration-lesson-01",
-      "supporting_reference": "../../../../../projects/duckduckgo-for-ios/Sources/WebView.swift"
+      "related_lesson_id": "duckduckgo-for-ios-03-webkit-integration-lesson-03",
+      "supporting_reference": "../../../../../App Development/duckduckgo-for-ios/Sources/WebView.swift"
     },
     {
       "question_id": "duckduckgo-for-ios-m03-q10",
@@ -128,8 +128,8 @@
         "duckduckgo-for-ios-m03-q10-o2": "The lesson traces 'SwiftUI draws the controls; WebKit renders the actual webpage. Read the wrapper boundary and trace URL changes from browser state into WKWebView.' to Sources/WebView.swift. This option instead claims 'Input classification, scheme handling, empty input, and search-engine selection', which the cited source does not establish for this behavior."
       },
       "tested_concept": "UIViewRepresentable/WebKit bridge, navigation state, and page loading",
-      "related_lesson_id": "duckduckgo-for-ios-03-webkit-integration-lesson-01",
-      "supporting_reference": "../../../../../projects/duckduckgo-for-ios/Sources/WebView.swift"
+      "related_lesson_id": "duckduckgo-for-ios-03-webkit-integration-lesson-03",
+      "supporting_reference": "../../../../../App Development/duckduckgo-for-ios/Sources/WebView.swift"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "module_id": "social-media-sentiment-dashboard-module-07",
+  "title": "Twitter and YouTube Fetchers",
+  "instructions": "Choose one best answer. The questions address this module; read its three lessons.",
   "questions": [
     {
       "question_id": "social-media-sentiment-dashboard-module-07-q01",
@@ -7,11 +9,11 @@
       "options": [
         {
           "option_id": "social-media-sentiment-dashboard-module-07-q01-o1",
-          "text": "src/fetchers/discord_fetcher.py"
+          "text": "tests/test_analytics.py"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-07-q01-o2",
-          "text": "src/fetchers/facebook_fetcher.py"
+          "text": "tests/test_fetchers.py"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-07-q01-o3",
@@ -24,11 +26,12 @@
       ],
       "difficulty": "basic",
       "learning_objective_id": "social-media-sentiment-dashboard-module-07-objective-1",
-      "related_lesson_id": "social-media-sentiment-dashboard-module-07-lesson-1"
+      "related_lesson_id": "social-media-sentiment-dashboard-module-07-lesson-01",
+      "lesson_id": "social-media-sentiment-dashboard-module-07-lesson-01"
     },
     {
       "question_id": "social-media-sentiment-dashboard-module-07-q02",
-      "text": "When reading src/fetchers/discord_fetcher.py, what is the best way to establish how its main operation is used?",
+      "text": "When reading tests/test_analytics.py, what is the best way to establish how its main operation is used?",
       "options": [
         {
           "option_id": "social-media-sentiment-dashboard-module-07-q02-o1",
@@ -48,16 +51,17 @@
         }
       ],
       "difficulty": "basic",
-      "learning_objective_id": "social-media-sentiment-dashboard-module-07-objective-2",
-      "related_lesson_id": "social-media-sentiment-dashboard-module-07-lesson-2"
+      "learning_objective_id": "social-media-sentiment-dashboard-module-07-objective-1",
+      "related_lesson_id": "social-media-sentiment-dashboard-module-07-lesson-01",
+      "lesson_id": "social-media-sentiment-dashboard-module-07-lesson-01"
     },
     {
       "question_id": "social-media-sentiment-dashboard-module-07-q03",
-      "text": "What can the excerpt for src/fetchers/discord_fetcher.py establish without running the application?",
+      "text": "What can the excerpt for tests/test_analytics.py establish without running the application?",
       "options": [
         {
           "option_id": "social-media-sentiment-dashboard-module-07-q03-o1",
-          "text": "It contains a declaration named DiscordFetcher"
+          "text": "It contains a declaration named TestAnalytics"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-07-q03-o2",
@@ -73,12 +77,13 @@
         }
       ],
       "difficulty": "basic",
-      "learning_objective_id": "social-media-sentiment-dashboard-module-07-objective-3",
-      "related_lesson_id": "social-media-sentiment-dashboard-module-07-lesson-1"
+      "learning_objective_id": "social-media-sentiment-dashboard-module-07-objective-1",
+      "related_lesson_id": "social-media-sentiment-dashboard-module-07-lesson-01",
+      "lesson_id": "social-media-sentiment-dashboard-module-07-lesson-01"
     },
     {
       "question_id": "social-media-sentiment-dashboard-module-07-q04",
-      "text": "Which next step best checks whether code in src/fetchers/discord_fetcher.py is reachable from an entry point?",
+      "text": "Which next step best checks whether code in tests/test_analytics.py is reachable from an entry point?",
       "options": [
         {
           "option_id": "social-media-sentiment-dashboard-module-07-q04-o1",
@@ -98,12 +103,13 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "social-media-sentiment-dashboard-module-07-objective-1",
-      "related_lesson_id": "social-media-sentiment-dashboard-module-07-lesson-2"
+      "learning_objective_id": "social-media-sentiment-dashboard-module-07-objective-2",
+      "related_lesson_id": "social-media-sentiment-dashboard-module-07-lesson-02",
+      "lesson_id": "social-media-sentiment-dashboard-module-07-lesson-02"
     },
     {
       "question_id": "social-media-sentiment-dashboard-module-07-q05",
-      "text": "If a test mentions behavior related to src/fetchers/discord_fetcher.py, what does the test source show before execution?",
+      "text": "If a test mentions behavior related to tests/test_analytics.py, what does the test source show before execution?",
       "options": [
         {
           "option_id": "social-media-sentiment-dashboard-module-07-q05-o1",
@@ -124,11 +130,12 @@
       ],
       "difficulty": "intermediate",
       "learning_objective_id": "social-media-sentiment-dashboard-module-07-objective-2",
-      "related_lesson_id": "social-media-sentiment-dashboard-module-07-lesson-1"
+      "related_lesson_id": "social-media-sentiment-dashboard-module-07-lesson-02",
+      "lesson_id": "social-media-sentiment-dashboard-module-07-lesson-02"
     },
     {
       "question_id": "social-media-sentiment-dashboard-module-07-q06",
-      "text": "A README claim about src/fetchers/discord_fetcher.py differs from source. What should the learner record?",
+      "text": "A README claim about tests/test_analytics.py differs from source. What should the learner record?",
       "options": [
         {
           "option_id": "social-media-sentiment-dashboard-module-07-q06-o1",
@@ -148,12 +155,13 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "social-media-sentiment-dashboard-module-07-objective-3",
-      "related_lesson_id": "social-media-sentiment-dashboard-module-07-lesson-2"
+      "learning_objective_id": "social-media-sentiment-dashboard-module-07-objective-2",
+      "related_lesson_id": "social-media-sentiment-dashboard-module-07-lesson-02",
+      "lesson_id": "social-media-sentiment-dashboard-module-07-lesson-02"
     },
     {
       "question_id": "social-media-sentiment-dashboard-module-07-q07",
-      "text": "When tracing a value through src/fetchers/discord_fetcher.py, which evidence is most useful?",
+      "text": "When tracing a value through tests/test_analytics.py, which evidence is most useful?",
       "options": [
         {
           "option_id": "social-media-sentiment-dashboard-module-07-q07-o1",
@@ -173,12 +181,13 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "social-media-sentiment-dashboard-module-07-objective-1",
-      "related_lesson_id": "social-media-sentiment-dashboard-module-07-lesson-1"
+      "learning_objective_id": "social-media-sentiment-dashboard-module-07-objective-2",
+      "related_lesson_id": "social-media-sentiment-dashboard-module-07-lesson-02",
+      "lesson_id": "social-media-sentiment-dashboard-module-07-lesson-02"
     },
     {
       "question_id": "social-media-sentiment-dashboard-module-07-q08",
-      "text": "What is a safe conclusion when configuration is declared for src/fetchers/discord_fetcher.py but its runtime use is not traced?",
+      "text": "What is a safe conclusion when configuration is declared for tests/test_analytics.py but its runtime use is not traced?",
       "options": [
         {
           "option_id": "social-media-sentiment-dashboard-module-07-q08-o1",
@@ -199,11 +208,12 @@
       ],
       "difficulty": "intermediate",
       "learning_objective_id": "social-media-sentiment-dashboard-module-07-objective-2",
-      "related_lesson_id": "social-media-sentiment-dashboard-module-07-lesson-2"
+      "related_lesson_id": "social-media-sentiment-dashboard-module-07-lesson-02",
+      "lesson_id": "social-media-sentiment-dashboard-module-07-lesson-02"
     },
     {
       "question_id": "social-media-sentiment-dashboard-module-07-q09",
-      "text": "How should a proposed change to src/fetchers/discord_fetcher.py be verified?",
+      "text": "How should a proposed change to tests/test_analytics.py be verified?",
       "options": [
         {
           "option_id": "social-media-sentiment-dashboard-module-07-q09-o1",
@@ -224,11 +234,12 @@
       ],
       "difficulty": "advanced",
       "learning_objective_id": "social-media-sentiment-dashboard-module-07-objective-3",
-      "related_lesson_id": "social-media-sentiment-dashboard-module-07-lesson-1"
+      "related_lesson_id": "social-media-sentiment-dashboard-module-07-lesson-03",
+      "lesson_id": "social-media-sentiment-dashboard-module-07-lesson-03"
     },
     {
       "question_id": "social-media-sentiment-dashboard-module-07-q10",
-      "text": "Which evidence is required before claiming the path in src/fetchers/discord_fetcher.py works end to end?",
+      "text": "Which evidence is required before claiming the path in tests/test_analytics.py works end to end?",
       "options": [
         {
           "option_id": "social-media-sentiment-dashboard-module-07-q10-o1",
@@ -248,8 +259,9 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "social-media-sentiment-dashboard-module-07-objective-1",
-      "related_lesson_id": "social-media-sentiment-dashboard-module-07-lesson-2"
+      "learning_objective_id": "social-media-sentiment-dashboard-module-07-objective-3",
+      "related_lesson_id": "social-media-sentiment-dashboard-module-07-lesson-03",
+      "lesson_id": "social-media-sentiment-dashboard-module-07-lesson-03"
     }
   ]
 }

@@ -1,45 +1,65 @@
 {
   "module_id": "automated-eda-tool-module-06",
-  "title": "Summary Stats and Database",
-  "description": "Study the implementation in [autoeda/summary_stats.py] and [backend/config/database.js]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include load_and_clean_data, split_numerical_categorical, numerical_stats, most_frequent_values, categorical_stats, connectDB; confirm their complete definitions and callers in the file.",
-  "source_files": [
-    "autoeda/summary_stats.py",
-    "backend/config/database.js"
-  ],
+  "title": "Dashboard and Data Upload Flow",
+  "description": "Begins with an everyday explanation, then traces Dashboard in frontend/src/components/Dashboard.jsx. Source units combined: Dashboard and FileUpload, Footer and Home, HowItWorks and Navbar, ScrollCard and Theme Provider.",
   "learning_objectives": [
     {
       "objective_id": "automated-eda-tool-module-06-objective-1",
-      "text": "Explain the source role and visible behavior in autoeda/summary_stats.py, backend/config/database.js."
+      "text": "Explain dashboard and data upload flow in plain language using the project source."
     },
     {
       "objective_id": "automated-eda-tool-module-06-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+      "text": "Trace `Dashboard` in `frontend/src/components/Dashboard.jsx` and explain its inputs, behavior, and output."
     },
     {
       "objective_id": "automated-eda-tool-module-06-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
     }
   ],
+  "learning_objective_ids": [
+    "automated-eda-tool-module-06-objective-1",
+    "automated-eda-tool-module-06-objective-2",
+    "automated-eda-tool-module-06-objective-3"
+  ],
+  "source_files": [
+    "frontend/src/components/Dashboard.jsx",
+    "frontend/src/components/FileUpload.jsx",
+    "frontend/src/components/Footer.jsx",
+    "frontend/src/components/Home.jsx",
+    "frontend/src/components/HowItWorks.jsx",
+    "frontend/src/components/Navbar.jsx",
+    "frontend/src/components/scrollCard.jsx",
+    "frontend/src/components/theme-provider.jsx"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "frontend/src/components/Dashboard.jsx",
+    "symbol_or_search_term": "Dashboard",
+    "line_start": null,
+    "line_end": null,
+    "source_status": "source tree absent; excerpt retained from earlier package"
+  },
   "prerequisites": [
     "automated-eda-tool-module-05"
   ],
   "ordered_lesson_ids": [
-    "automated-eda-tool-module-06-lesson-1",
-    "automated-eda-tool-module-06-lesson-2"
+    "automated-eda-tool-module-06-lesson-01",
+    "automated-eda-tool-module-06-lesson-02",
+    "automated-eda-tool-module-06-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "source declarations",
     "imports and callers",
-    "inputs and outputs"
+    "inputs and outputs",
+    "source focus: Dashboard"
   ],
   "practical_outcomes": [
-    "Evidence map for autoeda/summary_stats.py, backend/config/database.js",
-    "Source-grounded call/data/configuration trace"
+    "Trace `Dashboard` through `frontend/src/components/Dashboard.jsx`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

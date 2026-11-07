@@ -21,9 +21,11 @@
     "peyara-remote-mouse-03-mobile-connection-and-backoff"
   ],
   "ordered_lesson_ids": [
-    "peyara-remote-mouse-04-settings-and-mobile-persistence-lesson-01"
+    "peyara-remote-mouse-04-settings-and-mobile-persistence-lesson-01",
+    "peyara-remote-mouse-04-settings-and-mobile-persistence-lesson-02",
+    "peyara-remote-mouse-04-settings-and-mobile-persistence-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Host validation, settings key, AsyncStorage adapter, and load/save flow",
     "A saved address is a convenience, not proof that the host is safe. Follow input validation into settings storage and inspect how the app reloads the last host.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/settings.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/settings.ts",
+    "symbol_or_search_term": "settings"
+  }
 }

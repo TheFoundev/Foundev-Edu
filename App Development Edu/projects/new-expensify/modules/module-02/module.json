@@ -21,9 +21,11 @@
     "new-expensify-01-expense-and-report-data"
   ],
   "ordered_lesson_ids": [
-    "new-expensify-02-validation-and-category-math-lesson-01"
+    "new-expensify-02-validation-and-category-math-lesson-01",
+    "new-expensify-02-validation-and-category-math-lesson-02",
+    "new-expensify-02-validation-and-category-math-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Positive amount/title validation, category aggregation, and money formatting",
     "Validation is a gate before a row enters the report. Follow amount/title checks, then trace how category groups and totals are calculated and tested.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/model.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/model.ts",
+    "symbol_or_search_term": "model"
+  }
 }

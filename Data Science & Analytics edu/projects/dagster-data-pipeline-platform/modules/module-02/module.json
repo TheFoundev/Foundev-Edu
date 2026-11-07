@@ -1,45 +1,59 @@
 {
   "module_id": "dagster-data-pipeline-platform-module-02",
   "title": "Pipeline and Api Impl",
-  "description": "Study the implementation in [src/pipeline.py] and [web/api_impl.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include make_customers, rfm_segment, group, _quintile, run, state, assets, segments, summary, handle; confirm their complete definitions and callers in the file.",
+  "description": "Begins with an everyday explanation, then traces make_customers in src/pipeline.py. Source units combined: Pipeline and Api Impl.",
+  "learning_objectives": [
+    {
+      "objective_id": "dagster-data-pipeline-platform-module-02-objective-1",
+      "text": "Explain pipeline and api impl in plain language using the project source."
+    },
+    {
+      "objective_id": "dagster-data-pipeline-platform-module-02-objective-2",
+      "text": "Trace `make_customers` in `src/pipeline.py` and explain its inputs, behavior, and output."
+    },
+    {
+      "objective_id": "dagster-data-pipeline-platform-module-02-objective-3",
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
+    }
+  ],
+  "learning_objective_ids": [
+    "dagster-data-pipeline-platform-module-02-objective-1",
+    "dagster-data-pipeline-platform-module-02-objective-2",
+    "dagster-data-pipeline-platform-module-02-objective-3"
+  ],
   "source_files": [
     "src/pipeline.py",
     "web/api_impl.py"
   ],
-  "learning_objectives": [
-    {
-      "objective_id": "dagster-data-pipeline-platform-module-02-objective-1",
-      "text": "Explain the source role and visible behavior in src/pipeline.py, web/api_impl.py."
-    },
-    {
-      "objective_id": "dagster-data-pipeline-platform-module-02-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
-    },
-    {
-      "objective_id": "dagster-data-pipeline-platform-module-02-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
-    }
-  ],
+  "source_code_focus": {
+    "excerpt_file": "src/pipeline.py",
+    "symbol_or_search_term": "make_customers",
+    "line_start": 34,
+    "line_end": 54,
+    "source_status": "verified source file exists"
+  },
   "prerequisites": [
     "dagster-data-pipeline-platform-module-01"
   ],
   "ordered_lesson_ids": [
-    "dagster-data-pipeline-platform-module-02-lesson-1",
-    "dagster-data-pipeline-platform-module-02-lesson-2"
+    "dagster-data-pipeline-platform-module-02-lesson-01",
+    "dagster-data-pipeline-platform-module-02-lesson-02",
+    "dagster-data-pipeline-platform-module-02-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "source declarations",
     "imports and callers",
-    "inputs and outputs"
+    "inputs and outputs",
+    "source focus: make_customers"
   ],
   "practical_outcomes": [
-    "Evidence map for src/pipeline.py, web/api_impl.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `make_customers` through `src/pipeline.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

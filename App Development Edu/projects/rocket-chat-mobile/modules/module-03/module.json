@@ -21,9 +21,11 @@
     "rocket-chat-mobile-02-ddp-client-lifecycle"
   ],
   "ordered_lesson_ids": [
-    "rocket-chat-mobile-03-response-mapping-and-local-operations-lesson-01"
+    "rocket-chat-mobile-03-response-mapping-and-local-operations-lesson-01",
+    "rocket-chat-mobile-03-response-mapping-and-local-operations-lesson-02",
+    "rocket-chat-mobile-03-response-mapping-and-local-operations-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "toChannels/toMessages, filtering, unread counts, optimistic append",
     "External objects need validation before entering a UI list. Follow mapping functions and local helpers, then see how a sent message is appended optimistically.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/chat.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/chat.ts",
+    "symbol_or_search_term": "chat"
+  }
 }

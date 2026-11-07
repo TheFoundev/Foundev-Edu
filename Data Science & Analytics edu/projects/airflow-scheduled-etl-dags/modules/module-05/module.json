@@ -1,45 +1,59 @@
 {
   "module_id": "airflow-scheduled-etl-dags-module-05",
   "title": "Declared dependencies and runtime configuration",
-  "description": "Inspect the actual manifests requirements.txt. Separate declared packages/settings from imports, installed state, secrets, and runtime success. The test/configuration evidence is traced into implementation main.py.",
+  "description": "Begins with an everyday explanation, then traces main in main.py. Source units combined: Declared dependencies and runtime configuration.",
+  "learning_objectives": [
+    {
+      "objective_id": "airflow-scheduled-etl-dags-module-05-objective-1",
+      "text": "Explain declared dependencies and runtime configuration in plain language using the project source."
+    },
+    {
+      "objective_id": "airflow-scheduled-etl-dags-module-05-objective-2",
+      "text": "Trace `main` in `main.py` and explain its inputs, behavior, and output."
+    },
+    {
+      "objective_id": "airflow-scheduled-etl-dags-module-05-objective-3",
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
+    }
+  ],
+  "learning_objective_ids": [
+    "airflow-scheduled-etl-dags-module-05-objective-1",
+    "airflow-scheduled-etl-dags-module-05-objective-2",
+    "airflow-scheduled-etl-dags-module-05-objective-3"
+  ],
   "source_files": [
     "requirements.txt",
     "main.py"
   ],
-  "learning_objectives": [
-    {
-      "objective_id": "airflow-scheduled-etl-dags-module-05-objective-1",
-      "text": "Explain the source role and visible behavior in requirements.txt."
-    },
-    {
-      "objective_id": "airflow-scheduled-etl-dags-module-05-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
-    },
-    {
-      "objective_id": "airflow-scheduled-etl-dags-module-05-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
-    }
-  ],
+  "source_code_focus": {
+    "excerpt_file": "main.py",
+    "symbol_or_search_term": "main",
+    "line_start": 5,
+    "line_end": 25,
+    "source_status": "verified source file exists"
+  },
   "prerequisites": [
     "airflow-scheduled-etl-dags-module-04"
   ],
   "ordered_lesson_ids": [
-    "airflow-scheduled-etl-dags-module-05-lesson-1",
-    "airflow-scheduled-etl-dags-module-05-lesson-2"
+    "airflow-scheduled-etl-dags-module-05-lesson-01",
+    "airflow-scheduled-etl-dags-module-05-lesson-02",
+    "airflow-scheduled-etl-dags-module-05-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "declared dependencies",
     "configuration keys",
-    "safe setup"
+    "safe setup",
+    "source focus: main"
   ],
   "practical_outcomes": [
-    "Evidence map for requirements.txt",
-    "Source-grounded call/data/configuration trace"
+    "Trace `main` through `main.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

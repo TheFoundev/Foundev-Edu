@@ -25,9 +25,11 @@
     "covid-alert-04-check-history-and-time"
   ],
   "ordered_lesson_ids": [
-    "covid-alert-05-state-storage-and-ui-lesson-01"
+    "covid-alert-05-state-storage-and-ui-lesson-01",
+    "covid-alert-05-state-storage-and-ui-lesson-02",
+    "covid-alert-05-state-storage-and-ui-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Provider lifecycle, AsyncStorage adapter, resources screen, reusable controls, and tabs",
     "The provider is a shared notebook service for screens. Follow app startup through storage load, check action through update, and persistence save; inspect the resource screen and error/corrupt-data fallback behavior.",
@@ -38,8 +40,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/exposureContext.tsx.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/exposureContext.tsx",
+    "symbol_or_search_term": "exposureContext"
+  }
 }

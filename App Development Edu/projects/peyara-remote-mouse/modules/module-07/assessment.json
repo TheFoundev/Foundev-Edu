@@ -98,8 +98,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "peyara-remote-mouse-07-operation-and-security-objective-01",
-      "lesson_id": "peyara-remote-mouse-07-operation-and-security-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-07-operation-and-security-objective-02",
+      "lesson_id": "peyara-remote-mouse-07-operation-and-security-lesson-02"
     },
     {
       "question_id": "peyara-remote-mouse-m07-q05",
@@ -123,8 +123,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "peyara-remote-mouse-07-operation-and-security-objective-01",
-      "lesson_id": "peyara-remote-mouse-07-operation-and-security-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-07-operation-and-security-objective-02",
+      "lesson_id": "peyara-remote-mouse-07-operation-and-security-lesson-02"
     },
     {
       "question_id": "peyara-remote-mouse-m07-q06",
@@ -148,8 +148,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "peyara-remote-mouse-07-operation-and-security-objective-01",
-      "lesson_id": "peyara-remote-mouse-07-operation-and-security-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-07-operation-and-security-objective-02",
+      "lesson_id": "peyara-remote-mouse-07-operation-and-security-lesson-02"
     },
     {
       "question_id": "peyara-remote-mouse-m07-q07",
@@ -173,8 +173,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "peyara-remote-mouse-07-operation-and-security-objective-01",
-      "lesson_id": "peyara-remote-mouse-07-operation-and-security-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-07-operation-and-security-objective-02",
+      "lesson_id": "peyara-remote-mouse-07-operation-and-security-lesson-02"
     },
     {
       "question_id": "peyara-remote-mouse-m07-q08",
@@ -198,8 +198,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "peyara-remote-mouse-07-operation-and-security-objective-01",
-      "lesson_id": "peyara-remote-mouse-07-operation-and-security-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-07-operation-and-security-objective-02",
+      "lesson_id": "peyara-remote-mouse-07-operation-and-security-lesson-02"
     },
     {
       "question_id": "peyara-remote-mouse-m07-q09",
@@ -223,8 +223,8 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "peyara-remote-mouse-07-operation-and-security-objective-01",
-      "lesson_id": "peyara-remote-mouse-07-operation-and-security-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-07-operation-and-security-objective-03",
+      "lesson_id": "peyara-remote-mouse-07-operation-and-security-lesson-03"
     },
     {
       "question_id": "peyara-remote-mouse-m07-q10",
@@ -248,8 +248,8 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "peyara-remote-mouse-07-operation-and-security-objective-01",
-      "lesson_id": "peyara-remote-mouse-07-operation-and-security-lesson-01"
+      "learning_objective_id": "peyara-remote-mouse-07-operation-and-security-objective-03",
+      "lesson_id": "peyara-remote-mouse-07-operation-and-security-lesson-03"
     }
   ]
 }

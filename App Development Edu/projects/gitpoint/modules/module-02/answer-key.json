@@ -12,7 +12,7 @@
       },
       "tested_concept": "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
       "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+      "supporting_reference": "../../../../../App Development/gitpoint/src/github.ts"
     },
     {
       "question_id": "gitpoint-m02-q02",
@@ -25,7 +25,7 @@
       },
       "tested_concept": "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
       "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+      "supporting_reference": "../../../../../App Development/gitpoint/src/github.ts"
     },
     {
       "question_id": "gitpoint-m02-q03",
@@ -38,7 +38,7 @@
       },
       "tested_concept": "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
       "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+      "supporting_reference": "../../../../../App Development/gitpoint/src/github.ts"
     },
     {
       "question_id": "gitpoint-m02-q04",
@@ -50,8 +50,8 @@
         "gitpoint-m02-q04-o4": "The lesson traces 'An HTTP client sends a request and turns a response into a useful shape. Trace URL construction and response handling, then inspect how API errors and rate-limit metadata are represented.' to src/github.ts. This option instead claims 'Cache keys, load/save, corrupt data, provider startup, and fallback state', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
-      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-02",
+      "supporting_reference": "../../../../../App Development/gitpoint/src/github.ts"
     },
     {
       "question_id": "gitpoint-m02-q05",
@@ -63,8 +63,8 @@
         "gitpoint-m02-q05-o4": "The lesson traces 'Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers' to src/github.ts. This option instead claims 'Cache keys, load/save, corrupt data, provider startup, and fallback state', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
-      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-02",
+      "supporting_reference": "../../../../../App Development/gitpoint/src/github.ts"
     },
     {
       "question_id": "gitpoint-m02-q06",
@@ -76,8 +76,8 @@
         "gitpoint-m02-q06-o2": "The lesson traces 'An HTTP client sends a request and turns a response into a useful shape. Trace URL construction and response handling, then inspect how API errors and rate-limit metadata are represented.' to src/github.ts. This option instead claims 'Repository/issue shapes, response mapping, sample data, and sort fields', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
-      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-02",
+      "supporting_reference": "../../../../../App Development/gitpoint/src/github.ts"
     },
     {
       "question_id": "gitpoint-m02-q07",
@@ -89,8 +89,8 @@
         "gitpoint-m02-q07-o3": "The lesson traces 'Authentication, token storage, pagination breadth, and current provider quotas need review before production use.' to src/github.ts. This option instead claims 'The local tests prove the external provider and deployment work end to end.', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
-      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-02",
+      "supporting_reference": "../../../../../App Development/gitpoint/src/github.ts"
     },
     {
       "question_id": "gitpoint-m02-q08",
@@ -102,8 +102,8 @@
         "gitpoint-m02-q08-o4": "The lesson traces 'src/github.ts' to src/github.ts. This option instead claims 'An unrelated feature from another application layer (3).', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
-      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-02",
+      "supporting_reference": "../../../../../App Development/gitpoint/src/github.ts"
     },
     {
       "question_id": "gitpoint-m02-q09",
@@ -115,8 +115,8 @@
         "gitpoint-m02-q09-o4": "The lesson traces 'Do not claim production readiness: Authentication, token storage, pagination breadth, and current provider quotas need review before production use.' to src/github.ts. This option instead claims 'It is safe to add production secrets directly to the mobile bundle.', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
-      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-03",
+      "supporting_reference": "../../../../../App Development/gitpoint/src/github.ts"
     },
     {
       "question_id": "gitpoint-m02-q10",
@@ -128,8 +128,8 @@
         "gitpoint-m02-q10-o2": "The lesson traces 'An HTTP client sends a request and turns a response into a useful shape. Trace URL construction and response handling, then inspect how API errors and rate-limit metadata are represented.' to src/github.ts. This option instead claims 'Repository/issue shapes, response mapping, sample data, and sort fields', which the cited source does not establish for this behavior."
       },
       "tested_concept": "Fetch client, request paths, headers, response mapping, GitHubError, and rate-limit headers",
-      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-01",
-      "supporting_reference": "../../../../../projects/gitpoint/src/github.ts"
+      "related_lesson_id": "gitpoint-02-rest-client-and-errors-lesson-03",
+      "supporting_reference": "../../../../../App Development/gitpoint/src/github.ts"
     }
   ]
 }

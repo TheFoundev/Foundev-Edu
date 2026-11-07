@@ -1,0 +1,98 @@
+# Documented goals mapped to implementation: Test the boundary
+
+**Lesson ID:** `sales-kpi-dashboard-with-plotly-dash-module-05-lesson-03`  
+**Module ID:** `sales-kpi-dashboard-with-plotly-dash-module-05`  
+**Source focus:** `app.py` → `index`
+
+## Purpose and learning objectives
+
+Use a test or boundary case to assess what the implementation proves and what remains unverified.
+
+## Prerequisites
+
+Complete the earlier lesson in this module first. This module covers: Documented goals mapped to implementation.
+
+## Beginner explanation
+
+In plain language, documented goals mapped to implementation is one stage in turning source data into a result. This is a mental model, not a claim that every named source component uses a production-grade implementation.
+
+## Step-by-step source reading
+
+1. Open `app.py` and locate `index`.
+2. Identify its input and returned, stored, displayed, or emitted output.
+3. Follow one caller/test into a related source path: `README.md`, `app.py`, `main.py`.
+4. Compare that path with the source README, test fixtures, and documented limitations.
+
+## Source evidence
+
+The selected source finding is: documentation claims; implementation mapping; limitations
+
+**Excerpt:** `app.py` at lines 45–65. Source code was not executed during refinement.
+
+### README.md
+
+This mapped path is part of the module scope; inspect it alongside its callers and tests.
+### app.py
+
+The excerpt below is the selected implementation focus.
+### main.py
+
+This mapped path is part of the module scope; inspect it alongside its callers and tests.
+
+```py
+@app.route("/demo")
+def index():
+    kpis = json.loads(Path("artifacts/kpis.json").read_text())
+    return render_template_string(PAGE, kpis=kpis)
+
+
+@app.route("/chart")
+def chart():
+    return send_file(Path("artifacts/revenue_trend.png"), mimetype="image/png")
+
+
+# ------------------------------------------------------------------ #
+# The web layer of the project                                        #
+# ------------------------------------------------------------------ #
+
+@app.route("/")
+def site_index():
+    """The home page of the site of the project."""
+    return send_from_directory(WEB, "index.html")
+```
+
+Use the test or boundary to separate checked behavior from real-world performance, deployment, or provider claims.
+
+## Expected behavior and limits
+
+documentation claims; implementation mapping; limitations The repository’s README notes and tests are part of the scope; no application execution is claimed by this package.
+
+## Practical exercise
+
+Complete [`exercise-05.md`](../exercises/exercise-05.md). Cite the focus symbol and source path, record an expected result, and describe one edge case.
+
+## Common mistakes and debugging
+
+- Confusing the repository’s title or project brief with the implementation that is present.
+- Treating a test definition as evidence that the test passed.
+- Ignoring sample-data, small-dataset, synthetic-input, or runtime limitations.
+- Follow the focus symbol through its caller before drawing conclusions.
+
+## Best practices and security
+
+Use non-sensitive test data, protect credentials, document split and metric assumptions, and do not present synthetic results as production performance. For hiring, public policy, finance, health, or personal data, require qualified human review.
+
+## Summary
+
+You moved from a plain-language model to `index` in the source and identified one verification boundary.
+
+## Knowledge checks
+
+1. What input does this stage receive?
+2. What does `index` change, return, or measure?
+3. What limitation would you report before using the result outside this sample?
+
+## References
+
+- [Package README](../../../README.md)
+- Source project files listed in module.json (relative to the Data Science & Analytics source tree).

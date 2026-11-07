@@ -1,45 +1,61 @@
 {
   "module_id": "rainfall-analysis-and-prediction-module-05",
-  "title": "Cemaneigegr4j and Cemaneigegr4jice Model",
-  "description": "Study the implementation in [rrmpg/models/cemaneigegr4j.py] and [rrmpg/models/cemaneigegr4jice_model.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include CemaneigeGR4J, __init__, simulate, run_cemaneigegr4jice; confirm their complete definitions and callers in the file.",
-  "source_files": [
-    "rrmpg/models/cemaneigegr4j.py",
-    "rrmpg/models/cemaneigegr4jice_model.py"
-  ],
+  "title": "GR4J and HBV Runoff Models",
+  "description": "Begins with an everyday explanation, then traces run_gr4j in rrmpg/models/gr4j_model.py. Source units combined: Gr4j Model and Gr4j, Hbvedu Model and Hbvedu.",
   "learning_objectives": [
     {
       "objective_id": "rainfall-analysis-and-prediction-module-05-objective-1",
-      "text": "Explain the source role and visible behavior in rrmpg/models/cemaneigegr4j.py, rrmpg/models/cemaneigegr4jice_model.py."
+      "text": "Explain gr4j and hbv runoff models in plain language using the project source."
     },
     {
       "objective_id": "rainfall-analysis-and-prediction-module-05-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+      "text": "Trace `run_gr4j` in `rrmpg/models/gr4j_model.py` and explain its inputs, behavior, and output."
     },
     {
       "objective_id": "rainfall-analysis-and-prediction-module-05-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
     }
   ],
+  "learning_objective_ids": [
+    "rainfall-analysis-and-prediction-module-05-objective-1",
+    "rainfall-analysis-and-prediction-module-05-objective-2",
+    "rainfall-analysis-and-prediction-module-05-objective-3"
+  ],
+  "source_files": [
+    "rrmpg/models/gr4j_model.py",
+    "rrmpg/models/gr4j.py",
+    "rrmpg/models/hbvedu_model.py",
+    "rrmpg/models/hbvedu.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "rrmpg/models/gr4j_model.py",
+    "symbol_or_search_term": "run_gr4j",
+    "line_start": null,
+    "line_end": null,
+    "source_status": "source tree absent; excerpt retained from earlier package"
+  },
   "prerequisites": [
     "rainfall-analysis-and-prediction-module-04"
   ],
   "ordered_lesson_ids": [
-    "rainfall-analysis-and-prediction-module-05-lesson-1",
-    "rainfall-analysis-and-prediction-module-05-lesson-2"
+    "rainfall-analysis-and-prediction-module-05-lesson-01",
+    "rainfall-analysis-and-prediction-module-05-lesson-02",
+    "rainfall-analysis-and-prediction-module-05-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "source declarations",
     "imports and callers",
-    "inputs and outputs"
+    "inputs and outputs",
+    "source focus: run_gr4j"
   ],
   "practical_outcomes": [
-    "Evidence map for rrmpg/models/cemaneigegr4j.py, rrmpg/models/cemaneigegr4jice_model.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `run_gr4j` through `rrmpg/models/gr4j_model.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

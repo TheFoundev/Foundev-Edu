@@ -21,9 +21,11 @@
     "firefox-for-ios-03-webkit-browser-wrapper"
   ],
   "ordered_lesson_ids": [
-    "firefox-for-ios-04-protection-levels-and-rules-lesson-01"
+    "firefox-for-ios-04-protection-levels-and-rules-lesson-01",
+    "firefox-for-ios-04-protection-levels-and-rules-lesson-02",
+    "firefox-for-ios-04-protection-levels-and-rules-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Protection modes, rule selection, rule compilation, and observed count",
     "A protection switch chooses a collection of content rules. Follow the selected level into rule creation and display; distinguish a configured rule count from independently verified blocking.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: Sources/Core.swift.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "Sources/Core.swift",
+    "symbol_or_search_term": "Core"
+  }
 }

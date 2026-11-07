@@ -1,45 +1,61 @@
 {
   "module_id": "social-media-sentiment-dashboard-module-04",
-  "title": "Sentiment Analysis and Trend Analysis",
-  "description": "Study the implementation in [src/analytics/sentiment_analysis.py] and [src/analytics/trend_analysis.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include SentimentAnalyzer, __init__, analyze, analyze_posts_sentiment, sentiment_distribution, extract_hashtags, compute_trending_topics; confirm their complete definitions and callers in the file.",
-  "source_files": [
-    "src/analytics/sentiment_analysis.py",
-    "src/analytics/trend_analysis.py"
-  ],
+  "title": "Discord and Facebook Fetchers",
+  "description": "Begins with an everyday explanation, then traces DiscordFetcher in src/fetchers/discord_fetcher.py. Source units combined: Discord Fetcher and Facebook Fetcher, Instagram Fetcher and Medium Fetcher.",
   "learning_objectives": [
     {
       "objective_id": "social-media-sentiment-dashboard-module-04-objective-1",
-      "text": "Explain the source role and visible behavior in src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py."
+      "text": "Explain discord and facebook fetchers in plain language using the project source."
     },
     {
       "objective_id": "social-media-sentiment-dashboard-module-04-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+      "text": "Trace `DiscordFetcher` in `src/fetchers/discord_fetcher.py` and explain its inputs, behavior, and output."
     },
     {
       "objective_id": "social-media-sentiment-dashboard-module-04-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
     }
   ],
+  "learning_objective_ids": [
+    "social-media-sentiment-dashboard-module-04-objective-1",
+    "social-media-sentiment-dashboard-module-04-objective-2",
+    "social-media-sentiment-dashboard-module-04-objective-3"
+  ],
+  "source_files": [
+    "src/fetchers/discord_fetcher.py",
+    "src/fetchers/facebook_fetcher.py",
+    "src/fetchers/instagram_fetcher.py",
+    "src/fetchers/medium_fetcher.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/fetchers/discord_fetcher.py",
+    "symbol_or_search_term": "DiscordFetcher",
+    "line_start": null,
+    "line_end": null,
+    "source_status": "source tree absent; excerpt retained from earlier package"
+  },
   "prerequisites": [
     "social-media-sentiment-dashboard-module-03"
   ],
   "ordered_lesson_ids": [
-    "social-media-sentiment-dashboard-module-04-lesson-1",
-    "social-media-sentiment-dashboard-module-04-lesson-2"
+    "social-media-sentiment-dashboard-module-04-lesson-01",
+    "social-media-sentiment-dashboard-module-04-lesson-02",
+    "social-media-sentiment-dashboard-module-04-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "source declarations",
     "imports and callers",
-    "inputs and outputs"
+    "inputs and outputs",
+    "source focus: DiscordFetcher"
   ],
   "practical_outcomes": [
-    "Evidence map for src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `DiscordFetcher` through `src/fetchers/discord_fetcher.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

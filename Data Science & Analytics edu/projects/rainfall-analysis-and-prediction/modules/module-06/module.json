@@ -1,45 +1,61 @@
 {
   "module_id": "rainfall-analysis-and-prediction-module-06",
-  "title": "Cemaneigegr4jice and Cemaneigehyst Model",
-  "description": "Study the implementation in [rrmpg/models/cemaneigegr4jice.py] and [rrmpg/models/cemaneigehyst_model.py]. Trace its declarations and dependencies into a caller or test. Prominent declared symbols visible in the inspected excerpt include CemaneigeGR4JIce, __init__, simulate, run_cemaneigehyst; confirm their complete definitions and callers in the file.",
-  "source_files": [
-    "rrmpg/models/cemaneigegr4jice.py",
-    "rrmpg/models/cemaneigehyst_model.py"
-  ],
+  "title": "Ice Melt and Model Initialization",
+  "description": "Begins with an everyday explanation, then traces run_icemelt in rrmpg/models/icemelt_model.py. Source units combined: Icemelt Model and Conf, undefined undefined Init undefined undefined and undefined undefined Init undefined undefined.",
   "learning_objectives": [
     {
       "objective_id": "rainfall-analysis-and-prediction-module-06-objective-1",
-      "text": "Explain the source role and visible behavior in rrmpg/models/cemaneigegr4jice.py, rrmpg/models/cemaneigehyst_model.py."
+      "text": "Explain ice melt and model initialization in plain language using the project source."
     },
     {
       "objective_id": "rainfall-analysis-and-prediction-module-06-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
+      "text": "Trace `run_icemelt` in `rrmpg/models/icemelt_model.py` and explain its inputs, behavior, and output."
     },
     {
       "objective_id": "rainfall-analysis-and-prediction-module-06-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
     }
   ],
+  "learning_objective_ids": [
+    "rainfall-analysis-and-prediction-module-06-objective-1",
+    "rainfall-analysis-and-prediction-module-06-objective-2",
+    "rainfall-analysis-and-prediction-module-06-objective-3"
+  ],
+  "source_files": [
+    "rrmpg/models/icemelt_model.py",
+    "docs/source/conf.py",
+    "rrmpg/__init__.py",
+    "rrmpg/tools/__init__.py"
+  ],
+  "source_code_focus": {
+    "excerpt_file": "rrmpg/models/icemelt_model.py",
+    "symbol_or_search_term": "run_icemelt",
+    "line_start": null,
+    "line_end": null,
+    "source_status": "source tree absent; excerpt retained from earlier package"
+  },
   "prerequisites": [
     "rainfall-analysis-and-prediction-module-05"
   ],
   "ordered_lesson_ids": [
-    "rainfall-analysis-and-prediction-module-06-lesson-1",
-    "rainfall-analysis-and-prediction-module-06-lesson-2"
+    "rainfall-analysis-and-prediction-module-06-lesson-01",
+    "rainfall-analysis-and-prediction-module-06-lesson-02",
+    "rainfall-analysis-and-prediction-module-06-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "source declarations",
     "imports and callers",
-    "inputs and outputs"
+    "inputs and outputs",
+    "source focus: run_icemelt"
   ],
   "practical_outcomes": [
-    "Evidence map for rrmpg/models/cemaneigegr4jice.py, rrmpg/models/cemaneigehyst_model.py",
-    "Source-grounded call/data/configuration trace"
+    "Trace `run_icemelt` through `rrmpg/models/icemelt_model.py`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

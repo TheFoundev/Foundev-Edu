@@ -1,46 +1,60 @@
 {
   "module_id": "rag-evaluation-harness-with-ragas-module-04",
   "title": "Declared dependencies and runtime configuration",
-  "description": "Inspect the actual manifests .github/workflows/ci.yml, requirements.txt. Separate declared packages/settings from imports, installed state, secrets, and runtime success. The test/configuration evidence is traced into implementation main.py.",
+  "description": "Begins with an everyday explanation, then traces dependencies in .github/workflows/ci.yml. Source units combined: Declared dependencies and runtime configuration.",
+  "learning_objectives": [
+    {
+      "objective_id": "rag-evaluation-harness-with-ragas-module-04-objective-1",
+      "text": "Explain declared dependencies and runtime configuration in plain language using the project source."
+    },
+    {
+      "objective_id": "rag-evaluation-harness-with-ragas-module-04-objective-2",
+      "text": "Trace `dependencies` in `.github/workflows/ci.yml` and explain its inputs, behavior, and output."
+    },
+    {
+      "objective_id": "rag-evaluation-harness-with-ragas-module-04-objective-3",
+      "text": "Use a test or boundary case to assess what the implementation proves and what remains unverified."
+    }
+  ],
+  "learning_objective_ids": [
+    "rag-evaluation-harness-with-ragas-module-04-objective-1",
+    "rag-evaluation-harness-with-ragas-module-04-objective-2",
+    "rag-evaluation-harness-with-ragas-module-04-objective-3"
+  ],
   "source_files": [
     ".github/workflows/ci.yml",
     "requirements.txt",
     "main.py"
   ],
-  "learning_objectives": [
-    {
-      "objective_id": "rag-evaluation-harness-with-ragas-module-04-objective-1",
-      "text": "Explain the source role and visible behavior in .github/workflows/ci.yml, requirements.txt."
-    },
-    {
-      "objective_id": "rag-evaluation-harness-with-ragas-module-04-objective-2",
-      "text": "Trace a declaration, setting, or documented claim to a caller, test, or implementation path."
-    },
-    {
-      "objective_id": "rag-evaluation-harness-with-ragas-module-04-objective-3",
-      "text": "Separate source evidence, documentation claims, and unverified runtime behavior."
-    }
-  ],
+  "source_code_focus": {
+    "excerpt_file": ".github/workflows/ci.yml",
+    "symbol_or_search_term": "dependencies",
+    "line_start": 12,
+    "line_end": 20,
+    "source_status": "verified source file exists"
+  },
   "prerequisites": [
     "rag-evaluation-harness-with-ragas-module-03"
   ],
   "ordered_lesson_ids": [
-    "rag-evaluation-harness-with-ragas-module-04-lesson-1",
-    "rag-evaluation-harness-with-ragas-module-04-lesson-2"
+    "rag-evaluation-harness-with-ragas-module-04-lesson-01",
+    "rag-evaluation-harness-with-ragas-module-04-lesson-02",
+    "rag-evaluation-harness-with-ragas-module-04-lesson-03"
   ],
-  "estimated_duration_minutes": 150,
+  "estimated_duration_minutes": 160,
   "concepts": [
     "declared dependencies",
     "configuration keys",
-    "safe setup"
+    "safe setup",
+    "source focus: dependencies"
   ],
   "practical_outcomes": [
-    "Evidence map for .github/workflows/ci.yml, requirements.txt",
-    "Source-grounded call/data/configuration trace"
+    "Trace `dependencies` through `.github/workflows/ci.yml`.",
+    "Explain one data or control boundary."
   ],
   "completion_criteria": [
-    "Complete both lesson knowledge checks.",
-    "Submit the code-trace exercise meeting all acceptance criteria.",
-    "Complete all module questions."
+    "Complete all three lessons and the source exercise.",
+    "Answer ten module questions using lesson evidence.",
+    "Distinguish actual code behavior from assumptions and proposed extensions."
   ]
 }

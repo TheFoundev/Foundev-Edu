@@ -98,8 +98,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "gitpoint-03-search-sort-and-filter-objective-01",
-      "lesson_id": "gitpoint-03-search-sort-and-filter-lesson-01"
+      "learning_objective_id": "gitpoint-03-search-sort-and-filter-objective-02",
+      "lesson_id": "gitpoint-03-search-sort-and-filter-lesson-02"
     },
     {
       "question_id": "gitpoint-m03-q05",
@@ -123,8 +123,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "gitpoint-03-search-sort-and-filter-objective-01",
-      "lesson_id": "gitpoint-03-search-sort-and-filter-lesson-01"
+      "learning_objective_id": "gitpoint-03-search-sort-and-filter-objective-02",
+      "lesson_id": "gitpoint-03-search-sort-and-filter-lesson-02"
     },
     {
       "question_id": "gitpoint-m03-q06",
@@ -148,8 +148,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "gitpoint-03-search-sort-and-filter-objective-01",
-      "lesson_id": "gitpoint-03-search-sort-and-filter-lesson-01"
+      "learning_objective_id": "gitpoint-03-search-sort-and-filter-objective-02",
+      "lesson_id": "gitpoint-03-search-sort-and-filter-lesson-02"
     },
     {
       "question_id": "gitpoint-m03-q07",
@@ -173,8 +173,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "gitpoint-03-search-sort-and-filter-objective-01",
-      "lesson_id": "gitpoint-03-search-sort-and-filter-lesson-01"
+      "learning_objective_id": "gitpoint-03-search-sort-and-filter-objective-02",
+      "lesson_id": "gitpoint-03-search-sort-and-filter-lesson-02"
     },
     {
       "question_id": "gitpoint-m03-q08",
@@ -198,8 +198,8 @@
         }
       ],
       "difficulty": "intermediate",
-      "learning_objective_id": "gitpoint-03-search-sort-and-filter-objective-01",
-      "lesson_id": "gitpoint-03-search-sort-and-filter-lesson-01"
+      "learning_objective_id": "gitpoint-03-search-sort-and-filter-objective-02",
+      "lesson_id": "gitpoint-03-search-sort-and-filter-lesson-02"
     },
     {
       "question_id": "gitpoint-m03-q09",
@@ -223,8 +223,8 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "gitpoint-03-search-sort-and-filter-objective-01",
-      "lesson_id": "gitpoint-03-search-sort-and-filter-lesson-01"
+      "learning_objective_id": "gitpoint-03-search-sort-and-filter-objective-03",
+      "lesson_id": "gitpoint-03-search-sort-and-filter-lesson-03"
     },
     {
       "question_id": "gitpoint-m03-q10",
@@ -248,8 +248,8 @@
         }
       ],
       "difficulty": "advanced",
-      "learning_objective_id": "gitpoint-03-search-sort-and-filter-objective-01",
-      "lesson_id": "gitpoint-03-search-sort-and-filter-lesson-01"
+      "learning_objective_id": "gitpoint-03-search-sort-and-filter-objective-03",
+      "lesson_id": "gitpoint-03-search-sort-and-filter-lesson-03"
     }
   ]
 }

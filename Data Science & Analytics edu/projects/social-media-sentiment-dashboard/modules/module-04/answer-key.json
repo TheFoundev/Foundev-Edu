@@ -4,222 +4,222 @@
     {
       "question_id": "social-media-sentiment-dashboard-module-04-q01",
       "correct_option_id": "social-media-sentiment-dashboard-module-04-q01-o1",
-      "correct_explanation": "This follows the source-reading method taught for src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py: use located implementation evidence and keep unexecuted behavior unverified.",
+      "correct_explanation": "This follows the source-reading method taught for src/fetchers/discord_fetcher.py, src/fetchers/facebook_fetcher.py: use located implementation evidence and keep unexecuted behavior unverified. Source focus for this module: DiscordFetcher in src/fetchers/discord_fetcher.py.",
       "incorrect_option_explanations": [
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q01-o2",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: a name or description does not show a call path"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: a name or description does not show a call path"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q01-o3",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: source files and test definitions do not establish a passing runtime result"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: source files and test definitions do not establish a passing runtime result"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q01-o4",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: configuration or package declarations alone do not establish active behavior"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: configuration or package declarations alone do not establish active behavior"
         }
       ],
       "tested_concept": "source declarations",
-      "related_lesson_id": "social-media-sentiment-dashboard-module-04-lesson-1",
-      "supporting_reference": "src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py; source map in architecture.md."
+      "related_lesson_id": "social-media-sentiment-dashboard-module-04-lesson-01",
+      "supporting_reference": "src/fetchers/discord_fetcher.py"
     },
     {
       "question_id": "social-media-sentiment-dashboard-module-04-q02",
       "correct_option_id": "social-media-sentiment-dashboard-module-04-q02-o1",
-      "correct_explanation": "This follows the source-reading method taught for src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py: use located implementation evidence and keep unexecuted behavior unverified.",
+      "correct_explanation": "This follows the source-reading method taught for src/fetchers/discord_fetcher.py, src/fetchers/facebook_fetcher.py: use located implementation evidence and keep unexecuted behavior unverified. Source focus for this module: DiscordFetcher in src/fetchers/discord_fetcher.py.",
       "incorrect_option_explanations": [
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q02-o2",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: a name or description does not show a call path"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: a name or description does not show a call path"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q02-o3",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: source files and test definitions do not establish a passing runtime result"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: source files and test definitions do not establish a passing runtime result"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q02-o4",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: configuration or package declarations alone do not establish active behavior"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: configuration or package declarations alone do not establish active behavior"
         }
       ],
       "tested_concept": "imports and callers",
-      "related_lesson_id": "social-media-sentiment-dashboard-module-04-lesson-2",
-      "supporting_reference": "src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py; source map in architecture.md."
+      "related_lesson_id": "social-media-sentiment-dashboard-module-04-lesson-01",
+      "supporting_reference": "src/fetchers/discord_fetcher.py"
     },
     {
       "question_id": "social-media-sentiment-dashboard-module-04-q03",
       "correct_option_id": "social-media-sentiment-dashboard-module-04-q03-o1",
-      "correct_explanation": "This follows the source-reading method taught for src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py: use located implementation evidence and keep unexecuted behavior unverified.",
+      "correct_explanation": "This follows the source-reading method taught for src/fetchers/discord_fetcher.py, src/fetchers/facebook_fetcher.py: use located implementation evidence and keep unexecuted behavior unverified. Source focus for this module: DiscordFetcher in src/fetchers/discord_fetcher.py.",
       "incorrect_option_explanations": [
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q03-o2",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: a name or description does not show a call path"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: a name or description does not show a call path"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q03-o3",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: source files and test definitions do not establish a passing runtime result"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: source files and test definitions do not establish a passing runtime result"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q03-o4",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: configuration or package declarations alone do not establish active behavior"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: configuration or package declarations alone do not establish active behavior"
         }
       ],
       "tested_concept": "inputs and outputs",
-      "related_lesson_id": "social-media-sentiment-dashboard-module-04-lesson-1",
-      "supporting_reference": "src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py; source map in architecture.md."
+      "related_lesson_id": "social-media-sentiment-dashboard-module-04-lesson-01",
+      "supporting_reference": "src/fetchers/discord_fetcher.py"
     },
     {
       "question_id": "social-media-sentiment-dashboard-module-04-q04",
       "correct_option_id": "social-media-sentiment-dashboard-module-04-q04-o1",
-      "correct_explanation": "This follows the source-reading method taught for src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py: use located implementation evidence and keep unexecuted behavior unverified.",
+      "correct_explanation": "This follows the source-reading method taught for src/fetchers/discord_fetcher.py, src/fetchers/facebook_fetcher.py: use located implementation evidence and keep unexecuted behavior unverified. Source focus for this module: DiscordFetcher in src/fetchers/discord_fetcher.py.",
       "incorrect_option_explanations": [
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q04-o2",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: a name or description does not show a call path"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: a name or description does not show a call path"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q04-o3",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: source files and test definitions do not establish a passing runtime result"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: source files and test definitions do not establish a passing runtime result"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q04-o4",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: configuration or package declarations alone do not establish active behavior"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: configuration or package declarations alone do not establish active behavior"
         }
       ],
       "tested_concept": "source declarations",
-      "related_lesson_id": "social-media-sentiment-dashboard-module-04-lesson-2",
-      "supporting_reference": "src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py; source map in architecture.md."
+      "related_lesson_id": "social-media-sentiment-dashboard-module-04-lesson-02",
+      "supporting_reference": "src/fetchers/discord_fetcher.py"
     },
     {
       "question_id": "social-media-sentiment-dashboard-module-04-q05",
       "correct_option_id": "social-media-sentiment-dashboard-module-04-q05-o1",
-      "correct_explanation": "This follows the source-reading method taught for src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py: use located implementation evidence and keep unexecuted behavior unverified.",
+      "correct_explanation": "This follows the source-reading method taught for src/fetchers/discord_fetcher.py, src/fetchers/facebook_fetcher.py: use located implementation evidence and keep unexecuted behavior unverified. Source focus for this module: DiscordFetcher in src/fetchers/discord_fetcher.py.",
       "incorrect_option_explanations": [
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q05-o2",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: a name or description does not show a call path"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: a name or description does not show a call path"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q05-o3",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: source files and test definitions do not establish a passing runtime result"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: source files and test definitions do not establish a passing runtime result"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q05-o4",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: configuration or package declarations alone do not establish active behavior"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: configuration or package declarations alone do not establish active behavior"
         }
       ],
       "tested_concept": "imports and callers",
-      "related_lesson_id": "social-media-sentiment-dashboard-module-04-lesson-1",
-      "supporting_reference": "src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py; source map in architecture.md."
+      "related_lesson_id": "social-media-sentiment-dashboard-module-04-lesson-02",
+      "supporting_reference": "src/fetchers/discord_fetcher.py"
     },
     {
       "question_id": "social-media-sentiment-dashboard-module-04-q06",
       "correct_option_id": "social-media-sentiment-dashboard-module-04-q06-o1",
-      "correct_explanation": "This follows the source-reading method taught for src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py: use located implementation evidence and keep unexecuted behavior unverified.",
+      "correct_explanation": "This follows the source-reading method taught for src/fetchers/discord_fetcher.py, src/fetchers/facebook_fetcher.py: use located implementation evidence and keep unexecuted behavior unverified. Source focus for this module: DiscordFetcher in src/fetchers/discord_fetcher.py.",
       "incorrect_option_explanations": [
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q06-o2",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: a name or description does not show a call path"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: a name or description does not show a call path"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q06-o3",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: source files and test definitions do not establish a passing runtime result"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: source files and test definitions do not establish a passing runtime result"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q06-o4",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: configuration or package declarations alone do not establish active behavior"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: configuration or package declarations alone do not establish active behavior"
         }
       ],
       "tested_concept": "inputs and outputs",
-      "related_lesson_id": "social-media-sentiment-dashboard-module-04-lesson-2",
-      "supporting_reference": "src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py; source map in architecture.md."
+      "related_lesson_id": "social-media-sentiment-dashboard-module-04-lesson-02",
+      "supporting_reference": "src/fetchers/discord_fetcher.py"
     },
     {
       "question_id": "social-media-sentiment-dashboard-module-04-q07",
       "correct_option_id": "social-media-sentiment-dashboard-module-04-q07-o1",
-      "correct_explanation": "This follows the source-reading method taught for src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py: use located implementation evidence and keep unexecuted behavior unverified.",
+      "correct_explanation": "This follows the source-reading method taught for src/fetchers/discord_fetcher.py, src/fetchers/facebook_fetcher.py: use located implementation evidence and keep unexecuted behavior unverified. Source focus for this module: DiscordFetcher in src/fetchers/discord_fetcher.py.",
       "incorrect_option_explanations": [
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q07-o2",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: a name or description does not show a call path"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: a name or description does not show a call path"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q07-o3",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: source files and test definitions do not establish a passing runtime result"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: source files and test definitions do not establish a passing runtime result"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q07-o4",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: configuration or package declarations alone do not establish active behavior"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: configuration or package declarations alone do not establish active behavior"
         }
       ],
       "tested_concept": "source declarations",
-      "related_lesson_id": "social-media-sentiment-dashboard-module-04-lesson-1",
-      "supporting_reference": "src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py; source map in architecture.md."
+      "related_lesson_id": "social-media-sentiment-dashboard-module-04-lesson-02",
+      "supporting_reference": "src/fetchers/discord_fetcher.py"
     },
     {
       "question_id": "social-media-sentiment-dashboard-module-04-q08",
       "correct_option_id": "social-media-sentiment-dashboard-module-04-q08-o1",
-      "correct_explanation": "This follows the source-reading method taught for src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py: use located implementation evidence and keep unexecuted behavior unverified.",
+      "correct_explanation": "This follows the source-reading method taught for src/fetchers/discord_fetcher.py, src/fetchers/facebook_fetcher.py: use located implementation evidence and keep unexecuted behavior unverified. Source focus for this module: DiscordFetcher in src/fetchers/discord_fetcher.py.",
       "incorrect_option_explanations": [
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q08-o2",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: a name or description does not show a call path"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: a name or description does not show a call path"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q08-o3",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: source files and test definitions do not establish a passing runtime result"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: source files and test definitions do not establish a passing runtime result"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q08-o4",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: configuration or package declarations alone do not establish active behavior"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: configuration or package declarations alone do not establish active behavior"
         }
       ],
       "tested_concept": "imports and callers",
-      "related_lesson_id": "social-media-sentiment-dashboard-module-04-lesson-2",
-      "supporting_reference": "src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py; source map in architecture.md."
+      "related_lesson_id": "social-media-sentiment-dashboard-module-04-lesson-02",
+      "supporting_reference": "src/fetchers/discord_fetcher.py"
     },
     {
       "question_id": "social-media-sentiment-dashboard-module-04-q09",
       "correct_option_id": "social-media-sentiment-dashboard-module-04-q09-o1",
-      "correct_explanation": "This follows the source-reading method taught for src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py: use located implementation evidence and keep unexecuted behavior unverified.",
+      "correct_explanation": "This follows the source-reading method taught for src/fetchers/discord_fetcher.py, src/fetchers/facebook_fetcher.py: use located implementation evidence and keep unexecuted behavior unverified. Source focus for this module: DiscordFetcher in src/fetchers/discord_fetcher.py.",
       "incorrect_option_explanations": [
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q09-o2",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: a name or description does not show a call path"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: a name or description does not show a call path"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q09-o3",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: source files and test definitions do not establish a passing runtime result"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: source files and test definitions do not establish a passing runtime result"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q09-o4",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: configuration or package declarations alone do not establish active behavior"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: configuration or package declarations alone do not establish active behavior"
         }
       ],
       "tested_concept": "inputs and outputs",
-      "related_lesson_id": "social-media-sentiment-dashboard-module-04-lesson-1",
-      "supporting_reference": "src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py; source map in architecture.md."
+      "related_lesson_id": "social-media-sentiment-dashboard-module-04-lesson-03",
+      "supporting_reference": "src/fetchers/discord_fetcher.py"
     },
     {
       "question_id": "social-media-sentiment-dashboard-module-04-q10",
       "correct_option_id": "social-media-sentiment-dashboard-module-04-q10-o1",
-      "correct_explanation": "This follows the source-reading method taught for src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py: use located implementation evidence and keep unexecuted behavior unverified.",
+      "correct_explanation": "This follows the source-reading method taught for src/fetchers/discord_fetcher.py, src/fetchers/facebook_fetcher.py: use located implementation evidence and keep unexecuted behavior unverified. Source focus for this module: DiscordFetcher in src/fetchers/discord_fetcher.py.",
       "incorrect_option_explanations": [
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q10-o2",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: a name or description does not show a call path"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: a name or description does not show a call path"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q10-o3",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: source files and test definitions do not establish a passing runtime result"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: source files and test definitions do not establish a passing runtime result"
         },
         {
           "option_id": "social-media-sentiment-dashboard-module-04-q10-o4",
-          "explanation": "This distractor overstates what can be concluded about src/analytics/sentiment_analysis.py: configuration or package declarations alone do not establish active behavior"
+          "explanation": "This distractor overstates what can be concluded about src/fetchers/discord_fetcher.py: configuration or package declarations alone do not establish active behavior"
         }
       ],
       "tested_concept": "source declarations",
-      "related_lesson_id": "social-media-sentiment-dashboard-module-04-lesson-2",
-      "supporting_reference": "src/analytics/sentiment_analysis.py, src/analytics/trend_analysis.py; source map in architecture.md."
+      "related_lesson_id": "social-media-sentiment-dashboard-module-04-lesson-03",
+      "supporting_reference": "src/fetchers/discord_fetcher.py"
     }
   ]
 }

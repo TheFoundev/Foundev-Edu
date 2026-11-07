@@ -18,9 +18,11 @@
   ],
   "prerequisites": [],
   "ordered_lesson_ids": [
-    "gitpoint-01-github-data-models-lesson-01"
+    "gitpoint-01-github-data-models-lesson-01",
+    "gitpoint-01-github-data-models-lesson-02",
+    "gitpoint-01-github-data-models-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Repository/issue shapes, response mapping, sample data, and sort fields",
     "An API response is not yet a screen-ready object. Learn the normalized types and mapper functions, then compare sample rows with fields expected from GitHub.",
@@ -31,8 +33,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: src/github.ts.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "src/github.ts",
+    "symbol_or_search_term": "github"
+  }
 }

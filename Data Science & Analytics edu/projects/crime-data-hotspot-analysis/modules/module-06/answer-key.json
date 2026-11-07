@@ -4,7 +4,7 @@
     {
       "question_id": "crime-data-hotspot-analysis-module-06-q01",
       "correct_option_id": "crime-data-hotspot-analysis-module-06-q01-o1",
-      "correct_explanation": "This follows the source-reading method taught for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py: use located implementation evidence and keep unexecuted behavior unverified.",
+      "correct_explanation": "This follows the source-reading method taught for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py: use located implementation evidence and keep unexecuted behavior unverified. Source focus for this module: load_preprocessed_data in EDA.py.",
       "incorrect_option_explanations": [
         {
           "option_id": "crime-data-hotspot-analysis-module-06-q01-o2",
@@ -20,13 +20,13 @@
         }
       ],
       "tested_concept": "call graph",
-      "related_lesson_id": "crime-data-hotspot-analysis-module-06-lesson-1",
-      "supporting_reference": "EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py; source map in architecture.md."
+      "related_lesson_id": "crime-data-hotspot-analysis-module-06-lesson-01",
+      "supporting_reference": "EDA.py"
     },
     {
       "question_id": "crime-data-hotspot-analysis-module-06-q02",
       "correct_option_id": "crime-data-hotspot-analysis-module-06-q02-o1",
-      "correct_explanation": "This follows the source-reading method taught for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py: use located implementation evidence and keep unexecuted behavior unverified.",
+      "correct_explanation": "This follows the source-reading method taught for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py: use located implementation evidence and keep unexecuted behavior unverified. Source focus for this module: load_preprocessed_data in EDA.py.",
       "incorrect_option_explanations": [
         {
           "option_id": "crime-data-hotspot-analysis-module-06-q02-o2",
@@ -42,13 +42,13 @@
         }
       ],
       "tested_concept": "failure cases",
-      "related_lesson_id": "crime-data-hotspot-analysis-module-06-lesson-2",
-      "supporting_reference": "EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py; source map in architecture.md."
+      "related_lesson_id": "crime-data-hotspot-analysis-module-06-lesson-01",
+      "supporting_reference": "EDA.py"
     },
     {
       "question_id": "crime-data-hotspot-analysis-module-06-q03",
       "correct_option_id": "crime-data-hotspot-analysis-module-06-q03-o1",
-      "correct_explanation": "This follows the source-reading method taught for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py: use located implementation evidence and keep unexecuted behavior unverified.",
+      "correct_explanation": "This follows the source-reading method taught for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py: use located implementation evidence and keep unexecuted behavior unverified. Source focus for this module: load_preprocessed_data in EDA.py.",
       "incorrect_option_explanations": [
         {
           "option_id": "crime-data-hotspot-analysis-module-06-q03-o2",
@@ -64,13 +64,13 @@
         }
       ],
       "tested_concept": "safe extension",
-      "related_lesson_id": "crime-data-hotspot-analysis-module-06-lesson-1",
-      "supporting_reference": "EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py; source map in architecture.md."
+      "related_lesson_id": "crime-data-hotspot-analysis-module-06-lesson-01",
+      "supporting_reference": "EDA.py"
     },
     {
       "question_id": "crime-data-hotspot-analysis-module-06-q04",
       "correct_option_id": "crime-data-hotspot-analysis-module-06-q04-o1",
-      "correct_explanation": "This follows the source-reading method taught for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py: use located implementation evidence and keep unexecuted behavior unverified.",
+      "correct_explanation": "This follows the source-reading method taught for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py: use located implementation evidence and keep unexecuted behavior unverified. Source focus for this module: load_preprocessed_data in EDA.py.",
       "incorrect_option_explanations": [
         {
           "option_id": "crime-data-hotspot-analysis-module-06-q04-o2",
@@ -86,13 +86,13 @@
         }
       ],
       "tested_concept": "call graph",
-      "related_lesson_id": "crime-data-hotspot-analysis-module-06-lesson-2",
-      "supporting_reference": "EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py; source map in architecture.md."
+      "related_lesson_id": "crime-data-hotspot-analysis-module-06-lesson-02",
+      "supporting_reference": "EDA.py"
     },
     {
       "question_id": "crime-data-hotspot-analysis-module-06-q05",
       "correct_option_id": "crime-data-hotspot-analysis-module-06-q05-o1",
-      "correct_explanation": "This follows the source-reading method taught for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py: use located implementation evidence and keep unexecuted behavior unverified.",
+      "correct_explanation": "This follows the source-reading method taught for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py: use located implementation evidence and keep unexecuted behavior unverified. Source focus for this module: load_preprocessed_data in EDA.py.",
       "incorrect_option_explanations": [
         {
           "option_id": "crime-data-hotspot-analysis-module-06-q05-o2",
@@ -108,13 +108,13 @@
         }
       ],
       "tested_concept": "failure cases",
-      "related_lesson_id": "crime-data-hotspot-analysis-module-06-lesson-1",
-      "supporting_reference": "EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py; source map in architecture.md."
+      "related_lesson_id": "crime-data-hotspot-analysis-module-06-lesson-02",
+      "supporting_reference": "EDA.py"
     },
     {
       "question_id": "crime-data-hotspot-analysis-module-06-q06",
       "correct_option_id": "crime-data-hotspot-analysis-module-06-q06-o1",
-      "correct_explanation": "This follows the source-reading method taught for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py: use located implementation evidence and keep unexecuted behavior unverified.",
+      "correct_explanation": "This follows the source-reading method taught for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py: use located implementation evidence and keep unexecuted behavior unverified. Source focus for this module: load_preprocessed_data in EDA.py.",
       "incorrect_option_explanations": [
         {
           "option_id": "crime-data-hotspot-analysis-module-06-q06-o2",
@@ -130,13 +130,13 @@
         }
       ],
       "tested_concept": "safe extension",
-      "related_lesson_id": "crime-data-hotspot-analysis-module-06-lesson-2",
-      "supporting_reference": "EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py; source map in architecture.md."
+      "related_lesson_id": "crime-data-hotspot-analysis-module-06-lesson-02",
+      "supporting_reference": "EDA.py"
     },
     {
       "question_id": "crime-data-hotspot-analysis-module-06-q07",
       "correct_option_id": "crime-data-hotspot-analysis-module-06-q07-o1",
-      "correct_explanation": "This follows the source-reading method taught for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py: use located implementation evidence and keep unexecuted behavior unverified.",
+      "correct_explanation": "This follows the source-reading method taught for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py: use located implementation evidence and keep unexecuted behavior unverified. Source focus for this module: load_preprocessed_data in EDA.py.",
       "incorrect_option_explanations": [
         {
           "option_id": "crime-data-hotspot-analysis-module-06-q07-o2",
@@ -152,13 +152,13 @@
         }
       ],
       "tested_concept": "call graph",
-      "related_lesson_id": "crime-data-hotspot-analysis-module-06-lesson-1",
-      "supporting_reference": "EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py; source map in architecture.md."
+      "related_lesson_id": "crime-data-hotspot-analysis-module-06-lesson-02",
+      "supporting_reference": "EDA.py"
     },
     {
       "question_id": "crime-data-hotspot-analysis-module-06-q08",
       "correct_option_id": "crime-data-hotspot-analysis-module-06-q08-o1",
-      "correct_explanation": "This follows the source-reading method taught for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py: use located implementation evidence and keep unexecuted behavior unverified.",
+      "correct_explanation": "This follows the source-reading method taught for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py: use located implementation evidence and keep unexecuted behavior unverified. Source focus for this module: load_preprocessed_data in EDA.py.",
       "incorrect_option_explanations": [
         {
           "option_id": "crime-data-hotspot-analysis-module-06-q08-o2",
@@ -174,13 +174,13 @@
         }
       ],
       "tested_concept": "failure cases",
-      "related_lesson_id": "crime-data-hotspot-analysis-module-06-lesson-2",
-      "supporting_reference": "EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py; source map in architecture.md."
+      "related_lesson_id": "crime-data-hotspot-analysis-module-06-lesson-02",
+      "supporting_reference": "EDA.py"
     },
     {
       "question_id": "crime-data-hotspot-analysis-module-06-q09",
       "correct_option_id": "crime-data-hotspot-analysis-module-06-q09-o1",
-      "correct_explanation": "This follows the source-reading method taught for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py: use located implementation evidence and keep unexecuted behavior unverified.",
+      "correct_explanation": "This follows the source-reading method taught for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py: use located implementation evidence and keep unexecuted behavior unverified. Source focus for this module: load_preprocessed_data in EDA.py.",
       "incorrect_option_explanations": [
         {
           "option_id": "crime-data-hotspot-analysis-module-06-q09-o2",
@@ -196,13 +196,13 @@
         }
       ],
       "tested_concept": "safe extension",
-      "related_lesson_id": "crime-data-hotspot-analysis-module-06-lesson-1",
-      "supporting_reference": "EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py; source map in architecture.md."
+      "related_lesson_id": "crime-data-hotspot-analysis-module-06-lesson-03",
+      "supporting_reference": "EDA.py"
     },
     {
       "question_id": "crime-data-hotspot-analysis-module-06-q10",
       "correct_option_id": "crime-data-hotspot-analysis-module-06-q10-o1",
-      "correct_explanation": "This follows the source-reading method taught for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py: use located implementation evidence and keep unexecuted behavior unverified.",
+      "correct_explanation": "This follows the source-reading method taught for EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py: use located implementation evidence and keep unexecuted behavior unverified. Source focus for this module: load_preprocessed_data in EDA.py.",
       "incorrect_option_explanations": [
         {
           "option_id": "crime-data-hotspot-analysis-module-06-q10-o2",
@@ -218,8 +218,8 @@
         }
       ],
       "tested_concept": "call graph",
-      "related_lesson_id": "crime-data-hotspot-analysis-module-06-lesson-2",
-      "supporting_reference": "EDA.py, app.py, clustering_analysis.py, dimensionality_reduction.py; source map in architecture.md."
+      "related_lesson_id": "crime-data-hotspot-analysis-module-06-lesson-03",
+      "supporting_reference": "EDA.py"
     }
   ]
 }

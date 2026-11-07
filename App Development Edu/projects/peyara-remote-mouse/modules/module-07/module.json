@@ -21,9 +21,11 @@
     "peyara-remote-mouse-06-end-to-end-flow-and-debugging"
   ],
   "ordered_lesson_ids": [
-    "peyara-remote-mouse-07-operation-and-security-lesson-01"
+    "peyara-remote-mouse-07-operation-and-security-lesson-01",
+    "peyara-remote-mouse-07-operation-and-security-lesson-02",
+    "peyara-remote-mouse-07-operation-and-security-lesson-03"
   ],
-  "estimated_duration_minutes": 100,
+  "estimated_duration_minutes": 150,
   "concepts": [
     "Safe defaults, trusted LAN warning, robotjs native dependency, and shutdown/review",
     "Remote keyboard/mouse is powerful. Learn to keep the relay local, review every opt-in before a LAN demo, and account for native robotjs build requirements and host permissions.",
@@ -34,8 +36,12 @@
     "Complete a bounded source change or debugging exercise without claiming absent behavior."
   ],
   "completion_criteria": [
-    "Can explain the relevant source path and its boundary: server/index.js.",
-    "Exercise acceptance criteria are met with a recorded test or manual review result.",
-    "Can distinguish source behavior from mock, simulation, or unverified integration."
-  ]
+    "Complete all three progressive lessons and the exercise.",
+    "Trace the named source function and explain its boundary.",
+    "Complete the module assessment."
+  ],
+  "source_code_focus": {
+    "excerpt_file": "server/config.js",
+    "symbol_or_search_term": "config"
+  }
 }

@@ -1,0 +1,97 @@
+# Declared dependencies and runtime configuration: Test the boundary
+
+**Lesson ID:** `airflow-scheduled-etl-dags-module-05-lesson-03`  
+**Module ID:** `airflow-scheduled-etl-dags-module-05`  
+**Source focus:** `main.py` → `main`
+
+## Purpose and learning objectives
+
+Use a test or boundary case to assess what the implementation proves and what remains unverified.
+
+## Prerequisites
+
+Complete the earlier lesson in this module first. This module covers: Declared dependencies and runtime configuration.
+
+## Beginner explanation
+
+In plain language, declared dependencies and runtime configuration is one stage in turning source data into a result. This is a mental model, not a claim that every named source component uses a production-grade implementation.
+
+## Step-by-step source reading
+
+1. Open `main.py` and locate `main`.
+2. Identify its input and returned, stored, displayed, or emitted output.
+3. Follow one caller/test into a related source path: `requirements.txt`, `main.py`.
+4. Compare that path with the source README, test fixtures, and documented limitations.
+
+## Source evidence
+
+The selected source finding is: declared dependencies; configuration keys; safe setup
+
+**Excerpt:** `main.py` at lines 5–25. Source code was not executed during refinement.
+
+### requirements.txt
+
+This mapped path is part of the module scope; inspect it alongside its callers and tests.
+### main.py
+
+The excerpt below is the selected implementation focus.
+
+```py
+from src.pipeline import run, demo
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description='Run a small dependency-ordered orders pipeline.')
+    parser.add_argument("command", choices=["run", "demo", "info"])
+    parser.add_argument("--quick", action="store_true", help="small local run")
+    parser.add_argument("--base-dir", default="artifacts", help="output directory")
+    args = parser.parse_args()
+
+    if args.command == "info":
+        print('Run a small dependency-ordered orders pipeline.')
+        print("Run `python main.py run` to execute the pipeline.")
+        return
+
+    if args.command == "demo":
+        demo(base_dir=args.base_dir)
+        return
+
+    summary = run(quick=args.quick, base_dir=args.base_dir)
+    print(json.dumps(summary, indent=2, default=str))
+```
+
+Use the test or boundary to separate checked behavior from real-world performance, deployment, or provider claims.
+
+## Expected behavior and limits
+
+declared dependencies; configuration keys; safe setup The repository’s README notes and tests are part of the scope; no application execution is claimed by this package.
+
+## Practical exercise
+
+Complete [`exercise-05.md`](../exercises/exercise-05.md). Cite the focus symbol and source path, record an expected result, and describe one edge case.
+
+## Common mistakes and debugging
+
+- Confusing the repository’s title or project brief with the implementation that is present.
+- Treating a test definition as evidence that the test passed.
+- Ignoring sample-data, small-dataset, synthetic-input, or runtime limitations.
+- Follow the focus symbol through its caller before drawing conclusions.
+
+## Best practices and security
+
+Use non-sensitive test data, protect credentials, document split and metric assumptions, and do not present synthetic results as production performance. For hiring, public policy, finance, health, or personal data, require qualified human review.
+
+## Summary
+
+You moved from a plain-language model to `main` in the source and identified one verification boundary.
+
+## Knowledge checks
+
+1. What input does this stage receive?
+2. What does `main` change, return, or measure?
+3. What limitation would you report before using the result outside this sample?
+
+## References
+
+- [Package README](../../../README.md)
+- Source project files listed in module.json (relative to the Data Science & Analytics source tree).
